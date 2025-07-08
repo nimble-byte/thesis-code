@@ -1,18 +1,48 @@
-"""
-This script filters the MathVista dataset to include only items with specific 'pid' values and saves the filtered dataset to disk.
-
-Steps:
-1. Load the MathVista dataset using the Hugging Face datasets library.
-2. Define a list of selected item IDs (pids) to filter.
-3. Filter the dataset to include only items whose 'pid' is in the selected list.
-4. Save the filtered dataset to the 'data/filtered_dataset' directory.
-5. Save images to 'data/images' and the rest of the data as CSV, linking images by pid.
-"""
-
 from datasets import load_dataset
+import os
+import csv
+import json
 
-# List of selected item IDs (pids) to filter from the dataset
 selected_item_ids = ["54", "273", "280", "318", "355", "455", "478", "505", "549", "599", "669", "690", "708", "798", "855"]
 
-# Load the MathVista dataset
 ds = load_dataset("AI4Math/MathVista", split="testmini")
+
+output_csv_path = "data/filtered_dataset.csv"
+images_dir = "data/images"
+os.makedirs(images_dir, exist_ok=True)
+
+csv_columns = [
+    "pid",
+    "question",
+    "image",
+    "choices",
+    "answer",
+    "img_height",
+    "img_width"
+]
+
+filtered_rows = []
+
+for item in ds:
+    if item["pid"] in selected_item_ids:
+        image_filename = f"{item['pid']}.png"
+        image_path = os.path.join(images_dir, image_filename)
+        image = item["decoded_image"]
+        image.save(image_path)
+
+        row = {
+            "pid": item["pid"],
+            "question": item["question"],
+            "image": image_filename,
+            "choices": json.dumps(item["choices"]),
+            "answer": item["answer"],
+            "img_height": item["metadata"]["img_height"],
+            "img_width": item["metadata"]["img_width"]
+        }
+        filtered_rows.append(row)
+
+with open(output_csv_path, "w", newline='', encoding="utf-8") as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
+    writer.writeheader()
+    for row in filtered_rows:
+        writer.writerow(row)

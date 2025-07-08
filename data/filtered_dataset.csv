@@ -1,0 +1,16 @@
+pid,question,image,choices,answer,img_height,img_width
+54,"In the figure above, the ratio of the length of line AB to the length of line AC is 2 : 5. If AC = 25, what is the length of line AB?",54.png,"[""8"", ""10"", ""15"", ""18"", ""20""]",10,310,433
+273,"One diagonal of a rhombus is twice as long as the other diagonal. If the area of the rhombus is 169 square millimeters, what are the lengths of the diagonals?",273.png,"[""6.5"", ""13"", ""26"", ""52""]",26,237,347
+280,"In the figure above, ABCDEF is a regular hexagon, and its center is point O. What is the value of x?",280.png,"[""80"", ""60"", ""40"", ""30"", ""20""]",60,123,130
+318,Find the area of the figure. Round to the nearest tenth if necessary.,318.png,"[""191.5"", ""1128"", ""2256"", ""4512""]",2256,175,239
+355,"As shown in the figure, the parallel lines a and b are intercepted by the straight line c. If ∠1 = 50.0, then the degree of ∠2 is ()",355.png,"[""150\u00b0"", ""130\u00b0"", ""110\u00b0"", ""100\u00b0""]",130°,110,157
+455,"If x = 32 and r = 18, what is the length of the arc shown in the figure above?",455.png,"[""16*\\pi/5"", ""32*\\pi/5"", ""36*\\pi"", ""288*\\pi/5"", ""576*\\pi""]",16*\pi/5,353,575
+478,"As shown in the figure, in the diamond ABCD, two diagonal lines AC = 12.0, BD = 16.0, then the edge length of this diamond is ()",478.png,"[""10"", ""8"", ""6"", ""5""]",10,97,125
+505,"As shown in the figure, in the circle O with a radius of 5.0, the length of the chord AB is 8.0, then the distance from the center O to the chord AB is ()",505.png,"[""3"", ""4"", ""5"", ""6""]",3,92,100
+549,"As shown in the figure, PA and PB are tangent to ⊙O to A and B respectively. Point C and point D are the moving points on line segments PA and PB, and CD always remains tangent to circle O. If PA = 8.0, then perimeter of △PCD is ()",549.png,"[""8"", ""12"", ""16"", ""\u4e0d\u80fd\u786e\u5b9a""]",16,111,192
+599,"In the figure above, AC = 6 and BC = 3. Point P lies on line AB between A and B such that line CP is perpendicular to line AB. Which of the following could be the length of line CP?",599.png,"[""2"", ""4"", ""5"", ""7"", ""8""]",2,340,393
+669,"As shown in the figure, line segment AB = 10.0, M is the midpoint of line segment AB, C is the midpoint of line segment MB, N is a point of line segment AM, and MN = 1.0, the length of line segment NC ()",669.png,"[""2"", ""2.5"", ""3"", ""3.5""]",3.5,18,187
+690,"In the diagram above, lines M and N are parallel. All of the following are true except",690.png,"[""a + b = j + l"", ""g = h"", ""c + f = f + b"", ""g + e + f + h = 360"", ""d + e = f + j""]",d + e = f + j,558,625
+708,"As shown in the figure, the light source P is directly above the crossbar AB, the shadow of AB under the light is CD, AB ∥ CD, AB = 2.0, CD = 5.0, the distance between point P and CD is 3.0, then the distance between AB and CD is ().",708.png,"[""\\frac{6}{5}"", ""\\frac{7}{6}"", ""\\frac{9}{5}"", ""\\frac{15}{2}""]",\frac{9}{5},110,156
+798,"In the figure above, l || m. Which of the following must equal 180?",798.png,"[""k + n + r"", ""k + p + s"", ""n + p + s"", ""n + p + t"", ""r + s + t""]",k + p + s,372,371
+855,Find $x$ so that $a ∥ b$.,855.png,"[""2.5"", ""14"", ""15"", ""16""]",14,250,536
