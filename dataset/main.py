@@ -3,12 +3,28 @@ import os
 import csv
 import json
 
-selected_item_ids = ["54", "273", "280", "318", "355", "455", "478", "505", "549", "599", "669", "690", "708", "798", "855"]
+selected_item_ids = [
+    "54",
+    "273",
+    "280",
+    "318",
+    "355",
+    "455",
+    "478",
+    "505",
+    "549",
+    "599",
+    "669",
+    "690",
+    "708",
+    "798",
+    "855",
+]
 
 ds = load_dataset("AI4Math/MathVista", split="testmini")
 
-output_csv_path = "data/filtered_dataset.csv"
-images_dir = "data/images"
+output_csv_path = os.path.join(os.getcwd(), "dataset", "data/filtered_dataset.csv")
+images_dir = os.path.join(os.getcwd(), "dataset", "data/images")
 os.makedirs(images_dir, exist_ok=True)
 
 csv_columns = [
@@ -18,7 +34,7 @@ csv_columns = [
     "choices",
     "answer",
     "img_height",
-    "img_width"
+    "img_width",
 ]
 
 filtered_rows = []
@@ -37,11 +53,11 @@ for item in ds:
             "choices": json.dumps(item["choices"]),
             "answer": item["answer"],
             "img_height": item["metadata"]["img_height"],
-            "img_width": item["metadata"]["img_width"]
+            "img_width": item["metadata"]["img_width"],
         }
         filtered_rows.append(row)
 
-with open(output_csv_path, "w", newline='', encoding="utf-8") as csvfile:
+with open(output_csv_path, "w", newline="", encoding="utf-8") as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
     writer.writeheader()
     for row in filtered_rows:
