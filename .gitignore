@@ -12,3 +12,4 @@ node_modules/
 # Misc
 # ignore images symlink
 images
+.copilot

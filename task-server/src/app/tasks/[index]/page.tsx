@@ -1,12 +1,12 @@
 "use client";
 import React, { useEffect, useState } from 'react';
+import TaskComponent from '../../../components/TaskComponent';
 import type { Question } from '../../../types/question';
 
 export default function TaskPage(props: { params: Promise<{ index: string }> }) {
   const params = React.use(props.params);
   const { index } = params;
   const [question, setQuestion] = useState<Question | null>(null);
-  const [selected, setSelected] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -28,31 +28,5 @@ export default function TaskPage(props: { params: Promise<{ index: string }> }) 
   if (error) return <div>{error}</div>;
   if (!question) return <div>No question found.</div>;
 
-  const imageUrl = `/images/${question.image}`;
-  const options = question.choices;
-
-  return (
-    <div style={{ maxWidth: 500, margin: '2rem auto', padding: 16, border: '1px solid #eeeeee', borderRadius: 8 }}>
-      <h1 style={{ marginBottom: 16, textAlign: 'center', fontSize: '1.5rem' }}>Question {index}</h1>
-      <img src={imageUrl} alt="Task" style={{ width: '100%', objectFit: 'contain', marginBottom: 24 }} />
-      <h2 style={{ marginBottom: 16 }}>{question.question}</h2>
-      <form>
-        {options.map((opt, idx) => (
-          <div key={idx} style={{ marginBottom: 12 }}>
-            <label>
-              <input
-                type="radio"
-                name="answer"
-                value={opt}
-                checked={selected === opt}
-                onChange={() => setSelected(opt)}
-                style={{ marginRight: 8 }}
-              />
-              {opt}
-            </label>
-          </div>
-        ))}
-      </form>
-    </div>
-  );
+  return <TaskComponent question={question} />;
 }

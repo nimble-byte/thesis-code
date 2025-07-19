@@ -5,6 +5,8 @@ export interface Question {
   image: string;
   choices: string[];
   answer: string;
-  img_height: string;
-  img_width: string;
+  img_height: number;
+  img_width: number;
+  difficulty: string;
+  set: string;
 }
