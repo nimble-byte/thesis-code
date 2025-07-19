@@ -1,9 +1,11 @@
 import fs from 'fs';
 import path from 'path';
 import type { Question } from '../../../types/question';
+import { cache } from 'react';
 
 const datasetPath = path.resolve(process.env.DATASET_PATH || '');
-const questionsFile = path.join(datasetPath, 'filtered_dataset.csv');
+const questionsFileCsvPath = path.join(datasetPath, 'filtered_dataset.csv');
+const questionsFileJsonPath = path.join(datasetPath, 'filtered_dataset.json');
 
 let cachedQuestions: Question[] | null = null;
 
@@ -23,9 +25,15 @@ function parseCSV(filePath: string): Question[] {
   });
 }
 
+function parseJSON(filePath: string): Question[] {
+  const data = fs.readFileSync(filePath, 'utf-8');
+  return JSON.parse(data) as Question[];
+}
+
 export function getQuestions(): Question[] {
   if (!cachedQuestions) {
-    cachedQuestions = parseCSV(questionsFile);
+    // cachedQuestions = parseCSV(questionsFileCsvPath);
+    cachedQuestions = parseJSON(questionsFileJsonPath)
   }
   return cachedQuestions;
 }

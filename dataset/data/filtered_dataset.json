@@ -1,0 +1,218 @@
+[
+    {
+        "pid": "54",
+        "question": "In the figure above, the ratio of the length of line AB to the length of line AC is 2 : 5. If AC = 25, what is the length of line AB?",
+        "image": "54.png",
+        "choices": [
+            "8",
+            "10",
+            "15",
+            "18",
+            "20"
+        ],
+        "answer": "10",
+        "img_height": 310,
+        "img_width": 433
+    },
+    {
+        "pid": "273",
+        "question": "One diagonal of a rhombus is twice as long as the other diagonal. If the area of the rhombus is 169 square millimeters, what are the lengths of the diagonals?",
+        "image": "273.png",
+        "choices": [
+            "6.5",
+            "13",
+            "26",
+            "52"
+        ],
+        "answer": "26",
+        "img_height": 237,
+        "img_width": 347
+    },
+    {
+        "pid": "280",
+        "question": "In the figure above, ABCDEF is a regular hexagon, and its center is point O. What is the value of x?",
+        "image": "280.png",
+        "choices": [
+            "80",
+            "60",
+            "40",
+            "30",
+            "20"
+        ],
+        "answer": "60",
+        "img_height": 123,
+        "img_width": 130
+    },
+    {
+        "pid": "318",
+        "question": "Find the area of the figure. Round to the nearest tenth if necessary.",
+        "image": "318.png",
+        "choices": [
+            "191.5",
+            "1128",
+            "2256",
+            "4512"
+        ],
+        "answer": "2256",
+        "img_height": 175,
+        "img_width": 239
+    },
+    {
+        "pid": "355",
+        "question": "As shown in the figure, the parallel lines a and b are intercepted by the straight line c. If ∠1 = 50.0, then the degree of ∠2 is ()",
+        "image": "355.png",
+        "choices": [
+            "150°",
+            "130°",
+            "110°",
+            "100°"
+        ],
+        "answer": "130°",
+        "img_height": 110,
+        "img_width": 157
+    },
+    {
+        "pid": "455",
+        "question": "If x = 32 and r = 18, what is the length of the arc shown in the figure above?",
+        "image": "455.png",
+        "choices": [
+            "16*\\pi/5",
+            "32*\\pi/5",
+            "36*\\pi",
+            "288*\\pi/5",
+            "576*\\pi"
+        ],
+        "answer": "16*\\pi/5",
+        "img_height": 353,
+        "img_width": 575
+    },
+    {
+        "pid": "478",
+        "question": "As shown in the figure, in the diamond ABCD, two diagonal lines AC = 12.0, BD = 16.0, then the edge length of this diamond is ()",
+        "image": "478.png",
+        "choices": [
+            "10",
+            "8",
+            "6",
+            "5"
+        ],
+        "answer": "10",
+        "img_height": 97,
+        "img_width": 125
+    },
+    {
+        "pid": "505",
+        "question": "As shown in the figure, in the circle O with a radius of 5.0, the length of the chord AB is 8.0, then the distance from the center O to the chord AB is ()",
+        "image": "505.png",
+        "choices": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "answer": "3",
+        "img_height": 92,
+        "img_width": 100
+    },
+    {
+        "pid": "549",
+        "question": "As shown in the figure, PA and PB are tangent to ⊙O to A and B respectively. Point C and point D are the moving points on line segments PA and PB, and CD always remains tangent to circle O. If PA = 8.0, then perimeter of △PCD is ()",
+        "image": "549.png",
+        "choices": [
+            "8",
+            "12",
+            "16",
+            "不能确定"
+        ],
+        "answer": "16",
+        "img_height": 111,
+        "img_width": 192
+    },
+    {
+        "pid": "599",
+        "question": "In the figure above, AC = 6 and BC = 3. Point P lies on line AB between A and B such that line CP is perpendicular to line AB. Which of the following could be the length of line CP?",
+        "image": "599.png",
+        "choices": [
+            "2",
+            "4",
+            "5",
+            "7",
+            "8"
+        ],
+        "answer": "2",
+        "img_height": 340,
+        "img_width": 393
+    },
+    {
+        "pid": "669",
+        "question": "As shown in the figure, line segment AB = 10.0, M is the midpoint of line segment AB, C is the midpoint of line segment MB, N is a point of line segment AM, and MN = 1.0, the length of line segment NC ()",
+        "image": "669.png",
+        "choices": [
+            "2",
+            "2.5",
+            "3",
+            "3.5"
+        ],
+        "answer": "3.5",
+        "img_height": 18,
+        "img_width": 187
+    },
+    {
+        "pid": "690",
+        "question": "In the diagram above, lines M and N are parallel. All of the following are true except",
+        "image": "690.png",
+        "choices": [
+            "a + b = j + l",
+            "g = h",
+            "c + f = f + b",
+            "g + e + f + h = 360",
+            "d + e = f + j"
+        ],
+        "answer": "d + e = f + j",
+        "img_height": 558,
+        "img_width": 625
+    },
+    {
+        "pid": "708",
+        "question": "As shown in the figure, the light source P is directly above the crossbar AB, the shadow of AB under the light is CD, AB ∥ CD, AB = 2.0, CD = 5.0, the distance between point P and CD is 3.0, then the distance between AB and CD is ().",
+        "image": "708.png",
+        "choices": [
+            "\\frac{6}{5}",
+            "\\frac{7}{6}",
+            "\\frac{9}{5}",
+            "\\frac{15}{2}"
+        ],
+        "answer": "\\frac{9}{5}",
+        "img_height": 110,
+        "img_width": 156
+    },
+    {
+        "pid": "798",
+        "question": "In the figure above, l || m. Which of the following must equal 180?",
+        "image": "798.png",
+        "choices": [
+            "k + n + r",
+            "k + p + s",
+            "n + p + s",
+            "n + p + t",
+            "r + s + t"
+        ],
+        "answer": "k + p + s",
+        "img_height": 372,
+        "img_width": 371
+    },
+    {
+        "pid": "855",
+        "question": "Find $x$ so that $a ∥ b$.",
+        "image": "855.png",
+        "choices": [
+            "2.5",
+            "14",
+            "15",
+            "16"
+        ],
+        "answer": "14",
+        "img_height": 250,
+        "img_width": 536
+    }
+]

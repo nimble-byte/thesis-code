@@ -32,7 +32,8 @@ export default function TaskPage(props: { params: Promise<{ index: string }> }) 
   const options = question.choices;
 
   return (
-    <div style={{ maxWidth: 500, margin: '2rem auto', padding: 16, border: '1px solid #eee', borderRadius: 8 }}>
+    <div style={{ maxWidth: 500, margin: '2rem auto', padding: 16, border: '1px solid #eeeeee', borderRadius: 8 }}>
+      <h1 style={{ marginBottom: 16, textAlign: 'center', fontSize: '1.5rem' }}>Question {index}</h1>
       <img src={imageUrl} alt="Task" style={{ width: '100%', objectFit: 'contain', marginBottom: 24 }} />
       <h2 style={{ marginBottom: 16 }}>{question.question}</h2>
       <form>
