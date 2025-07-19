@@ -3,23 +3,7 @@ import os
 import csv
 import json
 
-selected_item_ids = [
-    "54",
-    "273",
-    "280",
-    "318",
-    "355",
-    "455",
-    "478",
-    "505",
-    "549",
-    "599",
-    "669",
-    "690",
-    "708",
-    "798",
-    "855",
-]
+from task_metadata import selected_item_ids, task_difficulties, task_sets
 
 ds = load_dataset("AI4Math/MathVista", split="testmini")
 
@@ -36,6 +20,8 @@ csv_columns = [
     "answer",
     "img_height",
     "img_width",
+    "difficulty",
+    "set",
 ]
 
 filtered_rows = []
@@ -55,6 +41,8 @@ for item in ds:
             "answer": item["answer"],
             "img_height": item["metadata"]["img_height"],
             "img_width": item["metadata"]["img_width"],
+            "difficulty": task_difficulties.get(item["pid"], "unknown"),
+            "set": task_sets.get(item["pid"], "unknown"),
         }
         filtered_rows.append(row)
 

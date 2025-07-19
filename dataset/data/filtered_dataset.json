@@ -12,7 +12,9 @@
         ],
         "answer": "10",
         "img_height": 310,
-        "img_width": 433
+        "img_width": 433,
+        "difficulty": "difficult",
+        "set": "set1"
     },
     {
         "pid": "273",
@@ -26,7 +28,9 @@
         ],
         "answer": "26",
         "img_height": 237,
-        "img_width": 347
+        "img_width": 347,
+        "difficulty": "medium",
+        "set": "set1"
     },
     {
         "pid": "280",
@@ -41,64 +45,9 @@
         ],
         "answer": "60",
         "img_height": 123,
-        "img_width": 130
-    },
-    {
-        "pid": "318",
-        "question": "Find the area of the figure. Round to the nearest tenth if necessary.",
-        "image": "318.png",
-        "choices": [
-            "191.5",
-            "1128",
-            "2256",
-            "4512"
-        ],
-        "answer": "2256",
-        "img_height": 175,
-        "img_width": 239
-    },
-    {
-        "pid": "355",
-        "question": "As shown in the figure, the parallel lines a and b are intercepted by the straight line c. If ∠1 = 50.0, then the degree of ∠2 is ()",
-        "image": "355.png",
-        "choices": [
-            "150°",
-            "130°",
-            "110°",
-            "100°"
-        ],
-        "answer": "130°",
-        "img_height": 110,
-        "img_width": 157
-    },
-    {
-        "pid": "455",
-        "question": "If x = 32 and r = 18, what is the length of the arc shown in the figure above?",
-        "image": "455.png",
-        "choices": [
-            "16*\\pi/5",
-            "32*\\pi/5",
-            "36*\\pi",
-            "288*\\pi/5",
-            "576*\\pi"
-        ],
-        "answer": "16*\\pi/5",
-        "img_height": 353,
-        "img_width": 575
-    },
-    {
-        "pid": "478",
-        "question": "As shown in the figure, in the diamond ABCD, two diagonal lines AC = 12.0, BD = 16.0, then the edge length of this diamond is ()",
-        "image": "478.png",
-        "choices": [
-            "10",
-            "8",
-            "6",
-            "5"
-        ],
-        "answer": "10",
-        "img_height": 97,
-        "img_width": 125
+        "img_width": 130,
+        "difficulty": "easy",
+        "set": "set1"
     },
     {
         "pid": "505",
@@ -112,21 +61,9 @@
         ],
         "answer": "3",
         "img_height": 92,
-        "img_width": 100
-    },
-    {
-        "pid": "549",
-        "question": "As shown in the figure, PA and PB are tangent to ⊙O to A and B respectively. Point C and point D are the moving points on line segments PA and PB, and CD always remains tangent to circle O. If PA = 8.0, then perimeter of △PCD is ()",
-        "image": "549.png",
-        "choices": [
-            "8",
-            "12",
-            "16",
-            "不能确定"
-        ],
-        "answer": "16",
-        "img_height": 111,
-        "img_width": 192
+        "img_width": 100,
+        "difficulty": "difficult",
+        "set": "set2"
     },
     {
         "pid": "599",
@@ -141,7 +78,9 @@
         ],
         "answer": "2",
         "img_height": 340,
-        "img_width": 393
+        "img_width": 393,
+        "difficulty": "difficult",
+        "set": "backup"
     },
     {
         "pid": "669",
@@ -155,7 +94,9 @@
         ],
         "answer": "3.5",
         "img_height": 18,
-        "img_width": 187
+        "img_width": 187,
+        "difficulty": "medium",
+        "set": "set2"
     },
     {
         "pid": "690",
@@ -170,7 +111,9 @@
         ],
         "answer": "d + e = f + j",
         "img_height": 558,
-        "img_width": 625
+        "img_width": 625,
+        "difficulty": "easy",
+        "set": "set2"
     },
     {
         "pid": "708",
@@ -184,22 +127,9 @@
         ],
         "answer": "\\frac{9}{5}",
         "img_height": 110,
-        "img_width": 156
-    },
-    {
-        "pid": "798",
-        "question": "In the figure above, l || m. Which of the following must equal 180?",
-        "image": "798.png",
-        "choices": [
-            "k + n + r",
-            "k + p + s",
-            "n + p + s",
-            "n + p + t",
-            "r + s + t"
-        ],
-        "answer": "k + p + s",
-        "img_height": 372,
-        "img_width": 371
+        "img_width": 156,
+        "difficulty": "medium",
+        "set": "backup"
     },
     {
         "pid": "855",
@@ -213,6 +143,8 @@
         ],
         "answer": "14",
         "img_height": 250,
-        "img_width": 536
+        "img_width": 536,
+        "difficulty": "easy",
+        "set": "backup"
     }
 ]

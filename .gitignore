@@ -1,6 +1,6 @@
 # Python
 .venv
-pycache/
+__pycache__
 
 # Next.js
 .next
