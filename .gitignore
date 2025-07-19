@@ -1,2 +1,7 @@
+# Python
 .venv
 pycache/
+
+# Next.js
+.next
+node_modules/
