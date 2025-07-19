@@ -50,7 +50,7 @@ for item in ds:
             "pid": item["pid"],
             "question": item["question"],
             "image": image_filename,
-            "choices": json.dumps(item["choices"]),
+            "choices": f"{item['choices']}",
             "answer": item["answer"],
             "img_height": item["metadata"]["img_height"],
             "img_width": item["metadata"]["img_width"],
@@ -58,7 +58,7 @@ for item in ds:
         filtered_rows.append(row)
 
 with open(output_csv_path, "w", newline="", encoding="utf-8") as csvfile:
-    writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
+    writer = csv.DictWriter(csvfile, delimiter=";", fieldnames=csv_columns)
     writer.writeheader()
     for row in filtered_rows:
         writer.writerow(row)
