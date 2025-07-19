@@ -12,7 +12,7 @@ export default function TaskPage(props: { params: Promise<{ index: string }> }) 
 
   useEffect(() => {
     if (!index) return;
-    fetch(`/api/questions?index=${index}`)
+    fetch(`/api/questions/${index}`)
       .then(res => res.json())
       .then(data => {
         setQuestion(data);
