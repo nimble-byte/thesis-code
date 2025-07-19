@@ -5,3 +5,10 @@ pycache/
 # Next.js
 .next
 node_modules/
+
+# MacOS
+.DS_Store
+
+# Misc
+# ignore images symlink
+images
