@@ -4,9 +4,9 @@ import TaskComponent from '../../../components/TaskComponent';
 import ProgressBar from '../../../components/ProgressBar';
 import type { Question } from '../../../types/question';
 
-export default function TaskSetPage(props: { params: Promise<{ setName: string }> }) {
+export default function TaskSetPage(props: { params: Promise<{ setId: string }> }) {
   const params = React.use(props.params);
-  const { setName } = params;
+  const { setId } = params;
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentTaskIndex, setCurrentTaskIndex] = useState(0);
   const [loading, setLoading] = useState(true);
@@ -14,8 +14,8 @@ export default function TaskSetPage(props: { params: Promise<{ setName: string }
   const [answers, setAnswers] = useState<{ [key: string]: string }>({});
 
   useEffect(() => {
-    if (!setName) return;
-    fetch(`/api/sets/${setName}`)
+    if (!setId) return;
+    fetch(`/api/sets/${setId}`)
       .then(res => res.json())
       .then(data => {
         if (Array.isArray(data)) {
@@ -29,7 +29,7 @@ export default function TaskSetPage(props: { params: Promise<{ setName: string }
         setError('Failed to load task set');
         setLoading(false);
       });
-  }, [setName]);
+  }, [setId]);
 
   const handleNextTask = () => {
     if (currentTaskIndex < questions.length - 1) {
