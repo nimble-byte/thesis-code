@@ -83,7 +83,7 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
         setId,
         answers: allAnswers,
         uuid: crypto.randomUUID(),
-        submittedAt: new Date().toISOString(),
+        completedAt: new Date().toISOString(),
       };
       const res = await fetch("/api/solutions", {
         method: "POST",
