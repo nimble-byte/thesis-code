@@ -10,17 +10,17 @@ enum TaskPageStatus {
   READY = 'ready',
 }
 
-export default function TaskPage(props: { params: Promise<{ index: string }> }) {
+export default function TaskPage(props: { params: Promise<{ pid: string }> }) {
   const params = React.use(props.params);
-  const { index } = params;
+  const { pid } = params;
   const [question, setQuestion] = useState<Question | null>(null);
   const [status, setStatus] = useState<TaskPageStatus>(TaskPageStatus.LOADING);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!index) return;
+    if (!pid) return;
     setStatus(TaskPageStatus.LOADING);
-    fetch(`/api/questions/${index}`)
+    fetch(`/api/tasks/${pid}`)
       .then(res => res.json())
       .then(data => {
         setQuestion(data);
@@ -30,7 +30,7 @@ export default function TaskPage(props: { params: Promise<{ index: string }> }) 
         setError('Failed to load question');
         setStatus(TaskPageStatus.ERROR);
       });
-  }, [index]);
+  }, [pid]);
 
   if (status === TaskPageStatus.LOADING) return <div>Loading...</div>;
   if (status === TaskPageStatus.ERROR) return <div>{error}</div>;

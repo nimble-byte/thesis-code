@@ -50,7 +50,6 @@ Enable users to manually replace any task in a task set while working on it, sel
 - **Features**:
   - Modal/dialog opens on button click
   - Lists available tasks of the same difficulty (excluding current)
-  - Search/filter by task title or ID
   - Confirm/cancel actions
 
 #### 2.3 Update Task Set State Management
