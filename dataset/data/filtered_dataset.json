@@ -14,7 +14,7 @@
         "img_height": 310,
         "img_width": 433,
         "difficulty": "difficult",
-        "set": "set1"
+        "set": "d4ff4bd9-8dd2-4894-b3ce-bc027713d93d"
     },
     {
         "pid": "273",
@@ -30,7 +30,7 @@
         "img_height": 237,
         "img_width": 347,
         "difficulty": "medium",
-        "set": "set1"
+        "set": "d4ff4bd9-8dd2-4894-b3ce-bc027713d93d"
     },
     {
         "pid": "280",
@@ -47,7 +47,7 @@
         "img_height": 123,
         "img_width": 130,
         "difficulty": "easy",
-        "set": "set1"
+        "set": "d4ff4bd9-8dd2-4894-b3ce-bc027713d93d"
     },
     {
         "pid": "505",
@@ -63,7 +63,7 @@
         "img_height": 92,
         "img_width": 100,
         "difficulty": "difficult",
-        "set": "set2"
+        "set": "32d38798-d518-4e85-97dd-cced67301503"
     },
     {
         "pid": "599",
@@ -80,7 +80,7 @@
         "img_height": 340,
         "img_width": 393,
         "difficulty": "difficult",
-        "set": "backup"
+        "set": "4c70d6da-d9b0-4079-b5c6-c7a12b78ead5"
     },
     {
         "pid": "669",
@@ -96,7 +96,7 @@
         "img_height": 18,
         "img_width": 187,
         "difficulty": "medium",
-        "set": "set2"
+        "set": "32d38798-d518-4e85-97dd-cced67301503"
     },
     {
         "pid": "690",
@@ -113,7 +113,7 @@
         "img_height": 558,
         "img_width": 625,
         "difficulty": "easy",
-        "set": "set2"
+        "set": "32d38798-d518-4e85-97dd-cced67301503"
     },
     {
         "pid": "708",
@@ -129,7 +129,7 @@
         "img_height": 110,
         "img_width": 156,
         "difficulty": "medium",
-        "set": "backup"
+        "set": "4c70d6da-d9b0-4079-b5c6-c7a12b78ead5"
     },
     {
         "pid": "855",
@@ -145,6 +145,6 @@
         "img_height": 250,
         "img_width": 536,
         "difficulty": "easy",
-        "set": "backup"
+        "set": "4c70d6da-d9b0-4079-b5c6-c7a12b78ead5"
     }
 ]
