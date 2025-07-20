@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import TaskComponent from '../../../components/TaskComponent';
 import ProgressBar from '../../../components/ProgressBar';
+import PrimaryButton from '../../../components/PrimaryButton';
 import type { Question } from '../../../types/question';
 import type { TaskAnswer } from '../../../types/solution';
 
@@ -81,39 +82,13 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
 
       {/* Navigation button */}
       {!isLastTask && (
-        <button
+        <PrimaryButton
           onClick={handleNextTask}
           disabled={!givenAnswer}
-          style={{
-            position: 'fixed',
-            bottom: '2rem',
-            right: '2rem',
-            padding: '12px 24px',
-            backgroundColor: !givenAnswer ? '#b3c6e6' : '#0070f3',
-            color: 'white',
-            border: 'none',
-            borderRadius: '8px',
-            fontSize: '1rem',
-            fontWeight: 'bold',
-            cursor: !givenAnswer ? 'not-allowed' : 'pointer',
-            boxShadow: '0 4px 12px rgba(0, 112, 243, 0.3)',
-            transition: 'all 0.2s ease',
-          }}
-          onMouseOver={(e) => {
-            if (givenAnswer) {
-              e.currentTarget.style.backgroundColor = '#0051cc';
-              e.currentTarget.style.transform = 'translateY(-2px)';
-            }
-          }}
-          onMouseOut={(e) => {
-            if (givenAnswer) {
-              e.currentTarget.style.backgroundColor = '#0070f3';
-              e.currentTarget.style.transform = 'translateY(0)';
-            }
-          }}
+          style={{ position: 'fixed', bottom: '2rem', right: '2rem' }}
         >
           Next Task →
-        </button>
+        </PrimaryButton>
       )}
 
       {/* Completion message */}
