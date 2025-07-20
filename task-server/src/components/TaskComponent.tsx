@@ -1,18 +1,17 @@
 "use client";
-import React, { useState } from 'react';
-import type { Question } from '../types/question';
+import React from 'react';
+import type { Question } from '@/types/question';
 
 interface TaskComponentProps {
   question: Question;
   taskNumber?: number;
   onAnswerChange?: (selected: string) => void;
+  selected?: string | null;
 }
 
-export default function TaskComponent({ question, taskNumber, onAnswerChange }: TaskComponentProps) {
-  const [selected, setSelected] = useState<string | null>(null);
 
+export default function TaskComponent({ question, taskNumber, onAnswerChange, selected }: TaskComponentProps) {
   const handleSelectionChange = (value: string) => {
-    setSelected(value);
     onAnswerChange?.(value);
   };
 

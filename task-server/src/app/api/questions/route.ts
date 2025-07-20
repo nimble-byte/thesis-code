@@ -1,4 +1,4 @@
-import { getQuestions } from "./questions"
+import { getQuestions } from "@/utils/questions"
 
 export async function GET(): Promise<Response> {
   try {
