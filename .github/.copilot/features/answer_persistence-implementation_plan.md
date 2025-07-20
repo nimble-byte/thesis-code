@@ -47,20 +47,21 @@ Persist user solutions to task sets on disk, saving each completed set of answer
 
 ### Phase 2: UI/UX Changes
 
-#### 2.1 Update "Next Task" Button Logic
+#### 2.1 Update "Next Task" Button Logic and Solution Tracking
 
-- **Purpose**: Only enable the button when the current question is answered.
-- **Features**:
-  - Track answer state for the current question
-  - Disable button until an answer is present
-  - On click, record the answer, correct answer, pid, and timestamp for the current question
+- **Purpose**: Ensure answers are tracked with timestamps and the button is only enabled when the current question is answered.
+- **Approach**:
+  - Introduce intermediary solution tracking in the `page.tsx` component.
+  - For each answer, store: `pid`, `givenAnswer`, `correctAnswer`, and `timestamp` (recorded when the "Next Task" button is clicked).
+  - Only enable the "Next Task" button if the current question has an answer.
+  - On click, record the answer and move to the next question.
 
 #### 2.2 Trigger Persistence on Task Set Completion
 
 - **Purpose**: Persist solution when user has answered all three questions in a task set and proceeds.
-- **Features**:
-  - Generate solution UUID and completion timestamp when all questions are answered
-  - Call persistence utilities to save solution and update master file
+- **Approach**:
+  - After the last question is answered, generate the solution UUID and completion timestamp.
+  - Call persistence utilities (via API route) to save the solution and update the master file.
 
 ### Phase 3: Integration & Testing
 
