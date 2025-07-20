@@ -23,17 +23,19 @@ Enable users to manually replace any task in a task set while working on it, sel
 
 ### Phase 1: Data & API Enhancements
 
+
 #### 1.1 Expose Task Pool by Difficulty
 - **Purpose**: Backend/API endpoint or utility to fetch tasks by difficulty.
 - **Features**:
   - Returns all tasks of a given difficulty
   - Excludes tasks already in the set (except current)
+- **Approach**:
+  - Adjust the existing questions API endpoint to accept optional query parameters:
+    - `difficulty`: If provided, only return questions matching this difficulty.
+    - `exclude`: One or more question pids (comma-separated) to exclude from the results.
+  - Apply these filters server-side before returning the questions list.
+  - Maintain backward compatibility: if no query params are provided, return all questions as before.
 
-#### 1.2 Persist Replacement and Answer Reset
-- **Purpose**: Ensure answer state is cleared and replacement is tracked.
-- **Features**:
-  - Update answer persistence logic to clear on replacement
-  - Optionally log replacements for analytics
 
 ### Phase 2: Core Replacement Functionality
 
@@ -72,11 +74,10 @@ Enable users to manually replace any task in a task set while working on it, sel
 | Priority | Feature                                 | Category |
 | -------- | --------------------------------------- | -------- |
 | 1        | Backend/API for task pool by difficulty | high     |
-| 2        | Answer persistence and reset            | high     |
-| 3        | Replace button in task UI               | high     |
-| 4        | Replacement modal/dialog                | medium   |
-| 5        | State management for replacement/reset  | medium   |
-| 6        | UI/UX improvements                     | low      |
+| 2        | Replace button in task UI               | high     |
+| 3        | Replacement modal/dialog                | medium   |
+| 4        | State management for replacement/reset  | medium   |
+| 5        | UI/UX improvements                     | low      |
 
 ## Future Enhancements
 
@@ -93,8 +94,7 @@ Enable users to manually replace any task in a task set while working on it, sel
 
 ## Feature Progress
 
-- [ ] Backend/API for task pool by difficulty
-- [ ] Answer persistence and reset
+- [x] Backend/API for task pool by difficulty
 - [ ] Replace button in task UI
 - [ ] Replacement modal/dialog
 - [ ] State management for replacement/reset

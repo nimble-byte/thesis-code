@@ -3,8 +3,9 @@ import { getQuestions } from "@/utils/questions";
 
 export async function GET(_req: NextRequest, { params }: { params: Promise<{ setId: string }> }): Promise<Response> {
   try {
-    const questions = getQuestions();
     const { setId } = await params;
+
+    const questions = getQuestions();
     const setQuestions = questions.filter((q) => q.set === setId);
 
     if (setQuestions.length === 0) {
