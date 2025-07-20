@@ -1,10 +1,10 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import TaskComponent from '../../../components/TaskComponent';
-import ProgressBar from '../../../components/ProgressBar';
-import PrimaryButton from '../../../components/PrimaryButton';
-import type { Question } from '../../../types/question';
-import type { TaskAnswer } from '../../../types/solution';
+import TaskComponent from '@/components/TaskComponent';
+import ProgressBar from '@/components/ProgressBar';
+import PrimaryButton from '@/components/PrimaryButton';
+import type { Question } from '@/types/question';
+import type { TaskAnswer } from '@/types/solution';
 
 export default function TaskSetPage(props: { params: Promise<{ setId: string }> }) {
   const params = React.use(props.params);

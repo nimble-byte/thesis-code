@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import TaskComponent from '../../../components/TaskComponent';
-import type { Question } from '../../../types/question';
+import TaskComponent from '@/components/TaskComponent';
+import type { Question } from '@/types/question';
 
 export default function TaskPage(props: { params: Promise<{ index: string }> }) {
   const params = React.use(props.params);

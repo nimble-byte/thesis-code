@@ -1,5 +1,5 @@
 import { NextRequest } from "next/server";
-import { getQuestions } from "../../questions/questions";
+import { getQuestions } from "@/utils/questions";
 
 export async function GET(_req: NextRequest, { params }: { params: Promise<{ setId: string }> }): Promise<Response> {
   try {

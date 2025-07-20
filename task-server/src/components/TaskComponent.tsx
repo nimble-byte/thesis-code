@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import type { Question } from '../types/question';
+import type { Question } from '@/types/question';
 
 interface TaskComponentProps {
   question: Question;
