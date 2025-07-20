@@ -1,7 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 import type { Question } from '../../../types/question';
-import { cache } from 'react';
 
 const datasetPath = path.resolve(process.env.DATASET_PATH || '');
 const questionsFileCsvPath = path.join(datasetPath, 'filtered_dataset.csv');
