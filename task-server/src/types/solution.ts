@@ -36,7 +36,7 @@ export interface TaskSetSolution {
   /**
    * Unique UUID for this solution instance
    */
-  solutionUuid: string;
+  uuid: string;
   /**
    * ISO string timestamp when all questions in the set were answered
    */

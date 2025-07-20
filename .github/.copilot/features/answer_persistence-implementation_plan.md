@@ -58,10 +58,16 @@ Persist user solutions to task sets on disk, saving each completed set of answer
 
 #### 2.2 Trigger Persistence on Task Set Completion
 
-- **Purpose**: Persist solution when user has answered all three questions in a task set and proceeds.
+- **Purpose**: Persist solution when user has answered all three questions in a task set and submits the set.
 - **Approach**:
-  - After the last question is answered, generate the solution UUID and completion timestamp.
-  - Call persistence utilities (via API route) to save the solution and update the master file.
+  - createa an API for solution persistence
+    - uses the POST call
+    - accepts a TaskSetSolution object
+    - returns a 201 status and the full TaskSetSolution object in the response
+  - After the last question is answered, show a "Submit Tasks" button instead of the completion message.
+  - When the user clicks "Submit Tasks":
+    - Generate the solution UUID and completion timestamp.
+    - Call persistence utilities (via API route) to save the solution and update the master file.
 
 ### Phase 3: Integration & Testing
 
@@ -106,9 +112,9 @@ Persist user solutions to task sets on disk, saving each completed set of answer
 - [x] Phase 1: Data Model & Persistence Logic
   - [x] Define solution data structure
   - [x] Implement file persistence utilities
-- [ ] Phase 2: UI/UX Changes
-  - [ ] Update "Next Task" button logic
-  - [ ] Trigger persistence on completion
-- [ ] Phase 3: Integration & Testing
-  - [ ] Integrate persistence with task flow
-  - [ ] Test persistence and UI logic
+- [x] Phase 2: UI/UX Changes
+  - [x] Update "Next Task" button logic
+  - [x] Trigger persistence on completion
+- [x] Phase 3: Integration & Testing
+  - [x] Integrate persistence with task flow
+  - [x] Test persistence and UI logic

@@ -2,15 +2,22 @@ import fs from 'fs';
 import path from 'path';
 import { TaskSetSolution } from '../types/solution';
 
-const SOLUTIONS_DIR = path.join(process.cwd(), 'task-server', 'data', 'solutions');
+const SOLUTIONS_DIR = path.join(process.cwd(), 'data', 'solutions');
 const MASTER_FILE = path.join(SOLUTIONS_DIR, 'all_solutions.json');
 
+function ensureSolutionsDir() {
+  if (!fs.existsSync(SOLUTIONS_DIR)) {
+    fs.mkdirSync(SOLUTIONS_DIR, { recursive: true });
+  }
+}
+
 /**
- * Saves a solution as a new file named solution-<solutionUuid>.json in the solutions directory.
+ * Saves a solution as a new file named solution-<uuid>.json in the solutions directory.
  * @param solution The solution object to save
  */
 export function saveSolutionFile(solution: TaskSetSolution): void {
-  const filePath = path.join(SOLUTIONS_DIR, `solution-${solution.solutionUuid}.json`);
+  ensureSolutionsDir();
+  const filePath = path.join(SOLUTIONS_DIR, `solution-${solution.uuid}.json`);
   fs.writeFileSync(filePath, JSON.stringify(solution, null, 2), 'utf-8');
 }
 
@@ -19,6 +26,7 @@ export function saveSolutionFile(solution: TaskSetSolution): void {
  * @param solution The solution object to append
  */
 export function appendToMasterFile(solution: TaskSetSolution): void {
+  ensureSolutionsDir();
   let solutions: TaskSetSolution[] = [];
   if (fs.existsSync(MASTER_FILE)) {
     const content = fs.readFileSync(MASTER_FILE, 'utf-8');
@@ -38,6 +46,7 @@ export function appendToMasterFile(solution: TaskSetSolution): void {
  * @returns Array of TaskSetSolution objects
  */
 export function readAllSolutions(): TaskSetSolution[] {
+  ensureSolutionsDir();
   if (!fs.existsSync(MASTER_FILE)) return [];
   const content = fs.readFileSync(MASTER_FILE, 'utf-8');
   try {
