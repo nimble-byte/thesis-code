@@ -102,9 +102,9 @@ Persist user solutions to task sets on disk, saving each completed set of answer
 
 ## Progress
 
-- [ ] Phase 1: Data Model & Persistence Logic
+- [x] Phase 1: Data Model & Persistence Logic
   - [x] Define solution data structure
-  - [ ] Implement file persistence utilities
+  - [x] Implement file persistence utilities
 - [ ] Phase 2: UI/UX Changes
   - [ ] Update "Next Task" button logic
   - [ ] Trigger persistence on completion
