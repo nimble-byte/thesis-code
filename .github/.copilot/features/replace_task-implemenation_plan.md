@@ -23,8 +23,8 @@ Enable users to manually replace any task in a task set while working on it, sel
 
 ### Phase 1: Data & API Enhancements
 
-
 #### 1.1 Expose Task Pool by Difficulty
+
 - **Purpose**: Backend/API endpoint or utility to fetch tasks by difficulty.
 - **Features**:
   - Returns all tasks of a given difficulty
@@ -36,23 +36,39 @@ Enable users to manually replace any task in a task set while working on it, sel
   - Apply these filters server-side before returning the questions list.
   - Maintain backward compatibility: if no query params are provided, return all questions as before.
 
-
 ### Phase 2: Core Replacement Functionality
 
 #### 2.1 Add Replace Button to Task UI
+
 - **Purpose**: Allow users to initiate task replacement.
 - **Features**:
   - Button visible on each task in the set
   - Accessible and clearly labeled
 
 #### 2.2 Implement Replacement Modal/Dialog
+
 - **Purpose**: Let users select a replacement task.
 - **Features**:
-  - Modal/dialog opens on button click
-  - Lists available tasks of the same difficulty (excluding current)
-  - Confirm/cancel actions
+  - Modal/dialog opens on button click (Replace Task)
+  - Fetches and lists available tasks of the same difficulty (excluding the current task)
+  - Shows a simple list with each task's pid and question text
+  - User can select a replacement task from the list (e.g., radio button or highlight)
+  - Confirm and cancel actions (confirm triggers replacement, cancel closes modal)
+  - Shows loading indicator while fetching tasks
+  - Shows error or empty state if no replacements are available
+  - Modal is accessible and can be closed with Escape or by clicking outside
+- **Approach**:
+  - Implement a reusable `Modal` component that accepts header, body, and footer/actions as props
+  - Build the replacement dialog using the `Modal` component
+  - On open, fetch available tasks from `/api/questions?difficulty=<current>&exclude=<currentPid>`
+  - Render a simple list of tasks (pid and question text) with selection controls
+  - Track selected replacement in local state
+  - On confirm, call a callback to update the task set state and close the modal
+  - On cancel, simply close the modal
+  - Ensure modal is visually consistent with the app and accessible
 
 #### 2.3 Update Task Set State Management
+
 - **Purpose**: Replace the current task in-place and reset answer.
 - **Features**:
   - Swap out the task in the set data structure
@@ -62,6 +78,7 @@ Enable users to manually replace any task in a task set while working on it, sel
 ### Phase 3: UI/UX Improvements
 
 #### 3.1 Visual Feedback and Edge Cases
+
 - **Purpose**: Ensure smooth user experience.
 - **Features**:
   - Loading indicators for replacement
@@ -76,7 +93,7 @@ Enable users to manually replace any task in a task set while working on it, sel
 | 2        | Replace button in task UI               | high     |
 | 3        | Replacement modal/dialog                | medium   |
 | 4        | State management for replacement/reset  | medium   |
-| 5        | UI/UX improvements                     | low      |
+| 5        | UI/UX improvements                      | low      |
 
 ## Future Enhancements
 

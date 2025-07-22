@@ -10,12 +10,12 @@ export default function ProgressBar({ currentStep, totalSteps, className }: Prog
   const progressPercentage = (currentStep / totalSteps) * 100;
 
   return (
-    <div className={className} style={{ maxWidth: 500, margin: '1rem auto 2rem auto', padding: '0 16px' }}>
+    <div className={className} style={{ maxWidth: 480, margin: '16px auto 24px auto', padding: '0 16px' }}>
       <div style={{
         width: '100%',
-        height: '6px',
+        height: 8,
         backgroundColor: '#f0f0f0',
-        borderRadius: '3px',
+        borderRadius: 4,
         overflow: 'hidden'
       }}>
         <div style={{
@@ -23,7 +23,7 @@ export default function ProgressBar({ currentStep, totalSteps, className }: Prog
           height: '100%',
           backgroundColor: '#0070f3',
           transition: 'width 0.3s ease',
-          borderRadius: '3px'
+          borderRadius: 4
         }} />
       </div>
     </div>

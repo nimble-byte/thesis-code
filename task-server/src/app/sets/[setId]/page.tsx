@@ -5,6 +5,7 @@ import TaskComponent from "@/components/TaskComponent";
 import ProgressBar from "@/components/ProgressBar";
 import PrimaryButton from "@/components/PrimaryButton";
 import ActionBar from "@/components/ActionBar";
+import ReplaceTaskDialog from "@/components/ReplaceTaskDialog";
 import type { Question } from "@/types/question";
 import type { TaskAnswer, TaskSetSolution } from "@/types/solution";
 
@@ -103,7 +104,15 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
 
   const handleReplaceTaskClick = () => {
     setShowReplaceModal(true);
-    alert("Replace Task feature is not implemented yet.");
+  };
+
+  const handleReplaceTask = (newTask: Question) => {
+    console.log("Replacing task with:", newTask);
+    console.log(questions);
+    setQuestions((prev) => prev.map((q, idx) => (idx === currentTaskIndex ? newTask : q)));
+    console.log(questions);
+    setGivenAnswer(null); // reset answer
+    setShowReplaceModal(false);
   };
 
   const handleCloseReplaceModal = () => {
@@ -148,10 +157,10 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
         <div
           style={{
             margin: "16px 0 0 0",
-            padding: "12px 24px",
+            padding: "16px 24px",
             backgroundColor: "#dc3545",
             color: "white",
-            borderRadius: "8px",
+            borderRadius: 8,
             fontSize: "1rem",
             fontWeight: "bold",
             alignSelf: "flex-end",
@@ -179,6 +188,12 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
           </PrimaryButton>
         )}
       </ActionBar>
+      <ReplaceTaskDialog
+        open={showReplaceModal}
+        onClose={handleCloseReplaceModal}
+        onReplace={handleReplaceTask}
+        currentTask={currentQuestion}
+      />
     </div>
   );
 }

@@ -32,9 +32,13 @@ export default function TaskPage(props: { params: Promise<{ pid: string }> }) {
       });
   }, [pid]);
 
-  if (status === TaskPageStatus.LOADING) return <div>Loading...</div>;
-  if (status === TaskPageStatus.ERROR) return <div>{error}</div>;
-  if (!question) return <div>No question found.</div>;
+  if (status === TaskPageStatus.LOADING) return <div style={{ maxWidth: 480, margin: '24px auto', padding: 16 }}>Loading...</div>;
+  if (status === TaskPageStatus.ERROR) return <div style={{ maxWidth: 480, margin: '24px auto', padding: 16 }}>{error}</div>;
+  if (!question) return <div style={{ maxWidth: 480, margin: '24px auto', padding: 16 }}>No question found.</div>;
 
-  return <TaskComponent question={question} />;
+  return (
+    <div style={{ maxWidth: 480, margin: '24px auto', padding: 16 }}>
+      <TaskComponent question={question} />
+    </div>
+  );
 }

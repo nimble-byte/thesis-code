@@ -19,13 +19,21 @@ export default function TaskComponent({ question, taskNumber, onAnswerChange, se
   const displayTitle = taskNumber ? `Question ${taskNumber}` : `Question ${question.pid}`;
 
   return (
-    <div style={{ margin: '2rem auto', padding: 16, border: '1px solid #eeeeee', borderRadius: 8, width: '100%' }}>
+    <div
+      style={{
+        margin: '24px auto',
+        padding: 16,
+        border: '1px solid #eeeeee',
+        borderRadius: 8,
+        width: '100%'
+      }}
+    >
       <h1 style={{ marginBottom: 16, textAlign: 'center', fontSize: '1.5rem' }}>{displayTitle}</h1>
-      <img src={imageUrl} alt="Task" style={{ objectFit: 'contain', margin: '0 auto 16px auto' }} />
+      <img src={imageUrl} alt="Task" style={{ objectFit: 'contain', margin: '0 auto 16px auto', display: 'block' }} />
       <h2 style={{ marginBottom: 16 }}>{question.question}</h2>
       <form>
         {question.choices.map((opt, idx) => (
-          <div key={idx} style={{ marginBottom: 12 }}>
+          <div key={idx} style={{ marginBottom: 8 }}>
             <label>
               <input
                 type="radio"
