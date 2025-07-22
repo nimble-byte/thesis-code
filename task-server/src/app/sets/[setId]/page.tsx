@@ -6,6 +6,7 @@ import ProgressBar from "@/components/ProgressBar";
 import PrimaryButton from "@/components/PrimaryButton";
 import ActionBar from "@/components/ActionBar";
 import ReplaceTaskDialog from "@/components/ReplaceTaskDialog";
+import SecondaryButton from "@/components/SecondaryButton";
 import type { Question } from "@/types/question";
 import type { TaskAnswer, TaskSetSolution } from "@/types/solution";
 
@@ -70,7 +71,7 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
     if (status === TaskSetUIStatus.SUBMITTING || !givenAnswer) return;
     const currentQuestion = questions[currentTaskIndex];
     // Add last answer
-    const allAnswers = [
+    const allAnswers: TaskAnswer[] = [
       ...solutionAnswers,
       {
         pid: currentQuestion.pid,
@@ -107,11 +108,8 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
   };
 
   const handleReplaceTask = (newTask: Question) => {
-    console.log("Replacing task with:", newTask);
-    console.log(questions);
     setQuestions((prev) => prev.map((q, idx) => (idx === currentTaskIndex ? newTask : q)));
-    console.log(questions);
-    setGivenAnswer(null); // reset answer
+    setGivenAnswer(null);
     setShowReplaceModal(false);
   };
 
@@ -173,7 +171,7 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
 
       {/* Action bar at the bottom of the content */}
       <ActionBar>
-        <PrimaryButton onClick={handleReplaceTaskClick}>Replace Task</PrimaryButton>
+        <SecondaryButton onClick={handleReplaceTaskClick}>Replace Task</SecondaryButton>
         {!isLastTask && (
           <PrimaryButton onClick={handleNextTask} disabled={!givenAnswer || status === TaskSetUIStatus.SUBMITTING}>
             Next Task →
