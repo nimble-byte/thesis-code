@@ -34,7 +34,7 @@ export default function Table<T>({ columns, data }: TableProps<T>) {
                 borderBottom: "2px solid #eaeaea",
                 fontWeight: 600,
                 fontSize: "1.1rem",
-                color: "#222",
+                color: "#222222",
                 backgroundColor: "#00000011",
               }}
             >
@@ -51,7 +51,7 @@ export default function Table<T>({ columns, data }: TableProps<T>) {
                 key={j}
                 style={{
                   padding: "8px 16px",
-                  color: "#333",
+                  color: "#333333",
                 }}
               >
                 {col.accessor(row)}

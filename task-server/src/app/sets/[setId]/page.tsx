@@ -98,7 +98,7 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
       });
       if (!res.ok) throw new Error((await res.json()).error || "Failed to save solution");
       setSolutionAnswers([]);
-      router.push("/sets/completed");
+      router.push(`/sets/completed?uuid=${solution.uuid}`);
     } catch (err: any) {
       setSubmitError(err.message || "Failed to save solution");
       setStatus(TaskSetUIStatus.IN_PROGRESS);
