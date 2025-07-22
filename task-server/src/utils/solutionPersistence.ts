@@ -56,3 +56,21 @@ export function readAllSolutions(): TaskSetSolution[] {
     return [];
   }
 }
+
+/**
+ * Reads a solution by its UUID from the solutions directory.
+ * @param uuid The UUID of the solution
+ * @returns The TaskSetSolution object if found, otherwise throws an error
+ */
+export function readSolutionById(uuid: string): TaskSetSolution {
+  const filePath = path.join(SOLUTIONS_DIR, `solution-${uuid}.json`);
+  if (!fs.existsSync(filePath)) {
+    throw new Error(`Solution with UUID ${uuid} not found.`);
+  }
+  const content = fs.readFileSync(filePath, 'utf-8');
+  try {
+    return JSON.parse(content) as TaskSetSolution;
+  } catch {
+    throw new Error(`Failed to parse solution file for UUID ${uuid}.`);
+  }
+}

@@ -21,6 +21,23 @@ Display a detailed visual report on the success page after a user submits their 
 
 ### Phase 1: Data Integration & UI Components
 
+#### 1.0 Implement Solution Retrieval API
+
+- **Purpose**: Enable fetching a specific solution by its unique ID.
+- **Steps**:
+  - Implement a utility function in `solutionPersistence` to read a solution file by UUID.
+  - Create a new API route (e.g., `/api/solutions/[uuid]`) that returns the solution data for a given ID.
+  - Ensure proper error handling for missing or invalid IDs.
+- **Approach:**
+  - **Utility Function:**
+    - Add a function to `solutionPersistence` (e.g., `readSolutionById(uuid: string): TaskSetSolution | null`) that reads and parses the file `solution-<uuid>.json` from the solutions directory.
+    - Throw an error if the file does not exist or is invalid.
+  - **API Route:**
+    - Create a new API route at `/api/solutions/[uuid]`.
+    - On GET requests, use the utility to retrieve the solution by UUID and return it as JSON.
+    - Return a 404 or appropriate error if the solution is not found or the UUID is invalid.
+    - Ensure the API does not leak sensitive data and validates input.
+
 #### 1.1 Solution Data Retrieval (Dual Approach)
 
 - The page should support two ways to obtain the solution data:
@@ -57,10 +74,11 @@ Display a detailed visual report on the success page after a user submits their 
 
 | Priority | Feature                        | Category |
 | -------- | ------------------------------ | -------- |
-| 1        | Fetch solution data            | high     |
-| 2        | Task report table              | high     |
-| 3        | Solution ID & copy button      | medium   |
-| 4        | Styling & UX enhancements      | low      |
+| 1        | Solution retrieval API (by ID) | high     |
+| 2        | Solution data retrieval (dual) | high     |
+| 3        | Task report table              | high     |
+| 4        | Solution ID & copy button      | medium   |
+| 5        | Styling & UX enhancements      | low      |
 
 ## Future Enhancements
 
@@ -77,7 +95,8 @@ Display a detailed visual report on the success page after a user submits their 
 
 ## Feature Progress
 
-- [ ] Fetch solution data
+- [x] Solution retrieval API (by ID)
+- [ ] Solution data retrieval (dual)
 - [ ] Task report table
 - [ ] Solution ID & copy button
 - [ ] Styling & UX enhancements
