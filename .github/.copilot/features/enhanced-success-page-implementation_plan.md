@@ -44,6 +44,13 @@ Display a detailed visual report on the success page after a user submits their 
   - **Preferred:** Accept a `TaskSetSolution` object passed directly (e.g., via navigation state, context, or query params) from the task set page after completion.
   - **Fallback:** If no solution object is provided, fetch the solution from the backend using a solution ID (e.g., from the URL or query params).
 - This ensures fast UX after completion and also allows direct access/bookmarking for a specific solution report.
+- **Approach**
+  - For TaskSetSolution object passing:
+    - Use navigation state to pass the object from the task set page to the success page after completion (fast, secure, not persistent across reloads).
+  - For UUID-based retrieval:
+    - Use a query param (e.g., /sets/completed?uuid=...) to specify the solution ID for fallback retrieval.
+    - On the success page, if no TaskSetSolution is present in navigation state, check for a uuid query param and fetch the solution from /api/solutions/[uuid].
+    - If neither is available, show an error or fallback UI.
 
 #### 1.2 Create Task Report Table
 
@@ -96,7 +103,7 @@ Display a detailed visual report on the success page after a user submits their 
 ## Feature Progress
 
 - [x] Solution retrieval API (by ID)
-- [ ] Solution data retrieval (dual)
+- [x] Solution data retrieval (dual)
 - [ ] Task report table
 - [ ] Solution ID & copy button
 - [ ] Styling & UX enhancements
