@@ -1,12 +1,11 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
-
-import type { TaskSetSolution } from "@/types/solution";
 import TaskReportTable from "./TaskReportTable";
 import SolutionIdDisplay from "./SolutionIdDisplay";
+import { TaskSetSolution } from "@/types/solution";
 
-export default function SetCompletedPage() {
+function SolutionDetails() {
   const searchParams = useSearchParams();
   const [solution, setSolution] = useState<TaskSetSolution | null>(null);
   const [loading, setLoading] = useState(true);
@@ -19,7 +18,6 @@ export default function SetCompletedPage() {
       setLoading(false);
       return;
     }
-
     const uuid = searchParams?.get("uuid");
     if (uuid) {
       fetch(`/api/solutions/${uuid}`)
@@ -42,8 +40,24 @@ export default function SetCompletedPage() {
   }, [searchParams]);
 
   if (loading) {
-    return <div style={{ textAlign: "center", marginTop: 48 }}>Loading solution...</div>;
+    return null;
   }
+  if (error) {
+    return <div style={{ color: "#dc3545", marginBottom: 16 }}>{error}</div>;
+  }
+  if (!solution) {
+    return null;
+  }
+  return (
+    <>
+      <SolutionIdDisplay uuid={solution.uuid} />
+      <p style={{ color: "#333", marginBottom: 16 }}>Here you can review your answers:</p>
+      <TaskReportTable answers={solution.answers} />
+    </>
+  );
+}
+
+export default function SetCompletedPage() {
   return (
     <div
       style={{
@@ -57,16 +71,13 @@ export default function SetCompletedPage() {
     >
       <div style={{ maxWidth: 960, padding: 24 }}>
         <h1 style={{ color: "#28a745", fontSize: "2.5rem", marginBottom: 24 }}>Success!</h1>
-        <p style={{ color: "#333", marginBottom: 16 }}>Your solution was saved successfully. You find your participant ID below.</p>
-        {!error && solution ? (
-          <>
-            <SolutionIdDisplay uuid={solution.uuid} />
-            <p style={{ color: "#333", marginBottom: 16 }}>Here you can review your answers:</p>
-            <TaskReportTable answers={solution.answers} />
-          </>
-        ) : (
-          <div style={{ color: "#dc3545", marginBottom: 16 }}>{error}</div>
-        )}
+        <p style={{ color: "#333", marginBottom: 16 }}>
+          If you just completed a task set, your solution has been stored successfully. You find your participant ID
+          below.
+        </p>
+        <Suspense fallback={<div style={{ textAlign: "center", marginTop: 48 }}>Loading deatils...</div>}>
+          <SolutionDetails />
+        </Suspense>
       </div>
     </div>
   );
