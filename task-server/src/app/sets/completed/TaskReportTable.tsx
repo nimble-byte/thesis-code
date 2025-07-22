@@ -1,5 +1,5 @@
 import React from "react";
-import Table, { TableColumn } from "./Table";
+import Table, { TableColumn } from "@/components/Table";
 import type { TaskAnswer } from "@/types/solution";
 
 interface TaskReportTableProps {

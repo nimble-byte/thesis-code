@@ -72,8 +72,15 @@ Display a detailed visual report on the success page after a user submits their 
 
 - **Purpose**: Show the solution ID below the table.
 - **Features**:
-  - Prominent display of the solution ID.
-  - Button to copy the ID to clipboard with user feedback (e.g., "Copied!").
+  - Display the solution UUID in a monospace font for easy readability.
+  - Place a small button next to the UUID to copy it to the clipboard.
+  - Show a short feedback message (e.g., "Copied!") when the button is clicked.
+  - Position the UUID and copy button between the success message and the table, with clear spacing.
+- **Approach**:
+  - Add a section in the completed page to display the solution UUID in monospace.
+  - Implement a copy-to-clipboard button using the Clipboard API.
+  - Show a temporary feedback message when the UUID is copied.
+  - Ensure the section is visually distinct but not distracting.
 
 ### Phase 2: Styling & UX Enhancements
 

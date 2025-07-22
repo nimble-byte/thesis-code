@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 
 import type { TaskSetSolution } from "@/types/solution";
-import TaskReportTable from "@/components/TaskReportTable";
+import TaskReportTable from "./TaskReportTable";
 
 export default function SetCompletedPage() {
   const searchParams = useSearchParams();
