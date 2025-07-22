@@ -121,5 +121,5 @@ Display a detailed visual report on the success page after a user submits their 
 - [x] Solution retrieval API (by ID)
 - [x] Solution data retrieval (dual)
 - [x] Task report table
-- [ ] Solution ID & copy button
+- [x] Solution ID & copy button
 - [ ] Styling & UX enhancements

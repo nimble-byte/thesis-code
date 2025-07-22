@@ -4,6 +4,7 @@ import { useSearchParams } from "next/navigation";
 
 import type { TaskSetSolution } from "@/types/solution";
 import TaskReportTable from "./TaskReportTable";
+import SolutionIdDisplay from "./SolutionIdDisplay";
 
 export default function SetCompletedPage() {
   const searchParams = useSearchParams();
@@ -56,9 +57,10 @@ export default function SetCompletedPage() {
     >
       <div style={{ maxWidth: 960, padding: 24 }}>
         <h1 style={{ color: "#28a745", fontSize: "2.5rem", marginBottom: 24 }}>Success!</h1>
-        <p style={{ color: "#333", marginBottom: 16 }}>Your solution was saved successfully.</p>
+        <p style={{ color: "#333", marginBottom: 16 }}>Your solution was saved successfully. Below you find your participant ID below.</p>
         {!error && solution ? (
           <>
+            <SolutionIdDisplay uuid={solution.uuid} />
             <p>You can review your answers below:</p>
             <TaskReportTable answers={solution.answers} />
           </>
