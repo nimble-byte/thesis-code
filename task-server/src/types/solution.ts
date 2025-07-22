@@ -16,6 +16,10 @@ export interface TaskAnswer {
    */
   correctAnswer: string;
   /**
+   * The question text
+   */
+  question: string;
+  /**
    * ISO string timestamp when the answer was submitted ("next" clicked)
    */
   timestamp: string;

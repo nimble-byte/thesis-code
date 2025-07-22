@@ -58,6 +58,15 @@ Display a detailed visual report on the success page after a user submits their 
 - **Features**:
   - Responsive and accessible table layout.
   - Proper formatting for time taken.
+- **Approach**:
+  - Implement a generic Table React component that:
+    - Accepts column definitions (headers, accessors) and row data as props.
+    - Renders a table without any style adjustments that are strictly necessary.
+    - Is flexible enough to be reused for other data tables in the app.
+  - For the task report, create a wrapper component (e.g., TaskReportTable) that:
+    - Defines the columns (PID, Question, User's Answer, Correct Answer, Time Taken).
+    - Passes the solution data to the generic Table component.
+  - Integrate the TaskReportTable into the completed page.
 
 #### 1.3 Display Solution ID & Copy Button
 
@@ -104,6 +113,6 @@ Display a detailed visual report on the success page after a user submits their 
 
 - [x] Solution retrieval API (by ID)
 - [x] Solution data retrieval (dual)
-- [ ] Task report table
+- [x] Task report table
 - [ ] Solution ID & copy button
 - [ ] Styling & UX enhancements

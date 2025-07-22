@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 
 import type { TaskSetSolution } from "@/types/solution";
+import TaskReportTable from "@/components/TaskReportTable";
 
 export default function SetCompletedPage() {
   const searchParams = useSearchParams();
@@ -10,7 +11,6 @@ export default function SetCompletedPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  // Try to get solution from navigation state (if available)
   useEffect(() => {
     const navState = window.history.state?.usr || window.history.state?.state;
     if (navState && navState.solution) {
@@ -18,7 +18,7 @@ export default function SetCompletedPage() {
       setLoading(false);
       return;
     }
-    // Fallback: check for uuid in query params
+
     const uuid = searchParams?.get("uuid");
     if (uuid) {
       fetch(`/api/solutions/${uuid}`)
@@ -43,25 +43,29 @@ export default function SetCompletedPage() {
   if (loading) {
     return <div style={{ textAlign: "center", marginTop: 48 }}>Loading solution...</div>;
   }
-
-  // Placeholder: show success message for now
   return (
     <div
       style={{
         display: "flex",
-        flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        minHeight: "100vh",
-        background: "#f6fff6",
-        padding: 16,
+        width: "100%",
+        height: "100vh",
+        backgroundColor: "#f6fff6",
       }}
     >
-      <h1 style={{ color: "#28a745", fontSize: "2.5rem", marginBottom: 24 }}>Success!</h1>
-      <p style={{ fontSize: "1.2rem", color: "#333", marginBottom: 16 }}>Your solution was saved successfully.</p>
-
-      {error && <div style={{ color: "#dc3545", textAlign: "center", marginTop: 48 }}>{error}</div>}
-      {/* TODO: Add table and solution ID display here */}
+      <div style={{ maxWidth: 960, padding: 24 }}>
+        <h1 style={{ color: "#28a745", fontSize: "2.5rem", marginBottom: 24 }}>Success!</h1>
+        <p style={{ color: "#333", marginBottom: 16 }}>Your solution was saved successfully.</p>
+        {!error && solution ? (
+          <>
+            <p>You can review your answers below:</p>
+            <TaskReportTable answers={solution.answers} />
+          </>
+        ) : (
+          <div style={{ color: "#dc3545", marginBottom: 16 }}>{error}</div>
+        )}
+      </div>
     </div>
   );
 }

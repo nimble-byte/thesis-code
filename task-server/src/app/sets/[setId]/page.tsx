@@ -58,6 +58,7 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
         pid: currentQuestion.pid,
         givenAnswer: givenAnswer,
         correctAnswer: currentQuestion.answer,
+        question: currentQuestion.question,
         timestamp: new Date().toISOString(),
       },
     ]);
@@ -77,6 +78,7 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
         pid: currentQuestion.pid,
         givenAnswer: givenAnswer,
         correctAnswer: currentQuestion.answer,
+        question: currentQuestion.question,
         timestamp: new Date().toISOString(),
       },
     ];
