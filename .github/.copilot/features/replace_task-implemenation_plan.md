@@ -94,7 +94,7 @@ Enable users to manually replace any task in a task set while working on it, sel
 ## Feature Progress
 
 - [x] Backend/API for task pool by difficulty
-- [ ] Replace button in task UI
+- [x] Replace button in task UI
 - [ ] Replacement modal/dialog
 - [ ] State management for replacement/reset
 - [ ] UI/UX improvements

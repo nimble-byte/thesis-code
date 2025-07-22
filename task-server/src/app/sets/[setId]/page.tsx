@@ -4,8 +4,9 @@ import { useRouter } from "next/navigation";
 import TaskComponent from "@/components/TaskComponent";
 import ProgressBar from "@/components/ProgressBar";
 import PrimaryButton from "@/components/PrimaryButton";
+import ActionBar from "@/components/ActionBar";
 import type { Question } from "@/types/question";
-import type { TaskAnswer } from "@/types/solution";
+import type { TaskAnswer, TaskSetSolution } from "@/types/solution";
 
 enum TaskSetUIStatus {
   LOADING = "loading",
@@ -24,6 +25,7 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
   const [givenAnswer, setGivenAnswer] = useState<string | null>(null);
   const [solutionAnswers, setSolutionAnswers] = useState<TaskAnswer[]>([]);
   const [submitError, setSubmitError] = useState<string | null>(null);
+  const [showReplaceModal, setShowReplaceModal] = useState(false);
 
   useEffect(() => {
     if (!setId) return;
@@ -79,7 +81,7 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
     setStatus(TaskSetUIStatus.SUBMITTING);
     setSubmitError(null);
     try {
-      const solution = {
+      const solution: TaskSetSolution = {
         setId,
         answers: allAnswers,
         uuid: crypto.randomUUID(),
@@ -99,6 +101,15 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
     }
   };
 
+  const handleReplaceTaskClick = () => {
+    setShowReplaceModal(true);
+    alert("Replace Task feature is not implemented yet.");
+  };
+
+  const handleCloseReplaceModal = () => {
+    setShowReplaceModal(false);
+  };
+
   const handleAnswerChange = (value: string) => {
     setGivenAnswer(value);
   };
@@ -111,7 +122,16 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
   const isLastTask = currentTaskIndex === questions.length - 1;
 
   return (
-    <div style={{ position: "relative", minHeight: "100vh" }}>
+    <div
+      style={{
+        position: "relative",
+        display: "flex",
+        flexDirection: "column",
+        width: "100%",
+        maxWidth: 480,
+        margin: "0 auto",
+      }}
+    >
       {/* Progress bar */}
       <ProgressBar currentStep={currentTaskIndex + 1} totalSteps={questions.length} />
 
@@ -123,48 +143,42 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
         selected={givenAnswer}
       />
 
-      {/* Navigation button */}
-      {!isLastTask && (
-        <PrimaryButton
-          onClick={handleNextTask}
-          disabled={!givenAnswer || status === TaskSetUIStatus.SUBMITTING}
-          style={{ position: "fixed", bottom: "2rem", right: "2rem" }}
-        >
-          Next Task →
-        </PrimaryButton>
-      )}
-
-      {/* Submit button for last task */}
-      {isLastTask && (
-        <PrimaryButton
-          onClick={handleSubmitSolution}
-          disabled={!givenAnswer || status === TaskSetUIStatus.SUBMITTING}
-          style={{ position: "fixed", bottom: "2rem", right: "2rem" }}
-        >
-          {status === TaskSetUIStatus.SUBMITTING ? "Saving..." : "Submit Solution"}
-        </PrimaryButton>
-      )}
-
-      {/* Success message removed: now handled by redirect */}
-
-      {/* Error message */}
+      {/* Error message (above action bar) */}
       {isLastTask && submitError && (
         <div
           style={{
-            position: "fixed",
-            bottom: "5.5rem",
-            right: "2rem",
+            margin: "16px 0 0 0",
             padding: "12px 24px",
             backgroundColor: "#dc3545",
             color: "white",
             borderRadius: "8px",
             fontSize: "1rem",
             fontWeight: "bold",
+            alignSelf: "flex-end",
+            maxWidth: 400,
           }}
         >
           {submitError}
         </div>
       )}
+
+      {/* Action bar at the bottom of the content */}
+      <ActionBar>
+        <PrimaryButton onClick={handleReplaceTaskClick}>Replace Task</PrimaryButton>
+        {!isLastTask && (
+          <PrimaryButton onClick={handleNextTask} disabled={!givenAnswer || status === TaskSetUIStatus.SUBMITTING}>
+            Next Task →
+          </PrimaryButton>
+        )}
+        {isLastTask && (
+          <PrimaryButton
+            onClick={handleSubmitSolution}
+            disabled={!givenAnswer || status === TaskSetUIStatus.SUBMITTING}
+          >
+            {status === TaskSetUIStatus.SUBMITTING ? "Saving..." : "Submit Solution"}
+          </PrimaryButton>
+        )}
+      </ActionBar>
     </div>
   );
 }

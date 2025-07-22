@@ -19,9 +19,9 @@ export default function TaskComponent({ question, taskNumber, onAnswerChange, se
   const displayTitle = taskNumber ? `Question ${taskNumber}` : `Question ${question.pid}`;
 
   return (
-    <div style={{ maxWidth: 500, margin: '2rem auto', padding: 16, border: '1px solid #eeeeee', borderRadius: 8 }}>
+    <div style={{ margin: '2rem auto', padding: 16, border: '1px solid #eeeeee', borderRadius: 8, width: '100%' }}>
       <h1 style={{ marginBottom: 16, textAlign: 'center', fontSize: '1.5rem' }}>{displayTitle}</h1>
-      <img src={imageUrl} alt="Task" style={{ width: '100%', objectFit: 'contain', marginBottom: 24 }} />
+      <img src={imageUrl} alt="Task" style={{ objectFit: 'contain', margin: '0 auto 16px auto' }} />
       <h2 style={{ marginBottom: 16 }}>{question.question}</h2>
       <form>
         {question.choices.map((opt, idx) => (
