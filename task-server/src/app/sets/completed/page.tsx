@@ -3,15 +3,26 @@ import React, { Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 
 import PrimaryButton from "@/components/PrimaryButton";
+import SolutionIdDisplay from "@/components/SolutionIdDisplay";
 
-function ResultPageButton() {
+function SolutionDetails() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const uuid = searchParams?.get("uuid");
 
   if (!uuid) return null;
 
-  return <PrimaryButton onClick={() => router.push(`/solutions/${uuid}`)}>View Result</PrimaryButton>;
+  return (
+    <>
+      <p style={{ color: "#333333", marginBottom: 16 }}>
+        Your participant ID is:
+      </p>
+      <SolutionIdDisplay uuid={uuid} />
+      <PrimaryButton onClick={() => router.push(`/solutions/${uuid}`)}>
+        View Result
+      </PrimaryButton>
+    </>
+  );
 }
 
 export default function CompletedPage() {
@@ -27,10 +38,14 @@ export default function CompletedPage() {
       }}
     >
       <div style={{ maxWidth: 960, padding: 24 }}>
-        <h1 style={{ color: "#28a745", fontSize: "2.5rem", marginBottom: 24 }}>Success!</h1>
-        <p style={{ color: "#333", marginBottom: 16 }}>Your solution has been sucessfullty saved.</p>
+        <h1 style={{ color: "#28a745", fontSize: "2.5rem", marginBottom: 24 }}>
+          Success!
+        </h1>
+        <p style={{ color: "#333", marginBottom: 16 }}>
+          Your solution has been sucessfullty saved.
+        </p>
         <Suspense>
-          <ResultPageButton />
+          <SolutionDetails />
         </Suspense>
       </div>
     </div>
