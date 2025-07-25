@@ -2,10 +2,10 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import TaskComponent from "@/components/TaskComponent";
-import ProgressBar from "./ProgressBar";
+import ProgressBar from "../_components/ProgressBar";
 import PrimaryButton from "@/components/PrimaryButton";
 import ActionBar from "@/components/ActionBar";
-import ReplaceTaskDialog from "./ReplaceTaskDialog";
+import ReplaceTaskDialog from "../_components/ReplaceTaskDialog";
 import SecondaryButton from "@/components/SecondaryButton";
 import type { Question } from "@/types/question";
 import type { TaskAnswer, TaskSetSolution } from "@/types/solution";

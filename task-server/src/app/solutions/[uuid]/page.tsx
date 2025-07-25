@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import TaskReportTable from "./TaskReportTable";
+import TaskReportTable from "../_components/TaskReportTable";
 import SolutionIdDisplay from "@/components/SolutionIdDisplay";
 import { TaskSetSolution } from "@/types/solution";
 

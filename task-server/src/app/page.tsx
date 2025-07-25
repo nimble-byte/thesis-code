@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 
 import SecondaryButton from "@/components/SecondaryButton";
-import LandingResultsTable from "./LandingResultsTable";
+import LandingResultsTable from "./_components/LandingResultsTable";
 import { TaskSetSolution } from "@/types/solution";
 
 export default function Home() {
