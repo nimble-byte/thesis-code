@@ -116,6 +116,7 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
 
   const handleReplaceTask = (newTask: Question) => {
     setQuestions((prev) => prev.map((q, idx) => (idx === currentTaskIndex ? newTask : q)));
+    setCurrentTaskStartedAt(new Date());
     setGivenAnswer(null);
     setShowReplaceModal(false);
   };

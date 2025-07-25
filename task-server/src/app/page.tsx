@@ -56,7 +56,7 @@ export default function Home() {
           <h2 className="text-xl font-semibold mb-2">Past Results</h2>
           {loading && <div className="text-gray-500">Loading...</div>}
           {error && <div className="text-red-500">{error}</div>}
-          {!loading && !error && (
+          {!loading && !error && solutions.length > 0 &&(
             <LandingResultsTable solutions={solutions} />
           )}
         </div>
