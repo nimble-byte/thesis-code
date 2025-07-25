@@ -17,17 +17,23 @@ enum TaskSetUIStatus {
   SUBMITTING = "submitting",
 }
 
-export default function TaskSetPage(props: { params: Promise<{ setId: string }> }) {
+export default function TaskSetPage(props: {
+  params: Promise<{ setId: string }>;
+}) {
   const router = useRouter();
   const params = React.use(props.params);
   const { setId } = params;
   const [currentTaskIndex, setCurrentTaskIndex] = useState(0);
-  const [currentTaskStartedAt, setCurrentTaskStartedAt] = useState<Date>(new Date());
+  const [currentTaskStartedAt, setCurrentTaskStartedAt] = useState<Date>(
+    new Date()
+  );
   const [givenAnswer, setGivenAnswer] = useState<string | null>(null);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [showReplaceModal, setShowReplaceModal] = useState(false);
   const [solutionAnswers, setSolutionAnswers] = useState<TaskAnswer[]>([]);
-  const [status, setStatus] = useState<TaskSetUIStatus>(TaskSetUIStatus.LOADING);
+  const [status, setStatus] = useState<TaskSetUIStatus>(
+    TaskSetUIStatus.LOADING
+  );
   const [submitError, setSubmitError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -52,19 +58,19 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
   }, [setId]);
 
   const handleNextTask = () => {
-    const currentQuestion = questions[currentTaskIndex];
     if (!givenAnswer) return;
-    setSolutionAnswers((prev) => [
-      ...prev,
-      {
-        pid: currentQuestion.pid,
-        givenAnswer: givenAnswer,
-        correctAnswer: currentQuestion.answer,
-        question: currentQuestion.question,
-        startedAt: currentTaskStartedAt?.toISOString(),
-        completedAt: new Date().toISOString(),
-      },
-    ]);
+
+    const currentQuestion = questions[currentTaskIndex];
+    const currentTaskAnswer: TaskAnswer = {
+      pid: currentQuestion.pid,
+      givenAnswer: givenAnswer,
+      correctAnswer: currentQuestion.answer,
+      question: currentQuestion.question,
+      startedAt: currentTaskStartedAt?.toISOString(),
+      completedAt: new Date().toISOString(),
+    };
+    console.log("Current Task Answer:", currentTaskAnswer);
+    setSolutionAnswers((prev) => [...prev, currentTaskAnswer]);
     setGivenAnswer(null);
     if (currentTaskIndex < questions.length - 1) {
       setCurrentTaskIndex(currentTaskIndex + 1);
@@ -75,33 +81,33 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
   const handleSubmitSolution = async () => {
     if (status === TaskSetUIStatus.SUBMITTING || !givenAnswer) return;
     const currentQuestion = questions[currentTaskIndex];
+    const currentTaskAnswer: TaskAnswer = {
+      pid: currentQuestion.pid,
+      givenAnswer: givenAnswer,
+      correctAnswer: currentQuestion.answer,
+      question: currentQuestion.question,
+      startedAt: currentTaskStartedAt?.toISOString(),
+      completedAt: new Date().toISOString(),
+    };
     // Add last answer
-    const allAnswers: TaskAnswer[] = [
-      ...solutionAnswers,
-      {
-        pid: currentQuestion.pid,
-        givenAnswer: givenAnswer,
-        correctAnswer: currentQuestion.answer,
-        question: currentQuestion.question,
-        startedAt: currentTaskStartedAt?.toISOString(),
-        completedAt: new Date().toISOString(),
-      },
-    ];
+    const allAnswers: TaskAnswer[] = [...solutionAnswers, currentTaskAnswer];
     setStatus(TaskSetUIStatus.SUBMITTING);
     setSubmitError(null);
+    const solution: TaskSetSolution = {
+      setId,
+      answers: allAnswers,
+      uuid: crypto.randomUUID(),
+      completedAt: new Date().toISOString(),
+    };
+    console.log("Task Set Solution:", solution);
     try {
-      const solution: TaskSetSolution = {
-        setId,
-        answers: allAnswers,
-        uuid: crypto.randomUUID(),
-        completedAt: new Date().toISOString(),
-      };
       const res = await fetch("/api/solutions", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(solution),
       });
-      if (!res.ok) throw new Error((await res.json()).error || "Failed to save solution");
+      if (!res.ok)
+        throw new Error((await res.json()).error || "Failed to save solution");
       setSolutionAnswers([]);
       router.push(`/sets/completed?uuid=${solution.uuid}`);
     } catch (err: any) {
@@ -115,7 +121,9 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
   };
 
   const handleReplaceTask = (newTask: Question) => {
-    setQuestions((prev) => prev.map((q, idx) => (idx === currentTaskIndex ? newTask : q)));
+    setQuestions((prev) =>
+      prev.map((q, idx) => (idx === currentTaskIndex ? newTask : q))
+    );
     setCurrentTaskStartedAt(new Date());
     setGivenAnswer(null);
     setShowReplaceModal(false);
@@ -148,7 +156,10 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
       }}
     >
       {/* Progress bar */}
-      <ProgressBar currentStep={currentTaskIndex + 1} totalSteps={questions.length} />
+      <ProgressBar
+        currentStep={currentTaskIndex + 1}
+        totalSteps={questions.length}
+      />
 
       {/* Current task */}
       <TaskComponent
@@ -179,9 +190,14 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
 
       {/* Action bar at the bottom of the content */}
       <ActionBar>
-        <SecondaryButton onClick={handleReplaceTaskClick}>Replace Task</SecondaryButton>
+        <SecondaryButton onClick={handleReplaceTaskClick}>
+          Replace Task
+        </SecondaryButton>
         {!isLastTask && (
-          <PrimaryButton onClick={handleNextTask} disabled={!givenAnswer || status === TaskSetUIStatus.SUBMITTING}>
+          <PrimaryButton
+            onClick={handleNextTask}
+            disabled={!givenAnswer || status === TaskSetUIStatus.SUBMITTING}
+          >
             Next Task →
           </PrimaryButton>
         )}
@@ -190,7 +206,9 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
             onClick={handleSubmitSolution}
             disabled={!givenAnswer || status === TaskSetUIStatus.SUBMITTING}
           >
-            {status === TaskSetUIStatus.SUBMITTING ? "Saving..." : "Submit Solution"}
+            {status === TaskSetUIStatus.SUBMITTING
+              ? "Saving..."
+              : "Submit Solution"}
           </PrimaryButton>
         )}
       </ActionBar>
