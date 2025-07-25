@@ -1,7 +1,7 @@
 import { getQuestions } from "@/utils/questions";
-import { NextRequest } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
-export async function GET(req: NextRequest): Promise<Response> {
+export async function GET(req: NextRequest): Promise<NextResponse> {
   try {
     const difficulty = req.nextUrl.searchParams.get("difficulty");
     const excludeParam = req.nextUrl.searchParams.get("exclude");
@@ -20,8 +20,11 @@ export async function GET(req: NextRequest): Promise<Response> {
       questions = questions.filter((q) => !exclude.includes(q.pid));
     }
 
-    return new Response(JSON.stringify(questions), { status: 200 });
+    return NextResponse.json(questions, { status: 200 });
   } catch (err: any) {
-    return new Response(JSON.stringify({ error: "Failed to load questions", details: String(err) }), { status: 500 });
+    return NextResponse.json(
+      { error: "Failed to load questions", details: String(err) },
+      { status: 500 }
+    );
   }
 }
