@@ -6,11 +6,15 @@ interface LandingResultsTableProps {
   solutions: TaskSetSolution[];
 }
 
-export default function LandingResultsTable({ solutions }: LandingResultsTableProps) {
+export default function LandingResultsTable({
+  solutions,
+}: LandingResultsTableProps) {
   const columns = [
     {
       header: "Solution",
-      accessor: (row: TaskSetSolution) => <span className="font-mono text-xs">{row.uuid}</span>,
+      accessor: (row: TaskSetSolution) => (
+        <span className="font-mono text-xs">{row.uuid}</span>
+      ),
     },
     {
       header: "Set ID",
@@ -20,12 +24,18 @@ export default function LandingResultsTable({ solutions }: LandingResultsTablePr
     },
     {
       header: "Date",
-      accessor: (row: TaskSetSolution) => new Date(row.completedAt).toLocaleString(),
+      accessor: (row: TaskSetSolution) =>
+        new Date(row.completedAt).toLocaleString(),
     },
     {
       header: "Results",
       accessor: (row: TaskSetSolution) => (
-        <Link href={`/solutions/${row.uuid}`} className="text-blue-600 underline hover:text-blue-800">View</Link>
+        <Link
+          href={`/solutions/${row.uuid}`}
+          className="text-blue-600 underline hover:text-blue-800"
+        >
+          View
+        </Link>
       ),
     },
   ];

@@ -20,9 +20,13 @@ export interface TaskAnswer {
    */
   question: string;
   /**
+   * ISO string timestamp when the answer was started (when the task was displayed)
+   */
+  startedAt: string;
+  /**
    * ISO string timestamp when the answer was submitted ("next" clicked)
    */
-  timestamp: string;
+  completedAt: string;
 }
 
 /**

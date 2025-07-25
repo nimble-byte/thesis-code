@@ -21,13 +21,14 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
   const router = useRouter();
   const params = React.use(props.params);
   const { setId } = params;
-  const [status, setStatus] = useState<TaskSetUIStatus>(TaskSetUIStatus.LOADING);
-  const [questions, setQuestions] = useState<Question[]>([]);
   const [currentTaskIndex, setCurrentTaskIndex] = useState(0);
+  const [currentTaskStartedAt, setCurrentTaskStartedAt] = useState<Date>(new Date());
   const [givenAnswer, setGivenAnswer] = useState<string | null>(null);
-  const [solutionAnswers, setSolutionAnswers] = useState<TaskAnswer[]>([]);
-  const [submitError, setSubmitError] = useState<string | null>(null);
+  const [questions, setQuestions] = useState<Question[]>([]);
   const [showReplaceModal, setShowReplaceModal] = useState(false);
+  const [solutionAnswers, setSolutionAnswers] = useState<TaskAnswer[]>([]);
+  const [status, setStatus] = useState<TaskSetUIStatus>(TaskSetUIStatus.LOADING);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   useEffect(() => {
     if (!setId) return;
@@ -37,6 +38,7 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
       .then((data) => {
         if (Array.isArray(data)) {
           setQuestions(data);
+          setCurrentTaskStartedAt(new Date());
           setStatus(TaskSetUIStatus.IN_PROGRESS);
         } else {
           setStatus(TaskSetUIStatus.ERROR);
@@ -59,12 +61,14 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
         givenAnswer: givenAnswer,
         correctAnswer: currentQuestion.answer,
         question: currentQuestion.question,
-        timestamp: new Date().toISOString(),
+        startedAt: currentTaskStartedAt?.toISOString(),
+        completedAt: new Date().toISOString(),
       },
     ]);
     setGivenAnswer(null);
     if (currentTaskIndex < questions.length - 1) {
       setCurrentTaskIndex(currentTaskIndex + 1);
+      setCurrentTaskStartedAt(new Date());
     }
   };
 
@@ -79,7 +83,8 @@ export default function TaskSetPage(props: { params: Promise<{ setId: string }> 
         givenAnswer: givenAnswer,
         correctAnswer: currentQuestion.answer,
         question: currentQuestion.question,
-        timestamp: new Date().toISOString(),
+        startedAt: currentTaskStartedAt?.toISOString(),
+        completedAt: new Date().toISOString(),
       },
     ];
     setStatus(TaskSetUIStatus.SUBMITTING);

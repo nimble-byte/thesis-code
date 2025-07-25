@@ -25,7 +25,18 @@ const columns: TableColumn<TaskAnswer>[] = [
   },
   {
     header: "Time Taken",
-    accessor: (_row) => "",
+    accessor: (row) => {
+      if (!row.startedAt || !row.completedAt) return "";
+
+      const startedAt = new Date(row.startedAt);
+      const completedAt = new Date(row.completedAt);
+      const timeTaken = completedAt.getTime() - startedAt.getTime();
+      const timeTakenSecs = Math.floor(timeTaken / 1000);
+
+      if (timeTakenSecs < 60) return `${timeTakenSecs}s`;
+
+      return `${Math.floor(timeTakenSecs / 60)}m ${timeTakenSecs % 60}s`;
+    },
   },
 ];
 
