@@ -36,12 +36,12 @@ task_difficulties = {
 
 task_sets = {
     "54": "d4ff4bd9-8dd2-4894-b3ce-bc027713d93d",
-    "273": "d4ff4bd9-8dd2-4894-b3ce-bc027713d93d",
+    "273": None,
     "280": "d4ff4bd9-8dd2-4894-b3ce-bc027713d93d",
     "318": None,
     "355": None,
     "455": None,
-    "478": None,
+    "478": "d4ff4bd9-8dd2-4894-b3ce-bc027713d93d",
     "505": "32d38798-d518-4e85-97dd-cced67301503",
     "549": None,
     "599": "4c70d6da-d9b0-4079-b5c6-c7a12b78ead5",
@@ -50,4 +50,22 @@ task_sets = {
     "708": "4c70d6da-d9b0-4079-b5c6-c7a12b78ead5",
     "798": None,
     "855": "4c70d6da-d9b0-4079-b5c6-c7a12b78ead5",
+}
+
+task_translations = {
+    "54":  "In der gezeigten Abbildung ist das Verhältnis der Längen der Abschnitte AB zu AC 2:5. Wenn AC die länge 25 hat, wie lang ist dann AB?",
+    "273": "Eine Diagonale des Rhombus ist doppelt so lang wie die andere. Wenn die Fläche des Rhombus 169 cm^2 beträgt, wie lang sind die Diagonalen?",
+    "280": "In der Abbildung ist ABCDEF ein regelmäßiges Sechseck mit dem Mittelpunkt O. Was ist der Wert des Winkels x?",
+    "318": "Was ist die Fläche der Figur in der Abbildung? Runde auf das nächste Zehntel, wenn notwendig.",
+    "355": "Wie in der Abbildung gezeigt, werden die Parallelen a und b von der Geraden c geschnitten. Wenn ∠1 = 50.0, wie groß ist dann ∠2?",
+    "455": "Wenn x = 32 und r = 18, was ist die Länge des Kreisabschnittes der in der Abbildung eingezeichnet ist?",
+    "478": "Wie in der Abbildung gezeigt, haben die Diagonalen des Diamanaten ABCD die folgenden Längen: AC = 12, BD = 16. Wie lang sind die Kanten des Diamenten?",
+    "505": "Gegeben der Kreis O hat einen Radius von 5 und die Länge der Linie AB ist 8. Wie groß ist die Distans von der Mittes des Kreises O zure Linie AB?",
+    "549": "Wie in der Abbildung gezeigt, sind PA und BA Tangenten des Kreises O zu den Punkten A und B. Die Punkte C und D bewegen sich auf den Linien PA und PB so dass CD immer eine Tangente des Kreises O ist. Wenn PA = 8, dann ist der Umfang des Dreiecks PCD gleich?",
+    "599": "In der gegebenen Abbildubng sind AC = 6 und BC = 3. Der Punkt P liegt auf der Linie AB zwischen A und B, sodass die Linie CP rechtwinklig zu AB ist. Wie lang ist die Linie CP?",
+    "669": "Die in der Abbildung gezeigte Linie AB hat eine Länge von 10. M ist die Mitte der Linie AB, C ist die Mitte des Abschnittes MB, N ist ein Punkt auf der Linie AM und MN = 1. Wie lang ist der Abschnitt NC?",
+    "690": "Die in der Abbildung gezeigten Linien M und N sind Parallel. Welche der folgenden Aussagen ist nicht wahr?",
+    "708": "Wie in der Abbildung gezeigt, liegt die Lichtquelle P unmittelbar über dem Balken AB. Der von AB geworfene Schatten ist die Linie CD. Es gilt AB || CD, AB = 2, CD = 5 und der Abstand von P zu CD ist 3. Wie groß ist der Abstand von AB und CD?",
+    "798": "Für die Abbildung gilt: l || m. Welche der Folgenden gleichung muss eine Summe von 180 Grad ergeben?",
+    "855": "Finde x sodass für die Abbildung gilt: a || b",
 }

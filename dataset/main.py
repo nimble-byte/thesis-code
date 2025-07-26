@@ -3,7 +3,7 @@ import os
 import csv
 import json
 
-from task_metadata import selected_item_ids, task_difficulties, task_sets
+from task_metadata import selected_item_ids, task_difficulties, task_sets, task_translations
 
 ds = load_dataset("AI4Math/MathVista", split="testmini")
 
@@ -15,6 +15,7 @@ os.makedirs(images_dir, exist_ok=True)
 csv_columns = [
     "pid",
     "question",
+    "translation",
     "image",
     "choices",
     "answer",
@@ -36,6 +37,7 @@ for item in ds:
         row = {
             "pid": item["pid"],
             "question": item["question"],
+            "translation": task_translations.get(item["pid"], "Keine Übersetzung verfügbar"),
             "image": image_filename,
             "choices": item['choices'],
             "answer": item["answer"],

@@ -2,6 +2,7 @@
 export interface Question {
   pid: string;
   question: string;
+  translation: string;
   image: string;
   choices: string[];
   answer: string;

@@ -30,7 +30,7 @@ export default function TaskComponent({ question, taskNumber, onAnswerChange, se
     >
       <h1 style={{ marginBottom: 16, textAlign: 'center', fontSize: '1.5rem' }}>{displayTitle}</h1>
       <img src={imageUrl} alt="Task" style={{ objectFit: 'contain', margin: '0 auto 16px auto', display: 'block' }} />
-      <h2 style={{ marginBottom: 16 }}>{question.question}</h2>
+      <h2 style={{ marginBottom: 16 }}>{question.translation}</h2>
       <form>
         {question.choices.map((opt, idx) => (
           <div key={idx} style={{ marginBottom: 8 }}>
