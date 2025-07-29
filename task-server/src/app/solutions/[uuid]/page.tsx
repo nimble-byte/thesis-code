@@ -1,8 +1,10 @@
 "use client";
+
 import React, { useEffect, useState } from "react";
-import TaskReportTable from "../_components/TaskReportTable";
+
 import SolutionIdDisplay from "@/components/SolutionIdDisplay";
 import { TaskSetSolution } from "@/types/solution";
+import TaskReportTable from "../_components/TaskReportTable";
 
 export default function SolutionPage(props: { params: Promise<{ uuid: string }> }) {
   const params = React.use(props.params);

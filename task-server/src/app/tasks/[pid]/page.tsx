@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
+
 import TaskComponent from '@/components/TaskComponent';
 import type { Question } from '@/types/question';
 
@@ -14,6 +15,7 @@ export default function TaskPage(props: { params: Promise<{ pid: string }> }) {
   const params = React.use(props.params);
   const { pid } = params;
   const [question, setQuestion] = useState<Question | null>(null);
+  const [answer, setAnswer] = useState<string | null>(null);
   const [status, setStatus] = useState<TaskPageStatus>(TaskPageStatus.LOADING);
   const [error, setError] = useState<string | null>(null);
 
@@ -38,7 +40,7 @@ export default function TaskPage(props: { params: Promise<{ pid: string }> }) {
 
   return (
     <div style={{ maxWidth: 480, margin: '24px auto', padding: 16 }}>
-      <TaskComponent question={question} />
+      <TaskComponent question={question} selected={answer} onAnswerChange={setAnswer} />
     </div>
   );
 }

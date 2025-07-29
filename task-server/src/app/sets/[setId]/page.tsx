@@ -1,14 +1,16 @@
 "use client";
+
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+
 import TaskComponent from "@/components/TaskComponent";
-import ProgressBar from "../_components/ProgressBar";
 import PrimaryButton from "@/components/PrimaryButton";
 import ActionBar from "@/components/ActionBar";
-import ReplaceTaskDialog from "../_components/ReplaceTaskDialog";
 import SecondaryButton from "@/components/SecondaryButton";
 import type { Question } from "@/types/question";
 import type { TaskAnswer, TaskSetSolution } from "@/types/solution";
+import ProgressBar from "../_components/ProgressBar";
+import ReplaceTaskDialog from "../_components/ReplaceTaskDialog";
 
 enum TaskSetUIStatus {
   LOADING = "loading",
@@ -133,10 +135,6 @@ export default function TaskSetPage(props: {
     setShowReplaceModal(false);
   };
 
-  const handleAnswerChange = (value: string) => {
-    setGivenAnswer(value);
-  };
-
   if (status === TaskSetUIStatus.LOADING) return <div>Loading task set...</div>;
   if (status === TaskSetUIStatus.ERROR) return <div>{submitError}</div>;
   if (questions.length === 0) return <div>No tasks found in this set.</div>;
@@ -165,7 +163,7 @@ export default function TaskSetPage(props: {
       <TaskComponent
         question={currentQuestion}
         taskNumber={currentTaskIndex + 1}
-        onAnswerChange={handleAnswerChange}
+        onAnswerChange={setGivenAnswer}
         selected={givenAnswer}
       />
 
