@@ -10,7 +10,7 @@ export default function ProgressBar({ currentStep, totalSteps, className }: Prog
   const progressPercentage = (currentStep / totalSteps) * 100;
 
   return (
-    <div className={className} style={{ width: '100%', maxWidth: 480, margin: '16px auto 24px auto', padding: '0 16px' }}>
+    <div className={className} style={{ width: '100%', maxWidth: 480, margin: '16px auto 16px auto' }}>
       <div style={{
         width: '100%',
         height: 8,

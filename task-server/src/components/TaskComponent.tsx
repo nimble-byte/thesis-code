@@ -3,20 +3,18 @@ import React from 'react';
 import type { Question } from '@/types/question';
 
 interface TaskComponentProps {
-  question: Question;
-  taskNumber?: number;
+  task: Question;
   onAnswerChange?: (selected: string) => void;
   selected?: string | null;
 }
 
 
-export default function TaskComponent({ question, taskNumber, onAnswerChange, selected }: TaskComponentProps) {
+export default function TaskComponent({ task, onAnswerChange, selected }: TaskComponentProps) {
   const handleSelectionChange = (value: string) => {
     onAnswerChange?.(value);
   };
 
-  const imageUrl = `/images/${question.image}`;
-  const displayTitle = taskNumber ? `Question ${taskNumber}` : `Question ${question.pid}`;
+  const imageUrl = `/images/${task.image}`;
 
   return (
     <div
@@ -28,11 +26,11 @@ export default function TaskComponent({ question, taskNumber, onAnswerChange, se
         width: '100%'
       }}
     >
-      <h1 style={{ marginBottom: 16, textAlign: 'center', fontSize: '1.5rem' }}>{displayTitle}</h1>
+      <h1 style={{ marginBottom: 16, textAlign: 'center', fontSize: '1.5rem' }}>Task: {task.pid}</h1>
       <img src={imageUrl} alt="Task" style={{ objectFit: 'contain', margin: '0 auto 16px auto', display: 'block' }} />
-      <h2 style={{ marginBottom: 16 }}>{question.translation}</h2>
+      <h2 style={{ marginBottom: 16 }}>{task.translation}</h2>
       <form>
-        {question.choices.map((opt, idx) => (
+        {task.choices.map((opt, idx) => (
           <div key={idx} style={{ marginBottom: 8 }}>
             <label>
               <input

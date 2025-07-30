@@ -19,23 +19,17 @@ enum TaskSetUIStatus {
   SUBMITTING = "submitting",
 }
 
-export default function TaskSetPage(props: {
-  params: Promise<{ setId: string }>;
-}) {
+export default function TaskSetPage(props: { params: Promise<{ setId: string }> }) {
   const router = useRouter();
   const params = React.use(props.params);
   const { setId } = params;
   const [currentTaskIndex, setCurrentTaskIndex] = useState(0);
-  const [currentTaskStartedAt, setCurrentTaskStartedAt] = useState<Date>(
-    new Date()
-  );
+  const [currentTaskStartedAt, setCurrentTaskStartedAt] = useState<Date>(new Date());
   const [givenAnswer, setGivenAnswer] = useState<string | null>(null);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [showReplaceModal, setShowReplaceModal] = useState(false);
   const [solutionAnswers, setSolutionAnswers] = useState<TaskAnswer[]>([]);
-  const [status, setStatus] = useState<TaskSetUIStatus>(
-    TaskSetUIStatus.LOADING
-  );
+  const [status, setStatus] = useState<TaskSetUIStatus>(TaskSetUIStatus.LOADING);
   const [submitError, setSubmitError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -108,8 +102,7 @@ export default function TaskSetPage(props: {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(solution),
       });
-      if (!res.ok)
-        throw new Error((await res.json()).error || "Failed to save solution");
+      if (!res.ok) throw new Error((await res.json()).error || "Failed to save solution");
       setSolutionAnswers([]);
       router.push(`/sets/completed?uuid=${solution.uuid}`);
     } catch (err: any) {
@@ -123,9 +116,7 @@ export default function TaskSetPage(props: {
   };
 
   const handleReplaceTask = (newTask: Question) => {
-    setQuestions((prev) =>
-      prev.map((q, idx) => (idx === currentTaskIndex ? newTask : q))
-    );
+    setQuestions((prev) => prev.map((q, idx) => (idx === currentTaskIndex ? newTask : q)));
     setCurrentTaskStartedAt(new Date());
     setGivenAnswer(null);
     setShowReplaceModal(false);
@@ -154,18 +145,10 @@ export default function TaskSetPage(props: {
       }}
     >
       {/* Progress bar */}
-      <ProgressBar
-        currentStep={currentTaskIndex + 1}
-        totalSteps={questions.length}
-      />
+      <ProgressBar currentStep={currentTaskIndex + 1} totalSteps={questions.length} />
 
       {/* Current task */}
-      <TaskComponent
-        question={currentQuestion}
-        taskNumber={currentTaskIndex + 1}
-        onAnswerChange={setGivenAnswer}
-        selected={givenAnswer}
-      />
+      <TaskComponent task={currentQuestion} onAnswerChange={setGivenAnswer} selected={givenAnswer} />
 
       {/* Error message (above action bar) */}
       {isLastTask && submitError && (
@@ -188,14 +171,9 @@ export default function TaskSetPage(props: {
 
       {/* Action bar at the bottom of the content */}
       <ActionBar>
-        <SecondaryButton onClick={handleReplaceTaskClick}>
-          Replace Task
-        </SecondaryButton>
+        <SecondaryButton onClick={handleReplaceTaskClick}>Replace Task</SecondaryButton>
         {!isLastTask && (
-          <PrimaryButton
-            onClick={handleNextTask}
-            disabled={!givenAnswer || status === TaskSetUIStatus.SUBMITTING}
-          >
+          <PrimaryButton onClick={handleNextTask} disabled={!givenAnswer || status === TaskSetUIStatus.SUBMITTING}>
             Next Task →
           </PrimaryButton>
         )}
@@ -204,9 +182,7 @@ export default function TaskSetPage(props: {
             onClick={handleSubmitSolution}
             disabled={!givenAnswer || status === TaskSetUIStatus.SUBMITTING}
           >
-            {status === TaskSetUIStatus.SUBMITTING
-              ? "Saving..."
-              : "Submit Solution"}
+            {status === TaskSetUIStatus.SUBMITTING ? "Saving..." : "Submit Solution"}
           </PrimaryButton>
         )}
       </ActionBar>

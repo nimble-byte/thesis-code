@@ -40,7 +40,7 @@ export default function TaskPage(props: { params: Promise<{ pid: string }> }) {
 
   return (
     <div style={{ maxWidth: 480, margin: '24px auto', padding: 16 }}>
-      <TaskComponent question={question} selected={answer} onAnswerChange={setAnswer} />
+      <TaskComponent task={question} selected={answer} onAnswerChange={setAnswer} />
     </div>
   );
 }
