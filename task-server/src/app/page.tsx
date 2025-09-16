@@ -33,9 +33,14 @@ export default function Home() {
         {/* Section 1: Example Task Button */}
         <div className="flex flex-col items-start gap-2">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Welcome</h1>
-          <Link href="/tasks/318">
-            <SecondaryButton>Example Task</SecondaryButton>
-          </Link>
+          <div className="flex flex-row gap-4">
+            <Link href="/tasks/318">
+              <SecondaryButton>Example Task 1</SecondaryButton>
+            </Link>
+            <Link href="/tasks/280">
+              <SecondaryButton>Example Task 2</SecondaryButton>
+            </Link>
+          </div>
         </div>
 
         {/* Section 2: Set Buttons */}
@@ -56,7 +61,7 @@ export default function Home() {
           <h2 className="text-xl font-semibold mb-2">Past Results</h2>
           {loading && <div className="text-gray-500">Loading...</div>}
           {error && <div className="text-red-500">{error}</div>}
-          {!loading && !error && solutions.length > 0 &&(
+          {!loading && !error && solutions.length > 0 && (
             <LandingResultsTable solutions={solutions} />
           )}
         </div>
