@@ -47,6 +47,7 @@ pytz==2025.2
 PyYAML==6.0.2
 pyzmq==27.1.0
 requests==2.32.4
+scipy==1.16.2
 six==1.17.0
 stack-data==0.6.3
 tornado==6.5.2
