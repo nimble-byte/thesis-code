@@ -86,3 +86,9 @@ type_dict = {
     "load[SQ005]": "Int64",
     "load[SQ006]": "Int64",
 }
+
+## create lists of columns for each construct
+pu_cols = [col for col in question_dict.keys() if col.startswith("usefulness")]
+peou_cols = [col for col in question_dict.keys() if col.startswith("ease_of_use")]
+se_cols = [col for col in question_dict.keys() if col.startswith("self_efficacy")]
+load_cols = [col for col in question_dict.keys() if col.startswith("load")]
