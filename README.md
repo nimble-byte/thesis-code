@@ -5,8 +5,8 @@ This repository contains various code snippets and scripts used for my master th
 ## Folder Structure
 
 - `dataset/` — Code to create the custom dataset used for the study.
-- `evaluation/` — Scripts for evaluating the results of the study.
-- `figures/` — Scripts to generate figures for the thesis.
+- `evaluation/` — Scripts for evaluating the results of the study and generating plots.
+- `task-server` - Tool used to provide the maths problems to participants during the study.
 
 ## Python Environment
 
