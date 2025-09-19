@@ -6,11 +6,11 @@ This repository contains various code snippets and scripts used for my master th
 
 - `dataset/` — Code to create the custom dataset used for the study.
 - `evaluation/` — Scripts for evaluating the results of the study and generating plots.
-- `task-server` - Tool used to provide the maths problems to participants during the study.
+- `task-server/` - Tool used to provide the maths problems to participants during the study.
 
 ## Python Environment
 
-A single, shared Python environment is used for all code in this repository. The recommended version is **Python 3.13+** (see below for setup instructions).
+A single, shared Python environment is used for all code in this repository. The recommended version is **Python 3.12** (see below for setup instructions).
 
 All dependencies are listed in `requirements.txt` at the root of the repository. This ensures a consistent environment for running all scripts.
 
@@ -39,7 +39,29 @@ All dependencies are listed in `requirements.txt` at the root of the repository.
    python dataset/main.py
    ```
 
+## NextJS Application
+
+The `task-server` folder contains a NextJS application used to serve the maths problems to participants during the study. It was created using [Bun](https://bun.sh) (version `v1.2.18`) and the application was bootstrapped with the command `bun create next` command.
+
+To set up and run the NextJS application, follow these steps:
+
+1. **Navigate to the task-server directory:**
+   ```sh
+   cd task-server
+   ```
+
+2. **Install Node.js dependencies:**
+   ```sh
+   bun install
+   ```
+
+3. **Run the NextJS application:**
+   ```sh
+   bun run dev
+   ```
+
 ## Notes
 
 - Make sure to activate the virtual environment before running any scripts.
-- If you add new dependencies, run `pip freeze > requirements.txt` to update the requirements file.
+- The NextJS application was created using Bun, but it should be compatible with Node.js and Deno as well.
+- Significant portions of the code for the task server were written using GitHub Copilot
