@@ -1,0 +1,20 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Master Thesis Code
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Til
+    family-names: Goepfert
+repository-code: 'https://github.com/nimble-byte/thesis-code'
+abstract: >-
+  Supporting code and software used during my master thesis.
+  The repository contains code to create the used data set
+  as subset of MathVista, a NextJS application to serve the
+  tasks to users and the code used to evaluate the
+  quantitative data collected during the study.
+license: MIT
