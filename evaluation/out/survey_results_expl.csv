@@ -1,8 +1,0 @@
-id,group,usefulness[SQ001],usefulness[SQ002],usefulness[SQ003],usefulness[SQ004],usefulness[SQ005],usefulness[SQ006],ease_of_use[SQ001],ease_of_use[SQ002],ease_of_use[SQ003],ease_of_use[SQ004],ease_of_use[SQ005],ease_of_use[SQ006],self_efficacy[SQ001],self_efficacy[SQ002],self_efficacy[SQ003],self_efficacy[SQ004],self_efficacy[SQ005],self_efficacy[SQ006],self_efficacy[SQ007],self_efficacy[SQ008],self_efficacy[SQ009],self_efficacy[SQ010],load[SQ001],load[SQ002],load[SQ003],load[SQ004],load[SQ005],load[SQ006]
-1,E,7,5,6,6,6,7,7,7,7,6,6,6,10,7,4,2,6,8,3,1,8,9,10,1,3,5,10,4
-4,E,7,7,7,7,7,7,7,6,7,6,7,7,10,10,10,10,10,10,10,9,10,10,2,0,0,2,0,0
-7,E,4,4,6,6,6,6,7,4,4,4,6,6,9,8,10,10,10,10,2,9,10,2,4,0,0,4,0,0
-8,E,5,2,6,4,6,6,7,6,6,7,6,7,10,9,10,10,10,9,10,7,10,10,18,2,0,1,17,1
-9,E,7,5,6,6,7,6,7,7,7,7,7,7,10,9,10,10,10,10,10,9,10,10,13,0,0,7,13,1
-10,E,5,6,4,6,5,6,5,4,5,5,6,6,9,4,5,3,6,5,5,6,5,6,10,0,14,7,8,9
-15,E,5,6,7,7,7,7,5,1,6,4,5,6,8,10,7,9,10,8,10,9,10,10,18,3,18,1,18,3

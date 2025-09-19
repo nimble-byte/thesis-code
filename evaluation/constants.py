@@ -9,37 +9,6 @@ meta_cols = [
     "UUID",
 ]
 
-question_dict = {
-    "usefulness[SQ001]": "Using the chatbot for learning enable me to accomplish tasks more quickly.",
-    "usefulness[SQ002]": "Using the chatbot would improve my learning performance.",
-    "usefulness[SQ003]": "Using the chatbot in my Job would increase my learning outcomes.",
-    "usefulness[SQ004]": "Using the chatbot would enhance my effectiveness when learning.",
-    "usefulness[SQ005]": "Using the chatbot would make it easier to learn maths.",
-    "usefulness[SQ006]": "I would find the chatbot useful for learning.",
-    "ease_of_use[SQ001]": "Learning to operate the chatbot would be easy for me.",
-    "ease_of_use[SQ002]": "I would find it easy to get the chatbot to do what I want.",
-    "ease_of_use[SQ003]": "My interaction with the chatbot would be clear and understandable.",
-    "ease_of_use[SQ004]": "I would find the chatbot to be flexible to interact with.",
-    "ease_of_use[SQ005]": "It would be easy for me to become skillful at using the chatbot.",
-    "ease_of_use[SQ006]": "I would find the chatbot easy to use.",
-    "self_efficacy[SQ001]": "...if there was no one around to tell me what to do as I go.",
-    "self_efficacy[SQ002]": "...if I had never used a tool like it before.",
-    "self_efficacy[SQ003]": "...if I had only the software manuals for reference.",
-    "self_efficacy[SQ004]": "...if I had seen someone else using it before trying it myself.",
-    "self_efficacy[SQ005]": "...if I could call someone for help if I got stuck.",
-    "self_efficacy[SQ006]": "...if someone else had helped me get started.",
-    "self_efficacy[SQ007]": "...if I had a lot of time to solve the problems for which the tool was provided.",
-    "self_efficacy[SQ008]": "...if I had just the built-in help facility for assistance.",
-    "self_efficacy[SQ009]": "...if someone showed me how to do it first.",
-    "self_efficacy[SQ010]": "...if I had used a similar tool before this one to solve the same problems.",
-    "load[SQ001]": "Mental Demand",
-    "load[SQ002]": "Physical Demand",
-    "load[SQ003]": "Temporal Demand",
-    "load[SQ004]": "Performance",
-    "load[SQ005]": "Effort",
-    "load[SQ006]": "Frustration",
-}
-
 type_dict = {
     "id": "Int64",
     "submitdate": "str",
@@ -88,7 +57,7 @@ type_dict = {
 }
 
 ## create lists of columns for each construct
-pu_cols = [col for col in question_dict.keys() if col.startswith("usefulness")]
-peou_cols = [col for col in question_dict.keys() if col.startswith("ease_of_use")]
-se_cols = [col for col in question_dict.keys() if col.startswith("self_efficacy")]
-load_cols = [col for col in question_dict.keys() if col.startswith("load")]
+pu_cols = [col for col in type_dict.keys() if col.startswith("usefulness")]
+peou_cols = [col for col in type_dict.keys() if col.startswith("ease_of_use")]
+se_cols = [col for col in type_dict.keys() if col.startswith("self_efficacy")]
+load_cols = [col for col in type_dict.keys() if col.startswith("load")]
