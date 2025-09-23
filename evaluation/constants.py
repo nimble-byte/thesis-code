@@ -9,6 +9,16 @@ meta_cols = [
     "UUID",
 ]
 
+norm_bounds = {
+    "Perceived Usefulness": (1, 7),
+    "Perceived Ease of Use": (1, 7),
+    "Self-Efficacy": (1, 10),
+    "Mental Load": (0, 20),
+    "Performance": (0, 20),
+    "Effort": (0, 20),
+    "Frustration": (0, 20)
+}
+
 type_dict = {
     "id": "Int64",
     "submitdate": "str",
