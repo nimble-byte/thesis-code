@@ -11,7 +11,7 @@ node_modules/
 
 # Misc
 # ignore images symlink
-images
+task-server/public/images
 
 # Dataset images
 dataset/data/images/
