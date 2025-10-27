@@ -8,10 +8,3 @@ node_modules/
 
 # MacOS
 .DS_Store
-
-# Misc
-# ignore images symlink
-task-server/public/images
-
-# Dataset images
-dataset/data/images/

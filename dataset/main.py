@@ -7,9 +7,9 @@ from task_metadata import selected_item_ids, task_difficulties, task_sets, task_
 
 ds = load_dataset("AI4Math/MathVista", split="testmini")
 
-output_csv_path = os.path.join(os.getcwd(), "dataset", "data/filtered_dataset.csv")
-output_JSON_path = os.path.join(os.getcwd(), "dataset", "data/filtered_dataset.json")
-images_dir = os.path.join(os.getcwd(), "dataset", "data/images")
+output_csv_path = os.path.join(os.getcwd(), "data/filtered_dataset.csv")
+output_JSON_path = os.path.join(os.getcwd(), "data/filtered_dataset.json")
+images_dir = os.path.join(os.getcwd(), "data/images")
 os.makedirs(images_dir, exist_ok=True)
 
 csv_columns = [

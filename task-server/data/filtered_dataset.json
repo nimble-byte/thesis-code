@@ -1,0 +1,263 @@
+[
+    {
+        "pid": "54",
+        "question": "In the figure above, the ratio of the length of line AB to the length of line AC is 2 : 5. If AC = 25, what is the length of line AB?",
+        "translation": "In der gezeigten Abbildung ist das Verhältnis der Längen der Abschnitte AB zu AC 2:5. Wenn AC die länge 25 hat, wie lang ist dann AB?",
+        "image": "54.png",
+        "choices": [
+            "8",
+            "10",
+            "15",
+            "18",
+            "20"
+        ],
+        "answer": "10",
+        "img_height": 310,
+        "img_width": 433,
+        "difficulty": "difficult",
+        "set": "d4ff4bd9-8dd2-4894-b3ce-bc027713d93d"
+    },
+    {
+        "pid": "273",
+        "question": "One diagonal of a rhombus is twice as long as the other diagonal. If the area of the rhombus is 169 square millimeters, what are the lengths of the diagonals?",
+        "translation": "Eine Diagonale des Rhombus ist doppelt so lang wie die andere. Wenn die Fläche des Rhombus 169 cm^2 beträgt, wie lang sind die Diagonalen?",
+        "image": "273.png",
+        "choices": [
+            "6.5",
+            "13",
+            "26",
+            "52"
+        ],
+        "answer": "26",
+        "img_height": 237,
+        "img_width": 347,
+        "difficulty": "medium",
+        "set": null
+    },
+    {
+        "pid": "280",
+        "question": "In the figure above, ABCDEF is a regular hexagon, and its center is point O. What is the value of x?",
+        "translation": "In der Abbildung ist ABCDEF ein regelmäßiges Sechseck mit dem Mittelpunkt O. Was ist der Wert des Winkels x?",
+        "image": "280.png",
+        "choices": [
+            "80",
+            "60",
+            "40",
+            "30",
+            "20"
+        ],
+        "answer": "60",
+        "img_height": 123,
+        "img_width": 130,
+        "difficulty": "easy",
+        "set": null
+    },
+    {
+        "pid": "318",
+        "question": "Find the area of the figure. Round to the nearest tenth if necessary.",
+        "translation": "Was ist die Fläche der Figur in der Abbildung? Runde auf das nächste Zehntel, wenn notwendig.",
+        "image": "318.png",
+        "choices": [
+            "191.5",
+            "1128",
+            "2256",
+            "4512"
+        ],
+        "answer": "2256",
+        "img_height": 175,
+        "img_width": 239,
+        "difficulty": "easy",
+        "set": null
+    },
+    {
+        "pid": "355",
+        "question": "As shown in the figure, the parallel lines a and b are intercepted by the straight line c. If ∠1 = 50.0, then the degree of ∠2 is ()",
+        "translation": "Wie in der Abbildung gezeigt, werden die Parallelen a und b von der Geraden c geschnitten. Wenn ∠1 = 50.0, wie groß ist dann ∠2?",
+        "image": "355.png",
+        "choices": [
+            "150°",
+            "130°",
+            "110°",
+            "100°"
+        ],
+        "answer": "130°",
+        "img_height": 110,
+        "img_width": 157,
+        "difficulty": "easy",
+        "set": null
+    },
+    {
+        "pid": "455",
+        "question": "If x = 32 and r = 18, what is the length of the arc shown in the figure above?",
+        "translation": "Wenn x = 32 und r = 18, was ist die Länge des Kreisabschnittes der in der Abbildung eingezeichnet ist?",
+        "image": "455.png",
+        "choices": [
+            "16*\\pi/5",
+            "32*\\pi/5",
+            "36*\\pi",
+            "288*\\pi/5",
+            "576*\\pi"
+        ],
+        "answer": "16*\\pi/5",
+        "img_height": 353,
+        "img_width": 575,
+        "difficulty": "difficult",
+        "set": "d4ff4bd9-8dd2-4894-b3ce-bc027713d93d"
+    },
+    {
+        "pid": "478",
+        "question": "As shown in the figure, in the diamond ABCD, two diagonal lines AC = 12.0, BD = 16.0, then the edge length of this diamond is ()",
+        "translation": "Wie in der Abbildung gezeigt, haben die Diagonalen des Diamanaten ABCD die folgenden Längen: AC = 12, BD = 16. Wie lang sind die Kanten des Diamenten?",
+        "image": "478.png",
+        "choices": [
+            "10",
+            "8",
+            "6",
+            "5"
+        ],
+        "answer": "10",
+        "img_height": 97,
+        "img_width": 125,
+        "difficulty": "medium",
+        "set": "d4ff4bd9-8dd2-4894-b3ce-bc027713d93d"
+    },
+    {
+        "pid": "505",
+        "question": "As shown in the figure, in the circle O with a radius of 5.0, the length of the chord AB is 8.0, then the distance from the center O to the chord AB is ()",
+        "translation": "Gegeben der Kreis O hat einen Radius von 5 und die Länge der Linie AB ist 8. Wie groß ist die Distans von der Mittes des Kreises O zure Linie AB?",
+        "image": "505.png",
+        "choices": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "answer": "3",
+        "img_height": 92,
+        "img_width": 100,
+        "difficulty": "difficult",
+        "set": "32d38798-d518-4e85-97dd-cced67301503"
+    },
+    {
+        "pid": "549",
+        "question": "As shown in the figure, PA and PB are tangent to ⊙O to A and B respectively. Point C and point D are the moving points on line segments PA and PB, and CD always remains tangent to circle O. If PA = 8.0, then perimeter of △PCD is ()",
+        "translation": "Wie in der Abbildung gezeigt, sind PA und BA Tangenten des Kreises O zu den Punkten A und B. Die Punkte C und D bewegen sich auf den Linien PA und PB so dass CD immer eine Tangente des Kreises O ist. Wenn PA = 8, dann ist der Umfang des Dreiecks PCD gleich?",
+        "image": "549.png",
+        "choices": [
+            "8",
+            "12",
+            "16",
+            "不能确定"
+        ],
+        "answer": "16",
+        "img_height": 111,
+        "img_width": 192,
+        "difficulty": "difficult",
+        "set": null
+    },
+    {
+        "pid": "599",
+        "question": "In the figure above, AC = 6 and BC = 3. Point P lies on line AB between A and B such that line CP is perpendicular to line AB. Which of the following could be the length of line CP?",
+        "translation": "In der gegebenen Abbildubng sind AC = 6 und BC = 3. Der Punkt P liegt auf der Linie AB zwischen A und B, sodass die Linie CP rechtwinklig zu AB ist. Wie lang ist die Linie CP?",
+        "image": "599.png",
+        "choices": [
+            "2",
+            "4",
+            "5",
+            "7",
+            "8"
+        ],
+        "answer": "2",
+        "img_height": 340,
+        "img_width": 393,
+        "difficulty": "difficult",
+        "set": "32d38798-d518-4e85-97dd-cced67301503"
+    },
+    {
+        "pid": "669",
+        "question": "As shown in the figure, line segment AB = 10.0, M is the midpoint of line segment AB, C is the midpoint of line segment MB, N is a point of line segment AM, and MN = 1.0, the length of line segment NC ()",
+        "translation": "Die in der Abbildung gezeigte Linie AB hat eine Länge von 10. M ist die Mitte der Linie AB, C ist die Mitte des Abschnittes MB, N ist ein Punkt auf der Linie AM und MN = 1. Wie lang ist der Abschnitt NC?",
+        "image": "669.png",
+        "choices": [
+            "2",
+            "2.5",
+            "3",
+            "3.5"
+        ],
+        "answer": "3.5",
+        "img_height": 18,
+        "img_width": 187,
+        "difficulty": "medium",
+        "set": "32d38798-d518-4e85-97dd-cced67301503"
+    },
+    {
+        "pid": "690",
+        "question": "In the diagram above, lines M and N are parallel. All of the following are true except",
+        "translation": "Die in der Abbildung gezeigten Linien M und N sind Parallel. Welche der folgenden Aussagen ist nicht wahr?",
+        "image": "690.png",
+        "choices": [
+            "a + b = j + l",
+            "g = h",
+            "c + f = f + b",
+            "g + e + f + h = 360",
+            "d + e = f + j"
+        ],
+        "answer": "d + e = f + j",
+        "img_height": 558,
+        "img_width": 625,
+        "difficulty": "easy",
+        "set": null
+    },
+    {
+        "pid": "708",
+        "question": "As shown in the figure, the light source P is directly above the crossbar AB, the shadow of AB under the light is CD, AB ∥ CD, AB = 2.0, CD = 5.0, the distance between point P and CD is 3.0, then the distance between AB and CD is ().",
+        "translation": "Wie in der Abbildung gezeigt, liegt die Lichtquelle P unmittelbar über dem Balken AB. Der von AB geworfene Schatten ist die Linie CD. Es gilt AB || CD, AB = 2, CD = 5 und der Abstand von P zu CD ist 3. Wie groß ist der Abstand von AB und CD?",
+        "image": "708.png",
+        "choices": [
+            "\\frac{6}{5}",
+            "\\frac{7}{6}",
+            "\\frac{9}{5}",
+            "\\frac{15}{2}"
+        ],
+        "answer": "\\frac{9}{5}",
+        "img_height": 110,
+        "img_width": 156,
+        "difficulty": "medium",
+        "set": null
+    },
+    {
+        "pid": "798",
+        "question": "In the figure above, l || m. Which of the following must equal 180?",
+        "translation": "Für die Abbildung gilt: l || m. Welche der Folgenden gleichung muss eine Summe von 180 Grad ergeben?",
+        "image": "798.png",
+        "choices": [
+            "k + n + r",
+            "k + p + s",
+            "n + p + s",
+            "n + p + t",
+            "r + s + t"
+        ],
+        "answer": "k + p + s",
+        "img_height": 372,
+        "img_width": 371,
+        "difficulty": "easy",
+        "set": null
+    },
+    {
+        "pid": "855",
+        "question": "Find $x$ so that $a ∥ b$.",
+        "translation": "Finde x sodass für die Abbildung gilt: a || b",
+        "image": "855.png",
+        "choices": [
+            "2.5",
+            "14",
+            "15",
+            "16"
+        ],
+        "answer": "14",
+        "img_height": 250,
+        "img_width": 536,
+        "difficulty": "easy",
+        "set": null
+    }
+]

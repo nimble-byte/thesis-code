@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import type { Question } from '@/types/question';
 
-const datasetPath = path.resolve(process.env.DATASET_PATH || '');
+const datasetPath = path.resolve(process.env.DATASET_PATH || './data/');
 const questionsFileCsvPath = path.join(datasetPath, 'filtered_dataset.csv');
 const questionsFileJsonPath = path.join(datasetPath, 'filtered_dataset.json');
 
