@@ -1,10 +1,10 @@
 # Python
-.venv
+# .venv
 __pycache__
 
 # Next.js
 .next
-node_modules/
+# node_modules/
 
 # MacOS
 .DS_Store
