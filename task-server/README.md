@@ -31,7 +31,7 @@ The application provides a user interface for participants to solve maths proble
 
 The home screen contains several buttons for different functionalities:
 
-- **Example Task 1** and **Example Task 2**: Load predefined example tasks for demonstration purposes.
-- **Start Set 1** and **Start Set 2**: Begin a set of tasks from the dataset for the study.
+- Buttons to load specific example tasks (not used in the study) for demonstration purposes.
+- A button to start a task set that was used during the study.
 
 Below the buttons is an area where past results are displayed, showing the participant ID, task set ID and a link to detailed results. Result storage is handled locally on the hosts file system in the `data/solutions/` folder.

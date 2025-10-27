@@ -47,11 +47,8 @@ export default function Home() {
         <div className="flex flex-col items-start gap-2">
           <h2 className="text-xl font-semibold mb-2">Start a Set</h2>
           <div className="flex flex-row gap-4">
-            <Link href="/sets/d4ff4bd9-8dd2-4894-b3ce-bc027713d93d">
-              <SecondaryButton>Start Set 1</SecondaryButton>
-            </Link>
             <Link href="/sets/32d38798-d518-4e85-97dd-cced67301503">
-              <SecondaryButton>Start Set 2</SecondaryButton>
+              <SecondaryButton>Start Experiment</SecondaryButton>
             </Link>
           </div>
         </div>

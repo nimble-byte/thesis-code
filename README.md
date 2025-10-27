@@ -64,7 +64,7 @@ To set up and run the NextJS application, follow these steps:
 
 ## Included Libraries
 
-For archival purposes, the libraries used are committed to this project including the relevant `venv` and `node_modules` folders. These installations were performed using an M4 MacBook Pro running macOS Tahoe 26.0.1. Due to the differences in architecture and operating systems, Python packages might not work as expected on non-Apple Silicon Macs or non-ARM architectures. JavaScript packages should be more portable, but compatibility on Windows or x86 architectures is not guaranteed.
+For archival purposes, the libraries used are committed to this project including the relevant `venv`. These installations were performed using an M4 MacBook Pro running macOS Tahoe 26.0.1 with Python 3.12.12. Due to the differences in architecture and operating systems, Python packages might not work as expected on non-Apple Silicon Macs or non-ARM architectures.
 
 **Compatibility on Windows or x86 architectures is not guaranteed.**
 
