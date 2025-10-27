@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/solutions/[uuid]/route": "app/api/solutions/[uuid]/route.js",
+  "/api/sets/[setId]/route": "app/api/sets/[setId]/route.js",
+  "/api/tasks/route": "app/api/tasks/route.js",
+  "/api/solutions/route": "app/api/solutions/route.js",
+  "/api/tasks/[pid]/route": "app/api/tasks/[pid]/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/sets/[setId]/page": "app/sets/[setId]/page.js",
+  "/sets/completed/page": "app/sets/completed/page.js",
+  "/tasks/[pid]/page": "app/tasks/[pid]/page.js",
+  "/solutions/[uuid]/page": "app/solutions/[uuid]/page.js",
+  "/page": "app/page.js"
+}

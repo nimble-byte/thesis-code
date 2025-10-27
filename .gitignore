@@ -2,9 +2,5 @@
 # .venv
 __pycache__
 
-# Next.js
-.next
-# node_modules/
-
 # MacOS
 .DS_Store
