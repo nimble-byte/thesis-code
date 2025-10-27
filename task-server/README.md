@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Task Server
+
+This project contains the code for the Next.js application used as the task server during the experiments. It is built on [Next.js](https://nextjs.org). Running the application requires a JavaScript runtime such as [Bun](https://bun.sh/) or [Node.js](https://nodejs.org/). This the project was created using [Bun](https://bun.sh) (version `v1.3.0`) and the examples will use Bun commands, but the project can also be run in Node.js.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the task server, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Copy the json file and images from the `dataset` folder**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   Ensure that you have the necessary dataset files in the `public` directory of the `task-server` folder. You can copy them from the `dataset` folder in the root of the repository:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   cp ../dataset/out/filtered_dataset.json ./data/
+   cp -r ../dataset/out/images ./public/
+   ```
+2. **Install dependencies:**
+   ```bash
+   bun install
+   ```
+3. **Run the development server:**
+   ```bash
+   bun dev
+   ```
+4. **Open the application:**
+   Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Functionality
 
-## Learn More
+The application provides a user interface for participants to solve maths problems. It loads problems from a JSON file and displays them along with any associated images. Participants can submit their answers, which are then recorded for later analysis.
 
-To learn more about Next.js, take a look at the following resources:
+The home screen contains several buttons for different functionalities:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Example Task 1** and **Example Task 2**: Load predefined example tasks for demonstration purposes.
+- **Start Set 1** and **Start Set 2**: Begin a set of tasks from the dataset for the study.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Below the buttons is an area where past results are displayed, showing the participant ID, task set ID and a link to detailed results. Result storage is handled locally on the hosts file system in the `data/solutions/` folder.
