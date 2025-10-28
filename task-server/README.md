@@ -17,10 +17,14 @@ To get started with the task server, follow these steps:
 2. **Install dependencies:**
    ```bash
    bun install
+   # or using NodeJS/npm
+   npm install
    ```
 3. **Run the development server:**
    ```bash
-   bun dev
+   bun run dev
+   # or using NodeJS/npm
+   npm run dev
    ```
 4. **Open the application:**
    Visit [http://localhost:3000](http://localhost:3000) in your browser.

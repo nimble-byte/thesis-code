@@ -38,12 +38,13 @@ All dependencies are listed in `requirements.txt` at the root of the repository.
 4. **Run scripts:**
    You can now run scripts from any folder using the shared environment. For example:
    ```sh
-   python dataset/main.py
+   cd dataset
+   python ./main.py
    ```
 
 ## NextJS Application
 
-The `task-server` folder contains a NextJS application used to serve the maths problems to participants during the study. It was created using [Bun](https://bun.sh) (version `v1.2.18`) and the application was bootstrapped with the command `bun create next` command.
+The `task-server` folder contains a NextJS application used to serve the maths problems to participants during the study. It was created using [Bun](https://bun.sh) (version `v1.3.0`) and the application was bootstrapped with the command `bun create next` command.
 
 To set up and run the NextJS application, follow these steps:
 
@@ -55,18 +56,18 @@ To set up and run the NextJS application, follow these steps:
 2. **Install Node.js dependencies:**
    ```sh
    bun install
+   # or using NodeJS/npm
+   npm install
    ```
 
 3. **Run the NextJS application:**
    ```sh
    bun run dev
+   # or using NodeJS/npm
+   npm run dev
    ```
 
-## Included Libraries
-
-For archival purposes, the libraries used are committed to this project including the relevant `venv`. These installations were performed using an M4 MacBook Pro running macOS Tahoe 26.0.1 with Python 3.12.12. Due to the differences in architecture and operating systems, Python packages might not work as expected on non-Apple Silicon Macs or non-ARM architectures.
-
-**Compatibility on Windows or x86 architectures is not guaranteed.**
+**Note: Ensure you have copied the necessary files from the `dataset/` folder according the instructions in `task-server/README.md` before running the application.**
 
 ## Notes
 

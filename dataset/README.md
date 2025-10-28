@@ -1,6 +1,7 @@
 # Dataset Preparation
 
-This folder contains the code used to create the custom dataset for the study. The main script is `main.py`, which processes the MathVista dataset to filter and format the problems according to the study requirements.
+This folder contains the code used to create the custom dataset for the study. The main script is `main.py`, which processes the MathVista dataset to filter and format the problems according to the study requirements.  Some additional information about the tasks was externalisd to the (`task_metadata.py`) file.
+
 
 ## Getting Started
 

@@ -1,7 +1,6 @@
 # Evaluation Notebook
 
-This directory contains a Jupyter Notebook (`evaluation_notebook.ipynb`) used to evaluate the results of the study. The notebook includes code to analyse the questionnaire responses and create plots for the presentation.
-
+This directory contains a Jupyter Notebook (`evaluation_notebook.ipynb`) used to evaluate the results of the study. The notebook includes code to analyse the questionnaire responses and create plots for the presentation. Helper variables have been extracted to the `constants.py` file for easier configuration.
 ## Getting Started
 
 If you set up the repository wide Python environment as described in the main `README.md`, you can run the notebook directly. If you haven't set up the environment yet, follow the steps outlined in the [main README](../README.md) first.
