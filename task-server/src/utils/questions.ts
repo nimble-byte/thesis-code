@@ -32,7 +32,12 @@ function parseJSON(filePath: string): Question[] {
 export function getQuestions(): Question[] {
   if (!cachedQuestions) {
     // cachedQuestions = parseCSV(questionsFileCsvPath);
-    cachedQuestions = parseJSON(questionsFileJsonPath)
+    try {
+      cachedQuestions = parseJSON(questionsFileJsonPath);
+    } catch (error) {
+      console.error("Error parsing JSON file:", error);
+      throw error;
+    }
   }
   return cachedQuestions;
 }

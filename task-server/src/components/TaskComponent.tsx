@@ -30,7 +30,7 @@ export default function TaskComponent({ task, onAnswerChange, selected }: TaskCo
       <img src={imageUrl} alt="Task" style={{ objectFit: 'contain', margin: '0 auto 16px auto', display: 'block' }} />
       <h2 style={{ marginBottom: 16 }}>{task.translation}</h2>
       <form>
-        {task.choices.map((opt, idx) => (
+        {task.choices && task.choices.map((opt, idx) => (
           <div key={idx} style={{ marginBottom: 8 }}>
             <label>
               <input
