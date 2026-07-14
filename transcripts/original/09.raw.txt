@@ -28,6 +28,7 @@ LLM:
     <think>Der Benutzer hat eine Strecke, die in zwei Abschnitte unterteilt ist. Er kennt das Verhältnis dieser beiden Abschnitte zueinander sowie die Gesamtlänge der Strecke. Um die Längen der einzelnen Abschnitte zu berechnen, muss er das Verhältnis in Bezug zur Gesamtlänge setzen und dann die entsprechenden Anteile ausrechnen.</think>
     Um die Längen der einzelnen Abschnitte zu berechnen, kannst du folgendermaßen vorgehen:\n\n1. Drücke das Verhältnis der beiden Abschnitte als Bruch dar (z.B. 2:3 wird zu 2/5 und 3/5).\n2. Multipliziere jeden Bruch mit der Gesamtlänge der Strecke.\n\nKannst du mir sagen, wie das Verhältnis der beiden Abschnitte aussieht? Dann können wir den nächsten Schritt gemeinsam durchgehen.
 [Proband liest die Antwort]
+Proband:
     Das ist eigentlich 2, vielleicht bin ich auch dumm, aber 2/7 dachte ich eigentlich nicht gemacht.
     2/7 mal 25.
     Ja doch, dann habe ich die 7,14.

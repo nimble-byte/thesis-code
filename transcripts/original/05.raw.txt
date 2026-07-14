@@ -72,18 +72,19 @@ Proband:
     Jetzt holen wir mal die Taschenrechner aus.
     Also der...
     Grad haben wir, Grad waren... 32... mal...Pi.
-Wissenschaftler (berät zu den einstellungen des Taschenrechner auf dem MacBook)
+[Wissenschaftler berät zu den einstellungen des Taschenrechner auf dem MacBook]
+Wissenschaftler:
     Wahrscheinlich "Scientific".
 Proband:
     Wo ist Pi? Wo ist Pi?
     Pi durch...180.
     Das heißt... Radiant, Radiant ist 0,5850536.
     Und die Bogenlänge ist dann
-    [Proband schreibt konstante 2 Pi in seine handschriftliche Gleichung]
+[Proband schreibt konstante 2 Pi in seine handschriftliche Gleichung]
     Und das mal Radius.
     Radius sind 18.
     Heißt, die [Antwort ist]...
-    [Proband merkt, dass die Antworten als Brüche statt Dezimalzahlen angegeben sind]
+[Proband merkt, dass die Antworten als Brüche statt Dezimalzahlen angegeben sind]
     Das sind natürlich schöne Antwortmöglichkeiten.
     Okay. Ich schreibe mal auf, ich habe den... die Bogenlänge... auf etwa 10 komma 5 berechnet.
     Allerdings sind die Antwortmöglichkeiten in...
@@ -103,7 +104,7 @@ Proband:
     Ah, okay.
 Wissenschaftler:
     Backslash Pi ist Pi.
-Proband
+Proband:
     Ah, okay.
     16 mal Pi durch 5
     Aha, das kommt sehr nah an das Radius.
@@ -122,7 +123,7 @@ Wissenschaftler:
     Das soll Diamant stehen.
 Proband:
     Okay.
-Wissenschaftler
+Wissenschaftler:
     Ich hab die manuell übersetzt.
 Proband:
 [Proband liest die Aufgabe]
@@ -146,6 +147,7 @@ Proband (schriftlich):
 LLM:
     Um die Länge der Seiten des Rauten ABCD zu finden, können wir einige Eigenschaften von Rauten und rechtwinkligen Dreiecken verwenden.\n\nZuerst sollten Sie wissen, dass sich die Diagonalen einer Raute im rechten Winkel schneiden und jede Diagonale die andere in zwei gleiche Teile teilt. Das bedeutet, dass jede Diagonale in zwei gleiche Segmente geteilt wird.\n\n1. **Teilen der Diagonalen**:\n   - Die Diagonale AC ist 12 Einheiten lang, also ist jedes Segment von AC (AO und OC) 6 Einheiten lang.\n   - Die Diagonale BD ist 16 Einheiten lang, also ist jedes Segment von BD (BO und OD) 8 Einheiten lang.\n\n2. **Bildung eines rechtwinkligen Dreiecks**:\n   - Jede Seite der Raute bildet mit den halben Diagonalen ein rechtwinkliges Dreieck.\n   - Zum Beispiel bilden AB, AO und BO ein rechtwinkliges Dreieck, wobei AO = 6 Einheiten und BO = 8 Einheiten sind.\n\n3. **Anwendung des Satzes des Pythagoras**:\n   - Im rechtwinkligen Dreieck AOB können Sie den Satz des Pythagoras verwenden, um die Länge von AB zu finden.\n   - Der Satz des Pythagoras besagt: \\( AB^2 = AO^2 + BO^2 \\).\n\nJetzt können Sie diese Informationen verwenden, um die Länge der Seite AB zu berechnen. Wenn Sie auf ein Hindernis stoßen oder weitere Hilfe benötigen, lassen Sie es mich wissen!
 [Proband liest die Antwort und murmelt vor sich hin]
+Proband:
     ...die die andere Diagonale in zwei gleiche Teile...
     ...jedes Segment ...
     Ja, soweit so Gut.

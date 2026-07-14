@@ -317,6 +317,7 @@ Proband:
 Proband (schriftlich):
     Mit 6^2 = 36 und das substrahieren von 27 von beiden Seiten ergibt sich 9 = x^2 + b^2
 [Proband arbeitet mit handschriftlichen Notizen während er auf die Antwort wartet]
+Proband:
     Ich schreibe es mir gerade auf dem Papier noch mal auf.
     Also 36 gleich x² plus b² plus 27 abziehen von beiden Seiten 9 gleich x² plus b².
 LLM:

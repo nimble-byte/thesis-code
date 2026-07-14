@@ -80,7 +80,7 @@ Proband:
     Regelmäßiges Sechseck mit dem Mittelpunkt O.
     Was ist der Wert des Winkels X?
     X ist zwischen hier den beiden oder was soll X sein?
-Wissenschaftler
+Wissenschaftler:
     X ist der Winkel im Prinzip zwischen B0 und BC.
     Oder BO und BC.
 Proband:

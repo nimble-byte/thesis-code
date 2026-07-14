@@ -111,7 +111,7 @@ Proband:
     Warte mal, definiere das Verhältnis, er hat dann AB genommen, AB geteilt durch X ist gleich zweieinhalb, wobei X die unbekannte Größe ist.
     Dann habe ich ihm die Frage gestellt, was X ist und dann sagte er mir, es ist die Länge von BC am Ende.
     Verwende die gegebenen Länge.
-Wissendschaftler:
+Wissenschaftler:
     Du nutzt AB, aber du hast AB nicht gegeben, AB ist deine Unbekannte.
 Proband:
     Genau, deswegen habe ich anstatt AB AC gelesen und das genommen.
@@ -166,7 +166,7 @@ Proband:
     2/5 mal AC, was ja so gesehen 25 sind, das sind 50 durch 5 und das sind 10.
     Guck mal, wenn man ein bisschen nachdenkt, passt schon.
     Next. Neun Tab, hast du gesagt Ctrl N?
-Wissendschaftler:
+Wissenschaftler:
     Command.
     Command N.
 Proband:

@@ -223,7 +223,7 @@ Wissenschaftler:
     Ja.
 Proband:
     Das ist ja fast mich unter Druck setzen, wenn ich das jetzt wieder nicht schaffe.
-Proband
+Proband:
     So, Aufgabe 54.
     In der gezeigten Abbildung ist das Verhältnis der Längen der Abschnitte AB zu AC 2:5.
     Okay.
@@ -337,11 +337,11 @@ Wissenschaftler:
 Proband:
     2/5 von was?
     Ich kann ja nicht den Wert, ich kenne mal 25 nehmen.
-Wissenschaftler
+Wissenschaftler:
     2/5 ist ein Bruch.
 Proband:
     Ach so.
-Wissenschaftler
+Wissenschaftler:
     Kannst du die Taschenrechner hier noch eintippen, wenn du willst.
 Proband:
     Kann man hier Brüche eintippen?
@@ -356,7 +356,7 @@ Proband:
     Oh. Cool.
 Wissenschaftler:
     Und dann kannst du entweder runter, also das sind ein Pfeiltasten.
-Proband
+Proband:
     Okay, okay.
     2/5.
     Oh.

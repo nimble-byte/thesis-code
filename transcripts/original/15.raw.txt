@@ -182,8 +182,7 @@ Proband:
     Deshalb mache ich das nochmal, weil wir auch noch das Quadrat von b haben. Das macht aber keinen Sinn. Er steht auch nicht in den Möglichkeiten, also ist der eine Abstand immer noch falsch.
     Ich werde den Chatbot nochmal erklären.
 Wissenschaftler:
-    [unverständlich]
-    Guck nochmal auf deine Rechnung.
+    [unverständlich] Guck nochmal auf deine Rechnung.
     Und gibt es zur Not Schritt für Schritt den Taschenrechner ein?
 Proband:
     Ja, ich glaube, das werde ich auch tun.
@@ -198,7 +197,7 @@ Proband:
     Zuerst ziehe ich aber 16, was mit dem b² rüber. Das wäre dann bei 9. Dann ziehen wir davon die Wurzel, weil wir immer noch das Quadrat von b haben. Dann sind wir bei 3.
     Das gibt es als Beantwortungsmöglichkeit.
 [Proband wechselt zur nächsten Aufgabe]
-Wissenschaftler
+Wissenschaftler:
     Jetzt sind wir bei der Aufgabe angekommen, die wir mal ersetzen.
 [Wissenschaftler ersetzt die Aufgabe]
 Proband:

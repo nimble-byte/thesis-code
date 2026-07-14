@@ -4,7 +4,7 @@ Wissenschaftler:
 Proband:
     Achso, da unten steht es noch mal auf Deutsch.
     Okay, deshalb werden wir jetzt wieder hier den Fall. Wir haben hier wieder so eine schöne Linie.
-    [Proband macht Notizen]
+[Proband macht Notizen]
     So, also einmal A, B und C. A, B und C.
     Gut, das Verhältnis, wie wir wissen, das Verhältnis AB zu AC, 2 zu 5 ist. Und AC hat eine Länge von 25.
     So, jetzt weiß ich nur nicht, also das Verhältnis 2 zu 5 müsste dann eigentlich sein, dass...
@@ -15,7 +15,7 @@ Proband (schriftlich):
 LLM:
     <think>Der Benutzer fragt nach der Bedeutung des Verhältnisses 2:5 im Kontext einer geometrischen Figur mit den Punkten A, B und C auf einer Linie. Das Verhältnis bezieht sich auf die Längen der Abschnitte AB zu AC. Der Benutzer hat bereits die Länge von AC gegeben (AC = 25) und fragt nach der Länge von AB.</think>
     Um das Verhältnis 2:5 zu verstehen, stellen Sie sich vor, dass die Strecke AC in zwei Teile geteilt wird: AB und BC. Das Verhältnis 2:5 bedeutet, dass AB 2 Teile und BC 5 Teile der Gesamtstrecke AC ausmacht. Um die Länge von AB zu finden, müssen wir das Verhältnis verwenden, um den Anteil von AB an der Gesamtlänge AC zu bestimmen.\n\nWie würden Sie vorgehen, um die Länge von AB basierend auf dem gegebenen Verhältnis und der Gesamtlänge AC zu berechnen?
-Proband
+Proband:
     Kann ich mir das leiser durchlesen, oder muss ich es laut vorlesen?
 Wissenschaftler:
     Wie gesagt, du kannst leise lesen, das ist überhaupt kein Problem. Nur was du dann halt wieder selber damit anfängst, das dann bitte wieder [laut sagen].

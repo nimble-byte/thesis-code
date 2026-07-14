@@ -78,7 +78,7 @@ Wissenschaftler:
     Genau deswegen sage ich die Aufgaben[nummer] ist nützlich. Du kannst unten auf dem Bild-Icon schauen.
 Proband:
     Ah, das müsste ich runterladen kurz.
-Wissenschaftler
+Wissenschaftler:
     Nee, es ist manchmal mit dem Copy-Paste, die Anwendung, wo das Modell drin läuft, ein bisschen finicky.
     Das funktioniert noch nicht immer hundert Prozent.
     Du suchst nach der Aufgabennummer.
