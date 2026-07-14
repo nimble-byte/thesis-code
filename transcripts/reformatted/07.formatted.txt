@@ -1,0 +1,127 @@
+---
+PARTICIPANT: 07
+UUID: adbea003-c17e-463f-8ae0-c397f6f3eec1
+GROUP: E
+---
+[001 RESEARCHER]
+    Dann starten wir jetzt die Aufnahmen. Wir gucken einmal, aber der schlägt glücklich aus.
+    Starts Set 2. Genau. Ich gebe dir eine Aufgabe und wir das Wort.
+[002 SPOKEN]
+[002.1]    So, also ich habe einen Kreis mit einem Radius 5 und die Länge der Linie AB ist 8.
+[002.2]    Wie groß ist die Distanz von der Mitte des Kreises zur Linie AB?
+[002.3]    Also Berechnung einer Sekante.
+[002.4]    Radius 5 habe ich ein gleichseitiges Dreieck
+[002.5]    mit 5 und 5. Die Hypotenuse ist 8. Ich will die Geschichte haben.
+[Proband indiziert die Höhe des Dreiecks]
+[002.6]    Okay, die Hälfte von AB ist 4. Damit habe ich ein rechtwinkliges Dreieck.
+[002.7]    Die Formel, die ich lösen möchte ist x² plus 4² ist gleich 5².
+[002.8]    Das ist die klassische Geschichte.
+[002.9]    Also ich bin auf x gleich 3.
+[TASK <task-id> | DIFFICULTY <medium/hard>]
+[003 SPOKEN]
+[003.1]    Next task. Wie ist das mit der Lösungsvalidierung?
+[004 RESEARCHER]
+    Sprechen wir hinterher drüber. Hängt auch mit dem Questionnaire zusammen.
+    Es gibt einen View Results Button. Ich würde dich bitten, den nicht unmittelbar nach Abschluss zu drücken.
+[005 SPOKEN]
+[005.1]    Geometrie Aufgaben.
+[005.2]    Ich brauche eine Lesebrille.
+[005.3]    BC ist 6. BC ist 3.
+[005.4]    Lies on AB, between AB.
+[005.5]    So, which for following could be the length of CP?
+[005.6]    Okay, 6, BC ist 3.
+[006 RESEARCHER]
+    Wenn du nicht weiter kommst, mach dir eine Zeichnung.
+[Proband beginnt eine Zeichnung anzulegen]
+[007 SPOKEN]
+[007.1]    Das ist BC ist 3.
+[007.2]    Das war letztendlich hier 6 gesucht.
+[007.3]    Die ist gesucht.
+[007.4]    Da muss ich jetzt doch mal fragen.
+[007.5]    Die Formel für die Höhe.
+[007.6]    Ich habe hier genügend Informationen.
+[007.7]    Ich weiß nicht, ob das rechtwinklig ist.
+[007.8]    Ich überlege gerade, ob ich genug Informationen habe. Um diese Aufgabe zu lösen.
+[007.9]    Oder ob ich nicht noch einen Winkel bräuchte.
+[007.10]    Was habe ich denn da noch?
+[007.11]    So, which for following could be the length of CP?
+[007.12]    Ich brauche eine Lesebrille.
+[007.13]    Die vier Angaben brauche ich, um ein Dreieck zu bestimmen.
+[Proband gibt eine Nachricht ein]
+[008 WRITTEN]
+[008.1]    Wieviel Angaben brauche ich um ein Dreieck zu bestimmen
+[009 LLM]
+    <think>Der Benutzer fragt nach der Anzahl der notwendigen Angaben zur Bestimmung eines Dreiecks. Dies ist eine grundlegende Frage in der Geometrie, die mit dem Begriff "Dreiecksbestimmtheit" zusammenhängt. Es gibt verschiedene Möglichkeiten, ein Dreieck zu bestimmen, abhängig von den gegebenen Größen (Seitenlängen, Winkel).</think>
+    Um ein Dreieck eindeutig zu bestimmen, benötigst du drei Angaben. Diese können aus einer Kombination von Seitenlängen und Winkeln bestehen. Die gängigen Fälle sind:
+    1. Drei Seitenlängen (SSS - Seite-Seite-Seite)
+    2. Zwei Seitenlängen und der eingeschlossene Winkel (SWS - Seite-Winkel-Seite)
+    3. Zwei Winkel und eine gegenüberliegende Seite (WGW - Winkel-Gegenseite-Winkel)
+
+    Kannst du mir sagen, welche Art von Angaben du im Sinn hast? Dann können wir genauer besprechen, wie man damit ein Dreieck bestimmt.
+[Proband liest Antwort]
+[010 SPOKEN]
+[010.1]    Das mit den drei Angaben habe ich schon mal richtig in Erinnerung gehabt.
+[010.2]    Also insofern würde ich eigentlich hier behaupten, mir fehlt noch eine Angabe.
+[011 RESEARCHER]
+    Das ist völlig legitim.
+    Es gibt einen Button, der heißt replace task.
+    Wenn du sagst, da fehlt etwas [... kannst du die Aufgabe wechseln]
+[012 SPOKEN]
+[012.1]    Ich habe letztendlich die Seite gegeben.
+[Deutet auf AB in der Zeichnung]
+[012.2]    Ich habe zwei Seiten und einen eingeschlossenen Winkel.
+[012.3]    Wenn ich jetzt hier die gegenüberliegenden Winkel hätte, wäre es auch egal.
+[012.4]    Dann wäre die Sache eindeutig bestimmt.
+[012.5]    Wenn ich das ändere, verschiebt sich dieses Teil hier lustig auf der Sache hin und her.
+[012.6]    Das ist ja hier der Punkt P.
+[013 RESEARCHER]
+    Okay, dann schauen wir einmal rein.
+    Ich schaue gerade, was du gelöst hast.
+[TASK <task-id> | DIFFICULTY <medium/hard>]
+    Wenn es ums Lesen geht, kann ich gerne noch mal helfen.
+    Ich weiß, dass die Aufgabe ein sehr klein beschriftetes Bild hat.
+[014 SPOKEN]
+[014.1]    Das ist eben nur eine Frage zur Not, dass ich die Brille abnehme, damit ich nicht das Sichtfenster der Gleitsichtbrille finden muss.
+[014.2]    Und rück dem Laptop einfach ein bisschen auf die Pelle.
+[014.3]    So, x ist 32 und r ist 18.
+[014.4]    Und ich will die Länge des Kreisbogens haben.
+[014.5]    Und er will jetzt die Formel von mir wissen.
+[014.6]    Gut, dann versuchen wir noch ein bisschen was im Kopf zu rechnen.
+[014.7]    Also wenn man es nicht mehr weiß, könnte man die Sache jetzt hier fragen.
+[Proband tippt eine Nachricht]
+[014.8]    Was ist die Formel für Kreisumfang?
+[015 WRITTEN]
+[015.1]    Was ist die Formel für Kreisumfang
+[016 LLM]
+    <think>Der Benutzer fragt nach der Formel für den Umfang eines Kreises. Dies ist eine grundlegende Frage zur Geometrie, und ich sollte sicherstellen, dass der Benutzer versteht, wie man diese Formel ableitet oder anwendet.</think>
+    Die Formel für den Umfang eines Kreises lautet U = 2πr, wobei U für den Umfang steht und r für den Radius des Kreises. Wenn du den Durchmesser kennst, kannst du auch die Formel U = πd verwenden, wobei d der Durchmesser ist.
+
+    Möchtest du wissen, wie man diese Formeln ableitet oder anwendet?
+[Proband liest Antwort]
+[017 SPOKEN]
+[017.1]    Sehr schön, 2 Pi r.
+[017.2]    Gut, damit habe ich den gesamten Umfang.
+[017.3]    Und das ganze 360 ist der Vollkreis und der Winkel ist letzten Endes 32.
+[017.4]    32, ist das jetzt richtig, was ich da jetzt gerade behaupte?
+[017.5]    Das ist 32 durch 360, genau verkehrt rum.
+[017.6]    Dann ist das 36 durch 239.
+[017.7]    Probieren wir einfach mal, irgendwo wird auch hier der Taschenrechner versteckt.
+[017.8]    Um die Zeit bin ich zu faul, um den Bruch 360 zu 32 richtig zu kürzen.
+[017.9]    Also das ganze mal 2.
+[017.10]    Das sieht schon besser aus.
+[017.11]    22,5 mal Pi und r war in dem Fall 18.
+[017.12]    Das finde ich immer blöd, wo ist jetzt hier der Fehler?
+[017.13]    Der behauptet jetzt 405.
+[017.14]    Machen wir das nochmal.
+[017.15]    Das sind 36 und 32 durch 360.
+[017.16]    Das ist 32/10.
+[017.17]    Oder aber 16/5.
+[TASK <task-id> | DIFFICULTY <medium/hard>]
+[017.18]    So, die in der Abbildung gezeichneten Linien hat eine Länge von 10.
+[017.19]    M ist die Mitte der Linie A, B. N ist ein Punkt der Linie A, M.
+[017.20]    Wie lange ist der Abschnitt in C?
+[017.21]    C ist die Mitte des Abschnittes M, B.
+[017.22]    Damit ist M, C ein Viertel der ganzen Geschichte.
+[017.23]    Und K ist 2,5.
+[017.24]    Und da er behauptet, dass M, N, 1 ist, wäre die Lösung 3,5.
+[017.25]    Mache jetzt fertig, es hat mir zu duschen.

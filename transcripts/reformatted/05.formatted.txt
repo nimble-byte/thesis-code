@@ -1,0 +1,245 @@
+---
+PARTICIPANT: 05
+UUID: f41a9ecb-7000-4ae1-8b8e-1b39ea598476
+GROUP: B
+---
+[001 RESEARCHER]
+    So, da müssen wir jetzt einmal eben schauen, aber der schlägt aus, das heißt, der ist glücklich.
+    Dann hast du hier Aufgabe 1.
+[002 SPOKEN]
+[002.1]    Alles klar.
+[002.2]    Oh, das ist schon deutlich komplizierter als vorhin. [Proband referenziert hier Probeaufgabe]
+[002.3]    Zumindest sieht es schlimmer aus.
+[002.4]    Ich lese einmal.
+[002.5]    2 zu 5. (2x)
+[002.6]    Okay, das ist ja noch sogar einigermaßen verkraftbar.
+[002.7]    Das könnte ich, glaube ich, noch von Hand aus rechnen, aber ich weiß nicht, ob ich die Lust dazu habe.
+[002.8]    Ich schicke das einmal.
+[Proband beginnt eine Nachricht zu schreiben, aber schickt sie nicht ab]
+[002.9]    Wobei, wenn das Verhältnis 2 zu 5 ist und die Abbildung auch richtig ist...
+[002.10]    Ich schreibe ihn mal auf.
+[002.11]    A bis B ist nichts, aber A bis C ist 25.
+[002.12]    Und die ist 2 zu 5.
+[002.13]    Das würde heißen, dass, wenn ich die durch 5 teile, wäre das durch 5, ist also 5 mal 2 ist 10.
+[002.14]    Okay, jetzt schicke ich zur Überprüfung die Lösung an...
+[002.15]    ChatGPT und zu schauen, ob das...
+[002.16]    Also nicht ChatGPT sondern den Bot, ob das so weit Sinn ergibt.
+[002.17]    Ich bin eigentlich recht sicher, dass das richtig ist.
+[002.18]    Mal schauen, ob das ausspuckt.
+[Proband schreibt die Nachricht fort und fügt seine Lösung an]
+[003 WRITTEN]
+[003.1]    Hier meine Aufgabe: In der gezeigten Abbildung ist das Verhältnis der Längen der Abschnitte AB zu AC 2:5. Wenn AC die länge 25 hat, wie lang ist dann AB?
+[003.2]    Meine Lösung ist 10, ist das korrekt?
+[004 LLM]
+    Das klingt nach einem guten Ansatz! Du hast das Verhältnis von AB zu AC als 2:5 gegeben und AC mit einer Länge von 25 angegeben.
+
+    Um zu überprüfen, ob deine Lösung von AB = 10 korrekt ist, kannst du das Verhältnis verwenden. Denk daran, dass das Verhältnis AB/AC gleich 2/5 sein sollte.
+
+    Du hast also:
+    AB / AC = 2 / 5
+
+    Setze die bekannten Werte ein und löse nach AB auf. Wenn du auf 10 kommst, dann ist deine Lösung richtig. Falls nicht, kannst du den Rechenweg noch einmal überprüfen.
+
+    Viel Erfolg!
+[Proband liest Antwort]
+[005 SPOKEN]
+[005.1]    Jetzt löse ich nach AB auf.
+[005.2]    Das ist mir zu viel Antwort und zu wenig Bestätigung.
+[005.3]    A durch B. Moment Ratio von 2:5.
+[005.4]    Ich meine, wenn das 10 ist, dann noch nicht.
+[005.5]    Wenn ich das mal 5 mache...
+[005.6]    Ja, es ergibt Sinn.
+[005.7]    Ich bin voll dabei, dass das richtig ist.
+[005.8]    Ich sage, es ist 10.
+[005.9]    Moment, aufgau noch mal lesen.
+[005.10]    [unveständlich]
+[005.11]    Ja, es ist 10.
+[005.12]    Okay.
+[TASK <task-id> | DIFFICULTY <medium/hard>]
+[005.13]    Okay, nächste Aufgabe.
+[005.14]    Wo ist X?
+[005.15]    Ist das X0 aus der...
+[006 RESEARCHER]
+    X Grad.
+    Also X ist der Winkel.
+[007 SPOKEN]
+[007.1]    Ach so.
+[007.2]    Also sind das 32 Grad.
+[007.3]    Wie ist die Länge des Kreisabschnittes - Was ist die Länge des Kreisabschnittes, der in der Abbildung eingezeichnet ist?
+[007.4]    Ähm, kurz nachdenken.
+[007.5]    Ja, das ... da brauchen wir einfach nur die Formeln für.
+[007.6]    Ich denke, dann hat sich das...
+[007.7]    Ich kopiere rein, nutze ich das Bild.
+[007.8]    Und...
+[007.9]    Zack.
+[007.10]    Neuen Chat benutzen für neue Aufgaben.
+[007.11]    Ähm...
+[007.12]    Zack.
+[Proband kopiert das bild und den Aufgabentext als Nachricht]
+[008 WRITTEN]
+[008.1]    [BILD]
+[008.2]    Wenn x = 32 und r = 18, was ist die Länge des Kreisabschnittes der in der Abbildung eingezeichnet ist?
+[009 LLM]
+    Um die Länge des Kreisabschnitts (Bogenlänge) zu berechnen, benötigen wir den Winkel in Radiant und den Radius des Kreises. Der Winkel wird bereits in Grad gegeben, also müssen wir ihn zuerst in Radiant umrechnen.
+
+    Hier sind die Schritte zur Lösung:
+
+    1. **Winkel in Radiant umrechnen**: Die Formel zur Umrechnung von Grad in Radiant lautet:
+       Radiant = Grad · π/180
+       In diesem Fall ist der Winkel x = 32°.
+
+    2. **Bogenlänge berechnen**: Die Formel für die Bogenlänge lautet:
+       Bogenlänge = r · θ
+       wobei r der Radius und θ der Winkel in Radiant ist.
+
+    Versuche diese Schritte selbst zu lösen. Wenn du nicht weiterkommst, lass es mich wissen!
+[010 SPOKEN]
+[010.1]    Den Winkel, den Radiant und den Radius des Kreises.
+[010.2]    Der Winkel ist bereits ein Grad, so kann man so einen Radiant drum berechnen.
+[010.3]    Jetzt holen wir mal die Taschenrechner aus.
+[010.4]    Also der...
+[010.5]    Grad haben wir, Grad waren... 32... mal...Pi.
+[011 RESEARCHER]
+[Wissenschaftler berät zu den einstellungen des Taschenrechner auf dem MacBook]
+    Wahrscheinlich "Scientific".
+[012 SPOKEN]
+[012.1]    Wo ist Pi? Wo ist Pi?
+[012.2]    Pi durch...180.
+[012.3]    Das heißt... Radiant, Radiant ist 0,5850536.
+[012.4]    Und die Bogenlänge ist dann
+[Proband schreibt konstante 2 Pi in seine handschriftliche Gleichung]
+[012.5]    Und das mal Radius.
+[012.6]    Radius sind 18.
+[012.7]    Heißt, die [Antwort ist]...
+[Proband merkt, dass die Antworten als Brüche statt Dezimalzahlen angegeben sind]
+[012.8]    Das sind natürlich schöne Antwortmöglichkeiten.
+[012.9]    Okay. Ich schreibe mal auf, ich habe den... die Bogenlänge... auf etwa 10 komma 5 berechnet.
+[012.10]    Allerdings sind die Antwortmöglichkeiten in...
+[012.11]    Ich glaube, es macht mehr Sinn, das einfach kurz zu helfen auszurechnen.
+[012.12]    Okay.
+[Proband beginnt die Antwortmöglichkeiten in Dezimalzahlen umzurechnen]
+[notiert konkretes ergebnis]
+[012.13]    ...mal 18 sind 10,05309.
+[012.14]    Reicht.
+[012.15]    Hm.
+[012.16]    16 mal...
+[012.17]    Was bedeutet der Backslash?
+[013 RESEARCHER]
+    Ah. Das ist...
+    Die Aufgaben sind teilweise als TeX-Code geschrieben, das ist einfach Pi.
+[014 SPOKEN]
+[014.1]    Ah, okay.
+[015 RESEARCHER]
+    Backslash Pi ist Pi.
+[016 SPOKEN]
+[016.1]    Ah, okay.
+[016.2]    16 mal Pi durch 5
+[016.3]    Aha, das kommt sehr nah an das Radius.
+[016.4]    Okay, ich mach einfach mal noch die anderen, nicht dass die am Ende richtig sind
+[016.5]    36 mal Pi wird es nicht sein.
+[016.6]    36 Pi durch 5 ist auch was ganz anderes.
+[016.7]    Okay, damit... fühle ich mich darin bekräftigt.
+[016.8]    Ich habe die Formeln bekommen vom Chatbot.
+[016.9]    Ich schenke ihm Glauben und komme auf genau das, was hier steht.
+[016.10]    Nächste Aufgabe
+[TASK <task-id> | DIFFICULTY <medium/hard>]
+[016.11]    Wollen wir mal wieder lesen.
+[016.12]    Ich weiß nicht, ob da Diamanat stehen soll?
+[016.13]    Oder Diamant?
+[017 RESEARCHER]
+    Das soll Diamant stehen.
+[018 SPOKEN]
+[018.1]    Okay.
+[019 RESEARCHER]
+    Ich hab die manuell übersetzt.
+[020 SPOKEN]
+[Proband liest die Aufgabe]
+[020.1]    Ah, okay.
+[020.2]    Haben die...
+[020.3]    A zu C ist 12.
+[020.4]    Wie lang sind die Kanten des Diamanten?
+[020.5]    Alles klar.
+[Proband beginnt eine nachricht zu schreiben]
+[020.6]    Klassischer Weg, wieder kopieren.
+[020.7]    Das hab ich mir anders vorgestellt.
+[Das einfügen des Bildes funktioniert nicht]
+[020.8]    Das kriegen wir schon noch hin.
+[020.9]    Sehr gut.
+[020.10]    Okay.
+[020.11]    Zack.
+[Proband schickt Nachricht ab]
+[021 WRITTEN]
+[021.1]    Wie in der Abbildung gezeigt, haben die Diagonalen des Diamanaten ABCD die folgenden Längen: AC = 12, BD = 16. Wie lang sind die Kanten des Diamenten?
+[021.2]    [BILD]
+[022 LLM]
+    Um die Länge der Seiten des Rauten ABCD zu finden, können wir einige Eigenschaften von Rauten und rechtwinkligen Dreiecken verwenden.
+
+    Zuerst sollten Sie wissen, dass sich die Diagonalen einer Raute im rechten Winkel schneiden und jede Diagonale die andere in zwei gleiche Teile teilt. Das bedeutet, dass jede Diagonale in zwei gleiche Segmente geteilt wird.
+
+    1. **Teilen der Diagonalen**:
+       - Die Diagonale AC ist 12 Einheiten lang, also ist jedes Segment von AC (AO und OC) 6 Einheiten lang.
+       - Die Diagonale BD ist 16 Einheiten lang, also ist jedes Segment von BD (BO und OD) 8 Einheiten lang.
+
+    2. **Bildung eines rechtwinkligen Dreiecks**:
+       - Jede Seite der Raute bildet mit den halben Diagonalen ein rechtwinkliges Dreieck.
+       - Zum Beispiel bilden AB, AO und BO ein rechtwinkliges Dreieck, wobei AO = 6 Einheiten und BO = 8 Einheiten sind.
+
+    3. **Anwendung des Satzes des Pythagoras**:
+       - Im rechtwinkligen Dreieck AOB können Sie den Satz des Pythagoras verwenden, um die Länge von AB zu finden.
+       - Der Satz des Pythagoras besagt: AB² = AO² + BO².
+
+    Jetzt können Sie diese Informationen verwenden, um die Länge der Seite AB zu berechnen. Wenn Sie auf ein Hindernis stoßen oder weitere Hilfe benötigen, lassen Sie es mich wissen!
+[Proband liest die Antwort und murmelt vor sich hin]
+[023 SPOKEN]
+[023.1]    ...die die andere Diagonale in zwei gleiche Teile...
+[023.2]    ...jedes Segment ...
+[023.3]    Ja, soweit so Gut.
+[023.4]    Ah, möchte der da aus Dreieck bauen.
+[023.5]    Mhm.
+[023.6]    ...Jede Seite ...
+[023.7]    Moment, sind die... Moment, lass mich nochmal nachschauen?
+[023.8]    Sind die Ecken alle? Haben die rechte Winkel?
+[023.9]    [unverständlich]
+[023.10]    Ach nein, die schneiden sich am rechten Winkel.
+[023.11]    Alles klar.
+[023.12]    Ich male mir [das] mal auf.
+[Proband beginnt mit eigener Skizze]
+[023.13]    C und D.
+[024 RESEARCHER]
+    Immer schön dran denken, laut zu denken.
+[025 SPOKEN]
+[025.1]    Ja.
+[025.2]    Ich male mir das alles einmal auf, weil ich kann besser denken, wenn ich die Sachen tatsächlich daran schreibe.
+[025.3]    Wir haben A bis C ist 12, das heißt diesen 6 [und] 6.
+[025.4]    Und die andere ist 16, also 8 [und] 8.
+[025.5]    Okay, das wurde mir von dem schon erklärt.
+[025.6]    Er hat das BO und O, die...
+[025.7]    Okay.
+[025.8]    Hat er anders genannt, ist mir egal.
+[025.9]    Jede Seite der Raute bildet mit dem ... rechtwinkliges Dreieck, ja.
+[025.10]    Zum Beispiel...bilden A zu B.
+[025.11]    Ach, in vier [Dreiecke].
+[025.12]    Aha.
+[025.13]    Ich dachte... wir machen uns vier, ah, zwei Dreiecke. Aber wir machen die vier.
+[025.14]    Okay.
+[025.15]    Zu A, B und O, ja.
+[025.16]    Also das hier ist eins.
+[025.17]    Jetzt braucht ihr nur noch die Rechnung davon.
+[025.18]    Im rechtwinkliged Dreieck könnt ihr den Satz [von Pythagoras] brauchen um die Länge von A, B zu finden.
+[025.19]    Weil ich habe die Länge, ich habe die Länge und ihr findet nur noch die.
+[025.20]    Pythagoras to the rescue.
+[025.21]    Okay.
+[025.22]    Das sind... der Taschenrechner.
+[025.23]    Das sind... also 8 mal 6 ...mit AO Quadrat, das ist AO.
+[025.24]    Also 6 mal 6 sind 36.
+[025.25]    36 plus 8 mal 8 sind 64.
+[025.26]    Plus 64.
+[025.27]    Also müsste das 100 sein.
+[025.28]    Das Moment... das ist Quatsch, also das ist 10... weil Wurzel.
+[025.29]    Das heißt, die Länge müsste... das sein und da die Seiten alle gleich sind, ist der Umfang von dem Teil...
+[025.30]    ...wie lang sind die Kanten?
+[025.31]    Ach so, wir rechnen nur vor einer Kante.
+[025.32]    Dann ist eine Kante 10, ansonsten werden es 40.
+[025.33]    Okay.
+[026 RESEARCHER]
+    Ja, dann können wir jetzt einmal die Aufnahme stoppen.

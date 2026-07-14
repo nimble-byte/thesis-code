@@ -1,0 +1,153 @@
+---
+PARTICIPANT: 02
+UUID: 7d8c9331-dd8c-4df6-8f6c-9e7a16d008d9
+GROUP: B
+---
+[001 RESEARCHER]
+    Schauen wir einmal eben, dass der hier wieder bei der Ausnahme ausschlägt, das tut es,
+    und dann würde ich dir das jetzt einfach überlassen, mit der das Aufgaben zu entgeben.
+[002 SPOKEN]
+[002.1]    Alles klar.
+[003 RESEARCHER]
+    Lies ruhig einfach.
+[004 SPOKEN]
+[004.1]    Ist aber nicht übersetzt.
+[005 RESEARCHER]
+    Doch, der Text ist übersetzt.
+[Wissenschaftler deutet auf übersetzten Text]
+[006 SPOKEN]
+[006.1]    Ach so, der drunter, okay.
+[006.2]    Ach so, das ist der gleiche Text?
+[007 RESEARCHER]
+    Ja.
+    Also das sind Matheaufgaben, eben zur Erklärung, das sind Matheaufgaben aus einem existierenden Datenset mit den Bildern und so weiter.
+    Ich kann nichts dafür, was in den Bildern steckt. Ich habe das einfach so eins zu eins übernommen.
+[008 SPOKEN]
+[008.1]    Okay, fair, dann kein Problem. Ich habe nicht gesehen, dass das der gleiche Text ist.
+[Proband beginnt Aufgabe zu lesen]
+[008.2]    In der gezeigten Abbildung ist das Verhältnis der Längen der Abschnitte AB zu AC 2, 5.
+[008.3]    Wenn AC die Länge 25 hat, wie lang ist dann AB?
+[008.4]    Wenn AC 2:5, das heißt...
+[008.5]    1, 2, 5.
+[008.6]    Boah, mit dem Taschenrechner umgehen habe ich das schon lange nicht mehr gemacht.
+[008.7]    Wenn AC die Länge 25 hat, AC ist...
+[008.8]    Also ich frage nochmal, was heißt 2 zu 5?
+[008.9]    Fragen wir mal den Chatbot.
+[008.10]    Also soll ich zuerst noch mal einen neuen Chat anlegen oder?
+[009 RESEARCHER]
+    Nee, der ist ja frisch.
+[Proband tippt eine Nachricht]
+[010 WRITTEN]
+[010.1]    was heit das Verhältis 2 zu 5
+[011 LLM]
+    Das Verhältnis von 2 zu 5 bedeutet, dass zwei Teile in Bezug auf fünf Teile gesetzt werden. Es ist eine Art, die relative Größe oder Menge zweier Größen auszudrücken.
+
+    Um dies besser zu verstehen, können Sie sich vorstellen, dass Sie einen Kuchen in fünf gleich große Stücke schneiden und dann zwei dieser Stücke nehmen. Das Verhältnis von 2 zu 5 beschreibt also das Verhältnis der beiden Stücke zum gesamten Kuchen.
+
+    Wenn du möchtest, kannst du auch überlegen, wie man dieses Verhältnis vereinfachen oder erweitern kann. Aber zunächst einmal ist es wichtig zu verstehen, was ein Verhältnis überhaupt bedeutet.
+[012 SPOKEN]
+[012.1]    Das Verhältnis von 2 zu 5 bedeutet, dass die Teile in Bezug auf 5 Teile gesetzt werden.
+[012.2]    Es ist eine Art, die relativ große oder Menge zu Ergrößen auszudrücken.
+[012.3]    Um dies besser zu verstehen, können Sie sich vorstellen, dass Sie einen Kuchen in 5 gleich große Stücke schneiden und dann 2 dieser Stücke nehmen.
+[012.4]    Das Verhältnis 2 zu 5 beschreibt also das Verhältnis der beiden Stücke zum gesamten Kuchen.
+[012.5]    Wenn du möchtest, kannst du auch überlegen, wie man dieses Verhältnis vereinfachen und erweitern kann.
+[012.6]    Aber zunächst einmal ist es wichtig zu verstehen, was ein Verhältnis überhaupt bedeutet.
+[012.7]    Ganz anders als ChatGPT.
+[012.8]    Ja gut, wenn das 25 ist.
+[013 RESEARCHER]
+    Immer schon weiter reden. Laut denken
+[014 SPOKEN]
+[014.1]    Achso, okay.
+[014.2]    Ich merke, wie schwer mir das gerade fällt.
+[014.3]    Unglaublich.
+[014.4]    25 ist AC und dann 2 zu 5.
+[014.5]    Ich würde einfach sagen, 25 dann mal 2 Fünftel.
+[014.6]    2 zu 5 ist ja nicht das gleiche wie 2 Fünftel.
+[014.7]    Da habe ich auf jeden Fall noch so im Kopf. Mal gucken.
+[014.8]    Egal.
+[014.9]    Also wie viele Aufgaben habe ich insgesamt noch mal?
+[015 RESEARCHER]
+    3.
+[016 SPOKEN]
+[016.1]    Ich habe nur 3?
+[016.2]    Aber dann lasse ich mir ein bisschen mehr Zeit.
+[017 RESEARCHER]
+    Immer schön weiter reden.
+    Immer iterieren, was dir durch den Kopf geht, worüber du nachdenkst.
+[018 SPOKEN]
+[018.1]    Das Ding ist, mir fällt das Nachdenken ganz sicher auch schwer.
+[018.2]    2 zu 5, was könnte das heißen?
+[018.3]    Mit einem Würfel sind ja die Chancen ein Sechstel.
+[018.4]    Aber wenn man sagt, die Chancen stehen dann 1 zu 5.
+[018.5]    Weil man hier insgesamt 6 Möglichkeiten hat.
+[018.6]    Jetzt weiß ich gar nicht, ob das hier mit dem Verhältnis gleich gemeint ist.
+[018.7]    Also wir können ja einfach...
+[018.8]    Ja, ich bleibe bei der 10.
+[018.9]    So.
+[TASK <task-id> | DIFFICULTY <medium/hard>]
+[018.10]    In der Abbildung ist A, B, C, D, E, F ein regelmäßiges Sechseck mit dem Mittelpunkt O.
+[018.11]    Regelmäßiges Sechseck mit dem Mittelpunkt O.
+[018.12]    Was ist der Wert des Winkels X?
+[018.13]    X ist zwischen hier den beiden oder was soll X sein?
+[019 RESEARCHER]
+    X ist der Winkel im Prinzip zwischen B0 und BC.
+    Oder BO und BC.
+[020 SPOKEN]
+[020.1]    Ach so, ja okay. Dann hatte ich das richtig verstanden.
+[020.2]    Gut, regelmäßiges Sechseck wird da vorne...
+[021 RESEARCHER]
+    Du machst einfach immer weiter.
+[022 SPOKEN]
+[022.1]    Ach so, okay.
+[022.2]    Regelmäßiges Sechseck.
+[022.3]    Hm.
+[022.4]    Wir sehen da oben links auf jeden Fall das Parallelogramm.
+[022.5]    Mal gucken, ob der Chatbot mir helfen kann, ob es einen festen Winkel für einen regelmäßigen Sechseck gibt.
+[022.6]    Und haben alle Ecken in einem regelmäßigen Sechseck den gleichen Winkel?
+[Proband schreibt frage und liest die Antwort]
+[023 WRITTEN]
+[023.1]    haben alle Ecken in einem regelmäßigen Sechseck den gleichen Winkel?
+[024 LLM]
+    Das ist eine interessante Frage! Um sie zu beantworten, lass uns gemeinsam über die Eigenschaften eines regelmäßigen Sechsecks nachdenken.
+
+    Ein regelmäßiges Sechseck hat sechs Seiten und sechs Ecken. Da es regelmäßig ist, bedeutet das, dass alle Seiten gleich lang sind und alle Winkel gleich groß sind.
+
+    Wie viele Grade hat ein Vollkreis? Und wie viele Ecken hat ein Sechseck?
+
+    Vielleicht hilft dir das weiter!
+[025 SPOKEN]
+[025.1]    Das ist eine interessante Frage, um sie zu beantworten,
+[025.2]    dass uns gemeinsam über die Eigenschaften eines regelmäßigen Sechsecks nachdenken.
+[025.3]    Ein regelmäßiges Sechseck hat sechs Seiten und sechs Ecken.
+[025.4]    Da es regelmäßig ist, bedeutet es, dass alle Seiten gleich lang sind und alle Winkel gleich groß sind.
+[025.5]    Wie viele Grade hat ein Vollkreis?
+[025.6]    Hä? Wie viele Grade hat ein Vollkreis und wie viele Ecken hat ein Sechseck?
+[025.7]    Vielleicht hilft das weiter.
+[025.8]    Ach so.
+[025.9]    Okay, jetzt weiß ich mal, wie viele Gerade.
+[025.10]    360 durch 6. Vielen Dank, Chatbot.
+[025.11]    Also 60 Grad ist der Winkel auf jeden Fall dort.
+[025.12]    Der Winkel wird in der Mitte geschnitten, also 30 Grad.
+[TASK <task-id> | DIFFICULTY <medium/hard>]
+[025.13]    Wie in der Abbildung gezeigt haben die Diagonalen des Diamanten A, B, C, D die folgenden Längen.
+[025.14]    AC gleich 12, BD gleich 16.
+[025.15]    Wie lang sind die Kanten des Diamanten?
+[025.16]    Des Diamanten.
+[025.17]    Soll der Diamanten stehen oder?
+[026 RESEARCHER]
+    Nein.
+[027 SPOKEN]
+[027.1]    Okay.
+[027.2]    So, was war die Frage nochmal?
+[027.3]    Die folgenden Längen AC.
+[027.4]    Also AC sind 12 und BD sind 16.
+[027.5]    Wenn das 12 sind und das 16 bedeutet, dass das die Hälfte von 16, 8 ist.
+[027.6]    8 haben wir dann dort.
+[027.7]    Also ich berechne jetzt erstmal, dass die eine Abbildung gezeigt haben.
+[027.8]    Die Diagonalen des Diamanten A, B, C, D die folgenden Längen.
+[027.9]    AC gleich 12. Wie lang sind die Kanten des Diamanten?
+[027.10]    Okay, doch, ist richtig.
+[027.11]    Dann machen wir das mal über den Satz des Pythagoras.
+[027.12]    AC ist 12, das heißt die Hälfte von 6.
+[027.13]    16, die Hälfte ist 8.
+[027.14]    Das heißt die Wurzel aus 8 Quadrat plus 6 Quadrat ist 10.
