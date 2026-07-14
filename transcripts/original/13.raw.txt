@@ -1,0 +1,134 @@
+Wissenschaftler:
+    Starten wir die Aufnahme, checken einmal, dass der ausschlägt. Das tut er.
+    Dann kannst du damit anfangen.
+Proband:
+    Alles klar.
+Wissenschaftler:
+    Ah, eine Anmerkung noch. Bitte für jede Aufgabe in die halbe Fall einen neuen Chat erstellen.
+    Entweder mit dem Stift-Icon da oben oder über den, dem du Command-N drückst.
+Proband:
+    Ah, okay.
+    Okay.
+    In der Figur wird mir eine Linie angezeigt und ich muss...
+    Ach so, ich habe die Ratio von der Länge von AB zu AC.
+    Ach so, ich muss praktisch die Länge von AB berechnen.
+    Okay.
+    Das heißt, wenn das hier 2 zu 5 ist, haben wir hier AB und C. Das male ich mal aufs Papierchen auf.
+    Jetzt schreibe ich, das hier ist praktisch 2, während das alles insgesamt 5 ist.
+    Und wenn ich weiß, dass die Länge hier AC = 25 ist, kann ich die durch 5 rechnen, sind 5.
+    Und wenn ich das mal 2 rechne, die 5 mal 2 rechne, sind es 10.
+    Deswegen würde ich dafür die 10 eintippen.
+[Proband wechselt zur nächsten Aufgabe]
+Proband:
+    Okay, die nächste Aufgabe.
+    Bei der Aufgabe wird mir ein Kreis gezeigt mit einem Winkel x und dann Radius R.
+    Ach so, die mir praktisch wird gefragt, was die Länge des Kreisabschnittes ist, der da gezeigt wird.
+    Und ich habe den Winkel und ich habe den Radius.
+    Das heißt, ich könnte erstmal theoretisch erstmal mit den Umfang oder die Seitennänge von dem Kreis berechnen.
+    Mit dem Radius. Was war das?
+    Soll ich hier schon den Chatbot benutzen?
+Wissenschaftler:
+    Immer wenn du willst oder wenn du nicht willst. Das ist komplett deine Frage.
+Proband:
+    Also was ist die Formel, um den Kreisumfang zu berechnen, wenn r gegeben ist?
+[Proband schreibt eine Nachricht]
+Proband (schriftlich):
+    Was ist die Formel um den Kreis umfang zu berechnen wenn r gegeben ist?
+Proband:
+    Load a model to send a message. Welche soll ich nehmen?
+Wissenschaftler:
+    Sorry, das ist my bad. Soll auch nicht zügig gehen, weil hoffentlich große Teile davon noch im Rahmen liegen.
+    Ich schmeiße das nur hinterher für die Transcription immer wieder einmal eben raus.
+Proband:
+    Das heißt, wenn ich neue Aufgabe habe, da halte ich es direkt rein oder wird das auch?
+Wissenschaftler:
+    Nee, das ist nur für meine Prozesse. Ich hätte nur vergessen, das Modell zu laden.
+    Das sollte jetzt problemfrei gehen.
+LLM:
+    Die Formel zur Berechnung des Umfangs eines Kreises, wenn der Radius \\( r \\) bekannt ist, lautet:\n\n\\[ U = 2 \\pi r \\]\n\nDabei steht:\n- \\( U \\) für den Umfang,\n- \\( \\pi \\) (Pi) ist eine mathematische Konstante, etwa gleich 3,14159,\n- \\( r \\) ist der Radius des Kreises.\n\nWenn du den Wert von \\( r \\) kennst, kannst du ihn einfach in die Formel einsetzen und den Umfang berechnen. Viel Erfolg!
+[Proband liest die Antwort]
+Proband:
+    Okay, das war 2PiR, damit weißt du den Umfang. Wenn R 18 ist, dann habe ich 36Pi.
+    Und dann muss ich praktisch nur noch, wenn der Winkel 32 Grad ist, würde ich das so rechnen.
+    Das ist dann 360 geteilt durch 32. Das würde ich in der Taschenrechner, aber mal eintippen.
+    Das sind 45/4 und diese 45/4 ... Moment was habe ich hier gerechnet.
+    Ich muss andersrum rechnen. Ich muss die 32 durch 360 teilen und den ... genau.
+    Hätte ich jetzt nicht in den Taschenrechner eintippen müssen, aber egal.
+    Das heißt, ich kann die 36 theoretisch mal, ich werde das einfach direkt verrechnen, keine Lust drauf [Zwischenrechnungen zu machen].
+    36, dadurch habe ich 16/5 Pi und die würde ich auch so auswählen.
+[Proband wechselt zur nächsten Aufgabe]
+    Perfekt. Ich mache mal zu Sicherheit, da war schon mal direkt der nächste Tab auf.
+    In der Abbildung gezeigt haben die Dinger von neuen Diamanten ABCD.
+    Ich kenne die Dänge zwischen AC und zwischen BD und jetzt muss ich die Kantenlänge praktisch wieder berechnen.
+    Das heißt, wenn ich weiß, dass die Strecke zwischen AC = 12 ist und zwischen BD = 16 davon ausgeben, dass alles perfekt winklig ist, wie es da auf dem Bild aussieht,
+    würde ich grundsätzlich einfach nur die Kantenlänge berechnen und den Satz des Pythagoras benutzen.
+    Also AC wären 6 für eine der Seiten, 8 für die anderen, das wäre 6 zum Quadrat.
+    Was war nochmal der Satz des Pythagoras? Das war die Wurzel aus 6 und 8.
+    Also ich weiß, das ist das Grundsatz des Pythagoras, wo die lange Seite ist.
+    6 ins Quadrat mal 8 zum Quadrat. Das heißt, es ist 6 mal 8, die Wurzel von 6 mal 8.
+    6 mal 8, die Wurzel davon sind hier... Kann ich mir das anzeigen? Und schon geht irgendwas nicht auf, weil keine der Option richtig ist.
+    Vielleicht war meine Annahme falsch, dass die Sachen rechtwinklig sind, wenn ich denke.
+    Wenn das hier aus und das das genau teilt, ist das 6 und das 8. Das ist doch eigentlich für die lange Seite.
+    Ich frage mal kurz einmal den Chatbot.
+[Proband beginnt eine Nachricht zu schreiben]
+    Ich berechne die Kantenlänge von einem Diamanten, wenn die Strecken zwischen den Punkten liegen.
+    Kann ich das Bild nochmal anschauen?
+[Proband hat Schwierigkeiten das Bild einzufügen]
+Wissenschaftler:
+    Genau deswegen sage ich die Aufgaben[nummer] ist nützlich. Du kannst unten auf dem Bild-Icon schauen.
+Proband:
+    Ah, das müsste ich runterladen kurz.
+Wissenschaftler
+    Nee, es ist manchmal mit dem Copy-Paste, die Anwendung, wo das Modell drin läuft, ein bisschen finicky.
+    Das funktioniert noch nicht immer hundert Prozent.
+    Du suchst nach der Aufgabennummer.
+Proband:
+    Ah, ok, jetzt verstehe ich.
+Wissenschaftler:
+    Die sind einfach gleich benannt.
+[Proband öffnet file upload in LM Studio, sucht die Aufgabennummer und sieht mehrere files mit dem gleichen Namen]
+Proband:
+    Das ist eigentlich egal, welches ich nehme? Ah ja, jetzt verstehe ich, warum die Aufgabennummer 1 sind. Ok, perfekt.
+Proband (schriftlich):
+    Wie berechne ich die kanten länge von einem Diamanten wenn die strecken zwischen den punkten gegenüber bekannt sind?
+LLM:
+    Um die Kantenlänge eines Diamanten (ein Quadrat, das um 45 Grad gedreht ist) zu berechnen, wenn die Strecken zwischen den gegenüberliegenden Punkten bekannt sind, können wir einige geometrische Eigenschaften nutzen.\n\nZuerst einmal: Wie lang sind die Strecken zwischen den gegenüberliegenden Punkten? Nennen wir diese Länge \"d\".\n\nUm die Kantenlänge des Diamanten zu finden, können wir das rechtwinklige Dreieck betrachten, das durch eine Hälfte des Diamanten gebildet wird. Die Strecke \"d\" ist dann die Diagonale dieses rechtwinkligen Dreiecks.\n\nErinnere dich an den Satz des Pythagoras: In einem rechtwinkligen Dreieck ist das Quadrat der Hypotenuse (der Seite gegenüber dem rechten Winkel) gleich der Summe der Quadrate der anderen beiden Seiten.\n\nIn diesem Fall ist die Diagonale \"d\" die Hypotenuse, und die Kantenlänge des Diamanten (nennen wir sie \"a\") ist eine der anderen beiden Seiten. Die andere Seite ist ebenfalls \"a\", weil es sich um ein Quadrat handelt.\n\nAlso haben wir:\nd² = a² + a²\n\nVereinfache diese Gleichung, um nach \"a\" aufzulösen.\n\nViel Erfolg! Wenn du nicht weiterkommst, lass es mich wissen, und ich helfe dir mit weiteren Hinweisen.
+[Proband liest die Antwort]
+Proband:
+    Also doch Pythagoras. Was mache ich denn?
+    Kann ich das?
+    Hier geht er ja aber davon aus, dass die beiden gleich sind, die Strecke D. Warte...
+    Die Diagonal des rechtwinkligen Dreiecks.
+    Ah, ich verstehe. Wenn das die Diagonal ist, kann ich es andersherum rechnen. Ich verstehe, wenn das genau gleich sein muss.
+    Das heißt, ich weiß. Aber wissen wir, ob das Dreieck rechtwinklig ist?
+    Wenn die ja nicht gleich lang sind, ist das nicht rechtwinklig.
+[Proband schreibt eine neue Nachricht]
+    Die Strecke zwischen A und C und B und D sind aber nicht gleich.
+Proband (schriftlich):
+    Die Strecke zwischen A und C un d B und D sind aber nicht gleich lang
+LLM:
+    Ah, das ist ein wichtiger Punkt. Wenn die Strecken zwischen den gegenüberliegenden Punkten (A und C sowie B und D) nicht gleich lang sind, dann handelt es sich nicht um einen Diamanten (Quadrat), sondern um ein allgemeines Parallelogramm oder Rhombus.\n\nIn diesem Fall müssen wir die Kantenlänge auf eine andere Weise berechnen. Hier sind einige Schritte, die dir helfen können:\n\n1. **Identifiziere die gegebenen Strecken**: Nennen wir die Strecke zwischen A und C \"d1\" und die Strecke zwischen B und D \"d2\".\n\n2. **Verwende die Eigenschaften eines Parallelogramms oder Rhombus**: In einem solchen Viereck schneiden sich die Diagonalen gegenseitig in der Mitte und teilen sich dabei in zwei gleich lange Teile.\n\n3. **Bildung von rechtwinkligen Dreiecken**: Die Diagonalen teilen das Viereck in vier rechtwinklige Dreiecke. Jedes dieser Dreiecke hat eine Hälfte einer Diagonale als eine Kathete und die Kantenlänge des Vierecks als Hypotenuse.\n\n4. **Wende den Satz des Pythagoras an**: Für jedes der rechtwinkligen Dreiecke kannst du den Satz des Pythagoras verwenden, um die Kantenlänge zu berechnen. Die Länge einer Hälfte der Diagonale ist bekannt (d1/2 oder d2/2), und die Kantenlänge ist die Hypotenuse.\n\n5. **Berechne die Kantenlänge**: Verwende den Satz des Pythagoras, um die Kantenlänge zu finden. Denke daran, dass die Kantenlänge für alle Seiten gleich sein sollte, wenn es sich um einen Rhombus handelt.\n\nWenn du diese Schritte befolgst, solltest du in der Lage sein, die Kantenlänge zu berechnen. Wenn du auf Schwierigkeiten stößt oder weitere Hinweise benötigst, lass es mich wissen!
+[Proband liest die Antwort]
+Proband:
+    Da war meine Idee sogar richtig, aber ich habe einen Denkfehler gehabt.
+    Weil, wie wird auch hier vorgeschlagen?
+    Habe ich vielleicht einfach noch hier einen Denkfehler gehabt, weil...
+    Ok, nochmal. Vielleicht bin ich einfach nur dämlich. Ich hatte jetzt nochmal praktisch A und C halbiert.
+    Das sind 6, weil A und C = 12 ist, um eine Kantenlänge von einem der rechten Dreiecke zu bekommen.
+    Das Gleiche mache ich auch für B und D. Das heißt, es sind 8.
+    Und eigentlich wäre der Satz des Pythagoras immer noch praktisch, die Quadrate von beiden mal zunehmen.
+    Und so kriege ich die Hypotenusenlänge hin. Also das Quadrat von der Hypotenuse, was ich gerade schon gerechnet habe.
+[Proband gibt Rechnung erneut in den Taschenrechner ein]
+    Genau. Und dann kommt bei mir jetzt, wenn ich das hier mache...
+    Irgendwas mache ich falsch. Irgendwas ist ein großer Denkfehler bei mir.
+    Hier ist die andere.
+    Dann mache ich mir das nochmal etwas komplizierter. Mal 8 zum Quadrat sind 2000. Und davon die Wurzel...
+    Ok, ich rechne das nochmal ganz normal durch. Ich mache 6 zum Quadrat, mal 8 zum Quadrat, das sind 2304.
+    Und wenn ich die Wurzel aus 2304 rechne, kommt bei mir 48 raus.
+    48 geteilt durch 4 und 12. Irgendwas rechne ich hier ganz falsch.
+    Ich sehe glaube ich meinen Fehler, weil ich glaube ich das Pythagoras falsch in Erinnerung hatte.
+    Ich glaube ich habe nämlich mal gerechnet und nicht plus gerechnet, wo mein großes Problemchen liegt.
+    Jetzt habe ich wieder plus 8 zum Quadrat sind 100. Wurzel aus 100 ist irgendwas ungerades wieder. Und dann geht es wieder nicht auf. Es ist 10.
+    Es geht 10. Es hat ein bisschen zu lang gedauert.
+Wissenschaftler:
+    Fertig. Wunderbar.

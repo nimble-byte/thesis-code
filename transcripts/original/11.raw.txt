@@ -1,0 +1,438 @@
+Wissenschaftler:
+    Starten wir mal die Aufnahme, gucken wir mal, dass er ausschrägt, guter, dann kriegst du jetzt hier den Aufgabenset.
+    Letzte Anmerkung, jetzt wo du die Aufgaben löst, nimm bitte für jede Aufgabe einen neuen Chat.
+    Es gibt oben diesen Stift-Button oder Command-N für den neuen Chat.
+    Ich will natürlich die ganzen Protokolle von allen Aufgaben hinterher haben.
+Proband:
+    Okay, Command-N, na gut, ich mach das mal mit dem Pluszeichen.
+    So, gut, dann lesen wir erstmal die Aufgabe durch.
+[Proband liest die Aufgabe]
+    Gegeben ist der Kreis O, ein Radius von 5, die Länge der Linie AB ist 8,
+    Wie groß ist die Distanz von der Mitte des Kreises O zur Linie AB?
+    Bevor ich darüber nachdenke, frage ich den jetzt erstmal, wer mir helfen kann.
+[Proband beginnt eine Nachricht zu schreiben]
+Proband:
+    Okay, die Distanz von der Mitte des Kreises.
+[Proband fügt Bild ein]
+    So, und gucken wir mal.
+Proband (schriftlich):
+    auf diesen Bild soll die Distanz zwischen der mitte des kreises und der Linie AB errechnet werden. Wie kann ich hier vorgehen
+LLM:
+    Um die Distanz zwischen dem Mittelpunkt des Kreises (O) und der Linie AB zu berechnen, kannst du folgende Schritte beachten:\n\n1. **Verstehe das Bild**: Identifiziere den Mittelpunkt O des Kreises und die Linie AB.\n2. **Senkrechte Linie**: Die senkrechte Linie von O nach AB ist die kürzeste Distanz zwischen dem Punkt O und der Linie AB. Diese Linie ist bereits im Bild dargestellt.\n3. **Radius des Kreises**: Bestimme den Radius des Kreises, falls er nicht gegeben ist. Der Radius ist die Entfernung von O zu jedem Punkt auf dem Kreisumfang.\n4. **Position von O relativ zu AB**: Überprüfe, ob der Mittelpunkt O innerhalb oder außerhalb des Kreises liegt und wie weit er von der Linie AB entfernt ist.\n\nFalls du den Radius des Kreises kennst, kannst du diesen verwenden, um die Distanz zu berechnen. Wenn nicht, musst du ihn zuerst bestimmen.\n\nKannst du mir sagen, ob der Radius gegeben ist? Falls ja, wie lautet er?
+[Proband liest die Antwort]
+Proband:
+    Okay, verstanden, also erstens, Radius des Kreises.
+    Bestimmt den Radius des Kreises, falls er nicht gegeben ist.
+    Die Radius ist die Entfernung von 0 zu jedem Punkt auf Kreisumfang.
+    Okay, Radius ist 5, habe ich also schon mal.
+[Proband schreibt eine Nachricht]
+    Okay, der Radius ist 5.
+Proband (schriftlich):
+    der Radius ist 5
+LLM:
+    Vielen Dank für die Information! Da der Radius des Kreises 5 beträgt und die senkrechte Linie von O nach AB bereits im Bild dargestellt ist, kannst du diese Schritte befolgen:\n\n1. **Identifiziere den Abstand**: Die Länge der senkrechten Linie von O bis zur Linie AB ist der Abstand, den du suchst.\n2. **Verwende den Radius**: Da O der Mittelpunkt des Kreises ist und die Linie AB eine Tangente oder Sekante des Kreises sein könnte, kann der Radius dir helfen, den Abstand zu bestimmen.\n\nDenke daran, dass der Abstand von O zur Linie AB senkrecht gemessen wird. Wenn du diese Informationen hast, kannst du den Abstand berechnen.\n\nKannst du mir sagen, ob die Linie AB eine Tangente oder eine Sekante des Kreises ist? Das könnte dir helfen, den nächsten Schritt zu bestimmen.
+[Proband liest die Antwort]
+Proband:
+    Boah, jetzt muss ich mir mal eine Liste aufstellen, was hier Begriffe sind.
+    Das muss ich mal kurz auffrischen, was hier Begriffe nochmal waren.
+[Proband schreibt eine Nachricht]
+Proband (schriftlich):
+    was ein Tangente und was ist eine Sekante
+LLM:
+    Gute Frage! Hier sind die Definitionen:\n\n- **Tangente**: Eine Gerade, die einen Kreis an genau einem Punkt berührt. Sie steht senkrecht zum Radius des Kreises in diesem Berührungspunkt.\n- **Sekante**: Eine Gerade, die einen Kreis an zwei Punkten schneidet.\n\nIm gegebenen Bild scheint die Linie AB eine Tangente zu sein, da sie den Kreis nur an einem Punkt (A) zu berühren scheint. Wenn das der Fall ist, dann ist der Abstand von O zur Linie AB gleich dem Radius des Kreises, weil die Tangente senkrecht zum Radius im Berührungspunkt steht.\n\nKannst du bestätigen, ob die Linie AB eine Tangente ist? Falls ja, dann hast du den Abstand bereits!
+[Proband liest die Antwort]
+Proband:
+    [Eine Tagente ist] Eine Gerade, die einen Kreis an genau einem Punkt berührt, steht senkrecht zum Radius des Kreises.
+    [Eine Sekante ist] Eine Gerade, die einen Kreis an zwei Punkten schneidet.
+    Okay, dann ist AB eine Tangente.
+    Steht auch darunter, dass ich mir das noch weiter lesen soll, okay.
+    Da ist den Kreis nur an einem Punkt A schneidet.
+    Wenn das der Fall ist, dann ist der Abstand von 0 zu AB gleich dem Radius des Kreises, weil die Tangente...
+    Moment.
+    Tangente heißt, sie berührt den Kreis genau an einem Punkt.
+    Das ist nicht der Fall.
+    Sekante heißt, sie schneidet den Kreis an zwei Punkten.
+    Das ist ja beides nicht der Fall.
+Wissenschaftler:
+    Du denkst gerade irgendwas, das bitte laut formulieren.
+Proband:
+    Ja, ich überlege gerade, wo ich den Denkfehler habe, aber eigentlich hat er ja das Bild.
+    Also ich bin jetzt der Meinung, dass keines von den beiden zutrifft, also weder eine Tangente noch eine Sekante.
+    Ich überlege gerade, wo ich meinen Denkfehler habe.
+[Proband schreibt eine Nachricht]
+    AB berührt den Kreis an zwei Punkten.
+    Wenn ich das richtig verstehe.
+Proband (schriftlich):
+    AB berüht den Kreis an zwei Punkten
+LLM:
+    Vielen Dank für die Klarstellung. Da die Linie AB den Kreis an zwei Punkten (A und B) schneidet, handelt es sich also um eine Sekante.\n\nUm die Distanz zwischen dem Mittelpunkt O des Kreises und der Linie AB zu berechnen, kannst du folgende Schritte befolgen:\n\n1. **Identifiziere die senkrechte Linie**: Die kürzeste Distanz von einem Punkt (O) zu einer Geraden (AB) ist die Länge der senkrechten Linie von O auf AB.\n2. **Verwende den Satz des Pythagoras**: Da O der Mittelpunkt des Kreises ist und A sowie B Punkte auf dem Kreisumfang sind, kannst du ein rechtwinkliges Dreieck bilden, wobei OA und OB die Hypotenusen sind.\n\nHier ist eine Anleitung, wie du vorgehen kannst:\n\n- Zeichne eine senkrechte Linie von O zur Linie AB. Nennen wir den Fußpunkt dieser Senkrechten P.\n- Die Strecke OP ist der Abstand, den du suchst.\n- Da OA und OB beide Radien des Kreises sind (jeweils 5 Einheiten lang), kannst du die Länge von AP oder BP berechnen.\n\nKannst du mir sagen, wie lang AB ist? Wenn nicht, musst du es zuerst bestimmen.
+[Proband liest die Antwort]
+Proband:
+    Okay, an "zwei Punkten schneidet" ist das gleiche wie an "zwei Punkten berührt".
+    Für mich nicht.
+    Okay, also haben wir eine Sekante.
+    Wenn ich so darüber nachdenke kann ich das wahrscheinlich schon einkreisen, aber ich will wissen wie man es ausrechnet.
+    So, also.
+    Das ist eine senkrechte Linie.
+    Die senkrechte Linie habe ich.
+    Verwende den Satz des Pythagoras.
+    Der Mittelpunkt des Kreises, da A sowie B Punkte auf dem Kreisumfang ..., kannst du ein rechtwinkliges Dreieck bilden.
+    Bei A.
+    0 A und A bis A.
+    Die Hypotenusen. okay.
+[Proband schreibt eine Nachricht]
+    AB kann ich nicht bestimmen.
+    Ich weiß zumindest nicht wie.
+Proband (schriftlich):
+    nein AB kann ich nicht bestimmen
+LLM:
+    Kein Problem! Wir können auch ohne die genaue Länge von AB vorgehen. Hier ist eine Anleitung, wie du den Abstand OP (die Distanz zwischen dem Mittelpunkt O und der Linie AB) berechnen kannst:\n\n1. **Zeichne das rechtwinklige Dreieck**: Zeichne eine senkrechte Linie von O zur Linie AB und nenne den Fußpunkt dieser Senkrechten P.\n2. **Verwende die Eigenschaften des Kreises**:\n   - OA und OB sind beide Radien des Kreises und haben daher die Länge 5.\n   - AP = PB, weil OP senkrecht auf AB steht und somit der Mittelpunkt von AB ist.\n\n3. **Wende den Satz des Pythagoras an**: Im rechtwinkligen Dreieck OAP gilt:\n   \\[\n   OA^2 = OP^2 + AP^2\n   \\]\n   Da OA = 5, kannst du schreiben:\n   \\[\n   5^2 = OP^2 + AP^2\n   \\]\n   \\[\n   25 = OP^2 + AP^2\n   \\]\n\n4. **Bestimme AP**: Da AB eine Sekante ist und O der Mittelpunkt des Kreises ist, kannst du die Länge von AP durch Halbieren von AB bestimmen.\n\nKannst du mir sagen, wie lang AP ist? Wenn nicht, musst du es zuerst bestimmen.
+[Proband liest die Antwort]
+Proband:
+    Okay. Der Groschen fällt langsam.
+    Okay, also die beiden Strecken sind fünf.
+    Das passt, das verstehe ich.
+    AP. A.P. Achso, zur Mitte.
+    AP und PB.
+    Das mal schauen, das liegt da noch mal, was das say.
+    Okay.
+Wissenschaftler:
+    Bitte weiterhin versuchen laut zu denken
+Proband:
+    Ja, ich dachte, ich habe es gerade, aber ich weiß immer nicht, wie ich die Strecke zu P ausrechen soll.
+    Also von 0 bis A und von 0 bis B ist klar, das ist ja Radius, habe ich verstanden.
+    So.
+    Aber dass er sagt, dass das rechtwinklig ist, habe ich nicht verstanden, weil das kann er ja gar nicht wissen.
+    Und die Strecke, 5 Quadrat ist gleich, die beiden Werte, 0 bis P und A bis P, ...
+[Proband schreibt eine Nachricht]
+Proband (schriftlich):
+    nein kann ich DIr nicht sagen
+LLM:
+    Kein Problem! Wir können auch ohne die genaue Länge von AP vorgehen. Hier ist eine Anleitung, wie du den Abstand OP (die Distanz zwischen dem Mittelpunkt O und der Linie AB) berechnen kannst:\n\n1. **Zeichne das rechtwinklige Dreieck**: Zeichne eine senkrechte Linie von O zur Linie AB und nenne den Fußpunkt dieser Senkrechten P.\n2. **Verwende die Eigenschaften des Kreises**:\n   - OA und OB sind beide Radien des Kreises und haben daher die Länge 5.\n   - AP = PB, weil OP senkrecht auf AB steht und somit der Mittelpunkt von AB ist.\n\n3. **Wende den Satz des Pythagoras an**: Im rechtwinkligen Dreieck OAP gilt:\n   \\[\n   OA^2 = OP^2 + AP^2\n   \\]\n   Da OA = 5, kannst du schreiben:\n   \\[\n   5^2 = OP^2 + AP^2\n   \\]\n   \\[\n   25 = OP^2 + AP^2\n   \\]\n\n4. **Bestimme AP**: Da AB eine Sekante ist und O der Mittelpunkt des Kreises ist, kannst du die Länge von AP durch Halbieren von AB bestimmen.\n\nKannst du mir sagen, ob du die Länge von AB irgendwie bestimmen oder messen kannst? Wenn nicht, musst du es zuerst bestimmen.
+[Proband liest die Antwort]
+Proband:
+    Das ist gefühlt die gleiche Antwort wie vorher. Das bringt mich jetzt nicht wirklich weiter.
+    Ich kann AB nicht bestimmen, also kann ich logischerweise auch AP nicht bestimmen.
+    Habe ich noch was oben überlesen
+Wissenschaftler:
+    Ich würde empfehlen die Aufgabe nochmal zu lesen. Ich greife jetzt doch mal helfend ein.
+Proband:
+    Ja. Kreis... Ja ich habs gesehen.
+[Proband schreibt eine Nachricht]
+Proband (schriftlich):
+    die Länge von AB ist 8
+LLM:
+    Vielen Dank für die Information! Jetzt können wir den Abstand OP berechnen. Hier ist eine Anleitung, wie du vorgehen kannst:\n\n1. **Bestimme AP**: Da AB = 8 und P der Mittelpunkt von AB ist, gilt:\n   \\[\n   AP = \\frac{AB}{2} = \\frac{8}{2} = 4\n   \\]\n\n2. **Wende den Satz des Pythagoras an**: Im rechtwinkligen Dreieck OAP gilt:\n   \\[\n   OA^2 = OP^2 + AP^2\n   \\]\n   Da OA = 5 und AP = 4, kannst du schreiben:\n   \\[\n   5^2 = OP^2 + 4^2\n   \\]\n   \\[\n   25 = OP^2 + 16\n   \\]\n\n3. **Löse nach OP auf**:\n   \\[\n   OP^2 = 25 - 16\n   \\]\n   \\[\n   OP^2 = 9\n   \\]\n   \\[\n   OP = \\sqrt{9} = 3\n   \\]\n\nJetzt hast du den Abstand OP berechnet. Wenn du weitere Fragen hast, lass es mich wissen! Für ein neues Problem sollst du bitte eine neue Unterhaltung erstellen.
+[Proband liest die Antwort während sie generiert wird]
+Proband:
+    So. Dann kann ich logischerweise auch das berechnen. Das ist 4. Und warte...
+    Rechnet der das jetzt selber für mich aus?
+    Was? OP ist gleich... sind 3. Hat er hat doch für mich ausgerechnet.
+    Super, vielen Dank.
+    Ok, also war mein Haupt Ding, dass ich das überlesen habe und somit die Erklärung nicht verstanden habe.
+    Ok, nächste Task.
+[Proband wechselt zur nächsten Aufgabe]
+    Nächste Task, das ist jetzt die besagte Task, ja?
+    Okay, dann gucken wir uns die mal an.
+    So, A bis C ist gleich 6, BC ist gleich 3, point P, der nicht gezeigt wird.
+    Der P liegt zwischen A und B, so das, C, watt.
+    Okay, also, der Punkt P liegt irgendwo auf der Strecke zwischen A und B.
+    Ich muss mal gucken, dass ich das Englisch richtig verstanden habe.
+    Liegt irgendwo auf der Strecke zwischen A und B.
+[Wissenschaftler weißt auf die Übersetzung der Aufgabe hin]
+    Ich lese mal von oben nach unten und nicht alles durch, okay.
+    Der Punkt A liegt auf der Linie zwischen A und B, so das die Linie von C zu dem Punkt P, der da irgendwo liegt, rechtwinklig zu A und B ist.
+    Ah, also muss die irgendwo da oben liegen.
+    So, wie lang ist C von da nach da?
+    Wie frage ich den jetzt?
+    Egal, fangen wir jetzt mal mit dem P an.
+Wissenschaftler:
+    Neuer Chat, bitte.
+Proband:
+    Ach so, kann es hin?
+    Das war das Command N, ne?
+    So, also aktuell habe ich noch nicht verstanden, warum die Aufgabe so schwer ist.
+    Deswegen frage ich ihn erstmal.
+[Proband schreibt eine Nachricht (verloren)]
+    So, laut dieses Bildes AC gleich 6 und BC ist gleich 3.
+    Die Länge AB ist nicht bekannt.
+    Ne, machen wir das Step by Step.
+    Ich brauche die Linie AB mit dem Punkt P.
+[Proband liest die Antwort (verloren)]
+    Das handelt sich an Eingabe C, AC, BC, PB.
+    Stimmt, das steht in der Aufgabe dran.
+    Insofern kann es ein Koordinatensystem einführen.
+    Wow, ok.
+    Punkt B bestimmen, der BC ist gleich 3, es liegt Punkt B irgendwo im Koordinatensystem.
+    So ist der Abstand.
+    [unverständlich]
+    Okay, fangen wir mal vom oben an.
+    Wie weit ich denn überhaupt kommen mit der Aufgabe?
+    [unverständlich]
+    Okay, die Aufgabe könnte wirklich ein bisschen länger dauern.
+    [unveständlich]
+    X war mal unten, ne?
+    Jetzt sagt er mir, lege zum Beispiel Punkt A an die Ursprung von 0.
+    So, das ist dann A.
+    C ist dann bei 6.
+    Da ist hier aber 1, 2, 3, 4, 5, dann 6.
+    So.
+    Da BC = 3 ist, liegt der Punkt B irgendwo im Koordinatensystem.
+    So ist der Abstand von B zu C gleich 3.
+    Die genaue Position von B, wo du ihn platzierst, A, wir wissen es.
+    Es liegt auf einem Kreis am Radius 3 um den Punkt C.
+    Okay, jetzt geht es anscheinend noch nach unten.
+    1, 2, 3. Irgendwo da.
+    Das ist kein Kreis, ich weiß.
+    Ich versuche noch den Punkt zu finden, wo ich scheiter Aufgabe.
+    Punkt C liegt so.
+    Punkt P liegt auf der Schrecke A, B zwischen A und B.
+    Wir müssen hier nur von CP finden.
+    Okay.
+    Der CP sind gleich so wie [unverständlich].
+    Ich glaube, ich schalte aber den Vektor an, glaube ich.
+    [unverständlich]
+    Wie viel Zeit habe ich dafür?
+Wissenschaftler:
+    Ja.
+Proband:
+    Ja. (lacht)
+Wissenschaftler:
+    Also es gilt für alle Aufgaben.
+Proband:
+    Ich könnte mich in Vektor-Analyser kurz einarbeiten.
+    Schauen, was ein Skalarprodukt ist.
+    Um nicht zu sagen, dass ich diese beiden Sachen nicht mehr weiß.
+    Würde ich vermuten, dass das nicht funktionieren würde.
+Wissenschaftler:
+    Als jemand, der die Aufgabe schon gelöst hat.
+    Selbst wenn du das machst, ist das noch nicht genug.
+Proband:
+    Das vermute ich mal.
+    Ich glaube auch, da gibt es viel zu viele Variablen, die ich erst mal auflösen müsste.
+Wissenschaftler:
+    Wir können da gerne hinterher noch mal drüber sprechen.
+Proband:
+    Dann mache ich da wohl mal...
+[Wissenschaftler sucht eine neue Aufgabe raus]
+Wissenschaftler:
+    Guck mal, so etwas Entspanntes.
+Proband:
+    Was Entspanntes?
+Wissenschaftler:
+    Ja.
+Proband:
+    Das ist ja fast mich unter Druck setzen, wenn ich das jetzt wieder nicht schaffe.
+Proband
+    So, Aufgabe 54.
+    In der gezeigten Abbildung ist das Verhältnis der Längen der Abschnitte AB zu AC 2:5.
+    Okay.
+Wissenschaftler:
+    Immer versuchen, laut zu denken.
+Proband:
+    Ja, ich würde gerne... wie ich die Angabe 2 zu 5 zu verstehen habe.
+    Kann ich ja fragen?
+    Echt krass, wenn man so lange raus ist.
+    Dass man das alles nicht mehr versteht.
+[Proband schreibt eine Nachricht]
+    Wie ist in diesem Bild die Angabe 2:5 zu verstehen?
+Proband (schriftlich):
+    Wie ist in diesem Bild die Angabe 2:5 zu verstehen
+LLM:
+    Die Angabe 2:5 bedeutet, dass das Verhältnis der Länge von AB zur Länge von AC gleich 2:5 ist. Das heißt, wenn du die Länge von AB durch die Länge von AC teilst, erhältst du den Bruch 2/5.\n\nUm die Länge von AB zu finden, kannst du diese Information verwenden. Du weißt, dass AC = 25 ist. Wie kann man das Verhältnis nutzen, um AB zu berechnen?
+[Proband liest die Antwort]
+Proband:
+    So, bedeutet das Verhältnis der Länge AB.
+    Das heißt, wenn die Länge von AB durch die Länge von AC teils, erhältst du den Bruch 2/5.
+    Ach so, Bruchrechnung.
+    Oh Gott.
+    Die Länge von AB zu 5... kannst du diese Information verwenden.
+    Das heißt...
+    Dann ist AB 2/5 von 25.
+    25 durch 5 sind 5, mal 2 sind 10.
+    Sagt er mir also richtig, ob es richtig ist?
+Wissenschaftler:
+    Nein.
+Proband:
+    Sagt er nicht?
+Wissenschaftler:
+    Nicht sofort.
+Proband:
+    Okay.
+    Aber kann ich ihn das fragen, oder?
+[Proband beginnt eine Nachricht zu schreiben]
+    Okay, 2, wie schreibt man dann 2/5?
+    So?
+    Dem Strich?
+Wissenschaftler:
+    Zum Beispiel.
+Proband:
+    Von 25 bis da, dann 10 sein.
+    Fragezeichen.
+Proband (schriftlich):
+    ok, 2/5 von 25 müsste dann 10 sein?
+LLM:
+    Fast richtig! Denk daran, dass das Verhältnis AB:AC gleich 2:5 ist.\n\nWenn du also die Länge von AC kennst, kannst du die Länge von AB wie folgt berechnen:\n\nAB / AC = 2 / 5\n\nDu hast AC = 25 gegeben. Setze diesen Wert in die Gleichung ein und löse nach AB auf. Was erhältst du dann?
+[Proband liest die Antwort]
+Proband:
+    Fuck.
+    Fast richtig.
+    Denk daran, dass du das Verhältnis AB zu AC gleich 2/5 ist.
+    Wenn du die Länge von AC kennst, kannst du die Länge von AB wie folgt berechnen.
+    AB durch AC ist gleich 2/5.
+    Hä?
+    Wenn ich 25 in 5/5 aufteile, ist 1/5 5.
+    Das sind 2/5 10.
+    Hab ich jetzt so einen Hänger gerade?
+    AB sind 2/5 von AC.
+    Oder denke ich falsch?
+    Jetzt frage ich ihn, ob er mir die Gleichung umstellen kann.
+    Bin ich zu faul zu.
+[Proband schreibt eine Nachricht]
+Proband (schriftlich):
+    Kannst Du mir die Gleichung umstellen
+LLM:
+    Natürlich! Hier ist die Gleichung basierend auf dem Verhältnis:\n\nAB / AC = 2 / 5\n\nDu kennst AC = 25. Setze diesen Wert in die Gleichung ein:\n\nAB / 25 = 2 / 5\n\nJetzt musst du nach AB auflösen. Was kannst du tun, um AB zu isolieren?
+[Proband liest die Antwort]
+Proband:
+    Das meinte ich also, dass er das für mich machen soll, nach AB umstellen soll.
+    Hat er aber genau nicht gemacht.
+Wissenschaftler:
+    Laut.
+Proband:
+    Ja ich überlege...
+Wissenschaftler:
+    Genau das will ich ja hören.
+Proband:
+    Ja, Gleichung umstellen.
+    Ich hasse das. Gleischung umstellen.
+    Er soll mir das selber umstellen.
+    Sonst komme ich ja nicht auf meinen Denkfehler.
+    Warte mal.
+    Ob wohl. Ich kann ja fragen, ob meine Rechnung richtig ist.
+[Proband schreibe eine Nachricht]
+    Also ist AB 2/5 von AC.
+Proband (schriftlich):
+    ist AB 2/5 von AC?
+LLM:
+    Ja, genau! AB ist 2/5 von AC.\n\nWie würdest du dann die Gleichung lösen, um den Wert von AB zu finden?
+[Proband liest Antwort]
+Proband:
+    Das ist das, was ich geäußert habe?
+    Wenn AB 2/5 von AC sind und AC ist 25, dann ist AB 10.
+[Proband schreibt eine Nachricht]
+    Gib mir ein Tipp.
+Proband (schriftlich):
+    gib mir einen Tipp
+LLM:
+    Natürlich! Hier ist ein Tipp:\n\nUm nach AB aufzulösen, kannst du beide Seiten der Gleichung mit 25 multiplizieren. Was erhältst du dann für AB?\n\nAB / 25 = 2 / 5\n\nMultipliziere beide Seiten mit 25:
+[Proband liest die Antwort und wartet(?)]
+Wissenschaftler:
+    Der macht nichts mehr.
+Proband:
+    Ja, damit kann ich garnichts anfangen, ehrlich gesagt.
+Wissenschaftler:
+    Multipliziere beide Seiten mit 25.
+    2/5 mal 25.
+Proband:
+    2/5 von was?
+    Ich kann ja nicht den Wert, ich kenne mal 25 nehmen.
+Wissenschaftler
+    2/5 ist ein Bruch.
+Proband:
+    Ach so.
+Wissenschaftler
+    Kannst du die Taschenrechner hier noch eintippen, wenn du willst.
+Proband:
+    Kann man hier Brüche eintippen?
+Wissenschaftler:
+    Ja.
+Proband:
+    Wo sind denn hier die Brüche?
+[Wissenschaftler zeigt die Taste für Brüche auf dem Taschenrechner]
+Wissenschaftler:
+    Das ist ein Bruch.
+Proband:
+    Oh. Cool.
+Wissenschaftler:
+    Und dann kannst du entweder runter, also das sind ein Pfeiltasten.
+Proband
+    Okay, okay.
+    2/5.
+    Oh.
+[Wissenschaftler hilft mit der Eingabe in den Taschenrechner]
+Wissenschaftler:
+    Und jetzt aus dem Bruch raus.
+Proband:
+    Ach so, okay.
+    Ich glaube, das weiß der.
+    Die 2.
+    Aber ist es nicht das, was er fragt?
+    Nein, das ist das Verhältnis.
+    10.
+    Warte.
+    Beide Seiten, also AB durch 25 mal 25 ist AB.
+    Also ist es doch AB 10.
+    Wo häng ich denn jetzt gerade?
+Wissenschaftler:
+    Ich darf das inhaltlich nicht kommentieren.
+Proband:
+    Also wenn ich AB durch 25 mal 25 nehme, dann habe ich AB.
+    Und wenn 2/5 mal 25 = 10 sind, dann ist AB gleich 10.
+    Er sagt mir, das ist falsch.
+    Oder fast richtig.
+    Jetzt frage ich ganz klar.
+[Proband schreibt eine Nachricht]
+Proband (schriftlich):
+    Sind AB/25 mal 25 = AB?
+LLM:
+    Ja genau! Wenn du beide Seiten der Gleichung mit 25 multiplizierst, erhältst du:\n\nAB = (2 / 5) * 25\n\nWas ergibt sich dann für AB?
+[Proband liest die Antwort]
+Proband:
+    Ja. Ich habe gerade ausgerechnet. 10.
+[Proband gibt eine Nachricht ein]
+Proband (schriftlich):
+    10
+LLM:
+    Richtig!\n\nWenn du (2 / 5) * 25 berechnest, erhältst du tatsächlich 10.\n\nAlso ist die Länge von AB gleich 10.\n\nHerzlichen Glückwunsch zur erfolgreichen Lösung des Problems! Wenn du ein neues Problem hast, erstelle bitte eine neue Unterhaltung. Ich helfe dir gerne weiter!
+[Proband liest die Antwort]
+Proband:
+    Hä?
+    Er sagt, erst fast richtig.
+    Dann sagt er da richtig.
+    Geil.
+    Ich lese nochmal nach.
+    Erst sagt er, fast richtig. Dann sagt er da richtig.
+    Okay.
+[Proband wechselt zur nächsten Aufgabe]
+    Nächste Aufgabe
+    Clear Chat
+    Habe ich die ganze Zeit umsonst gehangen.
+    Super.
+    So, also.
+    A.
+    [unverständlich]
+    10.
+    M ist die Mitte.
+    ... auf der Linie AB.
+    C ist die Mitte.
+    Das Abschnitt ist MB.
+    N ist der Punkt auf der Linie AM.
+    NM ist 1.
+    Wie lang ist NC?
+    Jetzt muss ich mich mal kurz sortieren. Jetzt zeichne ich mir das Bild mal komplett auf.
+    Da ist A.
+    M ist exakt in der Mitte.
+    B.
+    Ich mache mal kurz ... 0.
+    M ist die Hälfte. 50 Prozent.
+    B sind 100 Prozent.
+    So.
+    M ist genau in der Mitte
+    AB 100 Prozent. Also 100% ist 10 lang, M ist genau in der Mitte, also 5, AB genau so, C ist die Mitte des Abschnittes MB.
+    Also zwischen 5 und 10 ist C, das ist genau die Mitte von MB, das ist siebeneinhalb
+    N ist ein Punkt auf der Linie zwischen A und M, aber irgendwo, okay.
+    Aber ich weiß, dass zwischen N und M nur 1 ist. Wenn M = 5 ist, dann ist N = 4. Wie lang ist N bis C? Zwischen 4 und 7,5 liegen 3,5.
+    Habe ich jetzt nicht gefragt, aber okay.
+Wissenschaftler:
+    Wunderbar.

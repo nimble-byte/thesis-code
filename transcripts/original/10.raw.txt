@@ -1,0 +1,254 @@
+Wissenschaftler:
+    Gucken wir mal auf die Aufnahme, gucken wir mal ob der ausschlägt, dann übergebe ich die jetzt hier.
+[Proband liest die Aufgabe]
+Proband:
+    Achso, da unten steht es noch mal auf Deutsch.
+    Okay, deshalb werden wir jetzt wieder hier den Fall. Wir haben hier wieder so eine schöne Linie.
+    [Proband macht Notizen]
+    So, also einmal A, B und C. A, B und C.
+    Gut, das Verhältnis, wie wir wissen, das Verhältnis AB zu AC, 2 zu 5 ist. Und AC hat eine Länge von 25.
+    So, jetzt weiß ich nur nicht, also das Verhältnis 2 zu 5 müsste dann eigentlich sein, dass...
+    So, das ist jetzt natürlich eine gute Frage. Was bedeutet das Verhältnis 2 zu 5 in unserem Fall?
+[Proband schreibt eine Nachricht und fügt das Bild der Aufgabe ein]
+Proband (schriftlich):
+    Was bedeutet das Verhältnis 2:5?
+LLM:
+    <think>Der Benutzer fragt nach der Bedeutung des Verhältnisses 2:5 im Kontext einer geometrischen Figur mit den Punkten A, B und C auf einer Linie. Das Verhältnis bezieht sich auf die Längen der Abschnitte AB zu AC. Der Benutzer hat bereits die Länge von AC gegeben (AC = 25) und fragt nach der Länge von AB.</think>
+    Um das Verhältnis 2:5 zu verstehen, stellen Sie sich vor, dass die Strecke AC in zwei Teile geteilt wird: AB und BC. Das Verhältnis 2:5 bedeutet, dass AB 2 Teile und BC 5 Teile der Gesamtstrecke AC ausmacht. Um die Länge von AB zu finden, müssen wir das Verhältnis verwenden, um den Anteil von AB an der Gesamtlänge AC zu bestimmen.\n\nWie würden Sie vorgehen, um die Länge von AB basierend auf dem gegebenen Verhältnis und der Gesamtlänge AC zu berechnen?
+Proband
+    Kann ich mir das leiser durchlesen, oder muss ich es laut vorlesen?
+Wissenschaftler:
+    Wie gesagt, du kannst leise lesen, das ist überhaupt kein Problem. Nur was du dann halt wieder selber damit anfängst, das dann bitte wieder [laut sagen].
+[Proband liest Antwort]
+Proband:
+    So, gut, das heißt, wir wissen, ja gut, eigentlich hat es mir jetzt nicht so viel weiter geholfen, aber das wusste ich irgendwie schon.
+    Die Frage war halt eben, ..., ich könnte jetzt, er fragt mich, wie ich das Verhältnis berechnen würde. Das heißt, ich könnte, ... das ist eine gute Frage.
+    Ich würde, weil ich habe, was sind das, 25? Kann ich jetzt, wenn ich weiß, dass 25 = 5 sind. 25 durch 2, nee, macht keinen Sinn.
+    Nee, das macht keinen Sinn. Das ist eine gute Frage. Ich kann es auf, ..., mal nicht mal 2.
+    Kann ich das berechnen? Es könnte jetzt sein, wenn ich zum Beispiel beides auf 10 mal 2 mache, dann hätte ich 10 und dann 4, dann wüsste ich, das 10.
+    Also, ich weiß, was es bedeutet, das Verhältnis 2 zu 5, aber ich weiß nicht so ganz, wie ich das berechnen würde.
+[Proband schreibt eine Nachricht]
+Proband (schriftlich):
+    Also, ich weiß, was es bedeutet, das Verhältnis 2 zu 5, aber ich weiß nicht so ganz, wie ich es berechnen würde.
+LLM:
+    <think>Der Benutzer versteht die Bedeutung des Verhältnisses 2:5 und hat erkannt, dass das Verhältnis die Teile der Strecke AC in AB und BC aufteilt. Er ist sich jedoch unsicher, wie man die Länge von AB basierend auf diesem Verhältnis berechnet. Der Benutzer fragt, ob er davon ausgehen kann, dass 5 Teile 100% der Gesamtlänge AC darstellen.</think>
+    Ja, du kannst davon ausgehen, dass die 5 Teile zusammen 100% der Gesamtlänge AC darstellen. Das Verhältnis 2:5 bedeutet, dass AB 2 Teile und BC 5 Teile der Strecke ausmacht. Zusammen ergeben AB und BC also 7 Teile.\n\nUm die Länge von AB zu berechnen, musst du bestimmen, wie lang ein Teil ist und dann diesen Wert mit 2 multiplizieren. Wie würdest du vorgehen, um die Länge eines Teils zu finden?
+[Proband liest Antwort]
+Proband:
+    Also, ich glaube, es könnte sein, dass wenn, ...
+Wissenschaftler:
+    Immer weiter denken, wie gesagt, keine Angst haben, dass du was Falsches sagst.
+    Ich bin nicht hier, um dich zu testen. Es geht mir darum, deine Gedanken zu lernen. Du darfst und sollst auch falsche Gedankengänge, die nicht zur richtigen Lösung führen, formulieren.
+Proband:
+    Okay, jetzt sagt er mir, AB sind 2 Teile. Ach so, ja. Okay, also das heißt, er sagt mir jetzt, AB sind 2 Teile, BC sind 5 Teile.
+    Das heißt, jetzt kommen wir auf insgesamt 7 Teile. So, jetzt haben wir 7 Teile, sind 100%. Das heißt, dann haben wir einmal 5 Teile, sind 25%.
+    Also, das heißt, ich schaue jetzt praktisch, ich schaue jetzt ungefähr, ich weiß, dass 7 Teile 100% sind.
+    Und was bedeutet, das sind dann eine Länge von x, die wissen wir noch nicht. Ich weiß, dass die 5 ungefähr 70% sind.
+    Und das sind eine Länge von 25. Und dann wissen wir, dass 2 30% sind. Und das wissen wir auch nicht.
+    Also, um die Länge von AB zu berechnen, musst du bestimmen, wie lange ein Teil ist. Ach so, ja.
+    [Unverständlich] Ich möchte folgende Dinge eines Teiles zu finden. Was sind die 5 Teile zu so einem 100%?
+    So, 100%. Ach so.
+    [Unverständlich]
+    Okay, ich frage mich jetzt, wie ich vorgehen würde, um die Länge eines Teiles zu finden.
+    Gut, das heißt, das ist eigentlich ganz einfacher Dreisatz, aber...
+[Proband schreibt eine neue Nachricht]
+Proband (schriftlich):
+    Das ist doch ein ganz einfacher Dreisatz oder?
+LLM:
+    <think>Der Benutzer hat erkannt, dass das Problem mit einem einfachen Dreisatz gelöst werden kann. Er versteht, dass die Gesamtlänge AC in 7 Teile aufgeteilt wird (2 Teile für AB und 5 Teile für BC). Jetzt muss er den Wert eines Teils bestimmen.</think>
+    Genau! Du hast recht, dass ein einfacher Dreisatz hier hilfreich sein kann.\n\nDa die Gesamtlänge von AC 25 ist und das Verhältnis der Längen AB zu AC 2:7 beträgt (weil 2+5=7), kannst du den Wert eines Teils berechnen. Wie würdest du vorgehen, um die Länge eines Teils zu finden?
+[Proband liest Antwort]
+Proband:
+    Okay. Eigentlich würde ich mich jetzt die Antwort haben.
+    Äh, was heißt das für eine Länge? Kannst du mir die Länge eines Teiles berechnen?
+    Gesamtlänge von AC. Ach so, nochmal.
+[Proband schreibt Notizen]
+    Also, AC sind 25. Und wir brauchen jetzt AB. So, das ist x.
+    Ach so. Kannst du mir die Länge eines Teiles für richten?
+    Okay.
+Wissenschaftler:
+    Immer schon laut nachdenken.
+Proband:
+    Ja, ja, ja. Also, ich will nur bestätigt wissen. Also, AC sind 25.
+    Was sind das für Verhältnisse?
+    AB zu AC (2x)
+[Proband schreibt eine Nachricht, löscht Teile und schreibt eine neue Nachricht]
+Proband (schriftlich):
+    Was meinst du mit AB zu AC 2:7?
+LLM:
+    <think>Der Benutzer hat das Verhältnis von AB zu AC als 2:5 gegeben und ich habe fälschlicherweise gesagt, dass es sich um 2:7 handelt. Ich muss den Benutzer korrigieren.</think>
+    Entschuldigung für die Verwirrung! Das Verhältnis von AB zu AC ist tatsächlich 2:5, nicht 2:7.\n\nDas bedeutet, dass AB 2 Teile und AC 5 Teile sind. Da AC die gesamte Strecke ist, entspricht AC 5 Teilen. Um die Länge eines Teils zu finden, musst du die Gesamtlänge von AC durch die Anzahl der Teile teilen.\n\nWie würdest du vorgehen, um die Länge eines Teils zu berechnen?
+[Proband liest Antwort]
+Proband
+    Ach so. Um die Länge eines Teiles zu finden, musst du die Gesamtlänge von AC durch die Anzahl der Teile teilen.
+Wissenschaftler:
+    Laut.
+Proband:
+    Ja, ja. Also, zwei Teile, fünf Teile sind insgesamt sieben Teile.
+    So. Okay. Das heißt, ich weiß, sieben Teile sind 100%. Ja, das habe ich schon.
+    Also, oder sieben Teile sind 100%. Dann muss ich wissen, wie lange ein Teil sind. Das heißt, ich muss sieben ...
+    Das ist ja genau die Frage. Wie würdest du vorgehen, um die Länge eines Teiles zu berechnen? Das ist ja genau die Frage, wenn ich weiß.
+    Ach so, ich muss 25 durch 5. Und dann komme ich auf fünf, das ist die Länge von einem Teil. Ja, eigentlich.
+    Also, gut. Ich weiß, dass ich ja fünf Teile habe. Die sind zusammen 25 lang. So, das heißt, ich weiß, dass ein Teil eine Länge von 5 hat.
+    Also, insgesamt haben wir 2. Das heißt, wir wissen, insgesamt haben wir 7 Teile. Und wir brauchen 2 Teile.
+    Das heißt, dadurch, dass ein Teil 5 lang ist und 2, wir brauchen 2, also 2 mal fünf sind zehn. Boah hatte ich da einen Denkfehler.
+[Proband wechselt zur nächsten Aufgabe]
+    Okay, naja, neuer Chat.
+    Was ist die Länge des Kreisabschnittes, der in der Abbildung eingezeichnet ist?
+    Also, ich bin einmal verwirrt, weil x hoch null ist wahrscheinlich dann die Fläche.
+Wissenschaftler:
+    Das ist x Grad.
+Proband:
+    Gut, also, ich habe hier einen Kreis. Und hier wird wahrscheinlich die Länge des Kreisabschnittes, der in der Abbildung eingezeichnet ist.
+    Der Kreisabschnitt ist dann wahrscheinlich das, was nicht gestrichelt ist.
+    So, das heißt, gibt es jetzt die Frage, ich weiß, es gibt eine Formel, um das zu berechnen. Höchstwahrscheinlich.
+    Ähm, schauen wir mal. Wie paste ich da? Command V? Ah, ne, das war nämlich 455.
+[Proband komponiert eine Nachricht inklusive des Bildes aus der Aufgabe]
+    Ah ja, da. So, jetzt, weil ich gehe davon aus, also wir haben eine Länge, wir haben die Fläche, wir haben den Winkel, okay.
+Proband (schriftlich):
+    Gibt es dafür eine Formel? Oder brauche ich noch weitere Informationen?
+Wissenschaftler:
+    Bitte weiter den Gedankengang ausführen.
+Proband:
+    Also, ich glaube, es gibt da eine Formel dazu, um das zu berechnen.
+    Ich bin mir aber nicht sicher.
+    Ob man da vielleicht noch irgendwelche anderen Ideen oder weitere Sachen braucht.
+LLM:
+    <think>Der Benutzer hat ein Bild eines Kreissegments mit einem Winkel x und Radius r gezeigt. Er möchte die Länge des Bogens berechnen, wenn x = 32° und r = 18 gegeben sind. Es wurden auch multiple-choice Antworten zur Auswahl gestellt.\n\nUm den nächsten Schritt abzuleiten, sollte der Benutzer darauf hingewiesen werden, dass er die Formel für die Bogenlänge eines Kreises verwenden muss, die lautet: L = θ/360 * 2πr, wobei θ der Mittelpunktswinkel in Grad und r der Radius des Kreises ist.</think>
+    Um die Länge des Bogens zu berechnen, benötigen Sie die Formel für die Bogenlänge. Kennen Sie die Formel zur Berechnung der Bogenlänge eines Kreissegments?
+[Proband liest die Antwort]
+Proband:
+    Okay, nein. Er sagt mir, es gibt halt eben diese Formel für die Bogenlänge, die kenne ich aber nicht.
+    Ähm, deswegen, die Formel kenne ich nicht. Ich weiß, dass es für fast alles immer eine Formel gibt, aber, ähm.
+[Proband schreibt eine Nachricht]
+Proband (schriftlich):
+    Nein die Formel kenne ich nicht. Wie lautet sie?
+LLM:
+    <think>Der Benutzer kennt die Formel für die Bogenlänge nicht. Ich sollte ihm die Formel mitteilen und ihn dann auffordern, sie auf das gegebene Problem anzuwenden.</think>
+    Die Formel zur Berechnung der Länge eines Bogens in einem Kreis lautet:\n\nL = θ/360 * 2πr\n\nDabei ist:\n- L die Bogenlänge,\n- θ der Mittelpunktswinkel in Grad (in Ihrem Fall x),\n- r der Radius des Kreises.\n\nJetzt, wo Sie die Formel haben, können Sie sie verwenden, um die Länge des Bogens mit den gegebenen Werten zu berechnen.
+[Proband liest Antwort]
+Proband:
+    So, was in einem Kreis lautet.
+    Gut, also er sagt mir jetzt, ich habe hier, ähm, die Formel ist L, also die Bogenlänge, das ist das, was gesucht wird, genau.
+    L ist die Bogenlänge, die kann ich berechnen, indem ich, ich weiß leider nicht, was das ist, so eine Art Grad, keine Ahnung.
+Wissenschaftler:
+    Das ist ein griechischer Buchstabe. Das ist ein, bitte frag mich nicht, ein Tau?
+Proband:
+    Ja, diese Null mit einem Strich durch, äh, 360 mal 2πR. So, das heißt, ich weiß.
+[Proband ist irritiert durch den Wissenschaftler]
+Wissenschaftler:
+    Ich denke gerade nach, was das für ein griechischer Buchstabe ist.
+Proband:
+    Okay, das heißt, ich habe, also was ich jetzt mache, ich schreibe mir immer die Formel auf und setze schon mal ein, was ich weiß.
+    Also L ist die Bogenlänge, die wird gesucht.
+    Ähm, dieses, dieser griechische Buchstabe ist in meinem Fall X.
+    Das heißt, das sind 32. Das heißt, ich habe 32 durch 360 mal 2πR. Und R ist der Radius des Kreises.
+    Der sind 18. So, und jetzt müsste mir normalerweise mein Taschenrechner helfen.
+    Ich bin mir mal überlegen, π, gibt es das darauf?
+Wissenschaftler:
+    Gibt es unten irgendwo bei den Sonderzeichen?
+Proband:
+    Ach ja, da unten, ja genau, stimmt. Okay.
+    Also, das heißt, ich habe 32, 32 durch 360 mal 2π18.
+    Ja, ich muss natürlich wieder mit Zeichen rechnen. Das habe ich falsch gemacht.
+    32 durch 360, ein bisschen in Klammern setzen.
+    32 durch 360 mal 2, mal π, mal 18.
+    So, somit komme ich auf 16/5π. Und das...
+    So, das ist jetzt die Frage.
+[Proband prüft die Antwortmöglichkeiten für die Frage]
+    Das wird wahrscheinlich das erste sein, weil ich 16 durch 5 habe. Und da sind 16...
+    Ah ja, gut, klar. Ja, ja, man macht schon so ein 16 durch 5, mal π.
+Wissenschaftler:
+    Das ist backslash Pi, das ist TeX Code. Von daher imagine, da steht ein Pi.
+Proband:
+    Ja, okay, gut. So, gut. Okay.
+[Proband wechselt zur nächsten Aufgabe und liest]
+    Wie lang sind die Kanten des Diamanten? Okay.
+    So, dann zeichne ich mir das einmal wieder bildlich auf.
+    Ich kann das noch mal. Also...
+[Proband macht eine Zeichnung]
+    Das ist jetzt natürlich wieder ein bisschen klein. Jetzt muss ich auch Zahlen da reinschreiben.
+    Hat hier auch kein Diamant geworden, aber gut. Das reicht schon so.
+[Proband macht eine neue Zeichnung]
+    [A],C, D und B.
+    Gut, ich weiß, dass die Längen AC, 12 haben. Das heißt, der hier ist 6.
+    Es ist die Frage, sind beim Diamanten müssten eigentlich alle Längen, alle Kanten, alle Linien müssten eigentlich gleich...
+[Proband schreibt eine Nachricht]
+    Also, theoretisch könnte es sein, dass alle gleich lang sind, normalerweise.
+[Proband sucht das Bild zur Aufgabe 478]
+    4, 7, 8.
+    Ja, gut. Also, theoretisch wäre BC und A. Die Äußeren müssten alle gleich lang sein.
+    Und eigentlich auch A bis C und B bis D müssten eigentlich alle gleich lang sein.
+Proband (schriftlich):
+    Sind bei so einem Diamanten alle Kanten gleich lang?
+LLM:
+    <think>Der Benutzer hat ein Bild eines Diamanten (Rhombus) hochgeladen und fragt, ob alle Kanten gleich lang sind. Aus dem Bild kann man erkennen, dass es sich um eine Raute handelt, da alle Seiten gleich lang erscheinen. Der nächste Schritt ist zu bestätigen, dass in einer Raute tatsächlich alle Seiten gleich lang sind.</think>
+    Ja, bei einem Diamanten (auch bekannt als Raute) sind alle vier Seiten gleich lang. Das ist eine der Eigenschaften eines Rhombus. Hast du noch weitere Fragen dazu?
+[Proband liest die Antwort]
+Proband:
+    Ja gut, dann sagt er mir, dass alle 4 Seiten gleich lang sind. Heißt, dass jetzt komplett sind.
+    Ja, gut, muss ja eigentlich sein. Eigentlich müssten die in der Mitte auch gleich lang sein.
+    Okay. Also, heißt das jetzt nicht, dass die gleich lang sind?
+[Proband schreibt eine weitere Nachricht]
+Proband (schriftlich):
+    Sind damit alle Linien gemeint? Oder nur die äußeren?
+LLM:
+    <think>Der Benutzer hat nachgefragt, ob mit \"allen Kanten\" auch die inneren Linien gemeint sind oder nur die äußeren. Aus dem Bild kann man erkennen, dass es sich um eine Raute handelt, die durch zwei diagonale Linien in vier Dreiecke unterteilt wird. Die Frage zielt darauf ab, zu klären, ob alle Seiten (Kanten) des Diamanten gleich lang sind oder auch die inneren Linien. Der nächste Schritt ist zu bestätigen, dass nur die äußeren Kanten gemeint sind und diese tatsächlich gleich lang sind.</think>
+    Mit \"allen Kanten\" sind in diesem Zusammenhang nur die äußeren Seiten der Raute gemeint. Die inneren Linien (Diagonalen) sind nicht Teil dieser Definition. Hast du noch weitere Fragen dazu?
+[Proband liest die Antwort]
+    Okay. Okay, gut. Das heißt, die sind nicht gleich lang. Okay.
+[Proband schreibt eine Nachricht]
+Proband (schriftlich):
+    Das heißt die Diagonalen sind nicht gleich lang?
+LLM:
+    <think>Der Benutzer hat nachgefragt, ob die Diagonalen in einer Raute gleich lang sind. Aus dem Bild kann man erkennen, dass es sich um eine Raute handelt, die durch zwei diagonale Linien in vier Dreiecke unterteilt wird. Die Frage zielt darauf ab, zu klären, ob die Diagonalen gleich lang sind. Der nächste Schritt ist zu bestätigen, dass die Diagonalen in einer Raute nicht zwingend gleich lang sein müssen.</think>
+    Nein, das heißt nicht, dass die Diagonalen nicht gleich lang sind. Die Längen der Diagonalen können unterschiedlich sein. Hast du noch weitere Fragen dazu?
+[Proband liest die Antwort]
+Proband:
+    Okay. Gut.
+    Sonst hätte ich nämlich hier 6 und 6 haben können, aber dadurch, dass die jetzt nicht unbedingt gleich lang sind, weiß ich nur, dass die Strecke AC = 12 ist und BD = 16.
+    Okay. Gut.
+    So.
+    Man könnte mit einem Satz des Pythagoras die Länge berechnen, aber das Problem ist, dadurch, dass ich nicht weiß...
+    Ich weiß nur, dass BD... Ich weiß nur die Gesamtlänge der inneren Linien, aber nicht die Teilstrecken.
+    Vielleicht gibt es ja eine Möglichkeit, darüber zu schauen. Na ja, gut, eigentlich muss es ja die Hälfte sein.
+    Eigentlich müsste ja hier, dadurch, dass AC von BD in der Mitte getrennt wird, müsste eigentlich die obere Hälfte 6 sein und die untere Hälfte auch 6, wenn mich nicht alles täuscht.
+    Da AC... 12... Das...
+    Okay, eigentlich müsste es schon so sein.
+    Wenn ich das Bild so richtig interpretiere, ist ja eigentlich, dass AC, 12 sind. So, das heißt, ich hätte...
+Wissenschaftler:
+    Weiter reden. Jetzt ist wichtig weiterzureden.
+Proband:
+    Also, dass A bis zur Hälfte... Also, dass A bis C 6 und 6 ist und 12 halt dann gesammt. Und das heißt, hier B bis D sind einmal 8 und 8.
+    So, das heißt, somit kann ich... Habe ich die Länge der Hälfte und kann somit mit einem Satz des Pythagoras... Die Länge der Hypotenuse...
+    Ja, frag mich nicht, ist zu lange her. Auf jeden Fall... So, jetzt habe ich... Jetzt habe ich... Jetzt habe ich ein Dreieck, was praktisch...
+[Proband schreibt eine neue Nachricht]
+    Jetzt habe ich ein Dreieck, wo die eine Seite 6 lang ist und die andere Seite 8 lang ist.
+Proband (schriftlich):
+    Jetzt habe ich ein Dreieck, wo die eine Seite 6 lang ist und die andere Seite 8 lang ist, wie berechne ich die Länge der dritten Seite?
+LLM:
+    <think>Der Benutzer hat ein Dreieck mit zwei Seitenlängen gegeben: 6 und 8. Er möchte wissen, wie man die Länge der dritten Seite berechnet. Der nächste Schritt ist zu klären, ob es sich um ein rechtwinkliges Dreieck handelt oder nicht, da dies den Lösungsansatz beeinflusst.</think>
+    Um die Länge der dritten Seite eines Dreiecks mit zwei gegebenen Seitenlängen zu berechnen, müssen wir zunächst wissen, ob es sich um ein rechtwinkliges Dreieck handelt. Ist das der Fall, können wir den Satz des Pythagoras verwenden. Falls nicht, benötigen wir zusätzliche Informationen wie einen Winkel oder die Länge einer Diagonale. Hast du diese Information?
+[Proband liest die Antwort]
+Proband:
+    Die dritten Seite...
+    Okay, das, was für mich rechtwinklig aussieht...
+[Proband schreibt eine Nachricht]
+    Die Winkel... Ja, das ist ein rechtwinkliges Dreieck.
+    Oder die Länge einer Diagonale. Nee, das ist ein rechtwinkliges Dreieck.
+    A Quadrat plus B Quadrat gleich C Quadrat.
+Proband (schriftlich):
+    Ja es ist ein rechtwinkliges Dreieck. Wie lautet der Satz des Pythagoras?
+LLM:
+    <think>Der Benutzer hat bestätigt, dass es sich um ein rechtwinkliges Dreieck handelt und fragt nach dem Satz des Pythagoras. Der nächste Schritt ist zu erklären, was der Satz des Pythagoras besagt.</think>
+    Der Satz des Pythagoras lautet: In einem rechtwinkligen Dreieck ist das Quadrat über der Hypotenuse (der Seite gegenüber dem rechten Winkel) gleich der Summe der Quadrate über den beiden Katheten (den anderen beiden Seiten). Mathematisch ausgedrückt: a² + b² = c², wobei c die Hypotenuse und a und b die anderen beiden Seiten sind.\n\nWie würdest du diese Formel anwenden, um die Länge der dritten Seite zu berechnen?
+[Proband liest die Antwort]
+Proband:
+    Finde ich gut. Also, gegenrechte Winkel gleich...
+    Okay, wenn ich das richtig verstanden habe, dann habe ich... Also ja, die Hypotenuse ist ja praktisch eigentlich diese...
+    Die dann so ein bisschen anders verläuft, weil A und B, die sind ja praktisch sehr gleich, die schneiden sich auch.
+    Das heißt, ich habe 6 ins Quadrat plus 8 ins Quadrat... 100, gut.
+    Und daraus muss jetzt die Wurzel ziehen, müssen dann 10 sein. Ja, damit komme ich auf 10.
+    Okay.
+Wissenschaftler:
+    Gut.

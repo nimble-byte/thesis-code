@@ -1,0 +1,200 @@
+Wissenschaftler:
+    So, da müssen wir jetzt einmal eben schauen, aber der schlägt aus, das heißt, der ist glücklich.
+    Dann hast du hier Aufgabe 1.
+Proband:
+    Alles klar.
+    Oh, das ist schon deutlich komplizierter als vorhin. [Proband referenziert hier Probeaufgabe]
+    Zumindest sieht es schlimmer aus.
+    Ich lese einmal.
+    2 zu 5. (2x)
+    Okay, das ist ja noch sogar einigermaßen verkraftbar.
+    Das könnte ich, glaube ich, noch von Hand aus rechnen, aber ich weiß nicht, ob ich die Lust dazu habe.
+    Ich schicke das einmal.
+[Proband beginnt eine Nachricht zu schreiben, aber schickt sie nicht ab]
+    Wobei, wenn das Verhältnis 2 zu 5 ist und die Abbildung auch richtig ist...
+    Ich schreibe ihn mal auf.
+    A bis B ist nichts, aber A bis C ist 25.
+    Und die ist 2 zu 5.
+    Das würde heißen, dass, wenn ich die durch 5 teile, wäre das durch 5, ist also 5 mal 2 ist 10.
+    Okay, jetzt schicke ich zur Überprüfung die Lösung an...
+    ChatGPT und zu schauen, ob das...
+    Also nicht ChatGPT sondern den Bot, ob das so weit Sinn ergibt.
+    Ich bin eigentlich recht sicher, dass das richtig ist.
+    Mal schauen, ob das ausspuckt.
+[Proband schreibt die Nachricht fort und fügt seine Lösung an]
+Proband (schriftlich):
+    Hier meine Aufgabe: In der gezeigten Abbildung ist das Verhältnis der Längen der Abschnitte AB zu AC 2:5. Wenn AC die länge 25 hat, wie lang ist dann AB?\n\nMeine Lösung ist 10, ist das korrekt?
+LLM:
+    Das klingt nach einem guten Ansatz! Du hast das Verhältnis von AB zu AC als 2:5 gegeben und AC mit einer Länge von 25 angegeben.\n\nUm zu überprüfen, ob deine Lösung von AB = 10 korrekt ist, kannst du das Verhältnis verwenden. Denk daran, dass das Verhältnis AB/AC gleich 2/5 sein sollte.\n\nDu hast also:\nAB / AC = 2 / 5\n\nSetze die bekannten Werte ein und löse nach AB auf. Wenn du auf 10 kommst, dann ist deine Lösung richtig. Falls nicht, kannst du den Rechenweg noch einmal überprüfen.\n\nViel Erfolg!
+[Proband liest Antwort]
+Proband:
+    Jetzt löse ich nach AB auf.
+    Das ist mir zu viel Antwort und zu wenig Bestätigung.
+    A durch B. Moment Ratio von 2:5.
+    Ich meine, wenn das 10 ist, dann noch nicht.
+    Wenn ich das mal 5 mache...
+    Ja, es ergibt Sinn.
+    Ich bin voll dabei, dass das richtig ist.
+    Ich sage, es ist 10.
+    Moment, aufgau noch mal lesen.
+    [unveständlich]
+    Ja, es ist 10.
+    Okay.
+[Proband wechselt zur nächsten Aufgabe und liest]
+    Okay, nächste Aufgabe.
+    Wo ist X?
+    Ist das X0 aus der...
+Wissenschaftler:
+    X Grad.
+    Also X ist der Winkel.
+Proband:
+    Ach so.
+    Also sind das 32 Grad.
+    Wie ist die Länge des Kreisabschnittes - Was ist die Länge des Kreisabschnittes, der in der Abbildung eingezeichnet ist?
+    Ähm, kurz nachdenken.
+    Ja, das ... da brauchen wir einfach nur die Formeln für.
+    Ich denke, dann hat sich das...
+    Ich kopiere rein, nutze ich das Bild.
+    Und...
+    Zack.
+    Neuen Chat benutzen für neue Aufgaben.
+    Ähm...
+    Zack.
+[Proband kopiert das bild und den Aufgabentext als Nachricht]
+Proband (schriftlich):
+    [BILD]
+    Wenn x = 32 und r = 18, was ist die Länge des Kreisabschnittes der in der Abbildung eingezeichnet ist?
+LLM:
+    Um die Länge des Kreisabschnitts (Bogenlänge) zu berechnen, benötigen wir den Winkel in Radiant und den Radius des Kreises. Der Winkel wird bereits in Grad gegeben, also müssen wir ihn zuerst in Radiant umrechnen.\n\nHier sind die Schritte zur Lösung:\n\n1. **Winkel in Radiant umrechnen**: Die Formel zur Umrechnung von Grad in Radiant lautet:\n   \\[\n   \\text{Radiant} = \\text{Grad} \\times \\frac{\\pi}{180}\n   \\]\n   In diesem Fall ist der Winkel \\( x = 32^\\circ \\).\n\n2. **Bogenlänge berechnen**: Die Formel für die Bogenlänge lautet:\n   \\[\n   \\text{Bogenlänge} = r \\times \\theta\n   \\]\n   wobei \\( r \\) der Radius und \\( \\theta \\) der Winkel in Radiant ist.\n\nVersuche diese Schritte selbst zu lösen. Wenn du nicht weiterkommst, lass es mich wissen!
+Proband:
+    Den Winkel, den Radiant und den Radius des Kreises.
+    Der Winkel ist bereits ein Grad, so kann man so einen Radiant drum berechnen.
+    Jetzt holen wir mal die Taschenrechner aus.
+    Also der...
+    Grad haben wir, Grad waren... 32... mal...Pi.
+Wissenschaftler (berät zu den einstellungen des Taschenrechner auf dem MacBook)
+    Wahrscheinlich "Scientific".
+Proband:
+    Wo ist Pi? Wo ist Pi?
+    Pi durch...180.
+    Das heißt... Radiant, Radiant ist 0,5850536.
+    Und die Bogenlänge ist dann
+    [Proband schreibt konstante 2 Pi in seine handschriftliche Gleichung]
+    Und das mal Radius.
+    Radius sind 18.
+    Heißt, die [Antwort ist]...
+    [Proband merkt, dass die Antworten als Brüche statt Dezimalzahlen angegeben sind]
+    Das sind natürlich schöne Antwortmöglichkeiten.
+    Okay. Ich schreibe mal auf, ich habe den... die Bogenlänge... auf etwa 10 komma 5 berechnet.
+    Allerdings sind die Antwortmöglichkeiten in...
+    Ich glaube, es macht mehr Sinn, das einfach kurz zu helfen auszurechnen.
+    Okay.
+[Proband beginnt die Antwortmöglichkeiten in Dezimalzahlen umzurechnen]
+[notiert konkretes ergebnis]
+    ...mal 18 sind 10,05309.
+    Reicht.
+    Hm.
+    16 mal...
+    Was bedeutet der Backslash?
+Wissenschaftler:
+    Ah. Das ist...
+    Die Aufgaben sind teilweise als TeX-Code geschrieben, das ist einfach Pi.
+Proband:
+    Ah, okay.
+Wissenschaftler:
+    Backslash Pi ist Pi.
+Proband
+    Ah, okay.
+    16 mal Pi durch 5
+    Aha, das kommt sehr nah an das Radius.
+    Okay, ich mach einfach mal noch die anderen, nicht dass die am Ende richtig sind
+    36 mal Pi wird es nicht sein.
+    36 Pi durch 5 ist auch was ganz anderes.
+    Okay, damit... fühle ich mich darin bekräftigt.
+    Ich habe die Formeln bekommen vom Chatbot.
+    Ich schenke ihm Glauben und komme auf genau das, was hier steht.
+    Nächste Aufgabe
+[Proband wechselt zur nächsten Aufgabe]
+    Wollen wir mal wieder lesen.
+    Ich weiß nicht, ob da Diamanat stehen soll?
+    Oder Diamant?
+Wissenschaftler:
+    Das soll Diamant stehen.
+Proband:
+    Okay.
+Wissenschaftler
+    Ich hab die manuell übersetzt.
+Proband:
+[Proband liest die Aufgabe]
+    Ah, okay.
+    Haben die...
+    A zu C ist 12.
+    Wie lang sind die Kanten des Diamanten?
+    Alles klar.
+[Proband beginnt eine nachricht zu schreiben]
+    Klassischer Weg, wieder kopieren.
+    Das hab ich mir anders vorgestellt.
+[Das einfügen des Bildes funktioniert nicht]
+    Das kriegen wir schon noch hin.
+    Sehr gut.
+    Okay.
+    Zack.
+[Proband schickt Nachricht ab]
+Proband (schriftlich):
+    Wie in der Abbildung gezeigt, haben die Diagonalen des Diamanaten ABCD die folgenden Längen: AC = 12, BD = 16. Wie lang sind die Kanten des Diamenten?
+    [BILD]
+LLM:
+    Um die Länge der Seiten des Rauten ABCD zu finden, können wir einige Eigenschaften von Rauten und rechtwinkligen Dreiecken verwenden.\n\nZuerst sollten Sie wissen, dass sich die Diagonalen einer Raute im rechten Winkel schneiden und jede Diagonale die andere in zwei gleiche Teile teilt. Das bedeutet, dass jede Diagonale in zwei gleiche Segmente geteilt wird.\n\n1. **Teilen der Diagonalen**:\n   - Die Diagonale AC ist 12 Einheiten lang, also ist jedes Segment von AC (AO und OC) 6 Einheiten lang.\n   - Die Diagonale BD ist 16 Einheiten lang, also ist jedes Segment von BD (BO und OD) 8 Einheiten lang.\n\n2. **Bildung eines rechtwinkligen Dreiecks**:\n   - Jede Seite der Raute bildet mit den halben Diagonalen ein rechtwinkliges Dreieck.\n   - Zum Beispiel bilden AB, AO und BO ein rechtwinkliges Dreieck, wobei AO = 6 Einheiten und BO = 8 Einheiten sind.\n\n3. **Anwendung des Satzes des Pythagoras**:\n   - Im rechtwinkligen Dreieck AOB können Sie den Satz des Pythagoras verwenden, um die Länge von AB zu finden.\n   - Der Satz des Pythagoras besagt: \\( AB^2 = AO^2 + BO^2 \\).\n\nJetzt können Sie diese Informationen verwenden, um die Länge der Seite AB zu berechnen. Wenn Sie auf ein Hindernis stoßen oder weitere Hilfe benötigen, lassen Sie es mich wissen!
+[Proband liest die Antwort und murmelt vor sich hin]
+    ...die die andere Diagonale in zwei gleiche Teile...
+    ...jedes Segment ...
+    Ja, soweit so Gut.
+    Ah, möchte der da aus Dreieck bauen.
+    Mhm.
+    ...Jede Seite ...
+    Moment, sind die... Moment, lass mich nochmal nachschauen?
+    Sind die Ecken alle? Haben die rechte Winkel?
+    [unverständlich]
+    Ach nein, die schneiden sich am rechten Winkel.
+    Alles klar.
+    Ich male mir [das] mal auf.
+[Proband beginnt mit eigener Skizze]
+    C und D.
+Wissenschaftler:
+    Immer schön dran denken, laut zu denken.
+Proband:
+    Ja.
+    Ich male mir das alles einmal auf, weil ich kann besser denken, wenn ich die Sachen tatsächlich daran schreibe.
+    Wir haben A bis C ist 12, das heißt diesen 6 [und] 6.
+    Und die andere ist 16, also 8 [und] 8.
+    Okay, das wurde mir von dem schon erklärt.
+    Er hat das BO und O, die...
+    Okay.
+    Hat er anders genannt, ist mir egal.
+    Jede Seite der Raute bildet mit dem ... rechtwinkliges Dreieck, ja.
+    Zum Beispiel...bilden A zu B.
+    Ach, in vier [Dreiecke].
+    Aha.
+    Ich dachte... wir machen uns vier, ah, zwei Dreiecke. Aber wir machen die vier.
+    Okay.
+    Zu A, B und O, ja.
+    Also das hier ist eins.
+    Jetzt braucht ihr nur noch die Rechnung davon.
+    Im rechtwinkliged Dreieck könnt ihr den Satz [von Pythagoras] brauchen um die Länge von A, B zu finden.
+    Weil ich habe die Länge, ich habe die Länge und ihr findet nur noch die.
+    Pythagoras to the rescue.
+    Okay.
+    Das sind... der Taschenrechner.
+    Das sind... also 8 mal 6 ...mit AO Quadrat, das ist AO.
+    Also 6 mal 6 sind 36.
+    36 plus 8 mal 8 sind 64.
+    Plus 64.
+    Also müsste das 100 sein.
+    Das Moment... das ist Quatsch, also das ist 10... weil Wurzel.
+    Das heißt, die Länge müsste... das sein und da die Seiten alle gleich sind, ist der Umfang von dem Teil...
+    ...wie lang sind die Kanten?
+    Ach so, wir rechnen nur vor einer Kante.
+    Dann ist eine Kante 10, ansonsten werden es 40.
+    Okay.
+Wissenschaftler:
+    Ja, dann können wir jetzt einmal die Aufnahme stoppen.
