@@ -47,7 +47,7 @@ GROUP: B
 [005.1]    Jetzt löse ich nach AB auf.
 [005.2]    Das ist mir zu viel Antwort und zu wenig Bestätigung.
 [005.3]    A durch B. Moment Ratio von 2:5.
-[005.4]    Ich meine, wenn das 10 ist, dann noch nicht.
+[005.4]    Ich meine, wenn das 10 ist, dann... Moment...
 [005.5]    Wenn ich das mal 5 mache...
 [005.6]    Ja, es ergibt Sinn.
 [005.7]    Ich bin voll dabei, dass das richtig ist.
@@ -69,7 +69,7 @@ GROUP: B
 [007.3]    Wie ist die Länge des Kreisabschnittes - Was ist die Länge des Kreisabschnittes, der in der Abbildung eingezeichnet ist?
 [007.4]    Ähm, kurz nachdenken.
 [007.5]    Ja, das ... da brauchen wir einfach nur die Formeln für.
-[007.6]    Ich denke, dann hat sich das...
+[007.6]    Ich denke, dann hat sich das.
 [007.7]    Ich kopiere rein, nutze ich das Bild.
 [007.8]    Und...
 [007.9]    Zack.
