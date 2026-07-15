@@ -41,6 +41,12 @@ INLINE_HEADER_RE = re.compile(r'\[PARTICIPANT:\s*(\S+)\s*\|\s*UUID:\s*([\w-]+)\s
 # Math notation markers (LaTeX / raw escapes / ASCII exponents that get normalized)
 MATH_RE = re.compile(r'\^|overline\{|\\text\{|overrightarrow|\\frac\{|\\\[|\\\\')
 
+# Task header validation
+TASK_HEADER_PARSE_RE = re.compile(r'^\[TASK\s+(\S+)\s*\|\s*DIFFICULTY\s+(\S+)\]$')
+VALID_TASK_IDS = {'54', '273', '280', '318', '355', '455', '478', '505',
+                  '549', '599', '669', '690', '708', '798', '855'}
+VALID_DIFFICULTIES = {'medium', 'hard'}
+
 SPEAKER_MAP = {
     'Proband': 'SPOKEN',
     'Proband (schriftlich)': 'WRITTEN',
@@ -76,6 +82,7 @@ class ReformattedFile:
     turns: list = field(default_factory=list)              # list[ReformattedTurn]
     stage_directions: list = field(default_factory=list)   # list[(line_num, text)]
     statement_ids: list = field(default_factory=list)      # list[(line_num, turn_num, sub_idx)]
+    task_headers: list = field(default_factory=list)       # list[(line_num, text)]
 
 
 # ─── Parsing ──────────────────────────────────────────────────────────────────
@@ -169,6 +176,7 @@ def parse_reformatted(path: Path) -> Optional[ReformattedFile]:
 
         # ── Task header (not a stage direction)
         if TASK_HEADER_RE.match(stripped):
+            result.task_headers.append((line_num, stripped))
             continue
 
         # ── Stage direction: any remaining [bracket line]
@@ -376,6 +384,24 @@ def check_content_completeness(raw: RawFile, ref: ReformattedFile) -> list:
     return issues
 
 
+def check_task_headers(ref: ReformattedFile) -> list:
+    issues = []
+    for line_num, text in ref.task_headers:
+        m = TASK_HEADER_PARSE_RE.match(text)
+        if not m:
+            issues.append(f"FAIL task header malformed (line {line_num}): {text!r}")
+            continue
+        task_id, difficulty = m.group(1), m.group(2)
+        if '<' in task_id or '<' in difficulty:
+            issues.append(f"FAIL task header line {line_num}: placeholder not filled in: {text!r}")
+            continue
+        if task_id not in VALID_TASK_IDS:
+            issues.append(f"FAIL task header line {line_num}: unknown task ID '{task_id}'")
+        if difficulty not in VALID_DIFFICULTIES:
+            issues.append(f"FAIL task header line {line_num}: invalid difficulty '{difficulty}' (expected 'medium' or 'hard')")
+    return issues
+
+
 # ─── Per-file validation runner ───────────────────────────────────────────────
 
 def validate_participant(pid: str, csv_rows: dict) -> tuple:
@@ -422,6 +448,7 @@ def validate_participant(pid: str, csv_rows: dict) -> tuple:
     emit("Turn sequence", check_turn_sequence(ref))
     emit("Statement ID nesting", check_statement_nesting(ref))
     emit("Stage directions", check_stage_directions(raw, ref))
+    emit("Task headers", check_task_headers(ref))
     emit("Content completeness", check_content_completeness(raw, ref))
 
     return passed, out
