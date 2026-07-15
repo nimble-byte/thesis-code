@@ -27,12 +27,12 @@ SCOPE: SPOKEN/WRITTENN channel only (omit RESEARCHER + LLM)
 
 [010.1] PROCESS: Typing Query to Chatbot | IV: "was heit das Verhätis 2 zu 5"
 
-[012.1] PROCESS: Reading Chatbot Explanation Aloud | IV: "Das Verhältnis von 2 zu 5 bedeutet, dass die Teile in Bezug auf 5 Teile gesetzt werden."
-[012.2] PROCESS: Reading Chatbot Explanation Aloud | IV: "die relativ große oder Menge zu Ergrößen auszudrücken"
-[012.3] PROCESS: Reading Chatbot Explanation Aloud | IV: "einen Kuchen in 5 gleich große Stücke schneiden"
-[012.4] PROCESS: Reading Chatbot Explanation Aloud | IV: "das Verhältnis der beiden Stücke zum gesamten Kuchen"
-[012.5] PROCESS: Reading Chatbot Explanation Aloud | IV: "dieses Verhältnis vereinfachen und erweitern"
-[012.6] PROCESS: Reading Chatbot Explanation Aloud | IV: "was ein Verhältnis überhaupt bedeutet"
+[012.1] PROCESS: Reading Chatbot Response Aloud | IV: "Das Verhältnis von 2 zu 5 bedeutet, dass die Teile in Bezug auf 5 Teile gesetzt werden."
+[012.2] PROCESS: Reading Chatbot Response Aloud | IV: "die relativ große oder Menge zu Ergrößen auszudrücken"
+[012.3] PROCESS: Reading Chatbot Response Aloud | IV: "einen Kuchen in 5 gleich große Stücke schneiden"
+[012.4] PROCESS: Reading Chatbot Response Aloud | IV: "das Verhältnis der beiden Stücke zum gesamten Kuchen"
+[012.5] PROCESS: Reading Chatbot Response Aloud | IV: "dieses Verhältnis vereinfachen und erweitern"
+[012.6] PROCESS: Reading Chatbot Response Aloud | IV: "was ein Verhältnis überhaupt bedeutet"
 [012.7] PROCESS: Comparing Chatbot to ChatGPT | IV: "Ganz anders als ChatGPT."
 [012.8] PROCESS: Resuming Calculation with Given Value | IV: "wenn das 25 ist"
 
@@ -78,14 +78,14 @@ SCOPE: SPOKEN/WRITTENN channel only (omit RESEARCHER + LLM)
 
 [023.1] PROCESS: Typing Query to Chatbot | IV: "haben alle Ecken in einem regelmäßigen Sechseck den gleichen Winkel?"
 
-[025.1] PROCESS: Reading Chatbot Explanation Aloud | IV: "Das ist eine interessante Frage"
-[025.2] PROCESS: Reading Chatbot Explanation Aloud | IV: "gemeinsam über die Eigenschaften eines regelmäßigen Sechsecks nachdenken"
-[025.3] PROCESS: Reading Chatbot Explanation Aloud | IV: "sechs Seiten und sechs Ecken"
-[025.4] PROCESS: Reading Chatbot Explanation Aloud | IV: "alle Seiten gleich lang sind und alle Winkel gleich groß sind"
-[025.5] PROCESS: Reading Chatbot Explanation Aloud | IV: "Wie viele Grade hat ein Vollkreis?"
+[025.1] PROCESS: Reading Chatbot Response Aloud | IV: "Das ist eine interessante Frage"
+[025.2] PROCESS: Reading Chatbot Response Aloud | IV: "gemeinsam über die Eigenschaften eines regelmäßigen Sechsecks nachdenken"
+[025.3] PROCESS: Reading Chatbot Response Aloud | IV: "sechs Seiten und sechs Ecken"
+[025.4] PROCESS: Reading Chatbot Response Aloud | IV: "alle Seiten gleich lang sind und alle Winkel gleich groß sind"
+[025.5] PROCESS: Reading Chatbot Response Aloud | IV: "Wie viele Grade hat ein Vollkreis?"
 [025.6a] PROCESS: Expressing Surprise at Chatbot's Counter-Question | IV: "Hä?"
-[025.6b] PROCESS: Reading Chatbot Explanation Aloud | IV: "wie viele Grade hat ein Vollkreis und wie viele Ecken hat ein Sechseck?"
-[025.7] PROCESS: Reading Chatbot Explanation Aloud | IV: "Vielleicht hilft das weiter."
+[025.6b] PROCESS: Reading Chatbot Response Aloud | IV: "wie viele Grade hat ein Vollkreis und wie viele Ecken hat ein Sechseck?"
+[025.7] PROCESS: Reading Chatbot Response Aloud | IV: "Vielleicht hilft das weiter."
 [025.8] — (no code: non-substantive/filler)
 [025.9] PROCESS: Realizing Answer to Chatbot's Guiding Question | IV: "jetzt weiß ich mal, wie viele Gerade"
 [025.10a] PROCESS: Performing Division Calculation | IV: "360 durch 6"
