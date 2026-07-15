@@ -54,7 +54,7 @@ LLM:
 [Proband liest die Antwort]
 Proband:
     Ok, da habe ich mit CP den Widersatz des Pythagoras anwende. Das habe ich eigentlich schon verstanden. Die Frage ist, wie lang A und B dann ist.
-    Also wenn es irgendwie gleichschenklich wäre, dann wäre es ja einfach, da müsste ich nur durch die Hälfte teilen, aber so wie das für mich aussieht, ist es nicht gleichschenklich. Deswegen frage ich ihn mal, ob er da eine Idee hat.
+    Also wenn es irgendwie gleichschenklig wäre, dann wäre es ja einfach, da müsste ich nur durch die Hälfte teilen, aber so wie das für mich aussieht, ist es nicht gleichschenklig. Deswegen frage ich ihn mal, ob er da eine Idee hat.
 [Proband schreibt eine Nachricht]
 Proband (schriftlich):
     wie komme ich auf die länge von AB? Es sieht nicht gleichschenklig aus, deswegen kann ich nicht einfach AB/2 teilen so wie ich das sehe

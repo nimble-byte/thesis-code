@@ -37,8 +37,9 @@ GROUP: B
 [005.1]    ok Abstand punkt gerade hilft glaube ich nicht
 [005.2]    deswegen überlege ich einfach noch mal ein bisschen anders
 [005.3]    also weil der radius ja 5 ist ist wenn ich die Linie AB quasi durch also wenn ich eine neue Linie zeichnen würde durch den mittelpunkt dann hätte die länge von 10
-[005.4]    das beschreibe ich ihm jetzt einfach mal und jetzt mal ziehen wir da die
-[005.5]    Linie von acht ein bisschen weiter unten vielleicht hat er dann eine Idee
+[005.4]    das beschreibe ich ihm jetzt einfach mal
+[005.5]    und jetzt mal ziehen wir da die Linie von acht ein bisschen weiter unten
+[005.6]    vielleicht hat er dann eine Idee
 [Proband formuliert eine weitere Chatnachricht]
 [006 WRITTEN]
 [006.1]    Ich habe einen Kreis mit Radius 5. Wenn ich die Linie durch den Mittelpunkt ziehe ist die länge dieser Linie 10. Die eingezeignete Linie AB ist 8 lang. Ich möcht bestimmen wie weit unter der Linie durch den Mittelpunkt die linie ab ist
@@ -122,7 +123,7 @@ GROUP: B
 [Proband liest die Antwort]
 [014 SPOKEN]
 [014.1]    Ok, da habe ich mit CP den Widersatz des Pythagoras anwende. Das habe ich eigentlich schon verstanden. Die Frage ist, wie lang A und B dann ist.
-[014.2]    Also wenn es irgendwie gleichschenklich wäre, dann wäre es ja einfach, da müsste ich nur durch die Hälfte teilen, aber so wie das für mich aussieht, ist es nicht gleichschenklich. Deswegen frage ich ihn mal, ob er da eine Idee hat.
+[014.2]    Also wenn es irgendwie gleichschenklich wäre, dann wäre es ja einfach, da müsste ich nur durch die Hälfte teilen, aber so wie das für mich aussieht, ist es nicht gleichschenklig. Deswegen frage ich ihn mal, ob er da eine Idee hat.
 [Proband schreibt eine Nachricht]
 [015 WRITTEN]
 [015.1]    wie komme ich auf die länge von AB? Es sieht nicht gleichschenklig aus, deswegen kann ich nicht einfach AB/2 teilen so wie ich das sehe
@@ -289,8 +290,8 @@ GROUP: B
 [029 SPOKEN]
 [029.1]    Okay, das hat er gemacht. Also sehr schrittweise gibt er hier an, wie man das lineare Gleichungssystem umstellen kann, muss, um dann auf die entsprechenden Werte zu kommen.
 [029.2]    Und jetzt kann ich mit dem Taschenrechner, so wie ich das sehe, einfach die Länge CP ausrechnen.
-[029.3]    Okay, die Lösung entspricht jetzt nicht zu 100 Prozent.
-[029.4]    Die Werten, die da stehen, ist aber sehr nah an zwei im Vergleich zu allen anderen. Deswegen würde ich erstmal davon ausgehen, dass irgendwo vielleicht Rundungsfehler gemacht wurden und einfach mal zwei auswählen.
+[029.3]    Okay, die Lösung entspricht jetzt nicht zu 100 Prozent, den Werten, die da stehen, ist aber sehr nah an zwei im Vergleich zu allen anderen.
+[029.4]    Deswegen würde ich erstmal davon ausgehen, dass irgendwo vielleicht Rundungsfehler gemacht wurden und einfach mal zwei auswählen.
 [Proband wählt eine Lösung]
 [TASK: 669 | DIFFICULTY: medium]
 [030 SPOKEN]
