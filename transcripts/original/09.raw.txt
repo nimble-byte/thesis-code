@@ -62,7 +62,7 @@ Proband:
     Dann kommt man auf die 7,14, dann würde ich da jetzt einfach mal die 8 anklicken.
     Wie lang ist dann ab? Genau ab ist ja die kleinere Strecke mit dem Verhältnis 2 zu 5.
     Dann ist das eigentlich 7,14, dann ist das dementsprechend 8.
-[Proband wechslet zu nächsten Aufgabe]
+[Proband wechselt zu nächsten Aufgabe]
     Genau, wir haben einen Kreis gegeben und sollen einen Streckenabschnitt auf dem Außenkreis berechnen.
     Dafür haben wir einmal den Radius gegeben und unser X.
     Ach, unser X ist der Winkel.
