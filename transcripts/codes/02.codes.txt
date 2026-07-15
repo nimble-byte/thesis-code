@@ -1,0 +1,117 @@
+---
+PARTICIPANT: 02
+UUID: 7d8c9331-dd8c-4df6-8f6c-9e7a16d008d9
+GROUP: B
+CODING: First cycle; Process + In Vivo Coding (Saldaña)
+SCOPE: SPOKEN/WRITTENN channel only (omit RESEARCHER + LLM)
+---
+[TASK 54 | hard]
+
+[002.1] — (no code: non-substantive/filler)
+
+[004.1] PROCESS: Flagging Perceived Missing Translation | IV: "Ist aber nicht übersetzt."
+
+[006.1] PROCESS: Locating Translated Text | IV: "der drunter"
+[006.2] PROCESS: Clarifying Text Equivalence | IV: "das ist der gleiche Text?"
+
+[008.1] PROCESS: Acknowledging Own Oversight | IV: "Ich habe nicht gesehen, dass das der gleiche Text ist."
+[008.2] PROCESS: Reading Task Statement Aloud | IV: "das Verhältnis der Längen der Abschnitte AB zu AC 2, 5"
+[008.3] PROCESS: Reading Task Statement Aloud | IV: "Wenn AC die Länge 25 hat, wie lang ist dann AB?"
+[008.4] PROCESS: Attempting to Interpret Given Ratio | IV: "Wenn AC 2:5, das heißt..."
+[008.5] PROCESS: Vocalizing Numbers Mid-Calculation | IV: "1, 2, 5."
+[008.6] PROCESS: Commenting on Rusty Calculator Skills | IV: "mit dem Taschenrechner umgehen habe ich das schon lange nicht mehr gemacht"
+[008.7] PROCESS: Re-reading Given Values | IV: "Wenn AC die Länge 25 hat, AC ist..."
+[008.8] PROCESS: Voicing Confusion About Ratio Meaning | IV: "was heißt 2 zu 5?"
+[008.9] PROCESS: Deciding to Consult Chatbot | IV: "Fragen wir mal den Chatbot."
+[008.10] PROCESS: Asking About Chat Session Procedure | IV: "soll ich zuerst noch mal einen neuen Chat anlegen"
+
+[010.1] PROCESS: Typing Query to Chatbot | IV: "was heit das Verhätis 2 zu 5"
+
+[012.1] PROCESS: Reading Chatbot Explanation Aloud | IV: "Das Verhältnis von 2 zu 5 bedeutet, dass die Teile in Bezug auf 5 Teile gesetzt werden."
+[012.2] PROCESS: Reading Chatbot Explanation Aloud | IV: "die relativ große oder Menge zu Ergrößen auszudrücken"
+[012.3] PROCESS: Reading Chatbot Explanation Aloud | IV: "einen Kuchen in 5 gleich große Stücke schneiden"
+[012.4] PROCESS: Reading Chatbot Explanation Aloud | IV: "das Verhältnis der beiden Stücke zum gesamten Kuchen"
+[012.5] PROCESS: Reading Chatbot Explanation Aloud | IV: "dieses Verhältnis vereinfachen und erweitern"
+[012.6] PROCESS: Reading Chatbot Explanation Aloud | IV: "was ein Verhältnis überhaupt bedeutet"
+[012.7] PROCESS: Comparing Chatbot to ChatGPT | IV: "Ganz anders als ChatGPT."
+[012.8] PROCESS: Resuming Calculation with Given Value | IV: "wenn das 25 ist"
+
+[014.1] — (no code: non-substantive/filler)
+[014.2] PROCESS: Expressing Difficulty with Task | IV: "wie schwer mir das gerade fällt"
+[014.3] PROCESS: Expressing Frustration/Disbelief | IV: "Unglaublich."
+[014.4] PROCESS: Restating Given Values | IV: "25 ist AC und dann 2 zu 5"
+[014.5] PROCESS: Proposing Calculation Approach | IV: "25 dann mal 2 Fünftel"
+[014.6] PROCESS: Self-Correcting Ratio Interpretation | IV: "2 zu 5 ist ja nicht das gleiche wie 2 Fünftel"
+[014.7] PROCESS: Signaling Uncertainty While Continuing | IV: "Da habe ich auf jeden Fall noch so im Kopf. Mal gucken."
+[014.8] PROCESS: Abandoning Further Analysis | IV: "Egal."
+[014.9] PROCESS: Asking About Remaining Task Count | IV: "wie viele Aufgaben habe ich insgesamt noch mal?"
+
+[016.1] PROCESS: Expressing Surprise at Task Count | IV: "Ich habe nur 3?"
+[016.2] PROCESS: Adjusting Pacing Strategy | IV: "lasse ich mir ein bisschen mehr Zeit"
+
+[018.1] PROCESS: Reiterating Difficulty Articulating Thoughts | IV: "mir fällt das Nachdenken ganz sicher auch schwer"
+[018.2] PROCESS: Re-questioning Ratio Meaning | IV: "2 zu 5, was könnte das heißen?"
+[018.3] PROCESS: Reasoning by Analogy to Dice Probability | IV: "Mit einem Würfel sind ja die Chancen ein Sechstel."
+[018.4] PROCESS: Extending Analogy to Odds Framing | IV: "die Chancen stehen dann 1 zu 5"
+[018.5] PROCESS: Justifying Analogy with Total Outcomes | IV: "man hier insgesamt 6 Möglichkeiten hat"
+[018.6] PROCESS: Doubting Applicability of Analogy | IV: "ob das hier mit dem Verhältnis gleich gemeint ist"
+[018.7] PROCESS: Questioning Own Result | IV: "Also wir können ja einfach..."
+[018.8] PROCESS: Committing to Answer Despite Uncertainty | IV: "ich bleibe bei der 10"
+[018.9] — (no code: non-substantive/filler)
+
+[TASK 280 | medium]
+
+[018.10] PROCESS: Reading Task Statement Aloud | IV: "A, B, C, D, E, F ein regelmäßiges Sechseck mit dem Mittelpunkt O"
+[018.11] PROCESS: Re-reading Task Statement for Comprehension | IV: "Regelmäßiges Sechseck mit dem Mittelpunkt O."
+[018.12] PROCESS: Reading Task Statement Aloud | IV: "Was ist der Wert des Winkels X?"
+[018.13] PROCESS: Requesting Clarification on Diagram Labeling | IV: "X ist zwischen hier den beiden oder was soll X sein?"
+
+[020.1] PROCESS: Confirming Correct Understanding | IV: "Dann hatte ich das richtig verstanden."
+[020.2] PROCESS: Trailing Off Into Silent Thought | IV: "regelmäßiges Sechseck wird da vorne..."
+
+[022.1] — (no code: non-substantive/filler)
+[022.2] PROCESS: Re-orienting to Task via Key Term Repetition | IV: "Regelmäßiges Sechseck."
+[022.3] — (no code: non-substantive/filler)
+[022.4] PROCESS: Identifying Shape in Diagram | IV: "das Parallelogramm"
+[022.5] PROCESS: Deciding to Consult Chatbot for Angle Property | IV: "ob es einen festen Winkel für einen regelmäßigen Sechseck gibt"
+[022.6] PROCESS: Formulating Question for Chatbot | IV: "haben alle Ecken in einem regelmäßigen Sechseck den gleichen Winkel?"
+
+[023.1] PROCESS: Typing Query to Chatbot | IV: "haben alle Ecken in einem regelmäßigen Sechseck den gleichen Winkel?"
+
+[025.1] PROCESS: Reading Chatbot Explanation Aloud | IV: "Das ist eine interessante Frage"
+[025.2] PROCESS: Reading Chatbot Explanation Aloud | IV: "gemeinsam über die Eigenschaften eines regelmäßigen Sechsecks nachdenken"
+[025.3] PROCESS: Reading Chatbot Explanation Aloud | IV: "sechs Seiten und sechs Ecken"
+[025.4] PROCESS: Reading Chatbot Explanation Aloud | IV: "alle Seiten gleich lang sind und alle Winkel gleich groß sind"
+[025.5] PROCESS: Reading Chatbot Explanation Aloud | IV: "Wie viele Grade hat ein Vollkreis?"
+[025.6a] PROCESS: Expressing Surprise at Chatbot's Counter-Question | IV: "Hä?"
+[025.6b] PROCESS: Reading Chatbot Explanation Aloud | IV: "wie viele Grade hat ein Vollkreis und wie viele Ecken hat ein Sechseck?"
+[025.7] PROCESS: Reading Chatbot Explanation Aloud | IV: "Vielleicht hilft das weiter."
+[025.8] — (no code: non-substantive/filler)
+[025.9] PROCESS: Realizing Answer to Chatbot's Guiding Question | IV: "jetzt weiß ich mal, wie viele Gerade"
+[025.10a] PROCESS: Performing Division Calculation | IV: "360 durch 6"
+[025.10b] PROCESS: Thanking Chatbot | IV: "Vielen Dank, Chatbot."
+[025.11] PROCESS: Stating Computed Angle Value | IV: "60 Grad ist der Winkel auf jeden Fall dort"
+[025.12] PROCESS: Deriving Final Angle via Bisection Reasoning | IV: "Der Winkel wird in der Mitte geschnitten, also 30 Grad."
+
+[TASK 478 | medium]
+
+[025.13] PROCESS: Reading Task Statement Aloud | IV: "die Diagonalen des Diamanten A, B, C, D die folgenden Längen"
+[025.14] PROCESS: Reading Task Statement Aloud | IV: "AC gleich 12, BD gleich 16"
+[025.15] PROCESS: Reading Task Statement Aloud | IV: "Wie lang sind die Kanten des Diamanten?"
+[025.16] PROCESS: Re-reading Task Statement for Comprehension | IV: "Des Diamanten."
+[025.17] PROCESS: Requesting Clarification on Diagram Orientation | IV: "Soll der Diamanten stehen oder?"
+
+[027.1] — (no code: non-substantive/filler)
+[027.2] PROCESS: Re-orienting to Task Question | IV: "was war die Frage nochmal?"
+[027.3] PROCESS: Restating Given Values | IV: "Die folgenden Längen AC."
+[027.4] PROCESS: Restating Given Values | IV: "AC sind 12 und BD sind 16"
+[027.5] PROCESS: Calculating Half of Diagonal Length | IV: "das die Hälfte von 16, 8 ist"
+[027.6] PROCESS: Confirming Calculated Value | IV: "8 haben wir dann dort"
+[027.7] PROCESS: Announcing Intent to Calculate | IV: "ich berechne jetzt erstmal"
+[027.8] PROCESS: Re-reading Task Statement to Recall Question | IV: "Die Diagonalen des Diamanten A, B, C, D die folgenden Längen."
+[027.9] PROCESS: Re-reading Task Statement to Recall Question | IV: "AC gleich 12. Wie lang sind die Kanten des Diamanten?"
+[027.10] PROCESS: Confirming Prior Calculation Correct | IV: "doch, ist richtig"
+[027.11] PROCESS: Selecting Pythagorean Theorem Approach | IV: "über den Satz des Pythagoras"
+[027.12] PROCESS: Calculating Half of Diagonal AC | IV: "die Hälfte von 6"
+[027.13] PROCESS: Calculating Half of Diagonal BD | IV: "16, die Hälfte ist 8"
+[027.14] PROCESS: Applying Pythagorean Theorem to Compute Edge Length | IV: "die Wurzel aus 8 Quadrat plus 6 Quadrat ist 10"

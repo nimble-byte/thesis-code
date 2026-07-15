@@ -144,7 +144,7 @@ GROUP: B
 [027.4]    Also AC sind 12 und BD sind 16.
 [027.5]    Wenn das 12 sind und das 16 bedeutet, dass das die Hälfte von 16, 8 ist.
 [027.6]    8 haben wir dann dort.
-[027.7]    Also ich berechne jetzt erstmal, dass die eine Abbildung gezeigt haben.
+[027.7]    Also ich berechne jetzt erstmal, was die eine Abbildung gezeigt hat.
 [027.8]    Die Diagonalen des Diamanten A, B, C, D die folgenden Längen.
 [027.9]    AC gleich 12. Wie lang sind die Kanten des Diamanten?
 [027.10]    Okay, doch, ist richtig.

@@ -1,7 +1,11 @@
-PARTICIPANT: 01 | GROUP: E | TASK: 505 (hard)
-First-cycle coding: Process Coding + In Vivo Coding (Saldaña)
-Scope: SPOKEN/WRITTEN statement lines belonging to the participant only.
-No second-cycle codes included.
+---
+PARTICIPANT: 01
+UUID: f971d5ae-a9ff-4a23-a92b-7650ad697dfc
+GROUP: E
+CODING: First cycle; Process + In Vivo Coding (Saldaña)
+SCOPE: SPOKEN/WRITTENN channel only (omit RESEARCHER + LLM)
+---
+[TASK 505 | hard]
 
 [001.1] PROCESS: Initiating task reading | IV: "erstmal die Aufgabe lesen"
 [001.2] PROCESS: Extracting given information | IV: "Radius 5, die Länge des Abschnitts AB ist 8"
