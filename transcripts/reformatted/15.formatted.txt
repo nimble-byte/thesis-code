@@ -7,6 +7,7 @@ GROUP: E
     Aufnahme, der schlägt aus, dann kriegst du hier ein Aufgabenset.
     Entschuldigung, wir machen einmal deinen Chat hier noch leer.
     So, und dann bitte. Du hast eine Aufgabe.
+[TASK: 505 | DIFFICULTY: hard]
 [002 SPOKEN]
 [002.1]    Okay, ich habe hier nun eine Abbildung.
 [002.2]    Das ist eine kreisförmige Form.
@@ -288,10 +289,10 @@ GROUP: E
 [040.4]    Und davon die Wurzel ziehen. Jetzt erkenne ich meinen Fehler. Ich hatte nämlich den einen Punkt, trotzdem die Wurzel zu ziehen, habe ich nicht mitgezählt.
 [040.5]    Zuerst ziehe ich aber 16, was mit dem b² rüber. Das wäre dann bei 9. Dann ziehen wir davon die Wurzel, weil wir immer noch das Quadrat von b haben. Dann sind wir bei 3.
 [040.6]    Das gibt es als Beantwortungsmöglichkeit.
-[TASK <task-id> | DIFFICULTY <medium/hard>]
 [041 RESEARCHER]
     Jetzt sind wir bei der Aufgabe angekommen, die wir mal ersetzen.
 [Wissenschaftler ersetzt die Aufgabe]
+[TASK: 54 | DIFFICULTY: hard]
 [042 SPOKEN]
 [042.1]    Das sieht ein bisschen anders aus. Also ich habe hier eine nächste Aufgabe. Es gibt verschiedene Abstände. Es gibt einen Abschluss zwischen a und b und dann zwischen b und c.
 [042.2]    Beide sind unterschiedlich lang. In der gezeigten Abbildung ist der Abstand.
@@ -345,7 +346,7 @@ GROUP: E
 [051.3]    AB ist gesucht. AC haben wir gegeben, das ist 25. Und alles steht so bei einem Verhältnis von 2,5. Ich müsste nur versuchen, auf AB zu kommen.
 [051.4]    Ich denke darüber nach, mit 25 zu multiplizieren, sodass quasi AB allein steht.
 [051.5]    Wenn ich das nun mache, in den Taschenrechner eingeben. Ich multipliziere nun 2,5 mit 25. Und es kommt ein Verhältnis von 10.
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 669 | DIFFICULTY: medium]
 [051.6]    Okay. Ich bekomme nun die nächste Aufgabe. Wir haben wieder dasselbe Szenario. Wir haben nun diesmal vier Längen. Also vier Verhältnisse.
 [051.7]    AN, NM, MC und CB. Die Gesamtlänge AB ist 10. M ist quasi die Mitte der Linie AB. Das würde ich mir mal aufschreiben.
 [Proband macht Notizen]

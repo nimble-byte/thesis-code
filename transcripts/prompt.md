@@ -10,7 +10,7 @@ FINALIZED TRANSCRIPT FORMAT:
 * Within SPOKEN/WRITTEN turns only, each clause/statement gets its own line, tagged [NNN.n] (e.g. [004.1], [004.2]). LLM and RESEARCHER turns are not split — single uncoded block under their turn header.
 * LLM output cleanup: unescape literal \n\n into real line breaks; normalize math notation to the plain-unicode style already used elsewhere in the transcripts (e.g. d = |A·a + B·b + C| / √(A² + B²)) rather than raw LaTeX escapes. Keep markdown bold (**text**) as literal asterisks — do not strip it.
 * File-level YAML style header, first line of the file: [PARTICIPANT: <ID> | UUID: <UUID> | GROUP: <E/B>]. The information is available in the `participant_metadata.csv` file
-* Task transition header, replacing the old "[Proband wechselt zur nächsten Aufgabe]" line: [TASK <task-id> | DIFFICULTY <medium/hard>]. The exact tasks and difficulty need to be filled afterwards manually. Please insert the example as placeholder.
+* Task transition header, replacing the old "[Proband wechselt zur nächsten Aufgabe]" line: [TASK: <task-id> | DIFFICULTY: <medium/hard>]. The exact tasks and difficulty need to be filled afterwards manually. Please insert the example as placeholder.
 * Old files and old codes (descriptive/process/axial/theoretical, from the prior thesis attempt) are NOT touched and NOT migrated — archived as-is. New transcripts are new files coexisting alongside the old ones.
 
 Here is an example of the beginning of `12.raw.txt`:

@@ -8,6 +8,7 @@ GROUP: B
     Letzte Anmerkung, jetzt wo du die Aufgaben löst, nimm bitte für jede Aufgabe einen neuen Chat.
     Es gibt oben diesen Stift-Button oder Command-N für den neuen Chat.
     Ich will natürlich die ganzen Protokolle von allen Aufgaben hinterher haben.
+[TASK: 505 | DIFFICULTY: hard]
 [002 SPOKEN]
 [002.1]    Okay, Command-N, na gut, ich mach das mal mit dem Pluszeichen.
 [002.2]    So, gut, dann lesen wir erstmal die Aufgabe durch.
@@ -218,7 +219,7 @@ GROUP: B
 [030.4]    Super, vielen Dank.
 [030.5]    Ok, also war mein Haupt Ding, dass ich das überlesen habe und somit die Erklärung nicht verstanden habe.
 [030.6]    Ok, nächste Task.
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 599 | DIFFICULTY: hard]
 [030.7]    Nächste Task, das ist jetzt die besagte Task, ja?
 [030.8]    Okay, dann gucken wir uns die mal an.
 [030.9]    So, A bis C ist gleich 6, BC ist gleich 3, point P, der nicht gezeigt wird.
@@ -302,6 +303,7 @@ GROUP: B
 [040 SPOKEN]
 [040.1]    Dann mache ich da wohl mal...
 [Wissenschaftler sucht eine neue Aufgabe raus]
+[TASK: 54 | DIFFICULTY: difficult]
 [041 RESEARCHER]
     Guck mal, so etwas Entspanntes.
 [042 SPOKEN]
@@ -525,7 +527,7 @@ GROUP: B
 [095.5]    Ich lese nochmal nach.
 [095.6]    Erst sagt er, fast richtig. Dann sagt er da richtig.
 [095.7]    Okay.
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 669 | DIFFICULTY: medium]
 [095.8]    Nächste Aufgabe
 [095.9]    Clear Chat
 [095.10]    Habe ich die ganze Zeit umsonst gehangen.

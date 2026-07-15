@@ -5,6 +5,7 @@ GROUP: E
 ---
 [001 RESEARCHER]
     Wir starten hier mit der Aufnahme. Der schlägt aus, das heißt die Aufnahme läuft und du kriegst hier so ein paar Aufgaben.
+[TASK: 505 | DIFFICULTY: hard]
 [002 SPOKEN]
 [liest die Aufgabe laut]
 [002.1]    Gut, Task 505. Gegeben der Kreis O hat einen Radius von 5 und die Länge der Linie AB ist 8.
@@ -33,6 +34,7 @@ GROUP: E
 [007 RESEARCHER]
     Wo wir gerade dabei sind, dann halte ich dich jetzt einfach vor der Aufgabe auf, bitte nicht auf den View Results-Button drücken, wenn du durch bist.
     Du wirst sehen, was ich meine.
+[TASK: 599 | DIFFICULTY: hard]
 [008 SPOKEN]
 [008.1]    Achso, ja, ja, okay.
 [008.2]    Ja.
@@ -532,6 +534,7 @@ GROUP: E
 [068.11]    Und wie schön es geht auf, weil 36 ist gleich 4 plus 32.
 [068.12]    Gut, dann haben wir das gecheckt.
 [068.13]    Okay, nächste Aufgabe.
+[TASK: 669 | DIFFICULTY: medium]
 [068.14]    Die nächste Aufgabe ist Task 669.
 [068.15]    Die in der Abbildung gezeigte Linie AB hat eine Länge von 10. M ist die Mitte der Linie AB.
 [068.16]    Ich mal mir das gerade einfach einmal auf, auf dem Papier.

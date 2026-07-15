@@ -5,6 +5,7 @@ GROUP: E
 ---
 [001 RESEARCHER]
     So, und wenn der jetzt hier ausschlägt, dass tut er da brav, dann können wir hier anfangen und du kriegst deine erste Aufgabe.
+[TASK: 54 | DIFFICULTY: hard]
 [002 SPOKEN]
 [002.1]    Perfekt.
 [Proband liest die Aufgabe]
@@ -80,7 +81,7 @@ GROUP: E
 [010.3]    Dann kommt man auf die 7,14, dann würde ich da jetzt einfach mal die 8 anklicken.
 [010.4]    Wie lang ist dann ab? Genau ab ist ja die kleinere Strecke mit dem Verhältnis 2 zu 5.
 [010.5]    Dann ist das eigentlich 7,14, dann ist das dementsprechend 8.
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 455 | DIFFICULTY: hard]
 [010.6]    Genau, wir haben einen Kreis gegeben und sollen einen Streckenabschnitt auf dem Außenkreis berechnen.
 [010.7]    Dafür haben wir einmal den Radius gegeben und unser X.
 [010.8]    Ach, unser X ist der Winkel.
@@ -145,7 +146,7 @@ GROUP: E
 [022.7]    Dann hätte ich eigentlich 3,2 Pi als Ergebnis, das macht allerdings keinen Sinn.
 [Proband vergleicht sein Ergebnis mit den Antwortmöglichkeiten]
 [022.8]    Obwohl 32 Pi durch 5, ja das ist aber 6, irgendwas, 16, ah doch 16 durch 5, das sind doch 3,2.
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 478 | DIFFICULTY: medium]
 [022.9]    Ok, ich habe einen Diamanten gegeben, also eine Raute und ich habe 4 Punkte und die Strecke der jeweiligen Diagonalen angegeben und ich soll jetzt die Kanten berechnen.
 [022.10]    Ich habe das jetzt auf Anhieb gemacht, dadurch haben wir 4 rechtwinkelige Dreiecke und von rechtwinkeligen Dreiecken kann man relativ simpel den Flächeninhalt berechnen.
 [022.11]    Das heißt eigentlich, ich gucke mal einmal ob ich das ohne Chatbot hinbekomme und gucke mal ob das von der Lösung hinpassen würde.

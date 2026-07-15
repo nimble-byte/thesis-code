@@ -5,6 +5,7 @@ GROUP: E
 ---
 [001 RESEARCHER]
     Gucken wir mal auf die Aufnahme, gucken wir mal ob der ausschlägt, dann übergebe ich die jetzt hier.
+[TASK: 54 | DIFFICULTY: hard]
 [Proband liest die Aufgabe]
 [002 SPOKEN]
 [002.1]    Achso, da unten steht es noch mal auf Deutsch.
@@ -107,7 +108,7 @@ GROUP: E
 [022.6]    Also, gut. Ich weiß, dass ich ja fünf Teile habe. Die sind zusammen 25 lang. So, das heißt, ich weiß, dass ein Teil eine Länge von 5 hat.
 [022.7]    Also, insgesamt haben wir 2. Das heißt, wir wissen, insgesamt haben wir 7 Teile. Und wir brauchen 2 Teile.
 [022.8]    Das heißt, dadurch, dass ein Teil 5 lang ist und 2, wir brauchen 2, also 2 mal fünf sind zehn. Boah hatte ich da einen Denkfehler.
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 455 | DIFFICULTY: hard]
 [022.9]    Okay, naja, neuer Chat.
 [022.10]    Was ist die Länge des Kreisabschnittes, der in der Abbildung eingezeichnet ist?
 [022.11]    Also, ich bin einmal verwirrt, weil x hoch null ist wahrscheinlich dann die Fläche.
@@ -188,7 +189,7 @@ GROUP: E
     Das ist backslash Pi, das ist TeX Code. Von daher imagine, da steht ein Pi.
 [040 SPOKEN]
 [040.1]    Ja, okay, gut. So, gut. Okay.
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 478 | DIFFICULTY: medium]
 [040.2]    Wie lang sind die Kanten des Diamanten? Okay.
 [040.3]    So, dann zeichne ich mir das einmal wieder bildlich auf.
 [040.4]    Ich kann das noch mal. Also...

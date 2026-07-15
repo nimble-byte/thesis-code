@@ -6,6 +6,7 @@ GROUP: B
 [001 RESEARCHER]
     So, da müssen wir jetzt einmal eben schauen, aber der schlägt aus, das heißt, der ist glücklich.
     Dann hast du hier Aufgabe 1.
+[TASK: 54 | DIFFICULTY: hard]
 [002 SPOKEN]
 [002.1]    Alles klar.
 [002.2]    Oh, das ist schon deutlich komplizierter als vorhin. [Proband referenziert hier Probeaufgabe]
@@ -55,7 +56,7 @@ GROUP: B
 [005.10]    [unveständlich]
 [005.11]    Ja, es ist 10.
 [005.12]    Okay.
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 455 | DIFFICULTY: hard]
 [005.13]    Okay, nächste Aufgabe.
 [005.14]    Wo ist X?
 [005.15]    Ist das X0 aus der...
@@ -142,7 +143,7 @@ GROUP: B
 [016.8]    Ich habe die Formeln bekommen vom Chatbot.
 [016.9]    Ich schenke ihm Glauben und komme auf genau das, was hier steht.
 [016.10]    Nächste Aufgabe
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 478 | DIFFICULTY: medium]
 [016.11]    Wollen wir mal wieder lesen.
 [016.12]    Ich weiß nicht, ob da Diamanat stehen soll?
 [016.13]    Oder Diamant?

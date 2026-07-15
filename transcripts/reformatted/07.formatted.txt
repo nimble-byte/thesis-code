@@ -6,6 +6,7 @@ GROUP: E
 [001 RESEARCHER]
     Dann starten wir jetzt die Aufnahmen. Wir gucken einmal, aber der schlägt glücklich aus.
     Starts Set 2. Genau. Ich gebe dir eine Aufgabe und wir das Wort.
+[TASK: 505 | DIFFICULTY: hard]
 [002 SPOKEN]
 [002.1]    So, also ich habe einen Kreis mit einem Radius 5 und die Länge der Linie AB ist 8.
 [002.2]    Wie groß ist die Distanz von der Mitte des Kreises zur Linie AB?
@@ -17,7 +18,7 @@ GROUP: E
 [002.7]    Die Formel, die ich lösen möchte ist x² plus 4² ist gleich 5².
 [002.8]    Das ist die klassische Geschichte.
 [002.9]    Also ich bin auf x gleich 3.
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 599 | DIFFICULTY: hard]
 [003 SPOKEN]
 [003.1]    Next task. Wie ist das mit der Lösungsvalidierung?
 [004 RESEARCHER]
@@ -77,7 +78,7 @@ GROUP: E
 [013 RESEARCHER]
     Okay, dann schauen wir einmal rein.
     Ich schaue gerade, was du gelöst hast.
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 455 | DIFFICULTY: hard]
     Wenn es ums Lesen geht, kann ich gerne noch mal helfen.
     Ich weiß, dass die Aufgabe ein sehr klein beschriftetes Bild hat.
 [014 SPOKEN]
@@ -116,7 +117,7 @@ GROUP: E
 [017.15]    Das sind 36 und 32 durch 360.
 [017.16]    Das ist 32/10.
 [017.17]    Oder aber 16/5.
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 669 | DIFFICULTY: medium]
 [017.18]    So, die in der Abbildung gezeichneten Linien hat eine Länge von 10.
 [017.19]    M ist die Mitte der Linie A, B. N ist ein Punkt der Linie A, M.
 [017.20]    Wie lange ist der Abschnitt in C?

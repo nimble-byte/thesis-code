@@ -7,6 +7,7 @@ GROUP: B
     starte ich jetzt die Aufnahme und das schlägt man da aus das sieht gut aus
     und dann bekommst du jetzt hier Aufgabenset 2 und darfst anfangen
 [002 SPOKEN]
+[TASK: 505 | DIFFICULTY: hard]
 [002.1]    alles klar ok dann lese ich mir erstmal die Aufgabenstellung durch
 [Proband liest die Aufgabenstellung]
 [002.2]    ok also Abstand vom Mittelpunkt bis zum Rand ist fünf
@@ -98,7 +99,7 @@ GROUP: B
 [008.7]    16
 [008.8]    das sind dann drei
 [008.9]    und weiter. Neue Aufgabe wieder lesen.
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 599 | DIFFICULTY: hard]
 [009 SPOKEN]
 [009.1]    Jetzt muss ich einen Punkt auf die Linie zwischen A und B legen, sodass wir von C aus rechtwinklig zu diesem Punkt P eine Linie ziehen können, die dann rechtwinklig auf A und B liegt.
 [009.2]    Ich frage ihn auch da erstmal, ob er da so einen allgemeinen Ansatz hat, wie ich das machen soll.
@@ -291,6 +292,7 @@ GROUP: B
 [029.3]    Okay, die Lösung entspricht jetzt nicht zu 100 Prozent.
 [029.4]    Die Werten, die da stehen, ist aber sehr nah an zwei im Vergleich zu allen anderen. Deswegen würde ich erstmal davon ausgehen, dass irgendwo vielleicht Rundungsfehler gemacht wurden und einfach mal zwei auswählen.
 [Proband wählt eine Lösung]
+[TASK: 669 | DIFFICULTY: medium]
 [030 SPOKEN]
 [030.1]    Nächste Aufgabe.
 [030.2]    Wir werden eine Linie und mehrere Längen und Verhältnisse geben.

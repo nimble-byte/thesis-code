@@ -6,6 +6,7 @@ GROUP: B
 [001 RESEARCHER]
     Schauen wir einmal eben, dass der hier wieder bei der Ausnahme ausschlägt, das tut es,
     und dann würde ich dir das jetzt einfach überlassen, mit der das Aufgaben zu entgeben.
+[TASK: 54 | DIFFICULTY: hard]
 [002 SPOKEN]
 [002.1]    Alles klar.
 [003 RESEARCHER]
@@ -84,7 +85,7 @@ GROUP: B
 [018.7]    Also wir können ja einfach...
 [018.8]    Ja, ich bleibe bei der 10.
 [018.9]    So.
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 280 | DIFFICULTY: medium]
 [018.10]    In der Abbildung ist A, B, C, D, E, F ein regelmäßiges Sechseck mit dem Mittelpunkt O.
 [018.11]    Regelmäßiges Sechseck mit dem Mittelpunkt O.
 [018.12]    Was ist der Wert des Winkels X?
@@ -128,7 +129,7 @@ GROUP: B
 [025.10]    360 durch 6. Vielen Dank, Chatbot.
 [025.11]    Also 60 Grad ist der Winkel auf jeden Fall dort.
 [025.12]    Der Winkel wird in der Mitte geschnitten, also 30 Grad.
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 478 | DIFFICULTY: medium]
 [025.13]    Wie in der Abbildung gezeigt haben die Diagonalen des Diamanten A, B, C, D die folgenden Längen.
 [025.14]    AC gleich 12, BD gleich 16.
 [025.15]    Wie lang sind die Kanten des Diamanten?

@@ -6,6 +6,7 @@ GROUP: B
 [001 RESEARCHER]
     Starten wir die Aufnahme, checken einmal, dass der ausschlägt. Das tut er.
     Dann kannst du damit anfangen.
+[TASK: 54 | DIFFICULTY: hard]
 [002 SPOKEN]
 [002.1]    Alles klar.
 [003 RESEARCHER]
@@ -23,7 +24,7 @@ GROUP: B
 [004.9]    Und wenn ich weiß, dass die Länge hier AC = 25 ist, kann ich die durch 5 rechnen, sind 5.
 [004.10]    Und wenn ich das mal 2 rechne, die 5 mal 2 rechne, sind es 10.
 [004.11]    Deswegen würde ich dafür die 10 eintippen.
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 455 | DIFFICULTY: hard]
 [005 SPOKEN]
 [005.1]    Okay, die nächste Aufgabe.
 [005.2]    Bei der Aufgabe wird mir ein Kreis gezeigt mit einem Winkel x und dann Radius R.
@@ -70,7 +71,7 @@ GROUP: B
 [014.6]    Hätte ich jetzt nicht in den Taschenrechner eintippen müssen, aber egal.
 [014.7]    Das heißt, ich kann die 36 theoretisch mal, ich werde das einfach direkt verrechnen, keine Lust drauf [Zwischenrechnungen zu machen].
 [014.8]    36, dadurch habe ich 16/5 Pi und die würde ich auch so auswählen.
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 478 | DIFFICULTY: medium]
 [014.9]    Perfekt. Ich mache mal zu Sicherheit, da war schon mal direkt der nächste Tab auf.
 [014.10]    In der Abbildung gezeigt haben die Dinger von neuen Diamanten ABCD.
 [014.11]    Ich kenne die Dänge zwischen AC und zwischen BD und jetzt muss ich die Kantenlänge praktisch wieder berechnen.

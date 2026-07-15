@@ -3,6 +3,7 @@ PARTICIPANT: 01
 UUID: f971d5ae-a9ff-4a23-a92b-7650ad697dfc
 GROUP: E
 ---
+[TASK: 505 | DIFFICULTY: hard]
 [001 SPOKEN]
 [001.1]    Okay, also erstmal die Aufgabe lesen.
 [Proband liest die Aufgabe]

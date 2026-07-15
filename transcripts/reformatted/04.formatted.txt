@@ -6,6 +6,7 @@ GROUP: E
 [001 RESEARCHER]
     So, ich guck noch einmal eben, aber der schlägt aus.
     Das heißt, du hast deine Aufgaben, beziehungsweise das Recording läuft, und da hast du das Aufgabenset.
+[TASK: 54 | DIFFICULTY: hard]
 [002 SPOKEN]
 [002.1]    Ah, so, okay.
 [Proband liest die Aufgabe (stellenweise laut)]
@@ -213,7 +214,7 @@ GROUP: E
     Command N.
 [035 SPOKEN]
 [035.1]    Lesen hilft.
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 455 | DIFFICULTY: hard]
 [036 SPOKEN]
 [036.1]    Gegeben ist ein Kreis, wenn x, x ist der Winkel, gehe ich mal blöd von aus, 32 und der Radius 18 ist,
 [036.2]    was ist die Länge des Kreisabschnittes, der in der Abbildung eingezeichnet ist?
@@ -245,7 +246,7 @@ GROUP: E
 [039.6]    360 mal 2*Pi*r mal, was waren es, 18 müssten es sein, 16 Pi fünftel und wir sind gut dabei.
 [039.7]    Next one.
 [039.8]    Oh, ich habe Control gerade gedrückt, ist das schlimm?
-[TASK <task-id> | DIFFICULTY <medium/hard>]
+[TASK: 478 | DIFFICULTY: medium]
 [040 SPOKEN]
 [040.1]    Wie in der Abbildung gezeigt haben die Diagonalen des Diamanten ABCD die folgende Länge,
 [040.2]    AC ist 12 und BD ist 16.
