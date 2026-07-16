@@ -47,7 +47,7 @@ GROUP: E
 [007.10]    Was habe ich denn da noch?
 [007.11]    So, which for following could be the length of CP?
 [007.12]    Ich brauche eine Lesebrille.
-[007.13]    Die vier Angaben brauche ich, um ein Dreieck zu bestimmen.
+[007.13]    Wie viele Angaben brauche ich, um ein Dreieck zu bestimmen.
 [Proband gibt eine Nachricht ein]
 [008 WRITTEN]
 [008.1]    Wieviel Angaben brauche ich um ein Dreieck zu bestimmen
@@ -105,7 +105,7 @@ GROUP: E
 [017.3]    Und das ganze 360 ist der Vollkreis und der Winkel ist letzten Endes 32.
 [017.4]    32, ist das jetzt richtig, was ich da jetzt gerade behaupte?
 [017.5]    Das ist 32 durch 360, genau verkehrt rum.
-[017.6]    Dann ist das 36 durch 239.
+[017.6]    Dann ist das [radius 18] zwei mal [gleich] 36 durch [unverständlich].
 [017.7]    Probieren wir einfach mal, irgendwo wird auch hier der Taschenrechner versteckt.
 [017.8]    Um die Zeit bin ich zu faul, um den Bruch 360 zu 32 richtig zu kürzen.
 [017.9]    Also das ganze mal 2.

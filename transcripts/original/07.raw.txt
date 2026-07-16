@@ -41,7 +41,7 @@ Proband:
     Was habe ich denn da noch?
     So, which for following could be the length of CP?
     Ich brauche eine Lesebrille.
-    Die vier Angaben brauche ich, um ein Dreieck zu bestimmen.
+    Wie viele Angaben brauche ich, um ein Dreieck zu bestimmen.
 [Proband gibt eine Nachricht ein]
 Proband (schriftlich):
     Wieviel Angaben brauche ich um ein Dreieck zu bestimmen
@@ -92,7 +92,7 @@ Proband:
     Und das ganze 360 ist der Vollkreis und der Winkel ist letzten Endes 32.
     32, ist das jetzt richtig, was ich da jetzt gerade behaupte?
     Das ist 32 durch 360, genau verkehrt rum.
-    Dann ist das 36 durch 239.
+    Dann ist das [radius 18] zwei mal [gleich] 36 durch [unverständlich].
     Probieren wir einfach mal, irgendwo wird auch hier der Taschenrechner versteckt.
     Um die Zeit bin ich zu faul, um den Bruch 360 zu 32 richtig zu kürzen.
     Also das ganze mal 2.
