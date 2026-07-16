@@ -1,0 +1,118 @@
+---
+PARTICIPANT: 09
+UUID: c4806f2c-dd6d-425c-a23d-62d29b4a1e5b
+GROUP: E
+CODING: First cycle; Process + In Vivo Coding (Saldaña)
+SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
+---
+
+[TASK 54 | HARD]
+
+[002.1] — (no code: non-substantive/filler)
+[002.2] PROCESS: Restating problem information | IV: "eine große Strecke, die in zwei kleinere Strecken noch unterteilt ist"
+[002.3] PROCESS: Identifying task goal | IV: "soll berechnen, wie lang die kleine Strecke ist"
+[002.4] PROCESS: Identifying given information | IV: "ein Verhältnis gegeben, allerdings auch für eine Länge, die ich nicht habe"
+[002.5] PROCESS: Formalizing problem variables | IV: "AB plus BC ist in Summe AC"
+[002.6] PROCESS: Restating given information | IV: "das Verhältnis von AB zu AC gegeben"
+[002.7] PROCESS: Deciding to consult chatbot | IV: "frage ich dann direkt mal nach, wie ich das am besten lösen kann"
+[002.8] PROCESS: Self-correcting stated values | IV: "im Verhältnis 2 zu 5"
+[002.9] PROCESS: Planning calculation approach | IV: "müsste man selbst jetzt 25 durch 7 teilen"
+[002.10] PROCESS: Deciding to verify calculation with chatbot | IV: "frage ich gleich mal in Chatbot, ob das so stimmt"
+[002.11] PROCESS: Performing calculation | IV: "eine Länge von 7 für AB und für AC wäre dann 17,8"
+[002.12] PROCESS: Deciding to verify calculation with chatbot | IV: "frage gleich in Chatbot trotzdem, ob das okay ist"
+[002.13] PROCESS: Estimating result | IV: "Das ist dann 7, irgendwas"
+[002.14] PROCESS: Deciding to redo calculation more precisely | IV: "mache ich das lieber noch mal genauer"
+[002.15] PROCESS: Testing alternative value | IV: "wenn ich jetzt 8 hätte, durch 2 sind 4"
+[002.16] PROCESS: Identifying calculation error | IV: "schon irgendwas verkackt"
+[002.17] PROCESS: Rejecting own hypothesis | IV: "wird nicht hinkommen"
+[002.18] PROCESS: Deciding to redo calculation more precisely | IV: "mache ich das lieber noch mal genauer"
+
+[003.1] PROCESS: Formulating chatbot query | IV: "wie berechne ich dann die Länge der einzelnen STrecken"
+
+[005.1] PROCESS: Expressing self-doubt about own approach | IV: "vielleicht bin ich auch dumm"
+[005.2] PROCESS: Performing calculation | IV: "2/7 mal 25"
+[005.3] PROCESS: Confirming calculation result | IV: "dann habe ich die 7,14"
+
+[007.1] PROCESS: Expressing confusion at result mismatch | IV: "die Antwortmöglichkeit 7,14 ist nicht vorhanden"
+[007.2] PROCESS: Reviewing chatbot's worked example | IV: "ein Verhältnis von 2 zu 3"
+[007.3] PROCESS: Applying method to own values | IV: "das müsste bei mir in diesem Fall 7 sein"
+[007.4] PROCESS: Applying method to own values | IV: "im Zähler habe ich dementsprechend die Zahl von der Strecke, die ich berechne"
+[007.5] PROCESS: Performing calculation | IV: "2/7 für die eine Strecke haben und 5 siebtel für die andere"
+[007.6] PROCESS: Comparing result to prior reasoning | IV: "da komme ich auf krumme Werte"
+[007.7] PROCESS: Estimating proximity to answer option | IV: "2/7 kommt ja relativ nah an 8 dran"
+[007.8] PROCESS: Testing hypothesis by manual calculation | IV: "wenn man jetzt 8 händisch einmal ausrechnet"
+[007.9] PROCESS: Performing calculation | IV: "hätten wir eine Summe von 28"
+[007.10] PROCESS: Selecting closest-matching answer | IV: "das, was am nächsten dran kommt"
+[007.11] PROCESS: Committing to answer under uncertainty | IV: "in der Hoffnung, dass man runden darf"
+[007.12] PROCESS: Expressing residual doubt about answer | IV: "abgerundet eher 7 wäre als 8"
+[007.13] PROCESS: Deciding to query chatbot for direct solution | IV: "vielleicht kriege ich eine direkte Lösung ausgespuckt"
+
+[008.1] PROCESS: Formulating chatbot query with concrete values | IV: "wie würde das dann beispielsweise aussehen"
+
+[010.1a] PROCESS: Referencing chatbot's reasoning process (CoT) | IV: "im Denkprozess"
+[010.1b] PROCESS: Comparing chatbot response to own prior reasoning | IV: "sagt er mir eigentlich auch das, was ich mir vorher auch schon gedacht habe"
+[010.2] PROCESS: Restating calculation method | IV: "mit 2/7 und 5/7 rechnet und den jeweiligen Anteil mit 25 multipliziert"
+[010.3] PROCESS: Rounding result to select answer | IV: "würde ich da jetzt einfach mal die 8 anklicken"
+[010.4] PROCESS: Identifying target quantity | IV: "ab ist ja die kleinere Strecke mit dem Verhältnis 2 zu 5"
+[010.5] PROCESS: Finalizing answer via rounding | IV: "7,14, dann ist das dementsprechend 8"
+
+[TASK 455 | HARD]
+
+[010.6] PROCESS: Restating problem information | IV: "sollen einen Streckenabschnitt auf dem Außenkreis berechnen"
+[010.7] PROCESS: Identifying given information | IV: "den Radius gegeben und unser X"
+[010.8] PROCESS: Clarifying variable meaning | IV: "unser X ist der Winkel"
+[010.9] PROCESS: Deciding to consult chatbot for formula | IV: "dafür gibt es aber einen guten Chatbot"
+
+[011.1] PROCESS: Requesting formula from chatbot | IV: "Wie ist die Formle zur Berechung des Umfangs eines Kreises"
+
+[013.1a] PROCESS: Reflecting on chatbot reliance strategy | IV: "ohne mir jetzt selbst weiter Gedanken machen zu müssen"
+[013.1b] PROCESS: Formulating chatbot query intent | IV: "wenn ich nur einen Teil des Kreises brauche"
+[013.2] PROCESS: Self-correcting terminology (Kreis → Umfang des Kreises) | IV: "des Umfang des Kreises"
+
+[014.1] PROCESS: Formulating chatbot query with problem specifics | IV: "Ich will ein Teil des Umfangs berechnen, wenn ich innen einen Winkel angegeben habe"
+
+[016.1] PROCESS: Identifying knowledge gap | IV: "das weiß ich natürlich selbst leider nicht"
+[016.2] PROCESS: Self-correcting terminology | IV: "das ist die Bogenlänge"
+[016.3] PROCESS: Interpreting chatbot question | IV: "fragt er mich, ob ich das noch weiß"
+[016.4] PROCESS: Recalling formula from memory | IV: "war der Pi * r-Quadrat, war der Inhalt?"
+[016.5] PROCESS: Deciding to verify recalled formula with chatbot | IV: "Ich habe irgendwas von 4 Pi r im Kopf"
+
+[017.1] PROCESS: Requesting confirmation of recalled formula | IV: "könnte das richit gsein"
+
+[019.1] PROCESS: Updating formula based on chatbot correction | IV: "2 PR scheint es zu sein"
+[019.2] PROCESS: Confirming formula for full circumference | IV: "für den vollen Umfang hätte ich...2 Pi r"
+[019.3] PROCESS: Hypothesizing full-angle value | IV: "ein voller Winkel sind ja wahrscheinlich 360°"
+[019.4] PROCESS: Planning ratio-based calculation | IV: "das einmal ins Verhältnis setzen"
+[019.5] PROCESS: Deciding to verify assumption with chatbot | IV: "ob der volle Winkel 360° sind"
+[019.6] PROCESS: Confirming assumption before verifying | IV: "logischeweise 360 sein, wenn das einmal im Kreis ist"
+
+[020.1] PROCESS: Requesting confirmation from chatbot | IV: "Wie sit der volle Winkel innen"
+
+[022.1] PROCESS: Performing calculation | IV: "32 durch 360, da habe ich Pi 54"
+[022.2] PROCESS: Continuing calculation | IV: "mal 2 Pi durch r"
+[022.3] — (no code: inaudible/unintelligible content)
+[022.4] PROCESS: Identifying calculation error | IV: "r ist 18, das ist ein Fehler"
+[022.5] PROCESS: Performing calculation | IV: "das sind knappe 9%, also 0,08"
+[022.6] PROCESS: Expressing frustration with repeated calculation errors | IV: "irgendwas verkackt mich die ganze Zeit"
+[022.7] PROCESS: Evaluating plausibility of result | IV: "das macht allerdings keinen Sinn"
+[022.8] PROCESS: Recomputing and confirming result | IV: "16 durch 5, das sind doch 3,2"
+
+[TASK 478 | MEDIUM]
+
+[022.9] PROCESS: Restating problem information | IV: "ich soll jetzt die Kanten berechnen"
+[022.10] PROCESS: Identifying solution approach | IV: "dadurch haben wir 4 rechtwinkelige Dreiecke"
+[022.11] PROCESS: Deciding to attempt solution without chatbot | IV: "ob ich das ohne Chatbot hinbekomme"
+[022.12] PROCESS: Performing calculation | IV: "wieder mal 2, weil wir ja 2 Dreiecke haben"
+[022.13] PROCESS: Recognizing mismatch between computed quantity and goal | IV: "ich will die Kantenlänge haben"
+[022.14] PROCESS: Deciding to verify formula with chatbot | IV: "das frage ich zur Sicherheit nochmal nach"
+
+[023.1] PROCESS: Requesting formula confirmation from chatbot | IV: "wenn ich die beiden anderen Kantenlängen gegeben habe"
+
+[025.1] PROCESS: Recalling relevant theorem | IV: "das wird wahrscheinlich der Satz des Pythagoras sein"
+[025.2] PROCESS: Deciding to verify recalled formula with chatbot | IV: "ob ich mir da sicher bin, ob das richtig ist"
+
+[026.1] PROCESS: Confirming theorem with chatbot | IV: "Satz des Pythagoras?"
+
+[028.1] PROCESS: Performing calculation | IV: "das passt schon mal nicht"
+[028.2] PROCESS: Identifying own calculation error | IV: "die Quadrate glaube ich vergessen"
+[028.3] PROCESS: Correcting calculation and confirming result | IV: "6² plus 8² ist dann 10, ja und dann kommt es auch hin"

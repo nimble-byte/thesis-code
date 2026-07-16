@@ -94,8 +94,8 @@ GROUP: E
     Die Formel für den Umfang eines Kreises ist eine grundlegende geometrische Formel. Hast du schon einmal darüber nachgedacht, wie man den Umfang eines Kreises berechnen könnte? Vielleicht kannst du dir vorstellen, dass der Umfang mit dem Durchmesser des Kreises zusammenhängt. Weißt du noch, was Pi (π) ist und welche Rolle es in der Geometrie spielt?
 [Proband liest Antwort]
 [013 SPOKEN]
-[013.1]    Ich kann natürlich auch, ohne mir jetzt selbst weiter Gedanken machen zu müssen, direkt fragen, wie ich das berechne,
-[013.2]    wenn ich nur einen Teil des Kreises brauche, des Umfang des Kreises.
+[013.1]    Ich kann natürlich auch, ohne mir jetzt selbst weiter Gedanken machen zu müssen, direkt fragen, wie ich das berechne, wenn ich nur einen Teil des Kreises brauche,
+[013.2]    des Umfang des Kreises.
 [Proband schreibt eine neue Nachricht]
 [014 WRITTEN]
 [014.1]    Ich habe einen Kreis gegeben und einen Radius r. Ich will ein Teil des Umfangs berechnen, wenn ich innen einen Winkel angegeben habe
