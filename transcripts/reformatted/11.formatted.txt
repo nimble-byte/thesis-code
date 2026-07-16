@@ -119,9 +119,9 @@ GROUP: B
 [017.7]    Die senkrechte Linie habe ich.
 [017.8]    Verwende den Satz des Pythagoras.
 [017.9]    Der Mittelpunkt des Kreises, da A sowie B Punkte auf dem Kreisumfang ..., kannst du ein rechtwinkliges Dreieck bilden.
-[017.10]    Bei A.
-[017.11]    0 A und A bis A.
-[017.12]    Die Hypotenusen. okay.
+[017.10]    Bei A...
+[017.11]    0A und AB ... die Hypotenusen sind...
+[017.12]    Okay.
 [Proband schreibt eine Nachricht]
 [017.13]    AB kann ich nicht bestimmen.
 [017.14]    Ich weiß zumindest nicht wie.
@@ -151,8 +151,7 @@ GROUP: B
 [020.3]    Das passt, das verstehe ich.
 [020.4]    AP. A.P. Achso, zur Mitte.
 [020.5]    AP und PB.
-[020.6]    Das mal schauen, das liegt da noch mal, was das say.
-[020.7]    Okay.
+[020.6]    Okay.
 [021 RESEARCHER]
     Bitte weiterhin versuchen laut zu denken
 [022 SPOKEN]
@@ -267,17 +266,17 @@ GROUP: B
 [032.26]    So.
 [032.27]    Da BC = 3 ist, liegt der Punkt B irgendwo im Koordinatensystem.
 [032.28]    So ist der Abstand von B zu C gleich 3.
-[032.29]    Die genaue Position von B, wo du ihn platzierst, A, wir wissen es.
+[032.29]    Die genaue Position von B und wo du ihn platzierst... wir wissen...
 [032.30]    Es liegt auf einem Kreis am Radius 3 um den Punkt C.
 [032.31]    Okay, jetzt geht es anscheinend noch nach unten.
 [032.32]    1, 2, 3. Irgendwo da.
 [032.33]    Das ist kein Kreis, ich weiß.
-[032.34]    Ich versuche noch den Punkt zu finden, wo ich scheiter Aufgabe.
+[032.34]    Ich versuche noch den Punkt zu finden, wo ich scheiter bei der Aufgabe.
 [032.35]    Punkt C liegt so.
-[032.36]    Punkt P liegt auf der Schrecke A, B zwischen A und B.
+[032.36]    Punkt P liegt auf der Schrecke AB zwischen A und B.
 [032.37]    Wir müssen hier nur von CP finden.
 [032.38]    Okay.
-[032.39]    Der CP sind gleich so wie [unverständlich].
+[032.39]    Da CP senkrecht... [unverständlich].
 [032.40]    Ich glaube, ich schalte aber den Vektor an, glaube ich.
 [032.41]    [unverständlich]
 [032.42]    Wie viel Zeit habe ich dafür?
@@ -358,7 +357,7 @@ GROUP: B
 [055 RESEARCHER]
     Zum Beispiel.
 [056 SPOKEN]
-[056.1]    Von 25 bis da, dann 10 sein.
+[056.1]    ...von 25 müsste dann 10 sein.
 [056.2]    Fragezeichen.
 [057 WRITTEN]
 [057.1]    ok, 2/5 von 25 müsste dann 10 sein?
@@ -478,7 +477,7 @@ GROUP: B
     Und jetzt aus dem Bruch raus.
 [087 SPOKEN]
 [087.1]    Ach so, okay.
-[087.2]    Ich glaube, das weiß der.
+[087.2]    Ich dachte, das weiß der.
 [087.3]    Die 2.
 [087.4]    Aber ist es nicht das, was er fragt?
 [087.5]    Nein, das ist das Verhältnis.

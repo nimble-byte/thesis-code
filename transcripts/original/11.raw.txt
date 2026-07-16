@@ -77,9 +77,9 @@ Proband:
     Die senkrechte Linie habe ich.
     Verwende den Satz des Pythagoras.
     Der Mittelpunkt des Kreises, da A sowie B Punkte auf dem Kreisumfang ..., kannst du ein rechtwinkliges Dreieck bilden.
-    Bei A.
-    0 A und A bis A.
-    Die Hypotenusen. okay.
+    Bei A...
+    0A und AB ... die Hypotenusen sind...
+    Okay.
 [Proband schreibt eine Nachricht]
     AB kann ich nicht bestimmen.
     Ich weiß zumindest nicht wie.
@@ -94,7 +94,6 @@ Proband:
     Das passt, das verstehe ich.
     AP. A.P. Achso, zur Mitte.
     AP und PB.
-    Das mal schauen, das liegt da noch mal, was das say.
     Okay.
 Wissenschaftler:
     Bitte weiterhin versuchen laut zu denken
@@ -179,17 +178,17 @@ Proband:
     So.
     Da BC = 3 ist, liegt der Punkt B irgendwo im Koordinatensystem.
     So ist der Abstand von B zu C gleich 3.
-    Die genaue Position von B, wo du ihn platzierst, A, wir wissen es.
+    Die genaue Position von B und wo du ihn platzierst... wir wissen...
     Es liegt auf einem Kreis am Radius 3 um den Punkt C.
     Okay, jetzt geht es anscheinend noch nach unten.
     1, 2, 3. Irgendwo da.
     Das ist kein Kreis, ich weiß.
-    Ich versuche noch den Punkt zu finden, wo ich scheiter Aufgabe.
+    Ich versuche noch den Punkt zu finden, wo ich scheiter bei der Aufgabe.
     Punkt C liegt so.
-    Punkt P liegt auf der Schrecke A, B zwischen A und B.
+    Punkt P liegt auf der Schrecke AB zwischen A und B.
     Wir müssen hier nur von CP finden.
     Okay.
-    Der CP sind gleich so wie [unverständlich].
+    Da CP senkrecht... [unverständlich].
     Ich glaube, ich schalte aber den Vektor an, glaube ich.
     [unverständlich]
     Wie viel Zeit habe ich dafür?
@@ -267,7 +266,7 @@ Proband:
 Wissenschaftler:
     Zum Beispiel.
 Proband:
-    Von 25 bis da, dann 10 sein.
+    ...von 25 müsste dann 10 sein.
     Fragezeichen.
 Proband (schriftlich):
     ok, 2/5 von 25 müsste dann 10 sein?
@@ -365,7 +364,7 @@ Wissenschaftler:
     Und jetzt aus dem Bruch raus.
 Proband:
     Ach so, okay.
-    Ich glaube, das weiß der.
+    Ich dachte, das weiß der.
     Die 2.
     Aber ist es nicht das, was er fragt?
     Nein, das ist das Verhältnis.
