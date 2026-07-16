@@ -71,7 +71,7 @@ Wissenschaftler:
 Proband:
     Ja, ja, ja. Also, ich will nur bestätigt wissen. Also, AC sind 25.
     Was sind das für Verhältnisse?
-    AB zu AC (2x)
+    AB zu AC. AB zu AC.
 [Proband schreibt eine Nachricht, löscht Teile und schreibt eine neue Nachricht]
 Proband (schriftlich):
     Was meinst du mit AB zu AC 2:7?
@@ -244,7 +244,7 @@ LLM:
     Der Satz des Pythagoras lautet: In einem rechtwinkligen Dreieck ist das Quadrat über der Hypotenuse (der Seite gegenüber dem rechten Winkel) gleich der Summe der Quadrate über den beiden Katheten (den anderen beiden Seiten). Mathematisch ausgedrückt: a² + b² = c², wobei c die Hypotenuse und a und b die anderen beiden Seiten sind.\n\nWie würdest du diese Formel anwenden, um die Länge der dritten Seite zu berechnen?
 [Proband liest die Antwort]
 Proband:
-    Finde ich gut. Also, gegenrechte Winkel gleich...
+    Finde ich gut. Also, rechte Winkel gleich...
     Okay, wenn ich das richtig verstanden habe, dann habe ich... Also ja, die Hypotenuse ist ja praktisch eigentlich diese...
     Die dann so ein bisschen anders verläuft, weil A und B, die sind ja praktisch sehr gleich, die schneiden sich auch.
     Das heißt, ich habe 6 ins Quadrat plus 8 ins Quadrat... 100, gut.

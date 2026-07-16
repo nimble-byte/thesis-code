@@ -83,7 +83,7 @@ GROUP: E
 [017 SPOKEN]
 [017.1]    Ja, ja, ja. Also, ich will nur bestätigt wissen. Also, AC sind 25.
 [017.2]    Was sind das für Verhältnisse?
-[017.3]    AB zu AC (2x)
+[017.3]    AB zu AC. AB zu AC.
 [Proband schreibt eine Nachricht, löscht Teile und schreibt eine neue Nachricht]
 [018 WRITTEN]
 [018.1]    Was meinst du mit AB zu AC 2:7?
@@ -118,7 +118,7 @@ GROUP: E
 [024.1]    Gut, also, ich habe hier einen Kreis. Und hier wird wahrscheinlich die Länge des Kreisabschnittes, der in der Abbildung eingezeichnet ist.
 [024.2]    Der Kreisabschnitt ist dann wahrscheinlich das, was nicht gestrichelt ist.
 [024.3]    So, das heißt, gibt es jetzt die Frage, ich weiß, es gibt eine Formel, um das zu berechnen. Höchstwahrscheinlich.
-[024.4]    Ähm, schauen wir mal. Wie paste ich da? Command V? Ah, ne, das war nämlich 455.
+[024.4]    Ähm, schauen wir mal. Wie paste ich da? Command V? [unverständlich]
 [Proband komponiert eine Nachricht inklusive des Bildes aus der Aufgabe]
 [024.5]    Ah ja, da. So, jetzt, weil ich gehe davon aus, also wir haben eine Länge, wir haben die Fläche, wir haben den Winkel, okay.
 [025 WRITTEN]
@@ -274,7 +274,7 @@ GROUP: E
     Wie würdest du diese Formel anwenden, um die Länge der dritten Seite zu berechnen?
 [Proband liest die Antwort]
 [057 SPOKEN]
-[057.1]    Finde ich gut. Also, gegenrechte Winkel gleich...
+[057.1]    Finde ich gut. Also, rechte Winkel gleich...
 [057.2]    Okay, wenn ich das richtig verstanden habe, dann habe ich... Also ja, die Hypotenuse ist ja praktisch eigentlich diese...
 [057.3]    Die dann so ein bisschen anders verläuft, weil A und B, die sind ja praktisch sehr gleich, die schneiden sich auch.
 [057.4]    Das heißt, ich habe 6 ins Quadrat plus 8 ins Quadrat... 100, gut.
