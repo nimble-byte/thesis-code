@@ -345,7 +345,7 @@ GROUP: E
 [Proband beginnt eine Nachricht zu schreiben]
 [043.11]    Das ist dann 6² gleich x² plus a.
 [043.12]    Ich habe gerade wegen meiner Sauklaue aus einer 6 ein b gemacht.
-[043.13]    Schön, dass du das hier noch mal ausschreibst, dann fällt dein Fehler auch wieder auf.
+[043.13]    Schön, dass man das hier noch mal ausschreibt, dann fällt dein Fehler auch wieder auf.
 [043.14]    Wir setzen oben ein.
 [043.15]    Wir haben ja die Wurzel genommen, das ist gleich b² plus 27.
 [044 WRITTEN]

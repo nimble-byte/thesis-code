@@ -269,7 +269,7 @@ Proband:
 [Proband beginnt eine Nachricht zu schreiben]
     Das ist dann 6² gleich x² plus a.
     Ich habe gerade wegen meiner Sauklaue aus einer 6 ein b gemacht.
-    Schön, dass du das hier noch mal ausschreibst, dann fällt dein Fehler auch wieder auf.
+    Schön, dass man das hier noch mal ausschreibt, dann fällt dein Fehler auch wieder auf.
     Wir setzen oben ein.
     Wir haben ja die Wurzel genommen, das ist gleich b² plus 27.
 Proband (schriftlich):
