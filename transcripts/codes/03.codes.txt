@@ -13,14 +13,18 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [002.3] PROCESS: Interpreting problem geometry | IV: "irgendwo auf im Bereich der Linie wird das quasi gekreuzt von Linie AB"
 [002.4] PROCESS: Deciding to consult LLM due to knowledge gap | IV: "mir da jetzt so keine Formel bekannt"
 [002.5] PROCESS: Announcing intent to share problem statement with LLM | IV: "gebe ich ihm die Aufgabenstellung mit"
+
 [003.1] PROCESS: Requesting solution formula from LLM | IV: "hast du eine Idee mit welcher formel ich diese Aufgabe lösen kann?"
+
 [005.1] PROCESS: Rejecting LLM's suggested approach | IV: "Abstand punkt gerade hilft glaube ich nicht"
 [005.2] PROCESS: Re-strategizing after rejecting approach | IV: "überlege ich einfach noch mal ein bisschen anders"
 [005.3] PROCESS: Deriving diameter length independently | IV: "wenn ich eine neue Linie zeichnen würde durch den mittelpunkt dann hätte die länge von 10"
 [005.4] PROCESS: Announcing intent to describe own reasoning to LLM | IV: "das beschreibe ich ihm jetzt einfach mal"
 [005.5] PROCESS: Describing geometric setup for LLM | IV: "die Linie von acht ein bisschen weiter unten"
 [005.6] PROCESS: Expressing expectation of LLM assistance | IV: "vielleicht hat er dann eine Idee"
+
 [006.1] PROCESS: Communicating own derived setup to LLM | IV: "wie weit unter der Linie durch den Mittelpunkt die linie ab ist"
+
 [008.1] PROCESS: Evaluating LLM response as helpful | IV: "jetzt glaube ich hilft mir die Beschreibung was"
 [008.2] PROCESS: Interpreting geometric relationship from LLM response | IV: "der Abstand vom mittelpunkt zu A oder zu B auch r"
 [008.3] PROCESS: Deriving half-chord length | IV: "die hälfte von AB ist vier"
@@ -35,17 +39,24 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 
 [009.1] PROCESS: Interpreting task requirements for perpendicular construction | IV: "rechtwinklig auf A und B liegt"
 [009.2] PROCESS: Deciding to request general approach from LLM | IV: "ob er da so einen allgemeinen Ansatz hat"
+
 [011.1] PROCESS: Adopting new-chat-per-task strategy | IV: "für jede Aufgabe immer neue"
+
 [012.1] PROCESS: Requesting solution approach from LLM | IV: "hast du eine Idee wie ich diese aufgabe lösen kann"
+
 [014.1a] PROCESS: Confirming understanding of LLM's Pythagorean suggestion | IV: "das habe ich eigentlich schon verstanden"
 [014.1b] PROCESS: Identifying unresolved sub-problem (length of AB) | IV: "wie lang A und B dann ist"
 [014.2a] PROCESS: Evaluating triangle for isosceles property | IV: "ist es nicht gleichschenklich"
 [014.2b] PROCESS: Deciding to request idea from LLM | IV: "frage ich ihn mal, ob er da eine Idee hat"
+
 [015.1] PROCESS: Requesting method for finding AB length | IV: "kann ich nicht einfach AB/2 teilen"
+
 [017.1] PROCESS: Identifying known and unknown quantities | IV: "die Länge CP kenne ich glaube ich nicht"
 [017.2a] PROCESS: Identifying additional unknown quantity | IV: "A und B kenne ich auch nicht"
 [017.2b] PROCESS: Deciding to request formula from LLM | IV: "ob er da eine Formel für mich hat"
+
 [018.1] PROCESS: Requesting formula for AP and PB from LLM | IV: "eine formel für das finden von ap und pb"
+
 [020.1] — (no code: non-substantive/filler)
 [020.2] PROCESS: Confirming understanding of LLM's repeated Pythagorean suggestion | IV: "ist auch irgendwie naheliegend"
 [020.3] PROCESS: Interpreting LLM's suggestion to subdivide triangle using variables | IV: "dieses Dreieck nochmal in zwei andere Dreiecke zu unterteilen"
@@ -57,7 +68,9 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [020.8] PROCESS: Rejecting shortcut as against task purpose | IV: "das ist ja nicht Sinn der Sache"
 [020.9] PROCESS: Deciding to reconsider LLM's proposed approach | IV: "nochmal ein bisschen über seinen Vorschlag nachdenken"
 [020.10] PROCESS: Formulating problem statement to send to LLM | IV: "eine Unbekannte zu viele"
+
 [021.1] PROCESS: Requesting suggestion for resolving underdetermined system | IV: "3 unbekannte und 2 gelichungen kann ich nicht lösen"
+
 [023.1] PROCESS: Registering LLM's suggested third equation | IV: "als dritte Gleichung AB = X + Y zu wählen"
 [023.2] PROCESS: Announcing closer examination of LLM's suggestion | IV: "Schau ich mir mal genauer an"
 [023.3] PROCESS: Interpreting LLM's approach of combining triangle equations | IV: "die beiden eingeteilten Dreiecke... miteinander zu verrechnen"
@@ -67,17 +80,21 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [023.7] PROCESS: Identifying own construction as a linear equation system | IV: "das ist jetzt ein lineares Gleichungssystem"
 [023.8] PROCESS: Recognizing need to solve equation system | IV: "Das muss ich jetzt einfach auflösen"
 [023.9] PROCESS: Delegating equation-solving task to LLM | IV: "wer das schon für mich macht"
+
 [024.1] PROCESS: Requesting LLM to solve constructed equation system | IV: "löse es mir auf und berechne die lösungen"
 [024.2] PROCESS: Providing equation for triangle ACP | IV: "36 = x² + CP²"
 [024.3] PROCESS: Providing equation for triangle BCP | IV: "9 = y² + CP²"
 [024.4] PROCESS: Providing combined equation relating x and y | IV: "27 = (x-y)(x+y)"
+
 [026.1] — (no code: non-substantive/filler)
 [026.2] PROCESS: Observing LLM's algebraic rearrangement | IV: "hat er schon einiges umgestellt"
 [026.3] — (no code: non-substantive/filler)
 [026.4] — (no code: non-substantive/filler)
 [026.5a] PROCESS: Confirming understanding of LLM's algebraic steps | IV: "Die Schritte habe ich soweit verstanden"
 [026.5b] PROCESS: Monitoring for further solving steps from LLM | IV: "ob er noch weitere Schritte macht"
+
 [027.1] PROCESS: Reporting completion of steps and requesting next steps | IV: "wie gehe ich weiter vor um das LGS zu lösen"
+
 [029.1] PROCESS: Describing LLM's stepwise equation-solving explanation | IV: "sehr schrittweise gibt er hier an"
 [029.2] PROCESS: Deciding to compute final value using calculator | IV: "mit dem Taschenrechner... die Länge CP ausrechnen"
 [029.3] PROCESS: Noting discrepancy in computed result relative to closest candidate value | IV: "sehr nah an zwei im Vergleich zu allen anderen"

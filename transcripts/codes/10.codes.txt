@@ -14,16 +14,22 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [002.4] PROCESS: Restating given information | IV: "das Verhältnis AB zu AC, 2 zu 5"
 [002.5] PROCESS: Expressing uncertainty about ratio interpretation | IV: "jetzt weiß ich nur nicht"
 [002.6] PROCESS: Formulating clarification question | IV: "Was bedeutet das Verhältnis 2 zu 5 in unserem Fall?"
+
 [003.1] PROCESS: Submitting clarification query to LLM | IV: "Was bedeutet das Verhältnis 2:5?"
+
 [005.1] PROCESS: Asking about read-aloud protocol | IV: "leiser durchlesen"
+
 [007.1] PROCESS: Judging response as unhelpful | IV: "hat es mir jetzt nicht so viel weiter geholfen"
 [007.2] PROCESS: Acknowledging LLM's counter-question | IV: "er fragt mich, wie ich das Verhältnis berechnen würde"
 [007.3] PROCESS: Attempting and rejecting calculation | IV: "25 durch 2, nee, macht keinen Sinn"
 [007.4] PROCESS: Continuing failed calculation attempt | IV: "macht keinen Sinn"
 [007.5] PROCESS: Trying alternative scaling approach | IV: "beides auf 10 mal 2 mache"
 [007.6] PROCESS: Summarizing conceptual understanding vs. calculation gap | IV: "ich weiß nicht so ganz, wie ich das berechnen würde"
+
 [008.1] PROCESS: Submitting understanding gap to LLM | IV: "ich weiß nicht so ganz, wie ich es berechnen würde"
+
 [010.1] PROCESS: Beginning tentative hypothesis (incomplete) | IV: "ich glaube, es könnte sein"
+
 [012.1] PROCESS: Restating LLM-provided information | IV: "er sagt mir jetzt, AB sind 2 Teile, BC sind 5 Teile"
 [012.2] PROCESS: Calculating part totals and percentages | IV: "7 Teile, sind 100%"
 [012.3] PROCESS: Reaffirming part-whole relationship | IV: "7 Teile 100% sind"
@@ -35,18 +41,24 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [012.9] — (no code: non-substantive/filler)
 [012.10] PROCESS: Restating problem-solving goal | IV: "wie ich vorgehen würde, um die Länge eines Teiles zu finden"
 [012.11] PROCESS: Recognizing applicable rule-of-three method | IV: "ganz einfacher Dreisatz"
+
 [013.1] PROCESS: Submitting method hypothesis for confirmation | IV: "ganz einfacher Dreisatz oder?"
+
 [015.1] PROCESS: Claiming to have found answer | IV: "würde ich mich jetzt die Antwort haben"
 [015.2] PROCESS: Rehearsing request to LLM | IV: "Kannst du mir die Länge eines Teiles berechnen?"
 [015.3] PROCESS: Reviewing given value | IV: "Gesamtlänge von AC"
 [015.4] PROCESS: Setting up unknown as variable x | IV: "das ist x"
 [015.5] PROCESS: Repeating rehearsed request | IV: "Kannst du mir die Länge eines Teiles für richten?"
 [015.6] — (no code: non-substantive/filler)
+
 [017.1] PROCESS: Seeking confirmation of given value | IV: "ich will nur bestätigt wissen"
 [017.2] PROCESS: Questioning the ratio relationships | IV: "Was sind das für Verhältnisse?"
 [017.3] PROCESS: Repeating ratio hypothesis aloud | IV: "AB zu AC. AB zu AC."
+
 [018.1] PROCESS: Questioning LLM's stated ratio | IV: "AB zu AC 2:7?"
+
 [020.1] PROCESS: Reading LLM correction aloud and acknowledging | IV: "Ach so"
+
 [022.1] PROCESS: Restating total parts | IV: "insgesamt sieben Teile"
 [022.2] PROCESS: Reaffirming known percentage equivalence | IV: "sieben Teile sind 100%"
 [022.3] PROCESS: Identifying next calculation step | IV: "wie lange ein Teil sind"
@@ -62,28 +74,37 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [022.9] PROCESS: Noting new chat session | IV: "neuer Chat"
 [022.10] PROCESS: Reading task question aloud | IV: "Was ist die Länge des Kreisabschnittes"
 [022.11] PROCESS: Expressing confusion about notation | IV: "x hoch null ist wahrscheinlich dann die Fläche"
+
 [024.1] PROCESS: Orienting to circle diagram | IV: "ich habe hier einen Kreis"
 [024.2] PROCESS: Interpreting diagram markings | IV: "das, was nicht gestrichelt ist"
 [024.3] PROCESS: Recognizing need for formula | IV: "es gibt eine Formel, um das zu berechnen"
 [024.4] PROCESS: Struggling with image-paste interface | IV: "Wie paste ich da? Command V?"
 [024.5] PROCESS: Enumerating perceived given quantities | IV: "wir haben eine Länge, wir haben die Fläche, wir haben den Winkel"
+
 [025.1] PROCESS: Asking LLM whether formula exists | IV: "Gibt es dafür eine Formel?"
+
 [027.1] PROCESS: Reiterating belief in existence of formula | IV: "es gibt da eine Formel"
 [027.2] PROCESS: Expressing uncertainty about formula | IV: "bin mir aber nicht sicher"
 [027.3] PROCESS: Speculating about additional required information | IV: "weitere Sachen braucht"
+
 [029.1] PROCESS: Restating LLM response and admitting formula unfamiliarity | IV: "die kenne ich aber nicht"
 [029.2] PROCESS: Reiterating lack of formula knowledge | IV: "für fast alles immer eine Formel gibt"
+
 [030.1] PROCESS: Requesting formula from LLM | IV: "Wie lautet sie?"
+
 [032.1] — (no code: non-substantive/filler)
 [032.2] PROCESS: Parsing formula, identifying target variable | IV: "L, also die Bogenlänge, das ist das, was gesucht wird"
 [032.3] PROCESS: Expressing confusion about formula symbol | IV: "was das ist, so eine Art Grad, keine Ahnung"
+
 [034.1] PROCESS: Parsing formula with clarified symbol | IV: "Null mit einem Strich durch"
+
 [036.1] PROCESS: Describing substitution strategy | IV: "ich schreibe mir immer die Formel auf und setze schon mal ein"
 [036.2] PROCESS: Restating target variable | IV: "L ist die Bogenlänge, die wird gesucht"
 [036.3] PROCESS: Substituting symbol with task variable | IV: "ist in meinem Fall X"
 [036.4] PROCESS: Substituting given numeric value | IV: "32 durch 360 mal 2πR"
 [036.5] PROCESS: Substituting radius value, referencing calculator | IV: "müsste mir normalerweise mein Taschenrechner helfen"
 [036.6] PROCESS: Checking for pi-symbol availability | IV: "gibt es das darauf?"
+
 [038.1] — (no code: non-substantive/filler)
 [038.2] PROCESS: Writing full substituted formula | IV: "32 durch 360 mal 2π18"
 [038.3] PROCESS: Self-correcting calculation approach | IV: "Das habe ich falsch gemacht"
@@ -93,6 +114,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [038.7] — (no code: non-substantive/filler)
 [038.8] PROCESS: Matching result to multiple-choice option | IV: "Das wird wahrscheinlich das erste sein"
 [038.9] PROCESS: Confirming final answer reasoning | IV: "16 durch 5, mal π"
+
 [040.1] — (no code: non-substantive/filler)
 
 [TASK 478 | medium]
@@ -109,13 +131,19 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [040.11] — (no code: non-substantive/filler)
 [040.12] PROCESS: Specifying outer edges as equal | IV: "Die Äußeren müssten alle gleich lang sein"
 [040.13] PROCESS: Extending equal-length hypothesis to diagonals | IV: "A bis C und B bis D müssten eigentlich alle gleich lang sein"
+
 [041.1] PROCESS: Submitting edge-equality hypothesis to LLM | IV: "alle Kanten gleich lang?"
+
 [043.1] PROCESS: Restating LLM confirmation of edge equality | IV: "alle 4 Seiten gleich lang sind"
 [043.2] PROCESS: Extending equal-length assumption to diagonals | IV: "die in der Mitte auch gleich lang sein"
 [043.3] PROCESS: Expressing doubt requiring clarification | IV: "heißt das jetzt nicht, dass die gleich lang sind?"
+
 [044.1] PROCESS: Submitting scope-clarification question to LLM | IV: "alle Linien gemeint? Oder nur die äußeren?"
+
 [046.1] PROCESS: Restating LLM clarification on diagonal inequality | IV: "die sind nicht gleich lang"
+
 [047.1] PROCESS: Seeking explicit confirmation of diagonal inequality | IV: "die Diagonalen sind nicht gleich lang?"
+
 [049.1] — (no code: non-substantive/filler)
 [049.2] PROCESS: Reasoning about diagonal-length implications | IV: "die Strecke AC = 12 ist und BD = 16"
 [049.3] — (no code: non-substantive/filler)
@@ -127,17 +155,21 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [049.9] — (no code: non-substantive/filler)
 [049.10] PROCESS: Reaffirming confidence in bisection hypothesis | IV: "müsste es schon so sein"
 [049.11] PROCESS: Interpreting diagram to confirm given value | IV: "AC, 12 sind"
+
 [051.1] PROCESS: Completing bisection calculation for both diagonals | IV: "B bis D sind einmal 8 und 8"
 [051.2] PROCESS: Connecting half-diagonals to Pythagorean approach | IV: "mit einem Satz des Pythagoras... Die Länge der Hypotenuse"
 [051.3] PROCESS: Admitting uncertain recall of theorem | IV: "ist zu lange her"
 [051.4] PROCESS: Specifying triangle side lengths | IV: "die eine Seite 6 lang ist und die andere Seite 8 lang ist"
+
 [052.1] PROCESS: Submitting request for third-side calculation method | IV: "wie berechne ich die Länge der dritten Seite?"
+
 [054.1] — (no code: non-substantive/filler)
 [054.2] PROCESS: Assessing triangle as right-angled from visual impression | IV: "was für mich rechtwinklig aussieht"
 [054.3] PROCESS: Confirming right-angle triangle determination | IV: "das ist ein rechtwinkliges Dreieck"
 [054.4] PROCESS: Reaffirming right-triangle choice over alternative | IV: "Nee, das ist ein rechtwinkliges Dreieck"
 [054.5] PROCESS: Recalling Pythagorean theorem formula | IV: "A Quadrat plus B Quadrat gleich C Quadrat"
 [055.1] PROCESS: Confirming right triangle and requesting formula | IV: "Wie lautet der Satz des Pythagoras?"
+
 [057.1a] PROCESS: Positively evaluating LLM response | IV: "Finde ich gut"
 [057.1b] PROCESS: Beginning to parse formula terms | IV: "gegenrechte Winkel gleich"
 [057.2] PROCESS: Identifying hypotenuse in own triangle | IV: "die Hypotenuse ist ja praktisch eigentlich diese"

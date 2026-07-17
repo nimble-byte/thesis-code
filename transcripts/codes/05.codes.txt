@@ -7,6 +7,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 ---
 
 [TASK 54 | hard]
+
 [002.1] — (no code: non-substantive/filler)
 [002.2] PROCESS: Assessing task difficulty relative to prior task | IV: "das ist schon deutlich komplizierter als vorhin"
 [002.3] PROCESS: Distinguishing surface appearance from actual difficulty | IV: "Zumindest sieht es schlimmer aus"
@@ -27,12 +28,14 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [002.16b] PROCESS: Stating verification goal | IV: "ob das so weit Sinn ergibt"
 [002.17] PROCESS: Expressing confidence in own solution prior to verification | IV: "recht sicher, dass das richtig ist"
 [002.18] PROCESS: Anticipating chatbot response | IV: "Mal schauen, ob das ausspuckt"
+
 [003.1] PROCESS: Relaying task prompt to LLM | IV: "In der gezeigten Abbildung ist das Verhältnis..."
 [003.2] PROCESS: Requesting solution verification from LLM | IV: "Meine Lösung ist 10, ist das korrekt?"
+
 [005.1] PROCESS: Announcing intent to solve for target variable | IV: "Jetzt löse ich nach AB auf"
 [005.2] PROCESS: Criticizing response as verbose and insufficiently confirmatory | IV: "zu viel Antwort und zu wenig Bestätigung"
 [005.3] PROCESS: Recomputing ratio manually to verify | IV: "A durch B... Ratio von 2:5"
-[005.4] PROCESS: Expressing tentative/unclear verification judgment | IV: "wenn das 10 ist, dann noch nicht" [FLAGGED: ambiguous — referent of "noch nicht" unclear, review before finalizing]
+[005.4] PROCESS: Restating hypothesized answer prior to full verification | IV: "wenn das 10 ist" (trailing phrase excluded — confirmed transcription artifact, adds nothing per Til)
 [005.5] PROCESS: Performing verification calculation | IV: "Wenn ich das mal 5 mache"
 [005.6] PROCESS: Confirming calculation makes sense | IV: "es ergibt Sinn"
 [005.7] PROCESS: Affirming confidence in solution correctness | IV: "Ich bin voll dabei, dass das richtig ist"
@@ -43,28 +46,33 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [005.12] — (no code: non-substantive/filler)
 
 [TASK 455 | hard]
+
 [005.13] — (no code: non-substantive/filler, task transition)
 [005.14] PROCESS: Identifying unknown variable in task | IV: "Wo ist X?"
 [005.15] PROCESS: Questioning variable notation | IV: "Ist das X0 aus der..."
+
 [007.1] — (no code: non-substantive/filler)
 [007.2] PROCESS: Deriving angle value from clarification | IV: "sind das 32 Grad"
 [007.3] PROCESS: Reading task question aloud | IV: "Wie ist die Länge des Kreisabschnittes..."
 [007.4] PROCESS: Signaling reflection pause | IV: "kurz nachdenken"
 [007.5] PROCESS: Identifying need for formula | IV: "da brauchen wir einfach nur die Formeln für"
-[007.6] PROCESS: Expressing tentative, unfinished resolution | IV: "Ich denke, dann hat sich das..." [FLAGGED: statement interrupted/incomplete, unclear referent]
+[007.6] PROCESS: Expressing hedged assessment that task requirement is met | IV: "Ich denke, dann hat sich das..."
 [007.7] PROCESS: Deciding to use image as chatbot input | IV: "Ich kopiere rein, nutze ich das Bild"
 [007.8] — (no code: non-substantive/filler)
 [007.9] PROCESS: Marking action completion | IV: "Zack"
 [007.10] PROCESS: Deciding to start new chat per task | IV: "Neuen Chat benutzen für neue Aufgaben"
 [007.11] — (no code: non-substantive/filler)
 [007.12] PROCESS: Marking action completion | IV: "Zack"
+
 [008.1] — (no code: image attachment placeholder, non-verbal)
 [008.2] PROCESS: Relaying task parameters to LLM | IV: "Wenn x = 32 und r = 18..."
+
 [010.1] PROCESS: Identifying required variables for calculation | IV: "Den Winkel, den Radiant und den Radius des Kreises"
 [010.2] PROCESS: Planning degree-to-radian conversion | IV: "Der Winkel ist bereits ein Grad, so kann man... Radiant... berechnen"
 [010.3] PROCESS: Retrieving calculator tool | IV: "Jetzt holen wir mal die Taschenrechner aus"
 [010.4] — (no code: non-substantive/filler)
 [010.5] PROCESS: Performing radian conversion calculation | IV: "Grad waren... 32... mal...Pi"
+
 [012.1] PROCESS: Locating calculator function | IV: "Wo ist Pi? Wo ist Pi?"
 [012.2] PROCESS: Continuing radian conversion calculation | IV: "Pi durch...180"
 [012.3] PROCESS: Recording calculated radian value | IV: "Radiant ist 0,5850536"
@@ -82,7 +90,9 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [012.15] — (no code: non-substantive/filler)
 [012.16] PROCESS: Continuing to convert next answer option | IV: "16 mal..."
 [012.17] PROCESS: Questioning unfamiliar notation symbol | IV: "Was bedeutet der Backslash?"
+
 [014.1] — (no code: non-substantive/filler)
+
 [016.1] — (no code: non-substantive/filler)
 [016.2] PROCESS: Converting next answer option | IV: "16 mal Pi durch 5"
 [016.3] PROCESS: Comparing converted option to computed result | IV: "das kommt sehr nah an das Radius"
@@ -95,10 +105,13 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [016.10] — (no code: non-substantive/filler, task transition)
 
 [TASK 478 | medium]
+
 [016.11] PROCESS: Announcing task reading | IV: "Wollen wir mal wieder lesen"
 [016.12] PROCESS: Questioning task terminology | IV: "Ich weiß nicht, ob da Diamanat stehen soll?"
 [016.13] PROCESS: Seeking clarification of terminology | IV: "Oder Diamant?"
+
 [018.1] — (no code: non-substantive/filler)
+
 [020.1] — (no code: non-substantive/filler)
 [020.2] — (no code: non-substantive/filler; incomplete false start)
 [020.3] PROCESS: Extracting given diagonal value | IV: "A zu C ist 12"
@@ -110,14 +123,16 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [020.9] — (no code: non-substantive/filler)
 [020.10] — (no code: non-substantive/filler)
 [020.11] PROCESS: Marking action completion | IV: "Zack"
+
 [021.1] PROCESS: Relaying task parameters to LLM | IV: "AC = 12, BD = 16"
 [021.2] — (no code: image attachment placeholder, non-verbal)
-[023.1] PROCESS: Reading LLM explanation aloud | IV: "die andere Diagonale in zwei gleiche Teile"
-[023.2] PROCESS: Reading LLM explanation aloud | IV: "jedes Segment"
-[023.3] PROCESS: Confirming comprehension of explanation so far | IV: "soweit so Gut"
+
+[023.1] PROCESS: Reading LLM response aloud | IV: "die andere Diagonale in zwei gleiche Teile"
+[023.2] PROCESS: Reading LLM response aloud | IV: "jedes Segment"
+[023.3] PROCESS: Confirming comprehension of response so far | IV: "soweit so Gut"
 [023.4] PROCESS: Recognizing LLM's triangle-construction step | IV: "möchte der da aus Dreieck bauen"
 [023.5] — (no code: non-substantive/filler)
-[023.6] PROCESS: Reading LLM explanation aloud | IV: "Jede Seite"
+[023.6] PROCESS: Reading LLM response aloud | IV: "Jede Seite"
 [023.7] PROCESS: Pausing to re-verify assumption | IV: "lass mich nochmal nachschauen"
 [023.8] PROCESS: Questioning geometric property of figure | IV: "Haben die rechte Winkel?"
 [023.9] — (no code: unintelligible speech)
@@ -125,11 +140,12 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [023.11] — (no code: non-substantive/filler)
 [023.12] PROCESS: Deciding to sketch diagram to support reasoning | IV: "Ich male mir [das] mal auf"
 [023.13] PROCESS: Labeling sketch elements | IV: "C und D"
+
 [025.1] — (no code: non-substantive/filler)
 [025.2] PROCESS: Explaining own reasoning strategy (sketching aids thinking) | IV: "weil ich kann besser denken, wenn ich die Sachen tatsächlich daran schreibe"
 [025.3] PROCESS: Computing half-diagonal values | IV: "A bis C ist 12, das heißt diesen 6 [und] 6"
 [025.4] PROCESS: Computing second half-diagonal values | IV: "die andere ist 16, also 8 [und] 8"
-[025.5] PROCESS: Attributing prior explanation to chatbot | IV: "das wurde mir von dem schon erklärt"
+[025.5] PROCESS: Attributing prior response content to chatbot | IV: "das wurde mir von dem schon erklärt"
 [025.6] PROCESS: Recalling chatbot's labeling of points | IV: "Er hat das BO und O"
 [025.7] — (no code: non-substantive/filler)
 [025.8] PROCESS: Dismissing labeling discrepancy as unimportant | IV: "Hat er anders genannt, ist mir egal"
@@ -147,7 +163,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [025.20] PROCESS: Expressing playful confidence via catchphrase | IV: "Pythagoras to the rescue"
 [025.21] — (no code: non-substantive/filler)
 [025.22] PROCESS: Switching to calculator for computation | IV: "der Taschenrechner"
-[025.23] PROCESS: Performing Pythagorean calculation step | IV: "8 mal 6 ...mit AO Quadrat, das ist AO" [FLAGGED: phrasing unclear/possibly garbled relative to subsequent correct calculation in 025.24, review before finalizing]
+[025.23] PROCESS: Performing Pythagorean calculation step (verbal slip, self-corrected in 025.24–025.28) | IV: "8 mal 6 ...mit AO Quadrat, das ist AO"
 [025.24] PROCESS: Computing squared value | IV: "6 mal 6 sind 36"
 [025.25] PROCESS: Computing second squared value | IV: "8 mal 8 sind 64"
 [025.26] PROCESS: Summing squared values | IV: "Plus 64"

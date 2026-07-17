@@ -6,7 +6,7 @@ CODING: First cycle; Process + In Vivo Coding (Saldaña)
 SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 ---
 
-[TASK 54 | HARD]
+[TASK 54 | hard]
 
 [002.1] — (no code: non-substantive/filler)
 [002.2] PROCESS: Restating problem information | IV: "eine große Strecke, die in zwei kleinere Strecken noch unterteilt ist"
@@ -56,7 +56,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [010.4] PROCESS: Identifying target quantity | IV: "ab ist ja die kleinere Strecke mit dem Verhältnis 2 zu 5"
 [010.5] PROCESS: Finalizing answer via rounding | IV: "7,14, dann ist das dementsprechend 8"
 
-[TASK 455 | HARD]
+[TASK 455 | hard]
 
 [010.6] PROCESS: Restating problem information | IV: "sollen einen Streckenabschnitt auf dem Außenkreis berechnen"
 [010.7] PROCESS: Identifying given information | IV: "den Radius gegeben und unser X"
@@ -97,7 +97,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [022.7] PROCESS: Evaluating plausibility of result | IV: "das macht allerdings keinen Sinn"
 [022.8] PROCESS: Recomputing and confirming result | IV: "16 durch 5, das sind doch 3,2"
 
-[TASK 478 | MEDIUM]
+[TASK 478 | medium]
 
 [022.9] PROCESS: Restating problem information | IV: "ich soll jetzt die Kanten berechnen"
 [022.10] PROCESS: Identifying solution approach | IV: "dadurch haben wir 4 rechtwinkelige Dreiecke"

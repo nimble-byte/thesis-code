@@ -6,7 +6,7 @@ CODING: First cycle; Process + In Vivo Coding (Saldaña)
 SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 ---
 
-[TASK 505 | HARD]
+[TASK 505 | hard]
 
 [002.1] PROCESS: Stating problem givens | IV: "einen Kreis mit einem Radius 5 und die Länge der Linie AB ist 8"
 [002.2] PROCESS: Restating problem question | IV: "Wie groß ist die Distanz von der Mitte des Kreises zur Linie AB?"
@@ -18,10 +18,11 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [002.8] PROCESS: Recognizing familiar problem pattern | IV: "die klassische Geschichte"
 [002.9] PROCESS: Stating computed answer | IV: "ich bin auf x gleich 3"
 
-[TASK 599 | HARD]
+[TASK 599 | hard]
 
 [003.1a] — (no code: non-substantive/filler)
 [003.1b] PROCESS: Questioning solution-validation procedure | IV: "Wie ist das mit der Lösungsvalidierung?"
+
 [005.1] — (no code: non-substantive/filler)
 [005.2] PROCESS: Reporting need for reading glasses | IV: "Ich brauche eine Lesebrille"
 [005.3a] PROCESS: Misreading given value | IV: "BC ist 6"
@@ -29,6 +30,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [005.4] PROCESS: Restating problem statement | IV: "Lies on AB, between AB"
 [005.5] PROCESS: Restating problem question | IV: "which for following could be the length of CP?"
 [005.6] PROCESS: Re-confirming given value | IV: "6, BC ist 3"
+
 [007.1] PROCESS: Labeling given value in drawing | IV: "BC ist 3"
 [007.2] PROCESS: Identifying target value | IV: "letztendlich hier 6 gesucht"
 [007.3] PROCESS: Identifying target value | IV: "Die ist gesucht"
@@ -42,9 +44,12 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [007.11] PROCESS: Restating problem question | IV: "which for following could be the length of CP?"
 [007.12] PROCESS: Reporting need for reading glasses | IV: "Ich brauche eine Lesebrille"
 [007.13] PROCESS: Verbalizing intended query before typing | IV: "Wie viele Angaben brauche ich, um ein Dreieck zu bestimmen"
+
 [008.1] PROCESS: Querying LLM about triangle-determination requirements | IV: "Wieviel Angaben brauche ich um ein Dreieck zu bestimmen"
+
 [010.1] PROCESS: Validating own prior knowledge against response | IV: "Das mit den drei Angaben habe ich schon mal richtig in Erinnerung gehabt"
 [010.2] PROCESS: Concluding a given is missing | IV: "mir fehlt noch eine Angabe"
+
 [012.1] PROCESS: Identifying given side | IV: "Ich habe letztendlich die Seite gegeben"
 [012.2] PROCESS: Matching givens to determinacy case | IV: "zwei Seiten und einen eingeschlossenen Winkel"
 [012.3] PROCESS: Hypothesizing alternative sufficient condition | IV: "Wenn ich jetzt hier die gegenüberliegenden Winkel hätte, wäre es auch egal"
@@ -52,7 +57,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [012.5] PROCESS: Describing degree of freedom in figure | IV: "verschiebt sich dieses Teil hier lustig auf der Sache hin und her"
 [012.6] PROCESS: Labeling point in drawing | IV: "Das ist ja hier der Punkt P"
 
-[TASK 455 | HARD]
+[TASK 455 | hard]
 
 [014.1] PROCESS: Explaining vision workaround strategy | IV: "die Brille abnehme, damit ich nicht das Sichtfenster der Gleitsichtbrille finden muss"
 [014.2] PROCESS: Adjusting physical position relative to screen | IV: "rück dem Laptop einfach ein bisschen auf die Pelle"
@@ -62,7 +67,9 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [014.6] PROCESS: Deciding to attempt mental calculation first | IV: "noch ein bisschen was im Kopf zu rechnen"
 [014.7] PROCESS: Considering querying LLM as fallback | IV: "könnte man die Sache jetzt hier fragen"
 [014.8] PROCESS: Verbalizing intended query before typing | IV: "Was ist die Formel für Kreisumfang?"
+
 [015.1] PROCESS: Querying LLM for circle-circumference formula | IV: "Was ist die Formel für Kreisumfang"
+
 [017.1] PROCESS: Confirming formula from response | IV: "Sehr schön, 2 Pi r"
 [017.2] PROCESS: Applying formula to compute circumference | IV: "damit habe ich den gesamten Umfang"
 [017.3] PROCESS: Relating angle to full-circle degrees | IV: "das ganze 360 ist der Vollkreis und der Winkel ist letzten Endes 32"
@@ -81,7 +88,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [017.16] PROCESS: Simplifying fraction | IV: "Das ist 32/10"
 [017.17] PROCESS: Simplifying fraction further | IV: "Oder aber 16/5"
 
-[TASK 669 | MEDIUM]
+[TASK 669 | medium]
 
 [017.18] PROCESS: Restating given value from problem figure | IV: "die in der Abbildung gezeichneten Linien hat eine Länge von 10"
 [017.19] PROCESS: Restating point definitions | IV: "M ist die Mitte der Linie A, B. N ist ein Punkt der Linie A, M"

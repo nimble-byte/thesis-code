@@ -6,7 +6,7 @@ CODING: First cycle; Process + In Vivo Coding (Saldaña)
 SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 ---
 
-[TASK 505 | HARD]
+[TASK 505 | hard]
 
 [002.1] PROCESS: Orienting to task figure | IV: "ich habe hier nun eine Abbildung"
 [002.2] PROCESS: Describing given figure | IV: "kreisförmige Form"
@@ -45,7 +45,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [011.2] PROCESS: Paraphrasing chatbot's response | IV: "was das Verhältnis vom Umfang zu Durchmesser ist"
 [011.3] PROCESS: Paraphrasing chatbot's response (cont.) | IV: "Es gibt eine Zahl die das Verhältnis beschreibt"
 [011.4] PROCESS: Recalling candidate answer (incorrect) | IV: "Das müsste doch der Radius sein"
-[011.5] PROCESS: Reaffirming initial guess [FLAGGED — see note] | IV: "der Radius müsste sein"
+[011.5] PROCESS: Reaffirming initial guess | IV: "der Radius müsste sein"
 [011.6] PROCESS: Correcting recalled answer | IV: "Pi"
 [011.7] PROCESS: Confirming final answer | IV: "Pi ist die Antwort"
 
@@ -138,7 +138,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [040.5] PROCESS: Solving corrected equation | IV: "Dann sind wir bei 3"
 [040.6] PROCESS: Confirming answer matches options | IV: "Das gibt es als Beantwortungsmöglichkeit"
 
-[TASK 54 | HARD]
+[TASK 54 | hard]
 
 [042.1] PROCESS: Orienting to new task figure | IV: "Es gibt einen Abschluss zwischen a und b und dann zwischen b und c"
 [042.2] PROCESS: Describing figure | IV: "Beide sind unterschiedlich lang"
@@ -168,7 +168,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [051.4] PROCESS: Planning algebraic manipulation | IV: "mit 25 zu multiplizieren, sodass quasi AB allein steht"
 [051.5] PROCESS: Calculating answer using calculator | IV: "Ich multipliziere nun 2,5 mit 25"
 
-[TASK 669 | MEDIUM]
+[TASK 669 | medium]
 
 [051.6] PROCESS: Orienting to new task | IV: "Wir haben nun diesmal vier Längen"
 [051.7] PROCESS: Recording given values | IV: "Die Gesamtlänge AB ist 10. M ist quasi die Mitte der Linie AB"
