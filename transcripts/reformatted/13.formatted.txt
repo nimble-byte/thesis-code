@@ -72,7 +72,7 @@ GROUP: B
 [014.7]    Das heißt, ich kann die 36 theoretisch mal, ich werde das einfach direkt verrechnen, keine Lust drauf [Zwischenrechnungen zu machen].
 [014.8]    36, dadurch habe ich 16/5 Pi und die würde ich auch so auswählen.
 [TASK: 478 | DIFFICULTY: medium]
-[014.9]    Perfekt. Ich mache mal zu Sicherheit, da war schon mal direkt der nächste Tab auf.
+[014.9]    Perfekt. Ich mache mal zu Sicherheit einfach schonmal direkt den nächste Tab auf.
 [014.10]    In der Abbildung gezeigt haben die Dinger von neuen Diamanten ABCD.
 [014.11]    Ich kenne die Dänge zwischen AC und zwischen BD und jetzt muss ich die Kantenlänge praktisch wieder berechnen.
 [014.12]    Das heißt, wenn ich weiß, dass die Strecke zwischen AC = 12 ist und zwischen BD = 16 davon ausgeben, dass alles perfekt winklig ist, wie es da auf dem Bild aussieht,
@@ -103,7 +103,7 @@ GROUP: B
     Die sind einfach gleich benannt.
 [Proband öffnet file upload in LM Studio, sucht die Aufgabennummer und sieht mehrere files mit dem gleichen Namen]
 [020 SPOKEN]
-[020.1]    Das ist eigentlich egal, welches ich nehme? Ah ja, jetzt verstehe ich, warum die Aufgabennummer 1 sind. Ok, perfekt.
+[020.1]    Das ist eigentlich egal, welches ich nehme? Ah ja, jetzt verstehe ich, welche Aufgabennummer du meinst. Ok, perfekt.
 [021 WRITTEN]
 [021.1]    Wie berechne ich die kanten länge von einem Diamanten wenn die strecken zwischen den punkten gegenüber bekannt sind?
 [022 LLM]
@@ -158,14 +158,14 @@ GROUP: B
 [026.2]    Weil, wie wird auch hier vorgeschlagen?
 [026.3]    Habe ich vielleicht einfach noch hier einen Denkfehler gehabt, weil...
 [026.4]    Ok, nochmal. Vielleicht bin ich einfach nur dämlich. Ich hatte jetzt nochmal praktisch A und C halbiert.
-[026.5]    Das sind 6, weil A und C = 12 ist, um eine Kantenlänge von einem der rechten Dreiecke zu bekommen.
+[026.5]    Das sind 6, weil A und C = 12 ist, um eine Kantenlänge von einem der rechtwinkligen Dreiecke zu bekommen.
 [026.6]    Das Gleiche mache ich auch für B und D. Das heißt, es sind 8.
 [026.7]    Und eigentlich wäre der Satz des Pythagoras immer noch praktisch, die Quadrate von beiden mal zunehmen.
 [026.8]    Und so kriege ich die Hypotenusenlänge hin. Also das Quadrat von der Hypotenuse, was ich gerade schon gerechnet habe.
 [Proband gibt Rechnung erneut in den Taschenrechner ein]
 [026.9]    Genau. Und dann kommt bei mir jetzt, wenn ich das hier mache...
-[026.10]    Irgendwas mache ich falsch. Irgendwas ist ein großer Denkfehler bei mir.
-[026.11]    Hier ist die andere.
+[026.10]    Irgendwas mache ich falsch.
+[026.11]    Irgendwas ist ein großer Denkfehler bei mir.
 [026.12]    Dann mache ich mir das nochmal etwas komplizierter. Mal 8 zum Quadrat sind 2000. Und davon die Wurzel...
 [026.13]    Ok, ich rechne das nochmal ganz normal durch. Ich mache 6 zum Quadrat, mal 8 zum Quadrat, das sind 2304.
 [026.14]    Und wenn ich die Wurzel aus 2304 rechne, kommt bei mir 48 raus.

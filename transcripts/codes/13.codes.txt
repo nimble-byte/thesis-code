@@ -1,0 +1,116 @@
+---
+PARTICIPANT: 13
+UUID: 40c36240-b41c-41fd-8502-160341017569
+GROUP: B
+CODING: First cycle; Process + In Vivo Coding (Saldaña)
+SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
+---
+
+[TASK 54 | hard]
+
+[002.1] — (no code: non-substantive/filler)
+
+[004.1] — (no code: non-substantive/filler)
+[004.2] — (no code: non-substantive/filler)
+[004.3] PROCESS: Orienting to task figure | IV: "In der Figur wird mir eine Linie angezeigt"
+[004.4] PROCESS: Identifying given information | IV: "ich habe die Ratio von der Länge von AB zu AC"
+[004.5] PROCESS: Identifying task goal | IV: "ich muss praktisch die Länge von AB berechnen"
+[004.6] — (no code: non-substantive/filler)
+[004.7] PROCESS: Sketching diagram on paper | IV: "Das male ich mal aufs Papierchen auf"
+[004.8] PROCESS: Annotating diagram with values | IV: "das hier ist praktisch 2, während das alles insgesamt 5 ist"
+[004.9] PROCESS: Performing calculation | IV: "kann ich die durch 5 rechnen, sind 5"
+[004.10] PROCESS: Performing calculation | IV: "die 5 mal 2 rechne, sind es 10"
+[004.11] PROCESS: Committing to answer | IV: "würde ich dafür die 10 eintippen"
+
+[TASK 455 | hard]
+
+[005.1] — (no code: non-substantive/filler)
+[005.2] PROCESS: Orienting to task figure | IV: "wird mir ein Kreis gezeigt mit einem Winkel x und dann Radius R"
+[005.3] PROCESS: Identifying task goal | IV: "wird gefragt, was die Länge des Kreisabschnittes ist"
+[005.4] PROCESS: Identifying given information | IV: "ich habe den Winkel und ich habe den Radius"
+[005.5] PROCESS: Planning solution approach | IV: "ich könnte erstmal theoretisch ... den Umfang ... berechnen"
+[005.6] PROCESS: Expressing uncertainty about formula | IV: "Mit dem Radius. Was war das?"
+[005.7] PROCESS: Asking permission to consult chatbot | IV: "Soll ich hier schon den Chatbot benutzen?"
+
+[007.1] PROCESS: Formulating query to chatbot | IV: "was ist die Formel, um den Kreisumfang zu berechnen, wenn r gegeben ist?"
+
+[008.1] PROCESS: Querying chatbot for formula | IV: "Was ist die Formel um den Kreis umfang zu berechnen wenn r gegeben ist?"
+
+[009.1] PROCESS: Navigating chatbot interface | IV: "Welche soll ich nehmen?"
+
+[011.1] PROCESS: Clarifying task procedure with researcher | IV: "wenn ich neue Aufgabe habe, da halte ich es direkt rein"
+
+[014.1a] PROCESS: Confirming formula from response | IV: "das war 2PiR, damit weißt du den Umfang"
+[014.1b] PROCESS: Calculating result from formula | IV: "Wenn R 18 ist, dann habe ich 36Pi"
+[014.2] PROCESS: Planning next calculation step | IV: "wenn der Winkel 32 Grad ist, würde ich das so rechnen"
+[014.3a] PROCESS: Setting up calculation | IV: "Das ist dann 360 geteilt durch 32"
+[014.3b] PROCESS: Using calculator tool | IV: "Das würde ich in der Taschenrechner ... eintippen"
+[014.4] PROCESS: Questioning own calculation | IV: "Moment was habe ich hier gerechnet"
+[014.5] PROCESS: Correcting calculation approach | IV: "Ich muss andersrum rechnen"
+[014.6] PROCESS: Reflecting on calculator use | IV: "Hätte ich jetzt nicht in den Taschenrechner eintippen müssen"
+[014.7] PROCESS: Skipping intermediate steps | IV: "keine Lust drauf [Zwischenrechnungen zu machen]"
+[014.8] PROCESS: Committing to answer | IV: "die würde ich auch so auswählen"
+
+[TASK 478 | medium]
+
+[014.9] — (no code: non-substantive/filler)
+[014.10] PROCESS: Orienting to task figure | IV: "In der Abbildung gezeigt haben die Dinger von neuen Diamanten ABCD"
+[014.11a] PROCESS: Identifying given information | IV: "Ich kenne die Dänge zwischen AC und zwischen BD"
+[014.11b] PROCESS: Identifying task goal | IV: "jetzt muss ich die Kantenlänge praktisch wieder berechnen"
+[014.12] PROCESS: Assuming geometric property from figure | IV: "davon ausgeben, dass alles perfekt winklig ist"
+[014.13] PROCESS: Selecting solution method | IV: "den Satz des Pythagoras benutzen"
+[014.14] PROCESS: Performing calculation | IV: "AC wären 6 für eine der Seiten, 8 für die anderen"
+[014.15a] PROCESS: Questioning recall of formula | IV: "Was war nochmal der Satz des Pythagoras?"
+[014.15b] PROCESS: Recalling formula (possibly incorrect) | IV: "Das war die Wurzel aus 6 und 8"
+[014.16] PROCESS: Recalling Pythagorean theorem | IV: "das ist das Grundsatz des Pythagoras, wo die lange Seite ist"
+[014.17] PROCESS: Performing calculation | IV: "6 ins Quadrat mal 8 zum Quadrat"
+[014.18a] PROCESS: Requesting to view answer options | IV: "Kann ich mir das anzeigen?"
+[014.18b] PROCESS: Noticing calculation-result mismatch | IV: "geht irgendwas nicht auf, weil keine der Option richtig ist"
+[014.19] PROCESS: Questioning own assumption | IV: "Vielleicht war meine Annahme falsch, dass die Sachen rechtwinklig sind"
+[014.20] PROCESS: Re-examining diagram values | IV: "ist das 6 und das 8"
+[014.21] PROCESS: Deciding to consult chatbot | IV: "Ich frage mal kurz einmal den Chatbot"
+[014.22] PROCESS: Formulating query to chatbot | IV: "Ich berechne die Kantenlänge von einem Diamanten, wenn die Strecken zwischen den Punkten liegen"
+[014.23] PROCESS: Requesting to view task image | IV: "Kann ich das Bild nochmal anschauen?"
+
+[016.1] PROCESS: Attempting to access task image | IV: "das müsste ich runterladen kurz"
+
+[018.1] PROCESS: Acknowledging interface clarification | IV: "Ah, ok, jetzt verstehe ich"
+
+[020.1a] PROCESS: Questioning file selection relevance | IV: "Das ist eigentlich egal, welches ich nehme?"
+[020.1b] PROCESS: Understanding task number reference | IV: "jetzt verstehe ich, welche Aufgabennummer du meinst"
+
+[021.1] PROCESS: Querying chatbot for solution method | IV: "Wie berechne ich die kanten länge von einem Diamanten wenn die strecken zwischen den punkten gegenüber bekannt sind?"
+
+[023.1a] PROCESS: Confirming solution method from response | IV: "Also doch Pythagoras"
+[023.1b] PROCESS: Expressing uncertainty about next step | IV: "Was mache ich denn?"
+[023.2] PROCESS: Validating viability of chatbot's suggested approach | IV: "Kann ich das?"
+[023.3] PROCESS: Evaluating response's assumption | IV: "geht er ja aber davon aus, dass die beiden gleich sind"
+[023.4] PROCESS: Restating response's reasoning | IV: "Die Diagonal des rechtwinkligen Dreiecks"
+[023.5] PROCESS: Understanding response's reasoning | IV: "Ah, ich verstehe. Wenn das die Diagonal ist, kann ich es andersherum rechnen"
+[023.6] PROCESS: Questioning triangle's right-angle assumption | IV: "wissen wir, ob das Dreieck rechtwinklig ist?"
+[023.7] PROCESS: Reasoning about geometric property | IV: "Wenn die ja nicht gleich lang sind, ist das nicht rechtwinklig"
+[023.8] PROCESS: Formulating counterpoint to chatbot | IV: "Die Strecke zwischen A und C und B und D sind aber nicht gleich"
+
+[024.1] PROCESS: Correcting chatbot's assumption | IV: "Die Strecke zwischen A und C un d B und D sind aber nicht gleich lang"
+
+[026.1] PROCESS: Evaluating own reasoning against response | IV: "meine Idee sogar richtig, aber ich habe einen Denkfehler gehabt"
+[026.2] PROCESS: Referencing response's suggestion | IV: "wie wird auch hier vorgeschlagen?"
+[026.3] PROCESS: Suspecting own error | IV: "einfach noch hier einen Denkfehler gehabt"
+[026.4a] PROCESS: Self-criticizing | IV: "Vielleicht bin ich einfach nur dämlich"
+[026.4b] PROCESS: Calculating half-diagonal length | IV: "Ich hatte jetzt nochmal praktisch A und C halbiert"
+[026.5] PROCESS: Calculating half-diagonal length | IV: "Das sind 6, weil A und C = 12 ist"
+[026.6] PROCESS: Calculating half-diagonal length | IV: "Das Gleiche mache ich auch für B und D ... es sind 8"
+[026.7] PROCESS: Applying Pythagorean theorem | IV: "der Satz des Pythagoras immer noch praktisch, die Quadrate von beiden"
+[026.8] PROCESS: Explaining calculation logic | IV: "so kriege ich die Hypotenusenlänge hin"
+[026.9] PROCESS: Checking calculation output | IV: "kommt bei mir jetzt, wenn ich das hier mache"
+[026.10] PROCESS: Recognizing calculation error | IV: "Irgendwas mache ich falsch"
+[026.11] PROCESS: Suspecting own error | IV: "ein großer Denkfehler bei mir"
+[026.12] PROCESS: Performing calculation | IV: "Mal 8 zum Quadrat sind 2000"
+[026.13] PROCESS: Redoing calculation | IV: "ich rechne das nochmal ganz normal durch"
+[026.14] PROCESS: Performing calculation | IV: "Wurzel aus 2304 rechne, kommt bei mir 48 raus"
+[026.15] PROCESS: Recognizing calculation error | IV: "Irgendwas rechne ich hier ganz falsch"
+[026.16] PROCESS: Identifying source of error | IV: "das Pythagoras falsch in Erinnerung hatte"
+[026.17] PROCESS: Identifying arithmetic mistake | IV: "mal gerechnet und nicht plus gerechnet"
+[026.18] PROCESS: Recalculating with corrected formula | IV: "Jetzt habe ich wieder plus 8 zum Quadrat sind 100"
+[026.19a] PROCESS: Confirming final answer | IV: "Es geht 10"
+[026.19b] PROCESS: Reflecting on time taken | IV: "Es hat ein bisschen zu lang gedauert"

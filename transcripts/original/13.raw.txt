@@ -57,7 +57,7 @@ Proband:
     Das heißt, ich kann die 36 theoretisch mal, ich werde das einfach direkt verrechnen, keine Lust drauf [Zwischenrechnungen zu machen].
     36, dadurch habe ich 16/5 Pi und die würde ich auch so auswählen.
 [Proband wechselt zur nächsten Aufgabe]
-    Perfekt. Ich mache mal zu Sicherheit, da war schon mal direkt der nächste Tab auf.
+    Perfekt. Ich mache mal zu Sicherheit einfach schonmal direkt den nächste Tab auf.
     In der Abbildung gezeigt haben die Dinger von neuen Diamanten ABCD.
     Ich kenne die Dänge zwischen AC und zwischen BD und jetzt muss ich die Kantenlänge praktisch wieder berechnen.
     Das heißt, wenn ich weiß, dass die Strecke zwischen AC = 12 ist und zwischen BD = 16 davon ausgeben, dass alles perfekt winklig ist, wie es da auf dem Bild aussieht,
@@ -88,7 +88,7 @@ Wissenschaftler:
     Die sind einfach gleich benannt.
 [Proband öffnet file upload in LM Studio, sucht die Aufgabennummer und sieht mehrere files mit dem gleichen Namen]
 Proband:
-    Das ist eigentlich egal, welches ich nehme? Ah ja, jetzt verstehe ich, warum die Aufgabennummer 1 sind. Ok, perfekt.
+    Das ist eigentlich egal, welches ich nehme? Ah ja, jetzt verstehe ich, welche Aufgabennummer du meinst. Ok, perfekt.
 Proband (schriftlich):
     Wie berechne ich die kanten länge von einem Diamanten wenn die strecken zwischen den punkten gegenüber bekannt sind?
 LLM:
@@ -114,14 +114,14 @@ Proband:
     Weil, wie wird auch hier vorgeschlagen?
     Habe ich vielleicht einfach noch hier einen Denkfehler gehabt, weil...
     Ok, nochmal. Vielleicht bin ich einfach nur dämlich. Ich hatte jetzt nochmal praktisch A und C halbiert.
-    Das sind 6, weil A und C = 12 ist, um eine Kantenlänge von einem der rechten Dreiecke zu bekommen.
+    Das sind 6, weil A und C = 12 ist, um eine Kantenlänge von einem der rechtwinkligen Dreiecke zu bekommen.
     Das Gleiche mache ich auch für B und D. Das heißt, es sind 8.
     Und eigentlich wäre der Satz des Pythagoras immer noch praktisch, die Quadrate von beiden mal zunehmen.
     Und so kriege ich die Hypotenusenlänge hin. Also das Quadrat von der Hypotenuse, was ich gerade schon gerechnet habe.
 [Proband gibt Rechnung erneut in den Taschenrechner ein]
     Genau. Und dann kommt bei mir jetzt, wenn ich das hier mache...
-    Irgendwas mache ich falsch. Irgendwas ist ein großer Denkfehler bei mir.
-    Hier ist die andere.
+    Irgendwas mache ich falsch.
+    Irgendwas ist ein großer Denkfehler bei mir.
     Dann mache ich mir das nochmal etwas komplizierter. Mal 8 zum Quadrat sind 2000. Und davon die Wurzel...
     Ok, ich rechne das nochmal ganz normal durch. Ich mache 6 zum Quadrat, mal 8 zum Quadrat, das sind 2304.
     Und wenn ich die Wurzel aus 2304 rechne, kommt bei mir 48 raus.
