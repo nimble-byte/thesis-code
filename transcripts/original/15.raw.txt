@@ -90,7 +90,7 @@ Proband:
     Ich hatte gerade ein bisschen die Erkenntnis, der Punkt zwischen A und B ist ja 8.
     Und dadurch, dass der Mittelpunkt quasi in der Mitte ist, könnte man eigentlich die Linie AB durch 2 teilen.
     Dann wäre man genau in der Hälfte.
-    Und dadurch könnte man weiter fragen, komm zum Punkt 0.
+    Und dadurch könnte man weiter vorankommen zum Punkt 0.
     Die Frage, die mir entsteht ist, wie kommt man nun von der Hälfte aus nach oben zum Mittelpunkt?
     Ich werde den Chatbot fragen, wie man von der Hälfte einer Linie zum Mittelpunkt gelangen könnte.
 [Proband schreibt eine Nachricht]
@@ -112,7 +112,7 @@ Proband:
 [Proband beginnt eine Zeichnung zu machen]
     Ich muss von der Hälfte aus, also von 4, das wäre quasi der Punkt C für mich jetzt, ich muss dann quasi zum Mittelpunkt gehen.
     So, der Radius ist 5, also 2,5.
-    Diese, wenn ich jetzt nicht richtig verstehe.
+    Diese... Wenn ich das jetzt richtig verstehe.
     Nee, Quatsch, der Radius ist 5, ich muss nicht die Hälfte.
     Da habe ich mich gerade verwechselt, nicht der Durchmiss, sondern der Radius ist 5.
     Ich muss halt diesen Abstand bekommen zwischen dieser Sehne und dem Mittelpunkt.

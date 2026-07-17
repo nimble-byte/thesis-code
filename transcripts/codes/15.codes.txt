@@ -1,0 +1,191 @@
+---
+PARTICIPANT: 15
+UUID: de51720a-9929-4aa5-8d89-065b3c052f4c
+GROUP: E
+CODING: First cycle; Process + In Vivo Coding (Saldaña)
+SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
+---
+
+[TASK 505 | HARD]
+
+[002.1] PROCESS: Orienting to task figure | IV: "ich habe hier nun eine Abbildung"
+[002.2] PROCESS: Describing given figure | IV: "kreisförmige Form"
+[002.3] PROCESS: Describing given figure | IV: "eine Linie, die zwischen zwei Punkten ist, A und B"
+[002.4] PROCESS: Describing given figure | IV: "verbunden mit dem Mittelpunkt"
+[002.5] PROCESS: Extracting given value | IV: "der Radius allgemein beträgt 5"
+[002.6] PROCESS: Extracting given value | IV: "die Linie zwischen A und B ist 8"
+[002.7] PROCESS: Restating task question | IV: "wie groß ist die Distanz von der Mitte des Kreises zu Linie A und B"
+[002.8] PROCESS: Externalizing information via note-taking | IV: "ich schreibe mir mal erst mal auf, weil das mir ein bisschen hilft"
+[002.9] PROCESS: Recording given value (note-taking) | IV: "gegeben ist der Kreis hat einen Radius"
+[002.10] PROCESS: Recording given value (note-taking) | IV: "Der Kreis hat einen Radius von 5"
+[002.11] PROCESS: Assigning variable notation | IV: "5 ist der r"
+[002.12] PROCESS: Recording given value (note-taking) | IV: "die Linie AB ist 8"
+[002.13] PROCESS: Restating task question | IV: "Wie groß ist die Distanz von der Mitte des Kreises zu Linie AB"
+[002.14] — (no code: non-substantive/filler)
+[002.15] PROCESS: Recalling candidate formula | IV: "man weiß ungefähr die Fläche auszurichten"
+[002.16] PROCESS: Recalling formula with self-doubt | IV: "r² mal Pi, wenn ich mich nicht recht täusche"
+[002.17] PROCESS: Deciding to consult chatbot | IV: "Ich würde den Chatbot einmal dies fragen"
+[002.18] PROCESS: Formulating question for chatbot | IV: "wie die Formel ist"
+
+[003.1] PROCESS: Requesting formula from chatbot | IV: "wie lautet die mathematische Formel für einen Kreis"
+
+[005.1] PROCESS: Paraphrasing chatbot's response | IV: "Der Chatbot fragt mich, welche Formel ich nehmen würde"
+
+[006.1] PROCESS: Specifying requested formula | IV: "Den Umfang"
+
+[008.1] PROCESS: Paraphrasing chatbot's response | IV: "ob ich noch weiß, wie man den Umfang berechnet"
+[008.2] PROCESS: Paraphrasing chatbot's response (cont.) | IV: "nutzt"
+[008.3] PROCESS: Expressing knowledge gap | IV: "Leider weiß ich das nicht mehr"
+[008.4] PROCESS: Expressing uncertainty | IV: "unschlüsselig, also ein bisschen überfragt oder unsicher"
+[008.5] PROCESS: Deciding on response to chatbot | IV: "Ich würde mit Nein behaupten"
+
+[009.1] PROCESS: Answering chatbot in the negative | IV: "nein"
+
+[011.1] — (no code: non-substantive/filler)
+[011.2] PROCESS: Paraphrasing chatbot's response | IV: "was das Verhältnis vom Umfang zu Durchmesser ist"
+[011.3] PROCESS: Paraphrasing chatbot's response (cont.) | IV: "Es gibt eine Zahl die das Verhältnis beschreibt"
+[011.4] PROCESS: Recalling candidate answer (incorrect) | IV: "Das müsste doch der Radius sein"
+[011.5] PROCESS: Reaffirming initial guess [FLAGGED — see note] | IV: "der Radius müsste sein"
+[011.6] PROCESS: Correcting recalled answer | IV: "Pi"
+[011.7] PROCESS: Confirming final answer | IV: "Pi ist die Antwort"
+
+[012.1] PROCESS: Submitting answer to chatbot | IV: "pi"
+
+[014.1] — (no code: unintelligible)
+[014.2] — (no code: non-substantive/filler)
+[014.3] PROCESS: Recalling diameter concept | IV: "Der Durchmesser ist ja okay"
+[014.4] PROCESS: Deriving circumference formula | IV: "der Umfang war"
+[014.5] PROCESS: Deriving circumference formula (cont.) | IV: "r mal 2"
+[014.6] PROCESS: Completing derived formula | IV: "mal Pi"
+[014.7] PROCESS: Attributing insight to chatbot guidance | IV: "der Chatbot mir einen auf einen gewissen Hinweis geführt hat"
+[014.8] PROCESS: Recalling diameter-radius relationship | IV: "der Durchmesser das Doppel so groß ist wie der Radius"
+[014.9] PROCESS: Confirming derived formula | IV: "r mal 2 mal Pi wäre der Umfang"
+[014.10] PROCESS: Deciding to ask chatbot a new question | IV: "Ich würde jetzt fragen"
+[014.11] PROCESS: Formulating question for chatbot | IV: "wie man genau zwischen zwei Punkten die Linie ausreicht kann innerhalb eines Kreises"
+
+[015.1] PROCESS: Requesting method from chatbot | IV: "Wie kann man eine Linie berechnen die parallel durch den Kreis verläuft"
+
+[017.1] — (no code: unintelligible)
+[017.2] PROCESS: Signaling cognitive pause | IV: "Ich muss gerade ein bisschen überlegen"
+[017.3] PROCESS: Recalling given value | IV: "der Punkt zwischen A und B ist ja 8"
+[017.4] PROCESS: Reasoning toward halving the chord | IV: "die Linie AB durch 2 teilen"
+[017.5] PROCESS: Concluding midpoint value | IV: "genau in der Hälfte"
+[017.6] PROCESS: Extending reasoning toward circle center | IV: "weiter vorankommen zum Punkt 0"
+[017.7] PROCESS: Formulating own sub-question | IV: "wie kommt man nun von der Hälfte aus nach oben zum Mittelpunkt"
+[017.8] PROCESS: Deciding to consult chatbot | IV: "wie man von der Hälfte einer Linie zum Mittelpunkt gelangen könnte"
+
+[018.1] PROCESS: Requesting method from chatbot | IV: "wie kann man den Abstand berechnen zwischen den mittelpunkt und die genaue hälfte einer Sehne"
+
+[020.1] PROCESS: Paraphrasing chatbot's response | IV: "ob ich den Anstand weiß zu bestimmen"
+[020.2] PROCESS: Signaling cognitive pause | IV: "Ich überlege gerade"
+
+[022.1] PROCESS: Reasoning about given figure | IV: "es ist nur eine Linie zwischen A und B"
+[022.2] PROCESS: Constructing auxiliary point in reasoning | IV: "das wäre quasi der Punkt C für mich jetzt"
+[022.3] PROCESS: Miscalculating radius value | IV: "der Radius ist 5, also 2,5"
+[022.4] PROCESS: Checking own understanding | IV: "Wenn ich das jetzt richtig verstehe"
+[022.5] PROCESS: Self-correcting miscalculation | IV: "Nee, Quatsch, der Radius ist 5"
+[022.6] PROCESS: Correcting radius/diameter confusion | IV: "nicht der Durchmiss, sondern der Radius ist 5"
+[022.7] PROCESS: Restating sub-goal | IV: "diesen Abstand bekommen zwischen dieser Sehne und dem Mittelpunkt"
+[022.8] PROCESS: Proposing solution approach | IV: "ich nehme den Radius und berechne dadurch die Differenz"
+[022.9] PROCESS: Formulating question for chatbot | IV: "wie man aus dem Radius eine gewisse Differenz berechnen kann"
+
+[023.1] PROCESS: Requesting method from chatbot | IV: "wie kann man eine differenz berechnen"
+
+[025.1] PROCESS: Paraphrasing chatbot's response | IV: "ich möchte genau diese Differenz wissen"
+[025.2] PROCESS: Clarifying own question in response to chatbot | IV: "ich genau den senkrechten Abstand mehr haben möchte"
+
+[026.1] PROCESS: Clarifying question for chatbot | IV: "senkrechten Abstand vom Mittelpunkt bis zur sehne"
+
+[028.1] PROCESS: Paraphrasing chatbot's response | IV: "Du siehst eine Linie vom Mittelpunkt des Kreises, diese Linie teilt die Sehne"
+[028.2] PROCESS: Confirming alignment with own prior reasoning | IV: "Das ist genau der Gedanke, den ich auch hatte"
+[028.3] PROCESS: Paraphrasing chatbot's response (cont.) | IV: "ich hätte quasi ein rechtwinkliges Dreieck"
+[028.4] PROCESS: Mapping given value onto triangle side | IV: "der Radius 5, das ist quasi die Hypotenuse"
+[028.5] PROCESS: Mapping given value onto triangle side | IV: "Die Hälfte der Sehne liegt bei 4"
+[028.6] PROCESS: Recalling Pythagorean theorem | IV: "A² plus B², vielleicht C²"
+[028.7] PROCESS: Deciding to ask chatbot for clarification | IV: "welche der Variablen war, welche Seite war die Hypotenuse"
+
+[029.1] PROCESS: Requesting clarification from chatbot | IV: "welche variablen ... waren für welchen buchstaben im satz des Pythagoras"
+
+[031.1] PROCESS: Paraphrasing chatbot's response | IV: "die Hypotenuse und die beiden Katheten"
+[031.2] PROCESS: Recording mapped value with uncertainty | IV: "die Sehnenlänge 4, das ist die Kathete"
+[031.3] PROCESS: Noticing inconsistency in own reasoning | IV: "das irgendwie keinen Sinn macht"
+[031.4] PROCESS: Attributing confusion to own unclear phrasing | IV: "Die eine Seite vom Mittelpunkt zu B oder zu A kann nicht 5 sein"
+[031.5] PROCESS: Identifying source of confusion | IV: "Die 5 wäre ja natürlich der Radius"
+[031.6] PROCESS: Signaling cognitive pause | IV: "Ich muss gerade noch ein bisschen nachdenken"
+[031.7] PROCESS: Deciding to share image with chatbot | IV: "das Bild einzufügen"
+[031.8] PROCESS: Checking image-upload availability | IV: "Sind die Bilder schon drin?"
+
+[033.1] PROCESS: Deciding to correct chatbot's assumption | IV: "die Hypotenuse nicht 5 sein kann"
+[033.2] PROCESS: Deciding to ask chatbot for clarification | IV: "wie er mir die Buchstaben und die Linien jeweils bestimmen kann"
+[033.3] PROCESS: Restating intended request to chatbot | IV: "dass er mir die Buchstaben bestimmen kann"
+
+[034.1] PROCESS: Requesting help identifying triangle sides | IV: "die jeweiligen linien zu bestimmen, um das dreieck genau zu bestimmen"
+
+[036.1] PROCESS: Paraphrasing chatbot's response | IV: "der Satz des Pythagoras, das habe ich schon aufgeschrieben"
+[036.2] PROCESS: Paraphrasing chatbot's response (cont.) | IV: "wie ich mir die ganzen Variablen definieren kann"
+[036.3] PROCESS: Setting up Pythagorean equation | IV: "Die Hälfte der Sehne, das wäre dann 4²"
+[036.4] PROCESS: Setting up Pythagorean equation (cont.) | IV: "4² plus b² auf der einen Seite ... und 5² auf der anderen Seite"
+[036.5] PROCESS: Solving equation (erroneous) | IV: "Macht aber auch so auch keinen Sinn"
+[036.6] PROCESS: Recognizing calculation error against answer options | IV: "Er steht auch nicht in den Möglichkeiten"
+[036.7] PROCESS: Deciding to re-explain to chatbot | IV: "Ich werde den Chatbot nochmal erklären"
+
+[038.1] PROCESS: Agreeing to researcher's suggestion | IV: "Ja, ich glaube, das werde ich auch tun"
+
+[040.1] PROCESS: Reassessing variable assignment | IV: "von den Variablen macht das ja auch keinen Sinn"
+[040.2] PROCESS: Recomputing squares step by step | IV: "die Quadrate auszulösen von jeder Zahl"
+[040.3] PROCESS: Recomputing Pythagorean equation | IV: "16 plus b². Gleich 25²"
+[040.4] PROCESS: Identifying calculation error | IV: "Jetzt erkenne ich meinen Fehler"
+[040.5] PROCESS: Solving corrected equation | IV: "Dann sind wir bei 3"
+[040.6] PROCESS: Confirming answer matches options | IV: "Das gibt es als Beantwortungsmöglichkeit"
+
+[TASK 54 | HARD]
+
+[042.1] PROCESS: Orienting to new task figure | IV: "Es gibt einen Abschluss zwischen a und b und dann zwischen b und c"
+[042.2] PROCESS: Describing figure | IV: "Beide sind unterschiedlich lang"
+[042.3] PROCESS: Restating task question and given ratio | IV: "ein Verhältnis ... zu a und c ist 2 durch 5"
+[042.4] PROCESS: Externalizing information via note-taking | IV: "ich schreibe mir das erstmal nochmal alles auf"
+[042.5] PROCESS: Recording given ratio | IV: "AB zu AC ist 2 durch 5"
+[042.6] PROCESS: Converting ratio to fraction | IV: "wäre das dann 2/5"
+[042.7] PROCESS: Restating sub-question | IV: "wie lang ist es dann von a zu c"
+[042.8] PROCESS: Restating sub-goal | IV: "Wir suchen jetzt den Abstand aber zwischen a und b"
+[042.9] PROCESS: Attempting and rejecting incorrect approach | IV: "Das macht aber keinen Sinn"
+[042.10] PROCESS: Deciding to consult chatbot with image | IV: "wie kann man eine Längenverhältnisse ausrechnen, wenn man eine gesamte Länge hat"
+[042.11] PROCESS: Formulating question for chatbot | IV: "Wie kann man quasi einen Abstand zwischen zwei Punkte von drei ausrechnen"
+
+[043.1] PROCESS: Requesting method from chatbot | IV: "wie bekomme ich die länge heraus"
+
+[045.1] PROCESS: Paraphrasing chatbot's response and answering | IV: "ob ich weiß, wie man das Verhältnis verrechnen kann"
+
+[046.1] PROCESS: Answering chatbot in the negative | IV: "nein"
+
+[048.1] PROCESS: Qualifying own knowledge in response to chatbot | IV: "das kommt nur auf den Kontext an"
+
+[049.1] PROCESS: Giving qualified answer to chatbot | IV: "kommt drauf an"
+
+[051.1] — (no code: non-substantive/filler)
+[051.2] PROCESS: Confirming understanding and recording fractions | IV: "Wir haben jetzt zwei Brüche"
+[051.3] PROCESS: Setting up equation to solve for AB | IV: "Ich müsste nur versuchen, auf AB zu kommen"
+[051.4] PROCESS: Planning algebraic manipulation | IV: "mit 25 zu multiplizieren, sodass quasi AB allein steht"
+[051.5] PROCESS: Calculating answer using calculator | IV: "Ich multipliziere nun 2,5 mit 25"
+
+[TASK 669 | MEDIUM]
+
+[051.6] PROCESS: Orienting to new task | IV: "Wir haben nun diesmal vier Längen"
+[051.7] PROCESS: Recording given values | IV: "Die Gesamtlänge AB ist 10. M ist quasi die Mitte der Linie AB"
+[051.8] PROCESS: Calculating midpoint segment | IV: "Also müsste das 5 sein"
+[051.9] PROCESS: Re-reading and clarifying task description | IV: "C ist die Mitte des Abstandes zu MB"
+[051.10] PROCESS: Calculating segment length | IV: "dann ist C also 2,5"
+[051.11] PROCESS: Recording given value | IV: "N ist ein Punkt auf der Linie A und M. Und MN ist 1"
+[051.12] PROCESS: Restating task question | IV: "wie kommt man auf die Länge N und C"
+[051.13] PROCESS: Consolidating known segment lengths | IV: "B zu C ist 2,5"
+[051.14] PROCESS: Planning to compute segment via subtraction | IV: "eine Differenz rauszurechnen"
+[051.15] PROCESS: Correcting segment length estimate | IV: "sie ist 2,5. Oder nein, sie ist 5"
+[051.16] PROCESS: Recording segment value | IV: "Innerhalb dieser Linie ist C. Das ist 2,5"
+[051.17] PROCESS: Summing known segments | IV: "Zwischen C und M sind 2,5. Und dann nochmal 2,5"
+[051.18] PROCESS: Computing final answer via summation | IV: "Das müssen dann 3,5 sein"
+[051.19] PROCESS: Confirming answer matches options | IV: "Das steht auch hier als Auswahl"
+
+---
+MEMO FOR LATER CHAPTERS (not acted on in this coding pass):
+- Cognitive-pause statements ("Ich überlege gerade" / "Ich muss gerade... überlegen") retained as coded per your call. Your reading — that these mark moments of being stuck and filling silence rather than neutral discourse management — is a plausible interpretive angle worth carrying into second-order theme construction; noting it here so it isn't lost before that stage.
+- The recurring "paraphrasing chatbot's response" pattern (reading the chatbot's output back aloud before acting on it) looks like a general human–chatbot interaction habit rather than a ToM-attribution-specific behavior. You flagged this as Discussion-chapter material rather than a Ch.6 finding — noted, no coding change made.
