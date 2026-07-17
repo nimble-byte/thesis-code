@@ -13,7 +13,7 @@ LLM:
     Klar, ich helfe dir gerne weiter! Kannst du mir bitte mehr Informationen geben? Was genau möchtest du über diesen Kreis wissen oder welche Aufgabe soll gelöst werden?
 [Proband liest Antwort]
 Proband:
-    Okay, hat erstmal gecheckt, dass ich das. Okay, was brauche ich dafür? Jetzt muss ich mal nachdenken.
+    Okay, hat erstmal gecheckt, dass ich das... Okay, was brauche ich dafür? Jetzt muss ich mal nachdenken.
     Das ist eine schwierige Aufgabe auf den ersten Blick.
     Okay, was kann ich denn fragen? Wie kann ich das lösen?
     Erstmal für mich irgendwie einen Weg überlegen, der gehen könnte und dann kriege ich das auch

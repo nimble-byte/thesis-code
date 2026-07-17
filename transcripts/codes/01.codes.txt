@@ -15,7 +15,7 @@ SCOPE: SPOKEN/WRITTENN channel only (omit RESEARCHER + LLM)
 [001.6] PROCESS: Announcing image upload to chatbot | IV: "ich füge als erstes mal hier das Bild ein"
 [001.7] PROCESS: Framing image as baseline context for chatbot | IV: "als Grundvoraussetzung dieses Bildchen"
 
-[003.1a] FLAG (unresolvable — ambiguous phrasing, likely think-aloud dropout): PROCESS: Acknowledging chatbot's response (referent unclear) | IV: "hat erstmal gecheckt, dass ich das"
+[003.1a] PROCESS: Acknowledging chatbot's response (incomplete) | IV: "hat erstmal gecheckt, dass ich das..."
 [003.1b] PROCESS: Initiating self-questioning about requirements | IV: "was brauche ich dafür"
 [003.2] PROCESS: Appraising task difficulty | IV: "eine schwierige Aufgabe auf den ersten Blick"
 [003.3] PROCESS: Formulating solution/question strategy | IV: "was kann ich denn fragen? Wie kann ich das lösen?"
