@@ -1,9 +1,9 @@
 canonical_label,frequency,n_participants,group_coverage
 Reading LLM response aloud,42,5,E:17 / B:25
 Performing calculation,17,3,E:11 / B:6
+Paraphrasing chatbot's response,12,1,E:12 / B:0
 Reading task statement aloud,12,3,E:4 / B:8
 Deciding to consult LLM,8,6,E:6 / B:2
-Paraphrasing chatbot's response,8,1,E:8 / B:0
 Reading chatbot's follow-up question,8,1,E:8 / B:0
 Reading LLM reasoning trace aloud,7,2,E:7 / B:0
 Restating problem question,7,2,E:7 / B:0
@@ -13,7 +13,6 @@ Restating task question,6,3,E:3 / B:3
 Identifying given information,5,2,E:2 / B:3
 Identifying task goal,4,2,E:1 / B:3
 Orienting to task figure,4,2,E:1 / B:3
-Paraphrasing chatbot's response (cont.),4,1,E:4 / B:0
 Requesting method from chatbot,4,1,E:4 / B:0
 restating task definition,4,1,E:0 / B:4
 Applying Pythagorean theorem,3,3,E:2 / B:1
@@ -49,6 +48,7 @@ Deciding to correct chatbot's assumption,2,2,E:2 / B:0
 Deciding to redo calculation more precisely,2,1,E:2 / B:0
 Deciding to verify calculation with chatbot,2,1,E:2 / B:0
 Deciding to verify recalled formula with chatbot,2,1,E:2 / B:0
+Deriving circumference formula,2,1,E:2 / B:0
 Deriving half-chord length,2,2,E:1 / B:1
 Deriving simplified equation,2,1,E:2 / B:0
 Dictating given values for LLM,2,1,E:2 / B:0
@@ -80,6 +80,7 @@ Reporting need for reading glasses,2,1,E:2 / B:0
 Requesting solution approach from LLM,2,2,E:1 / B:1
 Restating given ratio,2,2,E:1 / B:1
 Restating sub-goal,2,1,E:2 / B:0
+Setting up Pythagorean equation,2,1,E:2 / B:0
 Stating intermediate calculation result,2,1,E:2 / B:0
 Stating problem givens,2,1,E:2 / B:0
 Submitting simplified equation to chatbot,2,1,E:2 / B:0
@@ -218,7 +219,7 @@ Composing explanation of right angles,1,1,E:1 / B:0
 Composing explanation of triangle division,1,1,E:1 / B:0
 Composing variable definition for target,1,1,E:1 / B:0
 Composing variable definitions,1,1,E:1 / B:0
-Computing 6² and planning subtraction of 27,1,1,E:1 / B:0
+Computing 6^2 and planning subtraction of 27,1,1,E:1 / B:0
 Computing angle in degrees,1,1,E:1 / B:0
 Computing bounds for a using formula,1,1,E:1 / B:0
 Computing decimal equivalent of answer option,1,1,E:0 / B:1
@@ -354,8 +355,6 @@ Delegating equation-solving task to LLM,1,1,E:0 / B:1
 Deriving Final Angle via Bisection Reasoning,1,1,E:0 / B:1
 Deriving angle value from clarification,1,1,E:0 / B:1
 Deriving bound for x,1,1,E:1 / B:0
-Deriving circumference formula,1,1,E:1 / B:0
-Deriving circumference formula (cont.),1,1,E:1 / B:0
 Deriving diameter length independently,1,1,E:0 / B:1
 Deriving expression for a in terms of b,1,1,E:1 / B:0
 Deriving fractional relationship between segments,1,1,E:1 / B:0
@@ -632,7 +631,7 @@ Planning ratio-based calculation,1,1,E:1 / B:0
 Planning solution approach,1,1,E:0 / B:1
 Planning substitution into equation,1,1,E:1 / B:0
 Planning to apply Pythagorean theorem,1,1,E:1 / B:0
-Planning to cancel shared x² term,1,1,E:1 / B:0
+Planning to cancel shared x^2 term,1,1,E:1 / B:0
 Planning to compute numeric powers,1,1,E:1 / B:0
 Planning to compute segment via subtraction,1,1,E:1 / B:0
 Planning to derive analogous constraint for a,1,1,E:1 / B:0
@@ -772,7 +771,7 @@ Recognizing applicable method,1,1,E:1 / B:0
 Recognizing applicable rule-of-three method,1,1,E:1 / B:0
 Recognizing calculation error against answer options,1,1,E:1 / B:0
 Recognizing calculation inconsistency,1,1,E:1 / B:0
-Recognizing cancellation of CP² term across equations,1,1,E:0 / B:1
+Recognizing cancellation of CP^2 term across equations,1,1,E:0 / B:1
 Recognizing diagram setup,1,1,E:1 / B:0
 Recognizing familiar problem pattern,1,1,E:1 / B:0
 Recognizing handwriting-induced transcription error,1,1,E:1 / B:0
@@ -938,8 +937,6 @@ Self-correcting triangle-count reasoning,1,1,E:0 / B:1
 Self-criticizing,1,1,E:0 / B:1
 Self-verifying own claim,1,1,E:1 / B:0
 Sending clarifying question to LLM,1,1,E:1 / B:0
-Setting up Pythagorean equation,1,1,E:1 / B:0
-Setting up Pythagorean equation (cont.),1,1,E:1 / B:0
 Setting up Pythagorean equation for triangle APC,1,1,E:1 / B:0
 Setting up calculation,1,1,E:0 / B:1
 Setting up equation,1,1,E:1 / B:0

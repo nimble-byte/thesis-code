@@ -193,15 +193,15 @@ id,group,raw_label,canonical_label,in_vivo
 03.023.1,B,Registering LLM's suggested third equation,Registering LLM's suggested third equation,als dritte Gleichung AB = X + Y zu wählen
 03.023.2,B,Announcing closer examination of LLM's suggestion,Announcing closer examination of LLM's suggestion,Schau ich mir mal genauer an
 03.023.3,B,Interpreting LLM's approach of combining triangle equations,Interpreting LLM's approach of combining triangle equations,die beiden eingeteilten Dreiecke... miteinander zu verrechnen
-03.023.4,B,Recognizing cancellation of CP² term across equations,Recognizing cancellation of CP² term across equations,das die halt entfällt
+03.023.4,B,Recognizing cancellation of CP^2 term across equations,Recognizing cancellation of CP^2 term across equations,das die halt entfällt
 03.023.5,B,Deciding to try LLM's suggested equation manipulation,Deciding to try LLM's suggested equation manipulation,würde ich jetzt einfach mal ausprobieren
 03.023.6,B,Transitioning to typing solution in chat,Transitioning to typing solution in chat,kommen wir hier in den Chat
 03.023.7,B,Identifying own construction as a linear equation system,Identifying own construction as a linear equation system,das ist jetzt ein lineares Gleichungssystem
 03.023.8,B,Recognizing need to solve equation system,Recognizing need to solve equation system,Das muss ich jetzt einfach auflösen
 03.023.9,B,Delegating equation-solving task to LLM,Delegating equation-solving task to LLM,wer das schon für mich macht
 03.024.1,B,Requesting LLM to solve constructed equation system,Requesting LLM to solve constructed equation system,löse es mir auf und berechne die lösungen
-03.024.2,B,Providing equation for triangle ACP,Providing equation for triangle ACP,36 = x² + CP²
-03.024.3,B,Providing equation for triangle BCP,Providing equation for triangle BCP,9 = y² + CP²
+03.024.2,B,Providing equation for triangle ACP,Providing equation for triangle ACP,36 = x^2 + CP^2
+03.024.3,B,Providing equation for triangle BCP,Providing equation for triangle BCP,9 = y^2 + CP^2
 03.024.4,B,Providing combined equation relating x and y,Providing combined equation relating x and y,27 = (x-y)(x+y)
 03.026.2,B,Observing LLM's algebraic rearrangement,Observing LLM's algebraic rearrangement,hat er schon einiges umgestellt
 03.026.5a,B,Confirming understanding of LLM's algebraic steps,Confirming understanding of LLM's algebraic steps,Die Schritte habe ich soweit verstanden
@@ -375,7 +375,7 @@ id,group,raw_label,canonical_label,in_vivo
 04.046.4,E,Rejecting incorrect formula recall,Rejecting incorrect formula recall,ich will nicht die Fläche haben
 04.046.5,E,Applying Pythagorean theorem,Applying Pythagorean theorem,Wurzel daraus ziehen sind 10
 04.046.6,E,Deciding to verify result with LLM,Deciding to verify result with LLM,weil wir ja eine schöne KI haben
-04.046.7,E,Dictating calculation to LLM,Dictating calculation to LLM,c² gleich 100 erhalten
+04.046.7,E,Dictating calculation to LLM,Dictating calculation to LLM,c^2 gleich 100 erhalten
 04.046.8,E,Requesting confirmation from LLM,Requesting confirmation from LLM,"sollte passen, aber so falsch sieht es nicht aus"
 04.047.1a,E,Reporting result and method to LLM,Reporting result and method to LLM,Mein Ergebnis ist 10
 04.047.1b,E,Requesting confirmation from LLM,Requesting confirmation from LLM,Stimmt dies?
@@ -503,7 +503,7 @@ id,group,raw_label,canonical_label,in_vivo
 07.002.4,E,Constructing auxiliary triangle,Constructing auxiliary triangle,Radius 5 habe ich ein gleichseitiges Dreieck
 07.002.5,E,Setting up triangle side lengths,Setting up triangle side lengths,mit 5 und 5. Die Hypotenuse ist 8.
 07.002.6,E,Deriving right triangle from bisected chord,Deriving right triangle from bisected chord,die Hälfte von AB ist 4. Damit habe ich ein rechtwinkliges Dreieck
-07.002.7,E,Formulating equation,Formulating equation,x² plus 4² ist gleich 5²
+07.002.7,E,Formulating equation,Formulating equation,x^2 plus 4^2 ist gleich 5^2
 07.002.8,E,Recognizing familiar problem pattern,Recognizing familiar problem pattern,die klassische Geschichte
 07.002.9,E,Stating computed answer,Stating computed answer,ich bin auf x gleich 3
 07.003.1b,E,Questioning solution-validation procedure,Questioning solution-validation procedure,Wie ist das mit der Lösungsvalidierung?
@@ -582,7 +582,7 @@ id,group,raw_label,canonical_label,in_vivo
 08.004.7,E,Deriving half-chord length,Deriving half-chord length,die Hälfte wäre dann hier Länge 4
 08.004.8,E,Applying Pythagorean theorem,Applying Pythagorean theorem,der Satz des Pythagoras
 08.004.9,E,Mapping values onto Pythagorean formula,Mapping values onto Pythagorean formula,"die eine Kante, sagen wir A, ist die 4"
-08.004.10,E,Setting up equation for unknown,Setting up equation for unknown,16 plus X² gleich 25
+08.004.10,E,Setting up equation for unknown,Setting up equation for unknown,16 plus X^2 gleich 25
 08.004.11,E,Solving for unknown and entering answer,Solving for unknown and entering answer,die Wurzel da draus ist dann 3
 08.004.12,E,Inquiring about answer feedback,Inquiring about answer feedback,Kriegt mal gar keiner richtig oder falsch antwort?
 08.008.3,E,Reading task statement,Reading task statement,Wir sehen ein Dreieck. Figure not drawn to scale
@@ -632,17 +632,17 @@ id,group,raw_label,canonical_label,in_vivo
 08.018.6,E,Confirming variable assignment,Confirming variable assignment,AP ist a und PB ist b
 08.018.7,E,Noting right angle at P,Noting right angle at P,bei P einen rechten Winkel
 08.018.8,E,Setting up Pythagorean equation for triangle APC,Setting up Pythagorean equation for triangle APC,"wir kennen die Länge AC, das ist 6"
-08.018.9,E,Completing equation with unknowns,Completing equation with unknowns,X dann zu Quadrat plus entsprechend a²
+08.018.9,E,Completing equation with unknowns,Completing equation with unknowns,X dann zu Quadrat plus entsprechend a^2
 08.018.10,E,Setting up equation for second triangle,Setting up equation for second triangle,den rechten Winkel haben bei dem anderen Dreieck PBC
-08.018.11,E,Writing second Pythagorean equation,Writing second Pythagorean equation,3² gleich X² plus b²
+08.018.11,E,Writing second Pythagorean equation,Writing second Pythagorean equation,3^2 gleich X^2 plus b^2
 08.018.12,E,Evaluating usefulness of rearranging equations,Evaluating usefulness of rearranging equations,ob einem das irgendetwas bringt
-08.018.13,E,Considering eliminating shared term,Considering eliminating shared term,das X² rausrechnen
+08.018.13,E,Considering eliminating shared term,Considering eliminating shared term,das X^2 rausrechnen
 08.018.14,E,Expressing uncertainty about approach's usefulness,Expressing uncertainty about approach's usefulness,ob ... das allzu viel bringt
 08.018.15,E,Attempting to follow chatbot's suggested approach,Attempting to follow chatbot's suggested approach,so wie der Chatbot das ja hier vorschlägt
 08.018.16,E,Seeking expression relating a and b,Seeking expression relating a and b,einen Ausdruck für diese Aufteilung zwischen a und b
-08.018.17,E,Solving equations for x,Solving equations for x,36 minus a² gleich ... 9 minus b²
-08.018.18,E,Rearranging equation algebraically,Rearranging equation algebraically,27 minus a² gleich minus b²
-08.018.19,E,Continuing algebraic rearrangement,Continuing algebraic rearrangement,27 gleich a² minus b²
+08.018.17,E,Solving equations for x,Solving equations for x,36 minus a^2 gleich ... 9 minus b^2
+08.018.18,E,Rearranging equation algebraically,Rearranging equation algebraically,27 minus a^2 gleich minus b^2
+08.018.19,E,Continuing algebraic rearrangement,Continuing algebraic rearrangement,27 gleich a^2 minus b^2
 08.018.20,E,Expressing uncertainty about derived formula,Expressing uncertainty about derived formula,bin ich mir jetzt gerade gar nicht mehr sicher
 08.018.21,E,Re-reading chatbot's question,Re-reading chatbot's question,wie würde es die Länge ... ausdrücken?
 08.018.22,E,Re-reading chatbot's hint,Re-reading chatbot's hint,Denke daran das P zwischen A und B
@@ -661,7 +661,7 @@ id,group,raw_label,canonical_label,in_vivo
 08.018.35,E,Announcing derived formulas,Announcing derived formulas,ergeben sich 2 Formeln
 08.018.36,E,Asking how to notate exponent,Asking how to notate exponent,es wäre hoch einfach mit dem?
 08.020.1,E,Dictating formula for message input,Dictating formula for message input,"6 hoch, 2 gleich, X hoch, a plus 2"
-08.021.1,E,Submitting derived equations to chatbot,Submitting derived equations to chatbot,Dann ergeben sich zwei Fomeln nach 6² = x² + a² und 3² = x² + b²
+08.021.1,E,Submitting derived equations to chatbot,Submitting derived equations to chatbot,Dann ergeben sich zwei Fomeln nach 6^2 = x^2 + a^2 und 3^2 = x^2 + b^2
 08.024.2,E,Noticing chatbot's reasoning process displayed,Noticing chatbot's reasoning process displayed,Die KI hat den Gedankenprozess
 08.024.3,E,Reading chatbot's follow-up question,Reading chatbot's follow-up question,um eine Gleichung mit nur einer Variablen zu erhalten
 08.024.4,E,Predicting elimination of variable,Predicting elimination of variable,da dürfte ja jetzt X wegfallen
@@ -670,70 +670,70 @@ id,group,raw_label,canonical_label,in_vivo
 08.024.7,E,Reading chatbot's reasoning trace,Reading chatbot's reasoning trace,mit Dreieck APC und BPC unterteilt wird
 08.024.8,E,Reading chatbot's reasoning trace,Reading chatbot's reasoning trace,die Variablen a für AP und b für PB und X für PC
 08.024.9,E,Reading chatbot's listed hints,Reading chatbot's listed hints,"Bisherige Hinweise AC gleich 6, BC gleich 3"
-08.024.10,E,Reading chatbot's restated equations,Reading chatbot's restated equations,6² gleich X² plus a² und 3² gleich X² plus b²
+08.024.10,E,Reading chatbot's restated equations,Reading chatbot's restated equations,6^2 gleich X^2 plus a^2 und 3^2 gleich X^2 plus b^2
 08.024.11,E,Reading chatbot's derived relation,Reading chatbot's derived relation,AB ist gleich a plus b
 08.024.12,E,Reading chatbot's stated next-step goal,Reading chatbot's stated next-step goal,müssen wir die Variablen kombinieren
 08.024.13,E,Reading chatbot's suggested method,Reading chatbot's suggested method,die Summe der beiden Gleichungen bilden
 08.024.14,E,Restating planned approach,Restating planned approach,die Summe der beiden Gleichungen bilden
 08.024.15,E,Re-reading chatbot's question,Re-reading chatbot's question,um die Gleichungen mit nur einer Variablen zu erhalten
 08.024.16,E,Planning to rearrange both formulas,Planning to rearrange both formulas,beide Formeln ... umstellen
-08.024.17,E,Rearranging equations to isolate terms,Rearranging equations to isolate terms,das 6² und das 3² auf die andere Seite
+08.024.17,E,Rearranging equations to isolate terms,Rearranging equations to isolate terms,das 6^2 und das 3^2 auf die andere Seite
 08.024.18,E,Predicting equations equal zero,Predicting equations equal zero,auf beiden Seiten 0
 08.024.19,E,Deciding to rearrange equations,Deciding to rearrange equations,machen wir das einfach mal
-08.024.20,E,Rearranging first equation,Rearranging first equation,X² plus a² minus 6²
+08.024.20,E,Rearranging first equation,Rearranging first equation,X^2 plus a^2 minus 6^2
 08.024.21,E,Computing numeric value,Computing numeric value,Ich rechne das mal aus zu 36
 08.024.22,E,Applying same rearrangement to second equation,Applying same rearrangement to second equation,Gleich auf der anderen Seite auch
-08.024.23,E,Rearranging second equation,Rearranging second equation,"X² plus b² minus 3², also 9"
+08.024.23,E,Rearranging second equation,Rearranging second equation,"X^2 plus b^2 minus 3^2, also 9"
 08.024.24,E,Deciding to query chatbot,Deciding to query chatbot,ich frag jetzt mal die KI
 08.024.25,E,Dictating message about equation rearrangement,Dictating message about equation rearrangement,dann kann ich sie gleichsetzen nach
-08.024.26,E,Dictating combined equation,Dictating combined equation,X² plus a² minus 36 ist gleich X² plus b² minus 9
+08.024.26,E,Dictating combined equation,Dictating combined equation,X^2 plus a^2 minus 36 ist gleich X^2 plus b^2 minus 9
 08.025.1,E,Explaining rearrangement rationale in message,Explaining rearrangement rationale in message,dann kann ich sie gleichsetzen nach
-08.025.2,E,Submitting rearranged equation to chatbot,Submitting rearranged equation to chatbot,x² + a² - 36 = x² + b² - 9
+08.025.2,E,Submitting rearranged equation to chatbot,Submitting rearranged equation to chatbot,x^2 + a^2 - 36 = x^2 + b^2 - 9
 08.026.1,E,Anticipating further simplification,Anticipating further simplification,wenn ich das hier jetzt weiter auflöse
 08.028.1,E,Reading chatbot's suggested rearrangement,Reading chatbot's suggested rearrangement,"so umstellen, dass auf einer Seite 0 steht"
 08.028.2,E,Noting chatbot repeating already-completed step,Noting chatbot repeating already-completed step,Das habe ich doch gerade gemacht
 08.028.3,E,Deciding to reformat equation with explicit exponents,Deciding to reformat equation with explicit exponents,die Quadrate da wieder reinbaue
 08.028.4,E,Copying formula for reuse,Copying formula for reuse,kopiere mir mal kurz die Formel
 08.028.5,E,Drafting clarifying question for chatbot,Drafting clarifying question for chatbot,Meinst du das so?
-08.028.6,E,Reformatting numbers into exponent form,Reformatting numbers into exponent form,aus der 9 wieder ein 3² und aus der 36 ein 6²
-08.029.1,E,Submitting reformatted equation to chatbot for confirmation,Submitting reformatted equation to chatbot for confirmation,x² + a² - 6² = x² + b² - 3²
+08.028.6,E,Reformatting numbers into exponent form,Reformatting numbers into exponent form,aus der 9 wieder ein 3^2 und aus der 36 ein 6^2
+08.029.1,E,Submitting reformatted equation to chatbot for confirmation,Submitting reformatted equation to chatbot for confirmation,x^2 + a^2 - 6^2 = x^2 + b^2 - 3^2
 08.031.1,E,Attributing chatbot's confusion to computed exponents,Attributing chatbot's confusion to computed exponents,die KI ist gerade damit nicht klargekommen
 08.031.2,E,Reading chatbot's follow-up request,Reading chatbot's follow-up request,gleichsetzen?
 08.031.3,E,Noting chatbot's request as already addressed,Noting chatbot's request as already addressed,das habe ich doch gerade da eben eingegeben
 08.031.5,E,Reusing previous equation content,Reusing previous equation content,kopiere meine Sachen von oben wieder
-08.032.1,E,Submitting combined equation to chatbot,Submitting combined equation to chatbot,x² + a² - 6² = x² + b² - 3²
+08.032.1,E,Submitting combined equation to chatbot,Submitting combined equation to chatbot,x^2 + a^2 - 6^2 = x^2 + b^2 - 3^2
 08.034.2,E,Judging simplification step as easy,Judging simplification step as easy,ziemlich simpel
-08.034.3,E,Planning to cancel shared x² term,Planning to cancel shared x² term,das X davon abziehen
-08.034.4,E,Deriving simplified equation,Deriving simplified equation,a² minus 6² gleich b² minus 3²
+08.034.3,E,Planning to cancel shared x^2 term,Planning to cancel shared x^2 term,das X davon abziehen
+08.034.4,E,Deriving simplified equation,Deriving simplified equation,a^2 minus 6^2 gleich b^2 minus 3^2
 08.034.5,E,Perceiving chatbot as stuck/unresponsive,Perceiving chatbot as stuck/unresponsive,es scheint die KI dann zu hängen
-08.035.1,E,Submitting simplified equation with explanation,Submitting simplified equation with explanation,es ergibt sich a² - 6² = b² - 3²
+08.035.1,E,Submitting simplified equation with explanation,Submitting simplified equation with explanation,es ergibt sich a^2 - 6^2 = b^2 - 3^2
 08.037.1,E,Reading chatbot's follow-up question,Reading chatbot's follow-up question,weiter vereinfachen?
 08.037.2,E,Deciding to follow chatbot advice,Deciding to follow chatbot advice,dann
 08.037.3,E,Planning to compute numeric powers,Planning to compute numeric powers,die Potenzen von 6 und 3 ausrechnen
 08.037.4,E,Computing powers and planning subtraction,Computing powers and planning subtraction,6 hoch 2 ist gleich 36 und 3 hoch 2 ist gleich 9
-08.037.5,E,Deriving simplified equation,Deriving simplified equation,a² minus 36 minus 9 ist 27 gleich b²
-08.038.1,E,Submitting computed simplification to chatbot,Submitting computed simplification to chatbot,a² - 27 = b²
+08.037.5,E,Deriving simplified equation,Deriving simplified equation,a^2 minus 36 minus 9 ist 27 gleich b^2
+08.038.1,E,Submitting computed simplification to chatbot,Submitting computed simplification to chatbot,a^2 - 27 = b^2
 08.040.1,E,Reading chatbot's follow-up instruction,Reading chatbot's follow-up instruction,die Gleichung umstellen
 08.040.2,E,Planning to isolate variable,Planning to isolate variable,noch einer [Variable] auflösen
-08.040.3,E,Deriving expression for a in terms of b,Deriving expression for a in terms of b,A ist gleich b² plus 27 ... die Wurzel
+08.040.3,E,Deriving expression for a in terms of b,Deriving expression for a in terms of b,A ist gleich b^2 plus 27 ... die Wurzel
 08.040.4,E,Expressing square root as exponent,Expressing square root as exponent,hoch 1/2
-08.041.1,E,Submitting derived expression to chatbot,Submitting derived expression to chatbot,a = √(b² - 27)
+08.041.1,E,Submitting derived expression to chatbot,Submitting derived expression to chatbot,a = √(b^2 - 27)
 08.043.1,E,Reading chatbot's follow-up request,Reading chatbot's follow-up request,Kannst du den Ausdruck für a in die Gleichung
 08.043.2,E,Continuing work on paper,Continuing work on paper,auf dem Papier weiter
-08.043.3,E,Restating derived expression,Restating derived expression,A gleich Wurzel aus b²
+08.043.3,E,Restating derived expression,Restating derived expression,A gleich Wurzel aus b^2
 08.043.4,E,Recognizing own sign error,Recognizing own sign error,da steht minus und kein Plus
-08.043.5,E,Planning substitution into equation,Planning substitution into equation,einsetzen in 6² gleich x² plus a²
-08.043.6,E,Performing substitution with erroneous expression,Performing substitution with erroneous expression,b² gleich x² plus b² plus 27
+08.043.5,E,Planning substitution into equation,Planning substitution into equation,einsetzen in 6^2 gleich x^2 plus a^2
+08.043.6,E,Performing substitution with erroneous expression,Performing substitution with erroneous expression,b^2 gleich x^2 plus b^2 plus 27
 08.043.7,E,Planning further rearrangement,Planning further rearrangement,die Gleichung wieder umstellen
-08.043.8,E,Canceling shared term,Canceling shared term,das b² rauskürzen
-08.043.9,E,Deriving inconsistent result,Deriving inconsistent result,0 gleich x² plus 27
+08.043.8,E,Canceling shared term,Canceling shared term,das b^2 rauskürzen
+08.043.9,E,Deriving inconsistent result,Deriving inconsistent result,0 gleich x^2 plus 27
 08.043.10,E,Deciding to continue querying chatbot,Deciding to continue querying chatbot,Frangen wir mal die KI weiter
-08.043.11,E,Restating equation with typo,Restating equation with typo,6² gleich x² plus a
+08.043.11,E,Restating equation with typo,Restating equation with typo,6^2 gleich x^2 plus a
 08.043.12,E,Recognizing handwriting-induced transcription error,Recognizing handwriting-induced transcription error,wegen meiner Sauklaue aus einer 6 ein b gemacht
 08.043.13,E,Reflecting on value of writing out steps for error-checking,Reflecting on value of writing out steps for error-checking,dann fällt dein Fehler auch wieder auf
 08.043.14,E,Performing substitution,Performing substitution,Wir setzen oben ein
-08.043.15,E,Restating corrected expression,Restating corrected expression,das ist gleich b² plus 27
-08.044.1,E,Submitting substituted equation to chatbot,Submitting substituted equation to chatbot,6² = x² + b² + 27
+08.043.15,E,Restating corrected expression,Restating corrected expression,das ist gleich b^2 plus 27
+08.044.1,E,Submitting substituted equation to chatbot,Submitting substituted equation to chatbot,6^2 = x^2 + b^2 + 27
 08.046.1,E,Reading chatbot's reasoning trace,Reading chatbot's reasoning trace,"Der Benutzer hat versucht, das umzustellen"
 08.046.2,E,Reading chatbot's follow-up question,Reading chatbot's follow-up question,den Ausdruck für A korrekt in die Gleichung
 08.046.3,E,Interpreting chatbot's assumption,Interpreting chatbot's assumption,"er geht jetzt davon aus, dass"
@@ -742,25 +742,25 @@ id,group,raw_label,canonical_label,in_vivo
 08.048.3,E,Reviewing earlier notes,Reviewing earlier notes,das hier oben an
 08.048.5,E,Correcting sign error in expression,Correcting sign error in expression,aus dem Minus ein Plus
 08.048.6,E,Criticizing chatbot's failure to detect logic error,Criticizing chatbot's failure to detect logic error,Logikfehler nicht erkennt
-08.049.1,E,Submitting corrected expression to chatbot,Submitting corrected expression to chatbot,a = √(b² + 27)
+08.049.1,E,Submitting corrected expression to chatbot,Submitting corrected expression to chatbot,a = √(b^2 + 27)
 08.051.1,E,Reading chatbot's follow-up question,Reading chatbot's follow-up question,weiter vereinfachen?
-08.051.2,E,Simplifying squared-root expression,Simplifying squared-root expression,x² plus b² plus 27
-08.052.1,E,Submitting simplified equation to chatbot,Submitting simplified equation to chatbot,6² = x² + b² + 27
+08.051.2,E,Simplifying squared-root expression,Simplifying squared-root expression,x^2 plus b^2 plus 27
+08.052.1,E,Submitting simplified equation to chatbot,Submitting simplified equation to chatbot,6^2 = x^2 + b^2 + 27
 08.054.1,E,Confirming further simplification is possible,Confirming further simplification is possible,weiter vereinfachen
 08.054.2a,E,Attributing chatbot's earlier inability to compute exponents,Attributing chatbot's earlier inability to compute exponents,er eben auch schon die Dinger nicht ausrechnen konnte
-08.054.2b,E,Computing 6² and planning subtraction of 27,Computing 6² and planning subtraction of 27,6² gleich 36 ... das Substrahieren von 27 von beiden Seiten
-08.054.3,E,Computing final simplified equation,Computing final simplified equation,36 minus 27 ist 9 gleich x² plus b²
-08.055.1,E,Submitting simplified equation to chatbot,Submitting simplified equation to chatbot,ergibt sich 9 = x² + b²
+08.054.2b,E,Computing 6^2 and planning subtraction of 27,Computing 6^2 and planning subtraction of 27,6^2 gleich 36 ... das Substrahieren von 27 von beiden Seiten
+08.054.3,E,Computing final simplified equation,Computing final simplified equation,36 minus 27 ist 9 gleich x^2 plus b^2
+08.055.1,E,Submitting simplified equation to chatbot,Submitting simplified equation to chatbot,ergibt sich 9 = x^2 + b^2
 08.056.1,E,Transcribing equation onto paper,Transcribing equation onto paper,auf dem Papier noch mal auf
-08.056.2,E,Restating computed equation,Restating computed equation,9 gleich x² plus b²
+08.056.2,E,Restating computed equation,Restating computed equation,9 gleich x^2 plus b^2
 08.058.1,E,Reading chatbot's instruction to solve for x,Reading chatbot's instruction to solve for x,die Gleichung nach x auflösen
-08.058.2,E,Solving equation for x,Solving equation for x,x ist gleich 9 minus b² und daraus die Wurzel
-08.059.1,E,Submitting solved expression for x to chatbot,Submitting solved expression for x to chatbot,x = √(9 - b²)
+08.058.2,E,Solving equation for x,Solving equation for x,x ist gleich 9 minus b^2 und daraus die Wurzel
+08.059.1,E,Submitting solved expression for x to chatbot,Submitting solved expression for x to chatbot,x = √(9 - b^2)
 08.060.1,E,Transcribing rearranged equation onto paper,Transcribing rearranged equation onto paper,Ich schreibe es mir wieder auf
-08.060.2,E,Recording expression on paper,Recording expression on paper,x gleich 9 minus b² und daraus die Wurzel
+08.060.2,E,Recording expression on paper,Recording expression on paper,x gleich 9 minus b^2 und daraus die Wurzel
 08.062.1,E,Reading chatbot's follow-up question,Reading chatbot's follow-up question,"Denk daran, dass b eine Länge ist und daher positiv sein muss"
 08.062.2,E,Re-reading chatbot's question for emphasis,Re-reading chatbot's question for emphasis,"Denk daran, dass b eine Länge ist und daher positiv sein muss"
-08.062.3,E,Recognizing unresolved variable b in solution,Recognizing unresolved variable b in solution,wir haben da immer noch ein b² dran
+08.062.3,E,Recognizing unresolved variable b in solution,Recognizing unresolved variable b in solution,wir haben da immer noch ein b^2 dran
 08.062.4,E,Reviewing prior notes for constraints,Reviewing prior notes for constraints,Was hatten wir denn vorher an Formeln?
 08.062.5,E,Recalling previously derived squared terms,Recalling previously derived squared terms,unsere Quadratseiten
 08.062.6,E,Reaffirming constraint that b is positive,Reaffirming constraint that b is positive,b eine Länge ist und daher positiv sein muss
@@ -773,7 +773,7 @@ id,group,raw_label,canonical_label,in_vivo
 08.062.13,E,Expressing self-doubt about reasoning,Expressing self-doubt about reasoning,ich vertue mich jetzt komplett
 08.062.14,E,Planning to derive analogous constraint for a,Planning to derive analogous constraint for a,haben wir das Ganze auch nach a gemacht
 08.062.15,E,Recalling formula for a,Recalling formula for a,wir haben ja noch die Formel
-08.062.16,E,Computing bounds for a using formula,Computing bounds for a using formula,a ist gleich Wurzel aus b² plus 27
+08.062.16,E,Computing bounds for a using formula,Computing bounds for a using formula,a ist gleich Wurzel aus b^2 plus 27
 08.062.17,E,Determining boundary values,Determining boundary values,hätte man die 0 oder 9
 08.062.18,E,Deriving range for a,Deriving range for a,größer als die Wurzel aus 27 und kleiner als die Wurzel aus 36
 08.062.19,E,Evaluating whether constraints are sufficient to solve,Evaluating whether constraints are sufficient to solve,können wir es damit sinnvoll lösen
@@ -784,9 +784,9 @@ id,group,raw_label,canonical_label,in_vivo
 08.062.24,E,Labeling known side lengths on diagram,Labeling known side lengths on diagram,"Das Ding ist 6, das Ding ist 3"
 08.062.25,E,Restating bounds for a with simplification,Restating bounds for a with simplification,"kleiner als die Wurzel aus 36, also kleiner als 6"
 08.062.26,E,Restating bounds for b,Restating bounds for b,größer als 0 ist und kleiner als 3
-08.062.27,E,Summarizing derived formulas for a and x,Summarizing derived formulas for a and x,a ist die Wurzel aus b² plus 27
+08.062.27,E,Summarizing derived formulas for a and x,Summarizing derived formulas for a and x,a ist die Wurzel aus b^2 plus 27
 08.062.28,E,Recalling original Pythagorean equations,Recalling original Pythagorean equations,unsere beiden Pythagoras Formeln
-08.062.29,E,Restating original equations,Restating original equations,6² gleich X² plus a² und wir haben 3² gleich X² plus b²
+08.062.29,E,Restating original equations,Restating original equations,6^2 gleich X^2 plus a^2 und wir haben 3^2 gleich X^2 plus b^2
 08.062.30,E,Considering whether substitution is feasible,Considering whether substitution is feasible,kann man da jetzt sinnvoll irgendwas einsetzen?
 08.062.31,E,Considering guessing as a strategy,Considering guessing as a strategy,Kann man das Ding jetzt erraten?
 08.062.32,E,Weighing alternative solving strategies,Weighing alternative solving strategies,Werte für a und b zu finden
@@ -809,7 +809,7 @@ id,group,raw_label,canonical_label,in_vivo
 08.068.5,E,Deciding to verify answer by calculation,Deciding to verify answer by calculation,mal versuchen nachzurechnen
 08.068.6,E,Verifying answer via substitution,Verifying answer via substitution,da muss ja im Prinzip 4 in die Wurzel rauskommen
 08.068.7,E,Computing value of b for verification,Computing value of b for verification,b ist gleich Wurzel aus 5
-08.068.8,E,Recalling formula for a,Recalling formula for a,A gleich Wurzel aus b² plus 27
+08.068.8,E,Recalling formula for a,Recalling formula for a,A gleich Wurzel aus b^2 plus 27
 08.068.9,E,Computing value of a for verification,Computing value of a for verification,"A gleich Wurzel aus 5 plus 27, das ist 32"
 08.068.10,E,Verifying answer against original Pythagorean equation,Verifying answer against original Pythagorean equation,"4 plus Wurzel 32 Quadrat, also plus 32"
 08.068.11,E,Confirming verification result,Confirming verification result,36 ist gleich 4 plus 32
@@ -908,7 +908,7 @@ id,group,raw_label,canonical_label,in_vivo
 09.026.1,E,Confirming theorem with chatbot,Confirming theorem with chatbot,Satz des Pythagoras?
 09.028.1,E,Performing calculation,Performing calculation,das passt schon mal nicht
 09.028.2,E,Identifying own calculation error,Identifying own calculation error,die Quadrate glaube ich vergessen
-09.028.3,E,Correcting calculation and confirming result,Correcting calculation and confirming result,"6² plus 8² ist dann 10, ja und dann kommt es auch hin"
+09.028.3,E,Correcting calculation and confirming result,Correcting calculation and confirming result,"6^2 plus 8^2 ist dann 10, ja und dann kommt es auch hin"
 10.002.1,E,Noting bilingual task text,Noting bilingual task text,da unten steht es noch mal auf Deutsch
 10.002.2,E,Recognizing diagram setup,Recognizing diagram setup,wir haben hier wieder so eine schöne Linie
 10.002.3,E,Labeling geometric points,Labeling geometric points,"einmal A, B und C"
@@ -1347,7 +1347,7 @@ id,group,raw_label,canonical_label,in_vivo
 15.002.12,E,Recording given value (note-taking),Recording given value (note-taking),die Linie AB ist 8
 15.002.13,E,Restating task question,Restating task question,Wie groß ist die Distanz von der Mitte des Kreises zu Linie AB
 15.002.15,E,Recalling candidate formula,Recalling candidate formula,man weiß ungefähr die Fläche auszurichten
-15.002.16,E,Recalling formula with self-doubt,Recalling formula with self-doubt,"r² mal Pi, wenn ich mich nicht recht täusche"
+15.002.16,E,Recalling formula with self-doubt,Recalling formula with self-doubt,"r^2 mal Pi, wenn ich mich nicht recht täusche"
 15.002.17,E,Deciding to consult chatbot,Deciding to consult chatbot,Ich würde den Chatbot einmal dies fragen
 15.002.18,E,Formulating question for chatbot,Formulating question for chatbot,wie die Formel ist
 15.003.1,E,Requesting formula from chatbot,Requesting formula from chatbot,wie lautet die mathematische Formel für einen Kreis
@@ -1404,7 +1404,7 @@ id,group,raw_label,canonical_label,in_vivo
 15.028.3,E,Paraphrasing chatbot's response (cont.),Paraphrasing chatbot's response (cont.),ich hätte quasi ein rechtwinkliges Dreieck
 15.028.4,E,Mapping given value onto triangle side,Mapping given value onto triangle side,"der Radius 5, das ist quasi die Hypotenuse"
 15.028.5,E,Mapping given value onto triangle side,Mapping given value onto triangle side,Die Hälfte der Sehne liegt bei 4
-15.028.6,E,Recalling Pythagorean theorem,Recalling Pythagorean theorem,"A² plus B², vielleicht C²"
+15.028.6,E,Recalling Pythagorean theorem,Recalling Pythagorean theorem,"A^2 plus B^2, vielleicht C^2"
 15.028.7,E,Deciding to ask chatbot for clarification,Deciding to ask chatbot for clarification,"welche der Variablen war, welche Seite war die Hypotenuse"
 15.029.1,E,Requesting clarification from chatbot,Requesting clarification from chatbot,welche variablen ... waren für welchen buchstaben im satz des Pythagoras
 15.031.1,E,Paraphrasing chatbot's response,Paraphrasing chatbot's response,die Hypotenuse und die beiden Katheten
@@ -1421,15 +1421,15 @@ id,group,raw_label,canonical_label,in_vivo
 15.034.1,E,Requesting help identifying triangle sides,Requesting help identifying triangle sides,"die jeweiligen linien zu bestimmen, um das dreieck genau zu bestimmen"
 15.036.1,E,Paraphrasing chatbot's response,Paraphrasing chatbot's response,"der Satz des Pythagoras, das habe ich schon aufgeschrieben"
 15.036.2,E,Paraphrasing chatbot's response (cont.),Paraphrasing chatbot's response (cont.),wie ich mir die ganzen Variablen definieren kann
-15.036.3,E,Setting up Pythagorean equation,Setting up Pythagorean equation,"Die Hälfte der Sehne, das wäre dann 4²"
-15.036.4,E,Setting up Pythagorean equation (cont.),Setting up Pythagorean equation (cont.),4² plus b² auf der einen Seite ... und 5² auf der anderen Seite
+15.036.3,E,Setting up Pythagorean equation,Setting up Pythagorean equation,"Die Hälfte der Sehne, das wäre dann 4^2"
+15.036.4,E,Setting up Pythagorean equation (cont.),Setting up Pythagorean equation (cont.),4^2 plus b^2 auf der einen Seite ... und 5^2 auf der anderen Seite
 15.036.5,E,Solving equation (erroneous),Solving equation (erroneous),Macht aber auch so auch keinen Sinn
 15.036.6,E,Recognizing calculation error against answer options,Recognizing calculation error against answer options,Er steht auch nicht in den Möglichkeiten
 15.036.7,E,Deciding to re-explain to chatbot,Deciding to re-explain to chatbot,Ich werde den Chatbot nochmal erklären
 15.038.1,E,Agreeing to researcher's suggestion,Agreeing to researcher's suggestion,"Ja, ich glaube, das werde ich auch tun"
 15.040.1,E,Reassessing variable assignment,Reassessing variable assignment,von den Variablen macht das ja auch keinen Sinn
 15.040.2,E,Recomputing squares step by step,Recomputing squares step by step,die Quadrate auszulösen von jeder Zahl
-15.040.3,E,Recomputing Pythagorean equation,Recomputing Pythagorean equation,16 plus b². Gleich 25²
+15.040.3,E,Recomputing Pythagorean equation,Recomputing Pythagorean equation,16 plus b^2. Gleich 25^2
 15.040.4,E,Identifying calculation error,Identifying calculation error,Jetzt erkenne ich meinen Fehler
 15.040.5,E,Solving corrected equation,Solving corrected equation,Dann sind wir bei 3
 15.040.6,E,Confirming answer matches options,Confirming answer matches options,Das gibt es als Beantwortungsmöglichkeit
