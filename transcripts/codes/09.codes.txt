@@ -49,7 +49,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 
 [008.1] PROCESS: Formulating chatbot query with concrete values | IV: "wie würde das dann beispielsweise aussehen"
 
-[010.1a] PROCESS: Referencing chatbot's reasoning process (CoT) | IV: "im Denkprozess"
+[010.1a] PROCESS: Referencing chatbot's CoT | IV: "im Denkprozess"
 [010.1b] PROCESS: Comparing chatbot response to own prior reasoning | IV: "sagt er mir eigentlich auch das, was ich mir vorher auch schon gedacht habe"
 [010.2] PROCESS: Restating calculation method | IV: "mit 2/7 und 5/7 rechnet und den jeweiligen Anteil mit 25 multipliziert"
 [010.3] PROCESS: Rounding result to select answer | IV: "würde ich da jetzt einfach mal die 8 anklicken"

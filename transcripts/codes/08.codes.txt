@@ -58,7 +58,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [013.1] — (no code: non-substantive/filler)
 
 [015.1] PROCESS: Discovering CoT expansion feature | IV: "das suchte ich gerade"
-[015.2] PROCESS: Reading chatbot's reasoning aloud | IV: "Das ist ein Problem, wenn dem Dreieck ABC gegeben ist"
+[015.2] PROCESS: Reading chatbot's CoT aloud | IV: "Das ist ein Problem, wenn dem Dreieck ABC gegeben ist"
 [015.3] PROCESS: Recognizing restated task in reasoning | IV: "das ist die Aufgabe"
 [015.4] PROCESS: Reading chatbot's stated assumption | IV: "es handelt sich um ein rechtwinkliges Dreieck mit CP als Höhe"
 [015.5] PROCESS: Challenging chatbot's assumption | IV: "das Dreieck selber ist nicht rechtwinklig"
@@ -122,13 +122,13 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [021.1] PROCESS: Submitting derived equations to chatbot | IV: "Dann ergeben sich zwei Fomeln nach 6^2 = x^2 + a^2 und 3^2 = x^2 + b^2"
 
 [024.1] — (no code: non-substantive/filler)
-[024.2] PROCESS: Noticing chatbot's reasoning process displayed | IV: "Die KI hat den Gedankenprozess"
+[024.2] PROCESS: Noticing chatbot's CoT displayed | IV: "Die KI hat den Gedankenprozess"
 [024.3] PROCESS: Reading chatbot's follow-up question | IV: "um eine Gleichung mit nur einer Variablen zu erhalten"
 [024.4] PROCESS: Predicting elimination of variable | IV: "da dürfte ja jetzt X wegfallen"
-[024.5] PROCESS: Deciding to inspect chatbot's reasoning process | IV: "den Gedankenprozess von der KI an"
-[024.6] PROCESS: Reading chatbot's reasoning trace | IV: "das Dreieck ABC durch den CP in 2 Rechtwinkel"
-[024.7] PROCESS: Reading chatbot's reasoning trace | IV: "mit Dreieck APC und BPC unterteilt wird"
-[024.8] PROCESS: Reading chatbot's reasoning trace | IV: "die Variablen a für AP und b für PB und X für PC"
+[024.5] PROCESS: Deciding to inspect chatbot's CoT | IV: "den Gedankenprozess von der KI an"
+[024.6] PROCESS: Reading chatbot's CoT | IV: "das Dreieck ABC durch den CP in 2 Rechtwinkel"
+[024.7] PROCESS: Reading chatbot's CoT | IV: "mit Dreieck APC und BPC unterteilt wird"
+[024.8] PROCESS: Reading chatbot's CoT | IV: "die Variablen a für AP und b für PB und X für PC"
 [024.9] PROCESS: Reading chatbot's listed hints | IV: "Bisherige Hinweise AC gleich 6, BC gleich 3"
 [024.10] PROCESS: Reading chatbot's restated equations | IV: "6^2 gleich X^2 plus a^2 und 3^2 gleich X^2 plus b^2"
 [024.11] PROCESS: Reading chatbot's derived relation | IV: "AB ist gleich a plus b"
@@ -212,7 +212,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 
 [044.1] PROCESS: Submitting substituted equation to chatbot | IV: "6^2 = x^2 + b^2 + 27"
 
-[046.1] PROCESS: Reading chatbot's reasoning trace | IV: "Der Benutzer hat versucht, das umzustellen"
+[046.1] PROCESS: Reading chatbot's CoT | IV: "Der Benutzer hat versucht, das umzustellen"
 [046.2] PROCESS: Reading chatbot's follow-up question | IV: "den Ausdruck für A korrekt in die Gleichung"
 [046.3] PROCESS: Interpreting chatbot's assumption | IV: "er geht jetzt davon aus, dass"
 [046.4] PROCESS: Attributing chatbot's confusion to own typo | IV: "komplett auf dem Holz weggebracht"
@@ -298,8 +298,8 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [066.1] PROCESS: Submitting derived bound for x to chatbot | IV: "x muss größer als 0 sein und kleiner als 3"
 
 [068.1] PROCESS: Reading chatbot's follow-up question | IV: "den Wert für X auswählen?"
-[068.2] PROCESS: Deciding to inspect chatbot's reasoning trace | IV: "den Denkprozess nochmal an"
-[068.3] PROCESS: Reading chatbot's reasoning trace with answer options | IV: "(A) 2, (B) 4, (C) 5, (D) 7, (E) 8"
+[068.2] PROCESS: Deciding to inspect chatbot's CoT | IV: "den Denkprozess nochmal an"
+[068.3] PROCESS: Reading chatbot's CoT with answer options | IV: "(A) 2, (B) 4, (C) 5, (D) 7, (E) 8"
 [068.4] PROCESS: Selecting answer based on derived bound | IV: "bleibt nur die Antwort 2"
 [068.5] PROCESS: Deciding to verify answer by calculation | IV: "mal versuchen nachzurechnen"
 [068.6] PROCESS: Verifying answer via substitution | IV: "da muss ja im Prinzip 4 in die Wurzel rauskommen"

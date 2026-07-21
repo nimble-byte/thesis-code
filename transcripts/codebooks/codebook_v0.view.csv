@@ -15,7 +15,7 @@ Formulating question for chatbot,4,1,E:4 / B:0
 Identifying task goal,4,2,E:1 / B:3
 Orienting to task figure,4,2,E:1 / B:3
 Paraphrasing chatbot's response (cont.),4,1,E:4 / B:0
-Reading chatbot's reasoning trace,4,1,E:4 / B:0
+Reading chatbot's CoT,4,1,E:4 / B:0
 Reading task statement aloud,4,1,E:4 / B:0
 Requesting method from chatbot,4,1,E:4 / B:0
 Restating task question,4,2,E:3 / B:1
@@ -47,6 +47,7 @@ Confirming formula from response,2,2,E:1 / B:1
 Constructing auxiliary triangle,2,2,E:2 / B:0
 Deciding to ask chatbot for clarification,2,1,E:2 / B:0
 Deciding to correct chatbot's assumption,2,2,E:2 / B:0
+Deciding to inspect chatbot's CoT,2,1,E:2 / B:0
 Deciding to redo calculation more precisely,2,1,E:2 / B:0
 Deciding to verify calculation with chatbot,2,1,E:2 / B:0
 Deciding to verify recalled formula with chatbot,2,1,E:2 / B:0
@@ -70,6 +71,7 @@ Reading chatbot's follow-up request,2,1,E:2 / B:0
 Recalling Pythagorean theorem,2,2,E:1 / B:1
 Recalling formula for a,2,1,E:2 / B:0
 Recognizing calculation error,2,1,E:0 / B:2
+Referencing chatbot's CoT,2,2,E:1 / B:1
 Rejecting LLM's suggested approach,2,2,E:1 / B:1
 Relaying task parameters to LLM,2,1,E:0 / B:2
 Reporting formula derivation to LLM,2,1,E:2 / B:0
@@ -327,8 +329,6 @@ Deciding to copy task using established routine,1,1,E:0 / B:1
 Deciding to explain own work to chatbot,1,1,E:1 / B:0
 Deciding to follow chatbot advice,1,1,E:1 / B:0
 Deciding to inform chatbot of typo correction,1,1,E:1 / B:0
-Deciding to inspect chatbot's reasoning process,1,1,E:1 / B:0
-Deciding to inspect chatbot's reasoning trace,1,1,E:1 / B:0
 Deciding to query chatbot,1,1,E:1 / B:0
 Deciding to query chatbot for direct solution,1,1,E:1 / B:0
 Deciding to re-explain to chatbot,1,1,E:1 / B:0
@@ -589,7 +589,7 @@ Naming result with notation,1,1,E:1 / B:0
 Naming verification tool,1,1,E:0 / B:1
 Navigating chatbot interface,1,1,E:0 / B:1
 Noticing calculation-result mismatch,1,1,E:0 / B:1
-Noticing chatbot's reasoning process displayed,1,1,E:1 / B:0
+Noticing chatbot's CoT displayed,1,1,E:1 / B:0
 Noticing inconsistency in own reasoning,1,1,E:1 / B:0
 Noting answer-option format discrepancy,1,1,E:0 / B:1
 Noting bilingual task text,1,1,E:1 / B:0
@@ -711,15 +711,15 @@ Re-reading task to verify,1,1,E:0 / B:1
 Re-strategizing after rejecting approach,1,1,E:0 / B:1
 Reading LLM correction aloud and acknowledging,1,1,E:1 / B:0
 Reading LLM instruction aloud and acknowledging,1,1,E:1 / B:0
-Reading LLM's reasoning (think-block) aloud,1,1,E:1 / B:0
+Reading LLM's CoT (think-block) aloud,1,1,E:1 / B:0
 Reading and interpreting task variables,1,1,E:1 / B:0
+Reading chatbot's CoT aloud,1,1,E:1 / B:0
+Reading chatbot's CoT with answer options,1,1,E:1 / B:0
 Reading chatbot's derived relation,1,1,E:1 / B:0
 Reading chatbot's follow-up instruction,1,1,E:1 / B:0
 Reading chatbot's hint,1,1,E:1 / B:0
 Reading chatbot's instruction to solve for x,1,1,E:1 / B:0
 Reading chatbot's listed hints,1,1,E:1 / B:0
-Reading chatbot's reasoning aloud,1,1,E:1 / B:0
-Reading chatbot's reasoning trace with answer options,1,1,E:1 / B:0
 Reading chatbot's response prompt,1,1,E:1 / B:0
 Reading chatbot's restated equations,1,1,E:1 / B:0
 Reading chatbot's restated givens,1,1,E:1 / B:0
@@ -818,7 +818,6 @@ Recounting LLM's earlier reasoning,1,1,E:1 / B:0
 Recounting LLM's earlier response,1,1,E:1 / B:0
 Redoing calculation,1,1,E:0 / B:1
 Redrawing diagram to organize reasoning,1,1,E:1 / B:0
-Referencing chatbot's reasoning process (CoT),1,1,E:1 / B:0
 Referencing prior LLM statement in message,1,1,E:1 / B:0
 Referencing response's suggestion,1,1,E:0 / B:1
 Reflecting on calculator use,1,1,E:0 / B:1
@@ -908,7 +907,6 @@ Restating problem parameters,1,1,E:1 / B:0
 Restating problem statement,1,1,E:1 / B:0
 Restating problem-solving goal,1,1,E:1 / B:0
 Restating ratio conclusion,1,1,E:1 / B:0
-Restating response's reasoning,1,1,E:0 / B:1
 Restating sub-question,1,1,E:1 / B:0
 Restating target unknown,1,1,E:1 / B:0
 Restating target variable,1,1,E:1 / B:0
@@ -1045,7 +1043,7 @@ Transcribing rearranged equation onto paper,1,1,E:1 / B:0
 Transitioning to next task,1,1,E:0 / B:1
 Transitioning to typing solution in chat,1,1,E:0 / B:1
 Trying alternative scaling approach,1,1,E:1 / B:0
-Understanding response's reasoning,1,1,E:0 / B:1
+Understanding chatbots's CoT,1,1,E:0 / B:1
 Understanding task number reference,1,1,E:0 / B:1
 Updating formula based on chatbot correction,1,1,E:1 / B:0
 Using analogy to describe shape,1,1,E:1 / B:0

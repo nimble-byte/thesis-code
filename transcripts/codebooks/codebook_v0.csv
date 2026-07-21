@@ -280,7 +280,7 @@ id,group,raw_label,canonical_label,in_vivo
 04.013.3,E,Reporting calculation result to LLM,Reporting calculation result to LLM,"ein x von 62,5"
 04.013.4,E,Requesting next steps from LLM,Requesting next steps from LLM,Wie gehe ich weiter vor um daraus AC zu erhalten
 04.013.5,E,Proposing hypothesis to LLM for verification,Proposing hypothesis to LLM for verification,Gilt hier evetl. eine Transitiviät?
-04.015.1,E,Reading LLM's reasoning (think-block) aloud,Reading LLM's reasoning (think-block) aloud,Die Länge von AB zu bestimmen
+04.015.1,E,Reading LLM's CoT (think-block) aloud,Reading LLM's CoT (think-block) aloud,Die Länge von AB zu bestimmen
 04.015.2,E,Recognizing calculation inconsistency,Recognizing calculation inconsistency,das ergibt wenig Sinn
 04.015.3,E,Re-reading LLM guidance aloud,Re-reading LLM guidance aloud,erinnere dich daran
 04.015.4,E,Restating goal and rearrangement plan,Restating goal and rearrangement plan,ich stelle jetzt eigentlich um
@@ -604,7 +604,7 @@ id,group,raw_label,canonical_label,in_vivo
 08.010.2,E,Expressing impasse/lack of ideas,Expressing impasse/lack of ideas,ich habe glaube ich nicht mehr viele Ideen
 08.011.1,E,Submitting task query to chatbot,Submitting task query to chatbot,Wie lang ist die Linie CP?
 08.015.1,E,Discovering CoT expansion feature,Discovering CoT expansion feature,das suchte ich gerade
-08.015.2,E,Reading chatbot's reasoning aloud,Reading chatbot's reasoning aloud,"Das ist ein Problem, wenn dem Dreieck ABC gegeben ist"
+08.015.2,E,Reading chatbot's CoT aloud,Reading chatbot's CoT aloud,"Das ist ein Problem, wenn dem Dreieck ABC gegeben ist"
 08.015.3,E,Recognizing restated task in reasoning,Recognizing restated task in reasoning,das ist die Aufgabe
 08.015.4,E,Reading chatbot's stated assumption,Reading chatbot's stated assumption,es handelt sich um ein rechtwinkliges Dreieck mit CP als Höhe
 08.015.5,E,Challenging chatbot's assumption,Challenging chatbot's assumption,das Dreieck selber ist nicht rechtwinklig
@@ -662,13 +662,13 @@ id,group,raw_label,canonical_label,in_vivo
 08.018.36,E,Asking how to notate exponent,Asking how to notate exponent,es wäre hoch einfach mit dem?
 08.020.1,E,Dictating formula for message input,Dictating formula for message input,"6 hoch, 2 gleich, X hoch, a plus 2"
 08.021.1,E,Submitting derived equations to chatbot,Submitting derived equations to chatbot,Dann ergeben sich zwei Fomeln nach 6^2 = x^2 + a^2 und 3^2 = x^2 + b^2
-08.024.2,E,Noticing chatbot's reasoning process displayed,Noticing chatbot's reasoning process displayed,Die KI hat den Gedankenprozess
+08.024.2,E,Noticing chatbot's CoT displayed,Noticing chatbot's CoT displayed,Die KI hat den Gedankenprozess
 08.024.3,E,Reading chatbot's follow-up question,Reading chatbot's follow-up question,um eine Gleichung mit nur einer Variablen zu erhalten
 08.024.4,E,Predicting elimination of variable,Predicting elimination of variable,da dürfte ja jetzt X wegfallen
-08.024.5,E,Deciding to inspect chatbot's reasoning process,Deciding to inspect chatbot's reasoning process,den Gedankenprozess von der KI an
-08.024.6,E,Reading chatbot's reasoning trace,Reading chatbot's reasoning trace,das Dreieck ABC durch den CP in 2 Rechtwinkel
-08.024.7,E,Reading chatbot's reasoning trace,Reading chatbot's reasoning trace,mit Dreieck APC und BPC unterteilt wird
-08.024.8,E,Reading chatbot's reasoning trace,Reading chatbot's reasoning trace,die Variablen a für AP und b für PB und X für PC
+08.024.5,E,Deciding to inspect chatbot's CoT,Deciding to inspect chatbot's CoT,den Gedankenprozess von der KI an
+08.024.6,E,Reading chatbot's CoT,Reading chatbot's CoT,das Dreieck ABC durch den CP in 2 Rechtwinkel
+08.024.7,E,Reading chatbot's CoT,Reading chatbot's CoT,mit Dreieck APC und BPC unterteilt wird
+08.024.8,E,Reading chatbot's CoT,Reading chatbot's CoT,die Variablen a für AP und b für PB und X für PC
 08.024.9,E,Reading chatbot's listed hints,Reading chatbot's listed hints,"Bisherige Hinweise AC gleich 6, BC gleich 3"
 08.024.10,E,Reading chatbot's restated equations,Reading chatbot's restated equations,6^2 gleich X^2 plus a^2 und 3^2 gleich X^2 plus b^2
 08.024.11,E,Reading chatbot's derived relation,Reading chatbot's derived relation,AB ist gleich a plus b
@@ -734,7 +734,7 @@ id,group,raw_label,canonical_label,in_vivo
 08.043.14,E,Performing substitution,Performing substitution,Wir setzen oben ein
 08.043.15,E,Restating corrected expression,Restating corrected expression,das ist gleich b^2 plus 27
 08.044.1,E,Submitting substituted equation to chatbot,Submitting substituted equation to chatbot,6^2 = x^2 + b^2 + 27
-08.046.1,E,Reading chatbot's reasoning trace,Reading chatbot's reasoning trace,"Der Benutzer hat versucht, das umzustellen"
+08.046.1,E,Reading chatbot's CoT,Reading chatbot's CoT,"Der Benutzer hat versucht, das umzustellen"
 08.046.2,E,Reading chatbot's follow-up question,Reading chatbot's follow-up question,den Ausdruck für A korrekt in die Gleichung
 08.046.3,E,Interpreting chatbot's assumption,Interpreting chatbot's assumption,"er geht jetzt davon aus, dass"
 08.046.4,E,Attributing chatbot's confusion to own typo,Attributing chatbot's confusion to own typo,komplett auf dem Holz weggebracht
@@ -803,8 +803,8 @@ id,group,raw_label,canonical_label,in_vivo
 08.065.5,E,Recording bound for x on paper,Recording bound for x on paper,"0, kleiner X, kleiner 3"
 08.066.1,E,Submitting derived bound for x to chatbot,Submitting derived bound for x to chatbot,x muss größer als 0 sein und kleiner als 3
 08.068.1,E,Reading chatbot's follow-up question,Reading chatbot's follow-up question,den Wert für X auswählen?
-08.068.2,E,Deciding to inspect chatbot's reasoning trace,Deciding to inspect chatbot's reasoning trace,den Denkprozess nochmal an
-08.068.3,E,Reading chatbot's reasoning trace with answer options,Reading chatbot's reasoning trace with answer options,"(A) 2, (B) 4, (C) 5, (D) 7, (E) 8"
+08.068.2,E,Deciding to inspect chatbot's CoT,Deciding to inspect chatbot's CoT,den Denkprozess nochmal an
+08.068.3,E,Reading chatbot's CoT with answer options,Reading chatbot's CoT with answer options,"(A) 2, (B) 4, (C) 5, (D) 7, (E) 8"
 08.068.4,E,Selecting answer based on derived bound,Selecting answer based on derived bound,bleibt nur die Antwort 2
 08.068.5,E,Deciding to verify answer by calculation,Deciding to verify answer by calculation,mal versuchen nachzurechnen
 08.068.6,E,Verifying answer via substitution,Verifying answer via substitution,da muss ja im Prinzip 4 in die Wurzel rauskommen
@@ -861,7 +861,7 @@ id,group,raw_label,canonical_label,in_vivo
 09.007.12,E,Expressing residual doubt about answer,Expressing residual doubt about answer,abgerundet eher 7 wäre als 8
 09.007.13,E,Deciding to query chatbot for direct solution,Deciding to query chatbot for direct solution,vielleicht kriege ich eine direkte Lösung ausgespuckt
 09.008.1,E,Formulating chatbot query with concrete values,Formulating chatbot query with concrete values,wie würde das dann beispielsweise aussehen
-09.010.1a,E,Referencing chatbot's reasoning process (CoT),Referencing chatbot's reasoning process (CoT),im Denkprozess
+09.010.1a,E,Referencing chatbot's CoT,Referencing chatbot's CoT,im Denkprozess
 09.010.1b,E,Comparing chatbot response to own prior reasoning,Comparing chatbot response to own prior reasoning,"sagt er mir eigentlich auch das, was ich mir vorher auch schon gedacht habe"
 09.010.2,E,Restating calculation method,Restating calculation method,mit 2/7 und 5/7 rechnet und den jeweiligen Anteil mit 25 multipliziert
 09.010.3,E,Rounding result to select answer,Rounding result to select answer,würde ich da jetzt einfach mal die 8 anklicken
@@ -1306,8 +1306,8 @@ id,group,raw_label,canonical_label,in_vivo
 13.023.1b,B,Expressing uncertainty about next step,Expressing uncertainty about next step,Was mache ich denn?
 13.023.2,B,Validating viability of chatbot's suggested approach,Validating viability of chatbot's suggested approach,Kann ich das?
 13.023.3,B,Evaluating response's assumption,Evaluating response's assumption,"geht er ja aber davon aus, dass die beiden gleich sind"
-13.023.4,B,Restating response's reasoning,Restating response's reasoning,Die Diagonal des rechtwinkligen Dreiecks
-13.023.5,B,Understanding response's reasoning,Understanding response's reasoning,"Ah, ich verstehe. Wenn das die Diagonal ist, kann ich es andersherum rechnen"
+13.023.4,B,Referencing chatbot's CoT,Referencing chatbot's CoT,Die Diagonal des rechtwinkligen Dreiecks
+13.023.5,B,Understanding chatbots's CoT,Understanding chatbots's CoT,"Ah, ich verstehe. Wenn das die Diagonal ist, kann ich es andersherum rechnen"
 13.023.6,B,Questioning triangle's right-angle assumption,Questioning triangle's right-angle assumption,"wissen wir, ob das Dreieck rechtwinklig ist?"
 13.023.7,B,Reasoning about geometric property,Reasoning about geometric property,"Wenn die ja nicht gleich lang sind, ist das nicht rechtwinklig"
 13.023.8,B,Formulating counterpoint to chatbot,Formulating counterpoint to chatbot,Die Strecke zwischen A und C und B und D sind aber nicht gleich

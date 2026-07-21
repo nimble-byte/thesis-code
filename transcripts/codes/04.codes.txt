@@ -81,7 +81,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [013.4] PROCESS: Requesting next steps from LLM | IV: "Wie gehe ich weiter vor um daraus AC zu erhalten"
 [013.5] PROCESS: Proposing hypothesis to LLM for verification | IV: "Gilt hier evetl. eine Transitiviät?"
 
-[015.1] PROCESS: Reading LLM's reasoning (think-block) aloud | IV: "Die Länge von AB zu bestimmen"
+[015.1] PROCESS: Reading LLM's CoT (think-block) aloud | IV: "Die Länge von AB zu bestimmen"
 [015.2] PROCESS: Recognizing calculation inconsistency | IV: "das ergibt wenig Sinn"
 [015.3] PROCESS: Re-reading LLM guidance aloud | IV: "erinnere dich daran"
 [015.4] PROCESS: Restating goal and rearrangement plan | IV: "ich stelle jetzt eigentlich um"
