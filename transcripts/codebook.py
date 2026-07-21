@@ -30,6 +30,8 @@ CODE_RE = re.compile(
     r'^\[(?P<turn>\d{3})\.(?P<sub>[0-9a-z]+)\]\s+'
     r'PROCESS:\s+(?P<label>.+?)\s+\|\s+IV:\s+(?P<iv>.+)$'
 )
+# IV field is quote-wrapped: IV: "verbatim text"
+IV_RE = re.compile(r'^"(?P<quote>.*)"\s*$')
 # A line that opens like a coded statement but isn't a PROCESS line
 # (e.g. filler "[011.15] — (no code: ...)"). Used only to classify skips.
 STMT_LIKE_RE = re.compile(r'^\[\d{3}\.[0-9a-z]+\]')
@@ -71,12 +73,25 @@ def parse_file(path):
                 pid = f"{int(participant):02d}" if participant and participant.isdigit() \
                     else str(participant)
                 app_id = f"{pid}.{m.group('turn')}.{m.group('sub')}"
+
+                iv_raw = m.group('iv').strip()
+                iv_m = IV_RE.match(iv_raw)
+                if iv_m:
+                    iv_clean = iv_m.group('quote').strip()
+                else:
+                    # Didn't match the expected quoted-string shape at all;
+                    # fall back to the raw text but flag it for a look.
+                    iv_clean = iv_raw
+                    warnings.append(
+                        f"{path}:{lineno}: IV field not in expected \"...\" "
+                        f"shape, kept as-is: {iv_raw[:80]!r}")
+
                 rows.append({
                     'id': app_id,
                     'group': group,
                     'raw_label': m.group('label').strip(),
                     'canonical_label': m.group('label').strip(),  # seed == raw
-                    'in_vivo': m.group('iv').strip(),
+                    'in_vivo': iv_clean,
                 })
                 continue
 
@@ -124,6 +139,11 @@ def cmd_build(args):
     empty_lab = df[df['raw_label'].str.strip() == '']
     if not empty_lab.empty:
         errors.append(f"{len(empty_lab)} row(s) with empty raw_label")
+    stray_quote = df[df['in_vivo'].str.contains('"', regex=False)]
+    if not stray_quote.empty:
+        errors.append(f"{len(stray_quote)} row(s) with a leftover \" in in_vivo "
+                      f"— IV_RE extraction likely didn't match, check warnings:\n"
+                      + stray_quote[['id', 'in_vivo']].to_string(index=False))
 
     print("=== build report ===")
     for fn, n in per_file.items():

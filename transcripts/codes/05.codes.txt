@@ -35,7 +35,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [005.1] PROCESS: Announcing intent to solve for target variable | IV: "Jetzt löse ich nach AB auf"
 [005.2] PROCESS: Criticizing response as verbose and insufficiently confirmatory | IV: "zu viel Antwort und zu wenig Bestätigung"
 [005.3] PROCESS: Recomputing ratio manually to verify | IV: "A durch B... Ratio von 2:5"
-[005.4] PROCESS: Restating hypothesized answer prior to full verification | IV: "wenn das 10 ist" (trailing phrase excluded — confirmed transcription artifact, adds nothing per Til)
+[005.4] PROCESS: Restating hypothesized answer prior to full verification | IV: "wenn das 10 ist"
 [005.5] PROCESS: Performing verification calculation | IV: "Wenn ich das mal 5 mache"
 [005.6] PROCESS: Confirming calculation makes sense | IV: "es ergibt Sinn"
 [005.7] PROCESS: Affirming confidence in solution correctness | IV: "Ich bin voll dabei, dass das richtig ist"
