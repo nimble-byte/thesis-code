@@ -152,7 +152,7 @@ GROUP: E
 [022.11]    Das heißt eigentlich, ich gucke mal einmal ob ich das ohne Chatbot hinbekomme und gucke mal ob das von der Lösung hinpassen würde.
 [022.12]    Da hätten wir dann einmal die halbe Kantenlänge von AC, das ist 6, mal die halbe Kantenlänge von BD, das ist 8, dann eigentlich durch 2, weil wir ja einen Dreieck haben, aber wieder mal 2, weil wir ja 2 Dreiecke haben.
 [022.13]    Wahrscheinlich können wir sogar mal 4 rechnen, aber das weiß ich nicht. Dann haben wir einen Flächeninhalt, obwohl ich will die Kantenlänge haben.
-[022.14]    Man kann einfach die Kantenlänge von einem rechtwinkeligen Dreieck berechnen mit, ich hoffe a² plus b² gleich c², aber das frage ich zur Sicherheit nochmal nach.
+[022.14]    Man kann einfach die Kantenlänge von einem rechtwinkeligen Dreieck berechnen mit, ich hoffe a^2 plus b^2 gleich c^2, aber das frage ich zur Sicherheit nochmal nach.
 [Proband schreibt eine Nachricht]
 [023 WRITTEN]
 [023.1]    Iwe berechne ich die Hypothneuse eines rechtwinkleigen Dreiecks wenn ich die beiden anderen Kantenlängen gegeben habe
@@ -162,17 +162,17 @@ GROUP: E
 [Proband liest die Antwort]
 [025 SPOKEN]
 [025.1]    Ja genau, er fragt mich ob ich mich an einen speziellen Satz erinnere, das wird wahrscheinlich der Satz des Pythagoras sein.
-[025.2]    A² plus b² gleich c², frage ich aber nochmal nach, ob ich mir da sicher bin, ob das richtig ist.
+[025.2]    A^2 plus b^2 gleich c^2, frage ich aber nochmal nach, ob ich mir da sicher bin, ob das richtig ist.
 [Proband schreibt eine Nachricht]
 [026 WRITTEN]
 [026.1]    Satz des Pythagoras?
 [027 LLM]
     <think>Der Benutzer hat den Satz des Pythagoras erwähnt. Der nächste Schritt besteht darin, ihn daran zu erinnern, wie der Satz formuliert wird und welche Variablen er verwendet.</think>
-    Genau! Der Satz des Pythagoras lautet: a² + b² = c². Dabei sind a und b die Längen der Katheten (die beiden kürzeren Seiten) und c ist die Länge der Hypotenuse (die Seite gegenüber dem rechten Winkel). Kannst du mir sagen, wie man diesen Satz anwenden würde, um die Hypotenuse zu berechnen?
+    Genau! Der Satz des Pythagoras lautet: a^2 + b^2 = c^2. Dabei sind a und b die Längen der Katheten (die beiden kürzeren Seiten) und c ist die Länge der Hypotenuse (die Seite gegenüber dem rechten Winkel). Kannst du mir sagen, wie man diesen Satz anwenden würde, um die Hypotenuse zu berechnen?
 [Proband liest die Antwort]
 [028 SPOKEN]
 [028.1]    Genau, das heißt dann haben wir Wurzel aus 6 plus 8, also Wurzel 14, das ist 3,7, das passt schon mal nicht.
 [028.2]    Vielleicht habe ich irgendwas falsch gemacht, einmal haben wir eine Kantenlänge von 6, einmal eine Kantenlänge von 8, aber ich habe auch die Quadrate glaube ich vergessen.
-[028.3]    6² plus 8² ist dann 10, ja und dann kommt es auch hin.
+[028.3]    6^2 plus 8^2 ist dann 10, ja und dann kommt es auch hin.
 [029 RESEARCHER]
     Alrighty.

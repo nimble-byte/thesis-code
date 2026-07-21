@@ -23,7 +23,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [002.13] PROCESS: Restating task question | IV: "Wie groß ist die Distanz von der Mitte des Kreises zu Linie AB"
 [002.14] — (no code: non-substantive/filler)
 [002.15] PROCESS: Recalling candidate formula | IV: "man weiß ungefähr die Fläche auszurichten"
-[002.16] PROCESS: Recalling formula with self-doubt | IV: "r² mal Pi, wenn ich mich nicht recht täusche"
+[002.16] PROCESS: Recalling formula with self-doubt | IV: "r^2 mal Pi, wenn ich mich nicht recht täusche"
 [002.17] PROCESS: Deciding to consult chatbot | IV: "Ich würde den Chatbot einmal dies fragen"
 [002.18] PROCESS: Formulating question for chatbot | IV: "wie die Formel ist"
 
@@ -101,7 +101,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [028.3] PROCESS: Paraphrasing chatbot's response (cont.) | IV: "ich hätte quasi ein rechtwinkliges Dreieck"
 [028.4] PROCESS: Mapping given value onto triangle side | IV: "der Radius 5, das ist quasi die Hypotenuse"
 [028.5] PROCESS: Mapping given value onto triangle side | IV: "Die Hälfte der Sehne liegt bei 4"
-[028.6] PROCESS: Recalling Pythagorean theorem | IV: "A² plus B², vielleicht C²"
+[028.6] PROCESS: Recalling Pythagorean theorem | IV: "A^2 plus B^2, vielleicht C^2"
 [028.7] PROCESS: Deciding to ask chatbot for clarification | IV: "welche der Variablen war, welche Seite war die Hypotenuse"
 
 [029.1] PROCESS: Requesting clarification from chatbot | IV: "welche variablen ... waren für welchen buchstaben im satz des Pythagoras"
@@ -123,8 +123,8 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 
 [036.1] PROCESS: Paraphrasing chatbot's response | IV: "der Satz des Pythagoras, das habe ich schon aufgeschrieben"
 [036.2] PROCESS: Paraphrasing chatbot's response (cont.) | IV: "wie ich mir die ganzen Variablen definieren kann"
-[036.3] PROCESS: Setting up Pythagorean equation | IV: "Die Hälfte der Sehne, das wäre dann 4²"
-[036.4] PROCESS: Setting up Pythagorean equation (cont.) | IV: "4² plus b² auf der einen Seite ... und 5² auf der anderen Seite"
+[036.3] PROCESS: Setting up Pythagorean equation | IV: "Die Hälfte der Sehne, das wäre dann 4^2"
+[036.4] PROCESS: Setting up Pythagorean equation (cont.) | IV: "4^2 plus b^2 auf der einen Seite ... und 5^2 auf der anderen Seite"
 [036.5] PROCESS: Solving equation (erroneous) | IV: "Macht aber auch so auch keinen Sinn"
 [036.6] PROCESS: Recognizing calculation error against answer options | IV: "Er steht auch nicht in den Möglichkeiten"
 [036.7] PROCESS: Deciding to re-explain to chatbot | IV: "Ich werde den Chatbot nochmal erklären"
@@ -133,7 +133,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 
 [040.1] PROCESS: Reassessing variable assignment | IV: "von den Variablen macht das ja auch keinen Sinn"
 [040.2] PROCESS: Recomputing squares step by step | IV: "die Quadrate auszulösen von jeder Zahl"
-[040.3] PROCESS: Recomputing Pythagorean equation | IV: "16 plus b². Gleich 25²"
+[040.3] PROCESS: Recomputing Pythagorean equation | IV: "16 plus b^2. Gleich 25^2"
 [040.4] PROCESS: Identifying calculation error | IV: "Jetzt erkenne ich meinen Fehler"
 [040.5] PROCESS: Solving corrected equation | IV: "Dann sind wir bei 3"
 [040.6] PROCESS: Confirming answer matches options | IV: "Das gibt es als Beantwortungsmöglichkeit"

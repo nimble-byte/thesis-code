@@ -18,7 +18,7 @@ Proband:
     Wie groß ist die Distanz von der Mitte des Kreises zu Linie AB?
     Okay.
     Also mir kommt der Gedanke hoch, man weiß ungefähr die Fläche auszurichten.
-    Das ist r² mal Pi, wenn ich mich nicht recht täusche.
+    Das ist r^2 mal Pi, wenn ich mich nicht recht täusche.
     Ich würde den Chatbot einmal dies fragen.
     Ich würde eher den Radius [vermutlich Umfang gemeint] abfragen, wie die Formel ist.
 [Proband schreibt eine Nachricht]
@@ -141,7 +141,7 @@ Proband:
     Okay, der Chat erklärt mir, ich hätte quasi ein rechtwinkliges Dreieck, wenn ich quasi vom einen Punkt, also vom Abstand 0, noch eine Linie quasi durchziehe.
     Das erleichtert mir ein bisschen. Also theoretisch hatte ich der Radius 5, das ist quasi die Hypotenuse, das macht Sinn.
     Die Hälfte der Sehne liegt bei 4, also quasi die untere Seite, also vom B oder A zum genauen Mittelpunkt und der gesuchte senkrechte Abstand ist die Kathete und die versuche ich gerade herauszufinden.
-    Der Chatbot rät mir dazu, den Satz des Pythagoras zu nutzen. Das wäre aus meinem Kopf, was ich noch habe, A² plus B², vielleicht C².
+    Der Chatbot rät mir dazu, den Satz des Pythagoras zu nutzen. Das wäre aus meinem Kopf, was ich noch habe, A^2 plus B^2, vielleicht C^2.
     Ich werde den Chat nochmal fragen, welche der Variablen war, welche Seite war die Hypotenuse, die Kathete und die andere Linie.
 [Proband schreibt eine Nachricht]
 Proband (schriftlich):
@@ -176,9 +176,9 @@ Proband:
     Okay, der Chatbot gibt mir gerade die Formel durch, der Satz des Pythagoras, das habe ich schon aufgeschrieben.
     Er erklärt mir auch, wie ich mir die ganzen Variablen definieren kann. Die Hypotenuse, die Kathete und die andere Kathete, die quasi von unten vom Mittelpunkt zum jeweiligen Sehnen führt.
 [Proband macht Notizen]
-    Ich schreibe es ihm jetzt nochmal auf. Die Hälfte der Sehne, das wäre dann 4². Denkrichterabstand, das wäre dann b². Der Radius wäre dann 5.
-    Ich gehe quasi von 4² plus b² auf der einen Seite stehen und 5² auf der anderen Seite.
-    Ich gehe hier rüber, 4² also. Das wäre dann nur 1². Wenn man die Wurzel zieht, dann hätten wir eher nur 1². Macht aber auch so auch keinen Sinn.
+    Ich schreibe es ihm jetzt nochmal auf. Die Hälfte der Sehne, das wäre dann 4^2. Denkrichterabstand, das wäre dann b^2. Der Radius wäre dann 5.
+    Ich gehe quasi von 4^2 plus b^2 auf der einen Seite stehen und 5^2 auf der anderen Seite.
+    Ich gehe hier rüber, 4^2 also. Das wäre dann nur 1^2. Wenn man die Wurzel zieht, dann hätten wir eher nur 1^2. Macht aber auch so auch keinen Sinn.
     Deshalb mache ich das nochmal, weil wir auch noch das Quadrat von b haben. Das macht aber keinen Sinn. Er steht auch nicht in den Möglichkeiten, also ist der eine Abstand immer noch falsch.
     Ich werde den Chatbot nochmal erklären.
 Wissenschaftler:
@@ -192,9 +192,9 @@ Proband:
     Also von den Variablen macht das ja auch keinen Sinn.
 [Proband macht Notizen]
     Das ist wahrscheinlich möglich. Ich versuche gerade die Quadrate auszulösen von jeder Zahl.
-    Ich komme gerade auf den Kopf. Schreib mir mal auf. Das wäre dann 16². 25 wäre dann 5². Das wäre also 16 plus b². Gleich 25².
+    Ich komme gerade auf den Kopf. Schreib mir mal auf. Das wäre dann 16^2. 25 wäre dann 5^2. Das wäre also 16 plus b^2. Gleich 25^2.
     Und davon die Wurzel ziehen. Jetzt erkenne ich meinen Fehler. Ich hatte nämlich den einen Punkt, trotzdem die Wurzel zu ziehen, habe ich nicht mitgezählt.
-    Zuerst ziehe ich aber 16, was mit dem b² rüber. Das wäre dann bei 9. Dann ziehen wir davon die Wurzel, weil wir immer noch das Quadrat von b haben. Dann sind wir bei 3.
+    Zuerst ziehe ich aber 16, was mit dem b^2 rüber. Das wäre dann bei 9. Dann ziehen wir davon die Wurzel, weil wir immer noch das Quadrat von b haben. Dann sind wir bei 3.
     Das gibt es als Beantwortungsmöglichkeit.
 [Proband wechselt zur nächsten Aufgabe]
 Wissenschaftler:

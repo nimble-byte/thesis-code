@@ -299,13 +299,13 @@ GROUP: E
 [046.2]    Und dann ist es nur noch Geometrie schwierig. Okay, Pythagoras.
 [046.3]    Das heißt, AC halbe sind sechs, BD halbe sind acht, Pythagoras habe ich so gesehen, ich habe 90 Grad.
 [046.4]    Das war die Fläche, ich will nicht die Fläche haben.
-[046.5]    Dann habe ich das, 6a² plus b² sind c², Wurzel daraus ziehen sind 10, müsste hier sein.
+[046.5]    Dann habe ich das, 6a^2 plus b^2 sind c^2, Wurzel daraus ziehen sind 10, müsste hier sein.
 [046.6]    Aber weil wir ja eine schöne KI haben, fragen wir das trotzdem lieber nochmal nach.
 [Proband beginnt eine Nachricht zu schreiben]
-[046.7]    Mittels a² plus b² gleich c² habe ich c² gleich 100 erhalten.
+[046.7]    Mittels a^2 plus b^2 gleich c^2 habe ich c^2 gleich 100 erhalten.
 [046.8]    Die Wurzel, also c, ist somit 10. Stimmt dies, sollte passen, aber so falsch sieht es nicht aus.
 [047 WRITTEN]
-[047.1]    Mein Ergebnis ist 10. Mittels a² + b² = c² habe ich c² = 100 erhalten. Die Wurzel also c ist somit 10. Stimmt dies?
+[047.1]    Mein Ergebnis ist 10. Mittels a^2 + b^2 = c^2 habe ich c^2 = 100 erhalten. Die Wurzel also c ist somit 10. Stimmt dies?
 [048 LLM]
     <think>Der Benutzer hat die halben Diagonalen berechnet und den Satz des Pythagoras angewendet, um die Länge einer Seite des Rhombus zu finden. Er/sie hat das Ergebnis 10 erhalten.
 

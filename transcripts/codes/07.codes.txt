@@ -14,7 +14,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [002.4] PROCESS: Constructing auxiliary triangle | IV: "Radius 5 habe ich ein gleichseitiges Dreieck"
 [002.5] PROCESS: Setting up triangle side lengths | IV: "mit 5 und 5. Die Hypotenuse ist 8."
 [002.6] PROCESS: Deriving right triangle from bisected chord | IV: "die Hälfte von AB ist 4. Damit habe ich ein rechtwinkliges Dreieck"
-[002.7] PROCESS: Formulating equation | IV: "x² plus 4² ist gleich 5²"
+[002.7] PROCESS: Formulating equation | IV: "x^2 plus 4^2 ist gleich 5^2"
 [002.8] PROCESS: Recognizing familiar problem pattern | IV: "die klassische Geschichte"
 [002.9] PROCESS: Stating computed answer | IV: "ich bin auf x gleich 3"
 

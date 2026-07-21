@@ -102,7 +102,7 @@ Proband:
     Ich frage ihn einfach mal, wer das schon für mich macht.
 [Proband sendet Nachricht]
 Proband (schriftlich):
-    Das ist mein LGS. löse es mir auf und berechne die lösungen für x,y, CP\n36 = x^2 +CP^2\n9=y^2+CP^2\n27 =(x-y)(x+y)
+    Das ist mein LGS. löse es mir auf und berechne die lösungen für x,y, CP\n36 = x^2 +CP^2\n9=y^2+CP^2\n27 = (x-y)(x+y)
 LLM:
     Ich kann das Gleichungssystem nicht direkt lösen, aber ich kann dir helfen, es Schritt für Schritt zu lösen.\n\n1. **Subtrahiere die zweite Gleichung von der ersten**:\n   \\[ 36 - 9 = x^2 + CP^2 - (y^2 + CP^2) \\]\n   \\[ 27 = x^2 - y^2 \\]\n\n2. **Faktorisiere die rechte Seite**:\n   \\[ 27 = (x - y)(x + y) \\]\n\n3. **Ersetze \\( x + y \\) durch AB** (da P auf der Linie AB liegt):\n   \\[ 27 = (x - y) \\cdot AB \\]\n\n4. **Löse nach \\( x - y \\)**:\n   \\[ x - y = \\frac{27}{AB} \\]\n\n5. **Jetzt haben wir zwei Gleichungen**:\n   \\[ x + y = AB \\]\n   \\[ x - y = \\frac{27}{AB} \\]\n\n6. **Addiere diese beiden Gleichungen, um \\( x \\) zu finden**:\n   \\[ 2x = AB + \\frac{27}{AB} \\]\n   \\[ x = \\frac{AB + \\frac{27}{AB}}{2} \\]\n\n7. **Subtrahiere die zweite Gleichung von der ersten, um \\( y \\) zu finden**:\n   \\[ 2y = AB - \\frac{27}{AB} \\]\n   \\[ y = \\frac{AB - \\frac{27}{AB}}{2} \\]\n\n8. **Jetzt kannst du \\( CP \\) mit einer der ursprünglichen Gleichungen finden**. Verwende zum Beispiel die zweite Gleichung:\n   \\[ 9 = y^2 + CP^2 \\]\n   \\[ CP^2 = 9 - y^2 \\]\n   \\[ CP = \\sqrt{9 - y^2} \\]\n\nKannst du diese Schritte durchführen, um die Werte von \\( x \\), \\( y \\) und \\( CP \\) zu finden?
 [Proband liest Nachricht]

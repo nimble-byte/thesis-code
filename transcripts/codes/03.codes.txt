@@ -74,7 +74,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [023.1] PROCESS: Registering LLM's suggested third equation | IV: "als dritte Gleichung AB = X + Y zu wählen"
 [023.2] PROCESS: Announcing closer examination of LLM's suggestion | IV: "Schau ich mir mal genauer an"
 [023.3] PROCESS: Interpreting LLM's approach of combining triangle equations | IV: "die beiden eingeteilten Dreiecke... miteinander zu verrechnen"
-[023.4] PROCESS: Recognizing cancellation of CP² term across equations | IV: "das die halt entfällt"
+[023.4] PROCESS: Recognizing cancellation of CP^2 term across equations | IV: "das die halt entfällt"
 [023.5] PROCESS: Deciding to try LLM's suggested equation manipulation | IV: "würde ich jetzt einfach mal ausprobieren"
 [023.6] PROCESS: Transitioning to typing solution in chat | IV: "kommen wir hier in den Chat"
 [023.7] PROCESS: Identifying own construction as a linear equation system | IV: "das ist jetzt ein lineares Gleichungssystem"
@@ -82,8 +82,8 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [023.9] PROCESS: Delegating equation-solving task to LLM | IV: "wer das schon für mich macht"
 
 [024.1] PROCESS: Requesting LLM to solve constructed equation system | IV: "löse es mir auf und berechne die lösungen"
-[024.2] PROCESS: Providing equation for triangle ACP | IV: "36 = x² + CP²"
-[024.3] PROCESS: Providing equation for triangle BCP | IV: "9 = y² + CP²"
+[024.2] PROCESS: Providing equation for triangle ACP | IV: "36 = x^2 + CP^2"
+[024.3] PROCESS: Providing equation for triangle BCP | IV: "9 = y^2 + CP^2"
 [024.4] PROCESS: Providing combined equation relating x and y | IV: "27 = (x-y)(x+y)"
 
 [026.1] — (no code: non-substantive/filler)

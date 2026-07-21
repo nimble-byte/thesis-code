@@ -202,7 +202,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [046.4] PROCESS: Rejecting incorrect formula recall | IV: "ich will nicht die Fläche haben"
 [046.5] PROCESS: Applying Pythagorean theorem | IV: "Wurzel daraus ziehen sind 10"
 [046.6] PROCESS: Deciding to verify result with LLM | IV: "weil wir ja eine schöne KI haben"
-[046.7] PROCESS: Dictating calculation to LLM | IV: "c² gleich 100 erhalten"
+[046.7] PROCESS: Dictating calculation to LLM | IV: "c^2 gleich 100 erhalten"
 [046.8] PROCESS: Requesting confirmation from LLM | IV: "sollte passen, aber so falsch sieht es nicht aus"
 
 [047.1a] PROCESS: Reporting result and method to LLM | IV: "Mein Ergebnis ist 10"

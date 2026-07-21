@@ -118,7 +118,7 @@ GROUP: B
     In diesem Fall ist die Diagonale "d" die Hypotenuse, und die Kantenlänge des Diamanten (nennen wir sie "a") ist eine der anderen beiden Seiten. Die andere Seite ist ebenfalls "a", weil es sich um ein Quadrat handelt.
 
     Also haben wir:
-    d² = a² + a²
+    d^2 = a^2 + a^2
 
     Vereinfache diese Gleichung, um nach "a" aufzulösen.
 

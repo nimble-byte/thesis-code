@@ -22,10 +22,10 @@ GROUP: E
 [004.5]    Das heißt wir haben da unten einen 90°-Winkel.
 [004.6]    So, wir haben da einen 90°-Winkel. Jetzt muss ich mal überlegen, ob das... ehhm tatsächlich dann am Ende ... 90 Grad Winkel
 [004.7]    Der teilt ja unten die Linie auch in der Mitte, das heißt wir haben da eigentlich, die Hälfte wäre dann hier Länge 4.
-[004.8]    Und jetzt kommt dann tatsächlich einfach nur der Satz des Pythagoras, weil wir haben ja a² plus b² gleich C², wobei C unten die Hypotenuse ist.
+[004.8]    Und jetzt kommt dann tatsächlich einfach nur der Satz des Pythagoras, weil wir haben ja a^2 plus b^2 gleich C^2, wobei C unten die Hypotenuse ist.
 [004.9]    Das ist bei uns dann 5 und die eine Kante, sagen wir A, ist die 4, weil das die Halbierende ist. Und dann können wir das Ganze im Prinzip umstellen.
-[004.10]    Und haben also 4² plus unsere unbekannte, nennen wir sie X², ist gleich C², das sind 5², also haben wir 16 plus X² gleich 25, dann können wir das abziehen.
-[004.11]    Also 25 minus 16 ist 9, also X² gleich 9 und die Wurzel da draus ist dann 3. So, dann logge ich das mal ein.
+[004.10]    Und haben also 4^2 plus unsere unbekannte, nennen wir sie X^2, ist gleich C^2, das sind 5^2, also haben wir 16 plus X^2 gleich 25, dann können wir das abziehen.
+[004.11]    Also 25 minus 16 ist 9, also X^2 gleich 9 und die Wurzel da draus ist dann 3. So, dann logge ich das mal ein.
 [004.12]    Kriegt mal gar keiner richtig oder falsch antwort?
 [005 RESEARCHER]
     Nee, nicht im direkt.
@@ -129,18 +129,18 @@ GROUP: E
 [Proband schreibt weitere handschriftliche Notizen]
 [018.6]    Das heißt AP ist a und PB ist b.
 [018.7]    Wir wissen, dass wir bei P einen rechten Winkel haben.
-[018.8]    So, das heißt, wenn wir jetzt, ja Pythagoras ist dann eine Idee, das heißt wir kennen die Länge AC, das ist 6, das heißt das ist 6²,
-[018.9]    ist gleich unsere gesagte Seite X dann zu Quadrat plus entsprechend a², was wir ja wieder nicht kennen.
+[018.8]    So, das heißt, wenn wir jetzt, ja Pythagoras ist dann eine Idee, das heißt wir kennen die Länge AC, das ist 6, das heißt das ist 6^2,
+[018.9]    ist gleich unsere gesagte Seite X dann zu Quadrat plus entsprechend a^2, was wir ja wieder nicht kennen.
 [018.10]    Und anders können wir das auch noch aufstellen, wenn wir jetzt dann auch noch den rechten Winkel haben bei dem anderen Dreieck PBC.
-[018.11]    Dann haben wir den rechten Winkel wieder bei P, das heißt wir haben 3² gleich X² plus b².
+[018.11]    Dann haben wir den rechten Winkel wieder bei P, das heißt wir haben 3^2 gleich X^2 plus b^2.
 [018.12]    Jetzt ist die Frage, ob einem das irgendetwas bringt, hier irgendetwas umzustellen.
-[018.13]    Wir können das natürlich mal versuchen, allerdings würde das als gemeinsame jetzt irgendwie das X² rausrechnen.
+[018.13]    Wir können das natürlich mal versuchen, allerdings würde das als gemeinsame jetzt irgendwie das X^2 rausrechnen.
 [018.14]    Es ist jetzt die Frage, ob wir dann im Endeffekt damit die ..., dass uns bei uns das allzu viel bringt.
 [018.15]    Also ich versuche mal kurz diese Formel hier aufzulösen, um mal zu gucken, ob ich irgendwie, so wie der Chatbot das ja hier vorschlägt,
 [018.16]    einen Ausdruck für diese Aufteilung zwischen a und b zu bekommen.
-[018.17]    Das heißt im Prinzip würde ich das nach X auflösen, das heißt wir haben 6², also 36, minus a² gleich 3², also 9 minus b².
-[018.18]    Das heißt wir könnten das jetzt hier auflösen, und zwar nehmen wir mal die 9 ab, das heißt wir haben 27 minus a² gleich minus b².
-[018.19]    Und dann ziehen wir das einfach mal rüber, so haben wir 27 gleich a² minus b².
+[018.17]    Das heißt im Prinzip würde ich das nach X auflösen, das heißt wir haben 6^2, also 36, minus a^2 gleich 3^2, also 9 minus b^2.
+[018.18]    Das heißt wir könnten das jetzt hier auflösen, und zwar nehmen wir mal die 9 ab, das heißt wir haben 27 minus a^2 gleich minus b^2.
+[018.19]    Und dann ziehen wir das einfach mal rüber, so haben wir 27 gleich a^2 minus b^2.
 [018.20]    So, und bei der Formel bin ich mir jetzt gerade gar nicht mehr sicher.
 [Proband liest letzte Chatbot Antwort erneut]
 [018.21]    Okay, wie würde es die Länge von a und a ausdrücken?
@@ -166,7 +166,7 @@ GROUP: E
 [020 SPOKEN]
 [020.1]    Also 6 hoch, 2 gleich, X hoch, a plus 2 und 3 hoch, 2 gleich X hoch 2 plus b hoch 2.
 [021 WRITTEN]
-[021.1]    Die neue Kante PC teilt das bestehende Dreieck ABC in zwei neue Dreiecke APC und BPC. Wobei bei Winkel bei P jeweils rechtwinkelig ist. Also können wir auf diese beiden Dreiecke den Satz von Pythagoras anwenden. Nennen wir die Kante AP a und die Kante PB b. Die Kante PC ist x. Dann ergeben sich zwei Fomeln nach 6² = x² + a² und 3² = x² + b².
+[021.1]    Die neue Kante PC teilt das bestehende Dreieck ABC in zwei neue Dreiecke APC und BPC. Wobei bei Winkel bei P jeweils rechtwinkelig ist. Also können wir auf diese beiden Dreiecke den Satz von Pythagoras anwenden. Nennen wir die Kante AP a und die Kante PB b. Die Kante PC ist x. Dann ergeben sich zwei Fomeln nach 6^2 = x^2 + a^2 und 3^2 = x^2 + b^2.
 [022 LLM]
     <think>Der Benutzer hat richtig erkannt, dass das Dreieck ABC durch die Linie CP in zwei rechtwinklige Dreiecke APC und BPC unterteilt wird. Er hat auch korrekt die Variablen a für AP, b für PB und x für PC eingeführt.
 
@@ -174,12 +174,12 @@ GROUP: E
     1. AC = 6 und BC = 3.
     2. CP ist senkrecht zu AB.
     3. P liegt auf AB zwischen A und B.
-    4. Die Gleichungen nach dem Satz des Pythagoras sind: 6² = x² + a² und 3² = x² + b².
+    4. Die Gleichungen nach dem Satz des Pythagoras sind: 6^2 = x^2 + a^2 und 3^2 = x^2 + b^2.
     5. AB = a + b.
 
     Nächster Lösungsschritt:
     Um die Länge von CP (x) zu bestimmen, müssen wir die beiden Gleichungen kombinieren. Dazu können wir die Summe der beiden Gleichungen bilden und dann nach x auflösen.</think>
-    Wie würdest du die beiden Gleichungen 6² = x² + a² und 3² = x² + b² kombinieren, um eine Gleichung mit nur einer Variablen zu erhalten?
+    Wie würdest du die beiden Gleichungen 6^2 = x^2 + a^2 und 3^2 = x^2 + b^2 kombinieren, um eine Gleichung mit nur einer Variablen zu erhalten?
 [023 RESEARCHER]
     So, ich mache in der Zeit mal was hoch Illegales.
     Ich habe das Vertrauen, dass du das alles brav machst.
@@ -190,176 +190,176 @@ GROUP: E
 [024.1]    Bis gleich.
 [024.2]    Die KI hat den Gedankenprozess.
 [Proband liest die Antwort]
-[024.3]    Wie würdest du die beiden Gleichungen 6² gleich X² plus a² und 3² gleich X² plus b² kombinieren, um eine Gleichung mit nur einer Variablen zu erhalten?
+[024.3]    Wie würdest du die beiden Gleichungen 6^2 gleich X^2 plus a^2 und 3^2 gleich X^2 plus b^2 kombinieren, um eine Gleichung mit nur einer Variablen zu erhalten?
 [024.4]    Also da dürfte ja jetzt X wegfallen.
 [024.5]    Ich schaue mir jetzt aber erstmal den Gedankenprozess von der KI an.
 [024.6]    Der Benutzer hat richtig erkannt, dass das Dreieck ABC durch den CP in 2 Rechtwinkel
 [024.7]    mit Dreieck APC und BPC unterteilt wird.
 [024.8]    Er hat auch die Variablen a für AP und b für PB und X für PC eingeführt.
 [024.9]    Bisherige Hinweise AC gleich 6, BC gleich 3, CP ist senkrecht zu AB, P liegt auf AB.
-[024.10]    Die Gleichung nach dem Satz des Pythagoras sind 6² gleich X² plus a² und 3² gleich X² plus b².
+[024.10]    Die Gleichung nach dem Satz des Pythagoras sind 6^2 gleich X^2 plus a^2 und 3^2 gleich X^2 plus b^2.
 [024.11]    AB ist gleich a plus b.
 [024.12]    Um die Länge von CP bzw. als X benannt zu bestimmen, müssen wir die Variablen kombinieren.
 [024.13]    Dazu können wir die Summe der beiden Gleichungen bilden und dann nach X auflösen.
 [024.14]    Wir wollen die Summe der beiden Gleichungen bilden.
 [024.15]    Wie würdest du die beiden Gleichungen kombinieren, um die Gleichungen mit nur einer Variablen zu erhalten?
 [024.16]    Ich würde beide Formeln nach [?] umstellen.
-[024.17]    Dan... hier ziehe ich einfach nur das 6² und das 3² auf die andere Seite.
+[024.17]    Dan... hier ziehe ich einfach nur das 6^2 und das 3^2 auf die andere Seite.
 [024.18]    Dann hätte man quasi auf beiden Seiten 0.
 [024.19]    Das heißt, machen wir das einfach mal.
 [Proband schreibt handschriftliche Notizen]
-[024.20]    Das heißt, man ergibt dann X² plus a² minus 6².
+[024.20]    Das heißt, man ergibt dann X^2 plus a^2 minus 6^2.
 [024.21]    Ich rechne das mal aus zu 36.
 [024.22]    Gleich auf der anderen Seite auch.
-[024.23]    X² plus b² minus 3², also 9.
+[024.23]    X^2 plus b^2 minus 3^2, also 9.
 [024.24]    Das heißt, ich frag jetzt mal die KI
 [Proband schreibt eine neue Nachricht]
 [024.25]    Wenn ich die Formel so umstelle, dass auf einer Seite 0 steht, dann kann ich sie gleichsetzen nach.
-[024.26]    Dann jetzt X² plus a² minus 36 ist gleich X² plus b² minus 9.
+[024.26]    Dann jetzt X^2 plus a^2 minus 36 ist gleich X^2 plus b^2 minus 9.
 [024.27]    Das gebe ich mal ein.
 [025 WRITTEN]
 [025.1]    Wenn ich die Formeln so umstelle, dass auf einer Seite 0 steht, dann kann ich sie gleichsetzen nach:
-[025.2]    x² + a² - 36 = x² + b² - 9
+[025.2]    x^2 + a^2 - 36 = x^2 + b^2 - 9
 [026 SPOKEN]
 [026.1]    Mein Gedanke ist aber eigentlich, dass wenn ich das hier jetzt weiter auflöse...
 [027 LLM]
     <think>Der Benutzer hat versucht, die Gleichungen umzustellen und zu kombinieren. Allerdings gibt es einen kleinen Fehler in der Umstellung.
 
     Bisherige Hinweise:
-    1. Die Gleichungen sind: 6² = x² + a² und 3² = x² + b².
+    1. Die Gleichungen sind: 6^2 = x^2 + a^2 und 3^2 = x^2 + b^2.
     2. Der Benutzer hat versucht, die Gleichungen umzustellen und zu kombinieren.
 
     Nächster Lösungsschritt:
     Der Benutzer sollte die Gleichungen richtig umstellen und dann kombinieren.</think>
-    Könntest du die Gleichungen 6² = x² + a² und 3² = x² + b² so umstellen, dass auf einer Seite 0 steht? Dann kannst du sie gleichsetzen.
+    Könntest du die Gleichungen 6^2 = x^2 + a^2 und 3^2 = x^2 + b^2 so umstellen, dass auf einer Seite 0 steht? Dann kannst du sie gleichsetzen.
 [Proband liest die Antwort]
 [028 SPOKEN]
-[028.1]    Du könntest die gleiche 6² gleich X² plus a² und 3² gleich X² plus b² so umstellen, dass auf einer Seite 0 steht, dann kannst du sie gleichsetzen.
+[028.1]    Du könntest die gleiche 6^2 gleich X^2 plus a^2 und 3^2 gleich X^2 plus b^2 so umstellen, dass auf einer Seite 0 steht, dann kannst du sie gleichsetzen.
 [028.2]    Das habe ich doch gerade gemacht.
 [028.3]    Vielleicht muss ich das mal eingeben, dass ich die Quadrate da wieder reinbaue.
 [028.4]    Ich kopiere mir mal kurz die Formel.
 [028.5]    Meinst du das so?
 [Nutzer schreibt eine neue Nachricht]
-[028.6]    Und jetzt mache ich aus der 9 wieder ein 3² und aus der 36 ein 6².
+[028.6]    Und jetzt mache ich aus der 9 wieder ein 3^2 und aus der 36 ein 6^2.
 [029 WRITTEN]
-[029.1]    Meinst du das so? x² + a² - 6² = x² + b² - 3².
+[029.1]    Meinst du das so? x^2 + a^2 - 6^2 = x^2 + b^2 - 3^2.
 [030 LLM]
     <think>Der Benutzer hat die Gleichungen nun korrekt umgestellt.
 
     Bisherige Hinweise:
-    1. Die umgestellten Gleichungen sind: x² + a² - 6² = 0 und x² + b² - 3² = 0.
+    1. Die umgestellten Gleichungen sind: x^2 + a^2 - 6^2 = 0 und x^2 + b^2 - 3^2 = 0.
     2. Der Benutzer hat versucht, die Gleichungen zu kombinieren.
 
     Nächster Lösungsschritt:
     Jetzt kann der Benutzer die beiden umgestellten Gleichungen gleichsetzen.</think>
-    Kannst du die beiden Gleichungen x² + a² - 6² = 0 und x² + b² - 3² = 0 gleichsetzen?
+    Kannst du die beiden Gleichungen x^2 + a^2 - 6^2 = 0 und x^2 + b^2 - 3^2 = 0 gleichsetzen?
 [031 SPOKEN]
 [031.1]    Das heißt, die KI ist gerade damit nicht klargekommen, dass ich die Quadrate ausgerechnet habe.
-[031.2]    Kannst du die beiden Gleichungen, X² plus a² minus 6² gleich 0 und X² plus b² minus 3² gleich 0 gleichsetzen?
+[031.2]    Kannst du die beiden Gleichungen, X^2 plus a^2 minus 6^2 gleich 0 und X^2 plus b^2 minus 3^2 gleich 0 gleichsetzen?
 [031.3]    Ja, das habe ich doch gerade da eben eingegeben.
 [Proband beginnt die nächste Nachricht]
 [031.4]    Das heißt, ja, das ist dann...
 [031.5]    Ich kopiere meine Sachen von oben wieder.
 [032 WRITTEN]
-[032.1]    Ja, dass ist dann x² + a² - 6² = x² + b² - 3²
+[032.1]    Ja, dass ist dann x^2 + a^2 - 6^2 = x^2 + b^2 - 3^2
 [033 LLM]
     <think>Der Benutzer hat die Gleichungen erfolgreich kombiniert.
 
     Bisherige Hinweise:
-    1. Die kombinierte Gleichung lautet: x² + a² - 6² = x² + b² - 3².
+    1. Die kombinierte Gleichung lautet: x^2 + a^2 - 6^2 = x^2 + b^2 - 3^2.
     2. Der Benutzer hat die Gleichungen gleichgesetzt.
 
     Nächster Lösungsschritt:
     Der Benutzer kann nun die Gleichung vereinfachen, um eine Beziehung zwischen a und b zu finden.</think>
-    Kannst du die Gleichung x² + a² - 6² = x² + b² - 3² vereinfachen?
+    Kannst du die Gleichung x^2 + a^2 - 6^2 = x^2 + b^2 - 3^2 vereinfachen?
 [Proband liest die Antwort]
 [034 SPOKEN]
 [034.1]    Gut.
 [034.2]    Vereinfachen ist ja ziemlich simpel.
 [034.3]    Wir können schon mal das X davon abziehen.
 [Proband schreibt eine neue Nachricht]
-[034.4]    a² minus 6² gleich b² minus 3² und dann können wir das noch ausrechnen,
+[034.4]    a^2 minus 6^2 gleich b^2 minus 3^2 und dann können wir das noch ausrechnen,
 [034.5]    aber es scheint die KI dann zu hängen.
 [035 WRITTEN]
-[035.1]    Wir ziehen das x² von beiden Seiten ab und es ergibt sich a² - 6² = b² - 3².
+[035.1]    Wir ziehen das x^2 von beiden Seiten ab und es ergibt sich a^2 - 6^2 = b^2 - 3^2.
 [036 LLM]
     <think>Der Benutzer hat die Gleichung erfolgreich vereinfacht.
 
     Bisherige Hinweise:
-    1. Die vereinfachte Gleichung lautet: a² - 6² = b² - 3².
-    2. Der Benutzer hat das x² auf beiden Seiten der Gleichung subtrahiert.
+    1. Die vereinfachte Gleichung lautet: a^2 - 6^2 = b^2 - 3^2.
+    2. Der Benutzer hat das x^2 auf beiden Seiten der Gleichung subtrahiert.
 
     Nächster Lösungsschritt:
     Der Benutzer kann nun die Gleichung weiter vereinfachen, um eine Beziehung zwischen a und b zu finden.</think>
-    Kannst du die Gleichung a² - 6² = b² - 3² weiter vereinfachen?
+    Kannst du die Gleichung a^2 - 6^2 = b^2 - 3^2 weiter vereinfachen?
 [037 SPOKEN]
 [037.1]    Kannst du die Gleichung a Quadrat ... weiter vereinfachen?
 [037.2]    Ja, dann machen wir das Ganze mal.
 [Proband beginnt eine neue Nachricht zu schreiben]
 [037.3]    Ich kann die Potenzen von 6 und 3 ausrechnen.
 [037.4]    6 hoch 2 ist gleich 36 und 3 hoch 2 ist gleich 9 und dann 9 von beiden Seiten abziehen.
-[037.5]    Dann ergibt sich a² minus 36 minus 9 ist 27 gleich b².
+[037.5]    Dann ergibt sich a^2 minus 36 minus 9 ist 27 gleich b^2.
 [038 WRITTEN]
-[038.1]    Ich kann die Potenzen von 6 und 3 ausrechnen zu 6² = 36 und 3² = 9 und dann 9 von beiden Seiten abziehen, dann ergibt sich: a² - 27 = b²
+[038.1]    Ich kann die Potenzen von 6 und 3 ausrechnen zu 6^2 = 36 und 3^2 = 9 und dann 9 von beiden Seiten abziehen, dann ergibt sich: a^2 - 27 = b^2
 [039 LLM]
     <think>Der Benutzer hat die Gleichung weiter vereinfacht.
 
     Bisherige Hinweise:
-    1. Die vereinfachte Gleichung lautet: a² - 27 = b².
+    1. Die vereinfachte Gleichung lautet: a^2 - 27 = b^2.
     2. Der Benutzer hat die Potenzen berechnet und dann 9 von beiden Seiten subtrahiert.
 
     Nächster Lösungsschritt:
     Der Benutzer kann nun die Gleichung umstellen, um eine Beziehung zwischen a und b zu finden.</think>
-    Kannst du die Gleichung a² - 27 = b² umstellen?
+    Kannst du die Gleichung a^2 - 27 = b^2 umstellen?
 [Proband liest die Antwort]
 [040 SPOKEN]
 [040.1]    Okay, was soll ich die Gleichung umstellen?
 [040.2]    Wir könnten das natürlich noch einer [Variable] auflösen.
 [Proband beginnt eine Nachricht zu schreiben, in der er die Gleichung umstellt]
-[040.3]    Das heißt, wir könnten sagen A ist gleich b² plus 27 und davon wollen wir die Wurzel haben.
+[040.3]    Das heißt, wir könnten sagen A ist gleich b^2 plus 27 und davon wollen wir die Wurzel haben.
 [040.4]    Das wäre dann hoch 1/2.
 [041 WRITTEN]
-[041.1]    a = √(b² - 27)
+[041.1]    a = √(b^2 - 27)
 [042 LLM]
     <think>Der Benutzer hat die Gleichung umgestellt, um eine Beziehung zwischen a und b zu finden.
 
     Bisherige Hinweise:
-    1. Die umgestellte Gleichung lautet: a = √(b² - 27).
+    1. Die umgestellte Gleichung lautet: a = √(b^2 - 27).
     2. Der Benutzer hat die Wurzel verwendet, um nach a aufzulösen.
 
     Nächster Lösungsschritt:
-    Der Benutzer kann nun die ursprüngliche Gleichung 6² = x² + a² verwenden und den Ausdruck für a einsetzen.</think>
-    Kannst du den Ausdruck für a in die Gleichung 6² = x² + a² einsetzen?
+    Der Benutzer kann nun die ursprüngliche Gleichung 6^2 = x^2 + a^2 verwenden und den Ausdruck für a einsetzen.</think>
+    Kannst du den Ausdruck für a in die Gleichung 6^2 = x^2 + a^2 einsetzen?
 [Proband liest die Nachricht]
 [043 SPOKEN]
 [043.1]    Kannst du den Ausdruck für a in die Gleichung ...?
 [043.2]    Ich mache das gerade mal auf dem Papier weiter.
-[043.3]    Wir haben den Ausdruck umgestellt zu A gleich Wurzel aus b².
+[043.3]    Wir haben den Ausdruck umgestellt zu A gleich Wurzel aus b^2.
 [043.4]    Ich habe die falsche Wurzel eingetippt, weil da steht minus und kein Plus.
-[043.5]    Jetzt sollen wir das Ganze einsetzen in 6² gleich x² plus a².
-[043.6]    Das heißt, da kommt raus b² gleich x² plus b² plus 27.
+[043.5]    Jetzt sollen wir das Ganze einsetzen in 6^2 gleich x^2 plus a^2.
+[043.6]    Das heißt, da kommt raus b^2 gleich x^2 plus b^2 plus 27.
 [043.7]    Dann könnten wir jetzt die Gleichung wieder umstellen.
-[043.8]    Wir können das b² rauskürzen.
-[043.9]    Das heißt, wir haben 0 gleich x² plus 27.
+[043.8]    Wir können das b^2 rauskürzen.
+[043.9]    Das heißt, wir haben 0 gleich x^2 plus 27.
 [043.10]    Frangen wir mal die KI weiter.
 [Proband beginnt eine Nachricht zu schreiben]
-[043.11]    Das ist dann 6² gleich x² plus a.
+[043.11]    Das ist dann 6^2 gleich x^2 plus a.
 [043.12]    Ich habe gerade wegen meiner Sauklaue aus einer 6 ein b gemacht.
 [043.13]    Schön, dass man das hier noch mal ausschreibt, dann fällt dein Fehler auch wieder auf.
 [043.14]    Wir setzen oben ein.
-[043.15]    Wir haben ja die Wurzel genommen, das ist gleich b² plus 27.
+[043.15]    Wir haben ja die Wurzel genommen, das ist gleich b^2 plus 27.
 [044 WRITTEN]
-[044.1]    Ja, dass ist dann 6² = x² + b² + 27
+[044.1]    Ja, dass ist dann 6^2 = x^2 + b^2 + 27
 [045 LLM]
     <think>Der Benutzer hat versucht, den Ausdruck für a in die Gleichung einzusetzen.
 
     Bisherige Hinweise:
-    1. Die Gleichung lautet: 6² = x² + a².
+    1. Die Gleichung lautet: 6^2 = x^2 + a^2.
     2. Der Benutzer hat versucht, den Ausdruck für a einzusetzen.
 
     Nächster Lösungsschritt:
     Der Benutzer sollte den korrekten Ausdruck für a in die Gleichung einsetzen.</think>
-    Kannst du den Ausdruck für a korrekt in die Gleichung 6² = x² + a² einsetzen? Denke daran, dass a = √(b² - 27) ist.
+    Kannst du den Ausdruck für a korrekt in die Gleichung 6^2 = x^2 + a^2 einsetzen? Denke daran, dass a = √(b^2 - 27) ist.
 [Proband liest die Antwort]
 [046 SPOKEN]
 [046.1]    Der Benutzer hat versucht, das umzustellen.
@@ -377,72 +377,72 @@ GROUP: E
 [048.5]    Und jetzt machen wir mal aus dem Minus ein Plus.
 [048.6]    Schade, dass er solche Logikfehler nicht erkennt.
 [049 WRITTEN]
-[049.1]    Ich habe mich vorher vertippe und a = √(b² + 27)
+[049.1]    Ich habe mich vorher vertippe und a = √(b^2 + 27)
 [050 LLM]
     <think>Der Benutzer hat den Fehler erkannt und die Gleichung korrigiert.
 
     Bisherige Hinweise:
-    1. Die korrekte Gleichung lautet: a = √(b² + 27).
-    2. Der Benutzer hat den Ausdruck für a in die Gleichung 6² = x² + a² eingesetzt.
+    1. Die korrekte Gleichung lautet: a = √(b^2 + 27).
+    2. Der Benutzer hat den Ausdruck für a in die Gleichung 6^2 = x^2 + a^2 eingesetzt.
 
     Nächster Lösungsschritt:
     Der Benutzer kann nun die Gleichung weiter vereinfachen, um nach x aufzulösen.</think>
-    Kannst du die Gleichung 6² = x² + (√(b² + 27))² weiter vereinfachen?
+    Kannst du die Gleichung 6^2 = x^2 + (√(b^2 + 27))^2 weiter vereinfachen?
 [Proband liest die Antwort]
 [051 SPOKEN]
-[051.1]    Kannst du die Gleichung 6² gleich x² plus Wurzel aus b² plus 27 zum Quadrat weiter vereinfachen?
-[051.2]    Ja, das ist 6² gleich x² plus b² plus 27.
+[051.1]    Kannst du die Gleichung 6^2 gleich x^2 plus Wurzel aus b^2 plus 27 zum Quadrat weiter vereinfachen?
+[051.2]    Ja, das ist 6^2 gleich x^2 plus b^2 plus 27.
 [Proband beginnt eine Nachricht zu schreiben]
 [052 WRITTEN]
-[052.1]    Ja das ist 6² = x² + b² + 27
+[052.1]    Ja das ist 6^2 = x^2 + b^2 + 27
 [053 LLM]
     <think>Der Benutzer hat die Gleichung korrekt vereinfacht.
 
     Bisherige Hinweise:
-    1. Die vereinfachte Gleichung lautet: 6² = x² + b² + 27.
+    1. Die vereinfachte Gleichung lautet: 6^2 = x^2 + b^2 + 27.
     2. Der Benutzer hat den Ausdruck für a in die Gleichung eingesetzt und vereinfacht.
 
     Nächster Lösungsschritt:
     Der Benutzer kann nun die Gleichung weiter vereinfachen, um nach x aufzulösen.</think>
-    Kannst du die Gleichung 6² = x² + b² + 27 weiter vereinfachen?
+    Kannst du die Gleichung 6^2 = x^2 + b^2 + 27 weiter vereinfachen?
 [Proband liest die Antwort]
 [054 SPOKEN]
 [054.1]    Ja, wir können das auch weiter vereinfachen.
 [Proband schreibt eine neue Nachricht]
-[054.2]    Das heißt, wir haben eigentlich mit ... da er eben auch schon die Dinger nicht ausrechnen konnte, mit 6² gleich 36 wirbt es zu 32 und das Substrahieren von 27 von beiden Seiten ...
-[054.3]    Von beiden Seiten ergibt es sich ... Jetzt haben wir wieder 36 minus 27 ist 9 gleich x² plus b².
+[054.2]    Das heißt, wir haben eigentlich mit ... da er eben auch schon die Dinger nicht ausrechnen konnte, mit 6^2 gleich 36 wirbt es zu 32 und das Substrahieren von 27 von beiden Seiten ...
+[054.3]    Von beiden Seiten ergibt es sich ... Jetzt haben wir wieder 36 minus 27 ist 9 gleich x^2 plus b^2.
 [055 WRITTEN]
-[055.1]    Mit 6² = 36 und das substrahieren von 27 von beiden Seiten ergibt sich 9 = x² + b²
+[055.1]    Mit 6^2 = 36 und das substrahieren von 27 von beiden Seiten ergibt sich 9 = x^2 + b^2
 [Proband arbeitet mit handschriftlichen Notizen während er auf die Antwort wartet]
 [056 SPOKEN]
 [056.1]    Ich schreibe es mir gerade auf dem Papier noch mal auf.
-[056.2]    Also 36 gleich x² plus b² plus 27 abziehen von beiden Seiten 9 gleich x² plus b².
+[056.2]    Also 36 gleich x^2 plus b^2 plus 27 abziehen von beiden Seiten 9 gleich x^2 plus b^2.
 [057 LLM]
     <think>Der Benutzer hat die Gleichung korrekt weiter vereinfacht.
 
     Bisherige Hinweise:
-    1. Die vereinfachte Gleichung lautet: 9 = x² + b².
+    1. Die vereinfachte Gleichung lautet: 9 = x^2 + b^2.
     2. Der Benutzer hat 36 - 27 berechnet und die Gleichung umgestellt.
 
     Nächster Lösungsschritt:
     Der Benutzer kann nun die Gleichung nach x auflösen.</think>
-    Kannst du die Gleichung 9 = x² + b² nach x auflösen?
+    Kannst du die Gleichung 9 = x^2 + b^2 nach x auflösen?
 [Proband liest die Antwort]
 [058 SPOKEN]
 [058.1]    Okay, jetzt soll ich die Gleichung nach x auflösen.
-[058.2]    Wir ziehen B rüber und ziehen die Wurzel, das heißt x ist gleich 9 minus b² und daraus die Wurzel.
+[058.2]    Wir ziehen B rüber und ziehen die Wurzel, das heißt x ist gleich 9 minus b^2 und daraus die Wurzel.
 [Proband schreibt eine neue Nachricht]
 [059 WRITTEN]
-[059.1]    x = √(9 - b²)
+[059.1]    x = √(9 - b^2)
 [Proband widmet sich seinen handschriftlichen Notizen]
 [060 SPOKEN]
 [060.1]    Okay, das Ganze jetzt umgestellt. Ich schreibe es mir wieder auf.
-[060.2]    x gleich 9 minus b² und daraus die Wurzel.
+[060.2]    x gleich 9 minus b^2 und daraus die Wurzel.
 [061 LLM]
     <think>Der Benutzer hat die Gleichung korrekt nach x aufgelöst.
 
     Bisherige Hinweise:
-    1. Die Gleichung lautet: x = √(9 - b²).
+    1. Die Gleichung lautet: x = √(9 - b^2).
     2. Der Benutzer hat die Wurzel verwendet, um nach x aufzulösen.
 
     Nächster Lösungsschritt:
@@ -452,7 +452,7 @@ GROUP: E
 [062 SPOKEN]
 [062.1]    So, kannst du den Wert von x bestimmen? Denk daran, dass b eine Länge ist und daher positiv sein muss.
 [062.2]    Kannst du den Wert von x bestimmen? Denk daran, dass b eine Länge ist und daher positiv sein muss.
-[062.3]    Ich meine, wir haben da immer noch ein b² dran, das heißt ... Was hatten wir denn vorher an Formeln?
+[062.3]    Ich meine, wir haben da immer noch ein b^2 dran, das heißt ... Was hatten wir denn vorher an Formeln?
 [062.4]    Was haben wir uns den vorher aufgeschrieben noch?
 [062.5]    Wir haben dann im Prinzip nur unsere Quadratseiten.
 [062.6]    Dann das b eine Länge ist und daher positiv sein muss.
@@ -465,9 +465,9 @@ GROUP: E
 [062.13]    Oder ich vertue mich jetzt komplett ...
 [062.14]    Das heißt, hier kennen wir die Einschränkungen, haben wir das Ganze auch nach a gemacht.
 [062.15]    Okay, wir haben ja noch die Formel, da ist a ...
-[062.16]    a ist gleich Wurzel aus b² plus 27, das heißt, wir haben theoretisch da 0 oder 9 drin.
+[062.16]    a ist gleich Wurzel aus b^2 plus 27, das heißt, wir haben theoretisch da 0 oder 9 drin.
 [062.17]    Also als Minimum, wenn man jetzt mal das einschließen würde, hätte man die 0 oder 9.
-[062.18]    Das heißt, a ist eigentlich größer als die Wurzel aus 27 und kleiner als die Wurzel aus 36, weil das 27 plus das Maximum von b² wäre.
+[062.18]    Das heißt, a ist eigentlich größer als die Wurzel aus 27 und kleiner als die Wurzel aus 36, weil das 27 plus das Maximum von b^2 wäre.
 [062.19]    Damit haben wir es ein bisschen eingeschränkt, aber können wir es damit sinnvoll lösen.
 [062.20]    Ich mal mir das Ganze jetzt nochmal auf.
 [Nutzer beginnt Notizen auf einem neuen Blatt]
@@ -477,9 +477,9 @@ GROUP: E
 [062.24]    Das Ding ist 6, das Ding ist 3.
 [062.25]    Und wir wissen für a, dass die Wurzel aus 27 größer als die Wurzel aus 27 und kleiner als die Wurzel aus 36, also kleiner als 6.
 [062.26]    Und bei b wissen wir, dass es größer als 0 ist und kleiner als 3.
-[062.27]    Und wir wissen, dass a ist die Wurzel aus b² plus 27 und für X ist gleich Wurzel 9 minus b².
+[062.27]    Und wir wissen, dass a ist die Wurzel aus b^2 plus 27 und für X ist gleich Wurzel 9 minus b^2.
 [062.28]    So und wir haben von vorher noch unsere beiden Pythagoras Formeln.
-[062.29]    Da haben wir 6² gleich X² plus a² und wir haben 3² gleich X² plus b².
+[062.29]    Da haben wir 6^2 gleich X^2 plus a^2 und wir haben 3^2 gleich X^2 plus b^2.
 [062.30]    Das ganze hatten wir jetzt schon mal umgestellt und kann man da jetzt sinnvoll irgendwas einsetzen?
 [062.31]    Wahrscheinlich eher weniger. Kann man das Ding jetzt erraten?
 [062.32]    Oder muss ich versuchen, Werte für a und b zu finden?
@@ -495,7 +495,7 @@ GROUP: E
     <think>Der Benutzer hat erkannt, dass b eine positive Länge ist und daher bestimmte Bedingungen erfüllen muss.
 
     Bisherige Hinweise:
-    1. Die Gleichung lautet: x = √(9 - b²).
+    1. Die Gleichung lautet: x = √(9 - b^2).
     2. Der Benutzer hat die Einschränkungen für b bestimmt: 0 < b < 3.
 
     Nächster Lösungsschritt:
@@ -513,7 +513,7 @@ GROUP: E
     <think>Der Benutzer hat die Einschränkungen für x richtig erkannt.
 
     Bisherige Hinweise:
-    1. Die Gleichung lautet: x = √(9 - b²).
+    1. Die Gleichung lautet: x = √(9 - b^2).
     2. Der Benutzer hat die Einschränkungen für x bestimmt: 0 < x < 3.
 
     Nächster Lösungsschritt:
@@ -526,9 +526,9 @@ GROUP: E
 [068.3]    Nächste Lösungsschritt der Nutzer. Kann nur die möglichen Werte für X aus den gebenen Optionen (A) 2, (B) 4, (C) 5, (D) 7, (E) 8. Ah, okay.
 [068.4]    Das heißt, wir müssen, weil es kleiner als 3 sein muss, bleibt nur die Antwort 2.
 [068.5]    Könnte das jetzt noch Spaß sein, mal versuchen nachzurechnen, aber tun wir das.
-[068.6]    2 gleich Wurzel 9 minus b². Das heißt, da muss ja im Prinzip 4 in die Wurzel rauskommen.
-[068.7]    Das heißt, b² ist 5, also b ist gleich Wurzel aus 5.
-[068.8]    A haben wir ja da drüben mit a gleich b², also A gleich Wurzel aus b² plus 27.
+[068.6]    2 gleich Wurzel 9 minus b^2. Das heißt, da muss ja im Prinzip 4 in die Wurzel rauskommen.
+[068.7]    Das heißt, b^2 ist 5, also b ist gleich Wurzel aus 5.
+[068.8]    A haben wir ja da drüben mit a gleich b^2, also A gleich Wurzel aus b^2 plus 27.
 [068.9]    Das heißt, A gleich Wurzel aus 5 plus 27, das ist 32.
 [068.10]    Und jetzt könnte man wahrscheinlich den Rechts dann da nachrechnen, sollte ja zumindest einmal irgendwie aufgehen, dass 6 Quadrat gleich X Quadrat, was ja 2 wäre, das heißt 4 plus Wurzel 32 Quadrat, also plus 32.
 [068.11]    Und wie schön es geht auf, weil 36 ist gleich 4 plus 32.

@@ -22,7 +22,7 @@ GROUP: B
 
     Die allgemeine Formel für den Abstand d eines Punktes P(x₀, y₀) zur Geraden ax + by + c = 0 lautet:
 
-    d = |ax₀ + by₀ + c| / √(a² + b²)
+    d = |ax₀ + by₀ + c| / √(a^2 + b^2)
 
     In deinem Fall ist die Linie AB gegeben und der Mittelpunkt des Kreises O hat einen Radius von 5. Die Länge der Linie AB beträgt 8.
 
@@ -78,11 +78,11 @@ GROUP: B
        - Da AB eine Sehne des Kreises ist, kann man den Satz des Pythagoras verwenden, um den Abstand d vom Mittelpunkt zur Linie AB zu berechnen.
        - Die Länge der Sehne AB ist 8, und der Radius des Kreises ist 5.
        - Der Abstand d vom Mittelpunkt zur Mitte der Sehne AB kann mit folgender Formel berechnet werden:
-         (AB/2)² + d² = r²
-         (8/2)² + d² = 5²
-         4² + d² = 25
-         16 + d² = 25
-         d² = 9
+         (AB/2)^2 + d^2 = r^2
+         (8/2)^2 + d^2 = 5^2
+         4^2 + d^2 = 25
+         16 + d^2 = 25
+         d^2 = 9
          d = √9 = 3
 
     ### Ergebnis:
@@ -151,8 +151,8 @@ GROUP: B
 
     Jetzt können wir die Gleichungen aufstellen:
 
-    - Für das Dreieck ACP: AC² = AP² + CP² → 6² = x² + CP²
-    - Für das Dreieck BCP: BC² = PB² + CP² → 3² = y² + CP²
+    - Für das Dreieck ACP: AC^2 = AP^2 + CP^2 → 6^2 = x^2 + CP^2
+    - Für das Dreieck BCP: BC^2 = PB^2 + CP^2 → 3^2 = y^2 + CP^2
 
     Da AB = x + y, können wir die Gleichungen kombinieren, um CP zu finden.
 
@@ -180,19 +180,19 @@ GROUP: B
     AB = x + y
 
     Wir wissen auch, dass:
-    AC² = AP² + CP²
-    BC² = PB² + CP²
+    AC^2 = AP^2 + CP^2
+    BC^2 = PB^2 + CP^2
 
     Wir können diese Gleichungen kombinieren, um eine Beziehung zwischen x und y zu finden. Hier ist ein Hinweis:
 
     1. Subtrahiere die zweite Gleichung von der ersten:
-       AC² - BC² = AP² - PB²
-       6² - 3² = x² - y²
+       AC^2 - BC^2 = AP^2 - PB^2
+       6^2 - 3^2 = x^2 - y^2
 
     2. Vereinfache die linke Seite:
-       (6 - 3)(6 + 3) = x² - y²
-       3 · 9 = x² - y²
-       27 = x² - y²
+       (6 - 3)(6 + 3) = x^2 - y^2
+       3 · 9 = x^2 - y^2
+       27 = x^2 - y^2
 
     3. Faktorisiere die rechte Seite:
        27 = (x - y)(x + y)
@@ -213,15 +213,15 @@ GROUP: B
 [Proband sendet Nachricht]
 [024 WRITTEN]
 [024.1]    Das ist mein LGS. löse es mir auf und berechne die lösungen für x,y, CP
-[024.2]    36 = x² + CP²
-[024.3]    9 = y² + CP²
+[024.2]    36 = x^2 + CP^2
+[024.3]    9 = y^2 + CP^2
 [024.4]    27 = (x-y)(x+y)
 [025 LLM]
     Ich kann das Gleichungssystem nicht direkt lösen, aber ich kann dir helfen, es Schritt für Schritt zu lösen.
 
     1. **Subtrahiere die zweite Gleichung von der ersten**:
-       36 - 9 = x² + CP² - (y² + CP²)
-       27 = x² - y²
+       36 - 9 = x^2 + CP^2 - (y^2 + CP^2)
+       27 = x^2 - y^2
 
     2. **Faktorisiere die rechte Seite**:
        27 = (x - y)(x + y)
@@ -245,9 +245,9 @@ GROUP: B
        y = (AB - 27/AB) / 2
 
     8. **Jetzt kannst du CP mit einer der ursprünglichen Gleichungen finden**. Verwende zum Beispiel die zweite Gleichung:
-       9 = y² + CP²
-       CP² = 9 - y²
-       CP = √(9 - y²)
+       9 = y^2 + CP^2
+       CP^2 = 9 - y^2
+       CP = √(9 - y^2)
 
     Kannst du diese Schritte durchführen, um die Werte von x, y und CP zu finden?
 [Proband liest Nachricht]
@@ -264,18 +264,18 @@ GROUP: B
     Um das Gleichungssystem weiter zu lösen, können wir die Werte von x und y verwenden, die wir in den vorherigen Schritten gefunden haben.
 
     1. **Ersetze y in der Gleichung für CP**:
-       CP = √(9 - y²)
+       CP = √(9 - y^2)
 
     2. **Setze den Ausdruck für y ein**:
        y = (AB - 27/AB) / 2
-       y² = ((AB - 27/AB) / 2)²
+       y^2 = ((AB - 27/AB) / 2)^2
 
     3. **Vereinfache den Ausdruck für CP**:
-       CP = √(9 - ((AB - 27/AB) / 2)²)
+       CP = √(9 - ((AB - 27/AB) / 2)^2)
 
     4. **Berechne AB mit dem Satz des Pythagoras**:
-       AB = √(AC² + BC²)
-       AB = √(6² + 3²)
+       AB = √(AC^2 + BC^2)
+       AB = √(6^2 + 3^2)
        AB = √(36 + 9)
        AB = √45
        AB = 3√5
@@ -283,7 +283,7 @@ GROUP: B
     5. **Ersetze AB in den Ausdrücken für x, y und CP**:
        x = (3√5 + 27/(3√5)) / 2
        y = (3√5 - 27/(3√5)) / 2
-       CP = √(9 - ((3√5 - 27/(3√5)) / 2)²)
+       CP = √(9 - ((3√5 - 27/(3√5)) / 2)^2)
 
     Kannst du diese Schritte durchführen, um die Werte von x, y und CP zu finden?
 [Proband liest die Antwort]

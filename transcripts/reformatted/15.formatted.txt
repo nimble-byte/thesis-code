@@ -24,7 +24,7 @@ GROUP: E
 [002.13]    Wie groß ist die Distanz von der Mitte des Kreises zu Linie AB?
 [002.14]    Okay.
 [002.15]    Also mir kommt der Gedanke hoch, man weiß ungefähr die Fläche auszurichten.
-[002.16]    Das ist r² mal Pi, wenn ich mich nicht recht täusche.
+[002.16]    Das ist r^2 mal Pi, wenn ich mich nicht recht täusche.
 [002.17]    Ich würde den Chatbot einmal dies fragen.
 [002.18]    Ich würde eher den Radius [vermutlich Umfang gemeint] abfragen, wie die Formel ist.
 [Proband schreibt eine Nachricht]
@@ -198,7 +198,7 @@ GROUP: E
 [028.3]    Okay, der Chat erklärt mir, ich hätte quasi ein rechtwinkliges Dreieck, wenn ich quasi vom einen Punkt, also vom Abstand 0, noch eine Linie quasi durchziehe.
 [028.4]    Das erleichtert mir ein bisschen. Also theoretisch hatte ich der Radius 5, das ist quasi die Hypotenuse, das macht Sinn.
 [028.5]    Die Hälfte der Sehne liegt bei 4, also quasi die untere Seite, also vom B oder A zum genauen Mittelpunkt und der gesuchte senkrechte Abstand ist die Kathete und die versuche ich gerade herauszufinden.
-[028.6]    Der Chatbot rät mir dazu, den Satz des Pythagoras zu nutzen. Das wäre aus meinem Kopf, was ich noch habe, A² plus B², vielleicht C².
+[028.6]    Der Chatbot rät mir dazu, den Satz des Pythagoras zu nutzen. Das wäre aus meinem Kopf, was ich noch habe, A^2 plus B^2, vielleicht C^2.
 [028.7]    Ich werde den Chat nochmal fragen, welche der Variablen war, welche Seite war die Hypotenuse, die Kathete und die andere Linie.
 [Proband schreibt eine Nachricht]
 [029 WRITTEN]
@@ -216,7 +216,7 @@ GROUP: E
     - Die beiden Katheten werden oft mit den Buchstaben a und b bezeichnet.
 
     Der Satz des Pythagoras besagt dann, dass:
-    a² + b² = c²
+    a^2 + b^2 = c^2
 
     In unserem speziellen Fall:
     - Der Radius des Kreises (5) ist die Hypotenuse (c).
@@ -261,7 +261,7 @@ GROUP: E
     3. **Identifiziere die andere Kathete**: Die andere Kathete ist der senkrechte Abstand vom Mittelpunkt O zur Sehne AB. Dieser Abstand ist die Strecke, die wir berechnen möchten.
 
     Jetzt hast du alle Seiten des rechtwinkligen Dreiecks identifiziert. Wie würdest du den Satz des Pythagoras verwenden, um den gesuchten senkrechten Abstand zu berechnen? Denk daran, dass der Satz des Pythagoras besagt:
-    (Hälfte der Sehne)² + (senkrechter Abstand)² = (Radius)²
+    (Hälfte der Sehne)^2 + (senkrechter Abstand)^2 = (Radius)^2
 
     Vielleicht könntest du die Gleichung aufstellen und dann nach dem gesuchten senkrechten Abstand auflösen!
 [Proband liest die Antwort]
@@ -269,9 +269,9 @@ GROUP: E
 [036.1]    Okay, der Chatbot gibt mir gerade die Formel durch, der Satz des Pythagoras, das habe ich schon aufgeschrieben.
 [036.2]    Er erklärt mir auch, wie ich mir die ganzen Variablen definieren kann. Die Hypotenuse, die Kathete und die andere Kathete, die quasi von unten vom Mittelpunkt zum jeweiligen Sehnen führt.
 [Proband macht Notizen]
-[036.3]    Ich schreibe es ihm jetzt nochmal auf. Die Hälfte der Sehne, das wäre dann 4². Denkrichterabstand, das wäre dann b². Der Radius wäre dann 5.
-[036.4]    Ich gehe quasi von 4² plus b² auf der einen Seite stehen und 5² auf der anderen Seite.
-[036.5]    Ich gehe hier rüber, 4² also. Das wäre dann nur 1². Wenn man die Wurzel zieht, dann hätten wir eher nur 1². Macht aber auch so auch keinen Sinn.
+[036.3]    Ich schreibe es ihm jetzt nochmal auf. Die Hälfte der Sehne, das wäre dann 4^2. Denkrichterabstand, das wäre dann b^2. Der Radius wäre dann 5.
+[036.4]    Ich gehe quasi von 4^2 plus b^2 auf der einen Seite stehen und 5^2 auf der anderen Seite.
+[036.5]    Ich gehe hier rüber, 4^2 also. Das wäre dann nur 1^2. Wenn man die Wurzel zieht, dann hätten wir eher nur 1^2. Macht aber auch so auch keinen Sinn.
 [036.6]    Deshalb mache ich das nochmal, weil wir auch noch das Quadrat von b haben. Das macht aber keinen Sinn. Er steht auch nicht in den Möglichkeiten, also ist der eine Abstand immer noch falsch.
 [036.7]    Ich werde den Chatbot nochmal erklären.
 [037 RESEARCHER]
@@ -285,9 +285,9 @@ GROUP: E
 [040.1]    Also von den Variablen macht das ja auch keinen Sinn.
 [Proband macht Notizen]
 [040.2]    Das ist wahrscheinlich möglich. Ich versuche gerade die Quadrate auszulösen von jeder Zahl.
-[040.3]    Ich komme gerade auf den Kopf. Schreib mir mal auf. Das wäre dann 16². 25 wäre dann 5². Das wäre also 16 plus b². Gleich 25².
+[040.3]    Ich komme gerade auf den Kopf. Schreib mir mal auf. Das wäre dann 16^2. 25 wäre dann 5^2. Das wäre also 16 plus b^2. Gleich 25^2.
 [040.4]    Und davon die Wurzel ziehen. Jetzt erkenne ich meinen Fehler. Ich hatte nämlich den einen Punkt, trotzdem die Wurzel zu ziehen, habe ich nicht mitgezählt.
-[040.5]    Zuerst ziehe ich aber 16, was mit dem b² rüber. Das wäre dann bei 9. Dann ziehen wir davon die Wurzel, weil wir immer noch das Quadrat von b haben. Dann sind wir bei 3.
+[040.5]    Zuerst ziehe ich aber 16, was mit dem b^2 rüber. Das wäre dann bei 9. Dann ziehen wir davon die Wurzel, weil wir immer noch das Quadrat von b haben. Dann sind wir bei 3.
 [040.6]    Das gibt es als Beantwortungsmöglichkeit.
 [041 RESEARCHER]
     Jetzt sind wir bei der Aufgabe angekommen, die wir mal ersetzen.

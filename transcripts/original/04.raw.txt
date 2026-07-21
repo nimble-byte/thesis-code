@@ -244,10 +244,10 @@ Proband:
     Und dann ist es nur noch Geometrie schwierig. Okay, Pythagoras.
     Das heißt, AC halbe sind sechs, BD halbe sind acht, Pythagoras habe ich so gesehen, ich habe 90 Grad.
     Das war die Fläche, ich will nicht die Fläche haben.
-    Dann habe ich das, 6a² plus b² sind c², Wurzel daraus ziehen sind 10, müsste hier sein.
+    Dann habe ich das, 6a^2 plus b^2 sind c^2, Wurzel daraus ziehen sind 10, müsste hier sein.
     Aber weil wir ja eine schöne KI haben, fragen wir das trotzdem lieber nochmal nach.
 [Proband beginnt eine Nachricht zu schreiben]
-    Mittels a² plus b² gleich c² habe ich c² gleich 100 erhalten.
+    Mittels a^2 plus b^2 gleich c^2 habe ich c^2 gleich 100 erhalten.
     Die Wurzel, also c, ist somit 10. Stimmt dies, sollte passen, aber so falsch sieht es nicht aus.
 Proband (schriftlich):
     Mein Ergebnis ist 10. Mittels a^2 +b^2 =c^2 habe ich c^2 = 100 erhalten. Die Wurzel also c ist somit 10. Stimmt dies?

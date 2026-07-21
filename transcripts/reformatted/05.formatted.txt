@@ -187,7 +187,7 @@ GROUP: B
 
     3. **Anwendung des Satzes des Pythagoras**:
        - Im rechtwinkligen Dreieck AOB können Sie den Satz des Pythagoras verwenden, um die Länge von AB zu finden.
-       - Der Satz des Pythagoras besagt: AB² = AO² + BO².
+       - Der Satz des Pythagoras besagt: AB^2 = AO^2 + BO^2.
 
     Jetzt können Sie diese Informationen verwenden, um die Länge der Seite AB zu berechnen. Wenn Sie auf ein Hindernis stoßen oder weitere Hilfe benötigen, lassen Sie es mich wissen!
 [Proband liest die Antwort und murmelt vor sich hin]

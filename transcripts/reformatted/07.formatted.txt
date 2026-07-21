@@ -15,7 +15,7 @@ GROUP: E
 [002.5]    mit 5 und 5. Die Hypotenuse ist 8. Ich will die Geschichte haben.
 [Proband indiziert die Höhe des Dreiecks]
 [002.6]    Okay, die Hälfte von AB ist 4. Damit habe ich ein rechtwinkliges Dreieck.
-[002.7]    Die Formel, die ich lösen möchte ist x² plus 4² ist gleich 5².
+[002.7]    Die Formel, die ich lösen möchte ist x^2 plus 4^2 ist gleich 5^2.
 [002.8]    Das ist die klassische Geschichte.
 [002.9]    Also ich bin auf x gleich 3.
 [TASK: 599 | DIFFICULTY: hard]

@@ -20,7 +20,7 @@ GROUP: B
 
     1. **Punkte identifizieren**: Hast du die Koordinaten der beiden Punkte, die du verbinden möchtest? Diese sind normalerweise als (x₁, y₁) und (x₂, y₂) gegeben.
 
-    2. **Kreisgleichung**: Weißt du, wie die Gleichung des Kreises aussieht? Normalerweise hat sie die Form (x - a)² + (y - b)² = r², wobei (a, b) der Mittelpunkt und r der Radius ist.
+    2. **Kreisgleichung**: Weißt du, wie die Gleichung des Kreises aussieht? Normalerweise hat sie die Form (x - a)^2 + (y - b)^2 = r^2, wobei (a, b) der Mittelpunkt und r der Radius ist.
 
     3. **Geradengleichung**: Um die Linie zwischen den beiden Punkten zu finden, musst du die Gleichung der Geraden bestimmen, die durch diese Punkte verläuft. Weißt du, wie man die Gleichung einer Geraden durch zwei Punkte aufstellt?
 
@@ -89,7 +89,7 @@ GROUP: B
 
     2. **Mittelpunkt des Kreises**: Weißt du, wo sich der Mittelpunkt des Kreises befindet? Normalerweise ist er als (a, b) gegeben.
 
-    3. **Abstandsformel anwenden**: Der Abstand d einer Geraden Ax + By + C = 0 vom Punkt (a, b) kann mit der Formel d = |A·a + B·b + C| / √(A² + B²) berechnet werden.
+    3. **Abstandsformel anwenden**: Der Abstand d einer Geraden Ax + By + C = 0 vom Punkt (a, b) kann mit der Formel d = |A·a + B·b + C| / √(A^2 + B^2) berechnet werden.
 
     Hast du die Gleichung der Geraden und den Mittelpunkt des Kreises? Wenn ja, versuche zunächst, die Werte in die Abstandsformel einzusetzen. Brauchst du Hilfe dabei?
 
@@ -144,7 +144,7 @@ GROUP: B
     2. **Mittelpunkt identifizieren**: Stelle sicher, dass du die Koordinaten des Mittelpunkts O kennst.
 
     3. **Abstandsformel anwenden**: Verwende die Abstandsformel, um den Abstand der Geraden AB vom Punkt O zu berechnen. Die Formel lautet:
-       d = |Ax₀ + By₀ + C| / √(A² + B²)
+       d = |Ax₀ + By₀ + C| / √(A^2 + B^2)
        wobei (x₀, y₀) die Koordinaten des Mittelpunkts O sind und Ax + By + C = 0 die Geradengleichung von AB ist.
 
     Kannst du mir sagen, welche Koordinaten für die Punkte A, B und den Mittelpunkt O gegeben sind? Wenn ja, versuche zunächst, die Gleichung der Geraden AB zu bestimmen. Brauchst du Hilfe dabei?
@@ -163,7 +163,7 @@ GROUP: B
 
     2. **Satz des Pythagoras anwenden**:
        - Der Radius r bildet die Hypotenuse eines rechtwinkligen Dreiecks, dessen eine Kathete die Hälfte der Sehnenlänge AB/2 und die andere Kathete der Abstand d vom Mittelpunkt zur Sehne ist.
-       - Die Beziehung lautet: (AB/2)² + d² = r².
+       - Die Beziehung lautet: (AB/2)^2 + d^2 = r^2.
 
     3. **Abstand berechnen**: Löse die Gleichung nach d auf, um den Abstand zu finden.
 
@@ -185,8 +185,8 @@ GROUP: B
 [036.6]    Die Länge der Strecke ist 8.
 [036.7]    Die Radius ist 5.
 [036.8]    Ich brauche die andere Kathete.
-[036.9]    Also. a² + b² = c². Wir brauchen a², was weiß ich.
-[036.10]    Also haben wir a² = c² - b². Dann haben wir a = Wurzel aus dem Radius ins Quadrat minus die Hälfte der Strecke ins
+[036.9]    Also. a^2 + b^2 = c^2. Wir brauchen a^2, was weiß ich.
+[036.10]    Also haben wir a^2 = c^2 - b^2. Dann haben wir a = Wurzel aus dem Radius ins Quadrat minus die Hälfte der Strecke ins
 [036.11]    Fangen wir mal an zu rechnen.
 [036.12]    Schon wieder aus.
 [036.13]    5 Quadrat - 4 Quadrat. Und das ist. Ja die Wurzel ist 3.

@@ -269,7 +269,7 @@ GROUP: E
 [055.1]    Ja es ist ein rechtwinkliges Dreieck. Wie lautet der Satz des Pythagoras?
 [056 LLM]
     <think>Der Benutzer hat bestätigt, dass es sich um ein rechtwinkliges Dreieck handelt und fragt nach dem Satz des Pythagoras. Der nächste Schritt ist zu erklären, was der Satz des Pythagoras besagt.</think>
-    Der Satz des Pythagoras lautet: In einem rechtwinkligen Dreieck ist das Quadrat über der Hypotenuse (der Seite gegenüber dem rechten Winkel) gleich der Summe der Quadrate über den beiden Katheten (den anderen beiden Seiten). Mathematisch ausgedrückt: a² + b² = c², wobei c die Hypotenuse und a und b die anderen beiden Seiten sind.
+    Der Satz des Pythagoras lautet: In einem rechtwinkligen Dreieck ist das Quadrat über der Hypotenuse (der Seite gegenüber dem rechten Winkel) gleich der Summe der Quadrate über den beiden Katheten (den anderen beiden Seiten). Mathematisch ausgedrückt: a^2 + b^2 = c^2, wobei c die Hypotenuse und a und b die anderen beiden Seiten sind.
 
     Wie würdest du diese Formel anwenden, um die Länge der dritten Seite zu berechnen?
 [Proband liest die Antwort]

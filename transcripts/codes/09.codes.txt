@@ -115,4 +115,4 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 
 [028.1] PROCESS: Performing calculation | IV: "das passt schon mal nicht"
 [028.2] PROCESS: Identifying own calculation error | IV: "die Quadrate glaube ich vergessen"
-[028.3] PROCESS: Correcting calculation and confirming result | IV: "6² plus 8² ist dann 10, ja und dann kommt es auch hin"
+[028.3] PROCESS: Correcting calculation and confirming result | IV: "6^2 plus 8^2 ist dann 10, ja und dann kommt es auch hin"

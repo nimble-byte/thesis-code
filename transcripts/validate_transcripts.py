@@ -245,14 +245,6 @@ def has_math(text: str) -> bool:
     return bool(MATH_RE.search(text))
 
 
-_SUPERSCRIPTS = str.maketrans('0123456789', '⁰¹²³⁴⁵⁶⁷⁸⁹')
-
-def normalize_math(text: str) -> str:
-    """Collapse whitespace and convert ASCII exponents (^N, ^{N}) to Unicode superscripts."""
-    text = re.sub(r'\^\{?(\d+)\}?', lambda m: m.group(1).translate(_SUPERSCRIPTS), text)
-    return re.sub(r'\s+', '', text)
-
-
 # ─── Validation checks ────────────────────────────────────────────────────────
 
 def check_header_metadata(ref: ReformattedFile, csv_row: dict) -> list:
@@ -330,14 +322,9 @@ def check_content_completeness(raw: RawFile, ref: ReformattedFile) -> list:
     for channel in ('SPOKEN', 'WRITTEN', 'RESEARCHER'):
         raw_items = collect_raw_content(raw.turns, channel)   # [(line_num, text)]
         ref_set = set(collect_ref_content(ref.turns, channel))
-        norm_ref_set: set = set()  # built lazily on first mismatch
         for line_num, line in raw_items:
             if line in ref_set:
                 continue
-            if not norm_ref_set:
-                norm_ref_set = {normalize_math(r) for r in ref_set}
-            if normalize_math(line) in norm_ref_set:
-                continue  # matches after math normalization — OK
             preview = (line[:80] + '…') if len(line) > 80 else line
             level = "WARN" if has_math(line) else "FAIL"
             issues.append(f"{level} [{channel}] raw line {line_num}: {preview!r}")

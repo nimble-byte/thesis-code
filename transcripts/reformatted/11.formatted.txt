@@ -136,10 +136,10 @@ GROUP: B
        - AP = PB, weil OP senkrecht auf AB steht und somit der Mittelpunkt von AB ist.
 
     3. **Wende den Satz des Pythagoras an**: Im rechtwinkligen Dreieck OAP gilt:
-       OA² = OP² + AP²
+       OA^2 = OP^2 + AP^2
        Da OA = 5, kannst du schreiben:
-       5² = OP² + AP²
-       25 = OP² + AP²
+       5^2 = OP^2 + AP^2
+       25 = OP^2 + AP^2
 
     4. **Bestimme AP**: Da AB eine Sekante ist und O der Mittelpunkt des Kreises ist, kannst du die Länge von AP durch Halbieren von AB bestimmen.
 
@@ -172,10 +172,10 @@ GROUP: B
        - AP = PB, weil OP senkrecht auf AB steht und somit der Mittelpunkt von AB ist.
 
     3. **Wende den Satz des Pythagoras an**: Im rechtwinkligen Dreieck OAP gilt:
-       OA² = OP² + AP²
+       OA^2 = OP^2 + AP^2
        Da OA = 5, kannst du schreiben:
-       5² = OP² + AP²
-       25 = OP² + AP²
+       5^2 = OP^2 + AP^2
+       25 = OP^2 + AP^2
 
     4. **Bestimme AP**: Da AB eine Sekante ist und O der Mittelpunkt des Kreises ist, kannst du die Länge von AP durch Halbieren von AB bestimmen.
 
@@ -199,14 +199,14 @@ GROUP: B
        AP = AB/2 = 8/2 = 4
 
     2. **Wende den Satz des Pythagoras an**: Im rechtwinkligen Dreieck OAP gilt:
-       OA² = OP² + AP²
+       OA^2 = OP^2 + AP^2
        Da OA = 5 und AP = 4, kannst du schreiben:
-       5² = OP² + 4²
-       25 = OP² + 16
+       5^2 = OP^2 + 4^2
+       25 = OP^2 + 16
 
     3. **Löse nach OP auf**:
-       OP² = 25 - 16
-       OP² = 9
+       OP^2 = 25 - 16
+       OP^2 = 9
        OP = √9 = 3
 
     Jetzt hast du den Abstand OP berechnet. Wenn du weitere Fragen hast, lass es mich wissen! Für ein neues Problem sollst du bitte eine neue Unterhaltung erstellen.
