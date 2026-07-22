@@ -68,7 +68,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [014.18b] PROCESS: Noticing calculation-result mismatch | IV: "geht irgendwas nicht auf, weil keine der Option richtig ist"
 [014.19] PROCESS: Questioning own assumption | IV: "Vielleicht war meine Annahme falsch, dass die Sachen rechtwinklig sind"
 [014.20] PROCESS: Re-examining diagram values | IV: "ist das 6 und das 8"
-[014.21] PROCESS: Deciding to consult chatbot | IV: "Ich frage mal kurz einmal den Chatbot"
+[014.21] PROCESS: Deciding to consult chatbot for guidance | IV: "Ich frage mal kurz einmal den Chatbot"
 [014.22] PROCESS: Formulating query to chatbot | IV: "Ich berechne die Kantenlänge von einem Diamanten, wenn die Strecken zwischen den Punkten liegen"
 [014.23] PROCESS: Requesting to view task image | IV: "Kann ich das Bild nochmal anschauen?"
 

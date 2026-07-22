@@ -34,7 +34,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [007.1] PROCESS: Labeling given value in drawing | IV: "BC ist 3"
 [007.2] PROCESS: Identifying target value | IV: "letztendlich hier 6 gesucht"
 [007.3] PROCESS: Identifying target value | IV: "Die ist gesucht"
-[007.4] PROCESS: Deciding to ask for help | IV: "Da muss ich jetzt doch mal fragen"
+[007.4] PROCESS: Deciding to consult LLM for guidance | IV: "Da muss ich jetzt doch mal fragen"
 [007.5] PROCESS: Identifying needed formula | IV: "Die Formel für die Höhe"
 [007.6] PROCESS: Assessing sufficiency of given information | IV: "Ich habe hier genügend Informationen"
 [007.7] PROCESS: Expressing uncertainty about right angle | IV: "Ich weiß nicht, ob das rechtwinklig ist"

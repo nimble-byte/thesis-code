@@ -22,7 +22,7 @@ SCOPE: SPOKEN/WRITTENN channel only (omit RESEARCHER + LLM)
 [008.6] PROCESS: Commenting on Rusty Calculator Skills | IV: "mit dem Taschenrechner umgehen habe ich das schon lange nicht mehr gemacht"
 [008.7] PROCESS: Re-reading Given Values | IV: "Wenn AC die Länge 25 hat, AC ist..."
 [008.8] PROCESS: Voicing Confusion About Ratio Meaning | IV: "was heißt 2 zu 5?"
-[008.9] PROCESS: Deciding to Consult Chatbot | IV: "Fragen wir mal den Chatbot."
+[008.9] PROCESS: Deciding to ask Chatbot for clarification | IV: "Fragen wir mal den Chatbot."
 [008.10] PROCESS: Asking About Chat Session Procedure | IV: "soll ich zuerst noch mal einen neuen Chat anlegen"
 
 [010.1] PROCESS: Typing Query to Chatbot | IV: "was heit das Verhätis 2 zu 5"

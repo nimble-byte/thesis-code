@@ -12,7 +12,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 01.003.3,E,Formulating solution/question strategy,Formulating solution/question strategy,was kann ich denn fragen? Wie kann ich das lösen?,Formulating solution/question strategy
 01.003.4,E,Planning own solution approach,Planning own solution approach,"einen Weg überlegen, der gehen könnte",Planning own solution approach
 01.003.5a,E,Judging own solving capacity as insufficient,Judging own solving capacity as insufficient,nicht im Kopf hin denke ich,Judging own solving capacity as insufficient
-01.003.5b,E,Deciding to consult chatbot,Deciding to consult LLM,"überlege ich, was ich den Chatbot dazu fragen kann",Deciding to consult LLM
+01.003.5b,E,Deciding to consult chatbot for guidance,Deciding to consult LLM for guidance,"überlege ich, was ich den Chatbot dazu fragen kann",deciding to ask LLM for guidance
 01.003.6,E,Seeking mental representation of problem,Seeking mental representation of problem,Ich brauche hier eine Vorstellung,Seeking mental representation of problem
 01.003.7,E,Restating given information,Restating given information,"den Radius, der ist 5... die Entfernung dazwischen 8",restating given information
 01.003.8,E,Proposing trigonometric solution strategy,Proposing trigonometric solution strategy,"mithilfe von Winkeln und dann Cosinus, Sinus",Proposing trigonometric solution strategy
@@ -34,13 +34,13 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 01.007.11,E,Computing derived value,Computing derived value,dann 4 ist und das ist 5,Computing derived value
 01.007.12,E,Planning next calculation step,Planning next calculation step,dass ich dann irgendwie das ausrechnen kann,Planning next calculation step
 01.007.13a,E,Identifying missing information needed (angle),Identifying missing information,Ich bräuchte irgendwie den Winkel,Identifying missing information
-01.007.13b,E,Deciding to consult chatbot again (utterance cuts off),Deciding to consult LLM again (utterance cuts off),jetzt kann ich den Chatbot,Deciding to consult LLM again (utterance cuts off)
+01.007.13b,E,Deciding to consult chatbot for guidance,Deciding to consult LLM for guidance,jetzt kann ich den Chatbot,deciding to ask LLM for guidance
 01.007.14a,E,Expressing confidence in eventually solving,Expressing confidence in eventually solving,ich kriege das bestimmt auch,Expressing confidence in eventually solving
 01.007.14b,E,Valuing chatbot assistance,Valuing LLM assistance,"es ist gut, dass ich jetzt einen Chatbot habe",Valuing LLM assistance
 01.007.15a,E,Announcing attempt to formulate question,Announcing attempt to formulate question,Ich probiere jetzt mal,Announcing attempt to formulate question
 01.007.15b,E,Restating known values,Restating known values,das 5 ist und das andere ist 4,restating given information
 01.007.16a,E,Formulating question (how to obtain the angle),Formulating question (how to obtain the angle),wie kriege ich den Winkel,Formulating question (how to obtain the angle)
-01.007.16b,E,Deciding to consult chatbot,Deciding to consult LLM,Ich frage den einfach mal,Deciding to consult LLM
+01.007.16b,E,Deciding to consult chatbot for guidance,Deciding to consult LLM for guidance,Ich frage den einfach mal,deciding to ask LLM for guidance
 01.007.17,E,Dictating chatbot question — restating givens and triangle setup,Dictating LLM question — restating givens and triangle setup,ein Dreieck mit zwei bekannten Längen,Dictating LLM question — restating givens and triangle setup
 01.007.18,E,Dictating chatbot question — reasoning about required third side,Dictating LLM question — reasoning about required third side,muss nur noch die Länge der dritten Seite herausfinden,Dictating LLM question — reasoning about required third side
 01.009.1,E,Submitting question to chatbot (how to determine the angle),Submitting question to LLM (how to determine the angle),wie kann ich den winkel ywischen OB und AB aus diesen informationen bestimmen,Submitting question to LLM (how to determine the angle)
@@ -51,7 +51,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 01.011.5,E,Identifying triangle side (hypotenuse),Identifying triangle side (hypotenuse),Das eine ist die Hypotenuse OB,Identifying triangle side (hypotenuse)
 01.011.6,E,Assessing own rusty trigonometry knowledge,Assessing own rusty trigonometry knowledge,Ein bisschen eingerostet hier,Assessing own rusty trigonometry knowledge
 01.011.7a,E,Recalling trigonometric formula (cosine),Recalling trigonometric formula (cosine),Cosinus ist Ankathete durch Hypotenuse,Recalling trigonometric formula (cosine)
-01.011.7b,E,Deciding to apply arccosine,Deciding to apply arccosine,ich mache den Arcus Cosinus,Deciding to apply arccosine
+01.011.7b,E,Deciding to apply arccosine,Deciding to apply arccosine,ich mache den Arcus Cosinus,deciding next solution step
 01.011.8,E,Executing trigonometric calculation,Executing trigonometric calculation,"das ist 0,6435",Executing trigonometric calculation
 01.011.9,E,Recognizing unit error (radians vs. degrees),Recognizing unit error (radians vs. degrees),das ist jetzt Bogenmaß gerade,Recognizing unit error (radians vs. degrees)
 01.011.10a,E,Computing angle in degrees,Computing angle in degrees,"36,869 Grad",Computing angle in degrees
@@ -73,7 +73,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 02.008.6,B,Commenting on Rusty Calculator Skills,Commenting on Rusty Calculator Skills,mit dem Taschenrechner umgehen habe ich das schon lange nicht mehr gemacht,Commenting on Rusty Calculator Skills
 02.008.7,B,Re-reading Given Values,Re-reading given values,"Wenn AC die Länge 25 hat, AC ist...",Re-reading given values
 02.008.8,B,Voicing Confusion About Ratio Meaning,Voicing Confusion About Ratio Meaning,was heißt 2 zu 5?,Voicing Confusion About Ratio Meaning
-02.008.9,B,Deciding to Consult Chatbot,Deciding to consult LLM,Fragen wir mal den Chatbot.,Deciding to consult LLM
+02.008.9,B,Deciding to ask Chatbot for clarification,Deciding to ask LLM for clarification,Fragen wir mal den Chatbot.,deciding to ask LLM for information
 02.008.10,B,Asking About Chat Session Procedure,Asking About Chat Session Procedure,soll ich zuerst noch mal einen neuen Chat anlegen,Asking About Chat Session Procedure
 02.010.1,B,Typing Query to Chatbot,Typing Query to LLM,was heit das Verhätis 2 zu 5,Typing Query to LLM
 02.012.1,B,Reading Chatbot Response Aloud,Reading LLM response aloud,"Das Verhältnis von 2 zu 5 bedeutet, dass die Teile in Bezug auf 5 Teile gesetzt werden.",Reading LLM response aloud
@@ -110,7 +110,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 02.020.2,B,Trailing Off Into Silent Thought,Trailing Off Into Silent Thought,regelmäßiges Sechseck wird da vorne...,Trailing Off Into Silent Thought
 02.022.2,B,Re-orienting to Task via Key Term Repetition,Re-orienting to Task via Key Term Repetition,Regelmäßiges Sechseck.,Re-orienting to Task via Key Term Repetition
 02.022.4,B,Identifying Shape in Diagram,Identifying Shape in Diagram,das Parallelogramm,Identifying Shape in Diagram
-02.022.5,B,Deciding to Consult Chatbot for Angle Property,Deciding to Consult LLM for Angle Property,ob es einen festen Winkel für einen regelmäßigen Sechseck gibt,Deciding to Consult LLM for Angle Property
+02.022.5,B,Deciding to Consult Chatbot for Angle Property,Deciding to Consult LLM for Angle Property,ob es einen festen Winkel für einen regelmäßigen Sechseck gibt,deciding to ask LLM for information
 02.022.6,B,Formulating Question for Chatbot,Formulating question for LLM,haben alle Ecken in einem regelmäßigen Sechseck den gleichen Winkel?,Formulating question for LLM
 02.023.1,B,Typing Query to Chatbot,Typing Query to LLM,haben alle Ecken in einem regelmäßigen Sechseck den gleichen Winkel?,Typing Query to LLM
 02.025.1,B,Reading Chatbot Response Aloud,Reading LLM response aloud,Das ist eine interessante Frage,Reading LLM response aloud
@@ -147,7 +147,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 03.002.1,B,Announcing task-reading strategy,Announcing task reading,dann lese ich mir erstmal die Aufgabenstellung durch,Announcing task reading
 03.002.2,B,Extracting given information from problem statement,Extracting given information,Abstand vom Mittelpunkt bis zum Rand ist fünf,Extracting given information
 03.002.3,B,Interpreting problem geometry,Interpreting problem geometry,irgendwo auf im Bereich der Linie wird das quasi gekreuzt von Linie AB,Interpreting problem geometry
-03.002.4,B,Deciding to consult LLM due to knowledge gap,Deciding to consult LLM due to knowledge gap,mir da jetzt so keine Formel bekannt,Deciding to consult LLM due to knowledge gap
+03.002.4,B,Deciding to consult LLM due to knowledge gap,Deciding to consult LLM due to knowledge gap,mir da jetzt so keine Formel bekannt,deciding to ask LLM for information
 03.002.5,B,Announcing intent to share problem statement with LLM,Announcing intent to share problem statement with LLM,gebe ich ihm die Aufgabenstellung mit,Announcing intent to share problem statement with LLM
 03.003.1,B,Requesting solution formula from LLM,Requesting solution formula from LLM,hast du eine Idee mit welcher formel ich diese Aufgabe lösen kann?,Requesting solution formula from LLM
 03.005.1,B,Rejecting LLM's suggested approach,Rejecting LLM's suggested approach,Abstand punkt gerade hilft glaube ich nicht,Rejecting LLM's suggested approach
@@ -167,17 +167,17 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 03.008.8,B,Stating computed result,Stating computed result,das sind dann drei,Stating computed result
 03.008.9,B,Transitioning to next task,Transitioning to next task,Neue Aufgabe wieder lesen.,Transitioning to next task
 03.009.1,B,Interpreting task requirements for perpendicular construction,Interpreting task requirements for perpendicular construction,rechtwinklig auf A und B liegt,Interpreting task requirements for perpendicular construction
-03.009.2,B,Deciding to request general approach from LLM,Deciding to request general approach from LLM,ob er da so einen allgemeinen Ansatz hat,Deciding to request general approach from LLM
+03.009.2,B,Deciding to request general approach from LLM,Deciding to request general approach from LLM,ob er da so einen allgemeinen Ansatz hat,deciding to ask LLM for guidance
 03.011.1,B,Adopting new-chat-per-task strategy,Adopting new-chat-per-task strategy,für jede Aufgabe immer neue,Adopting new-chat-per-task strategy
 03.012.1,B,Requesting solution approach from LLM,Requesting solution approach from LLM,hast du eine Idee wie ich diese aufgabe lösen kann,Requesting solution approach from LLM
 03.014.1a,B,Confirming understanding of LLM's Pythagorean suggestion,Confirming understanding of LLM's Pythagorean suggestion,das habe ich eigentlich schon verstanden,Confirming understanding of LLM's Pythagorean suggestion
 03.014.1b,B,Identifying unresolved sub-problem (length of AB),Identifying unresolved sub-problem (length of AB),wie lang A und B dann ist,Identifying unresolved sub-problem (length of AB)
 03.014.2a,B,Evaluating triangle for isosceles property,Evaluating triangle for isosceles property,ist es nicht gleichschenklich,Evaluating triangle for isosceles property
-03.014.2b,B,Deciding to request idea from LLM,Deciding to request idea from LLM,"frage ich ihn mal, ob er da eine Idee hat",Deciding to request idea from LLM
+03.014.2b,B,Deciding to request idea from LLM,Deciding to request idea from LLM,"frage ich ihn mal, ob er da eine Idee hat",deciding to ask LLM for guidance
 03.015.1,B,Requesting method for finding AB length,Requesting method for finding AB length,kann ich nicht einfach AB/2 teilen,Requesting method for finding AB length
 03.017.1,B,Identifying known and unknown quantities,Identifying known and unknown quantities,die Länge CP kenne ich glaube ich nicht,Identifying known and unknown quantities
 03.017.2a,B,Identifying additional unknown quantity,Identifying additional unknown quantity,A und B kenne ich auch nicht,Identifying additional unknown quantity
-03.017.2b,B,Deciding to request formula from LLM,Deciding to request formula from LLM,ob er da eine Formel für mich hat,Deciding to request formula from LLM
+03.017.2b,B,Deciding to request formula from LLM,Deciding to request formula from LLM,ob er da eine Formel für mich hat,deciding to ask LLM for information
 03.018.1,B,Requesting formula for AP and PB from LLM,Requesting formula for AP and PB from LLM,eine formel für das finden von ap und pb,Requesting formula for AP and PB from LLM
 03.020.2,B,Confirming understanding of LLM's repeated Pythagorean suggestion,Confirming understanding of LLM's repeated Pythagorean suggestion,ist auch irgendwie naheliegend,Confirming understanding of LLM's repeated Pythagorean suggestion
 03.020.3,B,Interpreting LLM's suggestion to subdivide triangle using variables,Interpreting LLM's suggestion to subdivide triangle using variables,dieses Dreieck nochmal in zwei andere Dreiecke zu unterteilen,Interpreting LLM's suggestion to subdivide triangle using variables
@@ -187,14 +187,14 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 03.020.6b,B,Flagging own reasoning as incomplete,Flagging own reasoning as incomplete,mein Denkfehler gerade noch,Flagging own reasoning as incomplete
 03.020.7,B,Considering alternative solving strategy from own academic background,Considering alternative solving strategy from own academic background,so würde ich es in einer WiWi-Klausur machen,Considering alternative solving strategy from own academic background
 03.020.8,B,Rejecting shortcut as against task purpose,Rejecting shortcut as against task purpose,das ist ja nicht Sinn der Sache,Rejecting shortcut as against task purpose
-03.020.9,B,Deciding to reconsider LLM's proposed approach,Deciding to reconsider LLM's proposed approach,nochmal ein bisschen über seinen Vorschlag nachdenken,Deciding to reconsider LLM's proposed approach
+03.020.9,B,Deciding to reconsider LLM's proposed approach,Deciding to reconsider LLM's proposed approach,nochmal ein bisschen über seinen Vorschlag nachdenken,Deciding to verify LLM output
 03.020.10,B,Formulating problem statement to send to LLM,Formulating problem statement to send to LLM,eine Unbekannte zu viele,Formulating problem statement to send to LLM
 03.021.1,B,Requesting suggestion for resolving underdetermined system,Requesting suggestion for resolving underdetermined system,3 unbekannte und 2 gelichungen kann ich nicht lösen,Requesting suggestion for resolving underdetermined system
 03.023.1,B,Registering LLM's suggested third equation,Registering LLM's suggested third equation,als dritte Gleichung AB = X + Y zu wählen,Registering LLM's suggested third equation
 03.023.2,B,Announcing closer examination of LLM's suggestion,Announcing closer examination of LLM's suggestion,Schau ich mir mal genauer an,Announcing closer examination of LLM's suggestion
 03.023.3,B,Interpreting LLM's approach of combining triangle equations,Interpreting LLM's approach of combining triangle equations,die beiden eingeteilten Dreiecke... miteinander zu verrechnen,Interpreting LLM's approach of combining triangle equations
 03.023.4,B,Recognizing cancellation of CP^2 term across equations,Recognizing cancellation of CP^2 term across equations,das die halt entfällt,Recognizing cancellation of CP^2 term across equations
-03.023.5,B,Deciding to try LLM's suggested equation manipulation,Deciding to try LLM's suggested equation manipulation,würde ich jetzt einfach mal ausprobieren,Deciding to try LLM's suggested equation manipulation
+03.023.5,B,Deciding to try LLM's suggested equation manipulation,Deciding to try LLM's suggested equation manipulation,würde ich jetzt einfach mal ausprobieren,Deciding to follow LLM advice
 03.023.6,B,Transitioning to typing solution in chat,Transitioning to typing solution in chat,kommen wir hier in den Chat,Transitioning to typing solution in chat
 03.023.7,B,Identifying own construction as a linear equation system,Identifying own construction as a linear equation system,das ist jetzt ein lineares Gleichungssystem,Identifying own construction as a linear equation system
 03.023.8,B,Recognizing need to solve equation system,Recognizing need to solve equation system,Das muss ich jetzt einfach auflösen,Recognizing need to solve equation system
@@ -208,7 +208,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 03.026.5b,B,Monitoring for further solving steps from LLM,Monitoring for further solving steps from LLM,ob er noch weitere Schritte macht,Monitoring for further solving steps from LLM
 03.027.1,B,Reporting completion of steps and requesting next steps,Reporting completion of steps and requesting next steps,wie gehe ich weiter vor um das LGS zu lösen,Reporting completion of steps and requesting next steps
 03.029.1,B,Describing LLM's stepwise equation-solving explanation,Describing LLM's stepwise equation-solving response,sehr schrittweise gibt er hier an,Describing LLM's stepwise equation-solving response
-03.029.2,B,Deciding to compute final value using calculator,Deciding to compute final value using calculator,mit dem Taschenrechner... die Länge CP ausrechnen,Deciding to compute final value using calculator
+03.029.2,B,Deciding to compute final value using calculator,Deciding to compute final value using calculator,mit dem Taschenrechner... die Länge CP ausrechnen,deciding next solution step
 03.029.3,B,Noting discrepancy in computed result relative to closest candidate value,Noting discrepancy in computed result relative to closest candidate value,sehr nah an zwei im Vergleich zu allen anderen,Noting discrepancy in computed result relative to closest candidate value
 03.029.4a,B,Attributing discrepancy to rounding error,Attributing discrepancy to rounding error,vielleicht Rundungsfehler gemacht wurden,Attributing discrepancy to rounding error
 03.029.4b,B,Selecting final answer despite imprecision,Selecting final answer despite imprecision,einfach mal zwei auswählen,Selecting final answer despite imprecision
@@ -312,8 +312,8 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.031.1,E,Reformulating ratio relationship,Reformulating ratio relationship,AB durch AC ist gleich 2/5,Reformulating ratio relationship
 04.031.2,E,Questioning ratio direction,Questioning ratio direction,AC durch AB ist gleich 2/5,Questioning ratio direction
 04.031.3,E,Expressing self-doubt,Expressing self-doubt,auf dem Holzweg,Expressing self-doubt
-04.033.1,E,Deciding to reason by plausibility,Deciding to reason by plausibility,was macht mehr Sinn?,Deciding to reason by plausibility
-04.033.2,E,Deciding to re-read task,Deciding to re-read task,die Aufgabe nochmal ordentlich lesen,Deciding to re-read task
+04.033.1,E,Deciding to reason by plausibility,Deciding to reason by plausibility,was macht mehr Sinn?,deciding next solution step
+04.033.2,E,Deciding to re-read task,Deciding to re-read task,die Aufgabe nochmal ordentlich lesen,deciding next solution step
 04.033.3,E,Re-reading task statement aloud,Re-reading task statement aloud,AB zu AC 2 zu 5,Re-reading task statement aloud
 04.033.4,E,Deriving ratio formulation from re-read,Deriving ratio formulation from re-read,AB durch AC ist gleich 2/5,deriving solution step
 04.033.5,E,Hedging confidence in interpretation,Hedging confidence in interpretation,wenn ich das jetzt richtig sehe,Hedging confidence in interpretation
@@ -337,14 +337,14 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.036.8,E,Reasoning about relevant quantity,Reasoning about relevant quantity,die für mich jetzt so gesehen interessant ist,Reasoning about relevant quantity
 04.036.9,E,Identifying arc as relevant quantity,Identifying arc as relevant quantity,vom Kreis die Bahn,Identifying arc as relevant quantity
 04.036.10,E,Clarifying goal using analogy,Clarifying goal using analogy,den Kuchenrand,Clarifying goal using analogy
-04.036.11,E,Deciding to consult LLM for guidance,Deciding to consult LLM for guidance,in die richtige Richtung lotsen kann,Deciding to consult LLM for guidance
+04.036.11,E,Deciding to consult LLM for guidance,Deciding to consult LLM for guidance,in die richtige Richtung lotsen kann,deciding to ask LLM for guidance
 04.037.1a,E,Stating given information to LLM,Stating given information to LLM,Kuchstückähnlichen abschnitt,Stating given information to LLM
 04.037.1b,E,Stating goal to LLM,Stating goal to LLM,Länge des Kreisabschnittes zu berechnenen,Stating goal to LLM
 04.039.1,E,Reading LLM response aloud,Reading LLM response aloud,Formel für die Bogenlänge lautet,Reading LLM response aloud
 04.039.2,E,Reading formula aloud,Reading formula aloud,L ist gleich Winkel durch 360 mal 2*Pi*r,Reading formula aloud
 04.039.3,E,Reading LLM response aloud,Reading LLM response aloud,Welche Werte musst du in die Formel einsetzen?,Reading LLM response aloud
 04.039.4,E,Answering LLM's guiding question,Answering LLM's guiding question,Winkel und den Radius,Answering LLM's guiding question
-04.039.5,E,Deciding to use calculator,Deciding to use calculator,vierfiegen Taschenrechner,Deciding to use calculator
+04.039.5,E,Deciding to use calculator,Deciding to use calculator,vierfiegen Taschenrechner,deciding next solution step
 04.039.6,E,Performing calculation,Performing calculation,16 Pi fünftel,Performing calculation
 04.039.8,E,Reporting accidental keypress,Reporting accidental keypress,"Control gerade gedrückt, ist das schlimm?",Reporting accidental keypress
 04.040.1,E,Reading task statement aloud,Reading task statement aloud,Diagonalen des Diamanten ABCD,Reading task statement aloud
@@ -374,7 +374,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.046.3,E,Computing half-diagonal values,Computing half-diagonal values,"AC halbe sind sechs, BD halbe sind acht",Computing half-diagonal values
 04.046.4,E,Rejecting incorrect formula recall,Rejecting incorrect formula recall,ich will nicht die Fläche haben,Rejecting incorrect formula recall
 04.046.5,E,Applying Pythagorean theorem,Applying Pythagorean theorem,Wurzel daraus ziehen sind 10,Applying Pythagorean theorem
-04.046.6,E,Deciding to verify result with LLM,Deciding to verify result with LLM,weil wir ja eine schöne KI haben,Deciding to verify result with LLM
+04.046.6,E,Deciding to verify result with LLM,Deciding to verify result with LLM,weil wir ja eine schöne KI haben,deciding to ask LLM for verification
 04.046.7,E,Dictating calculation to LLM,Dictating calculation to LLM,c^2 gleich 100 erhalten,Dictating calculation to LLM
 04.046.8,E,Requesting confirmation from LLM,Requesting confirmation from LLM,"sollte passen, aber so falsch sieht es nicht aus",Requesting confirmation from LLM
 04.047.1a,E,Reporting result and method to LLM,Reporting result and method to LLM,Mein Ergebnis ist 10,Reporting result and method to LLM
@@ -393,7 +393,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.002.11,B,Extracting given values from task,Extracting given values from task,A bis C ist 25,Extracting given values from task
 05.002.12,B,Restating given ratio,Restating given ratio,die ist 2 zu 5,restating given information
 05.002.13,B,Performing manual calculation,Performing manual calculation,wenn ich die durch 5 teile... ist also 5 mal 2 ist 10,Performing manual calculation
-05.002.14,B,Deciding to submit solution for chatbot verification,Deciding to submit solution for LLM verification,schicke ich zur Überprüfung die Lösung an,Deciding to submit solution for LLM verification
+05.002.14,B,Deciding to submit solution for chatbot verification,Deciding to submit solution for LLM verification,schicke ich zur Überprüfung die Lösung an,deciding to ask LLM for verification
 05.002.15,B,Naming verification tool,Naming verification tool,ChatGPT,Naming verification tool
 05.002.16a,B,Self-correcting tool terminology,Self-correcting tool terminology,nicht ChatGPT sondern den Bot,Self-correcting tool terminology
 05.002.16b,B,Stating verification goal,Stating verification goal,ob das so weit Sinn ergibt,Stating verification goal
@@ -418,7 +418,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.007.4,B,Signaling reflection pause,Signaling reflection pause,kurz nachdenken,Signaling reflection pause
 05.007.5,B,Identifying need for formula,Identifying need for formula,da brauchen wir einfach nur die Formeln für,Identifying need for formula
 05.007.6,B,Expressing hedged assessment that task requirement is met,Expressing hedged assessment that task requirement is met,"Ich denke, dann hat sich das...",Expressing hedged assessment that task requirement is met
-05.007.7,B,Deciding to use image as chatbot input,Deciding to use image as LLM input,"Ich kopiere rein, nutze ich das Bild",Deciding to use image as LLM input
+05.007.7,B,Deciding to share image with chatbot,Deciding to share image with LLM,"Ich kopiere rein, nutze ich das Bild",Deciding to share image with LLM
 05.007.9,B,Marking action completion,Marking action completion,Zack,Marking action completion
 05.007.10,B,Deciding to start new chat per task,Deciding to start new chat per task,Neuen Chat benutzen für neue Aufgaben,Deciding to start new chat per task
 05.007.12,B,Marking action completion,Marking action completion,Zack,Marking action completion
@@ -437,14 +437,14 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.012.8,B,Noting mismatch between own result format and answer options,Noting mismatch between own result format and answer options,Das sind natürlich schöne Antwortmöglichkeiten,Noting mismatch between own result format and answer options
 05.012.9,B,Recording computed result,Recording computed result,die Bogenlänge... auf etwa 10 komma 5 berechnet,Recording computed result
 05.012.10,B,Noting answer-option format discrepancy,Noting answer-option format discrepancy,die Antwortmöglichkeiten in...,Noting answer-option format discrepancy
-05.012.11,B,Deciding to convert answer options using calculator,Deciding to convert answer options using calculator,"es macht mehr Sinn, das einfach kurz... auszurechnen",Deciding to convert answer options using calculator
+05.012.11,B,Deciding to convert answer options using calculator,Deciding to convert answer options using calculator,"es macht mehr Sinn, das einfach kurz... auszurechnen",deciding next solution step
 05.012.13,B,Computing decimal equivalent of answer option,Computing decimal equivalent of answer option,"mal 18 sind 10,05309",Computing decimal equivalent of answer option
 05.012.14,B,Judging computed precision as sufficient,Judging computed precision as sufficient,Reicht,Judging computed precision as sufficient
 05.012.16,B,Continuing to convert next answer option,Continuing to convert next answer option,16 mal...,Continuing to convert next answer option
 05.012.17,B,Questioning unfamiliar notation symbol,Questioning unfamiliar notation symbol,Was bedeutet der Backslash?,Questioning unfamiliar notation symbol
 05.016.2,B,Converting next answer option,Converting next answer option,16 mal Pi durch 5,Converting next answer option
 05.016.3,B,Comparing converted option to computed result,Comparing converted option to computed result,das kommt sehr nah an das Radius,Comparing converted option to computed result
-05.016.4,B,Deciding to check remaining answer options,Deciding to check remaining answer options,"ich mach einfach mal noch die anderen, nicht dass die am Ende richtig sind",Deciding to check remaining answer options
+05.016.4,B,Deciding to check remaining answer options,Deciding to check remaining answer options,"ich mach einfach mal noch die anderen, nicht dass die am Ende richtig sind",deciding next solution step
 05.016.5,B,Eliminating answer option,Eliminating answer option,36 mal Pi wird es nicht sein,Eliminating answer option
 05.016.6,B,Eliminating another answer option,Eliminating another answer option,36 Pi durch 5 ist auch was ganz anderes,Eliminating another answer option
 05.016.7,B,Expressing confidence reinforced by cross-checking,Expressing confidence reinforced by cross-checking,fühle ich mich darin bekräftigt,Expressing confidence reinforced by cross-checking
@@ -468,7 +468,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.023.7,B,Pausing to re-verify assumption,Pausing to re-verify assumption,lass mich nochmal nachschauen,Pausing to re-verify assumption
 05.023.8,B,Questioning geometric property of figure,Questioning geometric property of figure,Haben die rechte Winkel?,Questioning geometric property of figure
 05.023.10,B,Self-correcting geometric understanding,Self-correcting geometric understanding,die schneiden sich am rechten Winkel,Self-correcting geometric understanding
-05.023.12,B,Deciding to sketch diagram to support reasoning,Deciding to sketch diagram,Ich male mir [das] mal auf,Deciding to sketch diagram
+05.023.12,B,Deciding to sketch diagram to support reasoning,Deciding to sketch diagram,Ich male mir [das] mal auf,deciding next solution step
 05.023.13,B,Labeling sketch elements,Labeling sketch elements,C und D,Labeling sketch elements
 05.025.2,B,Explaining own reasoning strategy (sketching aids thinking),Explaining own reasoning strategy (sketching aids thinking),"weil ich kann besser denken, wenn ich die Sachen tatsächlich daran schreibe",Explaining own reasoning strategy (sketching aids thinking)
 05.025.3,B,Computing half-diagonal values,Computing half-diagonal values,"A bis C ist 12, das heißt diesen 6 [und] 6",Computing half-diagonal values
@@ -516,7 +516,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 07.007.1,E,Labeling given value in drawing,Labeling given value in drawing,BC ist 3,Labeling given value in drawing
 07.007.2,E,Identifying target value,Identifying target value,letztendlich hier 6 gesucht,Identifying target value
 07.007.3,E,Identifying target value,Identifying target value,Die ist gesucht,Identifying target value
-07.007.4,E,Deciding to ask for help,Deciding to ask for help,Da muss ich jetzt doch mal fragen,Deciding to ask for help
+07.007.4,E,Deciding to consult LLM for guidance,Deciding to consult LLM for guidance,Da muss ich jetzt doch mal fragen,deciding to ask LLM for guidance
 07.007.5,E,Identifying needed formula,Identifying needed formula,Die Formel für die Höhe,Identifying needed formula
 07.007.6,E,Assessing sufficiency of given information,Assessing sufficiency of given information,Ich habe hier genügend Informationen,Assessing sufficiency of given information
 07.007.7,E,Expressing uncertainty about right angle,Expressing uncertainty,"Ich weiß nicht, ob das rechtwinklig ist",Expressing uncertainty
@@ -540,7 +540,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 07.014.3,E,Stating problem givens,Stating problem givens,x ist 32 und r ist 18,Stating problem givens
 07.014.4,E,Restating problem goal,Restating problem goal,die Länge des Kreisbogens haben,restating problem goal
 07.014.5,E,Attributing request for formula to task,Attributing request for formula to task,er will jetzt die Formel von mir wissen,Attributing request for formula to task
-07.014.6,E,Deciding to attempt mental calculation first,Deciding to attempt mental calculation first,noch ein bisschen was im Kopf zu rechnen,Deciding to attempt mental calculation first
+07.014.6,E,Deciding to attempt mental calculation first,Deciding to attempt mental calculation first,noch ein bisschen was im Kopf zu rechnen,deciding next solution step
 07.014.7,E,Considering querying LLM as fallback,Considering querying LLM as fallback,könnte man die Sache jetzt hier fragen,Considering querying LLM as fallback
 07.014.8,E,Verbalizing intended query before typing,Verbalizing intended query before typing,Was ist die Formel für Kreisumfang?,Verbalizing intended query before typing
 07.015.1,E,Querying LLM for circle-circumference formula,Querying LLM for circle-circumference formula,Was ist die Formel für Kreisumfang,Querying LLM for circle-circumference formula
@@ -557,7 +557,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 07.017.11,E,Continuing calculation with given values,Continuing calculation,"22,5 mal Pi und r war in dem Fall 18",Continuing calculation
 07.017.12,E,Searching for calculation error,Searching for calculation error,wo ist jetzt hier der Fehler?,Searching for calculation error
 07.017.13,E,Reporting calculator's computed result,Reporting calculator's computed result,Der behauptet jetzt 405,Reporting calculator's computed result
-07.017.14,E,Deciding to redo calculation,Deciding to redo calculation,Machen wir das nochmal,Deciding to redo calculation
+07.017.14,E,Deciding to redo calculation,Deciding to redo calculation,Machen wir das nochmal,deciding next solution step
 07.017.15,E,Restating calculation,Restating calculation,Das sind 36 und 32 durch 360,restating solution step
 07.017.16,E,Simplifying fraction,Simplifying fraction,Das ist 32/10,Simplifying fraction
 07.017.17,E,Simplifying fraction further,Simplifying fraction,Oder aber 16/5,Simplifying fraction
@@ -598,7 +598,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.008.13,E,Identifying missing information,Identifying missing information,Über AB haben wir keine Angaben,Identifying missing information
 08.008.14,E,Identifying sub-triangle with unknown side,Identifying sub-triangle with unknown side,"ein zweites Dreieck haben, dessen Länge wir suchen",Identifying sub-triangle with unknown side
 08.008.15,E,Restating target unknown,Restating target unknown,"die Seitenkante, die wir suchen",restating given information
-08.008.16,E,Deciding to consult chatbot,Deciding to consult LLM,diese Aufgabe mal dem Chatbot geben,Deciding to consult LLM
+08.008.16,E,Deciding to consult chatbot for guidance,Deciding to consult LLM for guidance,diese Aufgabe mal dem Chatbot geben,deciding to ask LLM for guidance
 08.008.17,E,Noting image upload option,Noting image upload option,konnten wir jetzt das Bild da einfügen,Noting image upload option
 08.008.19,E,Copying task text into chat,Copying task text into chat,kopiere mir hier den Text von der Aufgabe,Copying task text into chat
 08.010.2,E,Expressing impasse/lack of ideas,Expressing impasse/lack of ideas,ich habe glaube ich nicht mehr viele Ideen,Expressing impasse/lack of ideas
@@ -619,7 +619,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.015.14,E,Re-reading given values,Re-reading given values,AC gleich 6 und BC gleich 3,Re-reading given values
 08.015.15,E,Re-reading task constraints,Re-reading task constraints,deren Länge wir nicht kennen,Re-reading task constraints
 08.015.16,E,Re-reading target question,Re-reading target question,Wie lang ist die Linie CP?,Re-reading target question
-08.015.17,E,Deciding to correct chatbot's assumption,Deciding to correct LLM's assumption,seine Annahme ... ist falsch,Deciding to correct LLM's assumption
+08.015.17,E,Deciding to correct chatbot's assumption,Deciding to correct LLM's assumption,seine Annahme ... ist falsch,Deciding to update the LLM information
 08.015.18,E,Specifying correct right-angle location,Specifying correct right-angle location,"das wäre APC, hat einen rechten Winkel",Specifying correct right-angle location
 08.015.19,E,Specifying angle vertex,Specifying angle vertex,Winkel bei P,Specifying angle vertex
 08.015.20,E,Testing whether chatbot accepts correction,Testing whether LLM accepts correction,ob der Chatbot sich korrigieren lässt,Testing whether LLM accepts correction
@@ -652,7 +652,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.018.26,E,Reviewing known base segments,Reviewing known base segments,die beiden Grundseiten,Reviewing known base segments
 08.018.27,E,Re-reading chatbot's question while composing reply,Re-reading LLM's question,Wie würdest du die Länge von a und a ausdrücken?,Re-reading LLM's question
 08.018.28,E,Identifying too many unknowns,Identifying too many unknowns,zu viele Unbekannte,Identifying too many unknowns
-08.018.29,E,Deciding to explain own work to chatbot,Deciding to explain own work to LLM,was ich jetzt hier gerade gemacht habe,Deciding to explain own work to LLM
+08.018.29,E,Deciding to explain own work to chatbot,Deciding to explain own work to LLM,was ich jetzt hier gerade gemacht habe,Deciding to update the LLM information
 08.018.30,E,Composing explanation of triangle division,Composing explanation of triangle division,teilt das bestehende Dreieck ABC in zwei neue Dreiecke,Composing explanation of triangle division
 08.018.31,E,Composing explanation of right angles,Composing explanation of right angles,"der Winkel, bei P jeweils rechtwinkelig ist",Composing explanation of right angles
 08.018.32,E,Composing explanation of Pythagorean application,Composing explanation of Pythagorean application,den Satz von Pythagoras anwenden,Composing explanation of Pythagorean application
@@ -665,7 +665,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.024.2,E,Noticing chatbot's CoT displayed,Noticing LLM's CoT displayed,Die KI hat den Gedankenprozess,Noticing LLM's CoT displayed
 08.024.3,E,Reading chatbot's follow-up question,Reading LLM's follow-up question,um eine Gleichung mit nur einer Variablen zu erhalten,Reading LLM's follow-up question
 08.024.4,E,Predicting elimination of variable,Predicting elimination of variable,da dürfte ja jetzt X wegfallen,Predicting elimination of variable
-08.024.5,E,Deciding to inspect chatbot's CoT,Deciding to inspect LLM's CoT,den Gedankenprozess von der KI an,Deciding to inspect LLM's CoT
+08.024.5,E,Deciding to inspect chatbot's CoT,Deciding to inspect LLM's CoT,den Gedankenprozess von der KI an,Deciding to verify LLM output
 08.024.6,E,Reading chatbot's CoT,Reading LLM's CoT aloud,das Dreieck ABC durch den CP in 2 Rechtwinkel,Reading LLM's CoT aloud
 08.024.7,E,Reading chatbot's CoT,Reading LLM's CoT aloud,mit Dreieck APC und BPC unterteilt wird,Reading LLM's CoT aloud
 08.024.8,E,Reading chatbot's CoT,Reading LLM's CoT aloud,die Variablen a für AP und b für PB und X für PC,Reading LLM's CoT aloud
@@ -679,12 +679,12 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.024.16,E,Planning to rearrange both formulas,Planning to rearrange both formulas,beide Formeln ... umstellen,Planning to rearrange both formulas
 08.024.17,E,Rearranging equations to isolate terms,Rearranging equations to isolate terms,das 6^2 und das 3^2 auf die andere Seite,Rearranging equations to isolate terms
 08.024.18,E,Predicting equations equal zero,Predicting equations equal zero,auf beiden Seiten 0,Predicting equations equal zero
-08.024.19,E,Deciding to rearrange equations,Deciding to rearrange equations,machen wir das einfach mal,Deciding to rearrange equations
+08.024.19,E,Deciding to rearrange equations,Deciding to rearrange equations,machen wir das einfach mal,deciding next solution step
 08.024.20,E,Rearranging first equation,Rearranging first equation,X^2 plus a^2 minus 6^2,Rearranging first equation
 08.024.21,E,Computing numeric value,Computing numeric value,Ich rechne das mal aus zu 36,Computing numeric value
 08.024.22,E,Applying same rearrangement to second equation,Applying same rearrangement to second equation,Gleich auf der anderen Seite auch,Applying same rearrangement to second equation
 08.024.23,E,Rearranging second equation,Rearranging second equation,"X^2 plus b^2 minus 3^2, also 9",Rearranging second equation
-08.024.24,E,Deciding to query chatbot,Deciding to query LLM,ich frag jetzt mal die KI,Deciding to query LLM
+08.024.24,E,Deciding to verify formula with chatbot,Deciding to verify formula with LLM,ich frag jetzt mal die KI,deciding to ask LLM for verification
 08.024.25,E,Dictating message about equation rearrangement,Dictating message about equation rearrangement,dann kann ich sie gleichsetzen nach,Dictating message about equation rearrangement
 08.024.26,E,Dictating combined equation,Dictating combined equation,X^2 plus a^2 minus 36 ist gleich X^2 plus b^2 minus 9,Dictating combined equation
 08.025.1,E,Explaining rearrangement rationale in message,Explaining rearrangement rationale in message,dann kann ich sie gleichsetzen nach,Explaining rearrangement rationale in message
@@ -692,7 +692,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.026.1,E,Anticipating further simplification,Anticipating further simplification,wenn ich das hier jetzt weiter auflöse,Anticipating further simplification
 08.028.1,E,Reading chatbot's suggested rearrangement,Reading LLM's suggested rearrangement,"so umstellen, dass auf einer Seite 0 steht",Reading LLM's suggested rearrangement
 08.028.2,E,Noting chatbot repeating already-completed step,Noting LLM repeating already-completed step,Das habe ich doch gerade gemacht,Noting LLM repeating already-completed step
-08.028.3,E,Deciding to reformat equation with explicit exponents,Deciding to reformat equation with explicit exponents,die Quadrate da wieder reinbaue,Deciding to reformat equation with explicit exponents
+08.028.3,E,Deciding to reformat equation with explicit exponents,Deciding to reformat equation with explicit exponents,die Quadrate da wieder reinbaue,deciding next solution step
 08.028.4,E,Copying formula for reuse,Copying formula for reuse,kopiere mir mal kurz die Formel,Copying formula for reuse
 08.028.5,E,Drafting clarifying question for chatbot,Formulating clarifying question for LLM,Meinst du das so?,Formulating clarifying question for LLM
 08.028.6,E,Reformatting numbers into exponent form,Reformatting numbers into exponent form,aus der 9 wieder ein 3^2 und aus der 36 ein 6^2,Reformatting numbers into exponent form
@@ -727,7 +727,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.043.7,E,Planning further rearrangement,Planning further rearrangement,die Gleichung wieder umstellen,Planning further rearrangement
 08.043.8,E,Canceling shared term,Canceling shared term,das b^2 rauskürzen,Canceling shared term
 08.043.9,E,Deriving inconsistent result,Deriving inconsistent result,0 gleich x^2 plus 27,deriving solution step
-08.043.10,E,Deciding to continue querying chatbot,Deciding to continue querying LLM,Frangen wir mal die KI weiter,Deciding to continue querying LLM
+08.043.10,E,answerig the chatbot's question,answerig the LLM's question,Frangen wir mal die KI weiter,answerig the LLM's question
 08.043.11,E,Restating equation with typo,Restating equation with typo,6^2 gleich x^2 plus a,restating solution step
 08.043.12,E,Recognizing handwriting-induced transcription error,Recognizing handwriting-induced transcription error,wegen meiner Sauklaue aus einer 6 ein b gemacht,Recognizing handwriting-induced transcription error
 08.043.13,E,Reflecting on value of writing out steps for error-checking,Reflecting on value of writing out steps for error-checking,dann fällt dein Fehler auch wieder auf,Reflecting on value of writing out steps for error-checking
@@ -738,7 +738,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.046.2,E,Reading chatbot's follow-up question,Reading LLM's follow-up question,den Ausdruck für A korrekt in die Gleichung,Reading LLM's follow-up question
 08.046.3,E,Interpreting chatbot's assumption,Interpreting LLM's assumption,"er geht jetzt davon aus, dass",Interpreting LLM's assumption
 08.046.4,E,Attributing chatbot's confusion to own typo,Attributing LLM's confusion to own typo,komplett auf dem Holz weggebracht,Attributing LLM's confusion to own typo
-08.048.1,E,Deciding to inform chatbot of typo correction,Deciding to inform LLM of typo correction,ich habe mich vorher vertippt,Deciding to inform LLM of typo correction
+08.048.1,E,Deciding to inform chatbot of typo correction,Deciding to inform LLM of typo correction,ich habe mich vorher vertippt,Deciding to update the LLM information
 08.048.3,E,Reviewing earlier notes,Reviewing earlier notes,das hier oben an,Reviewing earlier notes
 08.048.5,E,Correcting sign error in expression,Correcting sign error in expression,aus dem Minus ein Plus,Correcting sign error in expression
 08.048.6,E,Criticizing chatbot's failure to detect logic error,Criticizing LLM's failure to detect logic error,Logikfehler nicht erkennt,Criticizing LLM's failure to detect logic error
@@ -803,10 +803,10 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.065.5,E,Recording bound for x on paper,Recording bound for x on paper,"0, kleiner X, kleiner 3",Recording bound for x on paper
 08.066.1,E,Submitting derived bound for x to chatbot,Submitting derived bound for x to LLM,x muss größer als 0 sein und kleiner als 3,Submitting derived bound for x to LLM
 08.068.1,E,Reading chatbot's follow-up question,Reading LLM's follow-up question,den Wert für X auswählen?,Reading LLM's follow-up question
-08.068.2,E,Deciding to inspect chatbot's CoT,Deciding to inspect LLM's CoT,den Denkprozess nochmal an,Deciding to inspect LLM's CoT
+08.068.2,E,Deciding to inspect chatbot's CoT,Deciding to inspect LLM's CoT,den Denkprozess nochmal an,Deciding to verify LLM output
 08.068.3,E,Reading chatbot's CoT with answer options,Reading LLM's CoT aloud,"(A) 2, (B) 4, (C) 5, (D) 7, (E) 8",Reading LLM's CoT aloud
 08.068.4,E,Selecting answer based on derived bound,Selecting answer based on derived bound,bleibt nur die Antwort 2,Selecting answer based on derived bound
-08.068.5,E,Deciding to verify answer by calculation,Deciding to verify answer by calculation,mal versuchen nachzurechnen,Deciding to verify answer by calculation
+08.068.5,E,Deciding to verify answer by calculation,Deciding to verify answer by calculation,mal versuchen nachzurechnen,Deciding to manually validate
 08.068.6,E,Verifying answer via substitution,Verifying answer via substitution,da muss ja im Prinzip 4 in die Wurzel rauskommen,Verifying answer via substitution
 08.068.7,E,Computing value of b for verification,Computing value of b for verification,b ist gleich Wurzel aus 5,Computing value of b for verification
 08.068.8,E,Recalling formula for a,Recalling formula for a,A gleich Wurzel aus b^2 plus 27,Recalling formula for a
@@ -831,18 +831,18 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 09.002.4,E,Identifying given information,Identifying given information,"ein Verhältnis gegeben, allerdings auch für eine Länge, die ich nicht habe",Identifying given information
 09.002.5,E,Formalizing problem variables,Formalizing problem variables,AB plus BC ist in Summe AC,Formalizing problem variables
 09.002.6,E,Restating given information,Restating given information,das Verhältnis von AB zu AC gegeben,restating given information
-09.002.7,E,Deciding to consult chatbot,Deciding to consult LLM,"frage ich dann direkt mal nach, wie ich das am besten lösen kann",Deciding to consult LLM
+09.002.7,E,Deciding to consult chatbot for guidance,Deciding to consult LLM for guidance,"frage ich dann direkt mal nach, wie ich das am besten lösen kann",deciding to ask LLM for guidance
 09.002.8,E,Self-correcting stated values,Self-correcting stated values,im Verhältnis 2 zu 5,Self-correcting stated values
 09.002.9,E,Planning calculation approach,Planning calculation approach,müsste man selbst jetzt 25 durch 7 teilen,Planning calculation approach
-09.002.10,E,Deciding to verify calculation with chatbot,Deciding to verify calculation with LLM,"frage ich gleich mal in Chatbot, ob das so stimmt",Deciding to verify calculation with LLM
+09.002.10,E,Deciding to verify calculation with chatbot,Deciding to verify calculation with LLM,"frage ich gleich mal in Chatbot, ob das so stimmt",deciding to ask LLM for verification
 09.002.11,E,Performing calculation,Performing calculation,"eine Länge von 7 für AB und für AC wäre dann 17,8",Performing calculation
-09.002.12,E,Deciding to verify calculation with chatbot,Deciding to verify calculation with LLM,"frage gleich in Chatbot trotzdem, ob das okay ist",Deciding to verify calculation with LLM
+09.002.12,E,Deciding to verify calculation with chatbot,Deciding to verify calculation with LLM,"frage gleich in Chatbot trotzdem, ob das okay ist",deciding to ask LLM for verification
 09.002.13,E,Estimating result,Estimating result,"Das ist dann 7, irgendwas",Estimating result
-09.002.14,E,Deciding to redo calculation more precisely,Deciding to redo calculation,mache ich das lieber noch mal genauer,Deciding to redo calculation
+09.002.14,E,Deciding to redo calculation more precisely,Deciding to redo calculation,mache ich das lieber noch mal genauer,deciding next solution step
 09.002.15,E,Testing alternative value,Testing alternative value,"wenn ich jetzt 8 hätte, durch 2 sind 4",Testing alternative value
 09.002.16,E,Identifying calculation error,Identifying calculation error,schon irgendwas verkackt,Identifying calculation error
 09.002.17,E,Rejecting own hypothesis,Rejecting own hypothesis,wird nicht hinkommen,Rejecting own hypothesis
-09.002.18,E,Deciding to redo calculation more precisely,Deciding to redo calculation,mache ich das lieber noch mal genauer,Deciding to redo calculation
+09.002.18,E,Deciding to redo calculation more precisely,Deciding to redo calculation,mache ich das lieber noch mal genauer,deciding next solution step
 09.003.1,E,Formulating chatbot query,Formulating LLM query,wie berechne ich dann die Länge der einzelnen STrecken,Formulating LLM query
 09.005.1,E,Expressing self-doubt about own approach,Expressing self-doubt,vielleicht bin ich auch dumm,Expressing self-doubt
 09.005.2,E,Performing calculation,Performing calculation,2/7 mal 25,Performing calculation
@@ -859,7 +859,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 09.007.10,E,Selecting closest-matching answer,Selecting closest-matching answer,"das, was am nächsten dran kommt",Selecting closest-matching answer
 09.007.11,E,Committing to answer under uncertainty,Committing to answer,"in der Hoffnung, dass man runden darf",Committing to answer
 09.007.12,E,Expressing residual doubt about answer,Expressing residual doubt about answer,abgerundet eher 7 wäre als 8,Expressing residual doubt about answer
-09.007.13,E,Deciding to query chatbot for direct solution,Deciding to query LLM for direct solution,vielleicht kriege ich eine direkte Lösung ausgespuckt,Deciding to query LLM for direct solution
+09.007.13,E,Deciding to query chatbot for direct solution,Deciding to query LLM for direct solution,vielleicht kriege ich eine direkte Lösung ausgespuckt,deciding to ask LLM for solution
 09.008.1,E,Formulating chatbot query with concrete values,Formulating LLM query,wie würde das dann beispielsweise aussehen,Formulating LLM query
 09.010.1a,E,Referencing chatbot's CoT,Referencing LLM's CoT,im Denkprozess,Referencing LLM's CoT
 09.010.1b,E,Comparing chatbot response to own prior reasoning,Comparing LLM response to own prior reasoning,"sagt er mir eigentlich auch das, was ich mir vorher auch schon gedacht habe",Comparing LLM response to own prior reasoning
@@ -870,7 +870,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 09.010.6,E,Restating problem information,Restating problem information,sollen einen Streckenabschnitt auf dem Außenkreis berechnen,restating given information
 09.010.7,E,Identifying given information,Identifying given information,den Radius gegeben und unser X,Identifying given information
 09.010.8,E,Clarifying variable meaning,Clarifying variable meaning,unser X ist der Winkel,Clarifying variable meaning
-09.010.9,E,Deciding to consult chatbot for formula,Deciding to consult LLM for formula,dafür gibt es aber einen guten Chatbot,Deciding to consult LLM for formula
+09.010.9,E,Deciding to consult chatbot for formula,Deciding to consult LLM for formular,dafür gibt es aber einen guten Chatbot,deciding to ask LLM for information
 09.011.1,E,Requesting formula from chatbot,Requesting formula from LLM,Wie ist die Formle zur Berechung des Umfangs eines Kreises,Requesting formula from LLM
 09.013.1a,E,Reflecting on chatbot reliance strategy,Reflecting on LLM reliance strategy,ohne mir jetzt selbst weiter Gedanken machen zu müssen,Reflecting on LLM reliance strategy
 09.013.1b,E,Formulating chatbot query intent,Formulating LLM query,wenn ich nur einen Teil des Kreises brauche,Formulating LLM query
@@ -880,13 +880,13 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 09.016.2,E,Self-correcting terminology,Self-correcting terminology,das ist die Bogenlänge,Self-correcting terminology
 09.016.3,E,Interpreting chatbot question,Interpreting LLM question,"fragt er mich, ob ich das noch weiß",Interpreting LLM question
 09.016.4,E,Recalling formula from memory,Recalling formula from memory,"war der Pi * r-Quadrat, war der Inhalt?",Recalling formula from memory
-09.016.5,E,Deciding to verify recalled formula with chatbot,Deciding to verify recalled formula with LLM,Ich habe irgendwas von 4 Pi r im Kopf,Deciding to verify recalled formula with LLM
+09.016.5,E,Deciding to verify recalled formula with chatbot,Deciding to verify recalled formula with LLM,Ich habe irgendwas von 4 Pi r im Kopf,deciding to ask LLM for verification
 09.017.1,E,Requesting confirmation of recalled formula,Requesting confirmation of recalled formula,könnte das richit gsein,Requesting confirmation of recalled formula
 09.019.1,E,Updating formula based on chatbot correction,Updating formula based on LLM correction,2 PR scheint es zu sein,Updating formula based on LLM correction
 09.019.2,E,Confirming formula for full circumference,Confirming formula for full circumference,für den vollen Umfang hätte ich...2 Pi r,Confirming formula for full circumference
 09.019.3,E,Hypothesizing full-angle value,Hypothesizing full-angle value,ein voller Winkel sind ja wahrscheinlich 360°,Hypothesizing full-angle value
 09.019.4,E,Planning ratio-based calculation,Planning ratio-based calculation,das einmal ins Verhältnis setzen,Planning ratio-based calculation
-09.019.5,E,Deciding to verify assumption with chatbot,Deciding to verify assumption with LLM,ob der volle Winkel 360° sind,Deciding to verify assumption with LLM
+09.019.5,E,Deciding to verify assumption with chatbot,Deciding to verify assumption with LLM,ob der volle Winkel 360° sind,deciding to ask LLM for verification
 09.019.6,E,Confirming assumption before verifying,Confirming assumption before verifying,"logischeweise 360 sein, wenn das einmal im Kreis ist",Confirming assumption before verifying
 09.020.1,E,Requesting confirmation from chatbot,Requesting confirmation from LLM,Wie sit der volle Winkel innen,Requesting confirmation from LLM
 09.022.1,E,Performing calculation,Performing calculation,"32 durch 360, da habe ich Pi 54",Performing calculation
@@ -901,10 +901,10 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 09.022.11,E,Deciding to attempt solution without chatbot,Deciding to attempt solution without LLM,ob ich das ohne Chatbot hinbekomme,Deciding to attempt solution without LLM
 09.022.12,E,Performing calculation,Performing calculation,"wieder mal 2, weil wir ja 2 Dreiecke haben",Performing calculation
 09.022.13,E,Recognizing mismatch between computed quantity and goal,Recognizing mismatch between computed quantity and goal,ich will die Kantenlänge haben,Recognizing mismatch between computed quantity and goal
-09.022.14,E,Deciding to verify formula with chatbot,Deciding to verify formula with LLM,das frage ich zur Sicherheit nochmal nach,Deciding to verify formula with LLM
+09.022.14,E,Deciding to verify formula with chatbot,Deciding to verify formula with LLM,das frage ich zur Sicherheit nochmal nach,deciding to ask LLM for verification
 09.023.1,E,Requesting formula confirmation from chatbot,Requesting formula confirmation from LLM,wenn ich die beiden anderen Kantenlängen gegeben habe,Requesting formula confirmation from LLM
 09.025.1,E,Recalling relevant theorem,Recalling relevant theorem,das wird wahrscheinlich der Satz des Pythagoras sein,Recalling relevant theorem
-09.025.2,E,Deciding to verify recalled formula with chatbot,Deciding to verify recalled formula with LLM,"ob ich mir da sicher bin, ob das richtig ist",Deciding to verify recalled formula with LLM
+09.025.2,E,Deciding to verify recalled formula with chatbot,Deciding to verify recalled formula with LLM,"ob ich mir da sicher bin, ob das richtig ist",deciding to ask LLM for verification
 09.026.1,E,Confirming theorem with chatbot,Confirming theorem with LLM,Satz des Pythagoras?,Confirming theorem with LLM
 09.028.1,E,Performing calculation,Performing calculation,das passt schon mal nicht,Performing calculation
 09.028.2,E,Identifying own calculation error,Identifying own calculation error,die Quadrate glaube ich vergessen,Identifying own calculation error
@@ -986,7 +986,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.038.8,E,Matching result to multiple-choice option,Matching result to multiple-choice option,Das wird wahrscheinlich das erste sein,Matching result to multiple-choice option
 10.038.9,E,Confirming final answer reasoning,Confirming final answer,"16 durch 5, mal π",Confirming final answer
 10.040.2,E,Reading task question aloud,Reading task question aloud,Wie lang sind die Kanten des Diamanten?,Reading task question aloud
-10.040.3,E,Deciding to sketch diagram,Deciding to sketch diagram,zeichne ich mir das einmal wieder bildlich auf,Deciding to sketch diagram
+10.040.3,E,Deciding to sketch diagram,Deciding to sketch diagram,zeichne ich mir das einmal wieder bildlich auf,deciding next solution step
 10.040.5,E,Annotating drawing with values,Annotating drawing with values,Zahlen da reinschreiben,Annotating drawing with values
 10.040.6,E,Accepting imperfect drawing,Accepting imperfect drawing,"kein Diamant geworden, aber gut",Accepting imperfect drawing
 10.040.7,E,Labeling diagram points,Labeling diagram points,"C, D und B",Labeling diagram points
@@ -1101,11 +1101,11 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.030.16,B,deriving spatial position,deriving spatial position,muss die irgendwo da oben liegen,deriving solution step
 11.030.17,B,restating question in own words,restating question in own words,wie lang ist C von da nach da?,restating problem goal
 11.030.18,B,deliberating how to phrase query to LLM,deliberating how to phrase query to LLM,Wie frage ich den jetzt?,deliberating how to phrase query to LLM
-11.030.19,B,deciding to proceed despite uncertainty,deciding to proceed despite uncertainty,fangen wir jetzt mal mit dem P an,deciding to proceed despite uncertainty
+11.030.19,B,deciding to proceed despite uncertainty,deciding to proceed despite uncertainty,fangen wir jetzt mal mit dem P an,deciding next solution step
 11.032.1,B,clarifying interface action,clarifying interface action,kann es hin?,clarifying interface action
 11.032.2,B,confirming recollection of interface shortcut,confirming recollection of interface shortcut,"Das war das Command N, ne?",confirming recollection of interface shortcut
 11.032.3,B,expressing lack of understanding of task difficulty,expressing lack of understanding of task difficulty,warum die Aufgabe so schwer ist,expressing lack of understanding of task difficulty
-11.032.4,B,deciding to consult LLM due to confusion,deciding to consult LLM due to confusion,Deswegen frage ich ihn erstmal,deciding to consult LLM due to confusion
+11.032.4,B,deciding to consult LLM due to confusion,deciding to consult LLM due to confusion,Deswegen frage ich ihn erstmal,deciding to ask LLM for guidance
 11.032.5,B,restating figure values,restating figure values,AC gleich 6 und BC ist gleich 3,restating given information
 11.032.6,B,identifying unknown value,identifying unknown value,Die Länge AB ist nicht bekannt,identifying unknown value
 11.032.7,B,adopting stepwise problem-solving approach,adopting stepwise problem-solving approach,machen wir das Step by Step,adopting stepwise problem-solving approach
@@ -1190,7 +1190,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.066.3,B,reiterating expectation of full LLM assistance,reiterating expectation of full LLM assistance,Er soll mir das selber umstellen,reiterating expectation of full LLM assistance
 11.066.4,B,justifying request to locate own reasoning error,justifying request to locate own reasoning error,Sonst komme ich ja nicht auf meinen Denkfehler,justifying request to locate own reasoning error
 11.066.5,B,voicing a sudden realization,voicing a sudden realization,Warte mal.,voicing a sudden realization
-11.066.6,B,deciding to request verification of own calculation,deciding to request verification of own calculation,ob meine Rechnung richtig ist,deciding to request verification of own calculation
+11.066.6,B,deciding to request verification of own calculation,deciding to request verification of own calculation,ob meine Rechnung richtig ist,deciding to ask LLM for verification
 11.066.7,B,verbalizing message before sending,verbalizing message before sending,Also ist AB 2/5 von AC,verbalizing message before sending
 11.067.1,B,requesting verification of derived relation,requesting verification of derived relation,ist AB 2/5 von AC?,requesting verification of derived relation
 11.069.1,B,checking response matches own statement,checking response matches own statement,"Das ist das, was ich geäußert habe?",checking response matches own statement
@@ -1219,7 +1219,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.089.2,B,concluding calculation result,concluding calculation result,dann ist AB gleich 10,concluding calculation result
 11.089.3,B,initiating self-correction of misremembered response,initiating self-correction of misremembered response,das ist falsch,initiating self-correction of misremembered response
 11.089.4,B,hedging alternate interpretation of feedback,hedging alternate interpretation of feedback,Oder fast richtig,hedging alternate interpretation of feedback
-11.089.5,B,deciding to ask explicit verification question,deciding to ask explicit verification question,Jetzt frage ich ganz klar,deciding to ask explicit verification question
+11.089.5,B,deciding to ask explicit verification question,deciding to ask explicit verification question,Jetzt frage ich ganz klar,deciding to ask LLM for verification
 11.090.1,B,requesting explicit verification of algebraic step,requesting explicit verification of algebraic step,Sind AB/25 mal 25 = AB?,requesting explicit verification of algebraic step
 11.092.1,B,confirming own calculated result,confirming own calculated result,Ich habe gerade ausgerechnet. 10,confirming own calculated result
 11.093.1,B,submitting final answer to LLM,submitting final answer to LLM,10,submitting final answer to LLM
@@ -1227,7 +1227,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.095.2,B,recalling earlier partial-correctness feedback,recalling earlier partial-correctness feedback,erst fast richtig,recalling earlier partial-correctness feedback
 11.095.3,B,noting final confirmation of correctness,noting final confirmation of correctness,da richtig,noting final confirmation of correctness
 11.095.4,B,expressing satisfaction at success,expressing satisfaction at success,Geil,expressing satisfaction at success
-11.095.5,B,deciding to re-read response,deciding to re-read response,Ich lese nochmal nach,deciding to re-read response
+11.095.5,B,deciding to re-read response,deciding to re-read response,Ich lese nochmal nach,Deciding to verify LLM output
 11.095.6,B,reiterating observation of inconsistent feedback across turns,reiterating observation of inconsistent feedback across turns,"Erst sagt er, fast richtig. Dann sagt er da richtig",reiterating observation of inconsistent feedback across turns
 11.095.10,B,reflecting on wasted time from prior task,reflecting on wasted time from prior task,Habe ich die ganze Zeit umsonst gehangen,reflecting on wasted time from prior task
 11.095.13,B,reading task element aloud,reading task element aloud,A,reading task element aloud
@@ -1239,7 +1239,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.095.20,B,restating task definition,restating task definition,N ist der Punkt auf der Linie AM,restating given information
 11.095.21,B,restating task given value,restating task given value,NM ist 1,restating given information
 11.095.22,B,restating task question,Restating task question,Wie lang ist NC?,restating problem goal
-11.095.23,B,deciding to draw diagram to organize understanding,deciding to draw diagram to organize understanding,Jetzt zeichne ich mir das Bild mal komplett auf,deciding to draw diagram to organize understanding
+11.095.23,B,deciding to draw diagram to organize understanding,deciding to draw diagram to organize understanding,Jetzt zeichne ich mir das Bild mal komplett auf,deciding next solution step
 11.095.24,B,placing point on diagram,placing point on diagram,Da ist A,placing point on diagram
 11.095.25,B,placing point on diagram,placing point on diagram,M ist exakt in der Mitte,placing point on diagram
 11.095.26,B,placing point on diagram,placing point on diagram,B,placing point on diagram
@@ -1294,7 +1294,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 13.014.18b,B,Noticing calculation-result mismatch,Noticing calculation-result mismatch,"geht irgendwas nicht auf, weil keine der Option richtig ist",Noticing calculation-result mismatch
 13.014.19,B,Questioning own assumption,Questioning own assumption,"Vielleicht war meine Annahme falsch, dass die Sachen rechtwinklig sind",Questioning own assumption
 13.014.20,B,Re-examining diagram values,Re-examining diagram values,ist das 6 und das 8,Re-examining diagram values
-13.014.21,B,Deciding to consult chatbot,Deciding to consult LLM,Ich frage mal kurz einmal den Chatbot,Deciding to consult LLM
+13.014.21,B,Deciding to consult chatbot for guidance,Deciding to consult LLM for guidance,Ich frage mal kurz einmal den Chatbot,deciding to ask LLM for guidance
 13.014.22,B,Formulating query to chatbot,Dictating question to LLM while typing,"Ich berechne die Kantenlänge von einem Diamanten, wenn die Strecken zwischen den Punkten liegen",Dictating question to LLM while typing
 13.014.23,B,Requesting to view task image,Requesting to view task image,Kann ich das Bild nochmal anschauen?,Requesting to view task image
 13.016.1,B,Attempting to access task image,Attempting to access task image,das müsste ich runterladen kurz,Attempting to access task image
@@ -1348,7 +1348,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.002.13,E,Restating task question,Restating task question,Wie groß ist die Distanz von der Mitte des Kreises zu Linie AB,restating problem goal
 15.002.15,E,Recalling candidate formula,Recalling candidate formula,man weiß ungefähr die Fläche auszurichten,Recalling candidate formula
 15.002.16,E,Recalling formula with self-doubt,Recalling formula with self-doubt,"r^2 mal Pi, wenn ich mich nicht recht täusche",Recalling formula with self-doubt
-15.002.17,E,Deciding to consult chatbot,Deciding to consult LLM,Ich würde den Chatbot einmal dies fragen,Deciding to consult LLM
+15.002.17,E,Deciding to consult chatbot for formular,Deciding to consult LLM for formular,Ich würde den Chatbot einmal dies fragen,deciding to ask LLM for information
 15.002.18,E,Formulating question for chatbot,Formulating question for LLM,wie die Formel ist,Formulating question for LLM
 15.003.1,E,Requesting formula from chatbot,Requesting formula from LLM,wie lautet die mathematische Formel für einen Kreis,Requesting formula from LLM
 15.005.1,E,Paraphrasing chatbot's response,Paraphrasing LLM's response,"Der Chatbot fragt mich, welche Formel ich nehmen würde",Paraphrasing LLM's response
@@ -1357,7 +1357,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.008.2,E,Paraphrasing chatbot's response (cont.),Paraphrasing LLM's response,nutzt,Paraphrasing LLM's response
 15.008.3,E,Expressing knowledge gap,Expressing knowledge gap,Leider weiß ich das nicht mehr,Expressing knowledge gap
 15.008.4,E,Expressing uncertainty,Expressing uncertainty,"unschlüsselig, also ein bisschen überfragt oder unsicher",Expressing uncertainty
-15.008.5,E,Deciding on response to chatbot,Deciding on response to LLM,Ich würde mit Nein behaupten,Deciding on response to LLM
+15.008.5,E,answerig the chatbot's question,answerig the LLM's question,Ich würde mit Nein behaupten,answerig the LLM's question
 15.009.1,E,Answering chatbot in the negative,Answering LLM in the negative,nein,Answering LLM in the negative
 15.011.2,E,Paraphrasing chatbot's response,Paraphrasing LLM's response,was das Verhältnis vom Umfang zu Durchmesser ist,Paraphrasing LLM's response
 15.011.3,E,Paraphrasing chatbot's response (cont.),Paraphrasing LLM's response,Es gibt eine Zahl die das Verhältnis beschreibt,Paraphrasing LLM's response
@@ -1373,7 +1373,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.014.7,E,Attributing insight to chatbot guidance,Attributing insight to LLM guidance,der Chatbot mir einen auf einen gewissen Hinweis geführt hat,Attributing insight to LLM guidance
 15.014.8,E,Recalling diameter-radius relationship,Recalling diameter-radius relationship,der Durchmesser das Doppel so groß ist wie der Radius,Recalling diameter-radius relationship
 15.014.9,E,Confirming derived formula,Confirming derived formula,r mal 2 mal Pi wäre der Umfang,Confirming derived formula
-15.014.10,E,Deciding to ask chatbot a new question,Deciding to ask LLM a new question,Ich würde jetzt fragen,Deciding to ask LLM a new question
+15.014.10,E,Deciding to consult chatbot for formula,Deciding to consult LLM for formular,Ich würde jetzt fragen,deciding to ask LLM for information
 15.014.11,E,Formulating question for chatbot,Formulating question for LLM,wie man genau zwischen zwei Punkten die Linie ausreicht kann innerhalb eines Kreises,Formulating question for LLM
 15.015.1,E,Requesting method from chatbot,Requesting method from LLM,Wie kann man eine Linie berechnen die parallel durch den Kreis verläuft,Requesting method from LLM
 15.017.2,E,Signaling cognitive pause,Signaling cognitive pause,Ich muss gerade ein bisschen überlegen,Signaling cognitive pause
@@ -1382,7 +1382,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.017.5,E,Concluding midpoint value,Concluding midpoint value,genau in der Hälfte,Concluding midpoint value
 15.017.6,E,Extending reasoning toward circle center,Extending reasoning toward circle center,weiter vorankommen zum Punkt 0,Extending reasoning toward circle center
 15.017.7,E,Formulating own sub-question,Formulating own sub-question,wie kommt man nun von der Hälfte aus nach oben zum Mittelpunkt,Formulating own sub-question
-15.017.8,E,Deciding to consult chatbot,Deciding to consult LLM,wie man von der Hälfte einer Linie zum Mittelpunkt gelangen könnte,Deciding to consult LLM
+15.017.8,E,Deciding to consult chatbot for formula,Deciding to consult LLM for formular,wie man von der Hälfte einer Linie zum Mittelpunkt gelangen könnte,deciding to ask LLM for information
 15.018.1,E,Requesting method from chatbot,Requesting method from LLM,wie kann man den Abstand berechnen zwischen den mittelpunkt und die genaue hälfte einer Sehne,Requesting method from LLM
 15.020.1,E,Paraphrasing chatbot's response,Paraphrasing LLM's response,ob ich den Anstand weiß zu bestimmen,Paraphrasing LLM's response
 15.020.2,E,Signaling cognitive pause,Signaling cognitive pause,Ich überlege gerade,Signaling cognitive pause
@@ -1405,7 +1405,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.028.4,E,Mapping given value onto triangle side,Mapping given value onto triangle side,"der Radius 5, das ist quasi die Hypotenuse",Mapping given value onto triangle side
 15.028.5,E,Mapping given value onto triangle side,Mapping given value onto triangle side,Die Hälfte der Sehne liegt bei 4,Mapping given value onto triangle side
 15.028.6,E,Recalling Pythagorean theorem,Recalling Pythagorean theorem,"A^2 plus B^2, vielleicht C^2",Recalling Pythagorean theorem
-15.028.7,E,Deciding to ask chatbot for clarification,Deciding to ask LLM for clarification,"welche der Variablen war, welche Seite war die Hypotenuse",Deciding to ask LLM for clarification
+15.028.7,E,Deciding to ask chatbot for clarification,Deciding to ask LLM for clarification,"welche der Variablen war, welche Seite war die Hypotenuse",deciding to ask LLM for information
 15.029.1,E,Requesting clarification from chatbot,Requesting clarification from LLM,welche variablen ... waren für welchen buchstaben im satz des Pythagoras,Requesting clarification from LLM
 15.031.1,E,Paraphrasing chatbot's response,Paraphrasing LLM's response,die Hypotenuse und die beiden Katheten,Paraphrasing LLM's response
 15.031.2,E,Recording mapped value with uncertainty,Recording mapped value with uncertainty,"die Sehnenlänge 4, das ist die Kathete",Recording mapped value with uncertainty
@@ -1415,8 +1415,8 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.031.6,E,Signaling cognitive pause,Signaling cognitive pause,Ich muss gerade noch ein bisschen nachdenken,Signaling cognitive pause
 15.031.7,E,Deciding to share image with chatbot,Deciding to share image with LLM,das Bild einzufügen,Deciding to share image with LLM
 15.031.8,E,Checking image-upload availability,Checking image-upload availability,Sind die Bilder schon drin?,Checking image-upload availability
-15.033.1,E,Deciding to correct chatbot's assumption,Deciding to correct LLM's assumption,die Hypotenuse nicht 5 sein kann,Deciding to correct LLM's assumption
-15.033.2,E,Deciding to ask chatbot for clarification,Deciding to ask LLM for clarification,wie er mir die Buchstaben und die Linien jeweils bestimmen kann,Deciding to ask LLM for clarification
+15.033.1,E,Deciding to correct chatbot's assumption,Deciding to correct LLM's assumption,die Hypotenuse nicht 5 sein kann,Deciding to update the LLM information
+15.033.2,E,Deciding to ask chatbot for clarification,Deciding to ask LLM for clarification,wie er mir die Buchstaben und die Linien jeweils bestimmen kann,deciding to ask LLM for information
 15.033.3,E,Restating intended request to chatbot,Restating intended request to LLM,dass er mir die Buchstaben bestimmen kann,Restating LLM approach
 15.034.1,E,Requesting help identifying triangle sides,Requesting help identifying triangle sides,"die jeweiligen linien zu bestimmen, um das dreieck genau zu bestimmen",Requesting help identifying triangle sides
 15.036.1,E,Paraphrasing chatbot's response,Paraphrasing LLM's response,"der Satz des Pythagoras, das habe ich schon aufgeschrieben",Paraphrasing LLM's response
@@ -1425,7 +1425,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.036.4,E,Setting up Pythagorean equation (cont.),Setting up Pythagorean equation,4^2 plus b^2 auf der einen Seite ... und 5^2 auf der anderen Seite,Setting up Pythagorean equation
 15.036.5,E,Solving equation (erroneous),Solving equation (erroneous),Macht aber auch so auch keinen Sinn,Solving equation (erroneous)
 15.036.6,E,Recognizing calculation error against answer options,Recognizing calculation error,Er steht auch nicht in den Möglichkeiten,Recognizing calculation error
-15.036.7,E,Deciding to re-explain to chatbot,Deciding to re-explain to LLM,Ich werde den Chatbot nochmal erklären,Deciding to re-explain to LLM
+15.036.7,E,Deciding to re-explain to chatbot,Deciding to re-explain to LLM,Ich werde den Chatbot nochmal erklären,Deciding to update the LLM information
 15.038.1,E,Agreeing to researcher's suggestion,Agreeing to researcher's suggestion,"Ja, ich glaube, das werde ich auch tun",Agreeing to researcher's suggestion
 15.040.1,E,Reassessing variable assignment,Reassessing variable assignment,von den Variablen macht das ja auch keinen Sinn,Reassessing variable assignment
 15.040.2,E,Recomputing squares step by step,Recomputing squares step by step,die Quadrate auszulösen von jeder Zahl,Recomputing squares step by step
@@ -1442,7 +1442,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.042.7,E,Restating sub-question,Restating sub-question,wie lang ist es dann von a zu c,restating problem goal
 15.042.8,E,Restating sub-goal,Restating sub-goal,Wir suchen jetzt den Abstand aber zwischen a und b,restating problem goal
 15.042.9,E,Attempting and rejecting incorrect approach,Attempting and rejecting incorrect approach,Das macht aber keinen Sinn,Attempting and rejecting incorrect approach
-15.042.10,E,Deciding to consult chatbot with image,Deciding to consult LLM with image,"wie kann man eine Längenverhältnisse ausrechnen, wenn man eine gesamte Länge hat",Deciding to consult LLM with image
+15.042.10,E,Deciding to consult chatbot for formular,Deciding to consult LLM for formular,"wie kann man eine Längenverhältnisse ausrechnen, wenn man eine gesamte Länge hat",deciding to ask LLM for information
 15.042.11,E,Formulating question for chatbot,Formulating question for LLM,Wie kann man quasi einen Abstand zwischen zwei Punkte von drei ausrechnen,Formulating question for LLM
 15.043.1,E,Requesting method from chatbot,Requesting method from LLM,wie bekomme ich die länge heraus,Requesting method from LLM
 15.045.1,E,Paraphrasing chatbot's response and answering,Paraphrasing LLM's response and answering,"ob ich weiß, wie man das Verhältnis verrechnen kann",Paraphrasing LLM's response and answering

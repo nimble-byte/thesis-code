@@ -24,7 +24,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [002.14] — (no code: non-substantive/filler)
 [002.15] PROCESS: Recalling candidate formula | IV: "man weiß ungefähr die Fläche auszurichten"
 [002.16] PROCESS: Recalling formula with self-doubt | IV: "r^2 mal Pi, wenn ich mich nicht recht täusche"
-[002.17] PROCESS: Deciding to consult chatbot | IV: "Ich würde den Chatbot einmal dies fragen"
+[002.17] PROCESS: Deciding to consult chatbot for formular | IV: "Ich würde den Chatbot einmal dies fragen"
 [002.18] PROCESS: Formulating question for chatbot | IV: "wie die Formel ist"
 
 [003.1] PROCESS: Requesting formula from chatbot | IV: "wie lautet die mathematische Formel für einen Kreis"
@@ -37,7 +37,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [008.2] PROCESS: Paraphrasing chatbot's response (cont.) | IV: "nutzt"
 [008.3] PROCESS: Expressing knowledge gap | IV: "Leider weiß ich das nicht mehr"
 [008.4] PROCESS: Expressing uncertainty | IV: "unschlüsselig, also ein bisschen überfragt oder unsicher"
-[008.5] PROCESS: Deciding on response to chatbot | IV: "Ich würde mit Nein behaupten"
+[008.5] PROCESS: answerig the chatbot's question | IV: "Ich würde mit Nein behaupten"
 
 [009.1] PROCESS: Answering chatbot in the negative | IV: "nein"
 
@@ -60,7 +60,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [014.7] PROCESS: Attributing insight to chatbot guidance | IV: "der Chatbot mir einen auf einen gewissen Hinweis geführt hat"
 [014.8] PROCESS: Recalling diameter-radius relationship | IV: "der Durchmesser das Doppel so groß ist wie der Radius"
 [014.9] PROCESS: Confirming derived formula | IV: "r mal 2 mal Pi wäre der Umfang"
-[014.10] PROCESS: Deciding to ask chatbot a new question | IV: "Ich würde jetzt fragen"
+[014.10] PROCESS: Deciding to consult chatbot for formula | IV: "Ich würde jetzt fragen"
 [014.11] PROCESS: Formulating question for chatbot | IV: "wie man genau zwischen zwei Punkten die Linie ausreicht kann innerhalb eines Kreises"
 
 [015.1] PROCESS: Requesting method from chatbot | IV: "Wie kann man eine Linie berechnen die parallel durch den Kreis verläuft"
@@ -72,7 +72,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [017.5] PROCESS: Concluding midpoint value | IV: "genau in der Hälfte"
 [017.6] PROCESS: Extending reasoning toward circle center | IV: "weiter vorankommen zum Punkt 0"
 [017.7] PROCESS: Formulating own sub-question | IV: "wie kommt man nun von der Hälfte aus nach oben zum Mittelpunkt"
-[017.8] PROCESS: Deciding to consult chatbot | IV: "wie man von der Hälfte einer Linie zum Mittelpunkt gelangen könnte"
+[017.8] PROCESS: Deciding to consult chatbot for formula | IV: "wie man von der Hälfte einer Linie zum Mittelpunkt gelangen könnte"
 
 [018.1] PROCESS: Requesting method from chatbot | IV: "wie kann man den Abstand berechnen zwischen den mittelpunkt und die genaue hälfte einer Sehne"
 
@@ -149,7 +149,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [042.7] PROCESS: Restating sub-question | IV: "wie lang ist es dann von a zu c"
 [042.8] PROCESS: Restating sub-goal | IV: "Wir suchen jetzt den Abstand aber zwischen a und b"
 [042.9] PROCESS: Attempting and rejecting incorrect approach | IV: "Das macht aber keinen Sinn"
-[042.10] PROCESS: Deciding to consult chatbot with image | IV: "wie kann man eine Längenverhältnisse ausrechnen, wenn man eine gesamte Länge hat"
+[042.10] PROCESS: Deciding to consult chatbot for formular | IV: "wie kann man eine Längenverhältnisse ausrechnen, wenn man eine gesamte Länge hat"
 [042.11] PROCESS: Formulating question for chatbot | IV: "Wie kann man quasi einen Abstand zwischen zwei Punkte von drei ausrechnen"
 
 [043.1] PROCESS: Requesting method from chatbot | IV: "wie bekomme ich die länge heraus"

@@ -45,7 +45,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [008.13] PROCESS: Identifying missing information | IV: "Über AB haben wir keine Angaben"
 [008.14] PROCESS: Identifying sub-triangle with unknown side | IV: "ein zweites Dreieck haben, dessen Länge wir suchen"
 [008.15] PROCESS: Restating target unknown | IV: "die Seitenkante, die wir suchen"
-[008.16] PROCESS: Deciding to consult chatbot | IV: "diese Aufgabe mal dem Chatbot geben"
+[008.16] PROCESS: Deciding to consult chatbot for guidance | IV: "diese Aufgabe mal dem Chatbot geben"
 [008.17] PROCESS: Noting image upload option | IV: "konnten wir jetzt das Bild da einfügen"
 [008.18] — (no code: non-substantive/filler)
 [008.19] PROCESS: Copying task text into chat | IV: "kopiere mir hier den Text von der Aufgabe"
@@ -144,7 +144,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [024.21] PROCESS: Computing numeric value | IV: "Ich rechne das mal aus zu 36"
 [024.22] PROCESS: Applying same rearrangement to second equation | IV: "Gleich auf der anderen Seite auch"
 [024.23] PROCESS: Rearranging second equation | IV: "X^2 plus b^2 minus 3^2, also 9"
-[024.24] PROCESS: Deciding to query chatbot | IV: "ich frag jetzt mal die KI"
+[024.24] PROCESS: Deciding to verify formula with chatbot | IV: "ich frag jetzt mal die KI"
 [024.25] PROCESS: Dictating message about equation rearrangement | IV: "dann kann ich sie gleichsetzen nach"
 [024.26] PROCESS: Dictating combined equation | IV: "X^2 plus a^2 minus 36 ist gleich X^2 plus b^2 minus 9"
 [024.27] — (no code: non-substantive/filler)
@@ -203,7 +203,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [043.7] PROCESS: Planning further rearrangement | IV: "die Gleichung wieder umstellen"
 [043.8] PROCESS: Canceling shared term | IV: "das b^2 rauskürzen"
 [043.9] PROCESS: Deriving inconsistent result | IV: "0 gleich x^2 plus 27"
-[043.10] PROCESS: Deciding to continue querying chatbot | IV: "Frangen wir mal die KI weiter"
+[043.10] PROCESS: answerig the chatbot's question | IV: "Frangen wir mal die KI weiter"
 [043.11] PROCESS: Restating equation with typo | IV: "6^2 gleich x^2 plus a"
 [043.12] PROCESS: Recognizing handwriting-induced transcription error | IV: "wegen meiner Sauklaue aus einer 6 ein b gemacht"
 [043.13] PROCESS: Reflecting on value of writing out steps for error-checking | IV: "dann fällt dein Fehler auch wieder auf"

@@ -12,7 +12,7 @@ id,group,raw_label,canonical_label,in_vivo
 01.003.3,E,Formulating solution/question strategy,Formulating solution/question strategy,was kann ich denn fragen? Wie kann ich das lösen?
 01.003.4,E,Planning own solution approach,Planning own solution approach,"einen Weg überlegen, der gehen könnte"
 01.003.5a,E,Judging own solving capacity as insufficient,Judging own solving capacity as insufficient,nicht im Kopf hin denke ich
-01.003.5b,E,Deciding to consult chatbot,Deciding to consult chatbot,"überlege ich, was ich den Chatbot dazu fragen kann"
+01.003.5b,E,Deciding to consult chatbot for guidance,Deciding to consult chatbot for guidance,"überlege ich, was ich den Chatbot dazu fragen kann"
 01.003.6,E,Seeking mental representation of problem,Seeking mental representation of problem,Ich brauche hier eine Vorstellung
 01.003.7,E,Restating given information,Restating given information,"den Radius, der ist 5... die Entfernung dazwischen 8"
 01.003.8,E,Proposing trigonometric solution strategy,Proposing trigonometric solution strategy,"mithilfe von Winkeln und dann Cosinus, Sinus"
@@ -34,7 +34,7 @@ id,group,raw_label,canonical_label,in_vivo
 01.007.11,E,Computing derived value,Computing derived value,dann 4 ist und das ist 5
 01.007.12,E,Planning next calculation step,Planning next calculation step,dass ich dann irgendwie das ausrechnen kann
 01.007.13a,E,Identifying missing information needed (angle),Identifying missing information needed (angle),Ich bräuchte irgendwie den Winkel
-01.007.13b,E,Deciding to consult chatbot again (utterance cuts off),Deciding to consult chatbot again (utterance cuts off),jetzt kann ich den Chatbot
+01.007.13b,E,Deciding to consult chatbot for guidance,Deciding to consult chatbot for guidance,jetzt kann ich den Chatbot
 01.007.14a,E,Expressing confidence in eventually solving,Expressing confidence in eventually solving,ich kriege das bestimmt auch
 01.007.14b,E,Valuing chatbot assistance,Valuing chatbot assistance,"es ist gut, dass ich jetzt einen Chatbot habe"
 01.007.15a,E,Announcing attempt to formulate question,Announcing attempt to formulate question,Ich probiere jetzt mal
@@ -73,7 +73,7 @@ id,group,raw_label,canonical_label,in_vivo
 02.008.6,B,Commenting on Rusty Calculator Skills,Commenting on Rusty Calculator Skills,mit dem Taschenrechner umgehen habe ich das schon lange nicht mehr gemacht
 02.008.7,B,Re-reading Given Values,Re-reading Given Values,"Wenn AC die Länge 25 hat, AC ist..."
 02.008.8,B,Voicing Confusion About Ratio Meaning,Voicing Confusion About Ratio Meaning,was heißt 2 zu 5?
-02.008.9,B,Deciding to Consult Chatbot,Deciding to Consult Chatbot,Fragen wir mal den Chatbot.
+02.008.9,B,Deciding to ask Chatbot for clarification,Deciding to ask Chatbot for clarification,Fragen wir mal den Chatbot.
 02.008.10,B,Asking About Chat Session Procedure,Asking About Chat Session Procedure,soll ich zuerst noch mal einen neuen Chat anlegen
 02.010.1,B,Typing Query to Chatbot,Typing Query to Chatbot,was heit das Verhätis 2 zu 5
 02.012.1,B,Reading Chatbot Response Aloud,Reading Chatbot Response Aloud,"Das Verhältnis von 2 zu 5 bedeutet, dass die Teile in Bezug auf 5 Teile gesetzt werden."
@@ -418,7 +418,7 @@ id,group,raw_label,canonical_label,in_vivo
 05.007.4,B,Signaling reflection pause,Signaling reflection pause,kurz nachdenken
 05.007.5,B,Identifying need for formula,Identifying need for formula,da brauchen wir einfach nur die Formeln für
 05.007.6,B,Expressing hedged assessment that task requirement is met,Expressing hedged assessment that task requirement is met,"Ich denke, dann hat sich das..."
-05.007.7,B,Deciding to use image as chatbot input,Deciding to use image as chatbot input,"Ich kopiere rein, nutze ich das Bild"
+05.007.7,B,Deciding to share image with chatbot,Deciding to share image with chatbot,"Ich kopiere rein, nutze ich das Bild"
 05.007.9,B,Marking action completion,Marking action completion,Zack
 05.007.10,B,Deciding to start new chat per task,Deciding to start new chat per task,Neuen Chat benutzen für neue Aufgaben
 05.007.12,B,Marking action completion,Marking action completion,Zack
@@ -516,7 +516,7 @@ id,group,raw_label,canonical_label,in_vivo
 07.007.1,E,Labeling given value in drawing,Labeling given value in drawing,BC ist 3
 07.007.2,E,Identifying target value,Identifying target value,letztendlich hier 6 gesucht
 07.007.3,E,Identifying target value,Identifying target value,Die ist gesucht
-07.007.4,E,Deciding to ask for help,Deciding to ask for help,Da muss ich jetzt doch mal fragen
+07.007.4,E,Deciding to consult LLM for guidance,Deciding to consult LLM for guidance,Da muss ich jetzt doch mal fragen
 07.007.5,E,Identifying needed formula,Identifying needed formula,Die Formel für die Höhe
 07.007.6,E,Assessing sufficiency of given information,Assessing sufficiency of given information,Ich habe hier genügend Informationen
 07.007.7,E,Expressing uncertainty about right angle,Expressing uncertainty about right angle,"Ich weiß nicht, ob das rechtwinklig ist"
@@ -598,7 +598,7 @@ id,group,raw_label,canonical_label,in_vivo
 08.008.13,E,Identifying missing information,Identifying missing information,Über AB haben wir keine Angaben
 08.008.14,E,Identifying sub-triangle with unknown side,Identifying sub-triangle with unknown side,"ein zweites Dreieck haben, dessen Länge wir suchen"
 08.008.15,E,Restating target unknown,Restating target unknown,"die Seitenkante, die wir suchen"
-08.008.16,E,Deciding to consult chatbot,Deciding to consult chatbot,diese Aufgabe mal dem Chatbot geben
+08.008.16,E,Deciding to consult chatbot for guidance,Deciding to consult chatbot for guidance,diese Aufgabe mal dem Chatbot geben
 08.008.17,E,Noting image upload option,Noting image upload option,konnten wir jetzt das Bild da einfügen
 08.008.19,E,Copying task text into chat,Copying task text into chat,kopiere mir hier den Text von der Aufgabe
 08.010.2,E,Expressing impasse/lack of ideas,Expressing impasse/lack of ideas,ich habe glaube ich nicht mehr viele Ideen
@@ -684,7 +684,7 @@ id,group,raw_label,canonical_label,in_vivo
 08.024.21,E,Computing numeric value,Computing numeric value,Ich rechne das mal aus zu 36
 08.024.22,E,Applying same rearrangement to second equation,Applying same rearrangement to second equation,Gleich auf der anderen Seite auch
 08.024.23,E,Rearranging second equation,Rearranging second equation,"X^2 plus b^2 minus 3^2, also 9"
-08.024.24,E,Deciding to query chatbot,Deciding to query chatbot,ich frag jetzt mal die KI
+08.024.24,E,Deciding to verify formula with chatbot,Deciding to verify formula with chatbott,ich frag jetzt mal die KI
 08.024.25,E,Dictating message about equation rearrangement,Dictating message about equation rearrangement,dann kann ich sie gleichsetzen nach
 08.024.26,E,Dictating combined equation,Dictating combined equation,X^2 plus a^2 minus 36 ist gleich X^2 plus b^2 minus 9
 08.025.1,E,Explaining rearrangement rationale in message,Explaining rearrangement rationale in message,dann kann ich sie gleichsetzen nach
@@ -727,7 +727,7 @@ id,group,raw_label,canonical_label,in_vivo
 08.043.7,E,Planning further rearrangement,Planning further rearrangement,die Gleichung wieder umstellen
 08.043.8,E,Canceling shared term,Canceling shared term,das b^2 rauskürzen
 08.043.9,E,Deriving inconsistent result,Deriving inconsistent result,0 gleich x^2 plus 27
-08.043.10,E,Deciding to continue querying chatbot,Deciding to continue querying chatbot,Frangen wir mal die KI weiter
+08.043.10,E,answerig the chatbot's question,answerig the chatbot's question,Frangen wir mal die KI weiter
 08.043.11,E,Restating equation with typo,Restating equation with typo,6^2 gleich x^2 plus a
 08.043.12,E,Recognizing handwriting-induced transcription error,Recognizing handwriting-induced transcription error,wegen meiner Sauklaue aus einer 6 ein b gemacht
 08.043.13,E,Reflecting on value of writing out steps for error-checking,Reflecting on value of writing out steps for error-checking,dann fällt dein Fehler auch wieder auf
@@ -831,7 +831,7 @@ id,group,raw_label,canonical_label,in_vivo
 09.002.4,E,Identifying given information,Identifying given information,"ein Verhältnis gegeben, allerdings auch für eine Länge, die ich nicht habe"
 09.002.5,E,Formalizing problem variables,Formalizing problem variables,AB plus BC ist in Summe AC
 09.002.6,E,Restating given information,Restating given information,das Verhältnis von AB zu AC gegeben
-09.002.7,E,Deciding to consult chatbot,Deciding to consult chatbot,"frage ich dann direkt mal nach, wie ich das am besten lösen kann"
+09.002.7,E,Deciding to consult chatbot for guidance,Deciding to consult chatbot for guidance,"frage ich dann direkt mal nach, wie ich das am besten lösen kann"
 09.002.8,E,Self-correcting stated values,Self-correcting stated values,im Verhältnis 2 zu 5
 09.002.9,E,Planning calculation approach,Planning calculation approach,müsste man selbst jetzt 25 durch 7 teilen
 09.002.10,E,Deciding to verify calculation with chatbot,Deciding to verify calculation with chatbot,"frage ich gleich mal in Chatbot, ob das so stimmt"
@@ -1294,7 +1294,7 @@ id,group,raw_label,canonical_label,in_vivo
 13.014.18b,B,Noticing calculation-result mismatch,Noticing calculation-result mismatch,"geht irgendwas nicht auf, weil keine der Option richtig ist"
 13.014.19,B,Questioning own assumption,Questioning own assumption,"Vielleicht war meine Annahme falsch, dass die Sachen rechtwinklig sind"
 13.014.20,B,Re-examining diagram values,Re-examining diagram values,ist das 6 und das 8
-13.014.21,B,Deciding to consult chatbot,Deciding to consult chatbot,Ich frage mal kurz einmal den Chatbot
+13.014.21,B,Deciding to consult chatbot for guidance,Deciding to consult chatbot for guidance,Ich frage mal kurz einmal den Chatbot
 13.014.22,B,Formulating query to chatbot,Formulating query to chatbot,"Ich berechne die Kantenlänge von einem Diamanten, wenn die Strecken zwischen den Punkten liegen"
 13.014.23,B,Requesting to view task image,Requesting to view task image,Kann ich das Bild nochmal anschauen?
 13.016.1,B,Attempting to access task image,Attempting to access task image,das müsste ich runterladen kurz
@@ -1348,7 +1348,7 @@ id,group,raw_label,canonical_label,in_vivo
 15.002.13,E,Restating task question,Restating task question,Wie groß ist die Distanz von der Mitte des Kreises zu Linie AB
 15.002.15,E,Recalling candidate formula,Recalling candidate formula,man weiß ungefähr die Fläche auszurichten
 15.002.16,E,Recalling formula with self-doubt,Recalling formula with self-doubt,"r^2 mal Pi, wenn ich mich nicht recht täusche"
-15.002.17,E,Deciding to consult chatbot,Deciding to consult chatbot,Ich würde den Chatbot einmal dies fragen
+15.002.17,E,Deciding to consult chatbot for formular,Deciding to consult chatbot for formular,Ich würde den Chatbot einmal dies fragen
 15.002.18,E,Formulating question for chatbot,Formulating question for chatbot,wie die Formel ist
 15.003.1,E,Requesting formula from chatbot,Requesting formula from chatbot,wie lautet die mathematische Formel für einen Kreis
 15.005.1,E,Paraphrasing chatbot's response,Paraphrasing chatbot's response,"Der Chatbot fragt mich, welche Formel ich nehmen würde"
@@ -1357,7 +1357,7 @@ id,group,raw_label,canonical_label,in_vivo
 15.008.2,E,Paraphrasing chatbot's response (cont.),Paraphrasing chatbot's response (cont.),nutzt
 15.008.3,E,Expressing knowledge gap,Expressing knowledge gap,Leider weiß ich das nicht mehr
 15.008.4,E,Expressing uncertainty,Expressing uncertainty,"unschlüsselig, also ein bisschen überfragt oder unsicher"
-15.008.5,E,Deciding on response to chatbot,Deciding on response to chatbot,Ich würde mit Nein behaupten
+15.008.5,E,answerig the chatbot's question,answerig the chatbot's question,Ich würde mit Nein behaupten
 15.009.1,E,Answering chatbot in the negative,Answering chatbot in the negative,nein
 15.011.2,E,Paraphrasing chatbot's response,Paraphrasing chatbot's response,was das Verhältnis vom Umfang zu Durchmesser ist
 15.011.3,E,Paraphrasing chatbot's response (cont.),Paraphrasing chatbot's response (cont.),Es gibt eine Zahl die das Verhältnis beschreibt
@@ -1373,7 +1373,7 @@ id,group,raw_label,canonical_label,in_vivo
 15.014.7,E,Attributing insight to chatbot guidance,Attributing insight to chatbot guidance,der Chatbot mir einen auf einen gewissen Hinweis geführt hat
 15.014.8,E,Recalling diameter-radius relationship,Recalling diameter-radius relationship,der Durchmesser das Doppel so groß ist wie der Radius
 15.014.9,E,Confirming derived formula,Confirming derived formula,r mal 2 mal Pi wäre der Umfang
-15.014.10,E,Deciding to ask chatbot a new question,Deciding to ask chatbot a new question,Ich würde jetzt fragen
+15.014.10,E,Deciding to consult chatbot for formula,Deciding to consult chatbot for formula,Ich würde jetzt fragen
 15.014.11,E,Formulating question for chatbot,Formulating question for chatbot,wie man genau zwischen zwei Punkten die Linie ausreicht kann innerhalb eines Kreises
 15.015.1,E,Requesting method from chatbot,Requesting method from chatbot,Wie kann man eine Linie berechnen die parallel durch den Kreis verläuft
 15.017.2,E,Signaling cognitive pause,Signaling cognitive pause,Ich muss gerade ein bisschen überlegen
@@ -1382,7 +1382,7 @@ id,group,raw_label,canonical_label,in_vivo
 15.017.5,E,Concluding midpoint value,Concluding midpoint value,genau in der Hälfte
 15.017.6,E,Extending reasoning toward circle center,Extending reasoning toward circle center,weiter vorankommen zum Punkt 0
 15.017.7,E,Formulating own sub-question,Formulating own sub-question,wie kommt man nun von der Hälfte aus nach oben zum Mittelpunkt
-15.017.8,E,Deciding to consult chatbot,Deciding to consult chatbot,wie man von der Hälfte einer Linie zum Mittelpunkt gelangen könnte
+15.017.8,E,Deciding to consult chatbot for formula,Deciding to consult chatbot for formula,wie man von der Hälfte einer Linie zum Mittelpunkt gelangen könnte
 15.018.1,E,Requesting method from chatbot,Requesting method from chatbot,wie kann man den Abstand berechnen zwischen den mittelpunkt und die genaue hälfte einer Sehne
 15.020.1,E,Paraphrasing chatbot's response,Paraphrasing chatbot's response,ob ich den Anstand weiß zu bestimmen
 15.020.2,E,Signaling cognitive pause,Signaling cognitive pause,Ich überlege gerade
@@ -1442,7 +1442,7 @@ id,group,raw_label,canonical_label,in_vivo
 15.042.7,E,Restating sub-question,Restating sub-question,wie lang ist es dann von a zu c
 15.042.8,E,Restating sub-goal,Restating sub-goal,Wir suchen jetzt den Abstand aber zwischen a und b
 15.042.9,E,Attempting and rejecting incorrect approach,Attempting and rejecting incorrect approach,Das macht aber keinen Sinn
-15.042.10,E,Deciding to consult chatbot with image,Deciding to consult chatbot with image,"wie kann man eine Längenverhältnisse ausrechnen, wenn man eine gesamte Länge hat"
+15.042.10,E,Deciding to consult chatbot for formular,Deciding to consult chatbot for formular,"wie kann man eine Längenverhältnisse ausrechnen, wenn man eine gesamte Länge hat"
 15.042.11,E,Formulating question for chatbot,Formulating question for chatbot,Wie kann man quasi einen Abstand zwischen zwei Punkte von drei ausrechnen
 15.043.1,E,Requesting method from chatbot,Requesting method from chatbot,wie bekomme ich die länge heraus
 15.045.1,E,Paraphrasing chatbot's response and answering,Paraphrasing chatbot's response and answering,"ob ich weiß, wie man das Verhältnis verrechnen kann"

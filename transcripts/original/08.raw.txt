@@ -400,7 +400,7 @@ Proband:
     Dann schauen wir uns den Denkprozess nochmal an.
     Nächste Lösungsschritt der Nutzer. Kann nur die möglichen Werte für X aus den gebenen Optionen (A) 2, (B) 4, (C) 5, (D) 7, (E) 8. Ah, okay.
     Das heißt, wir müssen, weil es kleiner als 3 sein muss, bleibt nur die Antwort 2.
-    Könnte das jetzt noch Spaß sein, mal versuchen nachzurechnen, aber tun wir das.
+    Könnte das jetzt noch Spaß sein, mal versuchen nachzurechnen, also tun wir das.
     2 gleich Wurzel 9 minus b^2. Das heißt, da muss ja im Prinzip 4 in die Wurzel rauskommen.
     Das heißt, b^2 ist 5, also b ist gleich Wurzel aus 5.
     A haben wir ja da drüben mit a gleich b^2, also A gleich Wurzel aus b^2 plus 27.

@@ -57,7 +57,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [007.4] PROCESS: Signaling reflection pause | IV: "kurz nachdenken"
 [007.5] PROCESS: Identifying need for formula | IV: "da brauchen wir einfach nur die Formeln für"
 [007.6] PROCESS: Expressing hedged assessment that task requirement is met | IV: "Ich denke, dann hat sich das..."
-[007.7] PROCESS: Deciding to use image as chatbot input | IV: "Ich kopiere rein, nutze ich das Bild"
+[007.7] PROCESS: Deciding to share image with chatbot | IV: "Ich kopiere rein, nutze ich das Bild"
 [007.8] — (no code: non-substantive/filler)
 [007.9] PROCESS: Marking action completion | IV: "Zack"
 [007.10] PROCESS: Deciding to start new chat per task | IV: "Neuen Chat benutzen für neue Aufgaben"
