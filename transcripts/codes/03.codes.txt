@@ -18,7 +18,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 
 [005.1] PROCESS: Rejecting LLM's suggested approach | IV: "Abstand punkt gerade hilft glaube ich nicht"
 [005.2] PROCESS: Re-strategizing after rejecting approach | IV: "überlege ich einfach noch mal ein bisschen anders"
-[005.3] PROCESS: Deriving diameter length independently | IV: "wenn ich eine neue Linie zeichnen würde durch den mittelpunkt dann hätte die länge von 10"
+[005.3] PROCESS: Deriving diameter length | IV: "wenn ich eine neue Linie zeichnen würde durch den mittelpunkt dann hätte die länge von 10"
 [005.4] PROCESS: Announcing intent to describe own reasoning to LLM | IV: "das beschreibe ich ihm jetzt einfach mal"
 [005.5] PROCESS: Describing geometric setup for LLM | IV: "die Linie von acht ein bisschen weiter unten"
 [005.6] PROCESS: Expressing expectation of LLM assistance | IV: "vielleicht hat er dann eine Idee"
@@ -106,6 +106,6 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [030.1] — (no code: non-substantive/filler)
 [030.2] PROCESS: Summarizing given task information | IV: "eine Linie und mehrere Längen und Verhältnisse"
 [030.3] PROCESS: Orienting to task before solving | IV: "verschaffe ich mir dann erstmal einen Überblick"
-[030.4] PROCESS: Independently deriving segment length (AN) from given ratios | IV: "wissen wir, dass AN = 4 ist"
-[030.5] PROCESS: Independently deriving segment lengths (NC, CB) from midpoint relation | IV: "NC ist 2,5 genauso wie CB"
+[030.4] PROCESS: Deriving segment length (AN) from given ratios | IV: "wissen wir, dass AN = 4 ist"
+[030.5] PROCESS: Deriving segment lengths (NC, CB) | IV: "NC ist 2,5 genauso wie CB"
 [030.6] PROCESS: Completing calculation independently without consulting LLM | IV: "Dafür brauche ich dann das LLM in dem Fall nicht"

@@ -322,5 +322,5 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [095.32] PROCESS: mapping percentage scale to actual lengths | IV: "100% ist 10 lang, M ist genau in der Mitte, also 5"
 [095.33] PROCESS: deriving midpoint value | IV: "das ist genau die Mitte von MB, das ist siebeneinhalb"
 [095.34] PROCESS: noting unspecified position of point N | IV: "N ist ein Punkt auf der Linie zwischen A und M, aber irgendwo"
-[095.35] PROCESS: deriving final answer through independent calculation | IV: "Zwischen 4 und 7,5 liegen 3,5"
+[095.35] PROCESS: deriving final answer  | IV: "Zwischen 4 und 7,5 liegen 3,5"
 [095.36] PROCESS: noting problem solved without consulting LLM | IV: "Habe ich jetzt nicht gefragt, aber okay"

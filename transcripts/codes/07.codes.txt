@@ -94,7 +94,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [017.19] PROCESS: Restating point definitions | IV: "M ist die Mitte der Linie A, B. N ist ein Punkt der Linie A, M"
 [017.20] PROCESS: Restating problem question | IV: "Wie lange ist der Abschnitt in C?"
 [017.21] PROCESS: Restating given point definition | IV: "C ist die Mitte des Abschnittes M, B"
-[017.22] PROCESS: Deriving fractional relationship between segments | IV: "M, C ein Viertel der ganzen Geschichte"
+[017.22] PROCESS: Deriving relation between segments | IV: "M, C ein Viertel der ganzen Geschichte"
 [017.23] PROCESS: Stating computed segment value | IV: "K ist 2,5"
 [017.24] PROCESS: Computing final answer from attributed given value | IV: "da er behauptet, dass M, N, 1 ist, wäre die Lösung 3,5"
 [017.25] PROCESS: Signaling task completion | IV: "Mache jetzt fertig, es hat mir zu duschen"

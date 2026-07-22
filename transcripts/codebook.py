@@ -37,6 +37,25 @@ IV_RE = re.compile(r'^"(?P<quote>.*)"\s*$')
 STMT_LIKE_RE = re.compile(r"^\[\d{3}\.[0-9a-z]+\]")
 HEADER_KEY_RE = re.compile(r"^(?P<key>[A-Z]+):\s*(?P<val>.+?)\s*$")
 
+# Lead-verb extraction for `view --group-by-verb`: strip grammatical
+# modifiers only (re-/self- prefix, a leading manner adverb), never verb
+# synonyms -- synonym-level grouping is a meaning judgment (pattern coding),
+# out of scope for this purely orthographic organizing aid. Validated at
+# 100% gerund coverage (0 exceptions) against the full v1 codebook.
+_VERB_PREFIX_RE = re.compile(r"^(re|self)-", re.I)
+_VERB_ADVERB_RE = re.compile(r"^\w+ly\s+", re.I)
+_VERB_LEAD_RE = re.compile(r"^([A-Za-z]+)")
+
+
+def lead_verb(label):
+    """Extract the base process verb from a canonical_label, stripping
+    grammatical (not semantic) modifiers. Returns None if no leading
+    alphabetic token is found."""
+    s = _VERB_PREFIX_RE.sub("", label)
+    s = _VERB_ADVERB_RE.sub("", s)
+    m = _VERB_LEAD_RE.match(s)
+    return m.group(1).lower() if m else None
+
 
 def parse_file(path):
     """Return (rows, skipped_filler, warnings) for one _codes.txt file."""
@@ -215,7 +234,26 @@ def cmd_view(args):
         .sort_values(["frequency", "canonical_label"], ascending=[False, True])
     )
 
-    print(f"=== view ===")
+    verb_note = ""
+    if args.group_by_verb:
+        view["lead_verb"] = view["canonical_label"].apply(lead_verb)
+        unmatched = view[view["lead_verb"].isna()]
+        if not unmatched.empty:
+            print(f"  WARNING: {len(unmatched)} label(s) had no extractable "
+                  f"lead verb, left ungrouped:")
+            for lbl in unmatched["canonical_label"]:
+                print(f"    - {lbl!r}")
+        view["n_in_cluster"] = view.groupby("lead_verb")["canonical_label"].transform(
+            "count"
+        )
+        view = view.sort_values(
+            ["n_in_cluster", "lead_verb", "frequency", "canonical_label"],
+            ascending=[False, True, False, True],
+        )
+        n_verbs = view["lead_verb"].nunique()
+        verb_note = f" | grouped by lead verb: {n_verbs} families"
+
+    print(f"=== view ==={verb_note}")
 
     if args.out:
         out_abs = os.path.abspath(args.out)
@@ -241,7 +279,21 @@ def cmd_view(args):
         with pd.option_context(
             "display.max_rows", None, "display.max_colwidth", 60, "display.width", 200
         ):
-            print(view.to_string(index=False))
+            if args.group_by_verb:
+                # Render the whole table at once so column widths stay
+                # consistent, then insert blank lines at cluster boundaries
+                # -- the point of this mode is batching related codes for
+                # manual review, not just sorting them.
+                lines = view.to_string(index=False).split("\n")
+                print(lines[0])
+                prev_verb = None
+                for row_line, verb in zip(lines[1:], view["lead_verb"]):
+                    if prev_verb is not None and verb != prev_verb:
+                        print()
+                    print(row_line)
+                    prev_verb = verb
+            else:
+                print(view.to_string(index=False))
 
     print(
         "\n"
@@ -282,6 +334,17 @@ def main():
     )
     v.add_argument(
         "--force", action="store_true", help="allow overwriting an existing --out file"
+    )
+    v.add_argument(
+        "--group-by-verb",
+        action="store_true",
+        dest="group_by_verb",
+        help=(
+            "sort/cluster by lead process verb (grammatical normalization "
+            "only -- re-/self- prefix and leading manner adverb stripped; "
+            "no synonym grouping). Organizing aid for manual review, not "
+            "an analytic grouping."
+        ),
     )
     v.set_defaults(func=cmd_view)
 

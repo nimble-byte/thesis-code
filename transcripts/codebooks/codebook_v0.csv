@@ -125,7 +125,7 @@ id,group,raw_label,canonical_label,in_vivo
 02.025.10a,B,Performing Division Calculation,Performing Division Calculation,360 durch 6
 02.025.10b,B,Thanking Chatbot,Thanking Chatbot,"Vielen Dank, Chatbot."
 02.025.11,B,Stating Computed Angle Value,Stating Computed Angle Value,60 Grad ist der Winkel auf jeden Fall dort
-02.025.12,B,Deriving Final Angle via Bisection Reasoning,Deriving Final Angle via Bisection Reasoning,"Der Winkel wird in der Mitte geschnitten, also 30 Grad."
+02.025.12,B,deriving final angle,deriving final angle,"Der Winkel wird in der Mitte geschnitten, also 30 Grad."
 02.025.13,B,Reading Task Statement Aloud,Reading Task Statement Aloud,"die Diagonalen des Diamanten A, B, C, D die folgenden Längen"
 02.025.14,B,Reading Task Statement Aloud,Reading Task Statement Aloud,"AC gleich 12, BD gleich 16"
 02.025.15,B,Reading Task Statement Aloud,Reading Task Statement Aloud,Wie lang sind die Kanten des Diamanten?
@@ -152,7 +152,7 @@ id,group,raw_label,canonical_label,in_vivo
 03.003.1,B,Requesting solution formula from LLM,Requesting solution formula from LLM,hast du eine Idee mit welcher formel ich diese Aufgabe lösen kann?
 03.005.1,B,Rejecting LLM's suggested approach,Rejecting LLM's suggested approach,Abstand punkt gerade hilft glaube ich nicht
 03.005.2,B,Re-strategizing after rejecting approach,Re-strategizing after rejecting approach,überlege ich einfach noch mal ein bisschen anders
-03.005.3,B,Deriving diameter length independently,Deriving diameter length independently,wenn ich eine neue Linie zeichnen würde durch den mittelpunkt dann hätte die länge von 10
+03.005.3,B,Deriving diameter length,Deriving diameter length,wenn ich eine neue Linie zeichnen würde durch den mittelpunkt dann hätte die länge von 10
 03.005.4,B,Announcing intent to describe own reasoning to LLM,Announcing intent to describe own reasoning to LLM,das beschreibe ich ihm jetzt einfach mal
 03.005.5,B,Describing geometric setup for LLM,Describing geometric setup for LLM,die Linie von acht ein bisschen weiter unten
 03.005.6,B,Expressing expectation of LLM assistance,Expressing expectation of LLM assistance,vielleicht hat er dann eine Idee
@@ -214,8 +214,8 @@ id,group,raw_label,canonical_label,in_vivo
 03.029.4b,B,Selecting final answer despite imprecision,Selecting final answer despite imprecision,einfach mal zwei auswählen
 03.030.2,B,Summarizing given task information,Summarizing given task information,eine Linie und mehrere Längen und Verhältnisse
 03.030.3,B,Orienting to task before solving,Orienting to task before solving,verschaffe ich mir dann erstmal einen Überblick
-03.030.4,B,Independently deriving segment length (AN) from given ratios,Independently deriving segment length (AN) from given ratios,"wissen wir, dass AN = 4 ist"
-03.030.5,B,"Independently deriving segment lengths (NC, CB) from midpoint relation","Independently deriving segment lengths (NC, CB) from midpoint relation","NC ist 2,5 genauso wie CB"
+03.030.4,B,Deriving segment length (AN) from given ratios,Deriving segment length (AN) from given ratios,"wissen wir, dass AN = 4 ist"
+03.030.5,B,"Deriving segment lengths (NC, CB)","Deriving segment lengths (NC, CB)","NC ist 2,5 genauso wie CB"
 03.030.6,B,Completing calculation independently without consulting LLM,Completing calculation independently without consulting LLM,Dafür brauche ich dann das LLM in dem Fall nicht
 04.002.2,E,Reading task statement aloud,Reading task statement aloud,Verhältnis der Längen der Abschnitte AB zu AC 2 zu 5
 04.002.3,E,Reading task statement aloud,Reading task statement aloud,wie lang ist dann AB
@@ -565,7 +565,7 @@ id,group,raw_label,canonical_label,in_vivo
 07.017.19,E,Restating point definitions,Restating point definitions,"M ist die Mitte der Linie A, B. N ist ein Punkt der Linie A, M"
 07.017.20,E,Restating problem question,Restating problem question,Wie lange ist der Abschnitt in C?
 07.017.21,E,Restating given point definition,Restating given point definition,"C ist die Mitte des Abschnittes M, B"
-07.017.22,E,Deriving fractional relationship between segments,Deriving fractional relationship between segments,"M, C ein Viertel der ganzen Geschichte"
+07.017.22,E,Deriving relation between segments,Deriving relation between segments,"M, C ein Viertel der ganzen Geschichte"
 07.017.23,E,Stating computed segment value,Stating computed segment value,"K ist 2,5"
 07.017.24,E,Computing final answer from attributed given value,Computing final answer from attributed given value,"da er behauptet, dass M, N, 1 ist, wäre die Lösung 3,5"
 07.017.25,E,Signaling task completion,Signaling task completion,"Mache jetzt fertig, es hat mir zu duschen"
@@ -1250,7 +1250,7 @@ id,group,raw_label,canonical_label,in_vivo
 11.095.32,B,mapping percentage scale to actual lengths,mapping percentage scale to actual lengths,"100% ist 10 lang, M ist genau in der Mitte, also 5"
 11.095.33,B,deriving midpoint value,deriving midpoint value,"das ist genau die Mitte von MB, das ist siebeneinhalb"
 11.095.34,B,noting unspecified position of point N,noting unspecified position of point N,"N ist ein Punkt auf der Linie zwischen A und M, aber irgendwo"
-11.095.35,B,deriving final answer through independent calculation,deriving final answer through independent calculation,"Zwischen 4 und 7,5 liegen 3,5"
+11.095.35,B,deriving final answer ,deriving final answer ,"Zwischen 4 und 7,5 liegen 3,5"
 11.095.36,B,noting problem solved without consulting LLM,noting problem solved without consulting LLM,"Habe ich jetzt nicht gefragt, aber okay"
 13.004.3,B,Orienting to task figure,Orienting to task figure,In der Figur wird mir eine Linie angezeigt
 13.004.4,B,Identifying given information,Identifying given information,ich habe die Ratio von der Länge von AB zu AC

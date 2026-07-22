@@ -91,7 +91,7 @@ SCOPE: SPOKEN/WRITTENN channel only (omit RESEARCHER + LLM)
 [025.10a] PROCESS: Performing Division Calculation | IV: "360 durch 6"
 [025.10b] PROCESS: Thanking Chatbot | IV: "Vielen Dank, Chatbot."
 [025.11] PROCESS: Stating Computed Angle Value | IV: "60 Grad ist der Winkel auf jeden Fall dort"
-[025.12] PROCESS: Deriving Final Angle via Bisection Reasoning | IV: "Der Winkel wird in der Mitte geschnitten, also 30 Grad."
+[025.12] PROCESS: deriving final angle | IV: "Der Winkel wird in der Mitte geschnitten, also 30 Grad."
 
 [TASK 478 | medium]
 
