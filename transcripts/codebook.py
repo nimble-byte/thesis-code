@@ -1,19 +1,26 @@
 #!/usr/bin/env python3
 """
-codebook.py — first->second cycle transition tooling (Pass A: code mapping).
+codebook.py — code mapping + pattern coding tooling.
 
-Two commands:
-  build : parse *_codes.txt first-cycle files -> long-format codebook CSV (v0).
-  view  : regenerate the aggregated codebook view from a long-format CSV.
+Three commands:
+  build   : parse *_codes.txt first-cycle files -> long-format codebook CSV (v0).
+  view    : regenerate the aggregated codebook view from a long-format CSV.
+  relabel : bulk-set a column for a selected group of rows (code mapping
+            merges, or pattern-coding pattern_code assignment).
 
 Long-format schema (one row per code application, the source of truth):
-  id, group, raw_label, canonical_label, in_vivo
+  id, group, raw_label, canonical_label, in_vivo, [pattern_code, ...]
     id : NN.NNN.n  (participant . turn . subline)  -- unique application key
-    canonical_label : seeded == raw_label in v0; Pass A overwrites on merge.
+    canonical_label : seeded == raw_label in v0; code mapping overwrites in place.
+    pattern_code (or any --column you choose): created on first relabel call
+      targeting it, seeded == canonical_label, then overwritten per selection.
+      Keeping this as its own column (not overwriting canonical_label again)
+      preserves the 1st-order/2nd-order mapping a Gioia data structure needs.
 
-Versioning is `cp codebook_v0.csv codebook_v1.csv` then edit canonical_label.
-Frequency / spread / group coverage are NEVER stored; `view` derives them so
-they cannot drift from the rows.
+Versioning is `cp codebook_v1.csv codebook_v2.csv` before a NEW coding
+iteration (e.g. code mapping -> pattern coding); within one iteration, edit
+the file in place. Frequency / spread / group coverage are NEVER stored;
+`view` derives them so they cannot drift from the rows.
 
 pandas is assumed available.
 """
@@ -213,7 +220,15 @@ def cmd_build(args):
 
 def cmd_view(args):
     df = pd.read_csv(args.codebook, dtype=str).fillna("")
+    if args.column not in df.columns:
+        sys.exit(
+            f"view: column {args.column!r} not found in {args.codebook} "
+            f"(columns present: {list(df.columns)}). If this is a "
+            f"pattern-coding column, it's only created once `relabel "
+            f"--column {args.column}` has run at least once."
+        )
     df["participant"] = df["id"].str.split(".").str[0]
+    col = args.column
 
     def agg(g):
         gc = g["group"].value_counts()
@@ -228,32 +243,36 @@ def cmd_view(args):
         return pd.Series(out)
 
     view = (
-        df.groupby("canonical_label", sort=False)
+        df.groupby(col, sort=False)
         .apply(agg, include_groups=False)
         .reset_index()
-        .sort_values(["frequency", "canonical_label"], ascending=[False, True])
+        .sort_values(["frequency", col], ascending=[False, True])
     )
 
     verb_note = ""
     if args.group_by_verb:
-        view["lead_verb"] = view["canonical_label"].apply(lead_verb)
+        # Lead verb is extracted from whatever column we're viewing -- for
+        # canonical_label that's the 1st-order verb; for pattern_code it's
+        # the same for still-unmerged rows (seeded == canonical_label), and
+        # the pattern label's own lead verb for already-merged ones (which
+        # doubles as a rough progress signal: merged clusters show up as a
+        # single high-frequency row instead of a many-row family).
+        view["lead_verb"] = view[col].apply(lead_verb)
         unmatched = view[view["lead_verb"].isna()]
         if not unmatched.empty:
-            print(f"  WARNING: {len(unmatched)} label(s) had no extractable "
+            print(f"  WARNING: {len(unmatched)} value(s) had no extractable "
                   f"lead verb, left ungrouped:")
-            for lbl in unmatched["canonical_label"]:
+            for lbl in unmatched[col]:
                 print(f"    - {lbl!r}")
-        view["n_in_cluster"] = view.groupby("lead_verb")["canonical_label"].transform(
-            "count"
-        )
+        view["n_in_cluster"] = view.groupby("lead_verb")[col].transform("count")
         view = view.sort_values(
-            ["n_in_cluster", "lead_verb", "frequency", "canonical_label"],
+            ["n_in_cluster", "lead_verb", "frequency", col],
             ascending=[False, True, False, True],
         )
         n_verbs = view["lead_verb"].nunique()
         verb_note = f" | grouped by lead verb: {n_verbs} families"
 
-    print(f"=== view ==={verb_note}")
+    print(f"=== view === column: {col}{verb_note}")
 
     if args.out:
         out_abs = os.path.abspath(args.out)
@@ -263,8 +282,7 @@ def cmd_view(args):
                 f"view: refusing to write output over the input codebook "
                 f"({args.out}). The view has a different schema (aggregated) "
                 f"and would destroy the long-format source, including any "
-                f"canonical_label merge decisions it holds. Choose a "
-                f"different --out path."
+                f"merge decisions it holds. Choose a different --out path."
             )
         if os.path.exists(args.out) and not args.force:
             sys.exit(
@@ -298,10 +316,66 @@ def cmd_view(args):
     print(
         "\n"
         "view summary: "
-        f"canonical labels: {len(view)} | "
+        f"{col} values: {len(view)} | "
         f"applications: {len(df)} | "
         f"funnel: {len(df)} -> {len(view)}",
         sep="\n",
+    )
+
+
+def cmd_relabel(args):
+    df = pd.read_csv(args.codebook, dtype=str).fillna("")
+
+    required_cols = {"id", "group", "raw_label", "canonical_label", "in_vivo"}
+    missing = required_cols - set(df.columns)
+    if missing:
+        sys.exit(
+            f"relabel: {args.codebook} doesn't look like a long-format "
+            f"codebook (missing columns: {sorted(missing)}). Did you point "
+            f"this at an aggregated view file by mistake?"
+        )
+
+    created_column = args.column not in df.columns
+    if created_column:
+        df[args.column] = df["canonical_label"]  # seed, same convention as v0->v1
+
+    if bool(args.select_verb) == bool(args.select_labels):
+        sys.exit("relabel: specify exactly one of --select-verb or --select-labels")
+
+    if args.select_verb:
+        mask = df["canonical_label"].apply(lead_verb) == args.select_verb.lower()
+    else:
+        mask = df["canonical_label"].isin(args.select_labels)
+
+    if args.exclude:
+        mask &= ~df["canonical_label"].isin(args.exclude)
+
+    selected = df[mask]
+    if selected.empty:
+        sys.exit("relabel: selection matched 0 rows -- check spelling/casing")
+
+    print(f"=== relabel === column: {args.column}{' (new)' if created_column else ''}")
+    n_participants = selected["id"].str.split(".").str[0].nunique()
+    gc = selected["group"].value_counts()
+    print(
+        f"selection matched {len(selected)} row(s), {n_participants} "
+        f"participant(s), E:{gc.get('E', 0)} / B:{gc.get('B', 0)}"
+    )
+    print()
+    for _, r in selected.sort_values("id").iterrows():
+        print(f"  {r['id']:12} [{r['group']}] {r[args.column]!r} -> {args.to!r}")
+
+    if not args.apply:
+        print(f"\nDRY RUN -- no changes written. Re-run with --apply to commit.")
+        return
+
+    df.loc[mask, args.column] = args.to
+    df.to_csv(args.codebook, index=False)
+    print(f"\nwritten: {args.codebook}")
+    print(
+        f"\nsuggested log entry:\n"
+        f"  - merged {len(selected)} `{args.select_verb or 'selected'}` "
+        f'code(s) -> "{args.to}" ({args.column})'
     )
 
 
@@ -321,6 +395,15 @@ def main():
 
     v = sub.add_parser("view", help="aggregate a long codebook into a view")
     v.add_argument("codebook", help="long-format codebook CSV")
+    v.add_argument(
+        "--column",
+        default="canonical_label",
+        help=(
+            "column to aggregate on (default: canonical_label). Use e.g. "
+            "--column pattern_code once that column exists, to view "
+            "progress on a pattern-coding pass."
+        ),
+    )
     v.add_argument(
         "-o", "--out", default=None, help="write view CSV (default: print to stdout)"
     )
@@ -347,6 +430,42 @@ def main():
         ),
     )
     v.set_defaults(func=cmd_view)
+
+    r = sub.add_parser(
+        "relabel", help="bulk-set a column for a selected group of codes"
+    )
+    r.add_argument("codebook", help="long-format codebook CSV, edited in place")
+    r.add_argument(
+        "--column",
+        default="pattern_code",
+        help=(
+            "column to write into. Defaults to pattern_code. For pattern coding, use e.g. "
+            "created and seeded from canonical_label "
+            "on first use, so 1st-order granularity stays intact underneath."
+        ),
+    )
+    r.add_argument(
+        "--select-verb",
+        help="select all rows whose canonical_label lead verb matches this",
+    )
+    r.add_argument(
+        "--select-labels",
+        nargs="+",
+        help="select rows by exact canonical_label match",
+    )
+    r.add_argument(
+        "--exclude",
+        nargs="+",
+        default=None,
+        help="exclude these exact canonical_label values from the selection",
+    )
+    r.add_argument("--to", required=True, help="new value to assign to selected rows")
+    r.add_argument(
+        "--apply",
+        action="store_true",
+        help="actually write changes (default: dry-run preview only)",
+    )
+    r.set_defaults(func=cmd_relabel)
 
     args = p.parse_args()
     args.func(args)
