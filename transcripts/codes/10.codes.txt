@@ -39,7 +39,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [012.7] PROCESS: Reformulating own sub-question | IV: "Was sind die 5 Teile zu so einem 100%?"
 [012.8] — (no code: non-substantive/filler)
 [012.9] — (no code: non-substantive/filler)
-[012.10] PROCESS: Restating problem-solving goal | IV: "wie ich vorgehen würde, um die Länge eines Teiles zu finden"
+[012.10] PROCESS: restating LLM question | IV: "wie ich vorgehen würde, um die Länge eines Teiles zu finden"
 [012.11] PROCESS: Recognizing applicable rule-of-three method | IV: "ganz einfacher Dreisatz"
 
 [013.1] PROCESS: Submitting method hypothesis for confirmation | IV: "ganz einfacher Dreisatz oder?"

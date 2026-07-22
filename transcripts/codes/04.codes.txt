@@ -84,7 +84,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [015.1] PROCESS: Reading LLM's CoT (think-block) aloud | IV: "Die Länge von AB zu bestimmen"
 [015.2] PROCESS: Recognizing calculation inconsistency | IV: "das ergibt wenig Sinn"
 [015.3] PROCESS: Re-reading LLM guidance aloud | IV: "erinnere dich daran"
-[015.4] PROCESS: Restating goal and rearrangement plan | IV: "ich stelle jetzt eigentlich um"
+[015.4] PROCESS: restating LLM approach | IV: "ich stelle jetzt eigentlich um"
 [015.5] PROCESS: Deriving rearranged formula | IV: "einfach minus BC"
 [015.6] PROCESS: Stating side calculation | IV: "AC minus BC"
 [015.7] PROCESS: Detecting error via magnitude check | IV: "unser Wert höher ist, das kann auch nicht sein"
@@ -146,7 +146,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 
 [036.1] PROCESS: Reading and interpreting task variables | IV: "x ist der Winkel, gehe ich mal blöd von aus"
 [036.2] PROCESS: Reading task statement aloud | IV: "Länge des Kreisabschnittes"
-[036.3] PROCESS: Restating problem in own words | IV: "ist blöd beschrieben"
+[036.3] PROCESS: Commenting problem description | IV: "ist blöd beschrieben"
 [036.4] PROCESS: Using analogy to describe shape | IV: "kuchenstückähnlichen Abschnitt"
 [036.5] PROCESS: Noting spelling to fix later | IV: "nachher rechtschreiben"
 [036.6] PROCESS: Questioning angle notation | IV: "ist das x hoch?"

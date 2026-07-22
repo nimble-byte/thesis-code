@@ -283,7 +283,7 @@ id,group,raw_label,canonical_label,in_vivo
 04.015.1,E,Reading LLM's CoT (think-block) aloud,Reading LLM's CoT explanation aloud,Die Länge von AB zu bestimmen
 04.015.2,E,Recognizing calculation inconsistency,Recognizing calculation inconsistency,das ergibt wenig Sinn
 04.015.3,E,Re-reading LLM guidance aloud,Re-reading LLM guidance aloud,erinnere dich daran
-04.015.4,E,Restating goal and rearrangement plan,Restating goal and rearrangement plan,ich stelle jetzt eigentlich um
+04.015.4,E,restating LLM approach,restating LLM approach,ich stelle jetzt eigentlich um
 04.015.5,E,Deriving rearranged formula,Deriving rearranged formula,einfach minus BC
 04.015.6,E,Stating side calculation,Stating side calculation,AC minus BC
 04.015.7,E,Detecting error via magnitude check,Detecting error via magnitude check,"unser Wert höher ist, das kann auch nicht sein"
@@ -329,7 +329,7 @@ id,group,raw_label,canonical_label,in_vivo
 04.035.1,E,Making self-deprecating remark,Making self-deprecating remark,Lesen hilft.
 04.036.1,E,Reading and interpreting task variables,Reading and interpreting task variables,"x ist der Winkel, gehe ich mal blöd von aus"
 04.036.2,E,Reading task statement aloud,Reading task statement aloud,Länge des Kreisabschnittes
-04.036.3,E,Restating problem in own words,Restating problem in own words,ist blöd beschrieben
+04.036.3,E,Commenting problem description,Commenting problem description,ist blöd beschrieben
 04.036.4,E,Using analogy to describe shape,Using analogy to describe shape,kuchenstückähnlichen Abschnitt
 04.036.5,E,Noting spelling to fix later,Noting spelling to fix later,nachher rechtschreiben
 04.036.6,E,Questioning angle notation,Questioning angle notation,ist das x hoch?
@@ -674,7 +674,7 @@ id,group,raw_label,canonical_label,in_vivo
 08.024.11,E,Reading chatbot's derived relation,Reading LLM's derived relation,AB ist gleich a plus b
 08.024.12,E,Reading chatbot's stated next-step goal,Reading LLM's stated next-step goal,müssen wir die Variablen kombinieren
 08.024.13,E,Reading chatbot's suggested method,Reading LLM's suggested method,die Summe der beiden Gleichungen bilden
-08.024.14,E,Restating planned approach,Restating planned approach,die Summe der beiden Gleichungen bilden
+08.024.14,E,restating LLM approach,restating LLM approach,die Summe der beiden Gleichungen bilden
 08.024.15,E,Re-reading chatbot's question,Re-reading LLM's question,um die Gleichungen mit nur einer Variablen zu erhalten
 08.024.16,E,Planning to rearrange both formulas,Planning to rearrange both formulas,beide Formeln ... umstellen
 08.024.17,E,Rearranging equations to isolate terms,Rearranging equations to isolate terms,das 6^2 und das 3^2 auf die andere Seite
@@ -932,7 +932,7 @@ id,group,raw_label,canonical_label,in_vivo
 10.012.5,E,Continuing percentage estimation attempt,Continuing percentage estimation attempt,2 30% sind
 10.012.6,E,Reading LLM instruction aloud and acknowledging,Reading LLM instruction aloud and acknowledging,"Ach so, ja"
 10.012.7,E,Reformulating own sub-question,Reformulating own sub-question,Was sind die 5 Teile zu so einem 100%?
-10.012.10,E,Restating problem-solving goal,Restating problem-solving goal,"wie ich vorgehen würde, um die Länge eines Teiles zu finden"
+10.012.10,E,restating LLM question,restating LLM question,"wie ich vorgehen würde, um die Länge eines Teiles zu finden"
 10.012.11,E,Recognizing applicable rule-of-three method,Recognizing applicable rule-of-three method,ganz einfacher Dreisatz
 10.013.1,E,Submitting method hypothesis for confirmation,Submitting method hypothesis for confirmation,ganz einfacher Dreisatz oder?
 10.015.1,E,Claiming to have found answer,Claiming to have found answer,würde ich mich jetzt die Antwort haben

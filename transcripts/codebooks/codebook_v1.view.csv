@@ -832,20 +832,20 @@ Restating equation with typo,1,1,E:1 / B:0
 Restating given length and computing half,1,1,E:1 / B:0
 Restating given point definition,1,1,E:1 / B:0
 Restating given value from problem figure,1,1,E:1 / B:0
-Restating goal and rearrangement plan,1,1,E:1 / B:0
+restating LLM approach,1,1,E:1 / B:0
 Restating hypothesized answer prior to full verification,1,1,E:0 / B:1
 Restating intended request to LLM,1,1,E:1 / B:0
 Restating known quantity,1,1,E:1 / B:0
 Restating known values,1,1,E:1 / B:0
 Restating known versus unknown values,1,1,E:0 / B:1
 Restating original equations,1,1,E:1 / B:0
-Restating planned approach,1,1,E:1 / B:0
+restating LLM approach,1,1,E:1 / B:0
 Restating point definitions,1,1,E:1 / B:0
 Restating problem goal,1,1,E:1 / B:0
-Restating problem in own words,1,1,E:1 / B:0
+Commenting problem description,1,1,E:1 / B:0
 Restating problem parameters,1,1,E:1 / B:0
 Restating problem statement,1,1,E:1 / B:0
-Restating problem-solving goal,1,1,E:1 / B:0
+restating LLM question,1,1,E:1 / B:0
 Restating ratio conclusion,1,1,E:1 / B:0
 Restating sub-question,1,1,E:1 / B:0
 Restating target unknown,1,1,E:1 / B:0

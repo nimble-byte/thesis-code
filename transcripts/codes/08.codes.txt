@@ -134,7 +134,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [024.11] PROCESS: Reading chatbot's derived relation | IV: "AB ist gleich a plus b"
 [024.12] PROCESS: Reading chatbot's stated next-step goal | IV: "müssen wir die Variablen kombinieren"
 [024.13] PROCESS: Reading chatbot's suggested method | IV: "die Summe der beiden Gleichungen bilden"
-[024.14] PROCESS: Restating planned approach | IV: "die Summe der beiden Gleichungen bilden"
+[024.14] PROCESS: restating LLM approach | IV: "die Summe der beiden Gleichungen bilden"
 [024.15] PROCESS: Re-reading chatbot's question | IV: "um die Gleichungen mit nur einer Variablen zu erhalten"
 [024.16] PROCESS: Planning to rearrange both formulas | IV: "beide Formeln ... umstellen"
 [024.17] PROCESS: Rearranging equations to isolate terms | IV: "das 6^2 und das 3^2 auf die andere Seite"
