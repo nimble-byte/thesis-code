@@ -68,7 +68,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [015.9] PROCESS: Reading chatbot's restated givens | IV: "Die Längen AC und BC sind gegeben"
 [015.10] PROCESS: Reading chatbot's suggested next step | IV: "der Satz des Pythagoras oder ähnliche Dreiecke verwendet werden"
 [015.11] PROCESS: Reading chatbot's suggested sub-step | IV: "die Länge von AB berechnen, um dann die Höhe CP zu finden"
-[015.12] PROCESS: Reading chatbot's response prompt | IV: "Könntest du zunächst die Länge von AB berechnen"
+[015.12] PROCESS: Reading chatbot's response | IV: "Könntest du zunächst die Länge von AB berechnen"
 [015.13] PROCESS: Re-checking original task statement | IV: "schauen wir nochmal genau in die Aufgabe"
 [015.14] PROCESS: Re-reading given values | IV: "AC gleich 6 und BC gleich 3"
 [015.15] PROCESS: Re-reading task constraints | IV: "deren Länge wir nicht kennen"

@@ -614,7 +614,7 @@ id,group,raw_label,canonical_label,in_vivo
 08.015.9,E,Reading chatbot's restated givens,Reading chatbot's restated givens,Die Längen AC und BC sind gegeben
 08.015.10,E,Reading chatbot's suggested next step,Reading chatbot's suggested next step,der Satz des Pythagoras oder ähnliche Dreiecke verwendet werden
 08.015.11,E,Reading chatbot's suggested sub-step,Reading chatbot's suggested sub-step,"die Länge von AB berechnen, um dann die Höhe CP zu finden"
-08.015.12,E,Reading chatbot's response prompt,Reading chatbot's response prompt,Könntest du zunächst die Länge von AB berechnen
+08.015.12,E,Reading chatbot's response,Reading chatbot's response,Könntest du zunächst die Länge von AB berechnen
 08.015.13,E,Re-checking original task statement,Re-checking original task statement,schauen wir nochmal genau in die Aufgabe
 08.015.14,E,Re-reading given values,Re-reading given values,AC gleich 6 und BC gleich 3
 08.015.15,E,Re-reading task constraints,Re-reading task constraints,deren Länge wir nicht kennen
@@ -930,7 +930,7 @@ id,group,raw_label,canonical_label,in_vivo
 10.012.3,E,Reaffirming part-whole relationship,Reaffirming part-whole relationship,7 Teile 100% sind
 10.012.4,E,Introducing unknown variable and estimating percentage,Introducing unknown variable and estimating percentage,"eine Länge von x, die wissen wir noch nicht"
 10.012.5,E,Continuing percentage estimation attempt,Continuing percentage estimation attempt,2 30% sind
-10.012.6,E,Reading LLM instruction aloud and acknowledging,Reading LLM instruction aloud and acknowledging,"Ach so, ja"
+10.012.6,E,"Reading LLM response, self-correcting","Reading LLM response, self-correcting","Ach so, ja"
 10.012.7,E,Reformulating own sub-question,Reformulating own sub-question,Was sind die 5 Teile zu so einem 100%?
 10.012.10,E,restating LLM question,restating LLM question,"wie ich vorgehen würde, um die Länge eines Teiles zu finden"
 10.012.11,E,Recognizing applicable rule-of-three method,Recognizing applicable rule-of-three method,ganz einfacher Dreisatz
@@ -944,7 +944,7 @@ id,group,raw_label,canonical_label,in_vivo
 10.017.2,E,Questioning the ratio relationships,Questioning the ratio relationships,Was sind das für Verhältnisse?
 10.017.3,E,Repeating ratio hypothesis aloud,Repeating ratio hypothesis aloud,AB zu AC. AB zu AC.
 10.018.1,E,Questioning LLM's stated ratio,Questioning LLM's stated ratio,AB zu AC 2:7?
-10.020.1,E,Reading LLM correction aloud and acknowledging,Reading LLM correction aloud and acknowledging,Ach so
+10.020.1,E,"Reading LLM response, self-correcting","Reading LLM response, self-correcting",Ach so
 10.022.1,E,Restating total parts,Restating total parts,insgesamt sieben Teile
 10.022.2,E,Reaffirming known percentage equivalence,Reaffirming known percentage equivalence,sieben Teile sind 100%
 10.022.3,E,Identifying next calculation step,Identifying next calculation step,wie lange ein Teil sind
@@ -1046,7 +1046,7 @@ id,group,raw_label,canonical_label,in_vivo
 11.012.3,B,applying definition to classify AB,applying definition to classify AB,dann ist AB eine Tangente
 11.012.4,B,noting instruction to continue reading,noting instruction to continue reading,dass ich mir das noch weiter lesen soll
 11.012.5,B,reading response aloud verbatim,reading response aloud verbatim,den Kreis nur an einem Punkt A schneidet
-11.012.6,B,"reading response aloud, trailing into doubt","reading response aloud, trailing into doubt",weil die Tangente...
+11.012.6,B,reading response aloud,reading response aloud,weil die Tangente...
 11.012.8,B,re-checking definition against situation,re-checking definition against situation,sie berührt den Kreis genau an einem Punkt
 11.012.9,B,recognizing definitional mismatch,recognizing definitional mismatch,Das ist nicht der Fall
 11.012.10,B,re-checking alternate definition,re-checking alternate definition,sie schneidet den Kreis an zwei Punkten
@@ -1114,7 +1114,7 @@ id,group,raw_label,canonical_label,in_vivo
 11.032.10,B,confirming detail against task text,confirming detail against task text,das steht in der Aufgabe dran
 11.032.11,B,considering coordinate-system approach,considering coordinate-system approach,ein Koordinatensystem einführen
 11.032.13,B,restating step to place point B,restating step to place point B,es liegt Punkt B irgendwo im Koordinatensystem
-11.032.14,B,"reading lost response aloud (garbled, partial)","reading lost response aloud (garbled, partial)",So ist der Abstand
+11.032.14,B,reading lost response aloud,reading lost response aloud,So ist der Abstand
 11.032.16,B,restarting approach from beginning,restarting approach from beginning,fangen wir mal vom oben an
 11.032.17,B,questioning own progress feasibility,questioning own progress feasibility,Wie weit ich denn überhaupt kommen mit der Aufgabe?
 11.032.19,B,anticipating extended task duration,anticipating extended task duration,könnte wirklich ein bisschen länger dauern
@@ -1125,7 +1125,7 @@ id,group,raw_label,canonical_label,in_vivo
 11.032.25,B,counting out coordinate positions,counting out coordinate positions,"1, 2, 3, 4, 5, dann 6"
 11.032.27,B,restating relation for point B,restating relation for point B,liegt der Punkt B irgendwo im Koordinatensystem
 11.032.28,B,restating distance relation,restating distance relation,der Abstand von B zu C gleich 3
-11.032.29,B,"reading lost response aloud (garbled, partial)","reading lost response aloud (garbled, partial)",Die genaue Position von B und wo du ihn platzierst... wir wissen...
+11.032.29,B,reading lost response aloud,reading lost response aloud,Die genaue Position von B und wo du ihn platzierst... wir wissen...
 11.032.30,B,deriving locus as circle around point,deriving locus as circle around point,Es liegt auf einem Kreis am Radius 3 um den Punkt C
 11.032.31,B,noting continuation of drawing,noting continuation of drawing,geht es anscheinend noch nach unten
 11.032.32,B,tentatively placing point via counting,tentatively placing point via counting,"1, 2, 3. Irgendwo da"
@@ -1134,7 +1134,7 @@ id,group,raw_label,canonical_label,in_vivo
 11.032.35,B,placing point C,placing point C,Punkt C liegt so
 11.032.36,B,restating point P's position on segment AB,restating point P's position on segment AB,Punkt P liegt auf der Schrecke AB zwischen A und B
 11.032.37,B,identifying target variable CP,identifying target variable CP,Wir müssen hier nur von CP finden
-11.032.39,B,"reading lost response aloud (garbled, partial)","reading lost response aloud (garbled, partial)",Da CP senkrecht...
+11.032.39,B,reading lost response aloud,reading lost response aloud,Da CP senkrecht...
 11.032.40,B,considering switching to vector-based approach,considering switching to vector-based approach,ich schalte aber den Vektor an
 11.032.42,B,asking about remaining time,asking about remaining time,Wie viel Zeit habe ich dafür?
 11.036.1,B,considering self-teaching vector analysis,considering self-teaching vector analysis,Ich könnte mich in Vektor-Analyser kurz einarbeiten
@@ -1207,7 +1207,6 @@ id,group,raw_label,canonical_label,in_vivo
 11.085.2,B,entering fraction value into calculator,entering fraction value into calculator,2/5
 11.087.1,B,realizing meaning of instruction,realizing meaning of instruction,Ach so
 11.087.2,B,attributing computational capability to the calculator,attributing computational capability to the calculator,"Ich dachte, das weiß der."
-11.087.3,B,reading calculator display value,reading calculator display value,Die 2
 11.087.4,B,checking alignment with LLM's question,checking alignment with LLM's question,was er fragt
 11.087.5,B,self-correcting conflated concepts,self-correcting conflated concepts,das ist das Verhältnis
 11.087.6,B,stating computed value,stating computed value,10

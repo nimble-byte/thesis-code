@@ -52,7 +52,7 @@ GROUP: E
 [Proband liest Antwort (stellenweise laut)]
 [007 SPOKEN]
 [007.1]    Okay, okay.
-[007.2]    Solltest du zunächst das vergebene Verhältnis nutzen, um die Länge von Overline AB zu bestimmen?
+[007.2]    Solltest du zunächst das gegebene Verhältnis nutzen, um die Länge von Overline AB zu bestimmen?
 [007.3]    Das Verhältnis 2 zu 5 bezieht sich auf AB Strich, wenn man so will, und eine unbekannte Größe.
 [007.4]    Da [?] gegeben ist, kannst du diese Information verwenden, um die unbekannte Größe zu finden.
 [007.5]    Definiere das Verhältnis als ...

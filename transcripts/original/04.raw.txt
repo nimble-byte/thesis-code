@@ -36,7 +36,7 @@ LLM:
 [Proband liest Antwort (stellenweise laut)]
 Proband:
     Okay, okay.
-    Solltest du zunächst das vergebene Verhältnis nutzen, um die Länge von Overline AB zu bestimmen?
+    Solltest du zunächst das gegebene Verhältnis nutzen, um die Länge von Overline AB zu bestimmen?
     Das Verhältnis 2 zu 5 bezieht sich auf AB Strich, wenn man so will, und eine unbekannte Größe.
     Da [?] gegeben ist, kannst du diese Information verwenden, um die unbekannte Größe zu finden.
     Definiere das Verhältnis als ...

@@ -37,7 +37,7 @@ SCOPE: SPOKEN/WRITTENN channel only (omit RESEARCHER + LLM)
 [007.2] PROCESS: Confirming chatbot's hint as correct | IV: "Stimmt, es ist einfach ein Radius"
 [007.3] PROCESS: Reading chatbot response aloud | IV: "Welchen Winkel bildet normalerweise ein Radius mit dem Durchmesser"
 [007.4] PROCESS: Reflecting on own reasoning capability relative to chatbot | IV: "Hätte ich auch selber drauf kommen können"
-[007.5] PROCESS: Re-reading chatbot response, self-correcting terminology | IV: "Endpunkt des Durchmessers"
+[007.5] PROCESS: Re-reading chatbot response | IV: "Endpunkt des Durchmessers"
 [007.6] PROCESS: Acknowledging own oversight | IV: "jetzt habe ich das gar nicht gesehen"
 [007.7] PROCESS: Identifying element in diagram | IV: "Das ist der Radius OB"
 [007.8] PROCESS: Mapping known value to diagram | IV: "Ich weiß, dass das 8 ist"

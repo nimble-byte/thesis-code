@@ -128,7 +128,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [032.11] PROCESS: considering coordinate-system approach | IV: "ein Koordinatensystem einführen"
 [032.12] — (no code: non-substantive/filler)
 [032.13] PROCESS: restating step to place point B | IV: "es liegt Punkt B irgendwo im Koordinatensystem"
-[032.14] PROCESS: reading lost response aloud (garbled, partial) | IV: "So ist der Abstand"
+[032.14] PROCESS: reading lost response aloud | IV: "So ist der Abstand"
 [032.15] — (no code: inaudible/unintelligible)
 [032.16] PROCESS: restarting approach from beginning | IV: "fangen wir mal vom oben an"
 [032.17] PROCESS: questioning own progress feasibility | IV: "Wie weit ich denn überhaupt kommen mit der Aufgabe?"
@@ -143,7 +143,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [032.26] — (no code: non-substantive/filler)
 [032.27] PROCESS: restating relation for point B | IV: "liegt der Punkt B irgendwo im Koordinatensystem"
 [032.28] PROCESS: restating distance relation | IV: "der Abstand von B zu C gleich 3"
-[032.29] PROCESS: reading lost response aloud (garbled, partial) | IV: "Die genaue Position von B und wo du ihn platzierst... wir wissen..."
+[032.29] PROCESS: reading lost response aloud | IV: "Die genaue Position von B und wo du ihn platzierst... wir wissen..."
 [032.30] PROCESS: deriving locus as circle around point | IV: "Es liegt auf einem Kreis am Radius 3 um den Punkt C"
 [032.31] PROCESS: noting continuation of drawing | IV: "geht es anscheinend noch nach unten"
 [032.32] PROCESS: tentatively placing point via counting | IV: "1, 2, 3. Irgendwo da"
@@ -153,7 +153,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [032.36] PROCESS: restating point P's position on segment AB | IV: "Punkt P liegt auf der Schrecke AB zwischen A und B"
 [032.37] PROCESS: identifying target variable CP | IV: "Wir müssen hier nur von CP finden"
 [032.38] — (no code: non-substantive/filler)
-[032.39] PROCESS: reading lost response aloud (garbled, partial) | IV: "Da CP senkrecht..."
+[032.39] PROCESS: reading lost response aloud | IV: "Da CP senkrecht..."
 [032.40] PROCESS: considering switching to vector-based approach | IV: "ich schalte aber den Vektor an"
 [032.41] — (no code: inaudible/unintelligible)
 [032.42] PROCESS: asking about remaining time | IV: "Wie viel Zeit habe ich dafür?"
@@ -264,7 +264,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 
 [087.1] PROCESS: realizing meaning of instruction | IV: "Ach so"
 [087.2] PROCESS: attributing computational capability to the calculator | IV: "Ich dachte, das weiß der."
-[087.3] PROCESS: reading calculator display value | IV: "Die 2"
+[087.3] - (no code: unclear reference)
 [087.4] PROCESS: checking alignment with LLM's question | IV: "was er fragt"
 [087.5] PROCESS: self-correcting conflated concepts | IV: "das ist das Verhältnis"
 [087.6] PROCESS: stating computed value | IV: "10"

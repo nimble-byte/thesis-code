@@ -33,7 +33,7 @@ Signaling cognitive pause,3,1,E:3 / B:0
 Stating given information to LLM,3,1,E:3 / B:0
 Stating goal to LLM,3,1,E:3 / B:0
 placing point on diagram,3,1,E:0 / B:3
-"reading lost response aloud (garbled, partial)",3,1,E:0 / B:3
+reading lost response aloud,3,1,E:0 / B:3
 Announcing task reading,2,1,E:0 / B:2
 Answering chatbot in the negative,2,1,E:2 / B:0
 Applying method to own values,2,1,E:2 / B:0
@@ -696,7 +696,7 @@ Re-questioning Ratio Meaning,1,1,E:0 / B:1
 Re-reading Given Values,1,1,E:0 / B:1
 Re-reading LLM guidance aloud,1,1,E:1 / B:0
 Re-reading and clarifying task description,1,1,E:1 / B:0
-"Re-reading chatbot response, self-correcting terminology",1,1,E:1 / B:0
+"Re-reading chatbot response",1,1,E:1 / B:0
 Re-reading chatbot's hint,1,1,E:1 / B:0
 Re-reading chatbot's question before returning to it,1,1,E:1 / B:0
 Re-reading chatbot's question for emphasis,1,1,E:1 / B:0
@@ -708,8 +708,8 @@ Re-reading task question to check answer scope,1,1,E:0 / B:1
 Re-reading task statement aloud,1,1,E:1 / B:0
 Re-reading task to verify,1,1,E:0 / B:1
 Re-strategizing after rejecting approach,1,1,E:0 / B:1
-Reading LLM correction aloud and acknowledging,1,1,E:1 / B:0
-Reading LLM instruction aloud and acknowledging,1,1,E:1 / B:0
+Reading LLM response, self-correcting,1,1,E:1 / B:0
+Reading LLM response, self-correcting,1,1,E:1 / B:0
 Reading LLM's CoT (think-block) aloud,1,1,E:1 / B:0
 Reading and interpreting task variables,1,1,E:1 / B:0
 Reading chatbot's CoT aloud,1,1,E:1 / B:0
@@ -719,7 +719,7 @@ Reading chatbot's follow-up instruction,1,1,E:1 / B:0
 Reading chatbot's hint,1,1,E:1 / B:0
 Reading chatbot's instruction to solve for x,1,1,E:1 / B:0
 Reading chatbot's listed hints,1,1,E:1 / B:0
-Reading chatbot's response prompt,1,1,E:1 / B:0
+Reading chatbot's response,1,1,E:1 / B:0
 Reading chatbot's restated equations,1,1,E:1 / B:0
 Reading chatbot's restated givens,1,1,E:1 / B:0
 Reading chatbot's stated assumption,1,1,E:1 / B:0
@@ -1188,9 +1188,8 @@ questioning whether LLM will compute answer independently,1,1,E:0 / B:1
 re-checking alternate definition,1,1,E:0 / B:1
 re-checking definition against situation,1,1,E:0 / B:1
 reacting positively to discovering calculator feature,1,1,E:0 / B:1
-reading calculator display value,1,1,E:0 / B:1
 reading response aloud,1,1,E:0 / B:1
-"reading response aloud, trailing into doubt",1,1,E:0 / B:1
+reading response aloud,1,1,E:0 / B:1
 reading response evaluation aloud,1,1,E:0 / B:1
 reading response step aloud,1,1,E:0 / B:1
 reading task element aloud,1,1,E:0 / B:1

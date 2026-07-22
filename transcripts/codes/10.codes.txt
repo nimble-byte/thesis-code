@@ -57,7 +57,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 
 [018.1] PROCESS: Questioning LLM's stated ratio | IV: "AB zu AC 2:7?"
 
-[020.1] PROCESS: Reading LLM correction aloud and acknowledging | IV: "Ach so"
+[020.1] PROCESS: Reading LLM response, self-correcting | IV: "Ach so"
 
 [022.1] PROCESS: Restating total parts | IV: "insgesamt sieben Teile"
 [022.2] PROCESS: Reaffirming known percentage equivalence | IV: "sieben Teile sind 100%"

@@ -45,7 +45,7 @@ Signaling cognitive pause,3,1,E:3 / B:0
 Stating given information to LLM,3,1,E:3 / B:0
 Stating goal to LLM,3,1,E:3 / B:0
 placing point on diagram,3,1,E:0 / B:3
-"reading lost response aloud (garbled, partial)",3,1,E:0 / B:3
+reading lost response aloud,3,1,E:0 / B:3
 Acknowledging own oversight,2,2,E:1 / B:1
 Answering LLM in the negative,2,1,E:2 / B:0
 Applying method to own values,2,1,E:2 / B:0
@@ -650,7 +650,7 @@ Re-orienting to Task Question,1,1,E:0 / B:1
 Re-orienting to Task via Key Term Repetition,1,1,E:0 / B:1
 Re-questioning Ratio Meaning,1,1,E:0 / B:1
 Re-reading LLM guidance aloud,1,1,E:1 / B:0
-"Re-reading LLM response, self-correcting terminology",1,1,E:1 / B:0
+"Re-reading LLM response",1,1,E:1 / B:0
 Re-reading LLM's hint,1,1,E:1 / B:0
 Re-reading and clarifying task description,1,1,E:1 / B:0
 Re-reading target question,1,1,E:1 / B:0
@@ -659,15 +659,15 @@ Re-reading task question to check answer scope,1,1,E:0 / B:1
 Re-reading task statement aloud,1,1,E:1 / B:0
 Re-reading task to verify,1,1,E:0 / B:1
 Re-strategizing after rejecting approach,1,1,E:0 / B:1
-Reading LLM correction aloud and acknowledging,1,1,E:1 / B:0
-Reading LLM instruction aloud and acknowledging,1,1,E:1 / B:0
+Reading LLM response, self-correcting,1,1,E:1 / B:0
+Reading LLM response, self-correcting,1,1,E:1 / B:0
 Reading LLM's CoT explanation aloud,1,1,E:1 / B:0
 Reading LLM's derived relation,1,1,E:1 / B:0
 Reading LLM's follow-up instruction,1,1,E:1 / B:0
 Reading LLM's hint,1,1,E:1 / B:0
 Reading LLM's instruction to solve for x,1,1,E:1 / B:0
 Reading LLM's listed hints,1,1,E:1 / B:0
-Reading LLM's response prompt,1,1,E:1 / B:0
+Reading LLM's response,1,1,E:1 / B:0
 Reading LLM's restated equations,1,1,E:1 / B:0
 Reading LLM's restated givens,1,1,E:1 / B:0
 Reading LLM's stated assumption,1,1,E:1 / B:0
@@ -1108,8 +1108,7 @@ questioning whether LLM will compute answer independently,1,1,E:0 / B:1
 re-checking alternate definition,1,1,E:0 / B:1
 re-checking definition against situation,1,1,E:0 / B:1
 reacting positively to discovering calculator feature,1,1,E:0 / B:1
-reading calculator display value,1,1,E:0 / B:1
-"reading response aloud, trailing into doubt",1,1,E:0 / B:1
+reading response aloud,1,1,E:0 / B:1
 reading response evaluation aloud,1,1,E:0 / B:1
 reading response step aloud,1,1,E:0 / B:1
 reading task element aloud,1,1,E:0 / B:1
