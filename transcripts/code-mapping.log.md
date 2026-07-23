@@ -14,3 +14,5 @@
 - re-coded 05.005.9 and 04.036.1 to better fit new pattern codes
 - introduced pattern codes "reading LLM's CoT", "reading LLM's guidance", "reading LLM's questions", "reading LLM's restaded known information", "reading LLM's feedback", "reading given information", "reading problem statement"
 - introduce pattern codes "identifying mistake", "identifying given information", "identifying unkown information", "identifying solution step", "identifying problem solvability", and "identifying own knowledge gap"
+- "confirming solution steps", "confirmation of problem facts", "confirming LLM's guidance", "accpeting LLM's assertions", "deriving solution step", "Requesting formula from LLM", "Requesting formula confirmation from LLM", "managing experiment logistics"
+- remapped several codes from "confirming family to existing codes"

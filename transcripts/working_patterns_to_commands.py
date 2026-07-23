@@ -40,7 +40,8 @@ def parse_outline(path: Path):
         stripped = raw.strip()
 
         if indent == 0 and stripped.startswith('"') and stripped.endswith('"'):
-            heading = unquote(stripped)
+            # heading = unquote(stripped)
+            heading = stripped
             sections.append([heading, []])
             continue
 
@@ -48,7 +49,8 @@ def parse_outline(path: Path):
             if heading is None or not sections:
                 errors.append(f"{path}:{lineno}: item found before any heading")
                 continue
-            source_label = unquote(stripped)
+            # source_label = unquote(stripped)
+            source_label = stripped
             sections[-1][1].append(source_label)
             continue
 
@@ -71,7 +73,7 @@ def format_command(
     parts.extend(["--to", target_label])
     if apply:
         parts.append("--apply")
-    return " ".join(shlex.quote(part) for part in parts)
+    return " ".join(parts)
 
 
 def main() -> None:
