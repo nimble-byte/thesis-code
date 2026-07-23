@@ -15,4 +15,6 @@
 - introduced pattern codes "reading LLM's CoT", "reading LLM's guidance", "reading LLM's questions", "reading LLM's restaded known information", "reading LLM's feedback", "reading given information", "reading problem statement"
 - introduce pattern codes "identifying mistake", "identifying given information", "identifying unkown information", "identifying solution step", "identifying problem solvability", and "identifying own knowledge gap"
 - "confirming solution steps", "confirmation of problem facts", "confirming LLM's guidance", "accpeting LLM's assertions", "deriving solution step", "Requesting formula from LLM", "Requesting formula confirmation from LLM", "managing experiment logistics"
-- remapped several codes from "confirming family to existing codes"
+- remapped several codes from "confirming" family to existing codes
+- introduced pattern codes "expressing confidence", "expressing satisfaction", "expressing uncertainty", "expressing doubt", "expressing insight", "expressing frustration", "Considering querying LLM as fallback", "expressing surprise", "Encountering impasse"
+- remapped several codes from "expressing" family to existing codes
