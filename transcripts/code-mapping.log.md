@@ -19,3 +19,4 @@
 - introduced pattern codes "expressing confidence", "expressing satisfaction", "expressing uncertainty", "expressing doubt", "expressing insight", "expressing frustration", "Considering querying LLM as fallback", "expressing surprise", "Encountering impasse"
 - remapped several codes from "expressing" family to existing codes
 - introduced pattern codes "requesting information from LLM", "requesting verification by LLM", "requesting guidance from LLM", "requesting clarification from LLM", "requesting clarification from researcher", "requesting solution from LLM", "Encountering impasse"
+- introduced pattern codes "planning next solution step", "planning LLM message"
