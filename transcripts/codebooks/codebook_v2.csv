@@ -95,12 +95,12 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 02.016.1,B,Expressing Surprise at Task Count,Expressing Surprise at Task Count,Ich habe nur 3?,expressing surprise
 02.016.2,B,Adjusting Pacing Strategy,Adjusting Pacing Strategy,lasse ich mir ein bisschen mehr Zeit,Adjusting Pacing Strategy
 02.018.1,B,Reiterating Difficulty Articulating Thoughts,Reiterating Difficulty Articulating Thoughts,mir fällt das Nachdenken ganz sicher auch schwer,Reiterating Difficulty Articulating Thoughts
-02.018.2,B,Re-questioning Ratio Meaning,Re-questioning Ratio Meaning,"2 zu 5, was könnte das heißen?",Re-questioning Ratio Meaning
+02.018.2,B,Re-questioning Ratio Meaning,Re-questioning Ratio Meaning,"2 zu 5, was könnte das heißen?",questioning problem language
 02.018.3,B,Reasoning by Analogy to Dice Probability,Reasoning by Analogy to Dice Probability,Mit einem Würfel sind ja die Chancen ein Sechstel.,Reasoning by Analogy to Dice Probability
 02.018.4,B,Extending Analogy to Odds Framing,Extending Analogy to Odds Framing,die Chancen stehen dann 1 zu 5,Extending Analogy to Odds Framing
 02.018.5,B,Justifying Analogy with Total Outcomes,Justifying Analogy with Total Outcomes,man hier insgesamt 6 Möglichkeiten hat,Justifying Analogy with Total Outcomes
 02.018.6,B,Doubting Applicability of Analogy,Doubting Applicability of Analogy,ob das hier mit dem Verhältnis gleich gemeint ist,Doubting Applicability of Analogy
-02.018.7,B,Questioning Own Result,Questioning Own Result,Also wir können ja einfach...,Questioning Own Result
+02.018.7,B,Questioning Own Result,Questioning Own Result,Also wir können ja einfach...,questioning oneself
 02.018.8,B,Committing to Answer Despite Uncertainty,Committing to answer,ich bleibe bei der 10,Committing to answer
 02.018.10,B,Reading Task Statement Aloud,Reading task statement aloud,"A, B, C, D, E, F ein regelmäßiges Sechseck mit dem Mittelpunkt O",reading problem statement
 02.018.11,B,Re-reading Task Statement for Comprehension,Re-reading Task Statement for Comprehension,Regelmäßiges Sechseck mit dem Mittelpunkt O.,reading problem statement
@@ -226,14 +226,14 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.002.7,E,Proposing initial solution approach,Proposing initial solution approach,mein erster Ansatz,Proposing initial solution approach
 04.002.8,E,Reasoning through ratio with analogy,Reasoning through ratio with analogy,"wenn ich einen Schritt gehe, sind es in Wirklichkeit 5",Reasoning through ratio with analogy
 04.002.9,E,Reformulating problem goal,Reformulating problem goal,die Länge von AB berechnen,Reformulating problem goal
-04.002.10,E,Questioning input formatting,Questioning input formatting,"Ist das Backslash, bin ich blind?",Questioning input formatting
+04.002.10,E,Questioning input formatting,Questioning input formatting,"Ist das Backslash, bin ich blind?",managing experiment logistics
 04.004.1,E,Assuming LLM comprehension despite ambiguity,Assuming LLM comprehension despite ambiguity,"der wird schon Erkennen, was ich meine",Assuming LLM comprehension despite ambiguity
 04.004.2,E,Explaining formatting choice,Explaining formatting choice,ein bisschen mit TeX machen,Explaining formatting choice
 04.004.3,E,Planning message drafting,Planning message drafting,"schreiben, was so gesehen gegeben ist",planning LLM message
 04.004.4,E,Listing given information,Listing given information,Distanz von A zu C,Listing given information
 04.004.5,E,Stating problem goal,Stating problem goal,Ziel ist die Berechnung von A zu C,Stating problem goal
 04.004.6,E,Formulating question for LLM,Formulating question for LLM,Welchen Ansatz sollte ich verfolgen,Formulating question for LLM
-04.004.7,E,Questioning own notation understanding,Questioning own notation understanding,müsste dann hier nicht auch ein Overline sein,Questioning own notation understanding
+04.004.7,E,Questioning own notation understanding,Questioning own notation understanding,müsste dann hier nicht auch ein Overline sein,questioning oneself
 04.005.1,E,Stating given information to LLM,Stating given information to LLM,Gegeben ist ein Strahl mit mehreren Markern,Stating given information to LLM
 04.005.2,E,Stating ratio to LLM,Stating ratio to LLM,Das verhältis von overline(AB) ist 2:5,Stating ratio to LLM
 04.005.3,E,Stating goal to LLM,Stating goal to LLM,Ziel ist die Berechnung von overline(AC),Stating goal to LLM
@@ -310,7 +310,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.027.1,E,Checking understanding against hint,Checking understanding against hint,"Verhältnis für AC, oder nicht?",Checking understanding against hint
 04.029.1,E,Expressing exclamation of understanding,Expressing exclamation of understanding,Ach ja.,expressing insight
 04.031.1,E,Reformulating ratio relationship,Reformulating ratio relationship,AB durch AC ist gleich 2/5,Reformulating ratio relationship
-04.031.2,E,Questioning ratio direction,Questioning ratio direction,AC durch AB ist gleich 2/5,Questioning ratio direction
+04.031.2,E,Questioning ratio direction,Questioning ratio direction,AC durch AB ist gleich 2/5,questioning oneself
 04.031.3,E,Expressing self-doubt,Expressing self-doubt,auf dem Holzweg,expressing doubt
 04.033.1,E,Deciding to reason by plausibility,Deciding to reason by plausibility,was macht mehr Sinn?,deciding next solution step
 04.033.2,E,Deciding to re-read task,Deciding to re-read task,die Aufgabe nochmal ordentlich lesen,deciding next solution step
@@ -332,7 +332,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.036.3,E,Commenting problem description,Commenting problem description,ist blöd beschrieben,Commenting problem description
 04.036.4,E,Using analogy to describe shape,Using analogy to describe shape,kuchenstückähnlichen Abschnitt,Using analogy to describe shape
 04.036.5,E,Noting spelling to fix later,Noting spelling to fix later,nachher rechtschreiben,Noting spelling to fix later
-04.036.6,E,Questioning angle notation,Questioning angle notation,ist das x hoch?,Questioning angle notation
+04.036.6,E,Questioning angle notation,Questioning angle notation,ist das x hoch?,questioning oneself
 04.036.7,E,Restating given values and goal,Restating Given Values,"Ziel ist es, die Länge des Kreisabschnittes zu berechnen",restating given information
 04.036.8,E,Reasoning about relevant quantity,Reasoning about relevant quantity,die für mich jetzt so gesehen interessant ist,Reasoning about relevant quantity
 04.036.9,E,Identifying arc as relevant quantity,Identifying arc as relevant quantity,vom Kreis die Bahn,identifying unkown information
@@ -412,7 +412,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.005.9,B,Re-reading task to verify,deciding next solution step,aufgau noch mal lesen,deciding next solution step
 05.005.11,B,Reconfirming final answer,Reconfirming final answer,"Ja, es ist 10",Reconfirming final answer
 05.005.14,B,Identifying unknown variable in task,Identifying unknown variable in task,Wo ist X?,identifying unkown information
-05.005.15,B,Questioning variable notation,Questioning variable notation,Ist das X0 aus der...,Questioning variable notation
+05.005.15,B,Questioning variable notation,Questioning variable notation,Ist das X0 aus der...,questioning problem language
 05.007.2,B,Deriving angle value from clarification,Deriving angle value from clarification,sind das 32 Grad,deriving solution step
 05.007.3,B,Reading task question aloud,Reading task question aloud,Wie ist die Länge des Kreisabschnittes...,reading problem statement
 05.007.4,B,Signaling reflection pause,Signaling reflection pause,kurz nachdenken,Signaling reflection pause
@@ -441,7 +441,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.012.13,B,Computing decimal equivalent of answer option,Computing decimal equivalent of answer option,"mal 18 sind 10,05309",Computing decimal equivalent of answer option
 05.012.14,B,Judging computed precision as sufficient,Judging computed precision as sufficient,Reicht,Judging computed precision as sufficient
 05.012.16,B,Continuing to convert next answer option,Continuing to convert next answer option,16 mal...,Continuing to convert next answer option
-05.012.17,B,Questioning unfamiliar notation symbol,Questioning unfamiliar notation symbol,Was bedeutet der Backslash?,Questioning unfamiliar notation symbol
+05.012.17,B,Questioning unfamiliar notation symbol,Questioning unfamiliar notation symbol,Was bedeutet der Backslash?,questioning problem language
 05.016.2,B,Converting next answer option,Converting next answer option,16 mal Pi durch 5,Converting next answer option
 05.016.3,B,Comparing converted option to computed result,Comparing converted option to computed result,das kommt sehr nah an das Radius,Comparing converted option to computed result
 05.016.4,B,Deciding to check remaining answer options,Deciding to check remaining answer options,"ich mach einfach mal noch die anderen, nicht dass die am Ende richtig sind",deciding next solution step
@@ -451,7 +451,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.016.8,B,Attributing formula source to chatbot,Attributing formula source to LLM,Ich habe die Formeln bekommen vom Chatbot,Attributing formula source to LLM
 05.016.9,B,Expressing trust in chatbot-provided method,Expressing trust in LLM-provided method,"Ich schenke ihm Glauben und komme auf genau das, was hier steht",expressing satisfaction
 05.016.11,B,Announcing task reading,Announcing task reading,Wollen wir mal wieder lesen,Announcing task reading
-05.016.12,B,Questioning task terminology,Questioning task terminology,"Ich weiß nicht, ob da Diamanat stehen soll?",Questioning task terminology
+05.016.12,B,Questioning task terminology,Questioning task terminology,"Ich weiß nicht, ob da Diamanat stehen soll?",questioning problem language
 05.016.13,B,Seeking clarification of terminology,Seeking clarification of terminology,Oder Diamant?,Seeking clarification of terminology
 05.020.3,B,Extracting given diagonal value,Extracting given diagonal value,A zu C ist 12,Extracting given diagonal value
 05.020.4,B,Restating task question,Restating task question,Wie lang sind die Kanten des Diamanten?,restating problem goal
@@ -466,7 +466,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.023.4,B,Recognizing LLM's triangle-construction step,Recognizing LLM's triangle-construction step,möchte der da aus Dreieck bauen,Recognizing LLM's triangle-construction step
 05.023.6,B,Reading LLM response aloud,Reading LLM's restated known information,Jede Seite,reading LLM's restaded known information
 05.023.7,B,Pausing to re-verify assumption,Pausing to re-verify assumption,lass mich nochmal nachschauen,Pausing to re-verify assumption
-05.023.8,B,Questioning geometric property of figure,Questioning geometric property of figure,Haben die rechte Winkel?,Questioning geometric property of figure
+05.023.8,B,Questioning geometric property of figure,Questioning geometric property of figure,Haben die rechte Winkel?,questioning LLM output
 05.023.10,B,Self-correcting geometric understanding,Self-correcting geometric understanding,die schneiden sich am rechten Winkel,Self-correcting geometric understanding
 05.023.12,B,Deciding to sketch diagram to support reasoning,Deciding to sketch diagram,Ich male mir [das] mal auf,deciding next solution step
 05.023.13,B,Labeling sketch elements,Labeling sketch elements,C und D,Labeling sketch elements
@@ -506,7 +506,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 07.002.7,E,Formulating equation,Formulating equation,x^2 plus 4^2 ist gleich 5^2,Formulating equation
 07.002.8,E,Recognizing familiar problem pattern,Recognizing familiar problem pattern,die klassische Geschichte,Recognizing familiar problem pattern
 07.002.9,E,Stating computed answer,Stating computed answer,ich bin auf x gleich 3,Stating computed answer
-07.003.1b,E,Questioning solution-validation procedure,Questioning solution-validation procedure,Wie ist das mit der Lösungsvalidierung?,Questioning solution-validation procedure
+07.003.1b,E,Questioning solution-validation procedure,Questioning solution-validation procedure,Wie ist das mit der Lösungsvalidierung?,managing experiment logistics
 07.005.2,E,Reporting need for reading glasses,Reporting need for reading glasses,Ich brauche eine Lesebrille,Reporting need for reading glasses
 07.005.3a,E,Misreading given value,Misreading given value,BC ist 6,Misreading given value
 07.005.3b,E,Self-correcting given value,Self-correcting given value,BC ist 3,Self-correcting given value
@@ -941,9 +941,9 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.015.4,E,Setting up unknown as variable x,Setting up unknown as variable x,das ist x,Setting up unknown as variable x
 10.015.5,E,Repeating rehearsed request,Repeating rehearsed request,Kannst du mir die Länge eines Teiles für richten?,Repeating rehearsed request
 10.017.1,E,Seeking confirmation of given value,Seeking confirmation of given value,ich will nur bestätigt wissen,Seeking confirmation of given value
-10.017.2,E,Questioning the ratio relationships,Questioning the ratio relationships,Was sind das für Verhältnisse?,Questioning the ratio relationships
+10.017.2,E,Questioning the ratio relationships,Questioning the ratio relationships,Was sind das für Verhältnisse?,questioning LLM output
 10.017.3,E,Repeating ratio hypothesis aloud,Repeating ratio hypothesis aloud,AB zu AC. AB zu AC.,Repeating ratio hypothesis aloud
-10.018.1,E,Questioning LLM's stated ratio,Questioning LLM's stated ratio,AB zu AC 2:7?,Questioning LLM's stated ratio
+10.018.1,E,Questioning LLM's stated ratio,Questioning LLM's stated ratio,AB zu AC 2:7?,questioning LLM output
 10.020.1,E,"Reading LLM response, self-correcting","Reading LLM response, self-correcting",Ach so,"Reading LLM response, self-correcting"
 10.022.1,E,Restating total parts,Restating total parts,insgesamt sieben Teile,restating solution step
 10.022.2,E,Reaffirming known percentage equivalence,Reaffirming known percentage equivalence,sieben Teile sind 100%,Reaffirming known percentage equivalence
@@ -1077,7 +1077,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.020.5,B,restating segment labels,restating segment labels,AP und PB,restating solution step
 11.022.1,B,reporting persistent confusion,reporting persistent confusion,"ich weiß immer nicht, wie ich die Strecke zu P ausrechen soll",reporting persistent confusion
 11.022.2,B,confirming understood element,confirming understood element,"das ist ja Radius, habe ich verstanden",accpeting LLM's assertions
-11.022.4,B,questioning LLM's epistemic basis for claim,questioning LLM's epistemic basis for claim,weil das kann er ja gar nicht wissen,questioning LLM's epistemic basis for claim
+11.022.4,B,questioning LLM's epistemic basis for claim,questioning LLM's epistemic basis for claim,weil das kann er ja gar nicht wissen,questioning LLM output
 11.022.5,B,working through equation aloud,working through equation aloud,"5 Quadrat ist gleich, die beiden Werte",working through equation aloud
 11.023.1,B,declining to provide requested value,declining to provide requested value,nein kann ich DIr nicht sagen,declining to provide requested value
 11.025.1,B,evaluating response as repetitive and unhelpful,evaluating response as repetitive and unhelpful,Das ist gefühlt die gleiche Antwort wie vorher,evaluating response as repetitive and unhelpful
@@ -1086,7 +1086,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.027.1,B,locating previously missed information,locating previously missed information,Ja ich habs gesehen,locating previously missed information
 11.028.1,B,providing missing value to LLM,providing missing value to LLM,die Länge von AB ist 8,providing missing value to LLM
 11.030.1,B,performing own calculation,performing own calculation,Dann kann ich logischerweise auch das berechnen,performing own calculation
-11.030.2,B,questioning whether LLM will compute answer independently,questioning whether LLM will compute answer independently,Rechnet der das jetzt selber für mich aus?,questioning whether LLM will compute answer independently
+11.030.2,B,questioning whether LLM will compute answer independently,questioning whether LLM will compute answer independently,Rechnet der das jetzt selber für mich aus?,expressing uncertainty
 11.030.3,B,confirming LLM computed the answer,confirming LLM computed the answer,Hat er hat doch für mich ausgerechnet,accpeting LLM's assertions
 11.030.4,B,expressing satisfaction with outcome,expressing satisfaction with outcome,"Super, vielen Dank",expressing satisfaction
 11.030.5,B,attributing difficulty to own oversight,attributing difficulty to own oversight,dass ich das überlesen habe und somit die Erklärung nicht verstanden habe,attributing difficulty to own oversight
@@ -1116,7 +1116,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.032.13,B,restating step to place point B,restating step to place point B,es liegt Punkt B irgendwo im Koordinatensystem,restating solution step
 11.032.14,B,reading lost response aloud,reading lost LLM response aloud,So ist der Abstand,reading lost LLM response aloud
 11.032.16,B,restarting approach from beginning,restarting approach from beginning,fangen wir mal vom oben an,restarting approach from beginning
-11.032.17,B,questioning own progress feasibility,questioning own progress feasibility,Wie weit ich denn überhaupt kommen mit der Aufgabe?,questioning own progress feasibility
+11.032.17,B,questioning own progress feasibility,questioning own progress feasibility,Wie weit ich denn überhaupt kommen mit der Aufgabe?,questioning oneself
 11.032.19,B,anticipating extended task duration,anticipating extended task duration,könnte wirklich ein bisschen länger dauern,anticipating extended task duration
 11.032.21,B,recalling coordinate axis orientation,recalling coordinate axis orientation,"X war mal unten, ne?",recalling coordinate axis orientation
 11.032.22,B,restating LLM's instruction,restating LLM's instruction,lege zum Beispiel Punkt A an die Ursprung von 0,Restating LLM approach
@@ -1144,7 +1144,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.038.1,B,agreeing with assessment of insufficiency,agreeing with assessment of insufficiency,Das vermute ich mal,agreeing with assessment of insufficiency
 11.038.2,B,identifying excessive unresolved variables as barrier,identifying excessive unresolved variables as barrier,"viel zu viele Variablen, die ich erst mal auflösen müsste",identifying problem solvability
 11.040.1,B,signaling task abandonment,signaling task abandonment,Dann mache ich da wohl mal...,signaling task abandonment
-11.042.1,B,questioning characterization of task difficulty,questioning characterization of task difficulty,Was Entspanntes?,questioning characterization of task difficulty
+11.042.1,B,questioning characterization of task difficulty,questioning characterization of task difficulty,Was Entspanntes?,managing experiment logistics
 11.044.1,B,expressing performance anxiety,expressing performance anxiety,"mich unter Druck setzen, wenn ich das jetzt wieder nicht schaffe",expressing doubt
 11.045.2,B,reading task statement aloud,Reading task statement aloud,das Verhältnis der Längen der Abschnitte AB zu AC 2:5,reading problem statement
 11.047.1,B,expressing need to clarify ratio notation,expressing uncertainty,wie ich die Angabe 2 zu 5 zu verstehen habe,expressing uncertainty
@@ -1177,7 +1177,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.059.6,B,expressing confusion,Expressing confusion,Hä?,Encountering impasse
 11.059.7,B,performing own calculation reasoning,performing own calculation,"Wenn ich 25 in 5/5 aufteile, ist 1/5 5",performing own calculation
 11.059.8,B,deriving value from calculation,deriving value from calculation,Das sind 2/5 10,deriving solution step
-11.059.9,B,questioning own mental block,questioning own mental block,Hab ich jetzt so einen Hänger gerade?,questioning own mental block
+11.059.9,B,questioning own mental block,questioning own mental block,Hab ich jetzt so einen Hänger gerade?,questioning oneself
 11.059.10,B,restating derived relation,restating derived relation,AB sind 2/5 von AC,restating solution step
 11.059.11,B,expressing self-doubt about reasoning,Expressing self-doubt,Oder denke ich falsch?,expressing doubt
 11.059.12,B,requesting LLM perform equation rearrangement,requesting LLM perform equation rearrangement,ob er mir die Gleichung umstellen kann,requesting solution from LLM
@@ -1198,7 +1198,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.069.3,B,verbalizing request for hint before sending,verbalizing request for hint before sending,Gib mir ein Tipp,verbalizing request for hint before sending
 11.070.1,B,requesting hint from LLM,requesting hint from LLM,gib mir einen Tipp,requesting guidance from LLM
 11.073.1,B,evaluating response as unusable,evaluating response as unusable,damit kann ich garnichts anfangen,evaluating response as unusable
-11.075.1,B,questioning referent of fraction,questioning referent of fraction,2/5 von was?,questioning referent of fraction
+11.075.1,B,questioning referent of fraction,questioning referent of fraction,2/5 von was?,questioning LLM output
 11.075.2,B,expressing confusion about which value to use,Expressing confusion,"Ich kann ja nicht den Wert, ich kenne mal 25 nehmen",Encountering impasse
 11.077.1,B,realizing meaning of clarification,realizing meaning of clarification,Ach so,realizing meaning of clarification
 11.079.1,B,asking about calculator input functionality,asking about calculator input functionality,Kann man hier Brüche eintippen?,asking about calculator input functionality
@@ -1274,7 +1274,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 13.014.2,B,Planning next calculation step,Planning next calculation step,"wenn der Winkel 32 Grad ist, würde ich das so rechnen",planning next solution step
 13.014.3a,B,Setting up calculation,Setting up calculation,Das ist dann 360 geteilt durch 32,Setting up calculation
 13.014.3b,B,Using calculator tool,Using calculator tool,Das würde ich in der Taschenrechner ... eintippen,Using calculator tool
-13.014.4,B,Questioning own calculation,Questioning own calculation,Moment was habe ich hier gerechnet,Questioning own calculation
+13.014.4,B,Questioning own calculation,Questioning own calculation,Moment was habe ich hier gerechnet,questioning oneself
 13.014.5,B,Correcting calculation approach,Self-correcting calculation approach,Ich muss andersrum rechnen,Self-correcting calculation approach
 13.014.6,B,Reflecting on calculator use,Reflecting on calculator use,Hätte ich jetzt nicht in den Taschenrechner eintippen müssen,Reflecting on calculator use
 13.014.7,B,Skipping intermediate steps,Skipping intermediate steps,keine Lust drauf [Zwischenrechnungen zu machen],Skipping intermediate steps
@@ -1285,20 +1285,20 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 13.014.12,B,Assuming geometric property from figure,Assuming geometric property from figure,"davon ausgeben, dass alles perfekt winklig ist",Assuming geometric property from figure
 13.014.13,B,Selecting solution method,Selecting solution method,den Satz des Pythagoras benutzen,Selecting solution method
 13.014.14,B,Performing calculation,Performing calculation,"AC wären 6 für eine der Seiten, 8 für die anderen",Performing calculation
-13.014.15a,B,Questioning recall of formula,Questioning recall of formula,Was war nochmal der Satz des Pythagoras?,Questioning recall of formula
+13.014.15a,B,Questioning recall of formula,Questioning recall of formula,Was war nochmal der Satz des Pythagoras?,questioning oneself
 13.014.15b,B,Recalling formula (possibly incorrect),Recalling formula (possibly incorrect),Das war die Wurzel aus 6 und 8,Recalling formula (possibly incorrect)
 13.014.16,B,Recalling Pythagorean theorem,Recalling Pythagorean theorem,"das ist das Grundsatz des Pythagoras, wo die lange Seite ist",Recalling Pythagorean theorem
 13.014.17,B,Performing calculation,Performing calculation,6 ins Quadrat mal 8 zum Quadrat,Performing calculation
 13.014.18a,B,Requesting to view answer options,Requesting to view answer options,Kann ich mir das anzeigen?,managing experiment logistics
 13.014.18b,B,Noticing calculation-result mismatch,Noticing calculation-result mismatch,"geht irgendwas nicht auf, weil keine der Option richtig ist",Noticing calculation-result mismatch
-13.014.19,B,Questioning own assumption,Questioning own assumption,"Vielleicht war meine Annahme falsch, dass die Sachen rechtwinklig sind",Questioning own assumption
+13.014.19,B,Questioning own assumption,Questioning own assumption,"Vielleicht war meine Annahme falsch, dass die Sachen rechtwinklig sind",questioning oneself
 13.014.20,B,Re-examining diagram values,Re-examining diagram values,ist das 6 und das 8,Re-examining diagram values
 13.014.21,B,Deciding to consult chatbot for guidance,Deciding to consult LLM for guidance,Ich frage mal kurz einmal den Chatbot,deciding to ask LLM for guidance
 13.014.22,B,Formulating query to chatbot,Dictating question to LLM while typing,"Ich berechne die Kantenlänge von einem Diamanten, wenn die Strecken zwischen den Punkten liegen",Dictating question to LLM while typing
 13.014.23,B,Requesting to view task image,Requesting to view task image,Kann ich das Bild nochmal anschauen?,managing experiment logistics
 13.016.1,B,Attempting to access task image,Attempting to access task image,das müsste ich runterladen kurz,Attempting to access task image
 13.018.1,B,Acknowledging interface clarification,Acknowledging interface clarification,"Ah, ok, jetzt verstehe ich",Acknowledging interface clarification
-13.020.1a,B,Questioning file selection relevance,Questioning file selection relevance,"Das ist eigentlich egal, welches ich nehme?",Questioning file selection relevance
+13.020.1a,B,Questioning file selection relevance,Questioning file selection relevance,"Das ist eigentlich egal, welches ich nehme?",managing experiment logistics
 13.020.1b,B,Understanding task number reference,Understanding task number reference,"jetzt verstehe ich, welche Aufgabennummer du meinst",Understanding task number reference
 13.021.1,B,Querying chatbot for solution method,Querying LLM for solution method,Wie berechne ich die kanten länge von einem Diamanten wenn die strecken zwischen den punkten gegenüber bekannt sind?,Querying LLM for solution method
 13.023.1a,B,Confirming solution method from response,Confirming solution method from response,Also doch Pythagoras,confirming LLM's guidance
@@ -1307,7 +1307,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 13.023.3,B,Evaluating response's assumption,Evaluating response's assumption,"geht er ja aber davon aus, dass die beiden gleich sind",Evaluating response's assumption
 13.023.4,B,Referencing chatbot's CoT,Referencing LLMs's CoT,Die Diagonal des rechtwinkligen Dreiecks,Referencing LLMs's CoT
 13.023.5,B,Understanding chatbots's CoT,Understanding LLM's CoT,"Ah, ich verstehe. Wenn das die Diagonal ist, kann ich es andersherum rechnen",Understanding LLM's CoT
-13.023.6,B,Questioning triangle's right-angle assumption,Questioning triangle's right-angle assumption,"wissen wir, ob das Dreieck rechtwinklig ist?",Questioning triangle's right-angle assumption
+13.023.6,B,Questioning triangle's right-angle assumption,Questioning triangle's right-angle assumption,"wissen wir, ob das Dreieck rechtwinklig ist?",questioning LLM output
 13.023.7,B,Reasoning about geometric property,Reasoning about geometric property,"Wenn die ja nicht gleich lang sind, ist das nicht rechtwinklig",Reasoning about geometric property
 13.023.8,B,Formulating counterpoint to chatbot,Formulating counterpoint to LLM,Die Strecke zwischen A und C und B und D sind aber nicht gleich,Formulating counterpoint to LLM
 13.024.1,B,Correcting chatbot's assumption,Correcting LLM's assumption,Die Strecke zwischen A und C un d B und D sind aber nicht gleich lang,Correcting LLM's assumption

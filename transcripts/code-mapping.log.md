@@ -20,3 +20,4 @@
 - remapped several codes from "expressing" family to existing codes
 - introduced pattern codes "requesting information from LLM", "requesting verification by LLM", "requesting guidance from LLM", "requesting clarification from LLM", "requesting clarification from researcher", "requesting solution from LLM", "Encountering impasse"
 - introduced pattern codes "planning next solution step", "planning LLM message"
+- introduced pattern codes "managing experiment logistics", "questioning problem language", "questioning oneself", "questioning LLM output"
