@@ -23,6 +23,6 @@
 - introduced pattern codes "managing experiment logistics", "questioning problem language", "questioning oneself", "questioning LLM output"
 - introduced pattern codes "recognizing own error", "recognizing error (no fault)", "recognizing solution step"
 - introduced pattern codes "submitting information to LLM", "answering the LLM"
-- introduced pattern codes "correcting the LLM", "correcting own problem solving step", "correcting own understanding", "correcting own terminology"
+- introduced pattern codes "correcting the LLM", "correcting own solution step", "correcting own understanding", "correcting own terminology"
 - mapped "calculation" and "performing" family to "deriving solution step"
 - introduced pattern code "Verifying solution"

@@ -88,7 +88,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 02.014.3,B,Expressing Frustration/Disbelief,Expressing frustration,Unglaublich.,expressing frustration
 02.014.4,B,Restating Given Values,Restating Given Values,25 ist AC und dann 2 zu 5,restating given information
 02.014.5,B,Proposing Calculation Approach,Proposing Calculation Approach,25 dann mal 2 Fünftel,Proposing Calculation Approach
-02.014.6,B,Self-Correcting Ratio Interpretation,Self-Correcting Ratio Interpretation,2 zu 5 ist ja nicht das gleiche wie 2 Fünftel,correcting own problem solving step
+02.014.6,B,Self-Correcting Ratio Interpretation,Self-Correcting Ratio Interpretation,2 zu 5 ist ja nicht das gleiche wie 2 Fünftel,correcting own solution step
 02.014.7,B,Signaling Uncertainty While Continuing,Signaling Uncertainty While Continuing,Da habe ich auf jeden Fall noch so im Kopf. Mal gucken.,Signaling Uncertainty While Continuing
 02.014.8,B,Abandoning Further Analysis,Abandoning Further Analysis,Egal.,Abandoning Further Analysis
 02.014.9,B,Asking About Remaining Task Count,Asking About Remaining Task Count,wie viele Aufgaben habe ich insgesamt noch mal?,Asking About Remaining Task Count
@@ -492,7 +492,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.025.25,B,Computing second squared value,Computing second squared value,8 mal 8 sind 64,deriving solution step
 05.025.26,B,Summing squared values,Summing squared values,Plus 64,Summing squared values
 05.025.27,B,Computing sum result,Computing sum result,müsste das 100 sein,deriving solution step
-05.025.28,B,Self-correcting by taking square root,Self-correcting by taking square root,das ist 10... weil Wurzel,correcting own problem solving step
+05.025.28,B,Self-correcting by taking square root,Self-correcting by taking square root,das ist 10... weil Wurzel,correcting own solution step
 05.025.29,B,Reasoning toward perimeter using side symmetry,Reasoning toward perimeter using side symmetry,"da die Seiten alle gleich sind, ist der Umfang von dem Teil...",Reasoning toward perimeter using side symmetry
 05.025.30,B,Re-reading task question to check answer scope,Re-reading task question to check answer scope,wie lang sind die Kanten?,reading problem statement
 05.025.31,B,Clarifying answer scope as single edge,Clarifying answer scope as single edge,wir rechnen nur vor einer Kante,Clarifying answer scope as single edge
@@ -509,7 +509,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 07.003.1b,E,Questioning solution-validation procedure,Questioning solution-validation procedure,Wie ist das mit der Lösungsvalidierung?,managing experiment logistics
 07.005.2,E,Reporting need for reading glasses,Reporting need for reading glasses,Ich brauche eine Lesebrille,Reporting need for reading glasses
 07.005.3a,E,Misreading given value,Misreading given value,BC ist 6,Misreading given value
-07.005.3b,E,Self-correcting given value,Self-correcting given value,BC ist 3,correcting own problem solving step
+07.005.3b,E,Self-correcting given value,Self-correcting given value,BC ist 3,correcting own solution step
 07.005.4,E,Restating problem statement,Restating problem statement,"Lies on AB, between AB",restating given information
 07.005.5,E,Restating problem question,Restating problem question,which for following could be the length of CP?,restating problem goal
 07.005.6,E,Re-confirming given value,Re-confirming given value,"6, BC ist 3",confirming solution steps
@@ -548,7 +548,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 07.017.2,E,Applying formula to compute circumference,Applying formula to compute circumference,damit habe ich den gesamten Umfang,Applying formula to compute circumference
 07.017.3,E,Relating angle to full-circle degrees,Relating angle to full-circle degrees,das ganze 360 ist der Vollkreis und der Winkel ist letzten Endes 32,Relating angle to full-circle degrees
 07.017.4,E,Self-verifying own claim,Self-verifying own claim,"ist das jetzt richtig, was ich da jetzt gerade behaupte?",Self-verifying own claim
-07.017.5,E,Correcting own calculation setup,Correcting own calculation setup,"32 durch 360, genau verkehrt rum",correcting own problem solving step
+07.017.5,E,Correcting own calculation setup,Correcting own calculation setup,"32 durch 360, genau verkehrt rum",correcting own solution step
 07.017.6,E,Performing intermediate calculation,Performing intermediate calculation,das [radius 18] zwei mal [gleich] 36 durch [unverständlich],deriving solution step
 07.017.7,E,Searching for calculator tool,Searching for calculator tool,irgendwo wird auch hier der Taschenrechner versteckt,Searching for calculator tool
 07.017.8,E,Expressing reluctance to manually simplify fraction,Expressing reluctance to manually simplify fraction,"zu faul, um den Bruch 360 zu 32 richtig zu kürzen",Considering querying LLM as fallback
@@ -740,7 +740,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.046.4,E,Attributing chatbot's confusion to own typo,Attributing LLM's confusion to own typo,komplett auf dem Holz weggebracht,Attributing LLM's confusion to own typo
 08.048.1,E,Deciding to inform chatbot of typo correction,Deciding to inform LLM of typo correction,ich habe mich vorher vertippt,Deciding to update the LLM information
 08.048.3,E,Reviewing earlier notes,Reviewing earlier notes,das hier oben an,Reviewing earlier notes
-08.048.5,E,Correcting sign error in expression,Correcting sign error in expression,aus dem Minus ein Plus,correcting own problem solving step
+08.048.5,E,Correcting sign error in expression,Correcting sign error in expression,aus dem Minus ein Plus,correcting own solution step
 08.048.6,E,Criticizing chatbot's failure to detect logic error,Criticizing LLM's failure to detect logic error,Logikfehler nicht erkennt,Criticizing LLM's failure to detect logic error
 08.049.1,E,Submitting corrected expression to chatbot,Submitting corrected expression to LLM,a = √(b^2 + 27),submitting information to LLM
 08.051.1,E,Reading chatbot's follow-up question,Reading LLM's follow-up question,weiter vereinfachen?,reading LLM's questions
@@ -832,7 +832,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 09.002.5,E,Formalizing problem variables,Formalizing problem variables,AB plus BC ist in Summe AC,Formalizing problem variables
 09.002.6,E,Restating given information,Restating given information,das Verhältnis von AB zu AC gegeben,restating given information
 09.002.7,E,Deciding to consult chatbot for guidance,Deciding to consult LLM for guidance,"frage ich dann direkt mal nach, wie ich das am besten lösen kann",deciding to ask LLM for guidance
-09.002.8,E,Self-correcting stated values,Self-correcting stated values,im Verhältnis 2 zu 5,correcting own problem solving step
+09.002.8,E,Self-correcting stated values,Self-correcting stated values,im Verhältnis 2 zu 5,correcting own solution step
 09.002.9,E,Planning calculation approach,Planning calculation approach,müsste man selbst jetzt 25 durch 7 teilen,planning next solution step
 09.002.10,E,Deciding to verify calculation with chatbot,Deciding to verify calculation with LLM,"frage ich gleich mal in Chatbot, ob das so stimmt",deciding to ask LLM for verification
 09.002.11,E,Performing calculation,Performing calculation,"eine Länge von 7 für AB und für AC wäre dann 17,8",deriving solution step
@@ -908,7 +908,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 09.026.1,E,Confirming theorem with chatbot,Confirming theorem with LLM,Satz des Pythagoras?,Confirming theorem with LLM
 09.028.1,E,Performing calculation,Performing calculation,das passt schon mal nicht,deriving solution step
 09.028.2,E,Identifying own calculation error,Identifying own calculation error,die Quadrate glaube ich vergessen,identifying mistake
-09.028.3,E,Correcting calculation and confirming result,Correcting calculation and confirming result,"6^2 plus 8^2 ist dann 10, ja und dann kommt es auch hin",correcting own problem solving step
+09.028.3,E,Correcting calculation and confirming result,Correcting calculation and confirming result,"6^2 plus 8^2 ist dann 10, ja und dann kommt es auch hin",correcting own solution step
 10.002.1,E,Noting bilingual task text,Noting bilingual task text,da unten steht es noch mal auf Deutsch,Noting bilingual task text
 10.002.2,E,Recognizing diagram setup,Recognizing diagram setup,wir haben hier wieder so eine schöne Linie,reading given information
 10.002.3,E,Labeling geometric points,Labeling geometric points,"einmal A, B und C",Labeling geometric points
@@ -979,7 +979,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.036.5,E,"Substituting radius value, referencing calculator","Substituting radius value, referencing calculator",müsste mir normalerweise mein Taschenrechner helfen,"Substituting radius value, referencing calculator"
 10.036.6,E,Checking for pi-symbol availability,Checking for pi-symbol availability,gibt es das darauf?,Checking for pi-symbol availability
 10.038.2,E,Writing full substituted formula,Writing full substituted formula,32 durch 360 mal 2π18,Writing full substituted formula
-10.038.3,E,Self-correcting calculation approach,Self-correcting calculation approach,Das habe ich falsch gemacht,correcting own problem solving step
+10.038.3,E,Self-correcting calculation approach,Self-correcting calculation approach,Das habe ich falsch gemacht,correcting own solution step
 10.038.4,E,Adding parentheses for grouping,Adding parentheses for grouping,in Klammern setzen,Adding parentheses for grouping
 10.038.5,E,Continuing computation setup,Continuing computation setup,"mal 2, mal π, mal 18",Continuing computation setup
 10.038.6,E,Arriving at simplified fraction result,Arriving at simplified fraction result,16/5π,Arriving at simplified fraction result
@@ -1275,7 +1275,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 13.014.3a,B,Setting up calculation,Setting up calculation,Das ist dann 360 geteilt durch 32,Setting up calculation
 13.014.3b,B,Using calculator tool,Using calculator tool,Das würde ich in der Taschenrechner ... eintippen,Using calculator tool
 13.014.4,B,Questioning own calculation,Questioning own calculation,Moment was habe ich hier gerechnet,questioning oneself
-13.014.5,B,Correcting calculation approach,Self-correcting calculation approach,Ich muss andersrum rechnen,correcting own problem solving step
+13.014.5,B,Correcting calculation approach,Self-correcting calculation approach,Ich muss andersrum rechnen,correcting own solution step
 13.014.6,B,Reflecting on calculator use,Reflecting on calculator use,Hätte ich jetzt nicht in den Taschenrechner eintippen müssen,Reflecting on calculator use
 13.014.7,B,Skipping intermediate steps,Skipping intermediate steps,keine Lust drauf [Zwischenrechnungen zu machen],Skipping intermediate steps
 13.014.8,B,Committing to answer,Committing to answer,die würde ich auch so auswählen,Committing to answer
@@ -1362,7 +1362,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.011.3,E,Paraphrasing chatbot's response (cont.),Paraphrasing LLM's response,Es gibt eine Zahl die das Verhältnis beschreibt,Paraphrasing LLM's response
 15.011.4,E,Recalling candidate answer (incorrect),Recalling candidate answer (incorrect),Das müsste doch der Radius sein,Recalling candidate answer (incorrect)
 15.011.5,E,Reaffirming initial guess,Reaffirming initial guess,der Radius müsste sein,Reaffirming initial guess
-15.011.6,E,Correcting recalled answer,Correcting recalled answer,Pi,correcting own problem solving step
+15.011.6,E,Correcting recalled answer,Correcting recalled answer,Pi,correcting own solution step
 15.011.7,E,Confirming final answer,Confirming final answer,Pi ist die Antwort,confirmation of problem facts
 15.012.1,E,Submitting answer to chatbot,Submitting answer to LLM,pi,answering the LLM
 15.014.3,E,Recalling diameter concept,Recalling diameter concept,Der Durchmesser ist ja okay,Recalling diameter concept
@@ -1389,7 +1389,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.022.2,E,Constructing auxiliary point in reasoning,Constructing auxiliary point in reasoning,das wäre quasi der Punkt C für mich jetzt,Constructing auxiliary point in reasoning
 15.022.3,E,Miscalculating radius value,Miscalculating radius value,"der Radius ist 5, also 2,5",Miscalculating radius value
 15.022.4,E,Checking own understanding,Checking own understanding,Wenn ich das jetzt richtig verstehe,Checking own understanding
-15.022.5,E,Self-correcting miscalculation,Self-correcting miscalculation,"Nee, Quatsch, der Radius ist 5",correcting own problem solving step
+15.022.5,E,Self-correcting miscalculation,Self-correcting miscalculation,"Nee, Quatsch, der Radius ist 5",correcting own solution step
 15.022.6,E,Correcting radius/diameter confusion,Correcting radius/diameter confusion,"nicht der Durchmiss, sondern der Radius ist 5",correcting own understanding
 15.022.7,E,Restating sub-goal,Restating sub-goal,diesen Abstand bekommen zwischen dieser Sehne und dem Mittelpunkt,restating problem goal
 15.022.8,E,Proposing solution approach,Proposing solution approach,ich nehme den Radius und berechne dadurch die Differenz,Proposing solution approach
@@ -1461,7 +1461,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.051.12,E,Restating task question,Restating task question,wie kommt man auf die Länge N und C,restating problem goal
 15.051.13,E,Consolidating known segment lengths,Consolidating known segment lengths,"B zu C ist 2,5",Consolidating known segment lengths
 15.051.14,E,Planning to compute segment via subtraction,Planning to compute segment via subtraction,eine Differenz rauszurechnen,planning next solution step
-15.051.15,E,Correcting segment length estimate,Correcting segment length estimate,"sie ist 2,5. Oder nein, sie ist 5",correcting own problem solving step
+15.051.15,E,Correcting segment length estimate,Correcting segment length estimate,"sie ist 2,5. Oder nein, sie ist 5",correcting own solution step
 15.051.16,E,Recording segment value,Recording segment value,"Innerhalb dieser Linie ist C. Das ist 2,5",Recording segment value
 15.051.17,E,Summing known segments,Summing known segments,"Zwischen C und M sind 2,5. Und dann nochmal 2,5",Summing known segments
 15.051.18,E,Computing final answer via summation,Computing final answer via summation,"Das müssen dann 3,5 sein",deriving solution step
