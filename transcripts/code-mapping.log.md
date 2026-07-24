@@ -33,3 +33,5 @@
 - introduced pattern code "formulating LLM message"
 - introduced pattern codes "attributing LLM's confusion to own action", "attributing capability to LLM"
 - merged dictating into "formulating LLM message"
+- introduced pattern codes "evaluating LLM response as helpful", "evaluating response as unhelpful", "scrutinizing LLM response", "evaluating own solving progress"
+
