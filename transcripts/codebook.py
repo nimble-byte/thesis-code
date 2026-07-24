@@ -30,7 +30,9 @@ import glob
 import os
 import re
 import sys
+import termios
 import pandas as pd
+import tty
 
 # [NNN.n] PROCESS: <label> | IV: <verbatim...>
 CODE_RE = re.compile(
@@ -62,6 +64,29 @@ def lead_verb(label):
     s = _VERB_ADVERB_RE.sub("", s)
     m = _VERB_LEAD_RE.match(s)
     return m.group(1).lower() if m else None
+
+
+def confirm_apply_relabel(prompt):
+    """Return True only when the user presses a literal y key."""
+    if not sys.stdin.isatty():
+        return False
+
+    sys.stdout.write(prompt)
+    sys.stdout.flush()
+
+    fd = sys.stdin.fileno()
+    old_settings = termios.tcgetattr(fd)
+    try:
+        tty.setraw(fd)
+        response = sys.stdin.read(1)
+    except (OSError, ValueError, KeyboardInterrupt):
+        response = ""
+    finally:
+        termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
+
+    sys.stdout.write("\n")
+    sys.stdout.flush()
+    return response == "y"
 
 
 def parse_file(path):
@@ -370,8 +395,11 @@ def cmd_relabel(args):
         print(f"  {r['id']:12} [{r['group']}] {r[args.column]!r} -> {args.to!r}")
 
     if not args.apply:
-        print(f"\nDRY RUN -- no changes written. Re-run with --apply to commit.")
-        return
+        if not confirm_apply_relabel(
+            "\nApply changes? Press y to commit, any other key for dry run: "
+        ):
+            print("DRY RUN -- no changes written.")
+            return
 
     df.loc[mask, args.column] = args.to
     df.to_csv(args.codebook, index=False)
