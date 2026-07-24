@@ -209,7 +209,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 03.027.1,B,Reporting completion of steps and requesting next steps,Reporting completion of steps and requesting next steps,wie gehe ich weiter vor um das LGS zu lösen,Reporting completion of steps and requesting next steps
 03.029.1,B,Describing LLM's stepwise equation-solving explanation,Describing LLM's stepwise equation-solving response,sehr schrittweise gibt er hier an,Describing LLM's stepwise equation-solving response
 03.029.2,B,Deciding to compute final value using calculator,Deciding to compute final value using calculator,mit dem Taschenrechner... die Länge CP ausrechnen,deciding next solution step
-03.029.3,B,Noting discrepancy in computed result relative to closest candidate value,Noting discrepancy in computed result relative to closest candidate value,sehr nah an zwei im Vergleich zu allen anderen,Noting discrepancy in computed result relative to closest candidate value
+03.029.3,B,Noting discrepancy in computed result relative to closest candidate value,Noting discrepancy in computed result relative to closest candidate value,sehr nah an zwei im Vergleich zu allen anderen,noticing problem
 03.029.4a,B,Attributing discrepancy to rounding error,Attributing discrepancy to rounding error,vielleicht Rundungsfehler gemacht wurden,Attributing discrepancy to rounding error
 03.029.4b,B,Selecting final answer despite imprecision,Selecting final answer despite imprecision,einfach mal zwei auswählen,Selecting final answer despite imprecision
 03.030.2,B,Summarizing given task information,Summarizing given task information,eine Linie und mehrere Längen und Verhältnisse,Summarizing given task information
@@ -331,7 +331,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.036.2,E,Reading task statement aloud,Reading task statement aloud,Länge des Kreisabschnittes,reading problem statement
 04.036.3,E,Commenting problem description,Commenting problem description,ist blöd beschrieben,Commenting problem description
 04.036.4,E,Using analogy to describe shape,Using analogy to describe shape,kuchenstückähnlichen Abschnitt,Using analogy to describe shape
-04.036.5,E,Noting spelling to fix later,Noting spelling to fix later,nachher rechtschreiben,Noting spelling to fix later
+04.036.5,E,Noting spelling to fix later,Noting spelling to fix later,nachher rechtschreiben,managing experiment logistics
 04.036.6,E,Questioning angle notation,Questioning angle notation,ist das x hoch?,questioning oneself
 04.036.7,E,Restating given values and goal,Restating Given Values,"Ziel ist es, die Länge des Kreisabschnittes zu berechnen",restating given information
 04.036.8,E,Reasoning about relevant quantity,Reasoning about relevant quantity,die für mich jetzt so gesehen interessant ist,Reasoning about relevant quantity
@@ -434,9 +434,9 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.012.5,B,Continuing arc-length calculation,Continuing arc-length calculation,das mal Radius,Continuing arc-length calculation
 05.012.6,B,Recalling radius value,Recalling radius value,Radius sind 18,Recalling radius value
 05.012.7,B,Anticipating calculation result,Anticipating calculation result,"Heißt, die [Antwort ist]...",Anticipating calculation result
-05.012.8,B,Noting mismatch between own result format and answer options,Noting mismatch between own result format and answer options,Das sind natürlich schöne Antwortmöglichkeiten,Noting mismatch between own result format and answer options
+05.012.8,B,Noting mismatch between own result format and answer options,Noting mismatch between own result format and answer options,Das sind natürlich schöne Antwortmöglichkeiten,noticing problem
 05.012.9,B,Recording computed result,Recording computed result,die Bogenlänge... auf etwa 10 komma 5 berechnet,Recording computed result
-05.012.10,B,Noting answer-option format discrepancy,Noting answer-option format discrepancy,die Antwortmöglichkeiten in...,Noting answer-option format discrepancy
+05.012.10,B,Noting answer-option format discrepancy,Noting answer-option format discrepancy,die Antwortmöglichkeiten in...,noticing problem
 05.012.11,B,Deciding to convert answer options using calculator,Deciding to convert answer options using calculator,"es macht mehr Sinn, das einfach kurz... auszurechnen",deciding next solution step
 05.012.13,B,Computing decimal equivalent of answer option,Computing decimal equivalent of answer option,"mal 18 sind 10,05309",deriving solution step
 05.012.14,B,Judging computed precision as sufficient,Judging computed precision as sufficient,Reicht,Judging computed precision as sufficient
@@ -587,19 +587,19 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.004.12,E,Inquiring about answer feedback,Inquiring about answer feedback,Kriegt mal gar keiner richtig oder falsch antwort?,Inquiring about answer feedback
 08.008.3,E,Reading task statement,Reading task statement aloud,Wir sehen ein Dreieck. Figure not drawn to scale,reading problem statement
 08.008.4,E,Restating problem question,Restating problem question,Which of the following could be the length of CP?,restating problem goal
-08.008.5,E,Noting task language mismatch,Noting task language mismatch,ich habe es natürlich auf Englisch gehört,Noting task language mismatch
+08.008.5,E,Noting task language mismatch,Noting task language mismatch,ich habe es natürlich auf Englisch gehört,managing experiment logistics
 08.008.6,E,Planning to visualize problem,Planning to visualize problem,das jetzt erst einmal visualisieren,planning next solution step
 08.008.7,E,Sketching triangle,Sketching triangle,unser Dreieck ABC,Sketching triangle
 08.008.8,E,Placing point P on segment AB,Placing point P on segment AB,liegt irgendwo auf A und B ein Punkt P,Placing point P on segment AB
 08.008.9,E,Identifying perpendicularity condition,Identifying perpendicularity condition,"der liegt so, dass der senkrecht ist",identifying given information
 08.008.10,E,Reaffirming perpendicularity condition,Reaffirming perpendicularity condition,Das soll senkrecht sein,Reaffirming perpendicularity condition
 08.008.11,E,Sketching diagram,Sketching diagram,ich mal mir das mal kurz auf,Sketching diagram
-08.008.12,E,Noting given side lengths,Noting given side lengths,AC ist 6 und BC ist 3,Noting given side lengths
+08.008.12,E,Noting given side lengths,Noting given side lengths,AC ist 6 und BC ist 3,noting given information
 08.008.13,E,Identifying missing information,Identifying missing information,Über AB haben wir keine Angaben,identifying unkown information
 08.008.14,E,Identifying sub-triangle with unknown side,Identifying sub-triangle with unknown side,"ein zweites Dreieck haben, dessen Länge wir suchen",identifying unkown information
 08.008.15,E,Restating target unknown,Restating target unknown,"die Seitenkante, die wir suchen",restating given information
 08.008.16,E,Deciding to consult chatbot for guidance,Deciding to consult LLM for guidance,diese Aufgabe mal dem Chatbot geben,deciding to ask LLM for guidance
-08.008.17,E,Noting image upload option,Noting image upload option,konnten wir jetzt das Bild da einfügen,Noting image upload option
+08.008.17,E,Noting image upload option,Noting image upload option,konnten wir jetzt das Bild da einfügen,managing experiment logistics
 08.008.19,E,Copying task text into chat,Copying task text into chat,kopiere mir hier den Text von der Aufgabe,Copying task text into chat
 08.010.2,E,Expressing impasse/lack of ideas,Expressing impasse/lack of ideas,ich habe glaube ich nicht mehr viele Ideen,Encountering impasse
 08.011.1,E,Submitting task query to chatbot,Submitting task query to LLM,Wie lang ist die Linie CP?,requesting solution from LLM
@@ -630,7 +630,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.018.4,E,Assigning variable to unknown height,Assigning variable to unknown height,die gesuchte Höhe ist jetzt X,Assigning variable to unknown height
 08.018.5,E,Assigning variables to segment lengths,Assigning variables to segment lengths,von A nach P nehmen wir dann a und von P nach B nehmen wir b,Assigning variables to segment lengths
 08.018.6,E,Confirming variable assignment,deriving solution step,AP ist a und PB ist b,deriving solution step
-08.018.7,E,Noting right angle at P,Noting right angle at P,bei P einen rechten Winkel,Noting right angle at P
+08.018.7,E,Noting right angle at P,Noting right angle at P,bei P einen rechten Winkel,noting given information
 08.018.8,E,Setting up Pythagorean equation for triangle APC,Setting up Pythagorean equation for triangle APC,"wir kennen die Länge AC, das ist 6",Setting up Pythagorean equation for triangle APC
 08.018.9,E,Completing equation with unknowns,Completing equation with unknowns,X dann zu Quadrat plus entsprechend a^2,Completing equation with unknowns
 08.018.10,E,Setting up equation for second triangle,Setting up equation,den rechten Winkel haben bei dem anderen Dreieck PBC,Setting up equation
@@ -699,7 +699,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.029.1,E,Submitting reformatted equation to chatbot for confirmation,Submitting reformatted equation to LLM for confirmation,x^2 + a^2 - 6^2 = x^2 + b^2 - 3^2,requesting verification by LLM
 08.031.1,E,Attributing chatbot's confusion to computed exponents,Attributing LLM's confusion to computed exponents,die KI ist gerade damit nicht klargekommen,Attributing LLM's confusion to computed exponents
 08.031.2,E,Reading chatbot's follow-up request,Reading LLM's follow-up request,gleichsetzen?,reading LLM's questions
-08.031.3,E,Noting chatbot's request as already addressed,Noting LLM's request as already addressed,das habe ich doch gerade da eben eingegeben,Noting LLM's request as already addressed
+08.031.3,E,Noting chatbot's request as already addressed,Noting LLM's request as already addressed,das habe ich doch gerade da eben eingegeben,evaluating response as unhelpful
 08.031.5,E,Reusing previous equation content,Reusing previous equation content,kopiere meine Sachen von oben wieder,Reusing previous equation content
 08.032.1,E,Submitting combined equation to chatbot,Submitting combined equation to LLM,x^2 + a^2 - 6^2 = x^2 + b^2 - 3^2,submitting information to LLM
 08.034.2,E,Judging simplification step as easy,Judging simplification step as easy,ziemlich simpel,Judging simplification step as easy
@@ -820,7 +820,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.068.18,E,Deriving midpoint segment lengths,Deriving midpoint segment lengths,AM ist gleich 5 und BM ist gleich 5,deriving solution step
 08.068.19,E,Deriving length CB from midpoint C,Deriving length CB from midpoint C,"C B muss 2,5 sein",deriving solution step
 08.068.20,E,Placing point N on diagram,Placing point N on diagram,einen Punkt N ein,Placing point N on diagram
-08.068.21,E,Noting given segment length MN,Noting given segment length MN,M zu N soll 1 sein,Noting given segment length MN
+08.068.21,E,Noting given segment length MN,Noting given segment length MN,M zu N soll 1 sein,noting given information
 08.068.22,E,Restating problem question,Restating problem question,wie lang ist der Abschnitt von N nach C?,restating problem goal
 08.068.23,E,Identifying target segment on diagram,Identifying target segment on diagram,der hier ist gesucht,identifying unkown information
 08.068.24,E,Reasoning about relative point positions,Reasoning about relative point positions,C liegt auf der Hälfte von MB und M ist die Hälfte von MA,Reasoning about relative point positions
@@ -909,7 +909,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 09.028.1,E,Performing calculation,Performing calculation,das passt schon mal nicht,deriving solution step
 09.028.2,E,Identifying own calculation error,Identifying own calculation error,die Quadrate glaube ich vergessen,identifying mistake
 09.028.3,E,Correcting calculation and confirming result,Correcting calculation and confirming result,"6^2 plus 8^2 ist dann 10, ja und dann kommt es auch hin",correcting own solution step
-10.002.1,E,Noting bilingual task text,Noting bilingual task text,da unten steht es noch mal auf Deutsch,Noting bilingual task text
+10.002.1,E,Noting bilingual task text,Noting bilingual task text,da unten steht es noch mal auf Deutsch,managing experiment logistics
 10.002.2,E,Recognizing diagram setup,Recognizing diagram setup,wir haben hier wieder so eine schöne Linie,reading given information
 10.002.3,E,Labeling geometric points,Labeling geometric points,"einmal A, B und C",Labeling geometric points
 10.002.4,E,Restating given information,Restating given information,"das Verhältnis AB zu AC, 2 zu 5",restating given information
@@ -954,7 +954,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.022.7,E,Identifying required multiplication step,Identifying required multiplication step,wir brauchen 2 Teile,identifying solution step
 10.022.8a,E,Completing final multiplication calculation,Completing final multiplication calculation,2 mal fünf sind zehn,Completing final multiplication calculation
 10.022.8b,E,Acknowledging own earlier reasoning error,Acknowledging own earlier reasoning error,Boah hatte ich da einen Denkfehler,Acknowledging own earlier reasoning error
-10.022.9,E,Noting new chat session,Noting new chat session,neuer Chat,Noting new chat session
+10.022.9,E,Noting new chat session,Noting new chat session,neuer Chat,managing experiment logistics
 10.022.10,E,Reading task question aloud,Reading task question aloud,Was ist die Länge des Kreisabschnittes,reading problem statement
 10.022.11,E,Expressing confusion about notation,Expressing uncertainty,x hoch null ist wahrscheinlich dann die Fläche,expressing uncertainty
 10.024.1,E,Orienting to circle diagram,Orienting to circle diagram,ich habe hier einen Kreis,Orienting to circle diagram
@@ -1041,10 +1041,10 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.009.1,B,recognizing terminology gap,recognizing terminology gap,"muss ich mir mal eine Liste aufstellen, was hier Begriffe sind",deciding to ask LLM for information
 11.009.2,B,acknowledging need to refresh knowledge,acknowledging need to refresh knowledge,muss ich mal kurz auffrischen,acknowledging need to refresh knowledge
 11.010.1,B,requesting definition from LLM,requesting definition from LLM,was ein Tangente und was ist eine Sekante,requesting information from LLM
-11.012.1,B,reading definition aloud,reading definition aloud,berührt einen Kreis an genau einem Punkt,reading given information
-11.012.2,B,reading definition aloud,reading definition aloud,schneidet einen Kreis an zwei Punkten,reading given information
-11.012.3,B,applying definition to classify AB,applying definition to classify AB,dann ist AB eine Tangente,applying definition to classify AB
-11.012.4,B,noting instruction to continue reading,noting instruction to continue reading,dass ich mir das noch weiter lesen soll,noting instruction to continue reading
+11.012.1,B,reading definition aloud,reading definition aloud,berührt einen Kreis an genau einem Punkt,reading LLM's restaded known information
+11.012.2,B,reading definition aloud,reading definition aloud,schneidet einen Kreis an zwei Punkten,reading LLM's restaded known information
+11.012.3,B,applying definition to classify AB,applying definition to classify AB,dann ist AB eine Tangente,applying LLM definition to classify AB
+11.012.4,B,noting instruction to continue reading,noting instruction to continue reading,dass ich mir das noch weiter lesen soll,planning next solution step
 11.012.5,B,reading response aloud verbatim,Reading LLM's restated known information,den Kreis nur an einem Punkt A schneidet,reading LLM's restaded known information
 11.012.6,B,reading response aloudReading LLM's restated known information,weil die Tangente...,Reading LLM's restated known information,
 11.012.8,B,re-checking definition against situation,re-checking definition against situation,sie berührt den Kreis genau an einem Punkt,re-checking definition against situation
@@ -1127,7 +1127,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.032.28,B,restating distance relation,restating distance relation,der Abstand von B zu C gleich 3,restating solution step
 11.032.29,B,reading lost response aloud,reading lost LLM response aloud,Die genaue Position von B und wo du ihn platzierst... wir wissen...,reading lost LLM response aloud
 11.032.30,B,deriving locus as circle around point,deriving locus as circle around point,Es liegt auf einem Kreis am Radius 3 um den Punkt C,deriving solution step
-11.032.31,B,noting continuation of drawing,noting continuation of drawing,geht es anscheinend noch nach unten,noting continuation of drawing
+11.032.31,B,noting continuation of drawing,noting continuation of drawing,geht es anscheinend noch nach unten,noting given information
 11.032.32,B,tentatively placing point via counting,tentatively placing point via counting,"1, 2, 3. Irgendwo da",tentatively placing point via counting
 11.032.33,B,acknowledging imprecision of own drawing,acknowledging imprecision of own drawing,"Das ist kein Kreis, ich weiß",acknowledging imprecision of own drawing
 11.032.34,B,searching for point of difficulty,searching for point of difficulty,wo ich scheiter bei der Aufgabe,searching for point of difficulty
@@ -1184,7 +1184,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.059.13,B,attributing offloading to own laziness,attributing offloading to own laziness,Bin ich zu faul zu,attributing offloading to own laziness
 11.060.1,B,requesting LLM rearrange equation,requesting LLM rearrange equation,Kannst Du mir die Gleichung umstellen,requesting solution from LLM
 11.062.1,B,clarifying intended request to LLM,clarifying intended request to LLM,"dass er das für mich machen soll, nach AB umstellen soll",clarifying intended request to LLM
-11.062.2,B,noting LLM's failure to fulfill request,noting LLM's failure to fulfill request,Hat er aber genau nicht gemacht,noting LLM's failure to fulfill request
+11.062.2,B,noting LLM's failure to fulfill request,noting LLM's failure to fulfill request,Hat er aber genau nicht gemacht,evaluating response as unhelpful
 11.066.1,B,restating task goal,restating task goal,"Ja, Gleichung umstellen",restating problem goal
 11.066.2,B,expressing aversion to equation rearrangement,expressing aversion to equation rearrangement,Ich hasse das,expressing frustration
 11.066.3,B,reiterating expectation of full LLM assistance,reiterating expectation of full LLM assistance,Er soll mir das selber umstellen,reiterating expectation of full LLM assistance
@@ -1223,8 +1223,8 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.092.1,B,confirming own calculated result,confirming own calculated result,Ich habe gerade ausgerechnet. 10,confirmation of problem facts
 11.093.1,B,submitting final answer to LLM,submitting final answer to LLM,10,answering the LLM
 11.095.1,B,expressing confusion at response,Expressing confusion,Hä?,Encountering impasse
-11.095.2,B,recalling earlier partial-correctness feedback,recalling earlier partial-correctness feedback,erst fast richtig,recalling earlier partial-correctness feedback
-11.095.3,B,noting final confirmation of correctness,noting final confirmation of correctness,da richtig,noting final confirmation of correctness
+11.095.2,B,recalling earlier partial-correctness feedback,recalling earlier partial-correctness feedback,erst fast richtig,recalling earlier LLM feedback
+11.095.3,B,noting final confirmation of correctness,noting final confirmation of correctness,da richtig,recalling earlier LLM feedback
 11.095.4,B,expressing satisfaction at success,Expressing sarcastic frustration,Geil,expressing frustration
 11.095.5,B,deciding to re-read response,deciding to re-read response,Ich lese nochmal nach,Deciding to verify LLM output
 11.095.6,B,reiterating observation of inconsistent feedback across turns,reiterating observation of inconsistent feedback across turns,"Erst sagt er, fast richtig. Dann sagt er da richtig",reiterating observation of inconsistent feedback across turns
@@ -1248,9 +1248,9 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.095.31,B,confirming point position,confirming point position,M ist genau in der Mitte,confirmation of problem facts
 11.095.32,B,mapping percentage scale to actual lengths,mapping percentage scale to actual lengths,"100% ist 10 lang, M ist genau in der Mitte, also 5",mapping percentage scale to actual lengths
 11.095.33,B,deriving midpoint value,deriving midpoint value,"das ist genau die Mitte von MB, das ist siebeneinhalb",deriving solution step
-11.095.34,B,noting unspecified position of point N,noting unspecified position of point N,"N ist ein Punkt auf der Linie zwischen A und M, aber irgendwo",noting unspecified position of point N
+11.095.34,B,noting unspecified position of point N,noting unspecified position of point N,"N ist ein Punkt auf der Linie zwischen A und M, aber irgendwo",noting given information
 11.095.35,B,deriving final answer ,deriving final answer ,"Zwischen 4 und 7,5 liegen 3,5",deriving solution step
-11.095.36,B,noting problem solved without consulting LLM,noting problem solved without consulting LLM,"Habe ich jetzt nicht gefragt, aber okay",noting problem solved without consulting LLM
+11.095.36,B,noting problem solved without consulting LLM,noting problem solved without consulting LLM,"Habe ich jetzt nicht gefragt, aber okay",Reflecting on solving the task without LLM assistance
 13.004.3,B,Orienting to task figure,Orienting to task figure,In der Figur wird mir eine Linie angezeigt,Orienting to task figure
 13.004.4,B,Identifying given information,Identifying given information,ich habe die Ratio von der Länge von AB zu AC,identifying given information
 13.004.5,B,Identifying task goal,Identifying task goal,ich muss praktisch die Länge von AB berechnen,identifying unkown information

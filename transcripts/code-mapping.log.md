@@ -26,3 +26,4 @@
 - introduced pattern codes "correcting the LLM", "correcting own solution step", "correcting own understanding", "correcting own terminology"
 - mapped "calculation" and "performing" family to "deriving solution step"
 - introduced pattern code "Verifying solution"
+- introduced pattern codes "recalling earlier LLM feedback", "noticing problem", "noting given information", "evaluating response as unhelpful"
