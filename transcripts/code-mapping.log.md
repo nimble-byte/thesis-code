@@ -28,3 +28,4 @@
 - introduced pattern code "Verifying solution"
 - introduced pattern codes "recalling earlier LLM feedback", "noticing problem", "noting given information", "evaluating response as unhelpful"
 - introduced pattern codes "recalling math knowledge", "recalling own prior work"
+- introduced pattern code "stating information to LLM"
