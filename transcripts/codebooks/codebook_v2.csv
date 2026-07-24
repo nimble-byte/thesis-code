@@ -18,7 +18,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 01.003.8,E,Proposing trigonometric solution strategy,Proposing trigonometric solution strategy,"mithilfe von Winkeln und dann Cosinus, Sinus",Proposing trigonometric solution strategy
 01.003.9,E,"Formulating question about angle, not yet finalized","Formulating question about angle, not yet finalized",ich habe den zum Beispiel mal,formulating LLM message
 01.003.10,E,Requesting technical/keyboard assistance (off-task),Requesting technical/keyboard assistance (off-task),wo das scharfe S ist,managing experiment logistics
-01.003.11,E,Dictating question to chatbot while typing,Dictating question to LLM while typing,wie groß der Winkel zwischen der Strecke A und B... und der Strecke OB,Dictating question to LLM while typing
+01.003.11,E,Dictating question to chatbot while typing,Dictating question to LLM while typing,wie groß der Winkel zwischen der Strecke A und B... und der Strecke OB,formulating LLM message
 01.004.1,E,Asking chatbot for angle value,Asking LLM for angle value,wie gross der winkel ywischen der Strecke AB ist und der Strecke OB,Asking LLM for angle value
 01.005.1,E,Anticipating chatbot's helpfulness,Anticipating LLM's helpfulness,Das würde mir nämlich direkt weiterhelfen,Anticipating LLM's helpfulness
 01.007.1,E,Reading chatbot response aloud,Reading LLM response aloud,das können wir zusammen herausfinden,Reading LLM response aloud
@@ -41,8 +41,8 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 01.007.15b,E,Restating known values,Restating known values,das 5 ist und das andere ist 4,restating given information
 01.007.16a,E,Formulating question (how to obtain the angle),Formulating question (how to obtain the angle),wie kriege ich den Winkel,formulating LLM message
 01.007.16b,E,Deciding to consult chatbot for guidance,Deciding to consult LLM for guidance,Ich frage den einfach mal,deciding to ask LLM for guidance
-01.007.17,E,Dictating chatbot question — restating givens and triangle setup,Dictating LLM question — restating givens and triangle setup,ein Dreieck mit zwei bekannten Längen,Dictating LLM question — restating givens and triangle setup
-01.007.18,E,Dictating chatbot question — reasoning about required third side,Dictating LLM question — reasoning about required third side,muss nur noch die Länge der dritten Seite herausfinden,Dictating LLM question — reasoning about required third side
+01.007.17,E,Dictating chatbot question — restating givens and triangle setup,Dictating LLM question — restating givens and triangle setup,ein Dreieck mit zwei bekannten Längen,formulating LLM message
+01.007.18,E,Dictating chatbot question — reasoning about required third side,Dictating LLM question — reasoning about required third side,muss nur noch die Länge der dritten Seite herausfinden,formulating LLM message
 01.009.1,E,Submitting question to chatbot (how to determine the angle),Submitting question to LLM (how to determine the angle),wie kann ich den winkel ywischen OB und AB aus diesen informationen bestimmen,requesting guidance from LLM
 01.011.1,E,Reading chatbot response aloud,reading response evaluation aloud,du bist auf dem richtigen Weg,reading LLM's feedback
 01.011.2,E,Reading chatbot response aloud,Reading LLM guidance,kann direkt mit trigonometrischen Funktionen,reading LLM's guidance
@@ -271,8 +271,8 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.012.7,E,Interpreting result relative to LLM's response,Interpreting result relative to LLM's response,"wenn das stimmt, was er hier sagt",Interpreting result relative to LLM's response
 04.012.8,E,Naming result with notation,Naming result with notation,BC Strich oder BC Overline,Naming result with notation
 04.012.9,E,Planning message content for LLM,Planning message content for LLM,"die Formel umgestellt, nach X",planning LLM message
-04.012.10,E,Dictating formula for message,Dictating formula for message,AB mal 5,Dictating formula for message
-04.012.11,E,Dictating conclusion for message,Dictating conclusion for message,"ein X von 62,5",Dictating conclusion for message
+04.012.10,E,Dictating formula for message,Dictating formula for message,AB mal 5,formulating LLM message
+04.012.11,E,Dictating conclusion for message,Dictating conclusion for message,"ein X von 62,5",formulating LLM message
 04.012.12,E,Formulating follow-up question for LLM,Formulating follow-up question for LLM,"Wie gehe ich weiter vor, um daraus AC zu erhalten",formulating LLM message
 04.012.13,E,Hypothesizing mathematical concept,Hypothesizing mathematical concept,eventuell eine Transitivität,Hypothesizing mathematical concept
 04.013.1,E,Reporting formula derivation to LLM,Reporting formula derivation to LLM,Formel umgestellt nach x,Reporting formula derivation to LLM
@@ -297,8 +297,8 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.021.2,E,Expressing frustration at wasted effort,Expressing frustration,ist für die Tonne,expressing frustration
 04.021.3,E,Expressing sarcastic frustration,Expressing sarcastic frustration,Klasse.,expressing frustration
 04.021.4,E,Planning to reference earlier LLM step,Planning to reference earlier LLM step,sich auf Schritt 1 beziehen soll,planning LLM message
-04.021.5,E,Dictating message referencing prior LLM statement,Dictating message referencing prior LLM statement,unter Code 1 hast du gesagt,Dictating message referencing prior LLM statement
-04.021.6,E,Dictating problem clarification for LLM,Dictating problem clarification for LLM,Wie würde die Formel angepasst lauten?,Dictating problem clarification for LLM
+04.021.5,E,Dictating message referencing prior LLM statement,Dictating message referencing prior LLM statement,unter Code 1 hast du gesagt,formulating LLM message
+04.021.6,E,Dictating problem clarification for LLM,Dictating problem clarification for LLM,Wie würde die Formel angepasst lauten?,formulating LLM message
 04.022.1a,E,Referencing prior LLM statement in message,Referencing prior LLM statement in message,hast du gesagt ich soll AB/x = 2/5,Referencing prior LLM statement in message
 04.022.1b,E,Stating problem constraint to LLM,Stating problem constraint to LLM,AC nur gegeben habe,stating information to LLM
 04.022.1c,E,Requesting adjusted formula from LLM,Requesting adjusted formula from LLM,Wie würde die Formel angepasst lauten,requesting information from LLM
@@ -351,10 +351,10 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.040.2,E,Reading given values aloud,Reading given values aloud,AC ist 12 und BD ist 16,reading given information
 04.040.3,E,Visualizing geometric structure,Visualizing geometric structure,wir bilden eine Art Kreuz,Visualizing geometric structure
 04.040.4,E,Reading task goal aloud,Reading task goal aloud,Wie lang sind die Kanten der Diamanten?,reading problem statement
-04.040.5,E,Dictating problem setup for LLM,Dictating problem setup for LLM,Diamant mit vier Kanten,Dictating problem setup for LLM
-04.040.6,E,Dictating given values for LLM,Dictating given values for LLM,Kante von AC die Länge 12,Dictating given values for LLM
-04.040.7,E,Dictating given values for LLM,Dictating given values for LLM,BD die Länge 16,Dictating given values for LLM
-04.040.8,E,Dictating goal for LLM,Dictating goal for LLM,Länge der Kanten zu berechnen,Dictating goal for LLM
+04.040.5,E,Dictating problem setup for LLM,Dictating problem setup for LLM,Diamant mit vier Kanten,formulating LLM message
+04.040.6,E,Dictating given values for LLM,Dictating given values for LLM,Kante von AC die Länge 12,formulating LLM message
+04.040.7,E,Dictating given values for LLM,Dictating given values for LLM,BD die Länge 16,formulating LLM message
+04.040.8,E,Dictating goal for LLM,Dictating goal for LLM,Länge der Kanten zu berechnen,formulating LLM message
 04.040.9,E,Proposing own hypothesis about symmetry,Proposing own hypothesis about symmetry,müsste ich ja nur eine Kante berechnen,Proposing own hypothesis about symmetry
 04.040.10,E,Completing hypothesis about edge symmetry,Completing hypothesis about edge symmetry,die anderen Kanten identisch sind,Completing hypothesis about edge symmetry
 04.041.1,E,Stating given information to LLM,Stating given information to LLM,Diamant mit vier Kanten,stating information to LLM
@@ -375,7 +375,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.046.4,E,Rejecting incorrect formula recall,Rejecting incorrect formula recall,ich will nicht die Fläche haben,Rejecting incorrect formula recall
 04.046.5,E,Applying Pythagorean theorem,Applying Pythagorean theorem,Wurzel daraus ziehen sind 10,Applying Pythagorean theorem
 04.046.6,E,Deciding to verify result with LLM,Deciding to verify result with LLM,weil wir ja eine schöne KI haben,deciding to ask LLM for verification
-04.046.7,E,Dictating calculation to LLM,Dictating calculation to LLM,c^2 gleich 100 erhalten,Dictating calculation to LLM
+04.046.7,E,Dictating calculation to LLM,Dictating calculation to LLM,c^2 gleich 100 erhalten,formulating LLM message
 04.046.8,E,Requesting confirmation from LLM,Requesting confirmation from LLM,"sollte passen, aber so falsch sieht es nicht aus",requesting verification by LLM
 04.047.1a,E,Reporting result and method to LLM,Reporting result and method to LLM,Mein Ergebnis ist 10,Reporting result and method to LLM
 04.047.1b,E,Requesting confirmation from LLM,Requesting confirmation from LLM,Stimmt dies?,requesting verification by LLM
@@ -660,7 +660,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.018.34,E,Composing variable definition for target,Composing variable definition for target,PC = X,Composing variable definition for target
 08.018.35,E,Announcing derived formulas,Announcing derived formulas,ergeben sich 2 Formeln,Announcing derived formulas
 08.018.36,E,Asking how to notate exponent,Asking how to notate exponent,es wäre hoch einfach mit dem?,Asking how to notate exponent
-08.020.1,E,Dictating formula for message input,Dictating formula for message,"6 hoch, 2 gleich, X hoch, a plus 2",Dictating formula for message
+08.020.1,E,Dictating formula for message input,Dictating formula for message,"6 hoch, 2 gleich, X hoch, a plus 2",formulating LLM message
 08.021.1,E,Submitting derived equations to chatbot,Submitting derived equations to LLM,Dann ergeben sich zwei Fomeln nach 6^2 = x^2 + a^2 und 3^2 = x^2 + b^2,submitting information to LLM
 08.024.2,E,Noticing chatbot's CoT displayed,Noticing LLM's CoT displayed,Die KI hat den Gedankenprozess,Noticing LLM's CoT displayed
 08.024.3,E,Reading chatbot's follow-up question,Reading LLM's follow-up question,um eine Gleichung mit nur einer Variablen zu erhalten,reading LLM's questions
@@ -685,8 +685,8 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.024.22,E,Applying same rearrangement to second equation,Applying same rearrangement to second equation,Gleich auf der anderen Seite auch,Applying same rearrangement to second equation
 08.024.23,E,Rearranging second equation,Rearranging second equation,"X^2 plus b^2 minus 3^2, also 9",Rearranging second equation
 08.024.24,E,Deciding to verify formula with chatbot,Deciding to verify formula with LLM,ich frag jetzt mal die KI,deciding to ask LLM for verification
-08.024.25,E,Dictating message about equation rearrangement,Dictating message about equation rearrangement,dann kann ich sie gleichsetzen nach,Dictating message about equation rearrangement
-08.024.26,E,Dictating combined equation,Dictating combined equation,X^2 plus a^2 minus 36 ist gleich X^2 plus b^2 minus 9,Dictating combined equation
+08.024.25,E,Dictating message about equation rearrangement,Dictating message about equation rearrangement,dann kann ich sie gleichsetzen nach,formulating LLM message
+08.024.26,E,Dictating combined equation,Dictating combined equation,X^2 plus a^2 minus 36 ist gleich X^2 plus b^2 minus 9,formulating LLM message
 08.025.1,E,Explaining rearrangement rationale in message,Explaining rearrangement rationale in message,dann kann ich sie gleichsetzen nach,Explaining rearrangement rationale in message
 08.025.2,E,Submitting rearranged equation to chatbot,Submitting rearranged equation to LLM,x^2 + a^2 - 36 = x^2 + b^2 - 9,submitting information to LLM
 08.026.1,E,Anticipating further simplification,Anticipating further simplification,wenn ich das hier jetzt weiter auflöse,Anticipating further simplification
@@ -1167,7 +1167,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.054.4,B,seeking reassurance about notation,seeking reassurance about notation,So?,seeking reassurance about notation
 11.054.5,B,clarifying fraction bar notation,clarifying fraction bar notation,Dem Strich?,clarifying fraction bar notation
 11.056.1,B,verbalizing message before sending,verbalizing message before sending,...von 25 müsste dann 10 sein,verbalizing message before sending
-11.056.2,B,dictating punctuation for message,dictating punctuation for message,Fragezeichen,dictating punctuation for message
+11.056.2,B,dictating punctuation for message,dictating punctuation for message,Fragezeichen,formulating LLM message
 11.057.1,B,proposing calculated answer to LLM for verification,proposing calculated answer to LLM for verification,2/5 von 25 müsste dann 10 sein?,proposing calculated answer to LLM for verification
 11.059.1,B,expressing frustration at response,Expressing frustration,Fuck,expressing frustration
 11.059.2,B,reading response evaluation aloud,reading response evaluation aloud,Fast richtig,reading LLM's feedback
@@ -1294,7 +1294,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 13.014.19,B,Questioning own assumption,Questioning own assumption,"Vielleicht war meine Annahme falsch, dass die Sachen rechtwinklig sind",questioning oneself
 13.014.20,B,Re-examining diagram values,Re-examining diagram values,ist das 6 und das 8,Re-examining diagram values
 13.014.21,B,Deciding to consult chatbot for guidance,Deciding to consult LLM for guidance,Ich frage mal kurz einmal den Chatbot,deciding to ask LLM for guidance
-13.014.22,B,Formulating query to chatbot,Dictating question to LLM while typing,"Ich berechne die Kantenlänge von einem Diamanten, wenn die Strecken zwischen den Punkten liegen",Dictating question to LLM while typing
+13.014.22,B,Formulating query to chatbot,Dictating question to LLM while typing,"Ich berechne die Kantenlänge von einem Diamanten, wenn die Strecken zwischen den Punkten liegen",formulating LLM message
 13.014.23,B,Requesting to view task image,Requesting to view task image,Kann ich das Bild nochmal anschauen?,managing experiment logistics
 13.016.1,B,Attempting to access task image,Attempting to access task image,das müsste ich runterladen kurz,Attempting to access task image
 13.018.1,B,Acknowledging interface clarification,Acknowledging interface clarification,"Ah, ok, jetzt verstehe ich",Acknowledging interface clarification

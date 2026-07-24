@@ -32,3 +32,4 @@
 - re-code three instance of "Formulating LLM query"
 - introduced pattern code "formulating LLM message"
 - introduced pattern codes "attributing LLM's confusion to own action", "attributing capability to LLM"
+- merged dictating into "formulating LLM message"
