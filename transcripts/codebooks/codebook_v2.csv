@@ -43,7 +43,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 01.007.16b,E,Deciding to consult chatbot for guidance,Deciding to consult LLM for guidance,Ich frage den einfach mal,deciding to ask LLM for guidance
 01.007.17,E,Dictating chatbot question — restating givens and triangle setup,Dictating LLM question — restating givens and triangle setup,ein Dreieck mit zwei bekannten Längen,Dictating LLM question — restating givens and triangle setup
 01.007.18,E,Dictating chatbot question — reasoning about required third side,Dictating LLM question — reasoning about required third side,muss nur noch die Länge der dritten Seite herausfinden,Dictating LLM question — reasoning about required third side
-01.009.1,E,Submitting question to chatbot (how to determine the angle),Submitting question to LLM (how to determine the angle),wie kann ich den winkel ywischen OB und AB aus diesen informationen bestimmen,Submitting question to LLM (how to determine the angle)
+01.009.1,E,Submitting question to chatbot (how to determine the angle),Submitting question to LLM (how to determine the angle),wie kann ich den winkel ywischen OB und AB aus diesen informationen bestimmen,requesting guidance from LLM
 01.011.1,E,Reading chatbot response aloud,reading response evaluation aloud,du bist auf dem richtigen Weg,reading LLM's feedback
 01.011.2,E,Reading chatbot response aloud,Reading LLM guidance,kann direkt mit trigonometrischen Funktionen,reading LLM's guidance
 01.011.3,E,Reading chatbot response aloud,Reading LLM's question,Welche trigonometrische Funktion würdest du verwenden,reading LLM's questions
@@ -602,7 +602,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.008.17,E,Noting image upload option,Noting image upload option,konnten wir jetzt das Bild da einfügen,Noting image upload option
 08.008.19,E,Copying task text into chat,Copying task text into chat,kopiere mir hier den Text von der Aufgabe,Copying task text into chat
 08.010.2,E,Expressing impasse/lack of ideas,Expressing impasse/lack of ideas,ich habe glaube ich nicht mehr viele Ideen,Encountering impasse
-08.011.1,E,Submitting task query to chatbot,Submitting task query to LLM,Wie lang ist die Linie CP?,Submitting task query to LLM
+08.011.1,E,Submitting task query to chatbot,Submitting task query to LLM,Wie lang ist die Linie CP?,requesting solution from LLM
 08.015.1,E,Discovering CoT expansion feature,Discovering CoT expansion feature,das suchte ich gerade,Discovering CoT expansion feature
 08.015.2,E,Reading chatbot's CoT aloud,Reading LLM's CoT aloud,"Das ist ein Problem, wenn dem Dreieck ABC gegeben ist",reading LLM's CoT
 08.015.3,E,Recognizing restated task in reasoning,Recognizing restated task in reasoning,das ist die Aufgabe,evaluating LLM response content
@@ -661,7 +661,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.018.35,E,Announcing derived formulas,Announcing derived formulas,ergeben sich 2 Formeln,Announcing derived formulas
 08.018.36,E,Asking how to notate exponent,Asking how to notate exponent,es wäre hoch einfach mit dem?,Asking how to notate exponent
 08.020.1,E,Dictating formula for message input,Dictating formula for message,"6 hoch, 2 gleich, X hoch, a plus 2",Dictating formula for message
-08.021.1,E,Submitting derived equations to chatbot,Submitting derived equations to LLM,Dann ergeben sich zwei Fomeln nach 6^2 = x^2 + a^2 und 3^2 = x^2 + b^2,Submitting derived equations to LLM
+08.021.1,E,Submitting derived equations to chatbot,Submitting derived equations to LLM,Dann ergeben sich zwei Fomeln nach 6^2 = x^2 + a^2 und 3^2 = x^2 + b^2,submitting information to LLM
 08.024.2,E,Noticing chatbot's CoT displayed,Noticing LLM's CoT displayed,Die KI hat den Gedankenprozess,Noticing LLM's CoT displayed
 08.024.3,E,Reading chatbot's follow-up question,Reading LLM's follow-up question,um eine Gleichung mit nur einer Variablen zu erhalten,reading LLM's questions
 08.024.4,E,Predicting elimination of variable,Predicting elimination of variable,da dürfte ja jetzt X wegfallen,Predicting elimination of variable
@@ -688,7 +688,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.024.25,E,Dictating message about equation rearrangement,Dictating message about equation rearrangement,dann kann ich sie gleichsetzen nach,Dictating message about equation rearrangement
 08.024.26,E,Dictating combined equation,Dictating combined equation,X^2 plus a^2 minus 36 ist gleich X^2 plus b^2 minus 9,Dictating combined equation
 08.025.1,E,Explaining rearrangement rationale in message,Explaining rearrangement rationale in message,dann kann ich sie gleichsetzen nach,Explaining rearrangement rationale in message
-08.025.2,E,Submitting rearranged equation to chatbot,Submitting rearranged equation to LLM,x^2 + a^2 - 36 = x^2 + b^2 - 9,Submitting rearranged equation to LLM
+08.025.2,E,Submitting rearranged equation to chatbot,Submitting rearranged equation to LLM,x^2 + a^2 - 36 = x^2 + b^2 - 9,submitting information to LLM
 08.026.1,E,Anticipating further simplification,Anticipating further simplification,wenn ich das hier jetzt weiter auflöse,Anticipating further simplification
 08.028.1,E,Reading chatbot's suggested rearrangement,Reading LLM's suggested rearrangement,"so umstellen, dass auf einer Seite 0 steht",reading LLM's guidance
 08.028.2,E,Noting chatbot repeating already-completed step,Noting LLM repeating already-completed step,Das habe ich doch gerade gemacht,Noting LLM repeating already-completed step
@@ -696,28 +696,28 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.028.4,E,Copying formula for reuse,Copying formula for reuse,kopiere mir mal kurz die Formel,Copying formula for reuse
 08.028.5,E,Drafting clarifying question for chatbot,Formulating clarifying question for LLM,Meinst du das so?,Formulating clarifying question for LLM
 08.028.6,E,Reformatting numbers into exponent form,Reformatting numbers into exponent form,aus der 9 wieder ein 3^2 und aus der 36 ein 6^2,Reformatting numbers into exponent form
-08.029.1,E,Submitting reformatted equation to chatbot for confirmation,Submitting reformatted equation to LLM for confirmation,x^2 + a^2 - 6^2 = x^2 + b^2 - 3^2,Submitting reformatted equation to LLM for confirmation
+08.029.1,E,Submitting reformatted equation to chatbot for confirmation,Submitting reformatted equation to LLM for confirmation,x^2 + a^2 - 6^2 = x^2 + b^2 - 3^2,requesting verification by LLM
 08.031.1,E,Attributing chatbot's confusion to computed exponents,Attributing LLM's confusion to computed exponents,die KI ist gerade damit nicht klargekommen,Attributing LLM's confusion to computed exponents
 08.031.2,E,Reading chatbot's follow-up request,Reading LLM's follow-up request,gleichsetzen?,reading LLM's questions
 08.031.3,E,Noting chatbot's request as already addressed,Noting LLM's request as already addressed,das habe ich doch gerade da eben eingegeben,Noting LLM's request as already addressed
 08.031.5,E,Reusing previous equation content,Reusing previous equation content,kopiere meine Sachen von oben wieder,Reusing previous equation content
-08.032.1,E,Submitting combined equation to chatbot,Submitting combined equation to LLM,x^2 + a^2 - 6^2 = x^2 + b^2 - 3^2,Submitting combined equation to LLM
+08.032.1,E,Submitting combined equation to chatbot,Submitting combined equation to LLM,x^2 + a^2 - 6^2 = x^2 + b^2 - 3^2,submitting information to LLM
 08.034.2,E,Judging simplification step as easy,Judging simplification step as easy,ziemlich simpel,Judging simplification step as easy
 08.034.3,E,Planning to cancel shared x^2 term,Planning to cancel shared x^2 term,das X davon abziehen,planning next solution step
 08.034.4,E,Deriving simplified equation,Deriving simplified equation,a^2 minus 6^2 gleich b^2 minus 3^2,deriving solution step
 08.034.5,E,Perceiving chatbot as stuck/unresponsive,Perceiving LLM as stuck/unresponsive,es scheint die KI dann zu hängen,Perceiving LLM as stuck/unresponsive
-08.035.1,E,Submitting simplified equation with explanation,Submitting simplified equation with explanation,es ergibt sich a^2 - 6^2 = b^2 - 3^2,Submitting simplified equation with explanation
+08.035.1,E,Submitting simplified equation with explanation,Submitting simplified equation with explanation,es ergibt sich a^2 - 6^2 = b^2 - 3^2,submitting information to LLM
 08.037.1,E,Reading chatbot's follow-up question,Reading LLM's follow-up question,weiter vereinfachen?,reading LLM's questions
 08.037.2,E,Deciding to follow chatbot advice,Deciding to follow LLM advice,dann,Deciding to follow LLM advice
 08.037.3,E,Planning to compute numeric powers,Planning to compute numeric powers,die Potenzen von 6 und 3 ausrechnen,planning next solution step
 08.037.4,E,Computing powers and planning subtraction,Computing powers and planning subtraction,6 hoch 2 ist gleich 36 und 3 hoch 2 ist gleich 9,Computing powers and planning subtraction
 08.037.5,E,Deriving simplified equation,Deriving simplified equation,a^2 minus 36 minus 9 ist 27 gleich b^2,deriving solution step
-08.038.1,E,Submitting computed simplification to chatbot,Submitting computed simplification to LLM,a^2 - 27 = b^2,Submitting computed simplification to LLM
+08.038.1,E,Submitting computed simplification to chatbot,Submitting computed simplification to LLM,a^2 - 27 = b^2,submitting information to LLM
 08.040.1,E,Reading chatbot's follow-up instruction,Reading LLM's follow-up instruction,die Gleichung umstellen,reading LLM's guidance
 08.040.2,E,Planning to isolate variable,Planning to isolate variable,noch einer [Variable] auflösen,planning next solution step
 08.040.3,E,Deriving expression for a in terms of b,Deriving expression for a in terms of b,A ist gleich b^2 plus 27 ... die Wurzel,deriving solution step
 08.040.4,E,Expressing square root as exponent,Expressing square root as exponent,hoch 1/2,deriving solution step
-08.041.1,E,Submitting derived expression to chatbot,Submitting derived expression to LLM,a = √(b^2 - 27),Submitting derived expression to LLM
+08.041.1,E,Submitting derived expression to chatbot,Submitting derived expression to LLM,a = √(b^2 - 27),submitting information to LLM
 08.043.1,E,Reading chatbot's follow-up request,Reading LLM's follow-up request,Kannst du den Ausdruck für a in die Gleichung,reading LLM's questions
 08.043.2,E,Continuing work on paper,Continuing work on paper,auf dem Papier weiter,Continuing work on paper
 08.043.3,E,Restating derived expression,Restating derived expression,A gleich Wurzel aus b^2,restating solution step
@@ -733,7 +733,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.043.13,E,Reflecting on value of writing out steps for error-checking,Reflecting on value of writing out steps for error-checking,dann fällt dein Fehler auch wieder auf,Reflecting on value of writing out steps for error-checking
 08.043.14,E,Performing substitution,Performing substitution,Wir setzen oben ein,Performing substitution
 08.043.15,E,Restating corrected expression,Restating corrected expression,das ist gleich b^2 plus 27,restating solution step
-08.044.1,E,Submitting substituted equation to chatbot,Submitting substituted equation to LLM,6^2 = x^2 + b^2 + 27,Submitting substituted equation to LLM
+08.044.1,E,Submitting substituted equation to chatbot,Submitting substituted equation to LLM,6^2 = x^2 + b^2 + 27,submitting information to LLM
 08.046.1,E,Reading chatbot's CoT,Reading LLM's CoT aloud,"Der Benutzer hat versucht, das umzustellen",reading LLM's CoT
 08.046.2,E,Reading chatbot's follow-up question,Reading LLM's follow-up question,den Ausdruck für A korrekt in die Gleichung,reading LLM's questions
 08.046.3,E,Interpreting chatbot's assumption,Interpreting LLM's assumption,"er geht jetzt davon aus, dass",Interpreting LLM's assumption
@@ -742,20 +742,20 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.048.3,E,Reviewing earlier notes,Reviewing earlier notes,das hier oben an,Reviewing earlier notes
 08.048.5,E,Correcting sign error in expression,Correcting sign error in expression,aus dem Minus ein Plus,Correcting sign error in expression
 08.048.6,E,Criticizing chatbot's failure to detect logic error,Criticizing LLM's failure to detect logic error,Logikfehler nicht erkennt,Criticizing LLM's failure to detect logic error
-08.049.1,E,Submitting corrected expression to chatbot,Submitting corrected expression to LLM,a = √(b^2 + 27),Submitting corrected expression to LLM
+08.049.1,E,Submitting corrected expression to chatbot,Submitting corrected expression to LLM,a = √(b^2 + 27),submitting information to LLM
 08.051.1,E,Reading chatbot's follow-up question,Reading LLM's follow-up question,weiter vereinfachen?,reading LLM's questions
 08.051.2,E,Simplifying squared-root expression,Simplifying squared-root expression,x^2 plus b^2 plus 27,Simplifying squared-root expression
-08.052.1,E,Submitting simplified equation to chatbot,Submitting simplified equation to LLM,6^2 = x^2 + b^2 + 27,Submitting simplified equation to LLM
+08.052.1,E,Submitting simplified equation to chatbot,Submitting simplified equation to LLM,6^2 = x^2 + b^2 + 27,submitting information to LLM
 08.054.1,E,Confirming further simplification is possible,Confirming further simplification is possible,weiter vereinfachen,confirmation of problem facts
 08.054.2a,E,Attributing chatbot's earlier inability to compute exponents,Attributing LLM's earlier inability to compute exponents,er eben auch schon die Dinger nicht ausrechnen konnte,Attributing LLM's earlier inability to compute exponents
 08.054.2b,E,Computing 6^2 and planning subtraction of 27,Computing 6^2 and planning subtraction of 27,6^2 gleich 36 ... das Substrahieren von 27 von beiden Seiten,Computing 6^2 and planning subtraction of 27
 08.054.3,E,Computing final simplified equation,Computing final simplified equation,36 minus 27 ist 9 gleich x^2 plus b^2,Computing final simplified equation
-08.055.1,E,Submitting simplified equation to chatbot,Submitting simplified equation to LLM,ergibt sich 9 = x^2 + b^2,Submitting simplified equation to LLM
+08.055.1,E,Submitting simplified equation to chatbot,Submitting simplified equation to LLM,ergibt sich 9 = x^2 + b^2,submitting information to LLM
 08.056.1,E,Transcribing equation onto paper,Transcribing equation onto paper,auf dem Papier noch mal auf,Transcribing equation onto paper
 08.056.2,E,Restating computed equation,Restating computed equation,9 gleich x^2 plus b^2,restating solution step
 08.058.1,E,Reading chatbot's instruction to solve for x,Reading LLM's instruction to solve for x,die Gleichung nach x auflösen,reading LLM's guidance
 08.058.2,E,Solving equation for x,Solving equation for x,x ist gleich 9 minus b^2 und daraus die Wurzel,Solving equation for x
-08.059.1,E,Submitting solved expression for x to chatbot,Submitting solved expression for x to LLM,x = √(9 - b^2),Submitting solved expression for x to LLM
+08.059.1,E,Submitting solved expression for x to chatbot,Submitting solved expression for x to LLM,x = √(9 - b^2),submitting information to LLM
 08.060.1,E,Transcribing rearranged equation onto paper,Transcribing rearranged equation onto paper,Ich schreibe es mir wieder auf,Transcribing rearranged equation onto paper
 08.060.2,E,Recording expression on paper,Recording expression on paper,x gleich 9 minus b^2 und daraus die Wurzel,Recording expression on paper
 08.062.1,E,Reading chatbot's follow-up question,Reading LLM's follow-up question,"Denk daran, dass b eine Länge ist und daher positiv sein muss",reading LLM's questions
@@ -795,13 +795,13 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.062.35,E,Explaining inability to fully determine length in message,Explaining inability to fully determine length in message,da ich keine Wurzel aus einer negativen Zahl ziehen kann,Explaining inability to fully determine length in message
 08.062.36,E,Explaining derived bound for b in message,Explaining derived bound for b in message,muss b größer als 0. Und kleiner als 3 sein,Explaining derived bound for b in message
 08.062.37,E,Acknowledging unresolved determination of x,Acknowledging unresolved determination of x,habe ich X immer noch nicht bestimmt,Acknowledging unresolved determination of x
-08.063.1,E,Submitting bounding argument to chatbot,Submitting bounding argument to LLM,muss b größer als 0 und kleiner als 3 sein,Submitting bounding argument to LLM
+08.063.1,E,Submitting bounding argument to chatbot,Submitting bounding argument to LLM,muss b größer als 0 und kleiner als 3 sein,submitting information to LLM
 08.065.1,E,Reading chatbot's follow-up question,Reading LLM's follow-up question,"Denk daran, dass B zwischen 3 liegen muss",reading LLM's questions
 08.065.2,E,Recalling boundary computation,Recalling boundary computation,Wurzel aus 9 und Wurzel aus 0,Recalling boundary computation
 08.065.3,E,Deriving bound for x,Deriving bound for x,X müsste größer 0 sein und kleiner 3,deriving solution step
 08.065.4,E,Restating derived bound for x for emphasis,Restating derived bound for x for emphasis,größer als 0 sein und kleiner als 3,restating solution step
 08.065.5,E,Recording bound for x on paper,Recording bound for x on paper,"0, kleiner X, kleiner 3",Recording bound for x on paper
-08.066.1,E,Submitting derived bound for x to chatbot,Submitting derived bound for x to LLM,x muss größer als 0 sein und kleiner als 3,Submitting derived bound for x to LLM
+08.066.1,E,Submitting derived bound for x to chatbot,Submitting derived bound for x to LLM,x muss größer als 0 sein und kleiner als 3,submitting information to LLM
 08.068.1,E,Reading chatbot's follow-up question,Reading LLM's follow-up question,den Wert für X auswählen?,reading LLM's questions
 08.068.2,E,Deciding to inspect chatbot's CoT,Deciding to inspect LLM's CoT,den Denkprozess nochmal an,Deciding to verify LLM output
 08.068.3,E,Reading chatbot's CoT with answer options,Reading LLM's CoT aloud,"(A) 2, (B) 4, (C) 5, (D) 7, (E) 8",reading LLM's CoT
@@ -915,7 +915,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.002.4,E,Restating given information,Restating given information,"das Verhältnis AB zu AC, 2 zu 5",restating given information
 10.002.5,E,Expressing uncertainty about ratio interpretation,Expressing uncertainty,jetzt weiß ich nur nicht,expressing uncertainty
 10.002.6,E,Formulating clarification question,Formulating clarification question,Was bedeutet das Verhältnis 2 zu 5 in unserem Fall?,Formulating clarification question
-10.003.1,E,Submitting clarification query to LLM,Submitting clarification query to LLM,Was bedeutet das Verhältnis 2:5?,Submitting clarification query to LLM
+10.003.1,E,Submitting clarification query to LLM,Submitting clarification query to LLM,Was bedeutet das Verhältnis 2:5?,requesting clarification from LLM
 10.005.1,E,Asking about read-aloud protocol,Asking about read-aloud protocol,leiser durchlesen,Asking about read-aloud protocol
 10.007.1,E,Judging response as unhelpful,Judging response as unhelpful,hat es mir jetzt nicht so viel weiter geholfen,Judging response as unhelpful
 10.007.2,E,Acknowledging LLM's counter-question,Acknowledging LLM's counter-question,"er fragt mich, wie ich das Verhältnis berechnen würde",Acknowledging LLM's counter-question
@@ -923,7 +923,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.007.4,E,Continuing failed calculation attempt,Continuing failed calculation attempt,macht keinen Sinn,Continuing failed calculation attempt
 10.007.5,E,Trying alternative scaling approach,Trying alternative scaling approach,beides auf 10 mal 2 mache,Trying alternative scaling approach
 10.007.6,E,Summarizing conceptual understanding vs. calculation gap,Summarizing conceptual understanding vs. calculation gap,"ich weiß nicht so ganz, wie ich das berechnen würde",Summarizing conceptual understanding vs. calculation gap
-10.008.1,E,Submitting understanding gap to LLM,Submitting understanding gap to LLM,"ich weiß nicht so ganz, wie ich es berechnen würde",Submitting understanding gap to LLM
+10.008.1,E,Submitting understanding gap to LLM,Submitting understanding gap to LLM,"ich weiß nicht so ganz, wie ich es berechnen würde",requesting guidance from LLM
 10.010.1,E,Beginning tentative hypothesis (incomplete),Beginning tentative hypothesis (incomplete),"ich glaube, es könnte sein",Beginning tentative hypothesis (incomplete)
 10.012.1,E,Restating LLM-provided information,Restating LLM-provided information,"er sagt mir jetzt, AB sind 2 Teile, BC sind 5 Teile",Restating LLM approach
 10.012.2,E,Calculating part totals and percentages,Calculating part totals and percentages,"7 Teile, sind 100%",Calculating part totals and percentages
@@ -934,7 +934,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.012.7,E,Reformulating own sub-question,Reformulating own sub-question,Was sind die 5 Teile zu so einem 100%?,Reformulating own sub-question
 10.012.10,E,restating LLM question,restating LLM question,"wie ich vorgehen würde, um die Länge eines Teiles zu finden",Restating LLM approach
 10.012.11,E,Recognizing applicable rule-of-three method,Recognizing applicable rule-of-three method,ganz einfacher Dreisatz,recognizing solution step
-10.013.1,E,Submitting method hypothesis for confirmation,Submitting method hypothesis for confirmation,ganz einfacher Dreisatz oder?,Submitting method hypothesis for confirmation
+10.013.1,E,Submitting method hypothesis for confirmation,Submitting method hypothesis for confirmation,ganz einfacher Dreisatz oder?,requesting verification by LLM
 10.015.1,E,Claiming to have found answer,Claiming to have found answer,würde ich mich jetzt die Antwort haben,Claiming to have found answer
 10.015.2,E,Rehearsing request to LLM,Rehearsing request to LLM,Kannst du mir die Länge eines Teiles berechnen?,Rehearsing request to LLM
 10.015.3,E,Reviewing given value,Reviewing given value,Gesamtlänge von AC,Reviewing given value
@@ -995,11 +995,11 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.040.10,E,Tentatively confirming equal-edge hypothesis,affirming hypothesis,"theoretisch könnte es sein, dass alle gleich lang sind",affirming hypothesis
 10.040.12,E,Specifying outer edges as equal,Specifying outer edges as equal,Die Äußeren müssten alle gleich lang sein,Specifying outer edges as equal
 10.040.13,E,Extending equal-length hypothesis to diagonals,Extending equal-length hypothesis to diagonals,A bis C und B bis D müssten eigentlich alle gleich lang sein,Extending equal-length hypothesis to diagonals
-10.041.1,E,Submitting edge-equality hypothesis to LLM,Submitting edge-equality hypothesis to LLM,alle Kanten gleich lang?,Submitting edge-equality hypothesis to LLM
+10.041.1,E,Submitting edge-equality hypothesis to LLM,Submitting edge-equality hypothesis to LLM,alle Kanten gleich lang?,requesting verification by LLM
 10.043.1,E,Restating LLM confirmation of edge equality,Restating LLM confirmation of edge equality,alle 4 Seiten gleich lang sind,Restating LLM approach
 10.043.2,E,Extending equal-length assumption to diagonals,Extending equal-length assumption to diagonals,die in der Mitte auch gleich lang sein,Extending equal-length assumption to diagonals
 10.043.3,E,Expressing doubt requiring clarification,Expressing doubt requiring clarification,"heißt das jetzt nicht, dass die gleich lang sind?",expressing uncertainty
-10.044.1,E,Submitting scope-clarification question to LLM,Submitting scope-clarification question to LLM,alle Linien gemeint? Oder nur die äußeren?,Submitting scope-clarification question to LLM
+10.044.1,E,Submitting scope-clarification question to LLM,Submitting scope-clarification question to LLM,alle Linien gemeint? Oder nur die äußeren?,requesting clarification from LLM
 10.046.1,E,Restating LLM clarification on diagonal inequality,Restating LLM clarification on diagonal inequality,die sind nicht gleich lang,Restating LLM approach
 10.047.1,E,Seeking explicit confirmation of diagonal inequality,Seeking explicit confirmation of diagonal inequality,die Diagonalen sind nicht gleich lang?,Seeking explicit confirmation of diagonal inequality
 10.049.2,E,Reasoning about diagonal-length implications,Reasoning about diagonal-length implications,die Strecke AC = 12 ist und BD = 16,Reasoning about diagonal-length implications
@@ -1013,7 +1013,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.051.2,E,Connecting half-diagonals to Pythagorean approach,Connecting half-diagonals to Pythagorean approach,mit einem Satz des Pythagoras... Die Länge der Hypotenuse,Connecting half-diagonals to Pythagorean approach
 10.051.3,E,Admitting uncertain recall of theorem,Admitting uncertain recall of theorem,ist zu lange her,Admitting uncertain recall of theorem
 10.051.4,E,Specifying triangle side lengths,Specifying triangle side lengths,die eine Seite 6 lang ist und die andere Seite 8 lang ist,Specifying triangle side lengths
-10.052.1,E,Submitting request for third-side calculation method,Submitting request for third-side calculation method,wie berechne ich die Länge der dritten Seite?,Submitting request for third-side calculation method
+10.052.1,E,Submitting request for third-side calculation method,Submitting request for third-side calculation method,wie berechne ich die Länge der dritten Seite?,requesting guidance from LLM
 10.054.2,E,Assessing triangle as right-angled from visual impression,Assessing triangle as right-angled from visual impression,was für mich rechtwinklig aussieht,Assessing triangle as right-angled from visual impression
 10.054.3,E,Confirming right-angle triangle determination,deriving solution step,das ist ein rechtwinkliges Dreieck,deriving solution step
 10.054.4,E,Reaffirming right-triangle choice over alternative,Reaffirming right-triangle choice over alternative,"Nee, das ist ein rechtwinkliges Dreieck",Reaffirming right-triangle choice over alternative
@@ -1221,7 +1221,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.089.5,B,deciding to ask explicit verification question,deciding to ask explicit verification question,Jetzt frage ich ganz klar,deciding to ask LLM for verification
 11.090.1,B,requesting explicit verification of algebraic step,requesting explicit verification of algebraic step,Sind AB/25 mal 25 = AB?,requesting verification by LLM
 11.092.1,B,confirming own calculated result,confirming own calculated result,Ich habe gerade ausgerechnet. 10,confirmation of problem facts
-11.093.1,B,submitting final answer to LLM,submitting final answer to LLM,10,submitting final answer to LLM
+11.093.1,B,submitting final answer to LLM,submitting final answer to LLM,10,answering the LLM
 11.095.1,B,expressing confusion at response,Expressing confusion,Hä?,Encountering impasse
 11.095.2,B,recalling earlier partial-correctness feedback,recalling earlier partial-correctness feedback,erst fast richtig,recalling earlier partial-correctness feedback
 11.095.3,B,noting final confirmation of correctness,noting final confirmation of correctness,da richtig,noting final confirmation of correctness
@@ -1364,7 +1364,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.011.5,E,Reaffirming initial guess,Reaffirming initial guess,der Radius müsste sein,Reaffirming initial guess
 15.011.6,E,Correcting recalled answer,Correcting recalled answer,Pi,Correcting recalled answer
 15.011.7,E,Confirming final answer,Confirming final answer,Pi ist die Antwort,confirmation of problem facts
-15.012.1,E,Submitting answer to chatbot,Submitting answer to LLM,pi,Submitting answer to LLM
+15.012.1,E,Submitting answer to chatbot,Submitting answer to LLM,pi,answering the LLM
 15.014.3,E,Recalling diameter concept,Recalling diameter concept,Der Durchmesser ist ja okay,Recalling diameter concept
 15.014.4,E,Deriving circumference formula,Deriving circumference formula,der Umfang war,deriving solution step
 15.014.5,E,Deriving circumference formula (cont.),Deriving circumference formula,r mal 2,deriving solution step
