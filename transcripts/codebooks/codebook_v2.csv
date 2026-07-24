@@ -88,7 +88,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 02.014.3,B,Expressing Frustration/Disbelief,Expressing frustration,Unglaublich.,expressing frustration
 02.014.4,B,Restating Given Values,Restating Given Values,25 ist AC und dann 2 zu 5,restating given information
 02.014.5,B,Proposing Calculation Approach,Proposing Calculation Approach,25 dann mal 2 Fünftel,Proposing Calculation Approach
-02.014.6,B,Self-Correcting Ratio Interpretation,Self-Correcting Ratio Interpretation,2 zu 5 ist ja nicht das gleiche wie 2 Fünftel,Self-Correcting Ratio Interpretation
+02.014.6,B,Self-Correcting Ratio Interpretation,Self-Correcting Ratio Interpretation,2 zu 5 ist ja nicht das gleiche wie 2 Fünftel,correcting own problem solving step
 02.014.7,B,Signaling Uncertainty While Continuing,Signaling Uncertainty While Continuing,Da habe ich auf jeden Fall noch so im Kopf. Mal gucken.,Signaling Uncertainty While Continuing
 02.014.8,B,Abandoning Further Analysis,Abandoning Further Analysis,Egal.,Abandoning Further Analysis
 02.014.9,B,Asking About Remaining Task Count,Asking About Remaining Task Count,wie viele Aufgaben habe ich insgesamt noch mal?,Asking About Remaining Task Count
@@ -220,7 +220,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.002.2,E,Reading task statement aloud,Reading task statement aloud,Verhältnis der Längen der Abschnitte AB zu AC 2 zu 5,reading problem statement
 04.002.3,E,Reading task statement aloud,Reading task statement aloud,wie lang ist dann AB,reading problem statement
 04.002.4a,E,Visualizing problem setup,Visualizing problem setup,"einen Strahl, auf dem ich verschiedene Marke habe",Visualizing problem setup
-04.002.4b,E,Self-correcting interpretation,Self-correcting interpretation,"warte mal, ist die, das Verhältnis der Längen",Self-correcting interpretation
+04.002.4b,E,Self-correcting interpretation,Self-correcting interpretation,"warte mal, ist die, das Verhältnis der Längen",correcting own understanding
 04.002.5,E,Confirming initial interpretation,Confirming initial interpretation,das wäre jetzt auch so mein Gedanke gewesen,confirming solution steps
 04.002.6,E,Restating given ratio,Restating given ratio,das Verhältnis ist 2 zu 5,restating given information
 04.002.7,E,Proposing initial solution approach,Proposing initial solution approach,mein erster Ansatz,Proposing initial solution approach
@@ -395,7 +395,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.002.13,B,Performing manual calculation,Performing manual calculation,wenn ich die durch 5 teile... ist also 5 mal 2 ist 10,Performing manual calculation
 05.002.14,B,Deciding to submit solution for chatbot verification,Deciding to submit solution for LLM verification,schicke ich zur Überprüfung die Lösung an,deciding to ask LLM for verification
 05.002.15,B,Naming verification tool,Naming verification tool,ChatGPT,Naming verification tool
-05.002.16a,B,Self-correcting tool terminology,Self-correcting tool terminology,nicht ChatGPT sondern den Bot,Self-correcting tool terminology
+05.002.16a,B,Self-correcting tool terminology,Self-correcting tool terminology,nicht ChatGPT sondern den Bot,correcting own terminology
 05.002.16b,B,Stating verification goal,Stating verification goal,ob das so weit Sinn ergibt,Stating verification goal
 05.002.17,B,Expressing confidence in own solution prior to verification,Expressing confidence in own solution prior to verification,"recht sicher, dass das richtig ist",expressing confidence
 05.002.18,B,Anticipating chatbot response,Anticipating LLM response,"Mal schauen, ob das ausspuckt",Anticipating LLM response
@@ -467,7 +467,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.023.6,B,Reading LLM response aloud,Reading LLM's restated known information,Jede Seite,reading LLM's restaded known information
 05.023.7,B,Pausing to re-verify assumption,Pausing to re-verify assumption,lass mich nochmal nachschauen,Pausing to re-verify assumption
 05.023.8,B,Questioning geometric property of figure,Questioning geometric property of figure,Haben die rechte Winkel?,questioning LLM output
-05.023.10,B,Self-correcting geometric understanding,Self-correcting geometric understanding,die schneiden sich am rechten Winkel,Self-correcting geometric understanding
+05.023.10,B,Self-correcting geometric understanding,Self-correcting geometric understanding,die schneiden sich am rechten Winkel,correcting own understanding
 05.023.12,B,Deciding to sketch diagram to support reasoning,Deciding to sketch diagram,Ich male mir [das] mal auf,deciding next solution step
 05.023.13,B,Labeling sketch elements,Labeling sketch elements,C und D,Labeling sketch elements
 05.025.2,B,Explaining own reasoning strategy (sketching aids thinking),Explaining own reasoning strategy (sketching aids thinking),"weil ich kann besser denken, wenn ich die Sachen tatsächlich daran schreibe",Explaining own reasoning strategy (sketching aids thinking)
@@ -478,8 +478,8 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.025.8,B,Dismissing labeling discrepancy as unimportant,Dismissing labeling discrepancy as unimportant,"Hat er anders genannt, ist mir egal",Dismissing labeling discrepancy as unimportant
 05.025.9,B,Reaffirming LLM's triangle-construction claim,Reaffirming LLM's triangle-construction claim,Jede Seite der Raute bildet mit dem... rechtwinkliges Dreieck,Reaffirming LLM's triangle-construction claim
 05.025.10,B,Applying triangle construction to specific side,Applying triangle construction to specific side,bilden A zu B,Applying triangle construction to specific side
-05.025.11,B,Correcting count of triangles,Correcting count of triangles,in vier [Dreiecke],Correcting count of triangles
-05.025.13,B,Self-correcting triangle-count reasoning,Self-correcting triangle-count reasoning,"wir machen uns vier, ah, zwei Dreiecke. Aber wir machen die vier",Self-correcting triangle-count reasoning
+05.025.11,B,Correcting count of triangles,Correcting count of triangles,in vier [Dreiecke],recognizing own error
+05.025.13,B,Self-correcting triangle-count reasoning,Self-correcting triangle-count reasoning,"wir machen uns vier, ah, zwei Dreiecke. Aber wir machen die vier",correcting own understanding
 05.025.15,B,Identifying triangle vertices,Identifying triangle vertices,"Zu A, B und O",identifying given information
 05.025.16,B,Marking identified triangle on sketch,Marking identified triangle on sketch,das hier ist eins,Marking identified triangle on sketch
 05.025.17,B,Identifying remaining calculation step,Identifying remaining calculation step,Jetzt braucht ihr nur noch die Rechnung davon,identifying solution step
@@ -492,7 +492,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.025.25,B,Computing second squared value,Computing second squared value,8 mal 8 sind 64,Computing second squared value
 05.025.26,B,Summing squared values,Summing squared values,Plus 64,Summing squared values
 05.025.27,B,Computing sum result,Computing sum result,müsste das 100 sein,Computing sum result
-05.025.28,B,Self-correcting by taking square root,Self-correcting by taking square root,das ist 10... weil Wurzel,Self-correcting by taking square root
+05.025.28,B,Self-correcting by taking square root,Self-correcting by taking square root,das ist 10... weil Wurzel,correcting own problem solving step
 05.025.29,B,Reasoning toward perimeter using side symmetry,Reasoning toward perimeter using side symmetry,"da die Seiten alle gleich sind, ist der Umfang von dem Teil...",Reasoning toward perimeter using side symmetry
 05.025.30,B,Re-reading task question to check answer scope,Re-reading task question to check answer scope,wie lang sind die Kanten?,reading problem statement
 05.025.31,B,Clarifying answer scope as single edge,Clarifying answer scope as single edge,wir rechnen nur vor einer Kante,Clarifying answer scope as single edge
@@ -509,7 +509,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 07.003.1b,E,Questioning solution-validation procedure,Questioning solution-validation procedure,Wie ist das mit der Lösungsvalidierung?,managing experiment logistics
 07.005.2,E,Reporting need for reading glasses,Reporting need for reading glasses,Ich brauche eine Lesebrille,Reporting need for reading glasses
 07.005.3a,E,Misreading given value,Misreading given value,BC ist 6,Misreading given value
-07.005.3b,E,Self-correcting given value,Self-correcting given value,BC ist 3,Self-correcting given value
+07.005.3b,E,Self-correcting given value,Self-correcting given value,BC ist 3,correcting own problem solving step
 07.005.4,E,Restating problem statement,Restating problem statement,"Lies on AB, between AB",restating given information
 07.005.5,E,Restating problem question,Restating problem question,which for following could be the length of CP?,restating problem goal
 07.005.6,E,Re-confirming given value,Re-confirming given value,"6, BC ist 3",confirming solution steps
@@ -548,7 +548,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 07.017.2,E,Applying formula to compute circumference,Applying formula to compute circumference,damit habe ich den gesamten Umfang,Applying formula to compute circumference
 07.017.3,E,Relating angle to full-circle degrees,Relating angle to full-circle degrees,das ganze 360 ist der Vollkreis und der Winkel ist letzten Endes 32,Relating angle to full-circle degrees
 07.017.4,E,Self-verifying own claim,Self-verifying own claim,"ist das jetzt richtig, was ich da jetzt gerade behaupte?",Self-verifying own claim
-07.017.5,E,Correcting own calculation setup,Correcting own calculation setup,"32 durch 360, genau verkehrt rum",Correcting own calculation setup
+07.017.5,E,Correcting own calculation setup,Correcting own calculation setup,"32 durch 360, genau verkehrt rum",correcting own problem solving step
 07.017.6,E,Performing intermediate calculation,Performing intermediate calculation,das [radius 18] zwei mal [gleich] 36 durch [unverständlich],Performing intermediate calculation
 07.017.7,E,Searching for calculator tool,Searching for calculator tool,irgendwo wird auch hier der Taschenrechner versteckt,Searching for calculator tool
 07.017.8,E,Expressing reluctance to manually simplify fraction,Expressing reluctance to manually simplify fraction,"zu faul, um den Bruch 360 zu 32 richtig zu kürzen",Considering querying LLM as fallback
@@ -623,7 +623,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.015.18,E,Specifying correct right-angle location,Specifying correct right-angle location,"das wäre APC, hat einen rechten Winkel",Specifying correct right-angle location
 08.015.19,E,Specifying angle vertex,Specifying angle vertex,Winkel bei P,Specifying angle vertex
 08.015.20,E,Testing whether chatbot accepts correction,Testing whether LLM accepts correction,ob der Chatbot sich korrigieren lässt,Testing whether LLM accepts correction
-08.016.1,E,Correcting chatbot's assumption in message,Correcting LLM's assumption,Deine Annahme ... ist falsch,Correcting LLM's assumption
+08.016.1,E,Correcting chatbot's assumption in message,Correcting LLM's assumption,Deine Annahme ... ist falsch,correcting the LLM
 08.018.1,E,Reading chatbot's follow-up question,Reading LLM's follow-up question,Wie würdest du die Länge von AB ausdrücken?,reading LLM's questions
 08.018.2,E,Reading chatbot's hint,Reading LLM's hint,"denke daran, dass P zwischen A und B liegt",reading LLM's guidance
 08.018.3,E,Planning to apply Pythagorean theorem,Planning to apply Pythagorean theorem,nach Pythagoras das ganze Ding aufstellen,planning next solution step
@@ -740,7 +740,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.046.4,E,Attributing chatbot's confusion to own typo,Attributing LLM's confusion to own typo,komplett auf dem Holz weggebracht,Attributing LLM's confusion to own typo
 08.048.1,E,Deciding to inform chatbot of typo correction,Deciding to inform LLM of typo correction,ich habe mich vorher vertippt,Deciding to update the LLM information
 08.048.3,E,Reviewing earlier notes,Reviewing earlier notes,das hier oben an,Reviewing earlier notes
-08.048.5,E,Correcting sign error in expression,Correcting sign error in expression,aus dem Minus ein Plus,Correcting sign error in expression
+08.048.5,E,Correcting sign error in expression,Correcting sign error in expression,aus dem Minus ein Plus,correcting own problem solving step
 08.048.6,E,Criticizing chatbot's failure to detect logic error,Criticizing LLM's failure to detect logic error,Logikfehler nicht erkennt,Criticizing LLM's failure to detect logic error
 08.049.1,E,Submitting corrected expression to chatbot,Submitting corrected expression to LLM,a = √(b^2 + 27),submitting information to LLM
 08.051.1,E,Reading chatbot's follow-up question,Reading LLM's follow-up question,weiter vereinfachen?,reading LLM's questions
@@ -832,7 +832,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 09.002.5,E,Formalizing problem variables,Formalizing problem variables,AB plus BC ist in Summe AC,Formalizing problem variables
 09.002.6,E,Restating given information,Restating given information,das Verhältnis von AB zu AC gegeben,restating given information
 09.002.7,E,Deciding to consult chatbot for guidance,Deciding to consult LLM for guidance,"frage ich dann direkt mal nach, wie ich das am besten lösen kann",deciding to ask LLM for guidance
-09.002.8,E,Self-correcting stated values,Self-correcting stated values,im Verhältnis 2 zu 5,Self-correcting stated values
+09.002.8,E,Self-correcting stated values,Self-correcting stated values,im Verhältnis 2 zu 5,correcting own problem solving step
 09.002.9,E,Planning calculation approach,Planning calculation approach,müsste man selbst jetzt 25 durch 7 teilen,planning next solution step
 09.002.10,E,Deciding to verify calculation with chatbot,Deciding to verify calculation with LLM,"frage ich gleich mal in Chatbot, ob das so stimmt",deciding to ask LLM for verification
 09.002.11,E,Performing calculation,Performing calculation,"eine Länge von 7 für AB und für AC wäre dann 17,8",Performing calculation
@@ -874,10 +874,10 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 09.011.1,E,Requesting formula from chatbot,Requesting formula from LLM,Wie ist die Formle zur Berechung des Umfangs eines Kreises,requesting information from LLM
 09.013.1a,E,Reflecting on chatbot reliance strategy,Reflecting on LLM reliance strategy,ohne mir jetzt selbst weiter Gedanken machen zu müssen,Reflecting on LLM reliance strategy
 09.013.1b,E,Formulating chatbot query intent,Formulating LLM query,wenn ich nur einen Teil des Kreises brauche,Formulating LLM query
-09.013.2,E,Self-correcting terminology (Kreis → Umfang des Kreises),Self-correcting terminology,des Umfang des Kreises,Self-correcting terminology
+09.013.2,E,Self-correcting terminology (Kreis → Umfang des Kreises),Self-correcting terminology,des Umfang des Kreises,correcting own terminology
 09.014.1,E,Formulating chatbot query with problem specifics,Formulating LLM query,"Ich will ein Teil des Umfangs berechnen, wenn ich innen einen Winkel angegeben habe",Formulating LLM query
 09.016.1,E,Identifying knowledge gap,Identifying knowledge gap,das weiß ich natürlich selbst leider nicht,identifying own knowledge gap
-09.016.2,E,Self-correcting terminology,Self-correcting terminology,das ist die Bogenlänge,Self-correcting terminology
+09.016.2,E,Self-correcting terminology,Self-correcting terminology,das ist die Bogenlänge,correcting own terminology
 09.016.3,E,Interpreting chatbot question,Interpreting LLM question,"fragt er mich, ob ich das noch weiß",Interpreting LLM question
 09.016.4,E,Recalling formula from memory,Recalling formula from memory,"war der Pi * r-Quadrat, war der Inhalt?",Recalling formula from memory
 09.016.5,E,Deciding to verify recalled formula with chatbot,Deciding to verify recalled formula with LLM,Ich habe irgendwas von 4 Pi r im Kopf,deciding to ask LLM for verification
@@ -908,7 +908,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 09.026.1,E,Confirming theorem with chatbot,Confirming theorem with LLM,Satz des Pythagoras?,Confirming theorem with LLM
 09.028.1,E,Performing calculation,Performing calculation,das passt schon mal nicht,Performing calculation
 09.028.2,E,Identifying own calculation error,Identifying own calculation error,die Quadrate glaube ich vergessen,identifying mistake
-09.028.3,E,Correcting calculation and confirming result,Correcting calculation and confirming result,"6^2 plus 8^2 ist dann 10, ja und dann kommt es auch hin",Correcting calculation and confirming result
+09.028.3,E,Correcting calculation and confirming result,Correcting calculation and confirming result,"6^2 plus 8^2 ist dann 10, ja und dann kommt es auch hin",correcting own problem solving step
 10.002.1,E,Noting bilingual task text,Noting bilingual task text,da unten steht es noch mal auf Deutsch,Noting bilingual task text
 10.002.2,E,Recognizing diagram setup,Recognizing diagram setup,wir haben hier wieder so eine schöne Linie,reading given information
 10.002.3,E,Labeling geometric points,Labeling geometric points,"einmal A, B und C",Labeling geometric points
@@ -979,7 +979,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.036.5,E,"Substituting radius value, referencing calculator","Substituting radius value, referencing calculator",müsste mir normalerweise mein Taschenrechner helfen,"Substituting radius value, referencing calculator"
 10.036.6,E,Checking for pi-symbol availability,Checking for pi-symbol availability,gibt es das darauf?,Checking for pi-symbol availability
 10.038.2,E,Writing full substituted formula,Writing full substituted formula,32 durch 360 mal 2π18,Writing full substituted formula
-10.038.3,E,Self-correcting calculation approach,Self-correcting calculation approach,Das habe ich falsch gemacht,Self-correcting calculation approach
+10.038.3,E,Self-correcting calculation approach,Self-correcting calculation approach,Das habe ich falsch gemacht,correcting own problem solving step
 10.038.4,E,Adding parentheses for grouping,Adding parentheses for grouping,in Klammern setzen,Adding parentheses for grouping
 10.038.5,E,Continuing computation setup,Continuing computation setup,"mal 2, mal π, mal 18",Continuing computation setup
 10.038.6,E,Arriving at simplified fraction result,Arriving at simplified fraction result,16/5π,Arriving at simplified fraction result
@@ -1208,7 +1208,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.087.1,B,realizing meaning of instruction,realizing meaning of instruction,Ach so,realizing meaning of instruction
 11.087.2,B,attributing computational capability to the calculator,attributing computational capability to the calculator,"Ich dachte, das weiß der.",attributing computational capability to the calculator
 11.087.4,B,checking alignment with LLM's question,checking alignment with LLM's question,was er fragt,checking alignment with LLM's question
-11.087.5,B,self-correcting conflated concepts,self-correcting conflated concepts,das ist das Verhältnis,self-correcting conflated concepts
+11.087.5,B,self-correcting conflated concepts,self-correcting conflated concepts,das ist das Verhältnis,correcting own understanding
 11.087.6,B,stating computed value,stating computed value,10,stating computed value
 11.087.7,B,voicing a sudden realization,voicing a sudden realization,Warte.,voicing a sudden realization
 11.087.8,B,restating algebraic manipulation logic,restating algebraic manipulation logic,AB durch 25 mal 25 ist AB,restating solution step
@@ -1275,7 +1275,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 13.014.3a,B,Setting up calculation,Setting up calculation,Das ist dann 360 geteilt durch 32,Setting up calculation
 13.014.3b,B,Using calculator tool,Using calculator tool,Das würde ich in der Taschenrechner ... eintippen,Using calculator tool
 13.014.4,B,Questioning own calculation,Questioning own calculation,Moment was habe ich hier gerechnet,questioning oneself
-13.014.5,B,Correcting calculation approach,Self-correcting calculation approach,Ich muss andersrum rechnen,Self-correcting calculation approach
+13.014.5,B,Correcting calculation approach,Self-correcting calculation approach,Ich muss andersrum rechnen,correcting own problem solving step
 13.014.6,B,Reflecting on calculator use,Reflecting on calculator use,Hätte ich jetzt nicht in den Taschenrechner eintippen müssen,Reflecting on calculator use
 13.014.7,B,Skipping intermediate steps,Skipping intermediate steps,keine Lust drauf [Zwischenrechnungen zu machen],Skipping intermediate steps
 13.014.8,B,Committing to answer,Committing to answer,die würde ich auch so auswählen,Committing to answer
@@ -1310,7 +1310,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 13.023.6,B,Questioning triangle's right-angle assumption,Questioning triangle's right-angle assumption,"wissen wir, ob das Dreieck rechtwinklig ist?",questioning LLM output
 13.023.7,B,Reasoning about geometric property,Reasoning about geometric property,"Wenn die ja nicht gleich lang sind, ist das nicht rechtwinklig",Reasoning about geometric property
 13.023.8,B,Formulating counterpoint to chatbot,Formulating counterpoint to LLM,Die Strecke zwischen A und C und B und D sind aber nicht gleich,Formulating counterpoint to LLM
-13.024.1,B,Correcting chatbot's assumption,Correcting LLM's assumption,Die Strecke zwischen A und C un d B und D sind aber nicht gleich lang,Correcting LLM's assumption
+13.024.1,B,Correcting chatbot's assumption,Correcting LLM's assumption,Die Strecke zwischen A und C un d B und D sind aber nicht gleich lang,correcting the LLM
 13.026.1,B,Evaluating own reasoning against response,Evaluating own reasoning against response,"meine Idee sogar richtig, aber ich habe einen Denkfehler gehabt",Evaluating own reasoning against response
 13.026.2,B,Referencing response's suggestion,Referencing response's suggestion,wie wird auch hier vorgeschlagen?,Referencing response's suggestion
 13.026.3,B,Suspecting own error,Suspecting own error,einfach noch hier einen Denkfehler gehabt,Suspecting own error
@@ -1362,7 +1362,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.011.3,E,Paraphrasing chatbot's response (cont.),Paraphrasing LLM's response,Es gibt eine Zahl die das Verhältnis beschreibt,Paraphrasing LLM's response
 15.011.4,E,Recalling candidate answer (incorrect),Recalling candidate answer (incorrect),Das müsste doch der Radius sein,Recalling candidate answer (incorrect)
 15.011.5,E,Reaffirming initial guess,Reaffirming initial guess,der Radius müsste sein,Reaffirming initial guess
-15.011.6,E,Correcting recalled answer,Correcting recalled answer,Pi,Correcting recalled answer
+15.011.6,E,Correcting recalled answer,Correcting recalled answer,Pi,correcting own problem solving step
 15.011.7,E,Confirming final answer,Confirming final answer,Pi ist die Antwort,confirmation of problem facts
 15.012.1,E,Submitting answer to chatbot,Submitting answer to LLM,pi,answering the LLM
 15.014.3,E,Recalling diameter concept,Recalling diameter concept,Der Durchmesser ist ja okay,Recalling diameter concept
@@ -1389,8 +1389,8 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.022.2,E,Constructing auxiliary point in reasoning,Constructing auxiliary point in reasoning,das wäre quasi der Punkt C für mich jetzt,Constructing auxiliary point in reasoning
 15.022.3,E,Miscalculating radius value,Miscalculating radius value,"der Radius ist 5, also 2,5",Miscalculating radius value
 15.022.4,E,Checking own understanding,Checking own understanding,Wenn ich das jetzt richtig verstehe,Checking own understanding
-15.022.5,E,Self-correcting miscalculation,Self-correcting miscalculation,"Nee, Quatsch, der Radius ist 5",Self-correcting miscalculation
-15.022.6,E,Correcting radius/diameter confusion,Correcting radius/diameter confusion,"nicht der Durchmiss, sondern der Radius ist 5",Correcting radius/diameter confusion
+15.022.5,E,Self-correcting miscalculation,Self-correcting miscalculation,"Nee, Quatsch, der Radius ist 5",correcting own problem solving step
+15.022.6,E,Correcting radius/diameter confusion,Correcting radius/diameter confusion,"nicht der Durchmiss, sondern der Radius ist 5",correcting own understanding
 15.022.7,E,Restating sub-goal,Restating sub-goal,diesen Abstand bekommen zwischen dieser Sehne und dem Mittelpunkt,restating problem goal
 15.022.8,E,Proposing solution approach,Proposing solution approach,ich nehme den Radius und berechne dadurch die Differenz,Proposing solution approach
 15.022.9,E,Formulating question for chatbot,Formulating question for LLM,wie man aus dem Radius eine gewisse Differenz berechnen kann,Formulating question for LLM
@@ -1461,7 +1461,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.051.12,E,Restating task question,Restating task question,wie kommt man auf die Länge N und C,restating problem goal
 15.051.13,E,Consolidating known segment lengths,Consolidating known segment lengths,"B zu C ist 2,5",Consolidating known segment lengths
 15.051.14,E,Planning to compute segment via subtraction,Planning to compute segment via subtraction,eine Differenz rauszurechnen,planning next solution step
-15.051.15,E,Correcting segment length estimate,Correcting segment length estimate,"sie ist 2,5. Oder nein, sie ist 5",Correcting segment length estimate
+15.051.15,E,Correcting segment length estimate,Correcting segment length estimate,"sie ist 2,5. Oder nein, sie ist 5",correcting own problem solving step
 15.051.16,E,Recording segment value,Recording segment value,"Innerhalb dieser Linie ist C. Das ist 2,5",Recording segment value
 15.051.17,E,Summing known segments,Summing known segments,"Zwischen C und M sind 2,5. Und dann nochmal 2,5",Summing known segments
 15.051.18,E,Computing final answer via summation,Computing final answer via summation,"Das müssen dann 3,5 sein",Computing final answer via summation

@@ -7,4 +7,5 @@ __pycache__
 
 # local working files
 .github
-working-patterns.txt
+working-patterns*.txt
+pattern-coded.txt

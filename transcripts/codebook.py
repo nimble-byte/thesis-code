@@ -258,6 +258,10 @@ def cmd_view(args):
         # doubles as a rough progress signal: merged clusters show up as a
         # single high-frequency row instead of a many-row family).
         view["lead_verb"] = view[col].apply(lead_verb)
+
+        if args.filter_verb:
+            view = view[view["lead_verb"] == args.filter_verb.lower()]
+
         unmatched = view[view["lead_verb"].isna()]
         if not unmatched.empty:
             print(f"  WARNING: {len(unmatched)} value(s) had no extractable "
@@ -429,6 +433,7 @@ def main():
             "an analytic grouping."
         ),
     )
+    v.add_argument("--filter-verb", help="only show rows whose lead verb matches this")
     v.set_defaults(func=cmd_view)
 
     r = sub.add_parser(
