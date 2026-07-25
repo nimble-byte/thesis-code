@@ -258,7 +258,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.010.5,E,Reflecting on earlier misunderstanding,Reflecting on earlier misunderstanding,"anfangs nicht gesehen, dass man das ja als Bruch schreiben kann",Reflecting on earlier misunderstanding
 04.010.6,E,Expressing self-doubt about approach,Expressing self-doubt,auf dem Holzweg,expressing doubt
 04.010.7,E,Tentatively formulating equation terms,Formulating equation,Fünf durch X,deriving solution step
-04.010.8,E,Concluding equation setup,Concluding equation setup,Das wäre mein X,Concluding equation setup
+04.010.8,E,Concluding equation setup,Concluding equation setup,Das wäre mein X,deriving solution step
 04.010.9,E,Performing calculation,Performing calculation,25 mal 5 geteilt durch 2,deriving solution step
 04.010.10,E,Stating calculation target,Stating calculation target,gleich X sein,restating problem goal
 04.010.11,E,Stating intermediate calculation result,Stating intermediate calculation result,125 halbe,deriving solution step
@@ -321,7 +321,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.033.7,E,Planning to verify interpretation,Planning to verify interpretation,Gucken wir mal nach,planning next solution step
 04.033.9,E,Acknowledging possible misinterpretation,Acknowledging possible misinterpretation,kann auch umgekehrt sein,evaluating own solving progress
 04.033.10,E,Restating known quantity,Restating known quantity,AC habe ich,restating given information
-04.033.11,E,Concluding correct interpretation via plausibility,Concluding correct interpretation via plausibility,das macht auch wesentlich mehr Sinn,Concluding correct interpretation via plausibility
+04.033.11,E,Concluding correct interpretation via plausibility,Concluding correct interpretation via plausibility,das macht auch wesentlich mehr Sinn,evaluating own solving progress
 04.033.12,E,Expressing self-criticism,Expressing self-criticism,Das ist so dumm.,expressing doubt
 04.033.13,E,Performing final calculation,Performing final calculation,50 durch 5 und das sind 10,deriving solution step
 04.033.14,E,Self-affirming result plausibility,Self-affirming result plausibility,"wenn man ein bisschen nachdenkt, passt schon",Self-affirming result plausibility
@@ -528,11 +528,11 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 07.007.13,E,Verbalizing intended query before typing,Verbalizing intended query before typing,"Wie viele Angaben brauche ich, um ein Dreieck zu bestimmen",Verbalizing intended query before typing
 07.008.1,E,Querying LLM about triangle-determination requirements,Querying LLM about triangle-determination requirements,Wieviel Angaben brauche ich um ein Dreieck zu bestimmen,Querying LLM about triangle-determination requirements
 07.010.1,E,Validating own prior knowledge against response,Validating own prior knowledge against response,Das mit den drei Angaben habe ich schon mal richtig in Erinnerung gehabt,Validating own prior knowledge against response
-07.010.2,E,Concluding a given is missing,Concluding a given is missing,mir fehlt noch eine Angabe,Concluding a given is missing
+07.010.2,E,Concluding a given is missing,Concluding a given is missing,mir fehlt noch eine Angabe,identifying unknown information
 07.012.1,E,Identifying given side,Identifying given side,Ich habe letztendlich die Seite gegeben,identifying given information
 07.012.2,E,Matching givens to determinacy case,Matching givens to determinacy case,zwei Seiten und einen eingeschlossenen Winkel,Matching givens to determinacy case
 07.012.3,E,Hypothesizing alternative sufficient condition,Hypothesizing alternative sufficient condition,"Wenn ich jetzt hier die gegenüberliegenden Winkel hätte, wäre es auch egal",Hypothesizing alternative sufficient condition
-07.012.4,E,Concluding hypothetical determinacy,Concluding hypothetical determinacy,wäre die Sache eindeutig bestimmt,Concluding hypothetical determinacy
+07.012.4,E,Concluding hypothetical determinacy,Concluding hypothetical determinacy,wäre die Sache eindeutig bestimmt,Verifying solution
 07.012.5,E,Describing degree of freedom in figure,Describing degree of freedom in figure,verschiebt sich dieses Teil hier lustig auf der Sache hin und her,Describing degree of freedom in figure
 07.012.6,E,Labeling point in drawing,Labeling point in drawing,Das ist ja hier der Punkt P,Labeling point in drawing
 07.014.1,E,Explaining vision workaround strategy,Explaining vision workaround strategy,"die Brille abnehme, damit ich nicht das Sichtfenster der Gleitsichtbrille finden muss",Explaining vision workaround strategy
@@ -767,7 +767,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.062.7,E,Reasoning about positivity from squaring,Reasoning about positivity from squaring,es sollte eh positiv werden,deriving solution step
 08.062.8,E,Assuming x must be positive,Assuming x must be positive,x sollte auch positiv werden,Assuming x must be positive
 08.062.9,E,Deriving upper bound for b,Deriving upper bound for b,"kleiner gleich 3, würde da 0 rauskommen",deriving solution step
-08.062.10,E,Concluding range for b,Concluding range for b,b ist wahrscheinlich irgendwie zwischen 0 und 3,Concluding range for b
+08.062.10,E,Concluding range for b,Concluding range for b,b ist wahrscheinlich irgendwie zwischen 0 und 3,deriving solution step
 08.062.11,E,Restating bound for b with increased confidence,Restating bound for b with increased confidence,b ist zwischen 0 und 3,restating solution step
 08.062.12,E,Recognizing resulting constraint system,Recognizing resulting constraint system,"kriegen dann ein schönes, komplexes System",recognizing solution step
 08.062.13,E,Expressing self-doubt about reasoning,Expressing self-doubt,ich vertue mich jetzt komplett,expressing doubt
@@ -813,7 +813,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.068.9,E,Computing value of a for verification,Computing value of a for verification,"A gleich Wurzel aus 5 plus 27, das ist 32",deriving solution step
 08.068.10,E,Verifying answer against original Pythagorean equation,Verifying answer against original Pythagorean equation,"4 plus Wurzel 32 Quadrat, also plus 32",Verifying answer against original Pythagorean equation
 08.068.11,E,Confirming verification result,Confirming verification result,36 ist gleich 4 plus 32,confirmation of problem facts
-08.068.12,E,Concluding successful verification,Concluding successful verification,haben wir das gecheckt,Concluding successful verification
+08.068.12,E,Concluding successful verification,Concluding successful verification,haben wir das gecheckt,Verifying solution
 08.068.15,E,Reading task givens,Reading task givens,Linie AB hat eine Länge von 10. M ist die Mitte,reading given information
 08.068.16,E,Planning to sketch diagram,Planning to sketch diagram,auf dem Papier,planning next solution step
 08.068.17,E,Sketching diagram with given points,Sketching diagram with given points,"AB ist 10, wir haben den Mittelpunkt M",Sketching diagram with given points
@@ -1215,7 +1215,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.087.9,B,reaffirming derived answer,reaffirming derived answer,Also ist es doch AB 10,reaffirming derived answer
 11.087.10,B,expressing being stuck,expressing being stuck,Wo häng ich denn jetzt gerade?,Encountering impasse
 11.089.1,B,restating algebra step,restating algebra step,dann habe ich AB,restating solution step
-11.089.2,B,concluding calculation result,concluding calculation result,dann ist AB gleich 10,concluding calculation result
+11.089.2,B,concluding calculation result,concluding calculation result,dann ist AB gleich 10,deriving solution step
 11.089.3,B,initiating self-correction of misremembered response,initiating self-correction of misremembered response,das ist falsch,initiating self-correction of misremembered response
 11.089.4,B,hedging alternate interpretation of feedback,hedging alternate interpretation of feedback,Oder fast richtig,hedging alternate interpretation of feedback
 11.089.5,B,deciding to ask explicit verification question,deciding to ask explicit verification question,Jetzt frage ich ganz klar,deciding to ask LLM for verification
@@ -1378,7 +1378,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.017.2,E,Signaling cognitive pause,Signaling cognitive pause,Ich muss gerade ein bisschen überlegen,Signaling cognitive pause
 15.017.3,E,Recalling given value,Recalling given value,der Punkt zwischen A und B ist ja 8,restating given information
 15.017.4,E,Reasoning toward halving the chord,Reasoning toward halving the chord,die Linie AB durch 2 teilen,"Beginning own reasoning, building on LLM's hint"
-15.017.5,E,Concluding midpoint value,Concluding midpoint value,genau in der Hälfte,Concluding midpoint value
+15.017.5,E,Concluding midpoint value,Concluding midpoint value,genau in der Hälfte,deriving solution step
 15.017.6,E,Extending reasoning toward circle center,Extending reasoning toward circle center,weiter vorankommen zum Punkt 0,Extending reasoning toward circle center
 15.017.7,E,Formulating own sub-question,Formulating own sub-question,wie kommt man nun von der Hälfte aus nach oben zum Mittelpunkt,identifying unknown information
 15.017.8,E,Deciding to consult chatbot for formula,Deciding to consult LLM for formular,wie man von der Hälfte einer Linie zum Mittelpunkt gelangen könnte,deciding to ask LLM for information
