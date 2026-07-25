@@ -428,10 +428,10 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.010.3,B,Retrieving calculator tool,Retrieving calculator tool,Jetzt holen wir mal die Taschenrechner aus,Retrieving calculator tool
 05.010.5,B,Performing radian conversion calculation,Performing radian conversion calculation,Grad waren... 32... mal...Pi,deriving solution step
 05.012.1,B,Locating calculator function,Locating calculator function,Wo ist Pi? Wo ist Pi?,Locating calculator function
-05.012.2,B,Continuing radian conversion calculation,Continuing radian conversion calculation,Pi durch...180,Continuing radian conversion calculation
+05.012.2,B,Continuing radian conversion calculation,Continuing radian conversion calculation,Pi durch...180,deriving solution step
 05.012.3,B,Recording calculated radian value,Recording calculated radian value,"Radiant ist 0,5850536",Recording calculated radian value
 05.012.4,B,Announcing arc-length calculation step,Announcing arc-length calculation step,die Bogenlänge ist dann,restating solution step
-05.012.5,B,Continuing arc-length calculation,Continuing arc-length calculation,das mal Radius,Continuing arc-length calculation
+05.012.5,B,Continuing arc-length calculation,Continuing arc-length calculation,das mal Radius,deriving solution step
 05.012.6,B,Recalling radius value,Recalling radius value,Radius sind 18,restating given information
 05.012.7,B,Anticipating calculation result,Anticipating calculation result,"Heißt, die [Antwort ist]...",Anticipating calculation result
 05.012.8,B,Noting mismatch between own result format and answer options,Noting mismatch between own result format and answer options,Das sind natürlich schöne Antwortmöglichkeiten,noticing problem
@@ -440,7 +440,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.012.11,B,Deciding to convert answer options using calculator,Deciding to convert answer options using calculator,"es macht mehr Sinn, das einfach kurz... auszurechnen",deciding next solution step
 05.012.13,B,Computing decimal equivalent of answer option,Computing decimal equivalent of answer option,"mal 18 sind 10,05309",deriving solution step
 05.012.14,B,Judging computed precision as sufficient,Judging computed precision as sufficient,Reicht,Judging computed precision as sufficient
-05.012.16,B,Continuing to convert next answer option,Continuing to convert next answer option,16 mal...,Continuing to convert next answer option
+05.012.16,B,Continuing to convert next answer option,Continuing to convert next answer option,16 mal...,deriving solution step
 05.012.17,B,Questioning unfamiliar notation symbol,Questioning unfamiliar notation symbol,Was bedeutet der Backslash?,questioning problem language
 05.016.2,B,Converting next answer option,Converting next answer option,16 mal Pi durch 5,Converting next answer option
 05.016.3,B,Comparing converted option to computed result,Comparing converted option to computed result,das kommt sehr nah an das Radius,Comparing converted option to computed result
@@ -554,7 +554,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 07.017.8,E,Expressing reluctance to manually simplify fraction,Expressing reluctance to manually simplify fraction,"zu faul, um den Bruch 360 zu 32 richtig zu kürzen",considering querying LLM
 07.017.9,E,Performing calculation step,Performing calculation,das ganze mal 2,deriving solution step
 07.017.10,E,Evaluating intermediate result,Evaluating intermediate result,Das sieht schon besser aus,evaluating own solving progress
-07.017.11,E,Continuing calculation with given values,Continuing calculation,"22,5 mal Pi und r war in dem Fall 18",Continuing calculation
+07.017.11,E,Continuing calculation with given values,Continuing calculation,"22,5 mal Pi und r war in dem Fall 18",deriving solution step
 07.017.12,E,Searching for calculation error,Searching for calculation error,wo ist jetzt hier der Fehler?,Searching for calculation error
 07.017.13,E,Reporting calculator's computed result,Reporting calculator's computed result,Der behauptet jetzt 405,Reporting calculator's computed result
 07.017.14,E,Deciding to redo calculation,Deciding to redo calculation,Machen wir das nochmal,deciding next solution step
@@ -642,7 +642,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.018.16,E,Seeking expression relating a and b,Seeking expression relating a and b,einen Ausdruck für diese Aufteilung zwischen a und b,Seeking expression relating a and b
 08.018.17,E,Solving equations for x,Solving equations for x,36 minus a^2 gleich ... 9 minus b^2,Solving equations for x
 08.018.18,E,Rearranging equation algebraically,Rearranging equation algebraically,27 minus a^2 gleich minus b^2,Rearranging equation algebraically
-08.018.19,E,Continuing algebraic rearrangement,Continuing algebraic rearrangement,27 gleich a^2 minus b^2,Continuing algebraic rearrangement
+08.018.19,E,Continuing algebraic rearrangement,Continuing algebraic rearrangement,27 gleich a^2 minus b^2,deriving solution step
 08.018.20,E,Expressing uncertainty about derived formula,Expressing uncertainty,bin ich mir jetzt gerade gar nicht mehr sicher,expressing uncertainty
 08.018.21,E,Re-reading chatbot's question,Re-reading LLM's question,wie würde es die Länge ... ausdrücken?,reading LLM's questions
 08.018.22,E,Re-reading chatbot's hint,Re-reading LLM's hint,Denke daran das P zwischen A und B,reading LLM's guidance
@@ -719,7 +719,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.040.4,E,Expressing square root as exponent,Expressing square root as exponent,hoch 1/2,deriving solution step
 08.041.1,E,Submitting derived expression to chatbot,Submitting derived expression to LLM,a = √(b^2 - 27),submitting information to LLM
 08.043.1,E,Reading chatbot's follow-up request,Reading LLM's follow-up request,Kannst du den Ausdruck für a in die Gleichung,reading LLM's questions
-08.043.2,E,Continuing work on paper,Continuing work on paper,auf dem Papier weiter,Continuing work on paper
+08.043.2,E,Continuing work on paper,Continuing work on paper,auf dem Papier weiter,deciding next solution step
 08.043.3,E,Restating derived expression,Restating derived expression,A gleich Wurzel aus b^2,restating solution step
 08.043.4,E,Recognizing own sign error,Recognizing own sign error,da steht minus und kein Plus,recognizing own error
 08.043.5,E,Planning substitution into equation,Planning substitution into equation,einsetzen in 6^2 gleich x^2 plus a^2,planning next solution step
@@ -890,7 +890,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 09.019.6,E,Confirming assumption before verifying,Confirming assumption before verifying,"logischeweise 360 sein, wenn das einmal im Kreis ist",confirmation of problem facts
 09.020.1,E,Requesting confirmation from chatbot,Requesting confirmation from LLM,Wie sit der volle Winkel innen,requesting verification by LLM
 09.022.1,E,Performing calculation,Performing calculation,"32 durch 360, da habe ich Pi 54",deriving solution step
-09.022.2,E,Continuing calculation,Continuing calculation,mal 2 Pi durch r,Continuing calculation
+09.022.2,E,Continuing calculation,Continuing calculation,mal 2 Pi durch r,deriving solution step
 09.022.4,E,Identifying calculation error,Identifying calculation error,"r ist 18, das ist ein Fehler",identifying mistake
 09.022.5,E,Performing calculation,Performing calculation,"das sind knappe 9%, also 0,08",deriving solution step
 09.022.6,E,Expressing frustration with repeated calculation errors,Expressing frustration,irgendwas verkackt mich die ganze Zeit,expressing frustration
@@ -920,7 +920,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.007.1,E,Judging response as unhelpful,Judging response as unhelpful,hat es mir jetzt nicht so viel weiter geholfen,Judging response as unhelpful
 10.007.2,E,Acknowledging LLM's counter-question,Acknowledging LLM's counter-question,"er fragt mich, wie ich das Verhältnis berechnen würde",restating LLM's guidance
 10.007.3,E,Attempting and rejecting calculation,Attempting and rejecting calculation,"25 durch 2, nee, macht keinen Sinn",Attempting and rejecting calculation
-10.007.4,E,Continuing failed calculation attempt,Continuing failed calculation attempt,macht keinen Sinn,Continuing failed calculation attempt
+10.007.4,E,Continuing failed calculation attempt,Continuing failed calculation attempt,macht keinen Sinn,evaluating own solving progress
 10.007.5,E,Trying alternative scaling approach,Trying alternative scaling approach,beides auf 10 mal 2 mache,Trying alternative scaling approach
 10.007.6,E,Summarizing conceptual understanding vs. calculation gap,Summarizing conceptual understanding vs. calculation gap,"ich weiß nicht so ganz, wie ich das berechnen würde",Summarizing conceptual understanding vs. calculation gap
 10.008.1,E,Submitting understanding gap to LLM,Submitting understanding gap to LLM,"ich weiß nicht so ganz, wie ich es berechnen würde",requesting guidance from LLM
@@ -929,7 +929,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.012.2,E,Calculating part totals and percentages,Calculating part totals and percentages,"7 Teile, sind 100%",deriving solution step
 10.012.3,E,Reaffirming part-whole relationship,Reaffirming part-whole relationship,7 Teile 100% sind,Reaffirming part-whole relationship
 10.012.4,E,Introducing unknown variable and estimating percentage,Introducing unknown variable and estimating percentage,"eine Länge von x, die wissen wir noch nicht",Introducing unknown variable and estimating percentage
-10.012.5,E,Continuing percentage estimation attempt,Continuing percentage estimation attempt,2 30% sind,Continuing percentage estimation attempt
+10.012.5,E,Continuing percentage estimation attempt,Continuing percentage estimation attempt,2 30% sind,deriving solution step
 10.012.6,E,"Reading LLM response, self-correcting","Reading LLM response, self-correcting","Ach so, ja",correcting own understanding
 10.012.7,E,Reformulating own sub-question,Reformulating own sub-question,Was sind die 5 Teile zu so einem 100%?,Reformulating own sub-question
 10.012.10,E,restating LLM question,restating LLM question,"wie ich vorgehen würde, um die Länge eines Teiles zu finden",restating LLM's guidance
@@ -981,7 +981,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.038.2,E,Writing full substituted formula,Writing full substituted formula,32 durch 360 mal 2π18,Writing full substituted formula
 10.038.3,E,Self-correcting calculation approach,Self-correcting calculation approach,Das habe ich falsch gemacht,correcting own solution step
 10.038.4,E,Adding parentheses for grouping,Adding parentheses for grouping,in Klammern setzen,Adding parentheses for grouping
-10.038.5,E,Continuing computation setup,Continuing computation setup,"mal 2, mal π, mal 18",Continuing computation setup
+10.038.5,E,Continuing computation setup,Continuing computation setup,"mal 2, mal π, mal 18",deriving solution step
 10.038.6,E,Arriving at simplified fraction result,Arriving at simplified fraction result,16/5π,Arriving at simplified fraction result
 10.038.8,E,Matching result to multiple-choice option,Matching result to multiple-choice option,Das wird wahrscheinlich das erste sein,Matching result to multiple-choice option
 10.038.9,E,Confirming final answer reasoning,Confirming final answer,"16 durch 5, mal π",confirmation of problem facts
