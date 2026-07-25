@@ -41,3 +41,5 @@
 - re-coded parts of the "clarifying" family
 - introduced pattern codes "considering querying LLM", "considering solving strategy"
 - re-coded complete "interpreting" family with existing pattern codes
+- introduce pattern code "reasoning by analogy"
+- re-coded most of "reasoning" family with existing pattern codes

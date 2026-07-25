@@ -96,10 +96,10 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 02.016.2,B,Adjusting Pacing Strategy,Adjusting Pacing Strategy,lasse ich mir ein bisschen mehr Zeit,Adjusting Pacing Strategy
 02.018.1,B,Reiterating Difficulty Articulating Thoughts,Reiterating Difficulty Articulating Thoughts,mir fällt das Nachdenken ganz sicher auch schwer,Reiterating Difficulty Articulating Thoughts
 02.018.2,B,Re-questioning Ratio Meaning,Re-questioning Ratio Meaning,"2 zu 5, was könnte das heißen?",questioning problem language
-02.018.3,B,Reasoning by Analogy to Dice Probability,Reasoning by Analogy to Dice Probability,Mit einem Würfel sind ja die Chancen ein Sechstel.,Reasoning by Analogy to Dice Probability
-02.018.4,B,Extending Analogy to Odds Framing,Extending Analogy to Odds Framing,die Chancen stehen dann 1 zu 5,Extending Analogy to Odds Framing
-02.018.5,B,Justifying Analogy with Total Outcomes,Justifying Analogy with Total Outcomes,man hier insgesamt 6 Möglichkeiten hat,Justifying Analogy with Total Outcomes
-02.018.6,B,Doubting Applicability of Analogy,Doubting Applicability of Analogy,ob das hier mit dem Verhältnis gleich gemeint ist,Doubting Applicability of Analogy
+02.018.3,B,Reasoning by Analogy to Dice Probability,Reasoning by Analogy to Dice Probability,Mit einem Würfel sind ja die Chancen ein Sechstel.,reasoning by analogy
+02.018.4,B,Extending Analogy to Odds Framing,Extending Analogy to Odds Framing,die Chancen stehen dann 1 zu 5,reasoning by analogy
+02.018.5,B,Justifying Analogy with Total Outcomes,Justifying Analogy with Total Outcomes,man hier insgesamt 6 Möglichkeiten hat,reasoning by analogy
+02.018.6,B,Doubting Applicability of Analogy,Doubting Applicability of Analogy,ob das hier mit dem Verhältnis gleich gemeint ist,evaluating own solving progress
 02.018.7,B,Questioning Own Result,Questioning Own Result,Also wir können ja einfach...,questioning oneself
 02.018.8,B,Committing to Answer Despite Uncertainty,Committing to answer,ich bleibe bei der 10,Committing to answer
 02.018.10,B,Reading Task Statement Aloud,Reading task statement aloud,"A, B, C, D, E, F ein regelmäßiges Sechseck mit dem Mittelpunkt O",reading problem statement
@@ -224,7 +224,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.002.5,E,Confirming initial interpretation,Confirming initial interpretation,das wäre jetzt auch so mein Gedanke gewesen,confirming solution steps
 04.002.6,E,Restating given ratio,Restating given ratio,das Verhältnis ist 2 zu 5,restating given information
 04.002.7,E,Proposing initial solution approach,Proposing initial solution approach,mein erster Ansatz,Proposing initial solution approach
-04.002.8,E,Reasoning through ratio with analogy,Reasoning through ratio with analogy,"wenn ich einen Schritt gehe, sind es in Wirklichkeit 5",Reasoning through ratio with analogy
+04.002.8,E,Reasoning through ratio with analogy,Reasoning through ratio with analogy,"wenn ich einen Schritt gehe, sind es in Wirklichkeit 5",reasoning by analogy
 04.002.9,E,Reformulating problem goal,Reformulating problem goal,die Länge von AB berechnen,Reformulating problem goal
 04.002.10,E,Questioning input formatting,Questioning input formatting,"Ist das Backslash, bin ich blind?",managing experiment logistics
 04.004.1,E,Assuming LLM comprehension despite ambiguity,Assuming LLM comprehension despite ambiguity,"der wird schon Erkennen, was ich meine",Assuming LLM comprehension despite ambiguity
@@ -334,7 +334,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.036.5,E,Noting spelling to fix later,Noting spelling to fix later,nachher rechtschreiben,managing experiment logistics
 04.036.6,E,Questioning angle notation,Questioning angle notation,ist das x hoch?,questioning oneself
 04.036.7,E,Restating given values and goal,Restating Given Values,"Ziel ist es, die Länge des Kreisabschnittes zu berechnen",restating given information
-04.036.8,E,Reasoning about relevant quantity,Reasoning about relevant quantity,die für mich jetzt so gesehen interessant ist,Reasoning about relevant quantity
+04.036.8,E,Reasoning about relevant quantity,Reasoning about relevant quantity,die für mich jetzt so gesehen interessant ist,identifying unknown information
 04.036.9,E,Identifying arc as relevant quantity,Identifying arc as relevant quantity,vom Kreis die Bahn,identifying unknown information
 04.036.10,E,Clarifying goal using analogy,Clarifying goal using analogy,den Kuchenrand,self-explaining through analogy
 04.036.11,E,Deciding to consult LLM for guidance,Deciding to consult LLM for guidance,in die richtige Richtung lotsen kann,deciding to ask LLM for guidance
@@ -493,7 +493,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.025.26,B,Summing squared values,Summing squared values,Plus 64,Summing squared values
 05.025.27,B,Computing sum result,Computing sum result,müsste das 100 sein,deriving solution step
 05.025.28,B,Self-correcting by taking square root,Self-correcting by taking square root,das ist 10... weil Wurzel,correcting own solution step
-05.025.29,B,Reasoning toward perimeter using side symmetry,Reasoning toward perimeter using side symmetry,"da die Seiten alle gleich sind, ist der Umfang von dem Teil...",Reasoning toward perimeter using side symmetry
+05.025.29,B,Reasoning toward perimeter using side symmetry,Reasoning toward perimeter using side symmetry,"da die Seiten alle gleich sind, ist der Umfang von dem Teil...",deriving solution step
 05.025.30,B,Re-reading task question to check answer scope,Re-reading task question to check answer scope,wie lang sind die Kanten?,reading problem statement
 05.025.31,B,Clarifying answer scope as single edge,Clarifying answer scope as single edge,wir rechnen nur vor einer Kante,correcting own solution step
 05.025.32,B,Finalizing answer with alternative scope noted,Finalizing answer,"eine Kante 10, ansonsten werden es 40",Finalizing answer
@@ -764,7 +764,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.062.4,E,Reviewing prior notes for constraints,Reviewing prior notes for constraints,Was hatten wir denn vorher an Formeln?,Reviewing prior notes for constraints
 08.062.5,E,Recalling previously derived squared terms,Recalling previously derived squared terms,unsere Quadratseiten,recalling own prior work
 08.062.6,E,Reaffirming constraint that b is positive,Reaffirming constraint that b is positive,b eine Länge ist und daher positiv sein muss,Reaffirming constraint that b is positive
-08.062.7,E,Reasoning about positivity from squaring,Reasoning about positivity from squaring,es sollte eh positiv werden,Reasoning about positivity from squaring
+08.062.7,E,Reasoning about positivity from squaring,Reasoning about positivity from squaring,es sollte eh positiv werden,deriving solution step
 08.062.8,E,Assuming x must be positive,Assuming x must be positive,x sollte auch positiv werden,Assuming x must be positive
 08.062.9,E,Deriving upper bound for b,Deriving upper bound for b,"kleiner gleich 3, würde da 0 rauskommen",deriving solution step
 08.062.10,E,Concluding range for b,Concluding range for b,b ist wahrscheinlich irgendwie zwischen 0 und 3,Concluding range for b
@@ -823,7 +823,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.068.21,E,Noting given segment length MN,Noting given segment length MN,M zu N soll 1 sein,noting given information
 08.068.22,E,Restating problem question,Restating problem question,wie lang ist der Abschnitt von N nach C?,restating problem goal
 08.068.23,E,Identifying target segment on diagram,Identifying target segment on diagram,der hier ist gesucht,identifying unknown information
-08.068.24,E,Reasoning about relative point positions,Reasoning about relative point positions,C liegt auf der Hälfte von MB und M ist die Hälfte von MA,Reasoning about relative point positions
+08.068.24,E,Reasoning about relative point positions,Reasoning about relative point positions,C liegt auf der Hälfte von MB und M ist die Hälfte von MA,restating given information
 08.068.25,E,Computing target length via segment addition,Computing target length via segment addition,"NC sollte dann 1 plus 2,5 sein. Das ist gleich 3,5",deriving solution step
 08.068.26,E,Reflecting on solving the task without chatbot assistance,Reflecting on solving the task without LLM assistance,brauchte ich dann jetzt keine KI,Reflecting on solving the task without LLM assistance
 09.002.2,E,Restating problem information,Restating problem information,"eine große Strecke, die in zwei kleinere Strecken noch unterteilt ist",restating given information
@@ -1002,7 +1002,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.044.1,E,Submitting scope-clarification question to LLM,Submitting scope-clarification question to LLM,alle Linien gemeint? Oder nur die äußeren?,requesting clarification from LLM
 10.046.1,E,Restating LLM clarification on diagonal inequality,Restating LLM clarification on diagonal inequality,die sind nicht gleich lang,restating LLM's guidance
 10.047.1,E,Seeking explicit confirmation of diagonal inequality,Seeking explicit confirmation of diagonal inequality,die Diagonalen sind nicht gleich lang?,Seeking explicit confirmation of diagonal inequality
-10.049.2,E,Reasoning about diagonal-length implications,Reasoning about diagonal-length implications,die Strecke AC = 12 ist und BD = 16,Reasoning about diagonal-length implications
+10.049.2,E,Reasoning about diagonal-length implications,Reasoning about diagonal-length implications,die Strecke AC = 12 ist und BD = 16,"Beginning own reasoning, building on LLM's hint"
 10.049.5,E,Recognizing Pythagorean theorem applicability,Recognizing Pythagorean theorem applicability,mit einem Satz des Pythagoras die Länge berechnen,recognizing solution step
 10.049.6,E,Identifying missing partial-segment lengths,Identifying missing partial-segment lengths,nicht die Teilstrecken,identifying unknown information
 10.049.7,E,Hypothesizing diagonal bisection,Hypothesizing diagonal bisection,eigentlich muss es ja die Hälfte sein,Hypothesizing diagonal bisection
@@ -1308,7 +1308,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 13.023.4,B,Referencing chatbot's CoT,Referencing LLMs's CoT,Die Diagonal des rechtwinkligen Dreiecks,Referencing LLMs's CoT
 13.023.5,B,Understanding chatbots's CoT,Understanding LLM's CoT,"Ah, ich verstehe. Wenn das die Diagonal ist, kann ich es andersherum rechnen",Understanding LLM's CoT
 13.023.6,B,Questioning triangle's right-angle assumption,Questioning triangle's right-angle assumption,"wissen wir, ob das Dreieck rechtwinklig ist?",questioning LLM output
-13.023.7,B,Reasoning about geometric property,Reasoning about geometric property,"Wenn die ja nicht gleich lang sind, ist das nicht rechtwinklig",Reasoning about geometric property
+13.023.7,B,Reasoning about geometric property,Reasoning about geometric property,"Wenn die ja nicht gleich lang sind, ist das nicht rechtwinklig",scrutinizing LLM response
 13.023.8,B,Formulating counterpoint to chatbot,Formulating counterpoint to LLM,Die Strecke zwischen A und C und B und D sind aber nicht gleich,formulating LLM message
 13.024.1,B,Correcting chatbot's assumption,Correcting LLM's assumption,Die Strecke zwischen A und C un d B und D sind aber nicht gleich lang,correcting the LLM
 13.026.1,B,Evaluating own reasoning against response,Evaluating own reasoning against response,"meine Idee sogar richtig, aber ich habe einen Denkfehler gehabt",scrutinizing LLM response
@@ -1377,7 +1377,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.015.1,E,Requesting method from chatbot,Requesting method from LLM,Wie kann man eine Linie berechnen die parallel durch den Kreis verläuft,requesting guidance from LLM
 15.017.2,E,Signaling cognitive pause,Signaling cognitive pause,Ich muss gerade ein bisschen überlegen,Signaling cognitive pause
 15.017.3,E,Recalling given value,Recalling given value,der Punkt zwischen A und B ist ja 8,restating given information
-15.017.4,E,Reasoning toward halving the chord,Reasoning toward halving the chord,die Linie AB durch 2 teilen,Reasoning toward halving the chord
+15.017.4,E,Reasoning toward halving the chord,Reasoning toward halving the chord,die Linie AB durch 2 teilen,"Beginning own reasoning, building on LLM's hint"
 15.017.5,E,Concluding midpoint value,Concluding midpoint value,genau in der Hälfte,Concluding midpoint value
 15.017.6,E,Extending reasoning toward circle center,Extending reasoning toward circle center,weiter vorankommen zum Punkt 0,Extending reasoning toward circle center
 15.017.7,E,Formulating own sub-question,Formulating own sub-question,wie kommt man nun von der Hälfte aus nach oben zum Mittelpunkt,identifying unknown information
@@ -1385,7 +1385,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.018.1,E,Requesting method from chatbot,Requesting method from LLM,wie kann man den Abstand berechnen zwischen den mittelpunkt und die genaue hälfte einer Sehne,requesting guidance from LLM
 15.020.1,E,Paraphrasing chatbot's response,Paraphrasing LLM's response,ob ich den Anstand weiß zu bestimmen,Paraphrasing LLM's response
 15.020.2,E,Signaling cognitive pause,Signaling cognitive pause,Ich überlege gerade,Signaling cognitive pause
-15.022.1,E,Reasoning about given figure,Reasoning about given figure,es ist nur eine Linie zwischen A und B,Reasoning about given figure
+15.022.1,E,Reasoning about given figure,Reasoning about given figure,es ist nur eine Linie zwischen A und B,restating given information
 15.022.2,E,Constructing auxiliary point in reasoning,Constructing auxiliary point in reasoning,das wäre quasi der Punkt C für mich jetzt,Constructing auxiliary point in reasoning
 15.022.3,E,Miscalculating radius value,Miscalculating radius value,"der Radius ist 5, also 2,5",Miscalculating radius value
 15.022.4,E,Checking own understanding,Checking own understanding,Wenn ich das jetzt richtig verstehe,checking own progress
