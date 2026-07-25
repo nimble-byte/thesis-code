@@ -84,7 +84,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [015.1] PROCESS: Reading LLM's CoT (think-block) aloud | IV: "Die Länge von AB zu bestimmen"
 [015.2] PROCESS: Recognizing calculation inconsistency | IV: "das ergibt wenig Sinn"
 [015.3] PROCESS: Re-reading LLM guidance aloud | IV: "erinnere dich daran"
-[015.4] PROCESS: restating LLM approach | IV: "ich stelle jetzt eigentlich um"
+[015.4] PROCESS: restating LLM's guidance | IV: "ich stelle jetzt eigentlich um"
 [015.5] PROCESS: Deriving rearranged formula | IV: "einfach minus BC"
 [015.6] PROCESS: Stating side calculation | IV: "AC minus BC"
 [015.7] PROCESS: Detecting error via magnitude check | IV: "unser Wert höher ist, das kann auch nicht sein"

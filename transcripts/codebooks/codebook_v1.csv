@@ -283,7 +283,7 @@ id,group,raw_label,canonical_label,in_vivo
 04.015.1,E,Reading LLM's CoT (think-block) aloud,Reading LLM's CoT explanation aloud,Die Länge von AB zu bestimmen
 04.015.2,E,Recognizing calculation inconsistency,Recognizing calculation inconsistency,das ergibt wenig Sinn
 04.015.3,E,Re-reading LLM guidance aloud,Re-reading LLM guidance aloud,erinnere dich daran
-04.015.4,E,restating LLM approach,restating LLM approach,ich stelle jetzt eigentlich um
+04.015.4,E,restating LLM's guidance,restating LLM's guidance,ich stelle jetzt eigentlich um
 04.015.5,E,Deriving rearranged formula,Deriving rearranged formula,einfach minus BC
 04.015.6,E,Stating side calculation,Stating side calculation,AC minus BC
 04.015.7,E,Detecting error via magnitude check,Detecting error via magnitude check,"unser Wert höher ist, das kann auch nicht sein"
@@ -674,7 +674,7 @@ id,group,raw_label,canonical_label,in_vivo
 08.024.11,E,Reading chatbot's derived relation,Reading LLM's derived relation,AB ist gleich a plus b
 08.024.12,E,Reading chatbot's stated next-step goal,Reading LLM's stated next-step goal,müssen wir die Variablen kombinieren
 08.024.13,E,Reading chatbot's suggested method,Reading LLM's suggested method,die Summe der beiden Gleichungen bilden
-08.024.14,E,restating LLM approach,restating LLM approach,die Summe der beiden Gleichungen bilden
+08.024.14,E,restating LLM's guidance,restating LLM's guidance,die Summe der beiden Gleichungen bilden
 08.024.15,E,Re-reading chatbot's question,Re-reading LLM's question,um die Gleichungen mit nur einer Variablen zu erhalten
 08.024.16,E,Planning to rearrange both formulas,Planning to rearrange both formulas,beide Formeln ... umstellen
 08.024.17,E,Rearranging equations to isolate terms,Rearranging equations to isolate terms,das 6^2 und das 3^2 auf die andere Seite
