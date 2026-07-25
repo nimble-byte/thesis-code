@@ -285,12 +285,14 @@ def cmd_view(args):
         view["lead_verb"] = view[col].apply(lead_verb)
 
         if args.filter_verb:
-            view = view[view["lead_verb"] == args.filter_verb.lower()]
+            view = view[view["lead_verb"].isin([v.lower() for v in args.filter_verb])]
 
         unmatched = view[view["lead_verb"].isna()]
         if not unmatched.empty:
-            print(f"  WARNING: {len(unmatched)} value(s) had no extractable "
-                  f"lead verb, left ungrouped:")
+            print(
+                f"  WARNING: {len(unmatched)} value(s) had no extractable "
+                f"lead verb, left ungrouped:"
+            )
             for lbl in unmatched[col]:
                 print(f"    - {lbl!r}")
         view["n_in_cluster"] = view.groupby("lead_verb")[col].transform("count")
@@ -461,7 +463,11 @@ def main():
             "an analytic grouping."
         ),
     )
-    v.add_argument("--filter-verb", help="only show rows whose lead verb matches this")
+    v.add_argument(
+        "--filter-verb",
+        nargs="+",
+        help="only show rows whose lead verb matches this",
+    )
     v.set_defaults(func=cmd_view)
 
     r = sub.add_parser(

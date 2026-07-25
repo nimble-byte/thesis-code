@@ -45,5 +45,5 @@
 - re-coded most of "reasoning" family with existing pattern codes
 - re-coded complete "asking" family with existing pattern codes
 - re-coded "calculating" family to "deriving solution step"
--
+- introduced pattern code "assuming mathematical property"
 - re-coded "concluding", "assuming", "hypothesizing" and "inferring" families with existing pattern codes

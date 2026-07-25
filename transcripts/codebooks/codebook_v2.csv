@@ -227,7 +227,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.002.8,E,Reasoning through ratio with analogy,Reasoning through ratio with analogy,"wenn ich einen Schritt gehe, sind es in Wirklichkeit 5",reasoning by analogy
 04.002.9,E,Reformulating problem goal,Reformulating problem goal,die Länge von AB berechnen,Reformulating problem goal
 04.002.10,E,Questioning input formatting,Questioning input formatting,"Ist das Backslash, bin ich blind?",managing experiment logistics
-04.004.1,E,Assuming LLM comprehension despite ambiguity,Assuming LLM comprehension despite ambiguity,"der wird schon Erkennen, was ich meine",Assuming LLM comprehension despite ambiguity
+04.004.1,E,Assuming LLM comprehension despite ambiguity,Assuming LLM comprehension despite ambiguity,"der wird schon Erkennen, was ich meine",attributing capability to LLM
 04.004.2,E,Explaining formatting choice,Explaining formatting choice,ein bisschen mit TeX machen,Explaining formatting choice
 04.004.3,E,Planning message drafting,Planning message drafting,"schreiben, was so gesehen gegeben ist",planning LLM message
 04.004.4,E,Listing given information,Listing given information,Distanz von A zu C,restating given information
@@ -274,7 +274,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.012.10,E,Dictating formula for message,Dictating formula for message,AB mal 5,formulating LLM message
 04.012.11,E,Dictating conclusion for message,Dictating conclusion for message,"ein X von 62,5",formulating LLM message
 04.012.12,E,Formulating follow-up question for LLM,Formulating follow-up question for LLM,"Wie gehe ich weiter vor, um daraus AC zu erhalten",formulating LLM message
-04.012.13,E,Hypothesizing mathematical concept,Hypothesizing mathematical concept,eventuell eine Transitivität,Hypothesizing mathematical concept
+04.012.13,E,Hypothesizing mathematical concept,Hypothesizing mathematical concept,eventuell eine Transitivität,assuming mathematical property
 04.013.1,E,Reporting formula derivation to LLM,Reporting formula derivation to LLM,Formel umgestellt nach x,Reporting formula derivation to LLM
 04.013.2,E,Reporting formula derivation to LLM,Reporting formula derivation to LLM,x = (AB*5)/2,Reporting formula derivation to LLM
 04.013.3,E,Reporting calculation result to LLM,Reporting calculation result to LLM,"ein x von 62,5",Reporting calculation result to LLM
@@ -364,7 +364,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.043.1,E,Reading LLM response aloud,Reading LLM's restated known information,senkrecht aufeinander stehen und sich gegenseitig halbieren,reading LLM's restaded known information
 04.043.2,E,Interpreting geometric properties,Interpreting geometric properties,mit einem halben Winkel arbeiten,"Beginning own reasoning, building on LLM's hint"
 04.043.3,E,Formulating clarifying question,Formulating clarifying question for LLM,inwiefern muss ich halbieren,formulating LLM message
-04.043.4,E,Hypothesizing bisection approach,Hypothesizing bisection approach,AC und BD halbieren,Hypothesizing bisection approach
+04.043.4,E,Hypothesizing bisection approach,Hypothesizing bisection approach,AC und BD halbieren,assuming mathematical property
 04.043.5,E,Elaborating solution reasoning,Elaborating solution reasoning,dass ich mir eine Kante hole,Elaborating solution reasoning
 04.043.6,E,Formulating verification question for LLM,Formulating verification question for LLM,"Macht es Sinn, die Länge von AC und BD zu halbieren",formulating LLM message
 04.044.1a,E,Stating interpretation and question to LLM,Stating interpretation and question to LLM,In wie fern muss ich halbieren?,requesting clarification from LLM
@@ -531,7 +531,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 07.010.2,E,Concluding a given is missing,Concluding a given is missing,mir fehlt noch eine Angabe,identifying unknown information
 07.012.1,E,Identifying given side,Identifying given side,Ich habe letztendlich die Seite gegeben,identifying given information
 07.012.2,E,Matching givens to determinacy case,Matching givens to determinacy case,zwei Seiten und einen eingeschlossenen Winkel,Matching givens to determinacy case
-07.012.3,E,Hypothesizing alternative sufficient condition,Hypothesizing alternative sufficient condition,"Wenn ich jetzt hier die gegenüberliegenden Winkel hätte, wäre es auch egal",Hypothesizing alternative sufficient condition
+07.012.3,E,Hypothesizing alternative sufficient condition,Hypothesizing alternative sufficient condition,"Wenn ich jetzt hier die gegenüberliegenden Winkel hätte, wäre es auch egal",Verifying solution
 07.012.4,E,Concluding hypothetical determinacy,Concluding hypothetical determinacy,wäre die Sache eindeutig bestimmt,Verifying solution
 07.012.5,E,Describing degree of freedom in figure,Describing degree of freedom in figure,verschiebt sich dieses Teil hier lustig auf der Sache hin und her,Describing degree of freedom in figure
 07.012.6,E,Labeling point in drawing,Labeling point in drawing,Das ist ja hier der Punkt P,Labeling point in drawing
@@ -576,7 +576,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.004.1,E,Constructing auxiliary triangle,Constructing auxiliary triangle,die Linien vom Mittelpunkt nach A und nach B ziehen,Constructing auxiliary triangle
 08.004.2,E,Identifying known triangle side lengths,Identifying known triangle side lengths,"die Linie AB, die die Länge 8 hat und die beiden Seiten, die die Länge 5 haben",identifying given information
 08.004.3,E,Reframing distance as triangle height,Reframing distance as triangle height,"die Distanz von der Mitte bis AB, quasi die Höhe",Reframing distance as triangle height
-08.004.4,E,Inferring perpendicularity from distance definition,Inferring perpendicularity from distance definition,muss ja diese Verbindung ... im Prinzip senkrecht drauf stehen,Inferring perpendicularity from distance definition
+08.004.4,E,Inferring perpendicularity from distance definition,Inferring perpendicularity from distance definition,muss ja diese Verbindung ... im Prinzip senkrecht drauf stehen,assuming mathematical property
 08.004.5,E,Concluding right angle,Concluding right angle,einen 90°-Winkel,Concluding right angle
 08.004.6,E,Verifying right-angle assumption,Verifying right-angle assumption,"muss ich mal überlegen, ob das ... tatsächlich",Verifying right-angle assumption
 08.004.7,E,Deriving half-chord length,Deriving half-chord length,die Hälfte wäre dann hier Länge 4,deriving solution step
@@ -765,7 +765,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.062.5,E,Recalling previously derived squared terms,Recalling previously derived squared terms,unsere Quadratseiten,recalling own prior work
 08.062.6,E,Reaffirming constraint that b is positive,Reaffirming constraint that b is positive,b eine Länge ist und daher positiv sein muss,Reaffirming constraint that b is positive
 08.062.7,E,Reasoning about positivity from squaring,Reasoning about positivity from squaring,es sollte eh positiv werden,deriving solution step
-08.062.8,E,Assuming x must be positive,Assuming x must be positive,x sollte auch positiv werden,Assuming x must be positive
+08.062.8,E,Assuming x must be positive,Assuming x must be positive,x sollte auch positiv werden,assuming mathematical property
 08.062.9,E,Deriving upper bound for b,Deriving upper bound for b,"kleiner gleich 3, würde da 0 rauskommen",deriving solution step
 08.062.10,E,Concluding range for b,Concluding range for b,b ist wahrscheinlich irgendwie zwischen 0 und 3,deriving solution step
 08.062.11,E,Restating bound for b with increased confidence,Restating bound for b with increased confidence,b ist zwischen 0 und 3,restating solution step
@@ -884,7 +884,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 09.017.1,E,Requesting confirmation of recalled formula,Requesting confirmation of recalled formula,könnte das richit gsein,requesting verification by LLM
 09.019.1,E,Updating formula based on chatbot correction,Updating formula based on LLM correction,2 PR scheint es zu sein,Updating formula based on LLM correction
 09.019.2,E,Confirming formula for full circumference,deriving solution step,für den vollen Umfang hätte ich...2 Pi r,deriving solution step
-09.019.3,E,Hypothesizing full-angle value,Hypothesizing full-angle value,ein voller Winkel sind ja wahrscheinlich 360°,Hypothesizing full-angle value
+09.019.3,E,Hypothesizing full-angle value,Hypothesizing full-angle value,ein voller Winkel sind ja wahrscheinlich 360°,assuming mathematical property
 09.019.4,E,Planning ratio-based calculation,Planning ratio-based calculation,das einmal ins Verhältnis setzen,planning next solution step
 09.019.5,E,Deciding to verify assumption with chatbot,Deciding to verify assumption with LLM,ob der volle Winkel 360° sind,deciding to ask LLM for verification
 09.019.6,E,Confirming assumption before verifying,Confirming assumption before verifying,"logischeweise 360 sein, wenn das einmal im Kreis ist",confirmation of problem facts
@@ -991,7 +991,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.040.6,E,Accepting imperfect drawing,Accepting imperfect drawing,"kein Diamant geworden, aber gut",Accepting imperfect drawing
 10.040.7,E,Labeling diagram points,Labeling diagram points,"C, D und B",Labeling diagram points
 10.040.8,E,Restating given length and computing half,Restating given length and computing half,der hier ist 6,restating solution step
-10.040.9,E,Hypothesizing equal-edge property of rhombus,Hypothesizing equal-edge property of rhombus,"alle Kanten, alle Linien müssten eigentlich gleich",Hypothesizing equal-edge property of rhombus
+10.040.9,E,Hypothesizing equal-edge property of rhombus,Hypothesizing equal-edge property of rhombus,"alle Kanten, alle Linien müssten eigentlich gleich",assuming mathematical property
 10.040.10,E,Tentatively confirming equal-edge hypothesis,affirming hypothesis,"theoretisch könnte es sein, dass alle gleich lang sind",affirming hypothesis
 10.040.12,E,Specifying outer edges as equal,Specifying outer edges as equal,Die Äußeren müssten alle gleich lang sein,Specifying outer edges as equal
 10.040.13,E,Extending equal-length hypothesis to diagonals,Extending equal-length hypothesis to diagonals,A bis C und B bis D müssten eigentlich alle gleich lang sein,Extending equal-length hypothesis to diagonals
@@ -1005,7 +1005,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.049.2,E,Reasoning about diagonal-length implications,Reasoning about diagonal-length implications,die Strecke AC = 12 ist und BD = 16,"Beginning own reasoning, building on LLM's hint"
 10.049.5,E,Recognizing Pythagorean theorem applicability,Recognizing Pythagorean theorem applicability,mit einem Satz des Pythagoras die Länge berechnen,recognizing solution step
 10.049.6,E,Identifying missing partial-segment lengths,Identifying missing partial-segment lengths,nicht die Teilstrecken,identifying unknown information
-10.049.7,E,Hypothesizing diagonal bisection,Hypothesizing diagonal bisection,eigentlich muss es ja die Hälfte sein,Hypothesizing diagonal bisection
+10.049.7,E,Hypothesizing diagonal bisection,Hypothesizing diagonal bisection,eigentlich muss es ja die Hälfte sein,assuming mathematical property
 10.049.8,E,Elaborating bisection reasoning with values,Elaborating bisection reasoning with values,die obere Hälfte 6 sein und die untere Hälfte auch 6,Elaborating bisection reasoning with values
 10.049.10,E,Reaffirming confidence in bisection hypothesis,Reaffirming confidence in bisection hypothesis,müsste es schon so sein,Reaffirming confidence in bisection hypothesis
 10.049.11,E,Interpreting diagram to confirm given value,Interpreting diagram to confirm given value,"AC, 12 sind",identifying given information
@@ -1081,7 +1081,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.022.5,B,working through equation aloud,working through equation aloud,"5 Quadrat ist gleich, die beiden Werte",working through equation aloud
 11.023.1,B,declining to provide requested value,declining to provide requested value,nein kann ich DIr nicht sagen,declining to provide requested value
 11.025.1,B,evaluating response as repetitive and unhelpful,evaluating response as repetitive and unhelpful,Das ist gefühlt die gleiche Antwort wie vorher,evaluating LLM response as unhelpful
-11.025.2,B,inferring own limitation logically,inferring own limitation logically,kann ich logischerweise auch AP nicht bestimmen,inferring own limitation logically
+11.025.2,B,inferring own limitation logically,inferring own limitation logically,kann ich logischerweise auch AP nicht bestimmen,identifying problem solvability
 11.025.3,B,suspecting missed information,suspecting missed information,Habe ich noch was oben überlesen,suspecting missed information
 11.027.1,B,locating previously missed information,locating previously missed information,Ja ich habs gesehen,locating previously missed information
 11.028.1,B,providing missing value to LLM,providing missing value to LLM,die Länge von AB ist 8,providing missing value to LLM
@@ -1282,7 +1282,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 13.014.10,B,Orienting to task figure,Orienting to task figure,In der Abbildung gezeigt haben die Dinger von neuen Diamanten ABCD,Orienting to task figure
 13.014.11a,B,Identifying given information,Identifying given information,Ich kenne die Dänge zwischen AC und zwischen BD,identifying given information
 13.014.11b,B,Identifying task goal,Identifying task goal,jetzt muss ich die Kantenlänge praktisch wieder berechnen,identifying unknown information
-13.014.12,B,Assuming geometric property from figure,Assuming geometric property from figure,"davon ausgeben, dass alles perfekt winklig ist",Assuming geometric property from figure
+13.014.12,B,Assuming geometric property from figure,Assuming geometric property from figure,"davon ausgeben, dass alles perfekt winklig ist",assuming mathematical property
 13.014.13,B,Selecting solution method,Selecting solution method,den Satz des Pythagoras benutzen,Selecting solution method
 13.014.14,B,Performing calculation,Performing calculation,"AC wären 6 für eine der Seiten, 8 für die anderen",deriving solution step
 13.014.15a,B,Questioning recall of formula,Questioning recall of formula,Was war nochmal der Satz des Pythagoras?,questioning oneself
