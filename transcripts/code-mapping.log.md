@@ -39,3 +39,4 @@
 - introduced pattern code "checking own progress"
 - introduced pattern codes "self-explaining through analogy", "clarifying intended request to LLM"
 - re-coded parts of the "clarifying" family
+- introduced pattern codes "considering querying LLM", "considering solving strategy"

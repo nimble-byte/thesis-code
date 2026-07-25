@@ -155,7 +155,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 03.005.3,B,Deriving diameter length,Deriving diameter length,wenn ich eine neue Linie zeichnen würde durch den mittelpunkt dann hätte die länge von 10,deriving solution step
 03.005.4,B,Announcing intent to describe own reasoning to LLM,Announcing intent to describe own reasoning to LLM,das beschreibe ich ihm jetzt einfach mal,planning LLM message
 03.005.5,B,Describing geometric setup for LLM,Describing geometric setup for LLM,die Linie von acht ein bisschen weiter unten,Describing geometric setup for LLM
-03.005.6,B,Expressing expectation of LLM assistance,Considering querying LLM as fallback,vielleicht hat er dann eine Idee,Considering querying LLM as fallback
+03.005.6,B,Expressing expectation of LLM assistance,Considering querying LLM as fallback,vielleicht hat er dann eine Idee,considering querying LLM
 03.006.1,B,Communicating own derived setup to LLM,Communicating own derived setup to LLM,wie weit unter der Linie durch den Mittelpunkt die linie ab ist,requesting verification by LLM
 03.008.1,B,Evaluating LLM response as helpful,Evaluating LLM response as helpful,jetzt glaube ich hilft mir die Beschreibung was,evaluating LLM response as helpful
 03.008.2,B,Interpreting geometric relationship from LLM response,Interpreting geometric relationship from LLM response,der Abstand vom mittelpunkt zu A oder zu B auch r,Interpreting geometric relationship from LLM response
@@ -185,7 +185,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 03.020.5,B,Enumerating unknowns in sub-triangle BCP,Enumerating unknowns in sub-triangle BCP,das sind zwei Unbekannte auf jeden Fall,Enumerating unknowns in sub-triangle BCP
 03.020.6a,B,Identifying under-determined equation system,Identifying under-determined equation system,drei Unbekannten und zwei Gleichungen,identifying problem solvability
 03.020.6b,B,Flagging own reasoning as incomplete,Flagging own reasoning as incomplete,mein Denkfehler gerade noch,Flagging own reasoning as incomplete
-03.020.7,B,Considering alternative solving strategy from own academic background,Considering alternative solving strategy from own academic background,so würde ich es in einer WiWi-Klausur machen,Considering alternative solving strategy from own academic background
+03.020.7,B,Considering alternative solving strategy from own academic background,Considering alternative solving strategy from own academic background,so würde ich es in einer WiWi-Klausur machen,considering solving strategy
 03.020.8,B,Rejecting shortcut as against task purpose,Rejecting shortcut as against task purpose,das ist ja nicht Sinn der Sache,Rejecting shortcut as against task purpose
 03.020.9,B,Deciding to reconsider LLM's proposed approach,Deciding to reconsider LLM's proposed approach,nochmal ein bisschen über seinen Vorschlag nachdenken,Deciding to verify LLM output
 03.020.10,B,Formulating problem statement to send to LLM,Formulating problem statement to send to LLM,eine Unbekannte zu viele,formulating LLM message
@@ -386,7 +386,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.002.5,B,Reading given ratio aloud,Reading given ratio aloud,2 zu 5,reading given information
 05.002.6,B,Assessing task manageability,Assessing task manageability,einigermaßen verkraftbar,Assessing task manageability
 05.002.7a,B,Assessing own capability to solve manually,Assessing own capability to solve manually,"Das könnte ich, glaube ich, noch von Hand aus rechnen",Assessing own capability to solve manually
-05.002.7b,B,Expressing reluctance to solve manually,Expressing reluctance to solve manually,"ich weiß nicht, ob ich die Lust dazu habe",Considering querying LLM as fallback
+05.002.7b,B,Expressing reluctance to solve manually,Expressing reluctance to solve manually,"ich weiß nicht, ob ich die Lust dazu habe",considering querying LLM
 05.002.8,B,Announcing message submission,Announcing message submission,Ich schicke das einmal,managing experiment logistics
 05.002.9,B,Verifying problem-setup assumptions before solving,Verifying problem-setup assumptions before solving,wenn das Verhältnis 2 zu 5 ist und die Abbildung auch richtig ist,Verifying problem-setup assumptions before solving
 05.002.10,B,Announcing writing down of solution,Announcing writing down of solution,Ich schreibe ihn mal auf,planning LLM message
@@ -521,7 +521,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 07.007.6,E,Assessing sufficiency of given information,Assessing sufficiency of given information,Ich habe hier genügend Informationen,Assessing sufficiency of given information
 07.007.7,E,Expressing uncertainty about right angle,Expressing uncertainty,"Ich weiß nicht, ob das rechtwinklig ist",expressing uncertainty
 07.007.8,E,Reassessing sufficiency of information,Reassessing sufficiency of information,ob ich genug Informationen habe,Reassessing sufficiency of information
-07.007.9,E,Considering missing angle,Considering missing angle,ob ich nicht noch einen Winkel bräuchte,Considering missing angle
+07.007.9,E,Considering missing angle,Considering missing angle,ob ich nicht noch einen Winkel bräuchte,identifying unknown information
 07.007.10,E,Reviewing available givens,Reviewing available givens,Was habe ich denn da noch?,Reviewing available givens
 07.007.11,E,Restating problem question,Restating problem question,which for following could be the length of CP?,restating problem goal
 07.007.12,E,Reporting need for reading glasses,Reporting need for reading glasses,Ich brauche eine Lesebrille,Reporting need for reading glasses
@@ -541,7 +541,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 07.014.4,E,Restating problem goal,Restating problem goal,die Länge des Kreisbogens haben,restating problem goal
 07.014.5,E,Attributing request for formula to task,Attributing request for formula to task,er will jetzt die Formel von mir wissen,identifying unknown information
 07.014.6,E,Deciding to attempt mental calculation first,Deciding to attempt mental calculation first,noch ein bisschen was im Kopf zu rechnen,deciding next solution step
-07.014.7,E,Considering querying LLM as fallback,Considering querying LLM as fallback,könnte man die Sache jetzt hier fragen,Considering querying LLM as fallback
+07.014.7,E,Considering querying LLM as fallback,Considering querying LLM as fallback,könnte man die Sache jetzt hier fragen,considering querying LLM
 07.014.8,E,Verbalizing intended query before typing,Verbalizing intended query before typing,Was ist die Formel für Kreisumfang?,Verbalizing intended query before typing
 07.015.1,E,Querying LLM for circle-circumference formula,Querying LLM for circle-circumference formula,Was ist die Formel für Kreisumfang,Querying LLM for circle-circumference formula
 07.017.1,E,Confirming formula from response,Confirming formula from response,"Sehr schön, 2 Pi r",confirming LLM's guidance
@@ -551,7 +551,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 07.017.5,E,Correcting own calculation setup,Correcting own calculation setup,"32 durch 360, genau verkehrt rum",correcting own solution step
 07.017.6,E,Performing intermediate calculation,Performing intermediate calculation,das [radius 18] zwei mal [gleich] 36 durch [unverständlich],deriving solution step
 07.017.7,E,Searching for calculator tool,Searching for calculator tool,irgendwo wird auch hier der Taschenrechner versteckt,Searching for calculator tool
-07.017.8,E,Expressing reluctance to manually simplify fraction,Expressing reluctance to manually simplify fraction,"zu faul, um den Bruch 360 zu 32 richtig zu kürzen",Considering querying LLM as fallback
+07.017.8,E,Expressing reluctance to manually simplify fraction,Expressing reluctance to manually simplify fraction,"zu faul, um den Bruch 360 zu 32 richtig zu kürzen",considering querying LLM
 07.017.9,E,Performing calculation step,Performing calculation,das ganze mal 2,deriving solution step
 07.017.10,E,Evaluating intermediate result,Evaluating intermediate result,Das sieht schon besser aus,evaluating own solving progress
 07.017.11,E,Continuing calculation with given values,Continuing calculation,"22,5 mal Pi und r war in dem Fall 18",Continuing calculation
@@ -636,7 +636,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.018.10,E,Setting up equation for second triangle,Setting up equation,den rechten Winkel haben bei dem anderen Dreieck PBC,Setting up equation
 08.018.11,E,Writing second Pythagorean equation,Writing second Pythagorean equation,3^2 gleich X^2 plus b^2,Writing second Pythagorean equation
 08.018.12,E,Evaluating usefulness of rearranging equations,Evaluating usefulness of rearranging equations,ob einem das irgendetwas bringt,evaluating own solving progress
-08.018.13,E,Considering eliminating shared term,Considering eliminating shared term,das X^2 rausrechnen,Considering eliminating shared term
+08.018.13,E,Considering eliminating shared term,Considering eliminating shared term,das X^2 rausrechnen,considering solving strategy
 08.018.14,E,Expressing uncertainty about approach's usefulness,Expressing uncertainty,ob ... das allzu viel bringt,expressing uncertainty
 08.018.15,E,Attempting to follow chatbot's suggested approach,Attempting to follow LLM's suggested approach,so wie der Chatbot das ja hier vorschlägt,Attempting to follow LLM's suggested approach
 08.018.16,E,Seeking expression relating a and b,Seeking expression relating a and b,einen Ausdruck für diese Aufteilung zwischen a und b,Seeking expression relating a and b
@@ -787,8 +787,8 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.062.27,E,Summarizing derived formulas for a and x,Summarizing derived formulas for a and x,a ist die Wurzel aus b^2 plus 27,Summarizing derived formulas for a and x
 08.062.28,E,Recalling original Pythagorean equations,Recalling original Pythagorean equations,unsere beiden Pythagoras Formeln,recalling own prior work
 08.062.29,E,Restating original equations,Restating original equations,6^2 gleich X^2 plus a^2 und wir haben 3^2 gleich X^2 plus b^2,restating solution step
-08.062.30,E,Considering whether substitution is feasible,Considering whether substitution is feasible,kann man da jetzt sinnvoll irgendwas einsetzen?,Considering whether substitution is feasible
-08.062.31,E,Considering guessing as a strategy,Considering guessing as a strategy,Kann man das Ding jetzt erraten?,Considering guessing as a strategy
+08.062.30,E,Considering whether substitution is feasible,Considering whether substitution is feasible,kann man da jetzt sinnvoll irgendwas einsetzen?,considering solving strategy
+08.062.31,E,Considering guessing as a strategy,Considering guessing as a strategy,Kann man das Ding jetzt erraten?,considering solving strategy
 08.062.32,E,Weighing alternative solving strategies,Weighing alternative solving strategies,Werte für a und b zu finden,Weighing alternative solving strategies
 08.062.33,E,Re-reading chatbot's question before returning to it,Re-reading LLM's question,dass B eine Länge ist und daher positiv sein muss,reading LLM's questions
 08.062.34,E,Returning to chatbot with constraint-based reasoning,Returning to LLM with constraint-based reasoning,Gehen wir da nochmal zurück zum Chatbot,Returning to LLM with constraint-based reasoning
@@ -1112,7 +1112,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.032.8,B,identifying needed element,identifying needed element,Ich brauche die Linie AB mit dem Punkt P,identifying unknown information
 11.032.9,B,reviewing variables referenced in query,reviewing variables referenced in query,"Eingabe C, AC, BC, PB",reviewing variables referenced in query
 11.032.10,B,confirming detail against task text,confirming detail against task text,das steht in der Aufgabe dran,confirming solution steps
-11.032.11,B,considering coordinate-system approach,considering coordinate-system approach,ein Koordinatensystem einführen,considering coordinate-system approach
+11.032.11,B,considering coordinate-system approach,considering coordinate-system approach,ein Koordinatensystem einführen,considering solving strategy
 11.032.13,B,restating step to place point B,restating step to place point B,es liegt Punkt B irgendwo im Koordinatensystem,restating solution step
 11.032.14,B,reading lost response aloud,reading lost LLM response aloud,So ist der Abstand,reading lost LLM response aloud
 11.032.16,B,restarting approach from beginning,restarting approach from beginning,fangen wir mal vom oben an,restarting approach from beginning
@@ -1135,10 +1135,10 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.032.36,B,restating point P's position on segment AB,restating point P's position on segment AB,Punkt P liegt auf der Schrecke AB zwischen A und B,restating given information
 11.032.37,B,identifying target variable CP,identifying target variable CP,Wir müssen hier nur von CP finden,identifying unknown information
 11.032.39,B,reading lost response aloud,reading lost LLM response aloud,Da CP senkrecht...,reading lost LLM response aloud
-11.032.40,B,considering switching to vector-based approach,considering switching to vector-based approach,ich schalte aber den Vektor an,considering switching to vector-based approach
+11.032.40,B,considering switching to vector-based approach,considering switching to vector-based approach,ich schalte aber den Vektor an,considering solving strategy
 11.032.42,B,asking about remaining time,asking about remaining time,Wie viel Zeit habe ich dafür?,asking about remaining time
-11.036.1,B,considering self-teaching vector analysis,considering self-teaching vector analysis,Ich könnte mich in Vektor-Analyser kurz einarbeiten,considering self-teaching vector analysis
-11.036.2,B,considering researching specific concept,considering researching specific concept,was ein Skalarprodukt ist,considering researching specific concept
+11.036.1,B,considering self-teaching vector analysis,considering self-teaching vector analysis,Ich könnte mich in Vektor-Analyser kurz einarbeiten,considering solving strategy
+11.036.2,B,considering researching specific concept,considering researching specific concept,was ein Skalarprodukt ist,considering solving strategy
 11.036.3,B,admitting forgotten knowledge,admitting forgotten knowledge,dass ich diese beiden Sachen nicht mehr weiß,admitting forgotten knowledge
 11.036.4,B,predicting own approach will fail,predicting own approach will fail,dass das nicht funktionieren würde,predicting own approach will fail
 11.038.1,B,agreeing with assessment of insufficiency,agreeing with assessment of insufficiency,Das vermute ich mal,agreeing with assessment of insufficiency
@@ -1148,7 +1148,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.044.1,B,expressing performance anxiety,expressing performance anxiety,"mich unter Druck setzen, wenn ich das jetzt wieder nicht schaffe",expressing doubt
 11.045.2,B,reading task statement aloud,Reading task statement aloud,das Verhältnis der Längen der Abschnitte AB zu AC 2:5,reading problem statement
 11.047.1,B,expressing need to clarify ratio notation,expressing uncertainty,wie ich die Angabe 2 zu 5 zu verstehen habe,expressing uncertainty
-11.047.2,B,considering asking LLM for clarification,considering asking LLM for clarification,Kann ich ja fragen?,considering asking LLM for clarification
+11.047.2,B,considering asking LLM for clarification,considering asking LLM for clarification,Kann ich ja fragen?,considering querying LLM
 11.047.3,B,reflecting on being out of practice,reflecting on being out of practice,"Echt krass, wenn man so lange raus ist",reflecting on being out of practice
 11.047.4,B,acknowledging forgotten math knowledge,acknowledging forgotten math knowledge,Dass man das alles nicht mehr versteht,acknowledging own knowledge gap
 11.047.5,B,verbalizing query before sending,verbalizing query before sending,Wie ist in diesem Bild die Angabe 2:5 zu verstehen?,verbalizing query before sending
