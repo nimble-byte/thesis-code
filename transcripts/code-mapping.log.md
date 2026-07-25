@@ -8,7 +8,7 @@
 
 # Pattern Coding (v1 to v2)
 
-- introduce pattern codes "restating given information", "restating solution step", "restating problem goal", and "Restating LLM approach"
+- introduce pattern codes "restating given information", "restating solution step", "restating problem goal", and "restating LLM approach"
 - introduced pattern codes "deciding to ask LLM for information", "deciding to ask LLM for verification", "deciding to ask LLM for guidance", "deciding to ask LLM for solution", "deciding next solution step", "Deciding to manually validate", "Deciding to update the LLM information", "Deciding to follow LLM advice", "Deciding to verify LLM output", and "Deciding to attempt solution without LLM"
 - re-coded all statements previously coded with "Reading LLM response aloud" to reflect content detail
 - re-coded 05.005.9 and 04.036.1 to better fit new pattern codes
@@ -34,4 +34,4 @@
 - introduced pattern codes "attributing LLM's confusion to own action", "attributing capability to LLM"
 - merged dictating into "formulating LLM message"
 - introduced pattern codes "evaluating LLM response as helpful", "evaluating response as unhelpful", "scrutinizing LLM response", "evaluating own solving progress"
-
+- introduced pattern codes "acknowledging own error", "acknowledging own knowledge gap"
