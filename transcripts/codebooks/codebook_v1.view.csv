@@ -762,7 +762,7 @@ Recounting LLM's earlier response,1,1,E:1 / B:0
 Redoing calculation,1,1,E:0 / B:1
 Redrawing diagram to organize reasoning,1,1,E:1 / B:0
 Referencing LLM's CoT,1,1,E:1 / B:0
-Referencing LLMs's CoT,1,1,E:0 / B:1
+Referencing LLM's CoT,1,1,E:0 / B:1
 Referencing prior LLM statement in message,1,1,E:1 / B:0
 Referencing response's suggestion,1,1,E:0 / B:1
 Reflecting on LLM reliance strategy,1,1,E:1 / B:0

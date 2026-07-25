@@ -1305,7 +1305,7 @@ id,group,raw_label,canonical_label,in_vivo
 13.023.1b,B,Expressing uncertainty about next step,Expressing uncertainty,Was mache ich denn?
 13.023.2,B,Validating viability of chatbot's suggested approach,Validating viability of LLM's suggested approach,Kann ich das?
 13.023.3,B,Evaluating response's assumption,Evaluating response's assumption,"geht er ja aber davon aus, dass die beiden gleich sind"
-13.023.4,B,Referencing chatbot's CoT,Referencing LLMs's CoT,Die Diagonal des rechtwinkligen Dreiecks
+13.023.4,B,Referencing chatbot's CoT,Referencing LLM's CoT,Die Diagonal des rechtwinkligen Dreiecks
 13.023.5,B,Understanding chatbots's CoT,Understanding LLM's CoT,"Ah, ich verstehe. Wenn das die Diagonal ist, kann ich es andersherum rechnen"
 13.023.6,B,Questioning triangle's right-angle assumption,Questioning triangle's right-angle assumption,"wissen wir, ob das Dreieck rechtwinklig ist?"
 13.023.7,B,Reasoning about geometric property,Reasoning about geometric property,"Wenn die ja nicht gleich lang sind, ist das nicht rechtwinklig"
