@@ -44,4 +44,4 @@
 - introduce pattern code "reasoning by analogy"
 - re-coded most of "reasoning" family with existing pattern codes
 - re-coded complete "asking" family with existing pattern codes
-
+- re-coded "calculating" family to "deriving solution step"

@@ -134,15 +134,15 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 02.027.2,B,Re-orienting to Task Question,Re-orienting to Task Question,was war die Frage nochmal?,Re-orienting to Task Question
 02.027.3,B,Restating Given Values,Restating Given Values,Die folgenden Längen AC.,restating given information
 02.027.4,B,Restating Given Values,Restating Given Values,AC sind 12 und BD sind 16,restating given information
-02.027.5,B,Calculating Half of Diagonal Length,Calculating Half of Diagonal Length,"das die Hälfte von 16, 8 ist",Calculating Half of Diagonal Length
+02.027.5,B,Calculating Half of Diagonal Length,Calculating Half of Diagonal Length,"das die Hälfte von 16, 8 ist",deriving solution step
 02.027.6,B,Confirming Calculated Value,Confirming Calculated Value,8 haben wir dann dort,confirmation of problem facts
 02.027.7,B,Announcing Intent to Calculate,Announcing Intent to Calculate,ich berechne jetzt erstmal,planning next solution step
 02.027.8,B,Re-reading Task Statement to Recall Question,Re-reading Task Statement to Recall Question,"Die Diagonalen des Diamanten A, B, C, D die folgenden Längen.",reading problem statement
 02.027.9,B,Re-reading Task Statement to Recall Question,Re-reading Task Statement to Recall Question,AC gleich 12. Wie lang sind die Kanten des Diamanten?,reading problem statement
 02.027.10,B,Confirming Prior Calculation Correct,Confirming Prior Calculation Correct,"doch, ist richtig",confirmation of problem facts
 02.027.11,B,Selecting Pythagorean Theorem Approach,Selecting Pythagorean Theorem Approach,über den Satz des Pythagoras,Selecting Pythagorean Theorem Approach
-02.027.12,B,Calculating Half of Diagonal AC,Calculating Half of Diagonal AC,die Hälfte von 6,Calculating Half of Diagonal AC
-02.027.13,B,Calculating Half of Diagonal BD,Calculating Half of Diagonal BD,"16, die Hälfte ist 8",Calculating Half of Diagonal BD
+02.027.12,B,Calculating Half of Diagonal AC,Calculating Half of Diagonal AC,die Hälfte von 6,deriving solution step
+02.027.13,B,Calculating Half of Diagonal BD,Calculating Half of Diagonal BD,"16, die Hälfte ist 8",deriving solution step
 02.027.14,B,Applying Pythagorean Theorem to Compute Edge Length,Applying Pythagorean theorem,die Wurzel aus 8 Quadrat plus 6 Quadrat ist 10,Applying Pythagorean theorem
 03.002.1,B,Announcing task-reading strategy,Announcing task reading,dann lese ich mir erstmal die Aufgabenstellung durch,planning next solution step
 03.002.2,B,Extracting given information from problem statement,Extracting given information,Abstand vom Mittelpunkt bis zum Rand ist fünf,Extracting given information
@@ -926,11 +926,11 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.008.1,E,Submitting understanding gap to LLM,Submitting understanding gap to LLM,"ich weiß nicht so ganz, wie ich es berechnen würde",requesting guidance from LLM
 10.010.1,E,Beginning tentative hypothesis (incomplete),Beginning tentative hypothesis (incomplete),"ich glaube, es könnte sein",Beginning tentative hypothesis (incomplete)
 10.012.1,E,Restating LLM-provided information,Restating LLM-provided information,"er sagt mir jetzt, AB sind 2 Teile, BC sind 5 Teile",restating LLM's guidance
-10.012.2,E,Calculating part totals and percentages,Calculating part totals and percentages,"7 Teile, sind 100%",Calculating part totals and percentages
+10.012.2,E,Calculating part totals and percentages,Calculating part totals and percentages,"7 Teile, sind 100%",deriving solution step
 10.012.3,E,Reaffirming part-whole relationship,Reaffirming part-whole relationship,7 Teile 100% sind,Reaffirming part-whole relationship
 10.012.4,E,Introducing unknown variable and estimating percentage,Introducing unknown variable and estimating percentage,"eine Länge von x, die wissen wir noch nicht",Introducing unknown variable and estimating percentage
 10.012.5,E,Continuing percentage estimation attempt,Continuing percentage estimation attempt,2 30% sind,Continuing percentage estimation attempt
-10.012.6,E,"Reading LLM response, self-correcting","Reading LLM response, self-correcting","Ach so, ja","Reading LLM response, self-correcting"
+10.012.6,E,"Reading LLM response, self-correcting","Reading LLM response, self-correcting","Ach so, ja",correcting own understanding
 10.012.7,E,Reformulating own sub-question,Reformulating own sub-question,Was sind die 5 Teile zu so einem 100%?,Reformulating own sub-question
 10.012.10,E,restating LLM question,restating LLM question,"wie ich vorgehen würde, um die Länge eines Teiles zu finden",restating LLM's guidance
 10.012.11,E,Recognizing applicable rule-of-three method,Recognizing applicable rule-of-three method,ganz einfacher Dreisatz,recognizing solution step
@@ -944,7 +944,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.017.2,E,Questioning the ratio relationships,Questioning the ratio relationships,Was sind das für Verhältnisse?,questioning LLM output
 10.017.3,E,Repeating ratio hypothesis aloud,Repeating ratio hypothesis aloud,AB zu AC. AB zu AC.,Repeating ratio hypothesis aloud
 10.018.1,E,Questioning LLM's stated ratio,Questioning LLM's stated ratio,AB zu AC 2:7?,questioning LLM output
-10.020.1,E,"Reading LLM response, self-correcting","Reading LLM response, self-correcting",Ach so,"Reading LLM response, self-correcting"
+10.020.1,E,"Reading LLM response, self-correcting","Reading LLM response, self-correcting",Ach so,correcting own understanding
 10.022.1,E,Restating total parts,Restating total parts,insgesamt sieben Teile,restating solution step
 10.022.2,E,Reaffirming known percentage equivalence,Reaffirming known percentage equivalence,sieben Teile sind 100%,Reaffirming known percentage equivalence
 10.022.3,E,Identifying next calculation step,Identifying next calculation step,wie lange ein Teil sind,identifying solution step
@@ -1270,7 +1270,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 13.009.1,B,Navigating chatbot interface,Navigating LLM interface,Welche soll ich nehmen?,Navigating LLM interface
 13.011.1,B,Clarifying task procedure with researcher,Clarifying task procedure with researcher,"wenn ich neue Aufgabe habe, da halte ich es direkt rein",managing experiment logistics
 13.014.1a,B,Confirming formula from response,Confirming formula from response,"das war 2PiR, damit weißt du den Umfang",confirming LLM's guidance
-13.014.1b,B,Calculating result from formula,Calculating result from formula,"Wenn R 18 ist, dann habe ich 36Pi",Calculating result from formula
+13.014.1b,B,Calculating result from formula,Calculating result from formula,"Wenn R 18 ist, dann habe ich 36Pi",deriving solution step
 13.014.2,B,Planning next calculation step,Planning next calculation step,"wenn der Winkel 32 Grad ist, würde ich das so rechnen",planning next solution step
 13.014.3a,B,Setting up calculation,Setting up calculation,Das ist dann 360 geteilt durch 32,Setting up calculation
 13.014.3b,B,Using calculator tool,Using calculator tool,Das würde ich in der Taschenrechner ... eintippen,Using calculator tool
@@ -1315,9 +1315,9 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 13.026.2,B,Referencing response's suggestion,Referencing response's suggestion,wie wird auch hier vorgeschlagen?,Referencing response's suggestion
 13.026.3,B,Suspecting own error,Suspecting own error,einfach noch hier einen Denkfehler gehabt,Suspecting own error
 13.026.4a,B,Self-criticizing,Self-criticizing,Vielleicht bin ich einfach nur dämlich,Self-criticizing
-13.026.4b,B,Calculating half-diagonal length,Calculating half-diagonal length,Ich hatte jetzt nochmal praktisch A und C halbiert,Calculating half-diagonal length
-13.026.5,B,Calculating half-diagonal length,Calculating half-diagonal length,"Das sind 6, weil A und C = 12 ist",Calculating half-diagonal length
-13.026.6,B,Calculating half-diagonal length,Calculating half-diagonal length,Das Gleiche mache ich auch für B und D ... es sind 8,Calculating half-diagonal length
+13.026.4b,B,Calculating half-diagonal length,Calculating half-diagonal length,Ich hatte jetzt nochmal praktisch A und C halbiert,deriving solution step
+13.026.5,B,Calculating half-diagonal length,Calculating half-diagonal length,"Das sind 6, weil A und C = 12 ist",deriving solution step
+13.026.6,B,Calculating half-diagonal length,Calculating half-diagonal length,Das Gleiche mache ich auch für B und D ... es sind 8,deriving solution step
 13.026.7,B,Applying Pythagorean theorem,Applying Pythagorean theorem,"der Satz des Pythagoras immer noch praktisch, die Quadrate von beiden",Applying Pythagorean theorem
 13.026.8,B,Explaining calculation logic,Explaining calculation logic,so kriege ich die Hypotenusenlänge hin,Explaining calculation logic
 13.026.9,B,Checking calculation output,Checking calculation output,"kommt bei mir jetzt, wenn ich das hier mache",checking own progress
@@ -1451,12 +1451,12 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.051.2,E,Confirming understanding and recording fractions,Confirming understanding and recording fractions,Wir haben jetzt zwei Brüche,accpeting LLM's assertions
 15.051.3,E,Setting up equation to solve for AB,Setting up equation,"Ich müsste nur versuchen, auf AB zu kommen",Setting up equation
 15.051.4,E,Planning algebraic manipulation,Planning algebraic manipulation,"mit 25 zu multiplizieren, sodass quasi AB allein steht",planning next solution step
-15.051.5,E,Calculating answer using calculator,Calculating answer using calculator,"Ich multipliziere nun 2,5 mit 25",Calculating answer using calculator
+15.051.5,E,Calculating answer using calculator,Calculating answer using calculator,"Ich multipliziere nun 2,5 mit 25",deriving solution step
 15.051.6,E,Orienting to new task,Orienting to new task,Wir haben nun diesmal vier Längen,Orienting to new task
 15.051.7,E,Recording given values,Recording given values,Die Gesamtlänge AB ist 10. M ist quasi die Mitte der Linie AB,Recording given values
-15.051.8,E,Calculating midpoint segment,Calculating midpoint segment,Also müsste das 5 sein,Calculating midpoint segment
+15.051.8,E,Calculating midpoint segment,Calculating midpoint segment,Also müsste das 5 sein,deriving solution step
 15.051.9,E,Re-reading and clarifying task description,Re-reading and clarifying task description,C ist die Mitte des Abstandes zu MB,reading given information
-15.051.10,E,Calculating segment length,Calculating segment length,"dann ist C also 2,5",Calculating segment length
+15.051.10,E,Calculating segment length,Calculating segment length,"dann ist C also 2,5",deriving solution step
 15.051.11,E,Recording given value,Recording given value,N ist ein Punkt auf der Linie A und M. Und MN ist 1,Recording given value
 15.051.12,E,Restating task question,Restating task question,wie kommt man auf die Länge N und C,restating problem goal
 15.051.13,E,Consolidating known segment lengths,Consolidating known segment lengths,"B zu C ist 2,5",Consolidating known segment lengths
