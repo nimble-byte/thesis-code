@@ -4,7 +4,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 01.001.3,E,Identifying the unknown/goal,Identifying the unknown/goal,die Orthogonale ist gesucht,identifying unknown information
 01.001.4,E,Restating given information,Restating given information,ein Radius gegeben von 5... die Strecke 8 hat,restating given information
 01.001.5,E,Appraising task difficulty,Appraising task difficulty,das ist schon mal auf jeden Fall schwer,Appraising task difficulty
-01.001.6,E,Announcing image upload to chatbot,Announcing image upload to LLM,ich füge als erstes mal hier das Bild ein,Announcing image upload to LLM
+01.001.6,E,Announcing image upload to chatbot,Announcing image upload to LLM,ich füge als erstes mal hier das Bild ein,planning LLM message
 01.001.7,E,Framing image as baseline context for chatbot,Framing image as baseline context for LLM,als Grundvoraussetzung dieses Bildchen,Framing image as baseline context for LLM
 01.003.1a,E,Acknowledging chatbot's response (incomplete),Acknowledging LLM's response (incomplete),"hat erstmal gecheckt, dass ich das...",evaluating own solving progress
 01.003.1b,E,Initiating self-questioning about requirements,Initiating self-questioning about requirements,was brauche ich dafür,Initiating self-questioning about requirements
@@ -37,7 +37,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 01.007.13b,E,Deciding to consult chatbot for guidance,Deciding to consult LLM for guidance,jetzt kann ich den Chatbot,deciding to ask LLM for guidance
 01.007.14a,E,Expressing confidence in eventually solving,Expressing confidence in eventually solving,ich kriege das bestimmt auch,expressing confidence
 01.007.14b,E,Valuing chatbot assistance,Valuing LLM assistance,"es ist gut, dass ich jetzt einen Chatbot habe",Valuing LLM assistance
-01.007.15a,E,Announcing attempt to formulate question,Announcing attempt to formulate question,Ich probiere jetzt mal,Announcing attempt to formulate question
+01.007.15a,E,Announcing attempt to formulate question,Announcing attempt to formulate question,Ich probiere jetzt mal,planning LLM message
 01.007.15b,E,Restating known values,Restating known values,das 5 ist und das andere ist 4,restating given information
 01.007.16a,E,Formulating question (how to obtain the angle),Formulating question (how to obtain the angle),wie kriege ich den Winkel,formulating LLM message
 01.007.16b,E,Deciding to consult chatbot for guidance,Deciding to consult LLM for guidance,Ich frage den einfach mal,deciding to ask LLM for guidance
@@ -136,7 +136,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 02.027.4,B,Restating Given Values,Restating Given Values,AC sind 12 und BD sind 16,restating given information
 02.027.5,B,Calculating Half of Diagonal Length,Calculating Half of Diagonal Length,"das die Hälfte von 16, 8 ist",Calculating Half of Diagonal Length
 02.027.6,B,Confirming Calculated Value,Confirming Calculated Value,8 haben wir dann dort,confirmation of problem facts
-02.027.7,B,Announcing Intent to Calculate,Announcing Intent to Calculate,ich berechne jetzt erstmal,Announcing Intent to Calculate
+02.027.7,B,Announcing Intent to Calculate,Announcing Intent to Calculate,ich berechne jetzt erstmal,planning next solution step
 02.027.8,B,Re-reading Task Statement to Recall Question,Re-reading Task Statement to Recall Question,"Die Diagonalen des Diamanten A, B, C, D die folgenden Längen.",reading problem statement
 02.027.9,B,Re-reading Task Statement to Recall Question,Re-reading Task Statement to Recall Question,AC gleich 12. Wie lang sind die Kanten des Diamanten?,reading problem statement
 02.027.10,B,Confirming Prior Calculation Correct,Confirming Prior Calculation Correct,"doch, ist richtig",confirmation of problem facts
@@ -144,19 +144,19 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 02.027.12,B,Calculating Half of Diagonal AC,Calculating Half of Diagonal AC,die Hälfte von 6,Calculating Half of Diagonal AC
 02.027.13,B,Calculating Half of Diagonal BD,Calculating Half of Diagonal BD,"16, die Hälfte ist 8",Calculating Half of Diagonal BD
 02.027.14,B,Applying Pythagorean Theorem to Compute Edge Length,Applying Pythagorean theorem,die Wurzel aus 8 Quadrat plus 6 Quadrat ist 10,Applying Pythagorean theorem
-03.002.1,B,Announcing task-reading strategy,Announcing task reading,dann lese ich mir erstmal die Aufgabenstellung durch,Announcing task reading
+03.002.1,B,Announcing task-reading strategy,Announcing task reading,dann lese ich mir erstmal die Aufgabenstellung durch,planning next solution step
 03.002.2,B,Extracting given information from problem statement,Extracting given information,Abstand vom Mittelpunkt bis zum Rand ist fünf,Extracting given information
 03.002.3,B,Interpreting problem geometry,Interpreting problem geometry,irgendwo auf im Bereich der Linie wird das quasi gekreuzt von Linie AB,Interpreting problem geometry
 03.002.4,B,Deciding to consult LLM due to knowledge gap,Deciding to consult LLM due to knowledge gap,mir da jetzt so keine Formel bekannt,deciding to ask LLM for information
-03.002.5,B,Announcing intent to share problem statement with LLM,Announcing intent to share problem statement with LLM,gebe ich ihm die Aufgabenstellung mit,Announcing intent to share problem statement with LLM
+03.002.5,B,Announcing intent to share problem statement with LLM,Announcing intent to share problem statement with LLM,gebe ich ihm die Aufgabenstellung mit,planning LLM message
 03.003.1,B,Requesting solution formula from LLM,Requesting solution formula from LLM,hast du eine Idee mit welcher formel ich diese Aufgabe lösen kann?,requesting information from LLM
 03.005.1,B,Rejecting LLM's suggested approach,Rejecting LLM's suggested approach,Abstand punkt gerade hilft glaube ich nicht,Rejecting LLM's suggested approach
 03.005.2,B,Re-strategizing after rejecting approach,Re-strategizing after rejecting approach,überlege ich einfach noch mal ein bisschen anders,Re-strategizing after rejecting approach
 03.005.3,B,Deriving diameter length,Deriving diameter length,wenn ich eine neue Linie zeichnen würde durch den mittelpunkt dann hätte die länge von 10,deriving solution step
-03.005.4,B,Announcing intent to describe own reasoning to LLM,Announcing intent to describe own reasoning to LLM,das beschreibe ich ihm jetzt einfach mal,Announcing intent to describe own reasoning to LLM
+03.005.4,B,Announcing intent to describe own reasoning to LLM,Announcing intent to describe own reasoning to LLM,das beschreibe ich ihm jetzt einfach mal,planning LLM message
 03.005.5,B,Describing geometric setup for LLM,Describing geometric setup for LLM,die Linie von acht ein bisschen weiter unten,Describing geometric setup for LLM
 03.005.6,B,Expressing expectation of LLM assistance,Considering querying LLM as fallback,vielleicht hat er dann eine Idee,Considering querying LLM as fallback
-03.006.1,B,Communicating own derived setup to LLM,Communicating own derived setup to LLM,wie weit unter der Linie durch den Mittelpunkt die linie ab ist,Communicating own derived setup to LLM
+03.006.1,B,Communicating own derived setup to LLM,Communicating own derived setup to LLM,wie weit unter der Linie durch den Mittelpunkt die linie ab ist,requesting verification by LLM
 03.008.1,B,Evaluating LLM response as helpful,Evaluating LLM response as helpful,jetzt glaube ich hilft mir die Beschreibung was,evaluating LLM response as helpful
 03.008.2,B,Interpreting geometric relationship from LLM response,Interpreting geometric relationship from LLM response,der Abstand vom mittelpunkt zu A oder zu B auch r,Interpreting geometric relationship from LLM response
 03.008.3,B,Deriving half-chord length,Deriving half-chord length,die hälfte von AB ist vier,deriving solution step
@@ -191,7 +191,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 03.020.10,B,Formulating problem statement to send to LLM,Formulating problem statement to send to LLM,eine Unbekannte zu viele,formulating LLM message
 03.021.1,B,Requesting suggestion for resolving underdetermined system,Requesting suggestion for resolving underdetermined system,3 unbekannte und 2 gelichungen kann ich nicht lösen,requesting guidance from LLM
 03.023.1,B,Registering LLM's suggested third equation,Registering LLM's suggested third equation,als dritte Gleichung AB = X + Y zu wählen,Registering LLM's suggested third equation
-03.023.2,B,Announcing closer examination of LLM's suggestion,Announcing closer examination of LLM's suggestion,Schau ich mir mal genauer an,Announcing closer examination of LLM's suggestion
+03.023.2,B,Announcing closer examination of LLM's suggestion,Announcing closer examination of LLM's suggestion,Schau ich mir mal genauer an,Deciding to verify LLM output
 03.023.3,B,Interpreting LLM's approach of combining triangle equations,Interpreting LLM's approach of combining triangle equations,die beiden eingeteilten Dreiecke... miteinander zu verrechnen,Interpreting LLM's approach of combining triangle equations
 03.023.4,B,Recognizing cancellation of CP^2 term across equations,Recognizing cancellation of CP^2 term across equations,das die halt entfällt,recognizing solution step
 03.023.5,B,Deciding to try LLM's suggested equation manipulation,Deciding to try LLM's suggested equation manipulation,würde ich jetzt einfach mal ausprobieren,Deciding to follow LLM advice
@@ -382,14 +382,14 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.049.1,E,Making closing remark with humor,Making closing remark with humor,gratulieren wir ihm,Making closing remark with humor
 05.002.2,B,Assessing task difficulty relative to prior task,Assessing task difficulty relative to prior task,das ist schon deutlich komplizierter als vorhin,Assessing task difficulty relative to prior task
 05.002.3,B,Distinguishing surface appearance from actual difficulty,Distinguishing surface appearance from actual difficulty,Zumindest sieht es schlimmer aus,Distinguishing surface appearance from actual difficulty
-05.002.4,B,Announcing task reading,Announcing task reading,Ich lese einmal,Announcing task reading
+05.002.4,B,Announcing task reading,Announcing task reading,Ich lese einmal,planning next solution step
 05.002.5,B,Reading given ratio aloud,Reading given ratio aloud,2 zu 5,reading given information
 05.002.6,B,Assessing task manageability,Assessing task manageability,einigermaßen verkraftbar,Assessing task manageability
 05.002.7a,B,Assessing own capability to solve manually,Assessing own capability to solve manually,"Das könnte ich, glaube ich, noch von Hand aus rechnen",Assessing own capability to solve manually
 05.002.7b,B,Expressing reluctance to solve manually,Expressing reluctance to solve manually,"ich weiß nicht, ob ich die Lust dazu habe",Considering querying LLM as fallback
-05.002.8,B,Announcing message submission,Announcing message submission,Ich schicke das einmal,Announcing message submission
+05.002.8,B,Announcing message submission,Announcing message submission,Ich schicke das einmal,managing experiment logistics
 05.002.9,B,Verifying problem-setup assumptions before solving,Verifying problem-setup assumptions before solving,wenn das Verhältnis 2 zu 5 ist und die Abbildung auch richtig ist,Verifying problem-setup assumptions before solving
-05.002.10,B,Announcing writing down of solution,Announcing writing down of solution,Ich schreibe ihn mal auf,Announcing writing down of solution
+05.002.10,B,Announcing writing down of solution,Announcing writing down of solution,Ich schreibe ihn mal auf,planning LLM message
 05.002.11,B,Extracting given values from task,Extracting given values from task,A bis C ist 25,Extracting given values from task
 05.002.12,B,Restating given ratio,Restating given ratio,die ist 2 zu 5,restating given information
 05.002.13,B,Performing manual calculation,Performing manual calculation,wenn ich die durch 5 teile... ist also 5 mal 2 ist 10,deriving solution step
@@ -401,7 +401,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.002.18,B,Anticipating chatbot response,Anticipating LLM response,"Mal schauen, ob das ausspuckt",Anticipating LLM response
 05.003.1,B,Relaying task prompt to LLM,Relaying task prompt to LLM,In der gezeigten Abbildung ist das Verhältnis...,Relaying task prompt to LLM
 05.003.2,B,Requesting solution verification from LLM,Requesting solution verification from LLM,"Meine Lösung ist 10, ist das korrekt?",requesting verification by LLM
-05.005.1,B,Announcing intent to solve for target variable,Announcing intent to solve for target variable,Jetzt löse ich nach AB auf,Announcing intent to solve for target variable
+05.005.1,B,Announcing intent to solve for target variable,Announcing intent to solve for target variable,Jetzt löse ich nach AB auf,confirming LLM's guidance
 05.005.2,B,Criticizing response as verbose and insufficiently confirmatory,Criticizing response as verbose and insufficiently confirmatory,zu viel Antwort und zu wenig Bestätigung,Criticizing response as verbose and insufficiently confirmatory
 05.005.3,B,Recomputing ratio manually to verify,Recomputing ratio manually to verify,A durch B... Ratio von 2:5,Recomputing ratio manually to verify
 05.005.4,B,Restating hypothesized answer prior to full verification,affirming hypothesis,wenn das 10 ist,affirming hypothesis
@@ -430,7 +430,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.012.1,B,Locating calculator function,Locating calculator function,Wo ist Pi? Wo ist Pi?,Locating calculator function
 05.012.2,B,Continuing radian conversion calculation,Continuing radian conversion calculation,Pi durch...180,Continuing radian conversion calculation
 05.012.3,B,Recording calculated radian value,Recording calculated radian value,"Radiant ist 0,5850536",Recording calculated radian value
-05.012.4,B,Announcing arc-length calculation step,Announcing arc-length calculation step,die Bogenlänge ist dann,Announcing arc-length calculation step
+05.012.4,B,Announcing arc-length calculation step,Announcing arc-length calculation step,die Bogenlänge ist dann,restating solution step
 05.012.5,B,Continuing arc-length calculation,Continuing arc-length calculation,das mal Radius,Continuing arc-length calculation
 05.012.6,B,Recalling radius value,Recalling radius value,Radius sind 18,restating given information
 05.012.7,B,Anticipating calculation result,Anticipating calculation result,"Heißt, die [Antwort ist]...",Anticipating calculation result
@@ -450,7 +450,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.016.7,B,Expressing confidence reinforced by cross-checking,Expressing confidence reinforced by cross-checking,fühle ich mich darin bekräftigt,expressing confidence
 05.016.8,B,Attributing formula source to chatbot,Attributing formula source to LLM,Ich habe die Formeln bekommen vom Chatbot,identifying LLM as information source
 05.016.9,B,Expressing trust in chatbot-provided method,Expressing trust in LLM-provided method,"Ich schenke ihm Glauben und komme auf genau das, was hier steht",expressing satisfaction
-05.016.11,B,Announcing task reading,Announcing task reading,Wollen wir mal wieder lesen,Announcing task reading
+05.016.11,B,Announcing task reading,Announcing task reading,Wollen wir mal wieder lesen,planning next solution step
 05.016.12,B,Questioning task terminology,Questioning task terminology,"Ich weiß nicht, ob da Diamanat stehen soll?",questioning problem language
 05.016.13,B,Seeking clarification of terminology,Seeking clarification of terminology,Oder Diamant?,Seeking clarification of terminology
 05.020.3,B,Extracting given diagonal value,Extracting given diagonal value,A zu C ist 12,Extracting given diagonal value
@@ -658,7 +658,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.018.32,E,Composing explanation of Pythagorean application,Composing explanation of Pythagorean application,den Satz von Pythagoras anwenden,Composing explanation of Pythagorean application
 08.018.33,E,Composing variable definitions,Composing variable definitions,AP = a und die Kante PB = b,Composing variable definitions
 08.018.34,E,Composing variable definition for target,Composing variable definition for target,PC = X,Composing variable definition for target
-08.018.35,E,Announcing derived formulas,Announcing derived formulas,ergeben sich 2 Formeln,Announcing derived formulas
+08.018.35,E,Announcing derived formulas,Announcing derived formulas,ergeben sich 2 Formeln,deriving solution step
 08.018.36,E,Asking how to notate exponent,Asking how to notate exponent,es wäre hoch einfach mit dem?,Asking how to notate exponent
 08.020.1,E,Dictating formula for message input,Dictating formula for message,"6 hoch, 2 gleich, X hoch, a plus 2",formulating LLM message
 08.021.1,E,Submitting derived equations to chatbot,Submitting derived equations to LLM,Dann ergeben sich zwei Fomeln nach 6^2 = x^2 + a^2 und 3^2 = x^2 + b^2,submitting information to LLM

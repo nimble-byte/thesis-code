@@ -35,3 +35,4 @@
 - merged dictating into "formulating LLM message"
 - introduced pattern codes "evaluating LLM response as helpful", "evaluating response as unhelpful", "scrutinizing LLM response", "evaluating own solving progress"
 - introduced pattern codes "acknowledging own error", "acknowledging own knowledge gap"
+- re-coded complete "announcing" family with existing pattern codes
