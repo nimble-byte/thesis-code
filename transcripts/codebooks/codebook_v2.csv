@@ -19,7 +19,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 01.003.9,E,"Formulating question about angle, not yet finalized","Formulating question about angle, not yet finalized",ich habe den zum Beispiel mal,formulating LLM message
 01.003.10,E,Requesting technical/keyboard assistance (off-task),Requesting technical/keyboard assistance (off-task),wo das scharfe S ist,managing experiment logistics
 01.003.11,E,Dictating question to chatbot while typing,Dictating question to LLM while typing,wie groß der Winkel zwischen der Strecke A und B... und der Strecke OB,formulating LLM message
-01.004.1,E,Asking chatbot for angle value,Asking LLM for angle value,wie gross der winkel ywischen der Strecke AB ist und der Strecke OB,Asking LLM for angle value
+01.004.1,E,Asking chatbot for angle value,Asking LLM for angle value,wie gross der winkel ywischen der Strecke AB ist und der Strecke OB,requesting solution from LLM
 01.005.1,E,Anticipating chatbot's helpfulness,Anticipating LLM's helpfulness,Das würde mir nämlich direkt weiterhelfen,Anticipating LLM's helpfulness
 01.007.1,E,Reading chatbot response aloud,Reading LLM response aloud,das können wir zusammen herausfinden,Reading LLM response aloud
 01.007.2,E,Confirming chatbot's hint as correct,Confirming LLM's hint as correct,"Stimmt, es ist einfach ein Radius",confirming LLM's guidance
@@ -74,7 +74,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 02.008.7,B,Re-reading Given Values,Re-reading given values,"Wenn AC die Länge 25 hat, AC ist...",reading given information
 02.008.8,B,Voicing Confusion About Ratio Meaning,Voicing Confusion About Ratio Meaning,was heißt 2 zu 5?,Voicing Confusion About Ratio Meaning
 02.008.9,B,Deciding to ask Chatbot for clarification,Deciding to ask LLM for clarification,Fragen wir mal den Chatbot.,deciding to ask LLM for information
-02.008.10,B,Asking About Chat Session Procedure,Asking About Chat Session Procedure,soll ich zuerst noch mal einen neuen Chat anlegen,Asking About Chat Session Procedure
+02.008.10,B,Asking About Chat Session Procedure,Asking About Chat Session Procedure,soll ich zuerst noch mal einen neuen Chat anlegen,managing experiment logistics
 02.010.1,B,Typing Query to Chatbot,Typing Query to LLM,was heit das Verhätis 2 zu 5,Typing Query to LLM
 02.012.1,B,Reading Chatbot Response Aloud,Reading LLM's restated known information,"Das Verhältnis von 2 zu 5 bedeutet, dass die Teile in Bezug auf 5 Teile gesetzt werden.",reading LLM's restaded known information
 02.012.2,B,Reading Chatbot Response Aloud,Reading LLM's restated known information,die relativ große oder Menge zu Ergrößen auszudrücken,reading LLM's restaded known information
@@ -91,7 +91,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 02.014.6,B,Self-Correcting Ratio Interpretation,Self-Correcting Ratio Interpretation,2 zu 5 ist ja nicht das gleiche wie 2 Fünftel,correcting own solution step
 02.014.7,B,Signaling Uncertainty While Continuing,Signaling Uncertainty While Continuing,Da habe ich auf jeden Fall noch so im Kopf. Mal gucken.,Signaling Uncertainty While Continuing
 02.014.8,B,Abandoning Further Analysis,Abandoning Further Analysis,Egal.,Abandoning Further Analysis
-02.014.9,B,Asking About Remaining Task Count,Asking About Remaining Task Count,wie viele Aufgaben habe ich insgesamt noch mal?,Asking About Remaining Task Count
+02.014.9,B,Asking About Remaining Task Count,Asking About Remaining Task Count,wie viele Aufgaben habe ich insgesamt noch mal?,managing experiment logistics
 02.016.1,B,Expressing Surprise at Task Count,Expressing Surprise at Task Count,Ich habe nur 3?,expressing surprise
 02.016.2,B,Adjusting Pacing Strategy,Adjusting Pacing Strategy,lasse ich mir ein bisschen mehr Zeit,Adjusting Pacing Strategy
 02.018.1,B,Reiterating Difficulty Articulating Thoughts,Reiterating Difficulty Articulating Thoughts,mir fällt das Nachdenken ganz sicher auch schwer,Reiterating Difficulty Articulating Thoughts
@@ -659,7 +659,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.018.33,E,Composing variable definitions,Composing variable definitions,AP = a und die Kante PB = b,Composing variable definitions
 08.018.34,E,Composing variable definition for target,Composing variable definition for target,PC = X,Composing variable definition for target
 08.018.35,E,Announcing derived formulas,Announcing derived formulas,ergeben sich 2 Formeln,deriving solution step
-08.018.36,E,Asking how to notate exponent,Asking how to notate exponent,es wäre hoch einfach mit dem?,Asking how to notate exponent
+08.018.36,E,Asking how to notate exponent,Asking how to notate exponent,es wäre hoch einfach mit dem?,managing experiment logistics
 08.020.1,E,Dictating formula for message input,Dictating formula for message,"6 hoch, 2 gleich, X hoch, a plus 2",formulating LLM message
 08.021.1,E,Submitting derived equations to chatbot,Submitting derived equations to LLM,Dann ergeben sich zwei Fomeln nach 6^2 = x^2 + a^2 und 3^2 = x^2 + b^2,submitting information to LLM
 08.024.2,E,Noticing chatbot's CoT displayed,Noticing LLM's CoT displayed,Die KI hat den Gedankenprozess,Noticing LLM's CoT displayed
@@ -916,7 +916,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.002.5,E,Expressing uncertainty about ratio interpretation,Expressing uncertainty,jetzt weiß ich nur nicht,expressing uncertainty
 10.002.6,E,Formulating clarification question,Formulating clarification question,Was bedeutet das Verhältnis 2 zu 5 in unserem Fall?,formulating LLM message
 10.003.1,E,Submitting clarification query to LLM,Submitting clarification query to LLM,Was bedeutet das Verhältnis 2:5?,requesting clarification from LLM
-10.005.1,E,Asking about read-aloud protocol,Asking about read-aloud protocol,leiser durchlesen,Asking about read-aloud protocol
+10.005.1,E,Asking about read-aloud protocol,Asking about read-aloud protocol,leiser durchlesen,managing experiment logistics
 10.007.1,E,Judging response as unhelpful,Judging response as unhelpful,hat es mir jetzt nicht so viel weiter geholfen,Judging response as unhelpful
 10.007.2,E,Acknowledging LLM's counter-question,Acknowledging LLM's counter-question,"er fragt mich, wie ich das Verhältnis berechnen würde",restating LLM's guidance
 10.007.3,E,Attempting and rejecting calculation,Attempting and rejecting calculation,"25 durch 2, nee, macht keinen Sinn",Attempting and rejecting calculation
@@ -962,7 +962,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.024.3,E,Recognizing need for formula,Recognizing need for formula,"es gibt eine Formel, um das zu berechnen",recognizing solution step
 10.024.4,E,Struggling with image-paste interface,Struggling with image-paste interface,Wie paste ich da? Command V?,Struggling with image-paste interface
 10.024.5,E,Enumerating perceived given quantities,Enumerating perceived given quantities,"wir haben eine Länge, wir haben die Fläche, wir haben den Winkel",Enumerating perceived given quantities
-10.025.1,E,Asking LLM whether formula exists,Asking LLM whether formula exists,Gibt es dafür eine Formel?,Asking LLM whether formula exists
+10.025.1,E,Asking LLM whether formula exists,Asking LLM whether formula exists,Gibt es dafür eine Formel?,requesting information from LLM
 10.027.1,E,Reiterating belief in existence of formula,Reiterating belief in existence of formula,es gibt da eine Formel,Reiterating belief in existence of formula
 10.027.2,E,Expressing uncertainty about formula,Expressing uncertainty,bin mir aber nicht sicher,expressing uncertainty
 10.027.3,E,Speculating about additional required information,Speculating about additional required information,weitere Sachen braucht,Speculating about additional required information
@@ -1136,7 +1136,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.032.37,B,identifying target variable CP,identifying target variable CP,Wir müssen hier nur von CP finden,identifying unknown information
 11.032.39,B,reading lost response aloud,reading lost LLM response aloud,Da CP senkrecht...,reading lost LLM response aloud
 11.032.40,B,considering switching to vector-based approach,considering switching to vector-based approach,ich schalte aber den Vektor an,considering solving strategy
-11.032.42,B,asking about remaining time,asking about remaining time,Wie viel Zeit habe ich dafür?,asking about remaining time
+11.032.42,B,asking about remaining time,asking about remaining time,Wie viel Zeit habe ich dafür?,managing experiment logistics
 11.036.1,B,considering self-teaching vector analysis,considering self-teaching vector analysis,Ich könnte mich in Vektor-Analyser kurz einarbeiten,considering solving strategy
 11.036.2,B,considering researching specific concept,considering researching specific concept,was ein Skalarprodukt ist,considering solving strategy
 11.036.3,B,admitting forgotten knowledge,admitting forgotten knowledge,dass ich diese beiden Sachen nicht mehr weiß,admitting forgotten knowledge
@@ -1201,8 +1201,8 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.075.1,B,questioning referent of fraction,questioning referent of fraction,2/5 von was?,questioning LLM output
 11.075.2,B,expressing confusion about which value to use,Expressing confusion,"Ich kann ja nicht den Wert, ich kenne mal 25 nehmen",Encountering impasse
 11.077.1,B,realizing meaning of clarification,realizing meaning of clarification,Ach so,realizing meaning of clarification
-11.079.1,B,asking about calculator input functionality,asking about calculator input functionality,Kann man hier Brüche eintippen?,asking about calculator input functionality
-11.081.1,B,asking about calculator fraction feature location,asking about calculator fraction feature location,Wo sind denn hier die Brüche?,asking about calculator fraction feature location
+11.079.1,B,asking about calculator input functionality,asking about calculator input functionality,Kann man hier Brüche eintippen?,managing experiment logistics
+11.081.1,B,asking about calculator fraction feature location,asking about calculator fraction feature location,Wo sind denn hier die Brüche?,managing experiment logistics
 11.083.1,B,reacting positively to discovering calculator feature,reacting positively to discovering calculator feature,Oh. Cool.,reacting positively to discovering calculator feature
 11.085.2,B,entering fraction value into calculator,entering fraction value into calculator,2/5,entering fraction value into calculator
 11.087.1,B,realizing meaning of instruction,realizing meaning of instruction,Ach so,realizing meaning of instruction
@@ -1264,7 +1264,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 13.005.4,B,Identifying given information,Identifying given information,ich habe den Winkel und ich habe den Radius,identifying given information
 13.005.5,B,Planning solution approach,Planning solution approach,ich könnte erstmal theoretisch ... den Umfang ... berechnen,planning next solution step
 13.005.6,B,Expressing uncertainty about formula,Expressing uncertainty,Mit dem Radius. Was war das?,expressing uncertainty
-13.005.7,B,Asking permission to consult chatbot,Asking permission to consult LLM,Soll ich hier schon den Chatbot benutzen?,Asking permission to consult LLM
+13.005.7,B,Asking permission to consult chatbot,Asking permission to consult LLM,Soll ich hier schon den Chatbot benutzen?,managing experiment logistics
 13.007.1,B,Formulating query to chatbot,Formulating clarifying question for LLM,"was ist die Formel, um den Kreisumfang zu berechnen, wenn r gegeben ist?",formulating LLM message
 13.008.1,B,Querying chatbot for formula,Querying LLM for formula,Was ist die Formel um den Kreis umfang zu berechnen wenn r gegeben ist?,Querying LLM for formula
 13.009.1,B,Navigating chatbot interface,Navigating LLM interface,Welche soll ich nehmen?,Navigating LLM interface
