@@ -54,3 +54,4 @@
 - introduced pattern code "taking notes"
 - re-coded "recording" family (partially)
 - introduced pattern codes "reflecting on offloading choice", "reflecting on own capability relative to LLM", "reflecting on own performance"
+- introduced pattern code "explaining rationale to LLM", "explaining value of externalizing work"

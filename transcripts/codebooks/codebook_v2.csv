@@ -228,7 +228,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.002.9,E,Reformulating problem goal,Reformulating problem goal,die Länge von AB berechnen,Reformulating problem goal
 04.002.10,E,Questioning input formatting,Questioning input formatting,"Ist das Backslash, bin ich blind?",managing experiment logistics
 04.004.1,E,Assuming LLM comprehension despite ambiguity,Assuming LLM comprehension despite ambiguity,"der wird schon Erkennen, was ich meine",attributing capability to LLM
-04.004.2,E,Explaining formatting choice,Explaining formatting choice,ein bisschen mit TeX machen,Explaining formatting choice
+04.004.2,E,Explaining formatting choice,Explaining formatting choice,ein bisschen mit TeX machen,managing experiment logistics
 04.004.3,E,Planning message drafting,Planning message drafting,"schreiben, was so gesehen gegeben ist",planning LLM message
 04.004.4,E,Listing given information,Listing given information,Distanz von A zu C,restating given information
 04.004.5,E,Stating problem goal,Stating problem goal,Ziel ist die Berechnung von A zu C,restating problem goal
@@ -336,7 +336,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.036.7,E,Restating given values and goal,Restating Given Values,"Ziel ist es, die Länge des Kreisabschnittes zu berechnen",restating given information
 04.036.8,E,Reasoning about relevant quantity,Reasoning about relevant quantity,die für mich jetzt so gesehen interessant ist,identifying unknown information
 04.036.9,E,Identifying arc as relevant quantity,Identifying arc as relevant quantity,vom Kreis die Bahn,identifying unknown information
-04.036.10,E,Clarifying goal using analogy,Clarifying goal using analogy,den Kuchenrand,self-explaining through analogy
+04.036.10,E,Clarifying goal using analogy,Clarifying goal using analogy,den Kuchenrand,reasoning by analogy
 04.036.11,E,Deciding to consult LLM for guidance,Deciding to consult LLM for guidance,in die richtige Richtung lotsen kann,deciding to ask LLM for guidance
 04.037.1a,E,Stating given information to LLM,Stating given information to LLM,Kuchstückähnlichen abschnitt,stating information to LLM
 04.037.1b,E,Stating goal to LLM,Stating goal to LLM,Länge des Kreisabschnittes zu berechnenen,stating information to LLM
@@ -470,7 +470,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.023.10,B,Self-correcting geometric understanding,Self-correcting geometric understanding,die schneiden sich am rechten Winkel,correcting own understanding
 05.023.12,B,Deciding to sketch diagram to support reasoning,Deciding to sketch diagram,Ich male mir [das] mal auf,deciding next solution step
 05.023.13,B,Labeling sketch elements,Labeling sketch elements,C und D,Labeling sketch elements
-05.025.2,B,Explaining own reasoning strategy (sketching aids thinking),Explaining own reasoning strategy (sketching aids thinking),"weil ich kann besser denken, wenn ich die Sachen tatsächlich daran schreibe",Explaining own reasoning strategy (sketching aids thinking)
+05.025.2,B,Explaining own reasoning strategy (sketching aids thinking),Explaining own reasoning strategy (sketching aids thinking),"weil ich kann besser denken, wenn ich die Sachen tatsächlich daran schreibe",explaining value of externalizing work
 05.025.3,B,Computing half-diagonal values,Computing half-diagonal values,"A bis C ist 12, das heißt diesen 6 [und] 6",deriving solution step
 05.025.4,B,Computing second half-diagonal values,Computing second half-diagonal values,"die andere ist 16, also 8 [und] 8",deriving solution step
 05.025.5,B,Attributing prior response content to chatbot,Attributing prior response content to LLM,das wurde mir von dem schon erklärt,identifying LLM as information source
@@ -535,7 +535,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 07.012.4,E,Concluding hypothetical determinacy,Concluding hypothetical determinacy,wäre die Sache eindeutig bestimmt,Verifying solution
 07.012.5,E,Describing degree of freedom in figure,Describing degree of freedom in figure,verschiebt sich dieses Teil hier lustig auf der Sache hin und her,Describing degree of freedom in figure
 07.012.6,E,Labeling point in drawing,Labeling point in drawing,Das ist ja hier der Punkt P,Labeling point in drawing
-07.014.1,E,Explaining vision workaround strategy,Explaining vision workaround strategy,"die Brille abnehme, damit ich nicht das Sichtfenster der Gleitsichtbrille finden muss",Explaining vision workaround strategy
+07.014.1,E,Explaining vision workaround strategy,Explaining vision workaround strategy,"die Brille abnehme, damit ich nicht das Sichtfenster der Gleitsichtbrille finden muss",managing experiment logistics
 07.014.2,E,Adjusting physical position relative to screen,Adjusting physical position relative to screen,rück dem Laptop einfach ein bisschen auf die Pelle,Adjusting physical position relative to screen
 07.014.3,E,Stating problem givens,Stating problem givens,x ist 32 und r ist 18,restating given information
 07.014.4,E,Restating problem goal,Restating problem goal,die Länge des Kreisbogens haben,restating problem goal
@@ -687,7 +687,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.024.24,E,Deciding to verify formula with chatbot,Deciding to verify formula with LLM,ich frag jetzt mal die KI,deciding to ask LLM for verification
 08.024.25,E,Dictating message about equation rearrangement,Dictating message about equation rearrangement,dann kann ich sie gleichsetzen nach,formulating LLM message
 08.024.26,E,Dictating combined equation,Dictating combined equation,X^2 plus a^2 minus 36 ist gleich X^2 plus b^2 minus 9,formulating LLM message
-08.025.1,E,Explaining rearrangement rationale in message,Explaining rearrangement rationale in message,dann kann ich sie gleichsetzen nach,Explaining rearrangement rationale in message
+08.025.1,E,Explaining rearrangement rationale in message,Explaining rearrangement rationale in message,dann kann ich sie gleichsetzen nach,explaining rationale to LLM
 08.025.2,E,Submitting rearranged equation to chatbot,Submitting rearranged equation to LLM,x^2 + a^2 - 36 = x^2 + b^2 - 9,submitting information to LLM
 08.026.1,E,Anticipating further simplification,Anticipating further simplification,wenn ich das hier jetzt weiter auflöse,Anticipating further simplification
 08.028.1,E,Reading chatbot's suggested rearrangement,Reading LLM's suggested rearrangement,"so umstellen, dass auf einer Seite 0 steht",reading LLM's guidance
@@ -730,7 +730,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.043.10,E,answerig the chatbot's question,answerig the LLM's question,Frangen wir mal die KI weiter,answerig the LLM's question
 08.043.11,E,Restating equation with typo,Restating equation with typo,6^2 gleich x^2 plus a,restating solution step
 08.043.12,E,Recognizing handwriting-induced transcription error,Recognizing handwriting-induced transcription error,wegen meiner Sauklaue aus einer 6 ein b gemacht,Recognizing handwriting-induced transcription error
-08.043.13,E,Reflecting on value of writing out steps for error-checking,Reflecting on value of writing out steps for error-checking,dann fällt dein Fehler auch wieder auf,Reflecting on value of writing out steps for error-checking
+08.043.13,E,Reflecting on value of writing out steps for error-checking,Reflecting on value of writing out steps for error-checking,dann fällt dein Fehler auch wieder auf,explaining value of externalizing work
 08.043.14,E,Performing substitution,Performing substitution,Wir setzen oben ein,deriving solution step
 08.043.15,E,Restating corrected expression,Restating corrected expression,das ist gleich b^2 plus 27,restating solution step
 08.044.1,E,Submitting substituted equation to chatbot,Submitting substituted equation to LLM,6^2 = x^2 + b^2 + 27,submitting information to LLM
@@ -792,8 +792,8 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.062.32,E,Weighing alternative solving strategies,Weighing alternative solving strategies,Werte für a und b zu finden,Weighing alternative solving strategies
 08.062.33,E,Re-reading chatbot's question before returning to it,Re-reading LLM's question,dass B eine Länge ist und daher positiv sein muss,reading LLM's questions
 08.062.34,E,Returning to chatbot with constraint-based reasoning,Returning to LLM with constraint-based reasoning,Gehen wir da nochmal zurück zum Chatbot,Returning to LLM with constraint-based reasoning
-08.062.35,E,Explaining inability to fully determine length in message,Explaining inability to fully determine length in message,da ich keine Wurzel aus einer negativen Zahl ziehen kann,Explaining inability to fully determine length in message
-08.062.36,E,Explaining derived bound for b in message,Explaining derived bound for b in message,muss b größer als 0. Und kleiner als 3 sein,Explaining derived bound for b in message
+08.062.35,E,Explaining inability to fully determine length in message,Explaining inability to fully determine length in message,da ich keine Wurzel aus einer negativen Zahl ziehen kann,explaining rationale to LLM
+08.062.36,E,Explaining derived bound for b in message,Explaining derived bound for b in message,muss b größer als 0. Und kleiner als 3 sein,explaining rationale to LLM
 08.062.37,E,Acknowledging unresolved determination of x,Acknowledging unresolved determination of x,habe ich X immer noch nicht bestimmt,evaluating own solving progress
 08.063.1,E,Submitting bounding argument to chatbot,Submitting bounding argument to LLM,muss b größer als 0 und kleiner als 3 sein,submitting information to LLM
 08.065.1,E,Reading chatbot's follow-up question,Reading LLM's follow-up question,"Denk daran, dass B zwischen 3 liegen muss",reading LLM's questions
@@ -1319,7 +1319,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 13.026.5,B,Calculating half-diagonal length,Calculating half-diagonal length,"Das sind 6, weil A und C = 12 ist",deriving solution step
 13.026.6,B,Calculating half-diagonal length,Calculating half-diagonal length,Das Gleiche mache ich auch für B und D ... es sind 8,deriving solution step
 13.026.7,B,Applying Pythagorean theorem,Applying Pythagorean theorem,"der Satz des Pythagoras immer noch praktisch, die Quadrate von beiden",Applying Pythagorean theorem
-13.026.8,B,Explaining calculation logic,Explaining calculation logic,so kriege ich die Hypotenusenlänge hin,Explaining calculation logic
+13.026.8,B,Explaining calculation logic,Explaining calculation logic,so kriege ich die Hypotenusenlänge hin,deriving solution step
 13.026.9,B,Checking calculation output,Checking calculation output,"kommt bei mir jetzt, wenn ich das hier mache",checking own progress
 13.026.10,B,Recognizing calculation error,Recognizing calculation error,Irgendwas mache ich falsch,recognizing own error
 13.026.11,B,Suspecting own error,Suspecting own error,ein großer Denkfehler bei mir,Suspecting own error
