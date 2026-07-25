@@ -48,3 +48,4 @@
 - introduced pattern code "assuming mathematical property"
 - re-coded "concluding", "assuming", "hypothesizing" and "inferring" families with existing pattern codes
 - re-coded "continuing" family
+- re-coded "proposing" family

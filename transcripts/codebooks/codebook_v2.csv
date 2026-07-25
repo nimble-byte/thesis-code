@@ -15,7 +15,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 01.003.5b,E,Deciding to consult chatbot for guidance,Deciding to consult LLM for guidance,"überlege ich, was ich den Chatbot dazu fragen kann",deciding to ask LLM for guidance
 01.003.6,E,Seeking mental representation of problem,Seeking mental representation of problem,Ich brauche hier eine Vorstellung,Seeking mental representation of problem
 01.003.7,E,Restating given information,Restating given information,"den Radius, der ist 5... die Entfernung dazwischen 8",restating given information
-01.003.8,E,Proposing trigonometric solution strategy,Proposing trigonometric solution strategy,"mithilfe von Winkeln und dann Cosinus, Sinus",Proposing trigonometric solution strategy
+01.003.8,E,Proposing trigonometric solution strategy,Proposing trigonometric solution strategy,"mithilfe von Winkeln und dann Cosinus, Sinus",considering solving strategy
 01.003.9,E,"Formulating question about angle, not yet finalized","Formulating question about angle, not yet finalized",ich habe den zum Beispiel mal,formulating LLM message
 01.003.10,E,Requesting technical/keyboard assistance (off-task),Requesting technical/keyboard assistance (off-task),wo das scharfe S ist,managing experiment logistics
 01.003.11,E,Dictating question to chatbot while typing,Dictating question to LLM while typing,wie groß der Winkel zwischen der Strecke A und B... und der Strecke OB,formulating LLM message
@@ -87,7 +87,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 02.014.2,B,Expressing Difficulty with Task,Expressing Difficulty with Task,wie schwer mir das gerade fällt,Encountering impasse
 02.014.3,B,Expressing Frustration/Disbelief,Expressing frustration,Unglaublich.,expressing frustration
 02.014.4,B,Restating Given Values,Restating Given Values,25 ist AC und dann 2 zu 5,restating given information
-02.014.5,B,Proposing Calculation Approach,Proposing Calculation Approach,25 dann mal 2 Fünftel,Proposing Calculation Approach
+02.014.5,B,Proposing Calculation Approach,Proposing Calculation Approach,25 dann mal 2 Fünftel,considering solving strategy
 02.014.6,B,Self-Correcting Ratio Interpretation,Self-Correcting Ratio Interpretation,2 zu 5 ist ja nicht das gleiche wie 2 Fünftel,correcting own solution step
 02.014.7,B,Signaling Uncertainty While Continuing,Signaling Uncertainty While Continuing,Da habe ich auf jeden Fall noch so im Kopf. Mal gucken.,Signaling Uncertainty While Continuing
 02.014.8,B,Abandoning Further Analysis,Abandoning Further Analysis,Egal.,Abandoning Further Analysis
@@ -223,7 +223,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.002.4b,E,Self-correcting interpretation,Self-correcting interpretation,"warte mal, ist die, das Verhältnis der Längen",correcting own understanding
 04.002.5,E,Confirming initial interpretation,Confirming initial interpretation,das wäre jetzt auch so mein Gedanke gewesen,confirming solution steps
 04.002.6,E,Restating given ratio,Restating given ratio,das Verhältnis ist 2 zu 5,restating given information
-04.002.7,E,Proposing initial solution approach,Proposing initial solution approach,mein erster Ansatz,Proposing initial solution approach
+04.002.7,E,Proposing initial solution approach,Proposing initial solution approach,mein erster Ansatz,considering solving strategy
 04.002.8,E,Reasoning through ratio with analogy,Reasoning through ratio with analogy,"wenn ich einen Schritt gehe, sind es in Wirklichkeit 5",reasoning by analogy
 04.002.9,E,Reformulating problem goal,Reformulating problem goal,die Länge von AB berechnen,Reformulating problem goal
 04.002.10,E,Questioning input formatting,Questioning input formatting,"Ist das Backslash, bin ich blind?",managing experiment logistics
@@ -279,7 +279,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.013.2,E,Reporting formula derivation to LLM,Reporting formula derivation to LLM,x = (AB*5)/2,Reporting formula derivation to LLM
 04.013.3,E,Reporting calculation result to LLM,Reporting calculation result to LLM,"ein x von 62,5",Reporting calculation result to LLM
 04.013.4,E,Requesting next steps from LLM,Requesting next steps from LLM,Wie gehe ich weiter vor um daraus AC zu erhalten,requesting guidance from LLM
-04.013.5,E,Proposing hypothesis to LLM for verification,Proposing hypothesis to LLM for verification,Gilt hier evetl. eine Transitiviät?,Proposing hypothesis to LLM for verification
+04.013.5,E,Proposing hypothesis to LLM for verification,Proposing hypothesis to LLM for verification,Gilt hier evetl. eine Transitiviät?,requesting verification by LLM
 04.015.1,E,Reading LLM's CoT (think-block) aloud,Reading LLM's CoT explanation aloud,Die Länge von AB zu bestimmen,reading LLM's CoT
 04.015.2,E,Recognizing calculation inconsistency,Recognizing calculation inconsistency,das ergibt wenig Sinn,recognizing own error
 04.015.3,E,Re-reading LLM guidance aloud,Re-reading LLM guidance aloud,erinnere dich daran,reading LLM's guidance
@@ -355,12 +355,12 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.040.6,E,Dictating given values for LLM,Dictating given values for LLM,Kante von AC die Länge 12,formulating LLM message
 04.040.7,E,Dictating given values for LLM,Dictating given values for LLM,BD die Länge 16,formulating LLM message
 04.040.8,E,Dictating goal for LLM,Dictating goal for LLM,Länge der Kanten zu berechnen,formulating LLM message
-04.040.9,E,Proposing own hypothesis about symmetry,Proposing own hypothesis about symmetry,müsste ich ja nur eine Kante berechnen,Proposing own hypothesis about symmetry
+04.040.9,E,Proposing own hypothesis about symmetry,Proposing own hypothesis about symmetry,müsste ich ja nur eine Kante berechnen,considering solving strategy
 04.040.10,E,Completing hypothesis about edge symmetry,Completing hypothesis about edge symmetry,die anderen Kanten identisch sind,Completing hypothesis about edge symmetry
 04.041.1,E,Stating given information to LLM,Stating given information to LLM,Diamant mit vier Kanten,stating information to LLM
 04.041.2,E,Stating goal to LLM,Stating goal to LLM,Länge der Kanten zu berechnen,stating information to LLM
 04.041.3,E,Requesting approach from LLM,Requesting approach from LLM,Wie würde ich dabei vorgehen,requesting guidance from LLM
-04.041.4,E,Proposing own hypothesis to LLM,Proposing own hypothesis to LLM,müsste ich ja nur eine Kante berechnen,Proposing own hypothesis to LLM
+04.041.4,E,Proposing own hypothesis to LLM,Proposing own hypothesis to LLM,müsste ich ja nur eine Kante berechnen,requesting verification by LLM
 04.043.1,E,Reading LLM response aloud,Reading LLM's restated known information,senkrecht aufeinander stehen und sich gegenseitig halbieren,reading LLM's restaded known information
 04.043.2,E,Interpreting geometric properties,Interpreting geometric properties,mit einem halben Winkel arbeiten,"Beginning own reasoning, building on LLM's hint"
 04.043.3,E,Formulating clarifying question,Formulating clarifying question for LLM,inwiefern muss ich halbieren,formulating LLM message
@@ -368,7 +368,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.043.5,E,Elaborating solution reasoning,Elaborating solution reasoning,dass ich mir eine Kante hole,Elaborating solution reasoning
 04.043.6,E,Formulating verification question for LLM,Formulating verification question for LLM,"Macht es Sinn, die Länge von AC und BD zu halbieren",formulating LLM message
 04.044.1a,E,Stating interpretation and question to LLM,Stating interpretation and question to LLM,In wie fern muss ich halbieren?,requesting clarification from LLM
-04.044.1b,E,Proposing approach for LLM verification,Proposing approach for LLM verification,Macht es Sinn die Länge von AC und BD zu halbieren,Proposing approach for LLM verification
+04.044.1b,E,Proposing approach for LLM verification,Proposing approach for LLM verification,Macht es Sinn die Länge von AC und BD zu halbieren,requesting verification by LLM
 04.046.1,E,Reading LLM response aloud,Reading LLM's restated known information,bilden ... ein rechtwinkliges Dreieck,reading LLM's restaded known information
 04.046.2,E,Recognizing applicable method,Recognizing applicable method,"Okay, Pythagoras",recognizing solution step
 04.046.3,E,Computing half-diagonal values,Computing half-diagonal values,"AC halbe sind sechs, BD halbe sind acht",deriving solution step
@@ -1168,7 +1168,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.054.5,B,clarifying fraction bar notation,clarifying fraction bar notation,Dem Strich?,managing experiment logistics
 11.056.1,B,verbalizing message before sending,verbalizing message before sending,...von 25 müsste dann 10 sein,verbalizing message before sending
 11.056.2,B,dictating punctuation for message,dictating punctuation for message,Fragezeichen,formulating LLM message
-11.057.1,B,proposing calculated answer to LLM for verification,proposing calculated answer to LLM for verification,2/5 von 25 müsste dann 10 sein?,proposing calculated answer to LLM for verification
+11.057.1,B,proposing calculated answer to LLM for verification,proposing calculated answer to LLM for verification,2/5 von 25 müsste dann 10 sein?,requesting verification by LLM
 11.059.1,B,expressing frustration at response,Expressing frustration,Fuck,expressing frustration
 11.059.2,B,reading response evaluation aloud,reading response evaluation aloud,Fast richtig,reading LLM's feedback
 11.059.3,B,reading response aloud verbatim,Reading LLM's restated known information,"Denk daran, dass du das Verhältnis AB zu AC gleich 2/5 ist",reading LLM's restaded known information
@@ -1392,7 +1392,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.022.5,E,Self-correcting miscalculation,Self-correcting miscalculation,"Nee, Quatsch, der Radius ist 5",correcting own solution step
 15.022.6,E,Correcting radius/diameter confusion,Correcting radius/diameter confusion,"nicht der Durchmiss, sondern der Radius ist 5",correcting own understanding
 15.022.7,E,Restating sub-goal,Restating sub-goal,diesen Abstand bekommen zwischen dieser Sehne und dem Mittelpunkt,restating problem goal
-15.022.8,E,Proposing solution approach,Proposing solution approach,ich nehme den Radius und berechne dadurch die Differenz,Proposing solution approach
+15.022.8,E,Proposing solution approach,Proposing solution approach,ich nehme den Radius und berechne dadurch die Differenz,considering solving strategy
 15.022.9,E,Formulating question for chatbot,Formulating question for LLM,wie man aus dem Radius eine gewisse Differenz berechnen kann,formulating LLM message
 15.023.1,E,Requesting method from chatbot,Requesting method from LLM,wie kann man eine differenz berechnen,requesting guidance from LLM
 15.025.1,E,Paraphrasing chatbot's response,Paraphrasing LLM's response,ich möchte genau diese Differenz wissen,Paraphrasing LLM's response
