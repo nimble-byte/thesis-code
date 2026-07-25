@@ -429,13 +429,13 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.010.5,B,Performing radian conversion calculation,Performing radian conversion calculation,Grad waren... 32... mal...Pi,deriving solution step
 05.012.1,B,Locating calculator function,Locating calculator function,Wo ist Pi? Wo ist Pi?,Locating calculator function
 05.012.2,B,Continuing radian conversion calculation,Continuing radian conversion calculation,Pi durch...180,deriving solution step
-05.012.3,B,Recording calculated radian value,Recording calculated radian value,"Radiant ist 0,5850536",Recording calculated radian value
+05.012.3,B,Recording calculated radian value,Recording calculated radian value,"Radiant ist 0,5850536",deriving solution step
 05.012.4,B,Announcing arc-length calculation step,Announcing arc-length calculation step,die Bogenlänge ist dann,restating solution step
 05.012.5,B,Continuing arc-length calculation,Continuing arc-length calculation,das mal Radius,deriving solution step
 05.012.6,B,Recalling radius value,Recalling radius value,Radius sind 18,restating given information
 05.012.7,B,Anticipating calculation result,Anticipating calculation result,"Heißt, die [Antwort ist]...",Anticipating calculation result
 05.012.8,B,Noting mismatch between own result format and answer options,Noting mismatch between own result format and answer options,Das sind natürlich schöne Antwortmöglichkeiten,noticing problem
-05.012.9,B,Recording computed result,Recording computed result,die Bogenlänge... auf etwa 10 komma 5 berechnet,Recording computed result
+05.012.9,B,Recording computed result,Recording computed result,die Bogenlänge... auf etwa 10 komma 5 berechnet,deriving solution step
 05.012.10,B,Noting answer-option format discrepancy,Noting answer-option format discrepancy,die Antwortmöglichkeiten in...,noticing problem
 05.012.11,B,Deciding to convert answer options using calculator,Deciding to convert answer options using calculator,"es macht mehr Sinn, das einfach kurz... auszurechnen",deciding next solution step
 05.012.13,B,Computing decimal equivalent of answer option,Computing decimal equivalent of answer option,"mal 18 sind 10,05309",deriving solution step
@@ -757,7 +757,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.058.2,E,Solving equation for x,Solving equation for x,x ist gleich 9 minus b^2 und daraus die Wurzel,Solving equation for x
 08.059.1,E,Submitting solved expression for x to chatbot,Submitting solved expression for x to LLM,x = √(9 - b^2),submitting information to LLM
 08.060.1,E,Transcribing rearranged equation onto paper,Transcribing rearranged equation onto paper,Ich schreibe es mir wieder auf,Transcribing rearranged equation onto paper
-08.060.2,E,Recording expression on paper,Recording expression on paper,x gleich 9 minus b^2 und daraus die Wurzel,Recording expression on paper
+08.060.2,E,Recording expression on paper,Recording expression on paper,x gleich 9 minus b^2 und daraus die Wurzel,taking notes
 08.062.1,E,Reading chatbot's follow-up question,Reading LLM's follow-up question,"Denk daran, dass b eine Länge ist und daher positiv sein muss",reading LLM's questions
 08.062.2,E,Re-reading chatbot's question for emphasis,Re-reading LLM's question,"Denk daran, dass b eine Länge ist und daher positiv sein muss",reading LLM's questions
 08.062.3,E,Recognizing unresolved variable b in solution,Recognizing unresolved variable b in solution,wir haben da immer noch ein b^2 dran,recognizing solution step
@@ -800,7 +800,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.065.2,E,Recalling boundary computation,Recalling boundary computation,Wurzel aus 9 und Wurzel aus 0,recalling own prior work
 08.065.3,E,Deriving bound for x,Deriving bound for x,X müsste größer 0 sein und kleiner 3,deriving solution step
 08.065.4,E,Restating derived bound for x for emphasis,Restating derived bound for x for emphasis,größer als 0 sein und kleiner als 3,restating solution step
-08.065.5,E,Recording bound for x on paper,Recording bound for x on paper,"0, kleiner X, kleiner 3",Recording bound for x on paper
+08.065.5,E,Recording bound for x on paper,Recording bound for x on paper,"0, kleiner X, kleiner 3",taking notes
 08.066.1,E,Submitting derived bound for x to chatbot,Submitting derived bound for x to LLM,x muss größer als 0 sein und kleiner als 3,submitting information to LLM
 08.068.1,E,Reading chatbot's follow-up question,Reading LLM's follow-up question,den Wert für X auswählen?,reading LLM's questions
 08.068.2,E,Deciding to inspect chatbot's CoT,Deciding to inspect LLM's CoT,den Denkprozess nochmal an,Deciding to verify LLM output
@@ -1340,10 +1340,10 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.002.6,E,Extracting given value,Extracting given value,die Linie zwischen A und B ist 8,Extracting given value
 15.002.7,E,Restating task question,Restating task question,wie groß ist die Distanz von der Mitte des Kreises zu Linie A und B,restating problem goal
 15.002.8,E,Externalizing information via note-taking,Externalizing information via note-taking,"ich schreibe mir mal erst mal auf, weil das mir ein bisschen hilft",Externalizing information via note-taking
-15.002.9,E,Recording given value (note-taking),Recording given value,gegeben ist der Kreis hat einen Radius,Recording given value
-15.002.10,E,Recording given value (note-taking),Recording given value,Der Kreis hat einen Radius von 5,Recording given value
+15.002.9,E,Recording given value (note-taking),Recording given value,gegeben ist der Kreis hat einen Radius,restating given information
+15.002.10,E,Recording given value (note-taking),Recording given value,Der Kreis hat einen Radius von 5,restating given information
 15.002.11,E,Assigning variable notation,Assigning variable notation,5 ist der r,Assigning variable notation
-15.002.12,E,Recording given value (note-taking),Recording given value,die Linie AB ist 8,Recording given value
+15.002.12,E,Recording given value (note-taking),Recording given value,die Linie AB ist 8,restating given information
 15.002.13,E,Restating task question,Restating task question,Wie groß ist die Distanz von der Mitte des Kreises zu Linie AB,restating problem goal
 15.002.15,E,Recalling candidate formula,Recalling candidate formula,man weiß ungefähr die Fläche auszurichten,recalling math knowledge
 15.002.16,E,Recalling formula with self-doubt,Recalling formula with self-doubt,"r^2 mal Pi, wenn ich mich nicht recht täusche",recalling math knowledge
@@ -1407,7 +1407,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.028.7,E,Deciding to ask chatbot for clarification,Deciding to ask LLM for clarification,"welche der Variablen war, welche Seite war die Hypotenuse",deciding to ask LLM for information
 15.029.1,E,Requesting clarification from chatbot,Requesting clarification from LLM,welche variablen ... waren für welchen buchstaben im satz des Pythagoras,requesting clarification from LLM
 15.031.1,E,Paraphrasing chatbot's response,Paraphrasing LLM's response,die Hypotenuse und die beiden Katheten,Paraphrasing LLM's response
-15.031.2,E,Recording mapped value with uncertainty,Recording mapped value with uncertainty,"die Sehnenlänge 4, das ist die Kathete",Recording mapped value with uncertainty
+15.031.2,E,Recording mapped value with uncertainty,Recording mapped value with uncertainty,"die Sehnenlänge 4, das ist die Kathete",deriving solution step
 15.031.3,E,Noticing inconsistency in own reasoning,Noticing inconsistency in own reasoning,das irgendwie keinen Sinn macht,Noticing inconsistency in own reasoning
 15.031.4,E,Attributing confusion to own unclear phrasing,Attributing confusion to own unclear phrasing,Die eine Seite vom Mittelpunkt zu B oder zu A kann nicht 5 sein,attributing LLM's confusion to own action
 15.031.5,E,Identifying source of confusion,Identifying source of confusion,Die 5 wäre ja natürlich der Radius,identifying own knowledge gap
@@ -1436,7 +1436,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.042.2,E,Describing figure,Describing figure,Beide sind unterschiedlich lang,Describing figure
 15.042.3,E,Restating task question and given ratio,Restating task question,ein Verhältnis ... zu a und c ist 2 durch 5,restating problem goal
 15.042.4,E,Externalizing information via note-taking,Externalizing information via note-taking,ich schreibe mir das erstmal nochmal alles auf,Externalizing information via note-taking
-15.042.5,E,Recording given ratio,Recording given ratio,AB zu AC ist 2 durch 5,Recording given ratio
+15.042.5,E,Recording given ratio,Recording given ratio,AB zu AC ist 2 durch 5,restating given information
 15.042.6,E,Converting ratio to fraction,Converting ratio to fraction,wäre das dann 2/5,Converting ratio to fraction
 15.042.7,E,Restating sub-question,Restating sub-question,wie lang ist es dann von a zu c,restating problem goal
 15.042.8,E,Restating sub-goal,Restating sub-goal,Wir suchen jetzt den Abstand aber zwischen a und b,restating problem goal
@@ -1453,16 +1453,16 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.051.4,E,Planning algebraic manipulation,Planning algebraic manipulation,"mit 25 zu multiplizieren, sodass quasi AB allein steht",planning next solution step
 15.051.5,E,Calculating answer using calculator,Calculating answer using calculator,"Ich multipliziere nun 2,5 mit 25",deriving solution step
 15.051.6,E,Orienting to new task,Orienting to new task,Wir haben nun diesmal vier Längen,Orienting to new task
-15.051.7,E,Recording given values,Recording given values,Die Gesamtlänge AB ist 10. M ist quasi die Mitte der Linie AB,Recording given values
+15.051.7,E,Recording given values,Recording given values,Die Gesamtlänge AB ist 10. M ist quasi die Mitte der Linie AB,restating given information
 15.051.8,E,Calculating midpoint segment,Calculating midpoint segment,Also müsste das 5 sein,deriving solution step
 15.051.9,E,Re-reading and clarifying task description,Re-reading and clarifying task description,C ist die Mitte des Abstandes zu MB,reading given information
 15.051.10,E,Calculating segment length,Calculating segment length,"dann ist C also 2,5",deriving solution step
-15.051.11,E,Recording given value,Recording given value,N ist ein Punkt auf der Linie A und M. Und MN ist 1,Recording given value
+15.051.11,E,Recording given value,Recording given value,N ist ein Punkt auf der Linie A und M. Und MN ist 1,restating given information
 15.051.12,E,Restating task question,Restating task question,wie kommt man auf die Länge N und C,restating problem goal
 15.051.13,E,Consolidating known segment lengths,Consolidating known segment lengths,"B zu C ist 2,5",Consolidating known segment lengths
 15.051.14,E,Planning to compute segment via subtraction,Planning to compute segment via subtraction,eine Differenz rauszurechnen,planning next solution step
 15.051.15,E,Correcting segment length estimate,Correcting segment length estimate,"sie ist 2,5. Oder nein, sie ist 5",correcting own solution step
-15.051.16,E,Recording segment value,Recording segment value,"Innerhalb dieser Linie ist C. Das ist 2,5",Recording segment value
+15.051.16,E,Recording segment value,Recording segment value,"Innerhalb dieser Linie ist C. Das ist 2,5",deriving solution step
 15.051.17,E,Summing known segments,Summing known segments,"Zwischen C und M sind 2,5. Und dann nochmal 2,5",Summing known segments
 15.051.18,E,Computing final answer via summation,Computing final answer via summation,"Das müssen dann 3,5 sein",deriving solution step
 15.051.19,E,Confirming answer matches options,Confirming answer matches options,Das steht auch hier als Auswahl,confirmation of problem facts

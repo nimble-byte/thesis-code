@@ -51,3 +51,5 @@
 - re-coded "proposing" family
 - introduced pattern code "reaffirming own hypothesis"
 - re-coded "reaffirming" family (partially)
+- introduced pattern code "taking notes"
+- re-coded "recording" family (partially)
