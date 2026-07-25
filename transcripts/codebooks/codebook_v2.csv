@@ -64,7 +64,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 01.011.14b,E,Reiterating chatbot's helpfulness,Reiterating LLM's helpfulness,hat mir dann gut geholfen,Reiterating LLM's helpfulness
 02.004.1,B,Flagging Perceived Missing Translation,Flagging Perceived Missing Translation,Ist aber nicht übersetzt.,Flagging Perceived Missing Translation
 02.006.1,B,Locating Translated Text,Locating Translated Text,der drunter,Locating Translated Text
-02.006.2,B,Clarifying Text Equivalence,Clarifying Text Equivalence,das ist der gleiche Text?,Clarifying Text Equivalence
+02.006.2,B,Clarifying Text Equivalence,Clarifying Text Equivalence,das ist der gleiche Text?,managing experiment logistics
 02.008.1,B,Acknowledging Own Oversight,Acknowledging own oversight,"Ich habe nicht gesehen, dass das der gleiche Text ist.",acknowledging own error
 02.008.2,B,Reading Task Statement Aloud,Reading task statement aloud,"das Verhältnis der Längen der Abschnitte AB zu AC 2, 5",reading problem statement
 02.008.3,B,Reading Task Statement Aloud,Reading task statement aloud,"Wenn AC die Länge 25 hat, wie lang ist dann AB?",reading problem statement
@@ -250,7 +250,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.007.10,E,Signaling intent to work independently,Signaling intent to work independently,zusammenpuzzeln,Signaling intent to work independently
 04.007.11,E,Hesitating before formulating question,Hesitating before formulating question,"Ich frage, was der",Hesitating before formulating question
 04.007.12,E,Formulating clarifying question for LLM,Formulating clarifying question for LLM,Die unbekannte X stellt dann am Ende genau was dar,formulating LLM message
-04.008.1,E,Sending clarifying question to LLM,Sending clarifying question to LLM,Die Unbekannte x stellt dann am Ende genau was dar?,Sending clarifying question to LLM
+04.008.1,E,Sending clarifying question to LLM,Sending clarifying question to LLM,Die Unbekannte x stellt dann am Ende genau was dar?,requesting clarification from LLM
 04.010.1,E,Reading LLM response aloud,Reading LLM's restated known information,Die Länge von B nach C,reading LLM's restaded known information
 04.010.2,E,Reading LLM response aloud,Reading LLM's restated known information,teilt den Strahl in zwei Teile,reading LLM's restaded known information
 04.010.3,E,Trailing off mid-thought,Trailing off mid-thought,kann ich natürlich dann daraus,Trailing off mid-thought
@@ -336,7 +336,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.036.7,E,Restating given values and goal,Restating Given Values,"Ziel ist es, die Länge des Kreisabschnittes zu berechnen",restating given information
 04.036.8,E,Reasoning about relevant quantity,Reasoning about relevant quantity,die für mich jetzt so gesehen interessant ist,Reasoning about relevant quantity
 04.036.9,E,Identifying arc as relevant quantity,Identifying arc as relevant quantity,vom Kreis die Bahn,identifying unknown information
-04.036.10,E,Clarifying goal using analogy,Clarifying goal using analogy,den Kuchenrand,Clarifying goal using analogy
+04.036.10,E,Clarifying goal using analogy,Clarifying goal using analogy,den Kuchenrand,self-explaining through analogy
 04.036.11,E,Deciding to consult LLM for guidance,Deciding to consult LLM for guidance,in die richtige Richtung lotsen kann,deciding to ask LLM for guidance
 04.037.1a,E,Stating given information to LLM,Stating given information to LLM,Kuchstückähnlichen abschnitt,stating information to LLM
 04.037.1b,E,Stating goal to LLM,Stating goal to LLM,Länge des Kreisabschnittes zu berechnenen,stating information to LLM
@@ -452,7 +452,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.016.9,B,Expressing trust in chatbot-provided method,Expressing trust in LLM-provided method,"Ich schenke ihm Glauben und komme auf genau das, was hier steht",expressing satisfaction
 05.016.11,B,Announcing task reading,Announcing task reading,Wollen wir mal wieder lesen,planning next solution step
 05.016.12,B,Questioning task terminology,Questioning task terminology,"Ich weiß nicht, ob da Diamanat stehen soll?",questioning problem language
-05.016.13,B,Seeking clarification of terminology,Seeking clarification of terminology,Oder Diamant?,Seeking clarification of terminology
+05.016.13,B,Seeking clarification of terminology,Seeking clarification of terminology,Oder Diamant?,managing experiment logistics
 05.020.3,B,Extracting given diagonal value,Extracting given diagonal value,A zu C ist 12,Extracting given diagonal value
 05.020.4,B,Restating task question,Restating task question,Wie lang sind die Kanten des Diamanten?,restating problem goal
 05.020.6,B,Deciding to copy task using established routine,Deciding to copy task using established routine,"Klassischer Weg, wieder kopieren",managing experiment logistics
@@ -495,7 +495,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.025.28,B,Self-correcting by taking square root,Self-correcting by taking square root,das ist 10... weil Wurzel,correcting own solution step
 05.025.29,B,Reasoning toward perimeter using side symmetry,Reasoning toward perimeter using side symmetry,"da die Seiten alle gleich sind, ist der Umfang von dem Teil...",Reasoning toward perimeter using side symmetry
 05.025.30,B,Re-reading task question to check answer scope,Re-reading task question to check answer scope,wie lang sind die Kanten?,reading problem statement
-05.025.31,B,Clarifying answer scope as single edge,Clarifying answer scope as single edge,wir rechnen nur vor einer Kante,Clarifying answer scope as single edge
+05.025.31,B,Clarifying answer scope as single edge,Clarifying answer scope as single edge,wir rechnen nur vor einer Kante,correcting own solution step
 05.025.32,B,Finalizing answer with alternative scope noted,Finalizing answer,"eine Kante 10, ansonsten werden es 40",Finalizing answer
 07.002.1,E,Stating problem givens,Stating problem givens,einen Kreis mit einem Radius 5 und die Länge der Linie AB ist 8,restating given information
 07.002.2,E,Restating problem question,Restating problem question,Wie groß ist die Distanz von der Mitte des Kreises zur Linie AB?,restating problem goal
@@ -572,7 +572,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.002.1,E,Restating problem parameters,Restating problem parameters,Kreis O hat einen Radius von 5 und die Länge der Linie AB ist 8,restating given information
 08.002.2,E,Restating problem question,Restating problem question,Wie groß ist die Distanz von der Mitte des Kreises O zur Linie AB?,restating problem goal
 08.002.3,E,Planning auxiliary construction,Planning auxiliary construction,da würde ich jetzt mir ein Dreieck einzeichnen,planning next solution step
-08.002.4,E,Clarifying note-taking protocol,Clarifying note-taking protocol,willst du die Notizen noch haben?,Clarifying note-taking protocol
+08.002.4,E,Clarifying note-taking protocol,Clarifying note-taking protocol,willst du die Notizen noch haben?,managing experiment logistics
 08.004.1,E,Constructing auxiliary triangle,Constructing auxiliary triangle,die Linien vom Mittelpunkt nach A und nach B ziehen,Constructing auxiliary triangle
 08.004.2,E,Identifying known triangle side lengths,Identifying known triangle side lengths,"die Linie AB, die die Länge 8 hat und die beiden Seiten, die die Länge 5 haben",identifying given information
 08.004.3,E,Reframing distance as triangle height,Reframing distance as triangle height,"die Distanz von der Mitte bis AB, quasi die Höhe",Reframing distance as triangle height
@@ -608,7 +608,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.015.3,E,Recognizing restated task in reasoning,evaluating LLM response content,das ist die Aufgabe,identifying given information
 08.015.4,E,Reading chatbot's stated assumption,Reading LLM's stated assumption,es handelt sich um ein rechtwinkliges Dreieck mit CP als Höhe,reading LLM's restaded known information
 08.015.5,E,Challenging chatbot's assumption,Challenging LLM's assumption,das Dreieck selber ist nicht rechtwinklig,Challenging LLM's assumption
-08.015.6,E,Clarifying correct right-angle location,Clarifying correct right-angle location,den rechten Winkel zwischen ... der eingezeichneten Linie und der Kante,Clarifying correct right-angle location
+08.015.6,E,Clarifying correct right-angle location,Clarifying correct right-angle location,den rechten Winkel zwischen ... der eingezeichneten Linie und der Kante,scrutinizing LLM response
 08.015.7,E,Confirming CP as height/altitude,deriving solution step,CP als Höhe,deriving solution step
 08.015.8,E,Judging chatbot's statement as incorrect,Judging LLM's statement as incorrect,die Aussage ... ist schon mal falsch,Judging LLM's statement as incorrect
 08.015.9,E,Reading chatbot's restated givens,Reading LLM's restated givens,Die Längen AC und BC sind gegeben,reading LLM's restaded known information
@@ -869,7 +869,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 09.010.5,E,Finalizing answer via rounding,Finalizing answer,"7,14, dann ist das dementsprechend 8",Finalizing answer
 09.010.6,E,Restating problem information,Restating problem information,sollen einen Streckenabschnitt auf dem Außenkreis berechnen,restating given information
 09.010.7,E,Identifying given information,Identifying given information,den Radius gegeben und unser X,identifying given information
-09.010.8,E,Clarifying variable meaning,Clarifying variable meaning,unser X ist der Winkel,Clarifying variable meaning
+09.010.8,E,Clarifying variable meaning,Clarifying variable meaning,unser X ist der Winkel,identifying given information
 09.010.9,E,Deciding to consult chatbot for formula,Deciding to consult LLM for formular,dafür gibt es aber einen guten Chatbot,deciding to ask LLM for information
 09.011.1,E,Requesting formula from chatbot,Requesting formula from LLM,Wie ist die Formle zur Berechung des Umfangs eines Kreises,requesting information from LLM
 09.013.1a,E,Reflecting on chatbot reliance strategy,Reflecting on LLM reliance strategy,ohne mir jetzt selbst weiter Gedanken machen zu müssen,Reflecting on LLM reliance strategy
@@ -971,7 +971,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.030.1,E,Requesting formula from LLM,Requesting formula from LLM,Wie lautet sie?,requesting information from LLM
 10.032.2,E,"Parsing formula, identifying target variable","Parsing formula, identifying target variable","L, also die Bogenlänge, das ist das, was gesucht wird","Parsing formula, identifying target variable"
 10.032.3,E,Expressing confusion about formula symbol,Expressing confusion,"was das ist, so eine Art Grad, keine Ahnung",Encountering impasse
-10.034.1,E,Parsing formula with clarified symbol,Parsing formula with clarified symbol,Null mit einem Strich durch,Parsing formula with clarified symbol
+10.034.1,E,Parsing formula with clarified symbol,Parsing formula with clarified symbol,Null mit einem Strich durch,managing experiment logistics
 10.036.1,E,Describing substitution strategy,Describing substitution strategy,ich schreibe mir immer die Formel auf und setze schon mal ein,Describing substitution strategy
 10.036.2,E,Restating target variable,Restating target variable,"L ist die Bogenlänge, die wird gesucht",restating problem goal
 10.036.3,E,Substituting symbol with task variable,Substituting symbol with task variable,ist in meinem Fall X,Substituting symbol with task variable
@@ -1093,7 +1093,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.030.7,B,confirming task identity,confirming task identity,"das ist jetzt die besagte Task, ja?",managing experiment logistics
 11.030.9,B,restating task given values,restating task given values,"A bis C ist gleich 6, BC ist gleich 3",restating given information
 11.030.10,B,working out spatial configuration,working out spatial configuration,Der P liegt zwischen A und B,working out spatial configuration
-11.030.11,B,clarifying spatial understanding,clarifying spatial understanding,der Punkt P liegt irgendwo auf der Strecke zwischen A und B,clarifying spatial understanding
+11.030.11,B,clarifying spatial understanding,clarifying spatial understanding,der Punkt P liegt irgendwo auf der Strecke zwischen A und B,identifying given information
 11.030.12,B,checking own translation comprehension,checking own translation comprehension,dass ich das Englisch richtig verstanden habe,managing experiment logistics
 11.030.13,B,reiterating spatial restatement,reiterating spatial restatement,Liegt irgendwo auf der Strecke zwischen A und B,reiterating spatial restatement
 11.030.14,B,declaring sequential reading strategy,declaring sequential reading strategy,Ich lese mal von oben nach unten,declaring sequential reading strategy
@@ -1102,7 +1102,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.030.17,B,restating question in own words,restating question in own words,wie lang ist C von da nach da?,restating problem goal
 11.030.18,B,deliberating how to phrase query to LLM,deliberating how to phrase query to LLM,Wie frage ich den jetzt?,deliberating how to phrase query to LLM
 11.030.19,B,deciding to proceed despite uncertainty,deciding to proceed despite uncertainty,fangen wir jetzt mal mit dem P an,deciding next solution step
-11.032.1,B,clarifying interface action,clarifying interface action,kann es hin?,clarifying interface action
+11.032.1,B,clarifying interface action,clarifying interface action,kann es hin?,managing experiment logistics
 11.032.2,B,confirming recollection of interface shortcut,confirming recollection of interface shortcut,"Das war das Command N, ne?",managing experiment logistics
 11.032.3,B,expressing lack of understanding of task difficulty,expressing lack of understanding of task difficulty,warum die Aufgabe so schwer ist,Encountering impasse
 11.032.4,B,deciding to consult LLM due to confusion,deciding to consult LLM due to confusion,Deswegen frage ich ihn erstmal,deciding to ask LLM for guidance
@@ -1165,7 +1165,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.054.2,B,seeking permission to ask LLM directly,seeking permission to ask LLM directly,"kann ich ihn das fragen, oder?",seeking permission to ask LLM directly
 11.054.3,B,determining fraction notation for input,determining fraction notation for input,wie schreibt man dann 2/5?,determining fraction notation for input
 11.054.4,B,seeking reassurance about notation,seeking reassurance about notation,So?,seeking reassurance about notation
-11.054.5,B,clarifying fraction bar notation,clarifying fraction bar notation,Dem Strich?,clarifying fraction bar notation
+11.054.5,B,clarifying fraction bar notation,clarifying fraction bar notation,Dem Strich?,managing experiment logistics
 11.056.1,B,verbalizing message before sending,verbalizing message before sending,...von 25 müsste dann 10 sein,verbalizing message before sending
 11.056.2,B,dictating punctuation for message,dictating punctuation for message,Fragezeichen,formulating LLM message
 11.057.1,B,proposing calculated answer to LLM for verification,proposing calculated answer to LLM for verification,2/5 von 25 müsste dann 10 sein?,proposing calculated answer to LLM for verification
@@ -1268,7 +1268,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 13.007.1,B,Formulating query to chatbot,Formulating clarifying question for LLM,"was ist die Formel, um den Kreisumfang zu berechnen, wenn r gegeben ist?",formulating LLM message
 13.008.1,B,Querying chatbot for formula,Querying LLM for formula,Was ist die Formel um den Kreis umfang zu berechnen wenn r gegeben ist?,Querying LLM for formula
 13.009.1,B,Navigating chatbot interface,Navigating LLM interface,Welche soll ich nehmen?,Navigating LLM interface
-13.011.1,B,Clarifying task procedure with researcher,Clarifying task procedure with researcher,"wenn ich neue Aufgabe habe, da halte ich es direkt rein",Clarifying task procedure with researcher
+13.011.1,B,Clarifying task procedure with researcher,Clarifying task procedure with researcher,"wenn ich neue Aufgabe habe, da halte ich es direkt rein",managing experiment logistics
 13.014.1a,B,Confirming formula from response,Confirming formula from response,"das war 2PiR, damit weißt du den Umfang",confirming LLM's guidance
 13.014.1b,B,Calculating result from formula,Calculating result from formula,"Wenn R 18 ist, dann habe ich 36Pi",Calculating result from formula
 13.014.2,B,Planning next calculation step,Planning next calculation step,"wenn der Winkel 32 Grad ist, würde ich das so rechnen",planning next solution step

@@ -37,3 +37,5 @@
 - introduced pattern codes "acknowledging own error", "acknowledging own knowledge gap"
 - re-coded complete "announcing" family with existing pattern codes
 - introduced pattern code "checking own progress"
+- introduced pattern codes "self-explaining through analogy", "clarifying intended request to LLM"
+- re-coded parts of the "clarifying" family
