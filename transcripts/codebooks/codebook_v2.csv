@@ -24,7 +24,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 01.007.1,E,Reading chatbot response aloud,Reading LLM response aloud,das können wir zusammen herausfinden,Reading LLM response aloud
 01.007.2,E,Confirming chatbot's hint as correct,Confirming LLM's hint as correct,"Stimmt, es ist einfach ein Radius",confirming LLM's guidance
 01.007.3,E,Reading chatbot response aloud,Reading LLM's question,Welchen Winkel bildet normalerweise ein Radius mit dem Durchmesser,reading LLM's questions
-01.007.4,E,Reflecting on own reasoning capability relative to chatbot,Reflecting on own reasoning capability relative to LLM,Hätte ich auch selber drauf kommen können,Reflecting on own reasoning capability relative to LLM
+01.007.4,E,Reflecting on own reasoning capability relative to chatbot,Reflecting on own reasoning capability relative to LLM,Hätte ich auch selber drauf kommen können,reflecting on own capability relative to LLM
 01.007.5,E,"Re-reading chatbot response, Reading LLM's restated known information, self-correcting terminology",Endpunkt des Durchmessers, Reading LLM's restated known information,
 01.007.6,E,Acknowledging own oversight,Acknowledging own oversight,jetzt habe ich das gar nicht gesehen,acknowledging own error
 01.007.7,E,Identifying element in diagram,Identifying element in diagram,Das ist der Radius OB,identifying given information
@@ -255,7 +255,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 04.010.2,E,Reading LLM response aloud,Reading LLM's restated known information,teilt den Strahl in zwei Teile,reading LLM's restaded known information
 04.010.3,E,Trailing off mid-thought,Trailing off mid-thought,kann ich natürlich dann daraus,Trailing off mid-thought
 04.010.4,E,Setting up equation,Setting up equation,AB Strich ist gleich durch X,Setting up equation
-04.010.5,E,Reflecting on earlier misunderstanding,Reflecting on earlier misunderstanding,"anfangs nicht gesehen, dass man das ja als Bruch schreiben kann",Reflecting on earlier misunderstanding
+04.010.5,E,Reflecting on earlier misunderstanding,Reflecting on earlier misunderstanding,"anfangs nicht gesehen, dass man das ja als Bruch schreiben kann",reflecting on own performance
 04.010.6,E,Expressing self-doubt about approach,Expressing self-doubt,auf dem Holzweg,expressing doubt
 04.010.7,E,Tentatively formulating equation terms,Formulating equation,Fünf durch X,deriving solution step
 04.010.8,E,Concluding equation setup,Concluding equation setup,Das wäre mein X,deriving solution step
@@ -825,7 +825,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.068.23,E,Identifying target segment on diagram,Identifying target segment on diagram,der hier ist gesucht,identifying unknown information
 08.068.24,E,Reasoning about relative point positions,Reasoning about relative point positions,C liegt auf der Hälfte von MB und M ist die Hälfte von MA,restating given information
 08.068.25,E,Computing target length via segment addition,Computing target length via segment addition,"NC sollte dann 1 plus 2,5 sein. Das ist gleich 3,5",deriving solution step
-08.068.26,E,Reflecting on solving the task without chatbot assistance,Reflecting on solving the task without LLM assistance,brauchte ich dann jetzt keine KI,Reflecting on solving the task without LLM assistance
+08.068.26,E,Reflecting on solving the task without chatbot assistance,Reflecting on solving the task without LLM assistance,brauchte ich dann jetzt keine KI,reflecting on offloading choice
 09.002.2,E,Restating problem information,Restating problem information,"eine große Strecke, die in zwei kleinere Strecken noch unterteilt ist",restating given information
 09.002.3,E,Identifying task goal,Identifying task goal,"soll berechnen, wie lang die kleine Strecke ist",identifying unknown information
 09.002.4,E,Identifying given information,Identifying given information,"ein Verhältnis gegeben, allerdings auch für eine Länge, die ich nicht habe",identifying given information
@@ -872,7 +872,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 09.010.8,E,Clarifying variable meaning,Clarifying variable meaning,unser X ist der Winkel,identifying given information
 09.010.9,E,Deciding to consult chatbot for formula,Deciding to consult LLM for formular,dafür gibt es aber einen guten Chatbot,deciding to ask LLM for information
 09.011.1,E,Requesting formula from chatbot,Requesting formula from LLM,Wie ist die Formle zur Berechung des Umfangs eines Kreises,requesting information from LLM
-09.013.1a,E,Reflecting on chatbot reliance strategy,Reflecting on LLM reliance strategy,ohne mir jetzt selbst weiter Gedanken machen zu müssen,Reflecting on LLM reliance strategy
+09.013.1a,E,Reflecting on chatbot reliance strategy,Reflecting on LLM reliance strategy,ohne mir jetzt selbst weiter Gedanken machen zu müssen,reflecting on own capability relative to LLM
 09.013.1b,E,Formulating chatbot query intent,Formulating LLM query,wenn ich nur einen Teil des Kreises brauche,formulating LLM message
 09.013.2,E,Self-correcting terminology (Kreis → Umfang des Kreises),Self-correcting terminology,des Umfang des Kreises,correcting own terminology
 09.014.1,E,Formulating chatbot query with problem specifics,requesting guidance from LLM,"Ich will ein Teil des Umfangs berechnen, wenn ich innen einen Winkel angegeben habe",requesting guidance from LLM
@@ -1149,7 +1149,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.045.2,B,reading task statement aloud,Reading task statement aloud,das Verhältnis der Längen der Abschnitte AB zu AC 2:5,reading problem statement
 11.047.1,B,expressing need to clarify ratio notation,expressing uncertainty,wie ich die Angabe 2 zu 5 zu verstehen habe,expressing uncertainty
 11.047.2,B,considering asking LLM for clarification,considering asking LLM for clarification,Kann ich ja fragen?,considering querying LLM
-11.047.3,B,reflecting on being out of practice,reflecting on being out of practice,"Echt krass, wenn man so lange raus ist",reflecting on being out of practice
+11.047.3,B,reflecting on being out of practice,reflecting on being out of practice,"Echt krass, wenn man so lange raus ist",reflecting on own performance
 11.047.4,B,acknowledging forgotten math knowledge,acknowledging forgotten math knowledge,Dass man das alles nicht mehr versteht,acknowledging own knowledge gap
 11.047.5,B,verbalizing query before sending,verbalizing query before sending,Wie ist in diesem Bild die Angabe 2:5 zu verstehen?,verbalizing query before sending
 11.048.1,B,requesting clarification of ratio notation,requesting clarification of ratio notation,Wie ist in diesem Bild die Angabe 2:5 zu verstehen,requesting clarification from LLM
@@ -1228,7 +1228,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.095.4,B,expressing satisfaction at success,Expressing sarcastic frustration,Geil,expressing frustration
 11.095.5,B,deciding to re-read response,deciding to re-read response,Ich lese nochmal nach,Deciding to verify LLM output
 11.095.6,B,reiterating observation of inconsistent feedback across turns,reiterating observation of inconsistent feedback across turns,"Erst sagt er, fast richtig. Dann sagt er da richtig",reiterating observation of inconsistent feedback across turns
-11.095.10,B,reflecting on wasted time from prior task,reflecting on wasted time from prior task,Habe ich die ganze Zeit umsonst gehangen,reflecting on wasted time from prior task
+11.095.10,B,reflecting on wasted time from prior task,reflecting on wasted time from prior task,Habe ich die ganze Zeit umsonst gehangen,reflecting on own performance
 11.095.13,B,reading task element aloud,reading task element aloud,A,reading given information
 11.095.15,B,reading task given value aloud,reading task given value aloud,10,reading given information
 11.095.16,B,restating task definition,restating task definition,M ist die Mitte,restating given information
@@ -1276,7 +1276,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 13.014.3b,B,Using calculator tool,Using calculator tool,Das würde ich in der Taschenrechner ... eintippen,Using calculator tool
 13.014.4,B,Questioning own calculation,Questioning own calculation,Moment was habe ich hier gerechnet,questioning oneself
 13.014.5,B,Correcting calculation approach,Self-correcting calculation approach,Ich muss andersrum rechnen,correcting own solution step
-13.014.6,B,Reflecting on calculator use,Reflecting on calculator use,Hätte ich jetzt nicht in den Taschenrechner eintippen müssen,Reflecting on calculator use
+13.014.6,B,Reflecting on calculator use,Reflecting on calculator use,Hätte ich jetzt nicht in den Taschenrechner eintippen müssen,reflecting on offloading choice
 13.014.7,B,Skipping intermediate steps,Skipping intermediate steps,keine Lust drauf [Zwischenrechnungen zu machen],Skipping intermediate steps
 13.014.8,B,Committing to answer,Committing to answer,die würde ich auch so auswählen,Committing to answer
 13.014.10,B,Orienting to task figure,Orienting to task figure,In der Abbildung gezeigt haben die Dinger von neuen Diamanten ABCD,Orienting to task figure
@@ -1331,7 +1331,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 13.026.17,B,Identifying arithmetic mistake,Identifying arithmetic mistake,mal gerechnet und nicht plus gerechnet,identifying mistake
 13.026.18,B,Recalculating with corrected formula,Recalculating with corrected formula,Jetzt habe ich wieder plus 8 zum Quadrat sind 100,Recalculating with corrected formula
 13.026.19a,B,Confirming final answer,Confirming final answer,Es geht 10,confirmation of problem facts
-13.026.19b,B,Reflecting on time taken,Reflecting on time taken,Es hat ein bisschen zu lang gedauert,Reflecting on time taken
+13.026.19b,B,Reflecting on time taken,Reflecting on time taken,Es hat ein bisschen zu lang gedauert,reflecting on own performance
 15.002.1,E,Orienting to task figure,Orienting to task figure,ich habe hier nun eine Abbildung,Orienting to task figure
 15.002.2,E,Describing given figure,Describing given figure,kreisförmige Form,Describing given figure
 15.002.3,E,Describing given figure,Describing given figure,"eine Linie, die zwischen zwei Punkten ist, A und B",Describing given figure

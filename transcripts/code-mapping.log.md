@@ -53,3 +53,4 @@
 - re-coded "reaffirming" family (partially)
 - introduced pattern code "taking notes"
 - re-coded "recording" family (partially)
+- introduced pattern codes "reflecting on offloading choice", "reflecting on own capability relative to LLM", "reflecting on own performance"
