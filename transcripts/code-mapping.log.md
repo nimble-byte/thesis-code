@@ -49,3 +49,5 @@
 - re-coded "concluding", "assuming", "hypothesizing" and "inferring" families with existing pattern codes
 - re-coded "continuing" family
 - re-coded "proposing" family
+- introduced pattern code "reaffirming own hypothesis"
+- re-coded "reaffirming" family (partially)

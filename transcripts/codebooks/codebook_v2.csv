@@ -476,7 +476,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 05.025.5,B,Attributing prior response content to chatbot,Attributing prior response content to LLM,das wurde mir von dem schon erklärt,identifying LLM as information source
 05.025.6,B,Recalling chatbot's labeling of points,Recalling LLM's labeling of points,Er hat das BO und O,Following LLM guidance
 05.025.8,B,Dismissing labeling discrepancy as unimportant,Dismissing labeling discrepancy as unimportant,"Hat er anders genannt, ist mir egal",Dismissing labeling discrepancy as unimportant
-05.025.9,B,Reaffirming LLM's triangle-construction claim,Reaffirming LLM's triangle-construction claim,Jede Seite der Raute bildet mit dem... rechtwinkliges Dreieck,Reaffirming LLM's triangle-construction claim
+05.025.9,B,Reaffirming LLM's triangle-construction claim,Reaffirming LLM's triangle-construction claim,Jede Seite der Raute bildet mit dem... rechtwinkliges Dreieck,confirming LLM's guidance
 05.025.10,B,Applying triangle construction to specific side,Applying triangle construction to specific side,bilden A zu B,Applying triangle construction to specific side
 05.025.11,B,Correcting count of triangles,Correcting count of triangles,in vier [Dreiecke],recognizing own error
 05.025.13,B,Self-correcting triangle-count reasoning,Self-correcting triangle-count reasoning,"wir machen uns vier, ah, zwei Dreiecke. Aber wir machen die vier",correcting own understanding
@@ -592,7 +592,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.008.7,E,Sketching triangle,Sketching triangle,unser Dreieck ABC,Sketching triangle
 08.008.8,E,Placing point P on segment AB,Placing point P on segment AB,liegt irgendwo auf A und B ein Punkt P,Placing point P on segment AB
 08.008.9,E,Identifying perpendicularity condition,Identifying perpendicularity condition,"der liegt so, dass der senkrecht ist",identifying given information
-08.008.10,E,Reaffirming perpendicularity condition,Reaffirming perpendicularity condition,Das soll senkrecht sein,Reaffirming perpendicularity condition
+08.008.10,E,Reaffirming perpendicularity condition,Reaffirming perpendicularity condition,Das soll senkrecht sein,reaffirming own hypothesis
 08.008.11,E,Sketching diagram,Sketching diagram,ich mal mir das mal kurz auf,Sketching diagram
 08.008.12,E,Noting given side lengths,Noting given side lengths,AC ist 6 und BC ist 3,noting given information
 08.008.13,E,Identifying missing information,Identifying missing information,Über AB haben wir keine Angaben,identifying unknown information
@@ -763,7 +763,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 08.062.3,E,Recognizing unresolved variable b in solution,Recognizing unresolved variable b in solution,wir haben da immer noch ein b^2 dran,recognizing solution step
 08.062.4,E,Reviewing prior notes for constraints,Reviewing prior notes for constraints,Was hatten wir denn vorher an Formeln?,Reviewing prior notes for constraints
 08.062.5,E,Recalling previously derived squared terms,Recalling previously derived squared terms,unsere Quadratseiten,recalling own prior work
-08.062.6,E,Reaffirming constraint that b is positive,Reaffirming constraint that b is positive,b eine Länge ist und daher positiv sein muss,Reaffirming constraint that b is positive
+08.062.6,E,Reaffirming constraint that b is positive,Reaffirming constraint that b is positive,b eine Länge ist und daher positiv sein muss,reaffirming own hypothesis
 08.062.7,E,Reasoning about positivity from squaring,Reasoning about positivity from squaring,es sollte eh positiv werden,deriving solution step
 08.062.8,E,Assuming x must be positive,Assuming x must be positive,x sollte auch positiv werden,assuming mathematical property
 08.062.9,E,Deriving upper bound for b,Deriving upper bound for b,"kleiner gleich 3, würde da 0 rauskommen",deriving solution step
@@ -927,7 +927,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.010.1,E,Beginning tentative hypothesis (incomplete),Beginning tentative hypothesis (incomplete),"ich glaube, es könnte sein",Beginning tentative hypothesis (incomplete)
 10.012.1,E,Restating LLM-provided information,Restating LLM-provided information,"er sagt mir jetzt, AB sind 2 Teile, BC sind 5 Teile",restating LLM's guidance
 10.012.2,E,Calculating part totals and percentages,Calculating part totals and percentages,"7 Teile, sind 100%",deriving solution step
-10.012.3,E,Reaffirming part-whole relationship,Reaffirming part-whole relationship,7 Teile 100% sind,Reaffirming part-whole relationship
+10.012.3,E,Reaffirming part-whole relationship,Reaffirming part-whole relationship,7 Teile 100% sind,deriving solution step
 10.012.4,E,Introducing unknown variable and estimating percentage,Introducing unknown variable and estimating percentage,"eine Länge von x, die wissen wir noch nicht",Introducing unknown variable and estimating percentage
 10.012.5,E,Continuing percentage estimation attempt,Continuing percentage estimation attempt,2 30% sind,deriving solution step
 10.012.6,E,"Reading LLM response, self-correcting","Reading LLM response, self-correcting","Ach so, ja",correcting own understanding
@@ -946,7 +946,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.018.1,E,Questioning LLM's stated ratio,Questioning LLM's stated ratio,AB zu AC 2:7?,questioning LLM output
 10.020.1,E,"Reading LLM response, self-correcting","Reading LLM response, self-correcting",Ach so,correcting own understanding
 10.022.1,E,Restating total parts,Restating total parts,insgesamt sieben Teile,restating solution step
-10.022.2,E,Reaffirming known percentage equivalence,Reaffirming known percentage equivalence,sieben Teile sind 100%,Reaffirming known percentage equivalence
+10.022.2,E,Reaffirming known percentage equivalence,Reaffirming known percentage equivalence,sieben Teile sind 100%,deriving solution step
 10.022.3,E,Identifying next calculation step,Identifying next calculation step,wie lange ein Teil sind,identifying solution step
 10.022.4,E,Repeating LLM's guiding question,Repeating LLM's guiding question,Das ist ja genau die Frage,Repeating LLM's guiding question
 10.022.5,E,Performing division calculation,Performing division calculation,25 durch 5,deriving solution step
@@ -1007,7 +1007,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.049.6,E,Identifying missing partial-segment lengths,Identifying missing partial-segment lengths,nicht die Teilstrecken,identifying unknown information
 10.049.7,E,Hypothesizing diagonal bisection,Hypothesizing diagonal bisection,eigentlich muss es ja die Hälfte sein,assuming mathematical property
 10.049.8,E,Elaborating bisection reasoning with values,Elaborating bisection reasoning with values,die obere Hälfte 6 sein und die untere Hälfte auch 6,Elaborating bisection reasoning with values
-10.049.10,E,Reaffirming confidence in bisection hypothesis,Reaffirming confidence in bisection hypothesis,müsste es schon so sein,Reaffirming confidence in bisection hypothesis
+10.049.10,E,Reaffirming confidence in bisection hypothesis,Reaffirming confidence in bisection hypothesis,müsste es schon so sein,reaffirming own hypothesis
 10.049.11,E,Interpreting diagram to confirm given value,Interpreting diagram to confirm given value,"AC, 12 sind",identifying given information
 10.051.1,E,Completing bisection calculation for both diagonals,Completing bisection calculation for both diagonals,B bis D sind einmal 8 und 8,Completing bisection calculation for both diagonals
 10.051.2,E,Connecting half-diagonals to Pythagorean approach,Connecting half-diagonals to Pythagorean approach,mit einem Satz des Pythagoras... Die Länge der Hypotenuse,Connecting half-diagonals to Pythagorean approach
@@ -1015,8 +1015,8 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 10.051.4,E,Specifying triangle side lengths,Specifying triangle side lengths,die eine Seite 6 lang ist und die andere Seite 8 lang ist,Specifying triangle side lengths
 10.052.1,E,Submitting request for third-side calculation method,Submitting request for third-side calculation method,wie berechne ich die Länge der dritten Seite?,requesting guidance from LLM
 10.054.2,E,Assessing triangle as right-angled from visual impression,Assessing triangle as right-angled from visual impression,was für mich rechtwinklig aussieht,Assessing triangle as right-angled from visual impression
-10.054.3,E,Confirming right-angle triangle determination,deriving solution step,das ist ein rechtwinkliges Dreieck,deriving solution step
-10.054.4,E,Reaffirming right-triangle choice over alternative,Reaffirming right-triangle choice over alternative,"Nee, das ist ein rechtwinkliges Dreieck",Reaffirming right-triangle choice over alternative
+10.054.3,E,Confirming right-angle triangle determination,deriving solution step,das ist ein rechtwinkliges Dreieck,reaffirming own hypothesis
+10.054.4,E,Reaffirming right-triangle choice over alternative,Reaffirming right-triangle choice over alternative,"Nee, das ist ein rechtwinkliges Dreieck",reaffirming own hypothesis
 10.054.5,E,Recalling Pythagorean theorem formula,Recalling Pythagorean theorem,A Quadrat plus B Quadrat gleich C Quadrat,recalling math knowledge
 10.055.1,E,Confirming right triangle and requesting formula,Confirming right triangle and requesting formula,Wie lautet der Satz des Pythagoras?,requesting information from LLM
 10.057.1a,E,Positively evaluating LLM response,Positively evaluating LLM response,Finde ich gut,evaluating LLM response as helpful
@@ -1212,7 +1212,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 11.087.6,B,stating computed value,stating computed value,10,deriving solution step
 11.087.7,B,voicing a sudden realization,voicing a sudden realization,Warte.,voicing a sudden realization
 11.087.8,B,restating algebraic manipulation logic,restating algebraic manipulation logic,AB durch 25 mal 25 ist AB,restating solution step
-11.087.9,B,reaffirming derived answer,reaffirming derived answer,Also ist es doch AB 10,reaffirming derived answer
+11.087.9,B,reaffirming derived answer,reaffirming derived answer,Also ist es doch AB 10,Verifying solution
 11.087.10,B,expressing being stuck,expressing being stuck,Wo häng ich denn jetzt gerade?,Encountering impasse
 11.089.1,B,restating algebra step,restating algebra step,dann habe ich AB,restating solution step
 11.089.2,B,concluding calculation result,concluding calculation result,dann ist AB gleich 10,deriving solution step
@@ -1361,7 +1361,7 @@ id,group,raw_label,canonical_label,in_vivo,pattern_code
 15.011.2,E,Paraphrasing chatbot's response,Paraphrasing LLM's response,was das Verhältnis vom Umfang zu Durchmesser ist,Paraphrasing LLM's response
 15.011.3,E,Paraphrasing chatbot's response (cont.),Paraphrasing LLM's response,Es gibt eine Zahl die das Verhältnis beschreibt,Paraphrasing LLM's response
 15.011.4,E,Recalling candidate answer (incorrect),Recalling candidate answer (incorrect),Das müsste doch der Radius sein,recalling own prior work
-15.011.5,E,Reaffirming initial guess,Reaffirming initial guess,der Radius müsste sein,Reaffirming initial guess
+15.011.5,E,Reaffirming initial guess,Reaffirming initial guess,der Radius müsste sein,reaffirming own hypothesis
 15.011.6,E,Correcting recalled answer,Correcting recalled answer,Pi,correcting own solution step
 15.011.7,E,Confirming final answer,Confirming final answer,Pi ist die Antwort,confirmation of problem facts
 15.012.1,E,Submitting answer to chatbot,Submitting answer to LLM,pi,answering the LLM
