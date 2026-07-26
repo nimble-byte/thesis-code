@@ -16,7 +16,6 @@ from __future__ import annotations
 
 import argparse
 from pathlib import Path
-import shlex
 import sys
 
 
@@ -67,6 +66,8 @@ def format_command(
         "./codebook.py",
         "relabel",
         codebook,
+        "--select-column",
+        "pattern_code",
         "--select-labels",
     ]
     parts.extend(source_labels)
