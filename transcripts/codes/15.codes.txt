@@ -36,7 +36,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [008.1] PROCESS: Paraphrasing chatbot's response | IV: "ob ich noch weiß, wie man den Umfang berechnet"
 [008.2] PROCESS: Paraphrasing chatbot's response (cont.) | IV: "nutzt"
 [008.3] PROCESS: Expressing knowledge gap | IV: "Leider weiß ich das nicht mehr"
-[008.4] PROCESS: Expressing uncertainty | IV: "unschlüsselig, also ein bisschen überfragt oder unsicher"
+[008.4] PROCESS: expressing uncertainty | IV: "unschlüsselig, also ein bisschen überfragt oder unsicher"
 [008.5] PROCESS: answerig the chatbot's question | IV: "Ich würde mit Nein behaupten"
 
 [009.1] PROCESS: Answering chatbot in the negative | IV: "nein"

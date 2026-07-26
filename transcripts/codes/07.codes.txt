@@ -37,7 +37,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [007.4] PROCESS: Deciding to consult LLM for guidance | IV: "Da muss ich jetzt doch mal fragen"
 [007.5] PROCESS: Identifying needed formula | IV: "Die Formel für die Höhe"
 [007.6] PROCESS: Assessing sufficiency of given information | IV: "Ich habe hier genügend Informationen"
-[007.7] PROCESS: Expressing uncertainty about right angle | IV: "Ich weiß nicht, ob das rechtwinklig ist"
+[007.7] PROCESS: expressing uncertainty about right angle | IV: "Ich weiß nicht, ob das rechtwinklig ist"
 [007.8] PROCESS: Reassessing sufficiency of information | IV: "ob ich genug Informationen habe"
 [007.9] PROCESS: Considering missing angle | IV: "ob ich nicht noch einen Winkel bräuchte"
 [007.10] PROCESS: Reviewing available givens | IV: "Was habe ich denn da noch?"

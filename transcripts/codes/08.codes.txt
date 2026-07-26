@@ -93,13 +93,13 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [018.11] PROCESS: Writing second Pythagorean equation | IV: "3^2 gleich X^2 plus b^2"
 [018.12] PROCESS: Evaluating usefulness of rearranging equations | IV: "ob einem das irgendetwas bringt"
 [018.13] PROCESS: Considering eliminating shared term | IV: "das X^2 rausrechnen"
-[018.14] PROCESS: Expressing uncertainty about approach's usefulness | IV: "ob ... das allzu viel bringt"
+[018.14] PROCESS: expressing uncertainty about approach's usefulness | IV: "ob ... das allzu viel bringt"
 [018.15] PROCESS: Attempting to follow chatbot's suggested approach | IV: "so wie der Chatbot das ja hier vorschlägt"
 [018.16] PROCESS: Seeking expression relating a and b | IV: "einen Ausdruck für diese Aufteilung zwischen a und b"
-[018.17] PROCESS: Solving equations for x | IV: "36 minus a^2 gleich ... 9 minus b^2"
+[018.17] PROCESS: Solving for x | IV: "36 minus a^2 gleich ... 9 minus b^2"
 [018.18] PROCESS: Rearranging equation algebraically | IV: "27 minus a^2 gleich minus b^2"
 [018.19] PROCESS: Continuing algebraic rearrangement | IV: "27 gleich a^2 minus b^2"
-[018.20] PROCESS: Expressing uncertainty about derived formula | IV: "bin ich mir jetzt gerade gar nicht mehr sicher"
+[018.20] PROCESS: expressing uncertainty about derived formula | IV: "bin ich mir jetzt gerade gar nicht mehr sicher"
 [018.21] PROCESS: Re-reading chatbot's question | IV: "wie würde es die Länge ... ausdrücken?"
 [018.22] PROCESS: Re-reading chatbot's hint | IV: "Denke daran das P zwischen A und B"
 [018.23] PROCESS: Recognizing own reasoning dead-end | IV: "ich habe mich gerade komplett verrannt"
@@ -242,7 +242,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [056.2] PROCESS: Restating computed equation | IV: "9 gleich x^2 plus b^2"
 
 [058.1] PROCESS: Reading chatbot's instruction to solve for x | IV: "die Gleichung nach x auflösen"
-[058.2] PROCESS: Solving equation for x | IV: "x ist gleich 9 minus b^2 und daraus die Wurzel"
+[058.2] PROCESS: Solving for x | IV: "x ist gleich 9 minus b^2 und daraus die Wurzel"
 
 [059.1] PROCESS: Submitting solved expression for x to chatbot | IV: "x = √(9 - b^2)"
 

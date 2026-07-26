@@ -25,7 +25,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 
 [006.1] PROCESS: Communicating own derived setup to LLM | IV: "wie weit unter der Linie durch den Mittelpunkt die linie ab ist"
 
-[008.1] PROCESS: Evaluating LLM response as helpful | IV: "jetzt glaube ich hilft mir die Beschreibung was"
+[008.1] PROCESS: evaluating LLM response as helpful | IV: "jetzt glaube ich hilft mir die Beschreibung was"
 [008.2] PROCESS: Interpreting geometric relationship from LLM response | IV: "der Abstand vom mittelpunkt zu A oder zu B auch r"
 [008.3] PROCESS: Deriving half-chord length | IV: "die hälfte von AB ist vier"
 [008.4] PROCESS: Identifying applicable theorem per LLM guidance | IV: "mein satz ist Pythagoras"
@@ -60,8 +60,8 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [020.1] — (no code: non-substantive/filler)
 [020.2] PROCESS: Confirming understanding of LLM's repeated Pythagorean suggestion | IV: "ist auch irgendwie naheliegend"
 [020.3] PROCESS: Interpreting LLM's suggestion to subdivide triangle using variables | IV: "dieses Dreieck nochmal in zwei andere Dreiecke zu unterteilen"
-[020.4] PROCESS: Enumerating unknowns in sub-triangle ACP | IV: "Von A bis P... weiß ich nicht"
-[020.5] PROCESS: Enumerating unknowns in sub-triangle BCP | IV: "das sind zwei Unbekannte auf jeden Fall"
+[020.4] PROCESS: Enumerating unknowns in sub-triangle | IV: "Von A bis P... weiß ich nicht"
+[020.5] PROCESS: Enumerating unknowns in sub-triangle | IV: "das sind zwei Unbekannte auf jeden Fall"
 [020.6a] PROCESS: Identifying under-determined equation system | IV: "drei Unbekannten und zwei Gleichungen"
 [020.6b] PROCESS: Flagging own reasoning as incomplete | IV: "mein Denkfehler gerade noch"
 [020.7] PROCESS: Considering alternative solving strategy from own academic background | IV: "so würde ich es in einer WiWi-Klausur machen"
@@ -82,8 +82,8 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [023.9] PROCESS: Delegating equation-solving task to LLM | IV: "wer das schon für mich macht"
 
 [024.1] PROCESS: Requesting LLM to solve constructed equation system | IV: "löse es mir auf und berechne die lösungen"
-[024.2] PROCESS: Providing equation for triangle ACP | IV: "36 = x^2 + CP^2"
-[024.3] PROCESS: Providing equation for triangle BCP | IV: "9 = y^2 + CP^2"
+[024.2] PROCESS: Providing equation for sub-triangle | IV: "36 = x^2 + CP^2"
+[024.3] PROCESS: Providing equation for sub-triangle | IV: "9 = y^2 + CP^2"
 [024.4] PROCESS: Providing combined equation relating x and y | IV: "27 = (x-y)(x+y)"
 
 [026.1] — (no code: non-substantive/filler)

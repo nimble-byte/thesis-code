@@ -12,7 +12,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [002.2] PROCESS: Recognizing diagram setup | IV: "wir haben hier wieder so eine schöne Linie"
 [002.3] PROCESS: Labeling geometric points | IV: "einmal A, B und C"
 [002.4] PROCESS: Restating given information | IV: "das Verhältnis AB zu AC, 2 zu 5"
-[002.5] PROCESS: Expressing uncertainty about ratio interpretation | IV: "jetzt weiß ich nur nicht"
+[002.5] PROCESS: expressing uncertainty about ratio interpretation | IV: "jetzt weiß ich nur nicht"
 [002.6] PROCESS: Formulating clarification question | IV: "Was bedeutet das Verhältnis 2 zu 5 in unserem Fall?"
 
 [003.1] PROCESS: Submitting clarification query to LLM | IV: "Was bedeutet das Verhältnis 2:5?"
@@ -84,7 +84,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [025.1] PROCESS: Asking LLM whether formula exists | IV: "Gibt es dafür eine Formel?"
 
 [027.1] PROCESS: Reiterating belief in existence of formula | IV: "es gibt da eine Formel"
-[027.2] PROCESS: Expressing uncertainty about formula | IV: "bin mir aber nicht sicher"
+[027.2] PROCESS: expressing uncertainty about formula | IV: "bin mir aber nicht sicher"
 [027.3] PROCESS: Speculating about additional required information | IV: "weitere Sachen braucht"
 
 [029.1] PROCESS: Restating LLM response and admitting formula unfamiliarity | IV: "die kenne ich aber nicht"

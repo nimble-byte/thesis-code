@@ -157,7 +157,7 @@ id,group,raw_label,canonical_label,in_vivo
 03.005.5,B,Describing geometric setup for LLM,Describing geometric setup for LLM,die Linie von acht ein bisschen weiter unten
 03.005.6,B,Expressing expectation of LLM assistance,Expressing expectation of LLM assistance,vielleicht hat er dann eine Idee
 03.006.1,B,Communicating own derived setup to LLM,Communicating own derived setup to LLM,wie weit unter der Linie durch den Mittelpunkt die linie ab ist
-03.008.1,B,Evaluating LLM response as helpful,Evaluating LLM response as helpful,jetzt glaube ich hilft mir die Beschreibung was
+03.008.1,B,evaluating LLM response as helpful,evaluating LLM response as helpful,jetzt glaube ich hilft mir die Beschreibung was
 03.008.2,B,Interpreting geometric relationship from LLM response,Interpreting geometric relationship from LLM response,der Abstand vom mittelpunkt zu A oder zu B auch r
 03.008.3,B,Deriving half-chord length,Deriving half-chord length,die hälfte von AB ist vier
 03.008.4,B,Identifying applicable theorem per LLM guidance,Identifying applicable theorem per LLM guidance,mein satz ist Pythagoras
@@ -181,8 +181,8 @@ id,group,raw_label,canonical_label,in_vivo
 03.018.1,B,Requesting formula for AP and PB from LLM,Requesting formula for AP and PB from LLM,eine formel für das finden von ap und pb
 03.020.2,B,Confirming understanding of LLM's repeated Pythagorean suggestion,Confirming understanding of LLM's repeated Pythagorean suggestion,ist auch irgendwie naheliegend
 03.020.3,B,Interpreting LLM's suggestion to subdivide triangle using variables,Interpreting LLM's suggestion to subdivide triangle using variables,dieses Dreieck nochmal in zwei andere Dreiecke zu unterteilen
-03.020.4,B,Enumerating unknowns in sub-triangle ACP,Enumerating unknowns in sub-triangle ACP,Von A bis P... weiß ich nicht
-03.020.5,B,Enumerating unknowns in sub-triangle BCP,Enumerating unknowns in sub-triangle BCP,das sind zwei Unbekannte auf jeden Fall
+03.020.4,B,Enumerating unknowns in sub-triangle,Enumerating unknowns in sub-triangle,Von A bis P... weiß ich nicht
+03.020.5,B,Enumerating unknowns in sub-triangle,Enumerating unknowns in sub-triangle,das sind zwei Unbekannte auf jeden Fall
 03.020.6a,B,Identifying under-determined equation system,Identifying under-determined equation system,drei Unbekannten und zwei Gleichungen
 03.020.6b,B,Flagging own reasoning as incomplete,Flagging own reasoning as incomplete,mein Denkfehler gerade noch
 03.020.7,B,Considering alternative solving strategy from own academic background,Considering alternative solving strategy from own academic background,so würde ich es in einer WiWi-Klausur machen
@@ -200,8 +200,8 @@ id,group,raw_label,canonical_label,in_vivo
 03.023.8,B,Recognizing need to solve equation system,Recognizing need to solve equation system,Das muss ich jetzt einfach auflösen
 03.023.9,B,Delegating equation-solving task to LLM,Delegating equation-solving task to LLM,wer das schon für mich macht
 03.024.1,B,Requesting LLM to solve constructed equation system,Requesting LLM to solve constructed equation system,löse es mir auf und berechne die lösungen
-03.024.2,B,Providing equation for triangle ACP,Providing equation for triangle ACP,36 = x^2 + CP^2
-03.024.3,B,Providing equation for triangle BCP,Providing equation for triangle BCP,9 = y^2 + CP^2
+03.024.2,B,Providing equation for sub-triangle,Providing equation for sub-triangle,36 = x^2 + CP^2
+03.024.3,B,Providing equation for sub-triangle,Providing equation for sub-triangle,9 = y^2 + CP^2
 03.024.4,B,Providing combined equation relating x and y,Providing combined equation relating x and y,27 = (x-y)(x+y)
 03.026.2,B,Observing LLM's algebraic rearrangement,Observing LLM's algebraic rearrangement,hat er schon einiges umgestellt
 03.026.5a,B,Confirming understanding of LLM's algebraic steps,Confirming understanding of LLM's algebraic steps,Die Schritte habe ich soweit verstanden
@@ -519,7 +519,7 @@ id,group,raw_label,canonical_label,in_vivo
 07.007.4,E,Deciding to consult LLM for guidance,Deciding to consult LLM for guidance,Da muss ich jetzt doch mal fragen
 07.007.5,E,Identifying needed formula,Identifying needed formula,Die Formel für die Höhe
 07.007.6,E,Assessing sufficiency of given information,Assessing sufficiency of given information,Ich habe hier genügend Informationen
-07.007.7,E,Expressing uncertainty about right angle,Expressing uncertainty,"Ich weiß nicht, ob das rechtwinklig ist"
+07.007.7,E,expressing uncertainty about right angle,expressing uncertainty,"Ich weiß nicht, ob das rechtwinklig ist"
 07.007.8,E,Reassessing sufficiency of information,Reassessing sufficiency of information,ob ich genug Informationen habe
 07.007.9,E,Considering missing angle,Considering missing angle,ob ich nicht noch einen Winkel bräuchte
 07.007.10,E,Reviewing available givens,Reviewing available givens,Was habe ich denn da noch?
@@ -637,13 +637,13 @@ id,group,raw_label,canonical_label,in_vivo
 08.018.11,E,Writing second Pythagorean equation,Writing second Pythagorean equation,3^2 gleich X^2 plus b^2
 08.018.12,E,Evaluating usefulness of rearranging equations,Evaluating usefulness of rearranging equations,ob einem das irgendetwas bringt
 08.018.13,E,Considering eliminating shared term,Considering eliminating shared term,das X^2 rausrechnen
-08.018.14,E,Expressing uncertainty about approach's usefulness,Expressing uncertainty,ob ... das allzu viel bringt
+08.018.14,E,expressing uncertainty about approach's usefulness,expressing uncertainty,ob ... das allzu viel bringt
 08.018.15,E,Attempting to follow chatbot's suggested approach,Attempting to follow LLM's suggested approach,so wie der Chatbot das ja hier vorschlägt
 08.018.16,E,Seeking expression relating a and b,Seeking expression relating a and b,einen Ausdruck für diese Aufteilung zwischen a und b
-08.018.17,E,Solving equations for x,Solving equations for x,36 minus a^2 gleich ... 9 minus b^2
+08.018.17,E,Solving for x,Solving for x,36 minus a^2 gleich ... 9 minus b^2
 08.018.18,E,Rearranging equation algebraically,Rearranging equation algebraically,27 minus a^2 gleich minus b^2
 08.018.19,E,Continuing algebraic rearrangement,Continuing algebraic rearrangement,27 gleich a^2 minus b^2
-08.018.20,E,Expressing uncertainty about derived formula,Expressing uncertainty,bin ich mir jetzt gerade gar nicht mehr sicher
+08.018.20,E,expressing uncertainty about derived formula,expressing uncertainty,bin ich mir jetzt gerade gar nicht mehr sicher
 08.018.21,E,Re-reading chatbot's question,Re-reading LLM's question,wie würde es die Länge ... ausdrücken?
 08.018.22,E,Re-reading chatbot's hint,Re-reading LLM's hint,Denke daran das P zwischen A und B
 08.018.23,E,Recognizing own reasoning dead-end,Recognizing own reasoning dead-end,ich habe mich gerade komplett verrannt
@@ -754,7 +754,7 @@ id,group,raw_label,canonical_label,in_vivo
 08.056.1,E,Transcribing equation onto paper,Transcribing equation onto paper,auf dem Papier noch mal auf
 08.056.2,E,Restating computed equation,Restating computed equation,9 gleich x^2 plus b^2
 08.058.1,E,Reading chatbot's instruction to solve for x,Reading LLM's instruction to solve for x,die Gleichung nach x auflösen
-08.058.2,E,Solving equation for x,Solving equation for x,x ist gleich 9 minus b^2 und daraus die Wurzel
+08.058.2,E,Solving for x,Solving for x,x ist gleich 9 minus b^2 und daraus die Wurzel
 08.059.1,E,Submitting solved expression for x to chatbot,Submitting solved expression for x to LLM,x = √(9 - b^2)
 08.060.1,E,Transcribing rearranged equation onto paper,Transcribing rearranged equation onto paper,Ich schreibe es mir wieder auf
 08.060.2,E,Recording expression on paper,Recording expression on paper,x gleich 9 minus b^2 und daraus die Wurzel
@@ -913,7 +913,7 @@ id,group,raw_label,canonical_label,in_vivo
 10.002.2,E,Recognizing diagram setup,Recognizing diagram setup,wir haben hier wieder so eine schöne Linie
 10.002.3,E,Labeling geometric points,Labeling geometric points,"einmal A, B und C"
 10.002.4,E,Restating given information,Restating given information,"das Verhältnis AB zu AC, 2 zu 5"
-10.002.5,E,Expressing uncertainty about ratio interpretation,Expressing uncertainty,jetzt weiß ich nur nicht
+10.002.5,E,expressing uncertainty about ratio interpretation,expressing uncertainty,jetzt weiß ich nur nicht
 10.002.6,E,Formulating clarification question,Formulating clarification question,Was bedeutet das Verhältnis 2 zu 5 in unserem Fall?
 10.003.1,E,Submitting clarification query to LLM,Submitting clarification query to LLM,Was bedeutet das Verhältnis 2:5?
 10.005.1,E,Asking about read-aloud protocol,Asking about read-aloud protocol,leiser durchlesen
@@ -964,7 +964,7 @@ id,group,raw_label,canonical_label,in_vivo
 10.024.5,E,Enumerating perceived given quantities,Enumerating perceived given quantities,"wir haben eine Länge, wir haben die Fläche, wir haben den Winkel"
 10.025.1,E,Asking LLM whether formula exists,Asking LLM whether formula exists,Gibt es dafür eine Formel?
 10.027.1,E,Reiterating belief in existence of formula,Reiterating belief in existence of formula,es gibt da eine Formel
-10.027.2,E,Expressing uncertainty about formula,Expressing uncertainty,bin mir aber nicht sicher
+10.027.2,E,expressing uncertainty about formula,expressing uncertainty,bin mir aber nicht sicher
 10.027.3,E,Speculating about additional required information,Speculating about additional required information,weitere Sachen braucht
 10.029.1,E,Restating LLM response and admitting formula unfamiliarity,Restating LLM response and admitting formula unfamiliarity,die kenne ich aber nicht
 10.029.2,E,Reiterating lack of formula knowledge,Reiterating lack of formula knowledge,für fast alles immer eine Formel gibt
@@ -1263,7 +1263,7 @@ id,group,raw_label,canonical_label,in_vivo
 13.005.3,B,Identifying task goal,Identifying task goal,"wird gefragt, was die Länge des Kreisabschnittes ist"
 13.005.4,B,Identifying given information,Identifying given information,ich habe den Winkel und ich habe den Radius
 13.005.5,B,Planning solution approach,Planning solution approach,ich könnte erstmal theoretisch ... den Umfang ... berechnen
-13.005.6,B,Expressing uncertainty about formula,Expressing uncertainty,Mit dem Radius. Was war das?
+13.005.6,B,expressing uncertainty about formula,expressing uncertainty,Mit dem Radius. Was war das?
 13.005.7,B,Asking permission to consult chatbot,Asking permission to consult LLM,Soll ich hier schon den Chatbot benutzen?
 13.007.1,B,Formulating query to chatbot,Formulating clarifying question for LLM,"was ist die Formel, um den Kreisumfang zu berechnen, wenn r gegeben ist?"
 13.008.1,B,Querying chatbot for formula,Querying LLM for formula,Was ist die Formel um den Kreis umfang zu berechnen wenn r gegeben ist?
@@ -1302,7 +1302,7 @@ id,group,raw_label,canonical_label,in_vivo
 13.020.1b,B,Understanding task number reference,Understanding task number reference,"jetzt verstehe ich, welche Aufgabennummer du meinst"
 13.021.1,B,Querying chatbot for solution method,Querying LLM for solution method,Wie berechne ich die kanten länge von einem Diamanten wenn die strecken zwischen den punkten gegenüber bekannt sind?
 13.023.1a,B,Confirming solution method from response,Confirming solution method from response,Also doch Pythagoras
-13.023.1b,B,Expressing uncertainty about next step,Expressing uncertainty,Was mache ich denn?
+13.023.1b,B,expressing uncertainty about next step,expressing uncertainty,Was mache ich denn?
 13.023.2,B,Validating viability of chatbot's suggested approach,Validating viability of LLM's suggested approach,Kann ich das?
 13.023.3,B,Evaluating response's assumption,Evaluating response's assumption,"geht er ja aber davon aus, dass die beiden gleich sind"
 13.023.4,B,Referencing chatbot's CoT,Referencing LLM's CoT,Die Diagonal des rechtwinkligen Dreiecks
@@ -1355,7 +1355,7 @@ id,group,raw_label,canonical_label,in_vivo
 15.008.1,E,Paraphrasing chatbot's response,Paraphrasing LLM's response,"ob ich noch weiß, wie man den Umfang berechnet"
 15.008.2,E,Paraphrasing chatbot's response (cont.),Paraphrasing LLM's response,nutzt
 15.008.3,E,Expressing knowledge gap,Expressing knowledge gap,Leider weiß ich das nicht mehr
-15.008.4,E,Expressing uncertainty,Expressing uncertainty,"unschlüsselig, also ein bisschen überfragt oder unsicher"
+15.008.4,E,expressing uncertainty,expressing uncertainty,"unschlüsselig, also ein bisschen überfragt oder unsicher"
 15.008.5,E,answerig the chatbot's question,answerig the LLM's question,Ich würde mit Nein behaupten
 15.009.1,E,Answering chatbot in the negative,Answering LLM in the negative,nein
 15.011.2,E,Paraphrasing chatbot's response,Paraphrasing LLM's response,was das Verhältnis vom Umfang zu Durchmesser ist

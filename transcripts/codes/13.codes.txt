@@ -29,7 +29,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [005.3] PROCESS: Identifying task goal | IV: "wird gefragt, was die Länge des Kreisabschnittes ist"
 [005.4] PROCESS: Identifying given information | IV: "ich habe den Winkel und ich habe den Radius"
 [005.5] PROCESS: Planning solution approach | IV: "ich könnte erstmal theoretisch ... den Umfang ... berechnen"
-[005.6] PROCESS: Expressing uncertainty about formula | IV: "Mit dem Radius. Was war das?"
+[005.6] PROCESS: expressing uncertainty about formula | IV: "Mit dem Radius. Was war das?"
 [005.7] PROCESS: Asking permission to consult chatbot | IV: "Soll ich hier schon den Chatbot benutzen?"
 
 [007.1] PROCESS: Formulating query to chatbot | IV: "was ist die Formel, um den Kreisumfang zu berechnen, wenn r gegeben ist?"
@@ -82,7 +82,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [021.1] PROCESS: Querying chatbot for solution method | IV: "Wie berechne ich die kanten länge von einem Diamanten wenn die strecken zwischen den punkten gegenüber bekannt sind?"
 
 [023.1a] PROCESS: Confirming solution method from response | IV: "Also doch Pythagoras"
-[023.1b] PROCESS: Expressing uncertainty about next step | IV: "Was mache ich denn?"
+[023.1b] PROCESS: expressing uncertainty about next step | IV: "Was mache ich denn?"
 [023.2] PROCESS: Validating viability of chatbot's suggested approach | IV: "Kann ich das?"
 [023.3] PROCESS: Evaluating response's assumption | IV: "geht er ja aber davon aus, dass die beiden gleich sind"
 [023.4] PROCESS: Referencing chatbot's CoT | IV: "Die Diagonal des rechtwinkligen Dreiecks"
