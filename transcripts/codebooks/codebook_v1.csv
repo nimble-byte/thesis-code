@@ -25,7 +25,7 @@ id,group,raw_label,canonical_label,in_vivo
 01.007.2,E,Confirming chatbot's hint as correct,Confirming LLM's hint as correct,"Stimmt, es ist einfach ein Radius"
 01.007.3,E,Reading chatbot response aloud,Reading LLM response aloud,Welchen Winkel bildet normalerweise ein Radius mit dem Durchmesser
 01.007.4,E,Reflecting on own reasoning capability relative to chatbot,Reflecting on own reasoning capability relative to LLM,Hätte ich auch selber drauf kommen können
-01.007.5,E,"Re-reading chatbot response","Re-reading LLM response",Endpunkt des Durchmessers
+01.007.5,E,Re-reading chatbot response,Re-reading LLM response,Endpunkt des Durchmessers
 01.007.6,E,Acknowledging own oversight,Acknowledging own oversight,jetzt habe ich das gar nicht gesehen
 01.007.7,E,Identifying element in diagram,Identifying element in diagram,Das ist der Radius OB
 01.007.8,E,Mapping known value to diagram,Mapping known value to diagram,"Ich weiß, dass das 8 ist"
