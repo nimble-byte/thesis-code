@@ -5,9 +5,9 @@ Reading Chatbot Response Aloud,13,1,E:0 / B:13
 Paraphrasing chatbot's response,8,1,E:8 / B:0
 Reading chatbot's follow-up question,8,1,E:8 / B:0
 reading response aloud verbatim,8,1,E:0 / B:8
-Deciding to consult chatbot,7,5,E:6 / B:1
 Reading Task Statement Aloud,7,1,E:0 / B:7
 Restating problem question,7,2,E:7 / B:0
+Deciding to consult chatbot for guidance,5,4,E:4 / B:1
 Identifying given information,5,2,E:2 / B:3
 Reading chatbot response aloud,5,1,E:5 / B:0
 Restating given information,5,4,E:5 / B:0
@@ -22,6 +22,7 @@ Restating task question,4,2,E:3 / B:1
 restating task definition,4,1,E:0 / B:4
 Applying Pythagorean theorem,3,3,E:2 / B:1
 Calculating half-diagonal length,3,1,E:0 / B:3
+Deciding to consult chatbot for formula,3,2,E:3 / B:0
 Describing given figure,3,1,E:3 / B:0
 Identifying calculation error,3,2,E:3 / B:0
 Marking action completion,3,1,E:0 / B:3
@@ -46,9 +47,12 @@ Confirming final answer,2,2,E:1 / B:1
 Confirming formula from response,2,2,E:1 / B:1
 Constructing auxiliary triangle,2,2,E:2 / B:0
 Deciding to ask chatbot for clarification,2,1,E:2 / B:0
+Deciding to consult LLM for guidance,2,2,E:2 / B:0
+Deciding to consult chatbot for formular,2,1,E:2 / B:0
 Deciding to correct chatbot's assumption,2,2,E:2 / B:0
 Deciding to inspect chatbot's CoT,2,1,E:2 / B:0
 Deciding to redo calculation more precisely,2,1,E:2 / B:0
+Deciding to share image with chatbot,2,2,E:1 / B:1
 Deciding to verify calculation with chatbot,2,1,E:2 / B:0
 Deciding to verify recalled formula with chatbot,2,1,E:2 / B:0
 Deriving half-chord length,2,2,E:1 / B:1
@@ -67,6 +71,7 @@ Planning next calculation step,2,2,E:1 / B:1
 Re-reading Task Statement for Comprehension,2,1,E:0 / B:2
 Re-reading Task Statement to Recall Question,2,1,E:0 / B:2
 Re-reading chatbot's question,2,1,E:2 / B:0
+"Reading LLM response, self-correcting",2,1,E:2 / B:0
 Reading chatbot's follow-up request,2,1,E:2 / B:0
 Recalling Pythagorean theorem,2,2,E:1 / B:1
 Recalling formula for a,2,1,E:2 / B:0
@@ -88,9 +93,12 @@ Suspecting own error,2,1,E:0 / B:2
 Trailing off mid-thought,2,1,E:2 / B:0
 Typing Query to Chatbot,2,1,E:0 / B:2
 Verbalizing intended query before typing,2,1,E:2 / B:0
+answerig the chatbot's question,2,2,E:2 / B:0
 assigning percentage value on scale,2,1,E:0 / B:2
 placing point per instruction,2,1,E:0 / B:2
 reading definition aloud,2,1,E:0 / B:2
+reading response aloud,2,1,E:0 / B:2
+restating LLM's guidance,2,2,E:2 / B:0
 restating task question,2,1,E:0 / B:2
 verbalizing message before sending,2,1,E:0 / B:2
 voicing a sudden realization,2,1,E:0 / B:2
@@ -204,6 +212,7 @@ Clarifying question for chatbot,1,1,E:1 / B:0
 Clarifying task procedure with researcher,1,1,E:0 / B:1
 Clarifying variable meaning,1,1,E:1 / B:0
 Commenting on Rusty Calculator Skills,1,1,E:0 / B:1
+Commenting problem description,1,1,E:1 / B:0
 Committing to Answer Despite Uncertainty,1,1,E:0 / B:1
 Committing to answer under uncertainty,1,1,E:1 / B:0
 Communicating own derived setup to LLM,1,1,E:0 / B:1
@@ -308,28 +317,20 @@ Correcting sign error in expression,1,1,E:1 / B:0
 Critically evaluating LLM's claim,1,1,E:1 / B:0
 Criticizing chatbot's failure to detect logic error,1,1,E:1 / B:0
 Criticizing response as verbose and insufficiently confirmatory,1,1,E:0 / B:1
-answerig the chatbot's question,1,1,E:1 / B:0
-Deciding to Consult Chatbot,1,1,E:0 / B:1
 Deciding to Consult Chatbot for Angle Property,1,1,E:0 / B:1
 Deciding to apply arccosine,1,1,E:1 / B:0
-Deciding to consult chatbot for formula,1,1,E:1 / B:0
-Deciding to consult LLM for guidance,1,1,E:1 / B:0
+Deciding to ask Chatbot for clarification,1,1,E:0 / B:1
 Deciding to attempt mental calculation first,1,1,E:1 / B:0
 Deciding to attempt solution without chatbot,1,1,E:1 / B:0
 Deciding to check remaining answer options,1,1,E:0 / B:1
 Deciding to compute final value using calculator,1,1,E:0 / B:1
 Deciding to consult LLM due to knowledge gap,1,1,E:0 / B:1
-Deciding to consult LLM for guidance,1,1,E:1 / B:0
-Deciding to consult chatbot for guidance,1,1,E:1 / B:0
-Deciding to consult chatbot for formula,1,1,E:1 / B:0
-Deciding to consult chatbot for formular,1,1,E:1 / B:0
-answerig the chatbot's question,1,1,E:1 / B:0
+Deciding to consult chatbot,1,1,E:1 / B:0
 Deciding to convert answer options using calculator,1,1,E:0 / B:1
 Deciding to copy task using established routine,1,1,E:0 / B:1
 Deciding to explain own work to chatbot,1,1,E:1 / B:0
 Deciding to follow chatbot advice,1,1,E:1 / B:0
 Deciding to inform chatbot of typo correction,1,1,E:1 / B:0
-Deciding to query chatbot,1,1,E:1 / B:0
 Deciding to query chatbot for direct solution,1,1,E:1 / B:0
 Deciding to re-explain to chatbot,1,1,E:1 / B:0
 Deciding to re-read task,1,1,E:1 / B:0
@@ -341,17 +342,16 @@ Deciding to reformat equation with explicit exponents,1,1,E:1 / B:0
 Deciding to request formula from LLM,1,1,E:0 / B:1
 Deciding to request general approach from LLM,1,1,E:0 / B:1
 Deciding to request idea from LLM,1,1,E:0 / B:1
-Deciding to share image with chatbot,1,1,E:1 / B:0
 Deciding to sketch diagram,1,1,E:1 / B:0
 Deciding to sketch diagram to support reasoning,1,1,E:0 / B:1
 Deciding to start new chat per task,1,1,E:0 / B:1
 Deciding to submit solution for chatbot verification,1,1,E:0 / B:1
 Deciding to try LLM's suggested equation manipulation,1,1,E:0 / B:1
 Deciding to use calculator,1,1,E:1 / B:0
-Deciding to share image with chatbot,1,1,E:0 / B:1
 Deciding to verify answer by calculation,1,1,E:1 / B:0
 Deciding to verify assumption with chatbot,1,1,E:1 / B:0
 Deciding to verify formula with chatbot,1,1,E:1 / B:0
+Deciding to verify formula with chatbott,1,1,E:1 / B:0
 Deciding to verify result with LLM,1,1,E:1 / B:0
 Delegating equation-solving task to LLM,1,1,E:0 / B:1
 Deriving angle value from clarification,1,1,E:0 / B:1
@@ -696,7 +696,7 @@ Re-questioning Ratio Meaning,1,1,E:0 / B:1
 Re-reading Given Values,1,1,E:0 / B:1
 Re-reading LLM guidance aloud,1,1,E:1 / B:0
 Re-reading and clarifying task description,1,1,E:1 / B:0
-"Re-reading chatbot response",1,1,E:1 / B:0
+"Re-reading chatbot response, self-correcting terminology",1,1,E:1 / B:0
 Re-reading chatbot's hint,1,1,E:1 / B:0
 Re-reading chatbot's question before returning to it,1,1,E:1 / B:0
 Re-reading chatbot's question for emphasis,1,1,E:1 / B:0
@@ -708,8 +708,6 @@ Re-reading task question to check answer scope,1,1,E:0 / B:1
 Re-reading task statement aloud,1,1,E:1 / B:0
 Re-reading task to verify,1,1,E:0 / B:1
 Re-strategizing after rejecting approach,1,1,E:0 / B:1
-Reading LLM response, self-correcting,1,1,E:1 / B:0
-Reading LLM response, self-correcting,1,1,E:1 / B:0
 Reading LLM's CoT (think-block) aloud,1,1,E:1 / B:0
 Reading and interpreting task variables,1,1,E:1 / B:0
 Reading chatbot's CoT aloud,1,1,E:1 / B:0
@@ -891,20 +889,16 @@ Restating given length and computing half,1,1,E:1 / B:0
 Restating given point definition,1,1,E:1 / B:0
 Restating given value from problem figure,1,1,E:1 / B:0
 Restating given values and goal,1,1,E:1 / B:0
-restating LLM's guidance,1,1,E:1 / B:0
 Restating hypothesized answer prior to full verification,1,1,E:0 / B:1
 Restating intended request to chatbot,1,1,E:1 / B:0
 Restating known quantity,1,1,E:1 / B:0
 Restating known values,1,1,E:1 / B:0
 Restating known versus unknown values,1,1,E:0 / B:1
 Restating original equations,1,1,E:1 / B:0
-restating LLM's guidance,1,1,E:1 / B:0
 Restating point definitions,1,1,E:1 / B:0
 Restating problem goal,1,1,E:1 / B:0
-Commenting problem description,1,1,E:1 / B:0
 Restating problem parameters,1,1,E:1 / B:0
 Restating problem statement,1,1,E:1 / B:0
-restating LLM question,1,1,E:1 / B:0
 Restating ratio conclusion,1,1,E:1 / B:0
 Restating sub-question,1,1,E:1 / B:0
 Restating target unknown,1,1,E:1 / B:0
@@ -1188,8 +1182,6 @@ questioning whether LLM will compute answer independently,1,1,E:0 / B:1
 re-checking alternate definition,1,1,E:0 / B:1
 re-checking definition against situation,1,1,E:0 / B:1
 reacting positively to discovering calculator feature,1,1,E:0 / B:1
-reading response aloud,1,1,E:0 / B:1
-reading response aloud,1,1,E:0 / B:1
 reading response evaluation aloud,1,1,E:0 / B:1
 reading response step aloud,1,1,E:0 / B:1
 reading task element aloud,1,1,E:0 / B:1
@@ -1218,6 +1210,7 @@ requesting explicit verification of algebraic step,1,1,E:0 / B:1
 requesting hint from LLM,1,1,E:0 / B:1
 requesting verification of derived relation,1,1,E:0 / B:1
 restarting approach from beginning,1,1,E:0 / B:1
+restating LLM question,1,1,E:1 / B:0
 restating LLM's instruction,1,1,E:0 / B:1
 restating algebra step,1,1,E:0 / B:1
 restating algebraic manipulation logic,1,1,E:0 / B:1
