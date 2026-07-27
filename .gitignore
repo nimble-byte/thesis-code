@@ -9,3 +9,5 @@ __pycache__
 .github
 working-patterns*.txt
 pattern-coded.txt
+relabel.sh
+semantic-block*
