@@ -1249,7 +1249,7 @@ id,group,raw_label,canonical_label,in_vivo
 11.095.32,B,mapping percentage scale to actual lengths,mapping percentage scale to actual lengths,"100% ist 10 lang, M ist genau in der Mitte, also 5"
 11.095.33,B,deriving midpoint value,deriving midpoint value,"das ist genau die Mitte von MB, das ist siebeneinhalb"
 11.095.34,B,noting unspecified position of point N,noting unspecified position of point N,"N ist ein Punkt auf der Linie zwischen A und M, aber irgendwo"
-11.095.35,B,deriving final answer ,deriving final answer ,"Zwischen 4 und 7,5 liegen 3,5"
+11.095.35,B,deriving final answer,deriving final answer,"Zwischen 4 und 7,5 liegen 3,5"
 11.095.36,B,noting problem solved without consulting LLM,noting problem solved without consulting LLM,"Habe ich jetzt nicht gefragt, aber okay"
 13.004.3,B,Orienting to task figure,Orienting to task figure,In der Figur wird mir eine Linie angezeigt
 13.004.4,B,Identifying given information,Identifying given information,ich habe die Ratio von der Länge von AB zu AC

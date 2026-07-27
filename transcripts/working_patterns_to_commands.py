@@ -66,8 +66,6 @@ def format_command(
         "./codebook.py",
         "relabel",
         codebook,
-        "--select-column",
-        "pattern_code",
         "--select-labels",
     ]
     parts.extend(source_labels)

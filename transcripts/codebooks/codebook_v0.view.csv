@@ -1101,7 +1101,7 @@ decoding notation meaning,1,1,E:0 / B:1
 deferring own reasoning to consult LLM first,1,1,E:0 / B:1
 deliberating how to phrase query to LLM,1,1,E:0 / B:1
 deriving final angle,1,1,E:0 / B:1
-deriving final answer ,1,1,E:0 / B:1
+deriving final answer,1,1,E:0 / B:1
 deriving locus as circle around point,1,1,E:0 / B:1
 deriving midpoint value,1,1,E:0 / B:1
 deriving spatial position,1,1,E:0 / B:1
