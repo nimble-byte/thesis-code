@@ -779,7 +779,7 @@ id,group,raw_label,canonical_label,in_vivo
 08.062.20,E,Redrawing diagram to organize reasoning,Redrawing diagram to organize reasoning,mal mir das Ganze jetzt nochmal auf
 08.062.21,E,Labeling diagram vertices,Labeling diagram vertices,"alle Punkte Ecken A,B,C,P"
 08.062.22,E,Marking right angles on diagram,Marking right angles on diagram,die beiden rechten Winkel
-08.062.23,E,Labeling diagram variables,Labeling diagram variables,X genannt ... a genannt ... b genannt
+08.062.23,E,Labeling diagram variables,Labeling diagram variables,"Das habe ich X genannt, das habe ich a genannt, das habe ich b genannt."
 08.062.24,E,Labeling known side lengths on diagram,Labeling known side lengths on diagram,"Das Ding ist 6, das Ding ist 3"
 08.062.25,E,Restating bounds for a with simplification,Restating bounds for a with simplification,"kleiner als die Wurzel aus 36, also kleiner als 6"
 08.062.26,E,Restating bounds for b,Restating bounds for b,größer als 0 ist und kleiner als 3

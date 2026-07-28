@@ -57,7 +57,7 @@ Once the verb based pattern coding was yielding limited benefits (verb groups sm
 Codes were filtered using the below command and then checked one by one for a fitting cluster (including the option to create new clusters).
 
 ```shell
-python ./codebook.py view ./codebooks/codebook_v2.csv --column pattern_code --group-by-verb -o ./semantic-block.csv --filter-verb selecting, eliminating, transitioning, committing, finalizing, matching
+python ./codebook.py view ./codebooks/codebook_v2.csv --column pattern_code --group-by-verb -o ./semantic-block.csv --filter-verb signaling, adjusting, abandoning, making, trailing, voicing, hesitating, reacting
 ```
 
 | Block                                           | Verb set                                                                                                                                                                                                                                                | n   |
@@ -70,6 +70,6 @@ python ./codebook.py view ./codebooks/codebook_v2.csv --column pattern_code --gr
 | B6 — Verification and error detection           | verifying, recomputing, comparing, searching, flagging, noticing, testing, detecting, judging, reconfirming, assessing, suspecting, pausing, appraising                                                                                                 | 31  |
 | B7 — Hypothesis, strategy, reasoning            | attempting, anticipating, extending, reassessing, beginning, elaborating, rejecting, adopting, connecting, declaring, forming, initiating, restarting, skipping, speculating, strategizing, trying, weighing, affirming, justifying, claiming, deriving | 37  |
 | B8 — Answer selection                           | selecting, eliminating, transitioning, committing, finalizing, matching                                                                                                                                                                                 | 13  |
-| B9 — Diagram, sketch and paper/note work        | labeling, placing, sketching, annotating, marking, transcribing, visualizing, accepting, counting, examining, redrawing, externalizing, constructing, copying                                                                                           | 36  |
-| B10 — Stance, affect and self-monitoring        | signaling, adjusting, abandoning, making, trailing, voicing, hesitating, reacting                                                                                                                                                                       | 14  |
+| B9 — Note taking                                | labeling, placing, sketching, annotating, marking, transcribing, visualizing, accepting, counting, examining, redrawing, externalizing, constructing, copying                                                                                           | 36  |
+| B10 — Self-monitoring                           | signaling, adjusting, abandoning, making, trailing, voicing, hesitating, reacting                                                                                                                                                                       | 14  |
 | B11 — Tool and interface logistics / offloading | using, naming, agreeing, entering, improvising, navigating, retrieving, switching, typing, struggling                                                                                                                                                   | 12  |

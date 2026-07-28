@@ -271,7 +271,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [062.20] PROCESS: Redrawing diagram to organize reasoning | IV: "mal mir das Ganze jetzt nochmal auf"
 [062.21] PROCESS: Labeling diagram vertices | IV: "alle Punkte Ecken A,B,C,P"
 [062.22] PROCESS: Marking right angles on diagram | IV: "die beiden rechten Winkel"
-[062.23] PROCESS: Labeling diagram variables | IV: "X genannt ... a genannt ... b genannt"
+[062.23] PROCESS: Labeling diagram variables | IV: "Das habe ich X genannt, das habe ich a genannt, das habe ich b genannt."
 [062.24] PROCESS: Labeling known side lengths on diagram | IV: "Das Ding ist 6, das Ding ist 3"
 [062.25] PROCESS: Restating bounds for a with simplification | IV: "kleiner als die Wurzel aus 36, also kleiner als 6"
 [062.26] PROCESS: Restating bounds for b | IV: "größer als 0 ist und kleiner als 3"
