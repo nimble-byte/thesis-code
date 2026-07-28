@@ -58,6 +58,7 @@
 - re-coded a large variety of singleton codes
 
 - re-coded semantic block "Equation setup/manipulation"
-- re-coded semantic block "Calculations & solving"
-- re-coded semantic block "LLM message writing & logistics"
+- re-coded semantic block "Calculations and solving"
+- re-coded semantic block "LLM message writing and logistics"
 - re-coded semantic block "LLM response reading"
+- re-coded semantic block "Problem reading"
