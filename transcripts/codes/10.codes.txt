@@ -171,7 +171,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [055.1] PROCESS: Confirming right triangle and requesting formula | IV: "Wie lautet der Satz des Pythagoras?"
 
 [057.1a] PROCESS: Positively evaluating LLM response | IV: "Finde ich gut"
-[057.1b] PROCESS: Beginning to parse formula terms | IV: "gegenrechte Winkel gleich"
+[057.1b] PROCESS: Beginning to parse formula terms | IV: "rechte Winkel gleich"
 [057.2] PROCESS: Identifying hypotenuse in own triangle | IV: "die Hypotenuse ist ja praktisch eigentlich diese"
 [057.3] PROCESS: Describing geometric relationship between sides | IV: "die schneiden sich auch"
 [057.4] PROCESS: Performing Pythagorean calculation | IV: "6 ins Quadrat plus 8 ins Quadrat... 100"

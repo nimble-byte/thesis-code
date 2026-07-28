@@ -1019,7 +1019,7 @@ id,group,raw_label,canonical_label,in_vivo
 10.054.5,E,Recalling Pythagorean theorem formula,Recalling Pythagorean theorem formula,A Quadrat plus B Quadrat gleich C Quadrat
 10.055.1,E,Confirming right triangle and requesting formula,Confirming right triangle and requesting formula,Wie lautet der Satz des Pythagoras?
 10.057.1a,E,Positively evaluating LLM response,Positively evaluating LLM response,Finde ich gut
-10.057.1b,E,Beginning to parse formula terms,Beginning to parse formula terms,gegenrechte Winkel gleich
+10.057.1b,E,Beginning to parse formula terms,Beginning to parse formula terms,rechte Winkel gleich
 10.057.2,E,Identifying hypotenuse in own triangle,Identifying hypotenuse in own triangle,die Hypotenuse ist ja praktisch eigentlich diese
 10.057.3,E,Describing geometric relationship between sides,Describing geometric relationship between sides,die schneiden sich auch
 10.057.4,E,Performing Pythagorean calculation,Performing Pythagorean calculation,6 ins Quadrat plus 8 ins Quadrat... 100
