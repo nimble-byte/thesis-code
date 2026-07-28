@@ -3,13 +3,14 @@
 This README focuses on the transcriptions, the coding process and the tooling used for second cycle coding. The basic structure of the folder is as follows:
 
 ```
+
 ```
 
 ## Procedure
 
 1. Transcripts were transformed from the raw format into a semi-structured format using an LLM
-    1. Each transcript was transformed in a new session using the same prompt
-    2. Once transformation was complete, the [`validate_transcripts.py`](./validate_transcripts.py) was used to check transcripts transformation failures
+   1. Each transcript was transformed in a new session using the same prompt
+   2. Once transformation was complete, the [`validate_transcripts.py`](./validate_transcripts.py) was used to check transcripts transformation failures
 2. Each transcript was coded in a single pass for process codes with accompanying in vivo citations
 3. Coded transcriptions were combined into a single codebook using the `build` command of [`codebook.py`](./codebook.py)
 4. Codes were mechanically combined when they differed in casing of words or were direct sub- or super-codes of each other (Saldana pattern-mapping)
@@ -46,3 +47,29 @@ The [codebook tool](./codebook.py) was the core tool used to generate and update
 ### Command Generator
 
 Generated update commands using [`codebook.py`](./codebook.py) for changing batches of codes. Could be run in batch to speed up things.
+
+## Coding Passes
+
+### 2.2 Semantic Blocks
+
+Once the verb based pattern coding was yielding limited benefits (verb groups smaller than 8), pattern coding was organised using semantic blocks. The used semantic blocks can be found below.
+
+Codes were filtered using the below command and then checked one by one for a fitting cluster (including the option to create new clusters).
+
+```shell
+python ./codebook.py view ./codebooks/codebook_v2.csv --column pattern_code --group-by-verb -o ./semantic-block.csv --filter-verb solving, applying, computing, converting, determining, estimating, predicting, summing, working, arriving, executing, miscalculating, obtaining, recalculating, redoing, resuming, rounding, taking, vocalizing
+```
+
+| Block                                                  | Verb set                                                                                                                                                                                                                                                | n   |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| B1 — Equation setup/manipulation                       | setting, completing, rearranging, assigning, substituting, mapping, canceling, adding, formalizing, introducing, reusing, simplifying, writing, reformatting                                                                                            | 38  |
+| B2 — Calculations & solving                            | solving, applying, computing, converting, determining, estimating, predicting, summing, working, arriving, executing, miscalculating, obtaining, recalculating, redoing, resuming, rounding, taking, vocalizing                                         | 33  |
+| B3 — LLM message production & channel logistics        | composing, reporting, querying, verbalizing, providing, repeating, answering, answerig, framing, referencing, rehearsing, relaying, returning, sharing, deliberating                                                                                    | 41  |
+| B4 — LLM response reading & uptake                     | locating, realizing, recounting, paraphrasing, misreading, following                                                                                                                                                                                    | 13  |
+| B5 — Problem comprehension, restating & representation | reviewing, describing, seeking, specifying, orienting, reformulating, reiterating, summarizing, categorizing, commenting, consolidating, enumerating, extracting, understanding, decoding, asserting, relating, reframing                               | 49  |
+| B6 — Verification & error detection                    | verifying, recomputing, comparing, searching, flagging, noticing, testing, detecting, judging, reconfirming, assessing, suspecting, pausing, appraising                                                                                                 | 31  |
+| B7 — Hypothesis, strategy, reasoning & appraisal       | attempting, anticipating, extending, reassessing, beginning, elaborating, rejecting, adopting, connecting, declaring, forming, initiating, restarting, skipping, speculating, strategizing, trying, weighing, affirming, justifying, claiming, deriving | 37  |
+| B8 — Answer selection & task/session closure           | selecting, eliminating, transitioning, committing, finalizing, matching                                                                                                                                                                                 | 13  |
+| B9 — Diagram, sketch & paper/note work                 | labeling, placing, sketching, annotating, marking, transcribing, visualizing, accepting, counting, examining, redrawing, externalizing, constructing, copying                                                                                           | 36  |
+| B10 — Stance, affect & self-monitoring                 | signaling, adjusting, abandoning, making, trailing, voicing, hesitating, reacting                                                                                                                                                                       | 14  |
+| B11 — Tool & interface logistics / offloading channels | using, naming, agreeing, entering, improvising, navigating, retrieving, switching, typing, struggling                                                                                                                                                   | 12  |

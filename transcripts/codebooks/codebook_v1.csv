@@ -47,7 +47,7 @@ id,group,raw_label,canonical_label,in_vivo
 01.011.1,E,Reading chatbot response aloud,Reading LLM response aloud,du bist auf dem richtigen Weg
 01.011.2,E,Reading chatbot response aloud,Reading LLM response aloud,kann direkt mit trigonometrischen Funktionen
 01.011.3,E,Reading chatbot response aloud,Reading LLM response aloud,Welche trigonometrische Funktion würdest du verwenden
-01.011.4,E,"Beginning own reasoning, building on chatbot's hint","Beginning own reasoning, building on LLM's hint",Welche Seite der Ankathete
+01.011.4,E,"Beginning own reasoning, building on chatbot's hint","Beginning own reasoning, building on LLM's guidance",Welche Seite der Ankathete
 01.011.5,E,Identifying triangle side (hypotenuse),Identifying triangle side (hypotenuse),Das eine ist die Hypotenuse OB
 01.011.6,E,Assessing own rusty trigonometry knowledge,Assessing own rusty trigonometry knowledge,Ein bisschen eingerostet hier
 01.011.7a,E,Recalling trigonometric formula (cosine),Recalling trigonometric formula (cosine),Cosinus ist Ankathete durch Hypotenuse

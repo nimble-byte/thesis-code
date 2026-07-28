@@ -56,3 +56,6 @@
 - introduced pattern codes "reflecting on offloading choice", "reflecting on own capability relative to LLM", "reflecting on own performance"
 - introduced pattern code "explaining rationale to LLM", "explaining value of externalizing work"
 - re-coded a large variety of singleton codes
+
+- re-coded semantic block "Equation setup/manipulation"
+- re-coded semantic block "Calculations & solving"
