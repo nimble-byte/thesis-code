@@ -57,7 +57,7 @@ Once the verb based pattern coding was yielding limited benefits (verb groups sm
 Codes were filtered using the below command and then checked one by one for a fitting cluster (including the option to create new clusters).
 
 ```shell
-python ./codebook.py view ./codebooks/codebook_v2.csv --column pattern_code --group-by-verb -o ./semantic-block.csv --filter-verb reviewing, describing, seeking, specifying, orienting, reformulating, reiterating, summarizing, categorizing, commenting, consolidating, enumerating, extracting, understanding, decoding, asserting, relating, reframing
+python ./codebook.py view ./codebooks/codebook_v2.csv --column pattern_code --group-by-verb -o ./semantic-block.csv --filter-verb attempting, anticipating, extending, reassessing, beginning, elaborating, rejecting, adopting, connecting, declaring, forming, initiating, restarting, skipping, speculating, strategizing, trying, weighing, affirming, justifying, claiming, deriving
 ```
 
 | Block                                           | Verb set                                                                                                                                                                                                                                                | n   |

@@ -199,7 +199,7 @@ Attributing helpfulness to LLM,1,1,E:1 / B:0
 Attributing insight to LLM guidance,1,1,E:1 / B:0
 Attributing prior response content to LLM,1,1,E:0 / B:1
 Attributing request for formula to task,1,1,E:1 / B:0
-"Beginning own reasoning, building on LLM's guidance",1,1,E:1 / B:0
+"building on LLM's guidance",1,1,E:1 / B:0
 Beginning tentative hypothesis (incomplete),1,1,E:1 / B:0
 Beginning to parse formula terms,1,1,E:1 / B:0
 Calculating Half of Diagonal AC,1,1,E:0 / B:1

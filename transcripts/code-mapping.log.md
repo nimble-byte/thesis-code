@@ -16,16 +16,16 @@
 - introduce pattern codes "identifying mistake", "identifying given information", "identifying unknown information", "identifying solution step", "identifying problem solvability", and "identifying own knowledge gap"
 - "confirming solution steps", "confirmation of problem facts", "confirming LLM's guidance", "accpeting LLM's assertions", "deriving solution step", "Requesting formula from LLM", "Requesting formula confirmation from LLM", "managing experiment logistics"
 - remapped several codes from "confirming" family to existing codes
-- introduced pattern codes "expressing confidence", "expressing satisfaction", "expressing uncertainty", "expressing doubt", "expressing insight", "expressing frustration", "Considering querying LLM as fallback", "expressing surprise", "Encountering impasse"
+- introduced pattern codes "expressing confidence", "expressing satisfaction", "expressing uncertainty", "expressing doubt", "expressing insight", "expressing frustration", "Considering querying LLM as fallback", "expressing surprise", "encountering impasse"
 - remapped several codes from "expressing" family to existing codes
-- introduced pattern codes "requesting information from LLM", "requesting verification by LLM", "requesting guidance from LLM", "requesting clarification from LLM", "requesting clarification from researcher", "requesting solution from LLM", "Encountering impasse"
+- introduced pattern codes "requesting information from LLM", "requesting verification by LLM", "requesting guidance from LLM", "requesting clarification from LLM", "requesting clarification from researcher", "requesting solution from LLM", "encountering impasse"
 - introduced pattern codes "planning next solution step", "planning LLM message"
 - introduced pattern codes "managing experiment logistics", "questioning problem language", "questioning oneself", "questioning LLM output"
 - introduced pattern codes "recognizing own error", "recognizing error (no fault)", "recognizing solution step"
 - introduced pattern codes "submitting information to LLM", "answering the LLM"
 - introduced pattern codes "correcting the LLM", "correcting own solution step", "correcting own understanding", "correcting own terminology"
 - mapped "calculation" and "performing" family to "deriving solution step"
-- introduced pattern code "Verifying solution"
+- introduced pattern code "verifying solution"
 - introduced pattern codes "recalling earlier LLM feedback", "noticing problem", "noting given information", "evaluating LLM response as unhelpful"
 - introduced pattern codes "recalling math knowledge", "recalling own prior work"
 - introduced pattern code "stating information to LLM"
@@ -36,7 +36,7 @@
 - introduced pattern codes "evaluating LLM response as helpful", "evaluating LLM response as unhelpful", "scrutinizing LLM response", "evaluating own solving progress"
 - introduced pattern codes "acknowledging own error", "acknowledging own knowledge gap"
 - re-coded complete "announcing" family with existing pattern codes
-- introduced pattern code "checking own progress"
+- introduced pattern code "verifying own progress"
 - introduced pattern codes "self-explaining through analogy", "clarifying intended request to LLM"
 - re-coded parts of the "clarifying" family
 - introduced pattern codes "considering querying LLM", "considering solving strategy"
@@ -62,3 +62,4 @@
 - re-coded semantic block "LLM message writing and logistics"
 - re-coded semantic block "LLM response reading"
 - re-coded semantic block "Problem reading"
+- re-coded semantic block "Verification and error detection"
