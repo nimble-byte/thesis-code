@@ -59,4 +59,5 @@
 
 - re-coded semantic block "Equation setup/manipulation"
 - re-coded semantic block "Calculations & solving"
-- re-coded semantic block ""
+- re-coded semantic block "LLM message writing & logistics"
+- re-coded semantic block "LLM response reading"
