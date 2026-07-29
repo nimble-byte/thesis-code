@@ -13,8 +13,8 @@
 - re-coded all statements previously coded with "Reading LLM response aloud" to reflect content detail
 - re-coded 05.005.9 and 04.036.1 to better fit new pattern codes
 - introduced pattern codes "reading LLM's CoT", "reading LLM's guidance", "reading LLM's questions", "reading LLM's restated known information", "reading LLM's feedback", "reading given information", "reading problem statement"
-- introduce pattern codes "identifying mistake", "identifying given information", "identifying unknown information", "identifying solution step", "identifying problem solvability", and "identifying own knowledge gap"
-- "confirming solution steps", "confirmation of problem facts", "confirming LLM's guidance", "accpeting LLM's assertions", "deriving solution step", "Requesting formula from LLM", "Requesting formula confirmation from LLM", "managing experiment logistics"
+- introduce pattern codes "identifying given information", "identifying unknown information", "identifying solution step", "identifying problem solvability", and "identifying own knowledge gap"
+- "confirming given information", "confirmation of problem facts", "confirming LLM's guidance", "accpeting LLM's assertions", "deriving solution step", "Requesting formula from LLM", "Requesting formula confirmation from LLM", "managing experiment logistics"
 - remapped several codes from "confirming" family to existing codes
 - introduced pattern codes "expressing confidence", "expressing satisfaction", "expressing uncertainty", "expressing doubt", "expressing insight", "expressing frustration", "Considering querying LLM as fallback", "expressing surprise", "encountering impasse"
 - remapped several codes from "expressing" family to existing codes
@@ -34,7 +34,7 @@
 - introduced pattern codes "attributing LLM's confusion to own action", "attributing capability to LLM"
 - merged dictating into "formulating LLM message"
 - introduced pattern codes "evaluating LLM response as helpful", "evaluating LLM response as unhelpful", "scrutinizing LLM response", "evaluating own solving progress"
-- introduced pattern codes "acknowledging own error", "acknowledging own knowledge gap"
+- introduced pattern codes "acknowledging own knowledge gap"
 - re-coded complete "announcing" family with existing pattern codes
 - introduced pattern code "verifying own progress"
 - introduced pattern codes "self-explaining through analogy", "clarifying intended request to LLM"
@@ -68,3 +68,8 @@
 - re-coded semantic block "Note taking"
 - re-coded semantic block "Self-monitoring"
 - re-coded semantic block "Tools and offloading"
+
+- fixed naming duplication: "Comitting to answer" -> "comitting to answer"
+- folded "acknowledging own error" and "identifying mistake" into "recognizing own error"
+- renamed "confirming solution steps" to "confirming given information"
+- fully re-coded "confirmation of problem facts"

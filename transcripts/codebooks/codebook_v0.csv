@@ -856,7 +856,7 @@ id,group,raw_label,canonical_label,in_vivo
 09.007.8,E,Testing hypothesis by manual calculation,Testing hypothesis by manual calculation,wenn man jetzt 8 händisch einmal ausrechnet
 09.007.9,E,Performing calculation,Performing calculation,hätten wir eine Summe von 28
 09.007.10,E,Selecting closest-matching answer,Selecting closest-matching answer,"das, was am nächsten dran kommt"
-09.007.11,E,Committing to answer under uncertainty,Committing to answer under uncertainty,"in der Hoffnung, dass man runden darf"
+09.007.11,E,committing to answer under uncertainty,committing to answer under uncertainty,"in der Hoffnung, dass man runden darf"
 09.007.12,E,Expressing residual doubt about answer,Expressing residual doubt about answer,abgerundet eher 7 wäre als 8
 09.007.13,E,Deciding to query chatbot for direct solution,Deciding to query chatbot for direct solution,vielleicht kriege ich eine direkte Lösung ausgespuckt
 09.008.1,E,Formulating chatbot query with concrete values,Formulating chatbot query with concrete values,wie würde das dann beispielsweise aussehen
@@ -1257,7 +1257,7 @@ id,group,raw_label,canonical_label,in_vivo
 13.004.8,B,Annotating diagram with values,Annotating diagram with values,"das hier ist praktisch 2, während das alles insgesamt 5 ist"
 13.004.9,B,Performing calculation,Performing calculation,"kann ich die durch 5 rechnen, sind 5"
 13.004.10,B,Performing calculation,Performing calculation,"die 5 mal 2 rechne, sind es 10"
-13.004.11,B,Committing to answer,Committing to answer,würde ich dafür die 10 eintippen
+13.004.11,B,committing to answer,committing to answer,würde ich dafür die 10 eintippen
 13.005.2,B,Orienting to task figure,Orienting to task figure,wird mir ein Kreis gezeigt mit einem Winkel x und dann Radius R
 13.005.3,B,Identifying task goal,Identifying task goal,"wird gefragt, was die Länge des Kreisabschnittes ist"
 13.005.4,B,Identifying given information,Identifying given information,ich habe den Winkel und ich habe den Radius
@@ -1277,7 +1277,7 @@ id,group,raw_label,canonical_label,in_vivo
 13.014.5,B,Correcting calculation approach,Correcting calculation approach,Ich muss andersrum rechnen
 13.014.6,B,Reflecting on calculator use,Reflecting on calculator use,Hätte ich jetzt nicht in den Taschenrechner eintippen müssen
 13.014.7,B,Skipping intermediate steps,Skipping intermediate steps,keine Lust drauf [Zwischenrechnungen zu machen]
-13.014.8,B,Committing to answer,Committing to answer,die würde ich auch so auswählen
+13.014.8,B,committing to answer,committing to answer,die würde ich auch so auswählen
 13.014.10,B,Orienting to task figure,Orienting to task figure,In der Abbildung gezeigt haben die Dinger von neuen Diamanten ABCD
 13.014.11a,B,Identifying given information,Identifying given information,Ich kenne die Dänge zwischen AC und zwischen BD
 13.014.11b,B,Identifying task goal,Identifying task goal,jetzt muss ich die Kantenlänge praktisch wieder berechnen

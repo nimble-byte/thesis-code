@@ -43,7 +43,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [007.8] PROCESS: Testing hypothesis by manual calculation | IV: "wenn man jetzt 8 händisch einmal ausrechnet"
 [007.9] PROCESS: Performing calculation | IV: "hätten wir eine Summe von 28"
 [007.10] PROCESS: Selecting closest-matching answer | IV: "das, was am nächsten dran kommt"
-[007.11] PROCESS: Committing to answer under uncertainty | IV: "in der Hoffnung, dass man runden darf"
+[007.11] PROCESS: committing to answer under uncertainty | IV: "in der Hoffnung, dass man runden darf"
 [007.12] PROCESS: Expressing residual doubt about answer | IV: "abgerundet eher 7 wäre als 8"
 [007.13] PROCESS: Deciding to query chatbot for direct solution | IV: "vielleicht kriege ich eine direkte Lösung ausgespuckt"
 
