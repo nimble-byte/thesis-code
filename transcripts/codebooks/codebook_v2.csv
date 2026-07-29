@@ -75,7 +75,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 02.008.8,B,Voicing Confusion About Ratio Meaning,was heißt 2 zu 5?,Voicing Confusion About Ratio Meaning,formulating LLM message
 02.008.9,B,Deciding to ask Chatbot for clarification,Fragen wir mal den Chatbot.,Deciding to ask LLM for clarification,deciding to ask LLM for information
 02.008.10,B,Asking About Chat Session Procedure,soll ich zuerst noch mal einen neuen Chat anlegen,Asking About Chat Session Procedure,managing experiment logistics
-02.010.1,B,Typing Query to Chatbot,was heit das Verhätis 2 zu 5,Typing Query to LLM,Typing Query to LLM
+02.010.1,B,Typing Query to Chatbot,was heit das Verhätis 2 zu 5,Typing Query to LLM,formulating LLM message
 02.012.1,B,Reading Chatbot Response Aloud,"Das Verhältnis von 2 zu 5 bedeutet, dass die Teile in Bezug auf 5 Teile gesetzt werden.",Reading LLM's restated known information,reading LLM's restated known information
 02.012.2,B,Reading Chatbot Response Aloud,die relativ große oder Menge zu Ergrößen auszudrücken,Reading LLM's restated known information,reading LLM's restated known information
 02.012.3,B,Reading Chatbot Response Aloud,einen Kuchen in 5 gleich große Stücke schneiden,Reading LLM's restated known information,reading LLM's restated known information
@@ -112,7 +112,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 02.022.4,B,Identifying Shape in Diagram,das Parallelogramm,Identifying Shape in Diagram,identifying given information
 02.022.5,B,Deciding to Consult Chatbot for Angle Property,ob es einen festen Winkel für einen regelmäßigen Sechseck gibt,Deciding to Consult LLM for Angle Property,deciding to ask LLM for information
 02.022.6,B,Formulating Question for Chatbot,haben alle Ecken in einem regelmäßigen Sechseck den gleichen Winkel?,Formulating question for LLM,formulating LLM message
-02.023.1,B,Typing Query to Chatbot,haben alle Ecken in einem regelmäßigen Sechseck den gleichen Winkel?,Typing Query to LLM,Typing Query to LLM
+02.023.1,B,Typing Query to Chatbot,haben alle Ecken in einem regelmäßigen Sechseck den gleichen Winkel?,Typing Query to LLM,formulating LLM message
 02.025.1,B,Reading Chatbot Response Aloud,Das ist eine interessante Frage,reading response evaluation aloud,reading LLM's feedback
 02.025.2,B,Reading Chatbot Response Aloud,gemeinsam über die Eigenschaften eines regelmäßigen Sechsecks nachdenken,Reading LLM guidance,reading LLM's guidance
 02.025.3,B,Reading Chatbot Response Aloud,sechs Seiten und sechs Ecken,Reading LLM's restated known information,reading LLM's restated known information
@@ -146,7 +146,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 02.027.14,B,Applying Pythagorean Theorem to Compute Edge Length,die Wurzel aus 8 Quadrat plus 6 Quadrat ist 10,Applying Pythagorean theorem,setting up equation
 03.002.1,B,Announcing task-reading strategy,dann lese ich mir erstmal die Aufgabenstellung durch,Announcing task reading,planning next solution step
 03.002.2,B,Extracting given information from problem statement,Abstand vom Mittelpunkt bis zum Rand ist fünf,Extracting given information,extracting given value
-03.002.3,B,Interpreting problem geometry,irgendwo auf im Bereich der Linie wird das quasi gekreuzt von Linie AB,Interpreting problem geometry,Interpreting problem geometry
+03.002.3,B,Interpreting problem geometry,irgendwo auf im Bereich der Linie wird das quasi gekreuzt von Linie AB,Interpreting problem geometry,extracting given value
 03.002.4,B,Deciding to consult LLM due to knowledge gap,mir da jetzt so keine Formel bekannt,Deciding to consult LLM due to knowledge gap,deciding to ask LLM for information
 03.002.5,B,Announcing intent to share problem statement with LLM,gebe ich ihm die Aufgabenstellung mit,Announcing intent to share problem statement with LLM,planning LLM message
 03.003.1,B,Requesting solution formula from LLM,hast du eine Idee mit welcher formel ich diese Aufgabe lösen kann?,Requesting solution formula from LLM,requesting information from LLM
@@ -268,7 +268,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 04.012.5,E,Stating intermediate calculation result,125 halbe,Stating intermediate calculation result,performing calculation
 04.012.6,E,Stating calculation result,"62,5, was mein X ist",Stating calculation result,performing calculation
 04.012.7,E,Interpreting result relative to LLM's response,"wenn das stimmt, was er hier sagt",Interpreting result relative to LLM's response,scrutinizing LLM response
-04.012.8,E,Naming result with notation,BC Strich oder BC Overline,Naming result with notation,Naming result with notation
+04.012.8,E,Naming result with notation,BC Strich oder BC Overline,Naming result with notation,restating solution step
 04.012.9,E,Planning message content for LLM,"die Formel umgestellt, nach X",Planning message content for LLM,planning LLM message
 04.012.10,E,Dictating formula for message,AB mal 5,Dictating formula for message,formulating LLM message
 04.012.11,E,Dictating conclusion for message,"ein X von 62,5",Dictating conclusion for message,formulating LLM message
@@ -329,7 +329,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 04.036.1,E,Reading and interpreting task variables,"x ist der Winkel, gehe ich mal blöd von aus",reading given information,reading given information
 04.036.2,E,Reading task statement aloud,Länge des Kreisabschnittes,Reading task statement aloud,reading problem statement
 04.036.3,E,Commenting problem description,ist blöd beschrieben,Commenting problem description,reflecting on own performance
-04.036.4,E,Using analogy to describe shape,kuchenstückähnlichen Abschnitt,Using analogy to describe shape,Using analogy to describe shape
+04.036.4,E,Using analogy to describe shape,kuchenstückähnlichen Abschnitt,Using analogy to describe shape,reasoning by analogy
 04.036.5,E,Noting spelling to fix later,nachher rechtschreiben,Noting spelling to fix later,managing experiment logistics
 04.036.6,E,Questioning angle notation,ist das x hoch?,Questioning angle notation,questioning oneself
 04.036.7,E,Restating given values and goal,"Ziel ist es, die Länge des Kreisabschnittes zu berechnen",Restating Given Values,restating given information
@@ -393,7 +393,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 05.002.12,B,Restating given ratio,die ist 2 zu 5,Restating given ratio,restating given information
 05.002.13,B,Performing manual calculation,wenn ich die durch 5 teile... ist also 5 mal 2 ist 10,Performing manual calculation,performing calculation
 05.002.14,B,Deciding to submit solution for chatbot verification,schicke ich zur Überprüfung die Lösung an,Deciding to submit solution for LLM verification,deciding to ask LLM for verification
-05.002.15,B,Naming verification tool,ChatGPT,Naming verification tool,Naming verification tool
+05.002.15,B,Naming verification tool,ChatGPT,Naming verification tool,comparing LLM to ChatGPT
 05.002.16a,B,Self-correcting tool terminology,nicht ChatGPT sondern den Bot,Self-correcting tool terminology,correcting own terminology
 05.002.16b,B,Stating verification goal,ob das so weit Sinn ergibt,Stating verification goal,restating solution step
 05.002.17,B,Expressing confidence in own solution prior to verification,"recht sicher, dass das richtig ist",Expressing confidence in own solution prior to verification,expressing confidence
@@ -424,7 +424,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 05.008.2,B,Relaying task parameters to LLM,Wenn x = 32 und r = 18...,Relaying task parameters to LLM,submitting information to LLM
 05.010.1,B,Identifying required variables for calculation,"Den Winkel, den Radiant und den Radius des Kreises",Identifying required variables for calculation,identifying unknown information
 05.010.2,B,Planning degree-to-radian conversion,"Der Winkel ist bereits ein Grad, so kann man... Radiant... berechnen",Planning degree-to-radian conversion,planning next solution step
-05.010.3,B,Retrieving calculator tool,Jetzt holen wir mal die Taschenrechner aus,Retrieving calculator tool,Retrieving calculator tool
+05.010.3,B,Retrieving calculator tool,Jetzt holen wir mal die Taschenrechner aus,Retrieving calculator tool,deciding to use calculator
 05.010.5,B,Performing radian conversion calculation,Grad waren... 32... mal...Pi,Performing radian conversion calculation,performing calculation
 05.012.1,B,Locating calculator function,Wo ist Pi? Wo ist Pi?,Locating calculator function,managing experiment logistics
 05.012.2,B,Continuing radian conversion calculation,Pi durch...180,Continuing radian conversion calculation,performing calculation
@@ -485,7 +485,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 05.025.18,B,Recalling Pythagorean theorem for calculation,"den Satz [von Pythagoras] brauchen um die Länge von A, B zu finden",Recalling Pythagorean theorem,recalling math knowledge
 05.025.19,B,Restating known versus unknown values,ich habe die Länge... und ihr findet nur noch die,Restating known versus unknown values,restating given information
 05.025.20,B,Expressing playful confidence via catchphrase,Pythagoras to the rescue,Expressing playful confidence via catchphrase,expressing confidence
-05.025.22,B,Switching to calculator for computation,der Taschenrechner,Switching to calculator for computation,Switching to calculator for computation
+05.025.22,B,Switching to calculator for computation,der Taschenrechner,Switching to calculator for computation,deciding to use calculator
 05.025.23,B,"Performing Pythagorean calculation step (verbal slip, self-corrected in 025.24–025.28)","8 mal 6 ...mit AO Quadrat, das ist AO",Performing Pythagorean calculation,performing calculation
 05.025.24,B,Computing squared value,6 mal 6 sind 36,Computing squared value,extracting given value
 05.025.25,B,Computing second squared value,8 mal 8 sind 64,Computing second squared value,extracting given value
@@ -576,7 +576,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 08.004.2,E,Identifying known triangle side lengths,"die Linie AB, die die Länge 8 hat und die beiden Seiten, die die Länge 5 haben",Identifying known triangle side lengths,identifying given information
 08.004.3,E,Reframing distance as triangle height,"die Distanz von der Mitte bis AB, quasi die Höhe",Reframing distance as triangle height,planning next solution step
 08.004.4,E,Inferring perpendicularity from distance definition,muss ja diese Verbindung ... im Prinzip senkrecht drauf stehen,Inferring perpendicularity from distance definition,assuming mathematical property
-08.004.5,E,Concluding right angle,einen 90°-Winkel,Concluding right angle,Concluding right angle
+08.004.5,E,Concluding right angle,einen 90°-Winkel,Concluding right angle,extracting given value
 08.004.6,E,Verifying right-angle assumption,"muss ich mal überlegen, ob das ... tatsächlich",Verifying right-angle assumption,verifying own progress
 08.004.7,E,Deriving half-chord length,die Hälfte wäre dann hier Länge 4,Deriving half-chord length,extracting given value
 08.004.8,E,Applying Pythagorean theorem,der Satz des Pythagoras,Applying Pythagorean theorem,deciding next solution step
@@ -959,7 +959,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 10.024.1,E,Orienting to circle diagram,ich habe hier einen Kreis,Orienting to circle diagram,restating given information
 10.024.2,E,Interpreting diagram markings,"das, was nicht gestrichelt ist",Interpreting diagram markings,identifying given information
 10.024.3,E,Recognizing need for formula,"es gibt eine Formel, um das zu berechnen",Recognizing need for formula,recognizing solution step
-10.024.4,E,Struggling with image-paste interface,Wie paste ich da? Command V?,Struggling with image-paste interface,Struggling with image-paste interface
+10.024.4,E,Struggling with image-paste interface,Wie paste ich da? Command V?,Struggling with image-paste interface,managing experiment logistics
 10.024.5,E,Enumerating perceived given quantities,"wir haben eine Länge, wir haben die Fläche, wir haben den Winkel",Enumerating perceived given quantities,expressing insight
 10.025.1,E,Asking LLM whether formula exists,Gibt es dafür eine Formel?,Asking LLM whether formula exists,requesting information from LLM
 10.027.1,E,Reiterating belief in existence of formula,es gibt da eine Formel,Reiterating belief in existence of formula,reaffirming own hypothesis
@@ -1024,7 +1024,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 10.057.3,E,Describing geometric relationship between sides,die schneiden sich auch,Describing geometric relationship between sides,correcting own understanding
 10.057.4,E,Performing Pythagorean calculation,6 ins Quadrat plus 8 ins Quadrat... 100,Performing Pythagorean calculation,performing calculation
 10.057.5,E,Taking square root to reach final answer,komme ich auf 10,Taking square root to reach final answer,performing calculation
-11.002.1,B,improvising interface workaround,ich mach das mal mit dem Pluszeichen,improvising interface workaround,improvising interface workaround
+11.002.1,B,improvising interface workaround,ich mach das mal mit dem Pluszeichen,improvising interface workaround,managing experiment logistics
 11.002.2,B,initiating task reading,dann lesen wir erstmal die Aufgabe durch,Initiating task reading,planning next solution step
 11.002.3,B,restating given information,"Radius von 5, die Länge der Linie AB ist 8",Restating given information,restating given information
 11.002.4,B,restating task question,Wie groß ist die Distanz von der Mitte des Kreises O zur Linie AB?,Restating task question,restating problem goal
@@ -1203,7 +1203,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 11.079.1,B,asking about calculator input functionality,Kann man hier Brüche eintippen?,asking about calculator input functionality,managing experiment logistics
 11.081.1,B,asking about calculator fraction feature location,Wo sind denn hier die Brüche?,asking about calculator fraction feature location,managing experiment logistics
 11.083.1,B,reacting positively to discovering calculator feature,Oh. Cool.,reacting positively to discovering calculator feature,expressing satisfaction
-11.085.2,B,entering fraction value into calculator,2/5,entering fraction value into calculator,entering fraction value into calculator
+11.085.2,B,entering fraction value into calculator,2/5,entering fraction value into calculator,performing calculation
 11.087.1,B,realizing meaning of instruction,Ach so,realizing meaning of instruction,correcting own understanding
 11.087.2,B,attributing computational capability to the calculator,"Ich dachte, das weiß der.",attributing computational capability to the calculator,managing experiment logistics
 11.087.4,B,checking alignment with LLM's question,was er fragt,checking alignment with LLM's question,verifying own progress
@@ -1266,13 +1266,13 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 13.005.7,B,Asking permission to consult chatbot,Soll ich hier schon den Chatbot benutzen?,Asking permission to consult LLM,managing experiment logistics
 13.007.1,B,Formulating query to chatbot,"was ist die Formel, um den Kreisumfang zu berechnen, wenn r gegeben ist?",Formulating clarifying question for LLM,formulating LLM message
 13.008.1,B,Querying chatbot for formula,Was ist die Formel um den Kreis umfang zu berechnen wenn r gegeben ist?,Querying LLM for formula,requesting information from LLM
-13.009.1,B,Navigating chatbot interface,Welche soll ich nehmen?,Navigating LLM interface,Navigating LLM interface
+13.009.1,B,Navigating chatbot interface,Welche soll ich nehmen?,Navigating LLM interface,managing experiment logistics
 13.011.1,B,Clarifying task procedure with researcher,"wenn ich neue Aufgabe habe, da halte ich es direkt rein",Clarifying task procedure with researcher,managing experiment logistics
 13.014.1a,B,Confirming formula from response,"das war 2PiR, damit weißt du den Umfang",Confirming formula from response,confirming LLM's guidance
 13.014.1b,B,Calculating result from formula,"Wenn R 18 ist, dann habe ich 36Pi",Calculating result from formula,performing calculation
 13.014.2,B,Planning next calculation step,"wenn der Winkel 32 Grad ist, würde ich das so rechnen",Planning next calculation step,planning next solution step
 13.014.3a,B,Setting up calculation,Das ist dann 360 geteilt durch 32,Setting up calculation,setting up equation
-13.014.3b,B,Using calculator tool,Das würde ich in der Taschenrechner ... eintippen,Using calculator tool,Using calculator tool
+13.014.3b,B,Using calculator tool,Das würde ich in der Taschenrechner ... eintippen,Using calculator tool,deciding to use calculator
 13.014.4,B,Questioning own calculation,Moment was habe ich hier gerechnet,Questioning own calculation,questioning oneself
 13.014.5,B,Correcting calculation approach,Ich muss andersrum rechnen,Self-correcting calculation approach,correcting own solution step
 13.014.6,B,Reflecting on calculator use,Hätte ich jetzt nicht in den Taschenrechner eintippen müssen,Reflecting on calculator use,reflecting on offloading choice
@@ -1317,13 +1317,13 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 13.026.4b,B,Calculating half-diagonal length,Ich hatte jetzt nochmal praktisch A und C halbiert,Calculating half-diagonal length,extracting given value
 13.026.5,B,Calculating half-diagonal length,"Das sind 6, weil A und C = 12 ist",Calculating half-diagonal length,extracting given value
 13.026.6,B,Calculating half-diagonal length,Das Gleiche mache ich auch für B und D ... es sind 8,Calculating half-diagonal length,extracting given value
-13.026.7,B,Applying Pythagorean theorem,"der Satz des Pythagoras immer noch praktisch, die Quadrate von beiden",Applying Pythagorean theorem,affirming hypothesis
+13.026.7,B,Applying Pythagorean theorem,"der Satz des Pythagoras immer noch praktisch, die Quadrate von beiden",Applying Pythagorean theorem,reaffirming own hypothesis
 13.026.8,B,Explaining calculation logic,so kriege ich die Hypotenusenlänge hin,Explaining calculation logic,identifying solution step
 13.026.9,B,Checking calculation output,"kommt bei mir jetzt, wenn ich das hier mache",Checking calculation output,verifying own progress
 13.026.10,B,Recognizing calculation error,Irgendwas mache ich falsch,Recognizing calculation error,recognizing own error
 13.026.11,B,Suspecting own error,ein großer Denkfehler bei mir,Suspecting own error,recognizing own error
 13.026.12,B,Performing calculation,Mal 8 zum Quadrat sind 2000,Performing calculation,performing calculation
-13.026.13,B,Redoing calculation,ich rechne das nochmal ganz normal durch,Redoing calculation,Redoing calculation
+13.026.13,B,Redoing calculation,ich rechne das nochmal ganz normal durch,Redoing calculation,verifying solution
 13.026.14,B,Performing calculation,"Wurzel aus 2304 rechne, kommt bei mir 48 raus",Performing calculation,performing calculation
 13.026.15,B,Recognizing calculation error,Irgendwas rechne ich hier ganz falsch,Recognizing calculation error,recognizing own error
 13.026.16,B,Identifying source of error,das Pythagoras falsch in Erinnerung hatte,Identifying source of error,identifying mistake
@@ -1424,7 +1424,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 15.036.5,E,Solving equation (erroneous),Macht aber auch so auch keinen Sinn,Solving equation (erroneous),recognizing own error
 15.036.6,E,Recognizing calculation error against answer options,Er steht auch nicht in den Möglichkeiten,Recognizing calculation error,recognizing own error
 15.036.7,E,Deciding to re-explain to chatbot,Ich werde den Chatbot nochmal erklären,Deciding to re-explain to LLM,Deciding to update the LLM information
-15.038.1,E,Agreeing to researcher's suggestion,"Ja, ich glaube, das werde ich auch tun",Agreeing to researcher's suggestion,Agreeing to researcher's suggestion
+15.038.1,E,Agreeing to researcher's suggestion,"Ja, ich glaube, das werde ich auch tun",Agreeing to researcher's suggestion,deciding to use calculator
 15.040.1,E,Reassessing variable assignment,von den Variablen macht das ja auch keinen Sinn,Reassessing variable assignment,recognizing own error
 15.040.2,E,Recomputing squares step by step,die Quadrate auszulösen von jeder Zahl,Recomputing squares step by step,deciding next solution step
 15.040.3,E,Recomputing Pythagorean equation,16 plus b^2. Gleich 25^2,Recomputing Pythagorean equation,performing calculation
