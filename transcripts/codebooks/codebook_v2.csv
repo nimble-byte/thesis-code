@@ -304,7 +304,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 04.023.1,E,Acknowledging calculation error,komplett falsch ist,Acknowledging calculation error,acknowledging own error
 04.025.1,E,Rejecting LLM's suggested approach,das ist auch nicht richtig,Rejecting LLM's suggested approach,rejecting LLM's guidance
 04.025.2,E,Reading LLM response aloud,Verhältnis AB durch BC gleich 2/5,Reading LLM's restated known information,reading LLM's restated known information
-04.025.3,E,Reasoning about given vs. derivable quantities,BC könnte ich ja wahrscheinlich berechnen,Reasoning about given vs. derivable quantities,Reasoning about given vs. derivable quantities
+04.025.3,E,Reasoning about given vs. derivable quantities,BC könnte ich ja wahrscheinlich berechnen,Reasoning about given vs. derivable quantities,forming own hypothesis
 04.025.4,E,Critically evaluating LLM's claim,"er sagt mir wieder, ich hätte AB",Critically evaluating LLM's claim,scrutinizing LLM response
 04.027.1,E,Checking understanding against hint,"Verhältnis für AC, oder nicht?",Checking understanding against hint,verifying own progress
 04.029.1,E,Expressing exclamation of understanding,Ach ja.,Expressing exclamation of understanding,expressing insight
@@ -824,7 +824,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 08.068.23,E,Identifying target segment on diagram,der hier ist gesucht,Identifying target segment on diagram,identifying unknown information
 08.068.24,E,Reasoning about relative point positions,C liegt auf der Hälfte von MB und M ist die Hälfte von MA,Reasoning about relative point positions,restating given information
 08.068.25,E,Computing target length via segment addition,"NC sollte dann 1 plus 2,5 sein. Das ist gleich 3,5",Computing target length via segment addition,deriving from non-given values
-08.068.26,E,Reflecting on solving the task without chatbot assistance,brauchte ich dann jetzt keine KI,Reflecting on solving the task without LLM assistance,reflecting on offloading choice
+08.068.26,E,Reflecting on solving the task without chatbot assistance,brauchte ich dann jetzt keine KI,Reflecting on solving the task without LLM assistance,reflecting on own performance
 09.002.2,E,Restating problem information,"eine große Strecke, die in zwei kleinere Strecken noch unterteilt ist",Restating problem information,restating given information
 09.002.3,E,Identifying task goal,"soll berechnen, wie lang die kleine Strecke ist",Identifying task goal,identifying unknown information
 09.002.4,E,Identifying given information,"ein Verhältnis gegeben, allerdings auch für eine Länge, die ich nicht habe",Identifying given information,identifying given information
@@ -904,7 +904,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 09.023.1,E,Requesting formula confirmation from chatbot,wenn ich die beiden anderen Kantenlängen gegeben habe,Requesting formula confirmation from LLM,requesting verification by LLM
 09.025.1,E,Recalling relevant theorem,das wird wahrscheinlich der Satz des Pythagoras sein,Recalling relevant theorem,recalling math knowledge
 09.025.2,E,Deciding to verify recalled formula with chatbot,"ob ich mir da sicher bin, ob das richtig ist",Deciding to verify recalled formula with LLM,deciding to ask LLM for verification
-09.026.1,E,Confirming theorem with chatbot,Satz des Pythagoras?,Confirming theorem with LLM,Confirming theorem with LLM
+09.026.1,E,Confirming theorem with chatbot,Satz des Pythagoras?,Confirming theorem with LLM,requesting verification by LLM
 09.028.1,E,Performing calculation,das passt schon mal nicht,Performing calculation,performing calculation
 09.028.2,E,Identifying own calculation error,die Quadrate glaube ich vergessen,Identifying own calculation error,identifying mistake
 09.028.3,E,Correcting calculation and confirming result,"6^2 plus 8^2 ist dann 10, ja und dann kommt es auch hin",Correcting calculation and confirming result,correcting own solution step
@@ -1182,7 +1182,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 11.059.12,B,requesting LLM perform equation rearrangement,ob er mir die Gleichung umstellen kann,requesting LLM perform equation rearrangement,requesting solution from LLM
 11.059.13,B,attributing offloading to own laziness,Bin ich zu faul zu,attributing offloading to own laziness,self-justifying
 11.060.1,B,requesting LLM rearrange equation,Kannst Du mir die Gleichung umstellen,requesting LLM rearrange equation,requesting solution from LLM
-11.062.1,B,clarifying intended request to LLM,"dass er das für mich machen soll, nach AB umstellen soll",clarifying intended request to LLM,clarifying intended request to LLM
+11.062.1,B,clarifying intended request to LLM,"dass er das für mich machen soll, nach AB umstellen soll",clarifying intended request to LLM,restating solution step
 11.062.2,B,noting LLM's failure to fulfill request,Hat er aber genau nicht gemacht,noting LLM's failure to fulfill request,evaluating LLM response as unhelpful
 11.066.1,B,restating task goal,"Ja, Gleichung umstellen",restating task goal,restating problem goal
 11.066.2,B,expressing aversion to equation rearrangement,Ich hasse das,expressing aversion to equation rearrangement,expressing frustration
@@ -1249,7 +1249,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 11.095.33,B,deriving midpoint value,"das ist genau die Mitte von MB, das ist siebeneinhalb",deriving midpoint value,extracting given value
 11.095.34,B,noting unspecified position of point N,"N ist ein Punkt auf der Linie zwischen A und M, aber irgendwo",noting unspecified position of point N,noting given information
 11.095.35,B,deriving final answer,"Zwischen 4 und 7,5 liegen 3,5",deriving final answer,deriving from non-given values
-11.095.36,B,noting problem solved without consulting LLM,"Habe ich jetzt nicht gefragt, aber okay",noting problem solved without consulting LLM,Reflecting on solving the task without LLM assistance
+11.095.36,B,noting problem solved without consulting LLM,"Habe ich jetzt nicht gefragt, aber okay",noting problem solved without consulting LLM,reflecting on own performance
 13.004.3,B,Orienting to task figure,In der Figur wird mir eine Linie angezeigt,Orienting to task figure,restating given information
 13.004.4,B,Identifying given information,ich habe die Ratio von der Länge von AB zu AC,Identifying given information,identifying given information
 13.004.5,B,Identifying task goal,ich muss praktisch die Länge von AB berechnen,Identifying task goal,identifying unknown information
@@ -1395,7 +1395,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 15.022.9,E,Formulating question for chatbot,wie man aus dem Radius eine gewisse Differenz berechnen kann,Formulating question for LLM,formulating LLM message
 15.023.1,E,Requesting method from chatbot,wie kann man eine differenz berechnen,Requesting method from LLM,requesting guidance from LLM
 15.025.1,E,Paraphrasing chatbot's response,ich möchte genau diese Differenz wissen,Paraphrasing LLM's response,restating LLM's guidance
-15.025.2,E,Clarifying own question in response to chatbot,ich genau den senkrechten Abstand mehr haben möchte,Clarifying own question in response to LLM,Clarifying own question in response to LLM
+15.025.2,E,Clarifying own question in response to chatbot,ich genau den senkrechten Abstand mehr haben möchte,Clarifying own question in response to LLM,formulating LLM message
 15.026.1,E,Clarifying question for chatbot,senkrechten Abstand vom Mittelpunkt bis zur sehne,Formulating clarifying question for LLM,formulating LLM message
 15.028.1,E,Paraphrasing chatbot's response,"Du siehst eine Linie vom Mittelpunkt des Kreises, diese Linie teilt die Sehne",Paraphrasing LLM's response,restating LLM's guidance
 15.028.2,E,Confirming alignment with own prior reasoning,"Das ist genau der Gedanke, den ich auch hatte",Confirming alignment with own prior reasoning,confirmation of problem facts
