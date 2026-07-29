@@ -426,8 +426,15 @@ def cmd_view(args):
             "group_coverage": f"E:{gc.get('E', 0)} / B:{gc.get('B', 0)}",
         }
         if args.quotes:
-            ex = g["in_vivo"].dropna().unique().tolist()[: args.quotes]
-            out["examples"] = " || ".join(ex)
+            seen = {}
+            for _, row in g.iterrows():
+                q = row["in_vivo"]
+                if not q or q in seen:
+                    continue
+                seen[q] = row["id"]
+                if len(seen) >= args.quotes:
+                    break
+            out["examples"] = sorted(seen.items(), key=lambda p: p[1])
         return pd.Series(out)
 
     view = (
@@ -496,13 +503,42 @@ def cmd_view(args):
                 f"importantly, any other file you might have pointed at by "
                 f"mistake)."
             )
-        view.to_csv(args.out, index=False)
+        view_out = view.copy()
+        if "examples" in view_out.columns:
+            view_out["examples"] = view_out["examples"].apply(
+                lambda ex: " || ".join(q for q, _ in ex)
+            )
+        view_out.to_csv(args.out, index=False)
         print(f"written: {args.out}")
     else:
         with pd.option_context(
             "display.max_rows", None, "display.max_colwidth", 60, "display.width", 200
         ):
-            if args.group_by_verb:
+            if args.quotes:
+                # examples is rendered as nested per-quote sub-rows below its
+                # code's summary row, not as a table cell; n_participants /
+                # n_in_cluster are dropped here to make room for that.
+                display_cols = [
+                    c
+                    for c in view.columns
+                    if c not in ("n_participants", "n_in_cluster", "examples")
+                ]
+                body_lines = view[display_cols].to_string(index=False).split("\n")
+                print(body_lines[0])
+                prev_verb = None
+                for row_line, (_, row) in zip(body_lines[1:], view.iterrows()):
+                    if (
+                        args.group_by_verb
+                        and prev_verb is not None
+                        and row["lead_verb"] != prev_verb
+                    ):
+                        print()
+                    print(row_line)
+                    for quote, qid in row["examples"]:
+                        print(f"    {qid:12} \"{quote}\"")
+                    if args.group_by_verb:
+                        prev_verb = row["lead_verb"]
+            elif args.group_by_verb:
                 # Render the whole table at once so column widths stay
                 # consistent, then insert blank lines at cluster boundaries
                 # -- the point of this mode is batching related codes for
