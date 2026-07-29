@@ -25,7 +25,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 
 [006.1] PROCESS: Communicating own derived setup to LLM | IV: "wie weit unter der Linie durch den Mittelpunkt die linie ab ist"
 
-[008.1] PROCESS: evaluating LLM response as helpful | IV: "jetzt glaube ich hilft mir die Beschreibung was"
+[008.1] PROCESS: evaluating LLM as helpful | IV: "jetzt glaube ich hilft mir die Beschreibung was"
 [008.2] PROCESS: Interpreting geometric relationship from LLM response | IV: "der Abstand vom mittelpunkt zu A oder zu B auch r"
 [008.3] PROCESS: Deriving half-chord length | IV: "die hälfte von AB ist vier"
 [008.4] PROCESS: Identifying applicable theorem per LLM guidance | IV: "mein satz ist Pythagoras"

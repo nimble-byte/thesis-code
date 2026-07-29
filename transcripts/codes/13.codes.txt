@@ -20,7 +20,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [004.8] PROCESS: Annotating diagram with values | IV: "das hier ist praktisch 2, während das alles insgesamt 5 ist"
 [004.9] PROCESS: Performing calculation | IV: "kann ich die durch 5 rechnen, sind 5"
 [004.10] PROCESS: Performing calculation | IV: "die 5 mal 2 rechne, sind es 10"
-[004.11] PROCESS: Committing to answer | IV: "würde ich dafür die 10 eintippen"
+[004.11] PROCESS: committing to answer | IV: "würde ich dafür die 10 eintippen"
 
 [TASK 455 | hard]
 
@@ -49,7 +49,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [014.5] PROCESS: Correcting calculation approach | IV: "Ich muss andersrum rechnen"
 [014.6] PROCESS: Reflecting on calculator use | IV: "Hätte ich jetzt nicht in den Taschenrechner eintippen müssen"
 [014.7] PROCESS: Skipping intermediate steps | IV: "keine Lust drauf [Zwischenrechnungen zu machen]"
-[014.8] PROCESS: Committing to answer | IV: "die würde ich auch so auswählen"
+[014.8] PROCESS: committing to answer | IV: "die würde ich auch so auswählen"
 
 [TASK 478 | medium]
 
