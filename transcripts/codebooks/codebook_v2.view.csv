@@ -1,0 +1,120 @@
+pattern_code,frequency,n_participants,group_coverage,lead_verb,n_in_cluster
+deciding next solution step,30,10,E:19 / B:11,deciding,11
+deciding to ask LLM for guidance,15,8,E:8 / B:7,deciding,11
+deciding to ask LLM for information,12,5,E:7 / B:5,deciding,11
+deciding to ask LLM for verification,12,5,E:9 / B:3,deciding,11
+deciding to use calculator,6,5,E:3 / B:3,deciding,11
+Deciding to update the LLM information,5,2,E:5 / B:0,deciding,11
+Deciding to verify LLM output,5,3,E:2 / B:3,deciding,11
+deciding to follow LLM guidance,4,2,E:2 / B:2,deciding,11
+Deciding to share image with LLM,2,2,E:1 / B:1,deciding,11
+deciding to solve without LLM,2,2,E:2 / B:0,deciding,11
+deciding to ask LLM for solution,1,1,E:1 / B:0,deciding,11
+reading LLM's restated known information,29,6,E:11 / B:18,reading,9
+reading LLM's guidance,27,5,E:20 / B:7,reading,9
+reading problem statement,23,6,E:9 / B:14,reading,9
+reading LLM's questions,20,4,E:18 / B:2,reading,9
+reading given information,13,8,E:9 / B:4,reading,9
+reading LLM's CoT,7,2,E:7 / B:0,reading,9
+reading LLM's feedback,4,4,E:2 / B:2,reading,9
+reading lost LLM response aloud,3,1,E:0 / B:3,reading,9
+Reading LLM response aloud,2,2,E:1 / B:1,reading,9
+expressing uncertainty,19,8,E:12 / B:7,expressing,7
+expressing doubt,8,4,E:5 / B:3,expressing,7
+expressing frustration,8,4,E:4 / B:4,expressing,7
+expressing confidence,6,3,E:2 / B:4,expressing,7
+expressing insight,5,3,E:2 / B:3,expressing,7
+expressing satisfaction,3,2,E:0 / B:3,expressing,7
+expressing surprise,3,2,E:0 / B:3,expressing,7
+identifying unknown information,36,11,E:23 / B:13,identifying,7
+identifying given information,28,10,E:19 / B:9,identifying,7
+identifying own knowledge gap,8,4,E:4 / B:4,identifying,7
+identifying solution step,8,6,E:4 / B:4,identifying,7
+identifying mistake,6,3,E:4 / B:2,identifying,7
+identifying problem solvability,5,3,E:1 / B:4,identifying,7
+identifying LLM as information source,3,2,E:1 / B:2,identifying,7
+requesting guidance from LLM,22,8,E:16 / B:6,requesting,6
+requesting verification by LLM,19,8,E:14 / B:5,requesting,6
+requesting information from LLM,11,8,E:7 / B:4,requesting,6
+requesting clarification from LLM,8,5,E:7 / B:1,requesting,6
+requesting solution from LLM,6,5,E:3 / B:3,requesting,6
+requesting clarification from researcher,2,1,E:0 / B:2,requesting,6
+recognizing own error,18,9,E:10 / B:8,recognizing,5
+recognizing solution step,11,6,E:8 / B:3,recognizing,5
+recognizing error (no fault),6,6,E:2 / B:4,recognizing,5
+Recognizing handwriting-induced transcription error,1,1,E:1 / B:0,recognizing,5
+recognizing LLM error,1,1,E:1 / B:0,recognizing,5
+restating given information,73,12,E:45 / B:28,restating,5
+restating LLM's guidance,42,8,E:31 / B:11,restating,5
+restating problem goal,30,9,E:21 / B:9,restating,5
+restating solution step,29,8,E:19 / B:10,restating,5
+restating calculator result,1,1,E:1 / B:0,restating,5
+correcting own understanding,15,7,E:8 / B:7,correcting,4
+correcting own solution step,14,8,E:10 / B:4,correcting,4
+correcting own terminology,4,3,E:2 / B:2,correcting,4
+correcting the LLM,2,2,E:1 / B:1,correcting,4
+evaluating own solving progress,24,9,E:13 / B:11,evaluating,4
+evaluating LLM response as unhelpful,10,5,E:4 / B:6,evaluating,4
+evaluating LLM response as helpful,6,6,E:3 / B:3,evaluating,4
+evaluating LLM as helpful,2,1,E:2 / B:0,evaluating,4
+reflecting on own performance,18,8,E:8 / B:10,reflecting,4
+reflecting on own capability,5,4,E:3 / B:2,reflecting,4
+reflecting on offloading choice,2,2,E:0 / B:2,reflecting,4
+reflecting on own capability relative to LLM,2,2,E:2 / B:0,reflecting,4
+questioning oneself,13,7,E:5 / B:8,questioning,3
+questioning LLM output,6,4,E:2 / B:4,questioning,3
+questioning problem language,4,2,E:0 / B:4,questioning,3
+recalling math knowledge,14,7,E:11 / B:3,recalling,3
+recalling own prior work,4,2,E:4 / B:0,recalling,3
+recalling earlier LLM feedback,3,1,E:0 / B:3,recalling,3
+attributing LLM's confusion to own action,3,2,E:3 / B:0,attributing,2
+attributing capability to LLM,3,3,E:2 / B:1,attributing,2
+confirming LLM's guidance,10,6,E:2 / B:8,confirming,2
+confirming solution steps,5,3,E:2 / B:3,confirming,2
+considering solving strategy,16,9,E:8 / B:8,considering,2
+considering querying LLM,5,4,E:2 / B:3,considering,2
+explaining rationale to LLM,6,1,E:6 / B:0,explaining,2
+explaining value of externalizing work,2,2,E:1 / B:1,explaining,2
+planning next solution step,41,11,E:28 / B:13,planning,2
+planning LLM message,11,5,E:7 / B:4,planning,2
+rejecting own strategy,4,4,E:2 / B:2,rejecting,2
+rejecting LLM's guidance,3,3,E:1 / B:2,rejecting,2
+verifying solution,23,7,E:15 / B:8,verifying,2
+verifying own progress,7,7,E:4 / B:3,verifying,2
+accpeting LLM's assertions,8,5,E:1 / B:7,accpeting,1
+acknowledging own error,5,4,E:4 / B:1,acknowledging,1
+anticipating LLM behaviour,6,5,E:2 / B:4,anticipating,1
+assessing task difficulty,7,3,E:2 / B:5,assessing,1
+assuming mathematical property,8,5,E:7 / B:1,assuming,1
+building on LLM's guidance,13,9,E:9 / B:4,building,1
+comitting to answer,5,3,E:2 / B:3,comitting,1
+Committing to answer,4,3,E:1 / B:3,committing,1
+comparing LLM to ChatGPT,2,2,E:0 / B:2,comparing,1
+confirmation of problem facts,18,8,E:11 / B:7,confirmation,1
+criticizing the LLM,2,2,E:1 / B:1,criticizing,1
+deriving from non-given values,26,7,E:17 / B:9,deriving,1
+disclosing own limitations to LLM,4,2,E:1 / B:3,disclosing,1
+encountering impasse,12,6,E:6 / B:6,encountering,1
+extracting given value,36,11,E:16 / B:20,extracting,1
+Following LLM guidance,2,2,E:1 / B:1,following,1
+forming own hypothesis,9,4,E:9 / B:0,forming,1
+formulating LLM message,50,11,E:34 / B:16,formulating,1
+hedging previous statement,4,3,E:1 / B:3,hedging,1
+Judging LLM's statement as incorrect,1,1,E:1 / B:0,judging,1
+self-justifying,4,2,E:0 / B:4,justifying,1
+managing experiment logistics,62,11,E:26 / B:36,managing,1
+noting given information,5,2,E:3 / B:2,noting,1
+observing LLM as stuck,1,1,E:1 / B:0,observing,1
+performing calculation,77,12,E:48 / B:29,performing,1
+reaffirming own hypothesis,11,6,E:9 / B:2,reaffirming,1
+rearranging equation,21,2,E:21 / B:0,rearranging,1
+reasoning by analogy,6,2,E:3 / B:3,reasoning,1
+recounting LLM's earlier response,2,1,E:2 / B:0,recounting,1
+Referencing LLM's CoT,4,3,E:3 / B:1,referencing,1
+reusing previous message content,2,1,E:2 / B:0,reusing,1
+reviewing own notes,3,1,E:3 / B:0,reviewing,1
+scrutinizing LLM response,13,4,E:5 / B:8,scrutinizing,1
+setting up equation,29,9,E:26 / B:3,setting,1
+stating information to LLM,12,3,E:9 / B:3,stating,1
+submitting information to LLM,25,5,E:18 / B:7,submitting,1
+taking notes,32,7,E:19 / B:13,taking,1
