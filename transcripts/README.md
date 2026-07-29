@@ -57,7 +57,7 @@ Once the verb based pattern coding was yielding limited benefits (verb groups sm
 Codes were filtered using the below command and then checked one by one for a fitting cluster (including the option to create new clusters).
 
 ```shell
-python ./codebook.py view ./codebooks/codebook_v2.csv --column pattern_code --group-by-verb -o ./semantic-block.csv --filter-verb signaling, adjusting, abandoning, making, trailing, voicing, hesitating, reacting
+python ./codebook.py view ./codebooks/codebook_v2.csv --column pattern_code --group-by-verb -o ./semantic-block.csv --filter-verb using, naming, agreeing, entering, improvising, navigating, retrieving, switching, typing, struggling
 ```
 
 | Block                                           | Verb set                                                                                                                                                                                                                                                | n   |

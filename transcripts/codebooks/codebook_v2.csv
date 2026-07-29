@@ -72,7 +72,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 02.008.5,B,Vocalizing Numbers Mid-Calculation,"1, 2, 5.",Vocalizing Numbers Mid-Calculation,performing calculation
 02.008.6,B,Commenting on Rusty Calculator Skills,mit dem Taschenrechner umgehen habe ich das schon lange nicht mehr gemacht,Commenting on Rusty Calculator Skills,reflecting on own performance
 02.008.7,B,Re-reading Given Values,"Wenn AC die Länge 25 hat, AC ist...",Re-reading given values,reading given information
-02.008.8,B,Voicing Confusion About Ratio Meaning,was heißt 2 zu 5?,Voicing Confusion About Ratio Meaning,Voicing Confusion About Ratio Meaning
+02.008.8,B,Voicing Confusion About Ratio Meaning,was heißt 2 zu 5?,Voicing Confusion About Ratio Meaning,formulating LLM message
 02.008.9,B,Deciding to ask Chatbot for clarification,Fragen wir mal den Chatbot.,Deciding to ask LLM for clarification,deciding to ask LLM for information
 02.008.10,B,Asking About Chat Session Procedure,soll ich zuerst noch mal einen neuen Chat anlegen,Asking About Chat Session Procedure,managing experiment logistics
 02.010.1,B,Typing Query to Chatbot,was heit das Verhätis 2 zu 5,Typing Query to LLM,Typing Query to LLM
@@ -90,10 +90,10 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 02.014.5,B,Proposing Calculation Approach,25 dann mal 2 Fünftel,Proposing Calculation Approach,considering solving strategy
 02.014.6,B,Self-Correcting Ratio Interpretation,2 zu 5 ist ja nicht das gleiche wie 2 Fünftel,Self-Correcting Ratio Interpretation,correcting own solution step
 02.014.7,B,Signaling Uncertainty While Continuing,Da habe ich auf jeden Fall noch so im Kopf. Mal gucken.,Signaling Uncertainty While Continuing,hedging previous statement
-02.014.8,B,Abandoning Further Analysis,Egal.,Abandoning Further Analysis,Abandoning Further Analysis
+02.014.8,B,Abandoning Further Analysis,Egal.,Abandoning Further Analysis,rejecting own strategy
 02.014.9,B,Asking About Remaining Task Count,wie viele Aufgaben habe ich insgesamt noch mal?,Asking About Remaining Task Count,managing experiment logistics
 02.016.1,B,Expressing Surprise at Task Count,Ich habe nur 3?,Expressing Surprise at Task Count,expressing surprise
-02.016.2,B,Adjusting Pacing Strategy,lasse ich mir ein bisschen mehr Zeit,Adjusting Pacing Strategy,Adjusting Pacing Strategy
+02.016.2,B,Adjusting Pacing Strategy,lasse ich mir ein bisschen mehr Zeit,Adjusting Pacing Strategy,evaluating own solving progress
 02.018.1,B,Reiterating Difficulty Articulating Thoughts,mir fällt das Nachdenken ganz sicher auch schwer,Reiterating Difficulty Articulating Thoughts,reflecting on own performance
 02.018.2,B,Re-questioning Ratio Meaning,"2 zu 5, was könnte das heißen?",Re-questioning Ratio Meaning,questioning problem language
 02.018.3,B,Reasoning by Analogy to Dice Probability,Mit einem Würfel sind ja die Chancen ein Sechstel.,Reasoning by Analogy to Dice Probability,reasoning by analogy
@@ -107,7 +107,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 02.018.12,B,Reading Task Statement Aloud,Was ist der Wert des Winkels X?,Reading task statement aloud,reading problem statement
 02.018.13,B,Requesting Clarification on Diagram Labeling,X ist zwischen hier den beiden oder was soll X sein?,Requesting Clarification on Diagram Labeling,requesting clarification from researcher
 02.020.1,B,Confirming Correct Understanding,Dann hatte ich das richtig verstanden.,Confirming Correct Understanding,accpeting LLM's assertions
-02.020.2,B,Trailing Off Into Silent Thought,regelmäßiges Sechseck wird da vorne...,Trailing Off Into Silent Thought,Trailing Off Into Silent Thought
+02.020.2,B,Trailing Off Into Silent Thought,regelmäßiges Sechseck wird da vorne...,Trailing Off Into Silent Thought,restating given information
 02.022.2,B,Re-orienting to Task via Key Term Repetition,Regelmäßiges Sechseck.,Re-orienting to Task via Key Term Repetition,restating given information
 02.022.4,B,Identifying Shape in Diagram,das Parallelogramm,Identifying Shape in Diagram,identifying given information
 02.022.5,B,Deciding to Consult Chatbot for Angle Property,ob es einen festen Winkel für einen regelmäßigen Sechseck gibt,Deciding to Consult LLM for Angle Property,deciding to ask LLM for information
@@ -242,17 +242,17 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 04.007.4,E,Reading LLM response aloud,kannst du diese Information verwenden,Reading LLM guidance,reading LLM's guidance
 04.007.5,E,Reading LLM response aloud,Definiere das Verhältnis als,Reading LLM guidance,reading LLM's guidance
 04.007.6,E,Recognizing ratio-as-fraction insight,du kannst es ja so gesehen als Bruch schreiben,Recognizing ratio-as-fraction insight,recognizing solution step
-04.007.7,E,Trailing off mid-thought,"Ich dachte jetzt, das bezieht sich auf",Trailing off mid-thought,Trailing off mid-thought
+04.007.7,E,Trailing off mid-thought,"Ich dachte jetzt, das bezieht sich auf",Trailing off mid-thought,correcting own understanding
 04.007.8a,E,Expressing frustration,[Fluchen zensiert],Expressing frustration,expressing frustration
 04.007.8b,E,Reading LLM response aloud,kannst du eine AB berechnen,Reading LLM guidance,reading LLM's guidance
 04.007.9,E,Misreading LLM step aloud,über BC berechnen kannst,Misreading LLM step aloud,reading LLM's guidance
 04.007.10,E,Signaling intent to work independently,zusammenpuzzeln,Signaling intent to work independently,deciding to solve without LLM
-04.007.11,E,Hesitating before formulating question,"Ich frage, was der",Hesitating before formulating question,Hesitating before formulating question
+04.007.11,E,Hesitating before formulating question,"Ich frage, was der",Hesitating before formulating question,formulating LLM message
 04.007.12,E,Formulating clarifying question for LLM,Die unbekannte X stellt dann am Ende genau was dar,Formulating clarifying question for LLM,formulating LLM message
 04.008.1,E,Sending clarifying question to LLM,Die Unbekannte x stellt dann am Ende genau was dar?,Sending clarifying question to LLM,requesting clarification from LLM
 04.010.1,E,Reading LLM response aloud,Die Länge von B nach C,Reading LLM's restated known information,reading LLM's restated known information
 04.010.2,E,Reading LLM response aloud,teilt den Strahl in zwei Teile,Reading LLM's restated known information,reading LLM's restated known information
-04.010.3,E,Trailing off mid-thought,kann ich natürlich dann daraus,Trailing off mid-thought,Trailing off mid-thought
+04.010.3,E,Trailing off mid-thought,kann ich natürlich dann daraus,Trailing off mid-thought,correcting own understanding
 04.010.4,E,Setting up equation,AB Strich ist gleich durch X,Setting up equation,setting up equation
 04.010.5,E,Reflecting on earlier misunderstanding,"anfangs nicht gesehen, dass man das ja als Bruch schreiben kann",Reflecting on earlier misunderstanding,reflecting on own performance
 04.010.6,E,Expressing self-doubt about approach,auf dem Holzweg,Expressing self-doubt,expressing doubt
@@ -378,7 +378,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 04.046.8,E,Requesting confirmation from LLM,"sollte passen, aber so falsch sieht es nicht aus",Requesting confirmation from LLM,requesting verification by LLM
 04.047.1a,E,Reporting result and method to LLM,Mein Ergebnis ist 10,Reporting result and method to LLM,requesting verification by LLM
 04.047.1b,E,Requesting confirmation from LLM,Stimmt dies?,Requesting confirmation from LLM,requesting verification by LLM
-04.049.1,E,Making closing remark with humor,gratulieren wir ihm,Making closing remark with humor,Making closing remark with humor
+04.049.1,E,Making closing remark with humor,gratulieren wir ihm,Making closing remark with humor,reading LLM's feedback
 05.002.2,B,Assessing task difficulty relative to prior task,das ist schon deutlich komplizierter als vorhin,Assessing task difficulty relative to prior task,assessing task difficulty
 05.002.3,B,Distinguishing surface appearance from actual difficulty,Zumindest sieht es schlimmer aus,Distinguishing surface appearance from actual difficulty,assessing task difficulty
 05.002.4,B,Announcing task reading,Ich lese einmal,Announcing task reading,planning next solution step
@@ -414,7 +414,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 05.005.15,B,Questioning variable notation,Ist das X0 aus der...,Questioning variable notation,questioning problem language
 05.007.2,B,Deriving angle value from clarification,sind das 32 Grad,Deriving angle value from clarification,deriving from non-given values
 05.007.3,B,Reading task question aloud,Wie ist die Länge des Kreisabschnittes...,Reading task question aloud,reading problem statement
-05.007.4,B,Signaling reflection pause,kurz nachdenken,Signaling reflection pause,Signaling reflection pause
+05.007.4,B,Signaling reflection pause,kurz nachdenken,Signaling reflection pause,reflecting on own performance
 05.007.5,B,Identifying need for formula,da brauchen wir einfach nur die Formeln für,Identifying need for formula,identifying solution step
 05.007.6,B,Expressing hedged assessment that task requirement is met,"Ich denke, dann hat sich das...",Expressing hedged assessment that task requirement is met,expressing uncertainty
 05.007.7,B,Deciding to share image with chatbot,"Ich kopiere rein, nutze ich das Bild",Deciding to share image with LLM,Deciding to share image with LLM
@@ -535,7 +535,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 07.012.5,E,Describing degree of freedom in figure,verschiebt sich dieses Teil hier lustig auf der Sache hin und her,Describing degree of freedom in figure,verifying solution
 07.012.6,E,Labeling point in drawing,Das ist ja hier der Punkt P,Labeling point in drawing,taking notes
 07.014.1,E,Explaining vision workaround strategy,"die Brille abnehme, damit ich nicht das Sichtfenster der Gleitsichtbrille finden muss",Explaining vision workaround strategy,managing experiment logistics
-07.014.2,E,Adjusting physical position relative to screen,rück dem Laptop einfach ein bisschen auf die Pelle,Adjusting physical position relative to screen,Adjusting physical position relative to screen
+07.014.2,E,Adjusting physical position relative to screen,rück dem Laptop einfach ein bisschen auf die Pelle,Adjusting physical position relative to screen,managing experiment logistics
 07.014.3,E,Stating problem givens,x ist 32 und r ist 18,Stating problem givens,restating given information
 07.014.4,E,Restating problem goal,die Länge des Kreisbogens haben,Restating problem goal,restating problem goal
 07.014.5,E,Attributing request for formula to task,er will jetzt die Formel von mir wissen,Attributing request for formula to task,identifying unknown information
@@ -567,7 +567,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 07.017.22,E,Deriving relation between segments,"M, C ein Viertel der ganzen Geschichte",Deriving relation between segments,deriving from non-given values
 07.017.23,E,Stating computed segment value,"K ist 2,5",Stating computed segment value,performing calculation
 07.017.24,E,Computing final answer from attributed given value,"da er behauptet, dass M, N, 1 ist, wäre die Lösung 3,5",Computing final answer from attributed given value,deriving from non-given values
-07.017.25,E,Signaling task completion,"Mache jetzt fertig, es hat mir zu duschen",Signaling task completion,Signaling task completion
+07.017.25,E,Signaling task completion,"Mache jetzt fertig, es hat mir zu duschen",Signaling task completion,managing experiment logistics
 08.002.1,E,Restating problem parameters,Kreis O hat einen Radius von 5 und die Länge der Linie AB ist 8,Restating problem parameters,restating given information
 08.002.2,E,Restating problem question,Wie groß ist die Distanz von der Mitte des Kreises O zur Linie AB?,Restating problem question,restating problem goal
 08.002.3,E,Planning auxiliary construction,da würde ich jetzt mir ein Dreieck einzeichnen,Planning auxiliary construction,planning next solution step
@@ -1142,7 +1142,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 11.036.4,B,predicting own approach will fail,dass das nicht funktionieren würde,predicting own approach will fail,expressing uncertainty
 11.038.1,B,agreeing with assessment of insufficiency,Das vermute ich mal,agreeing with assessment of insufficiency,reflecting on own capability
 11.038.2,B,identifying excessive unresolved variables as barrier,"viel zu viele Variablen, die ich erst mal auflösen müsste",identifying excessive unresolved variables as barrier,identifying problem solvability
-11.040.1,B,signaling task abandonment,Dann mache ich da wohl mal...,signaling task abandonment,signaling task abandonment
+11.040.1,B,signaling task abandonment,Dann mache ich da wohl mal...,signaling task abandonment,managing experiment logistics
 11.042.1,B,questioning characterization of task difficulty,Was Entspanntes?,questioning characterization of task difficulty,managing experiment logistics
 11.044.1,B,expressing performance anxiety,"mich unter Druck setzen, wenn ich das jetzt wieder nicht schaffe",expressing performance anxiety,expressing doubt
 11.045.2,B,reading task statement aloud,das Verhältnis der Längen der Abschnitte AB zu AC 2:5,Reading task statement aloud,reading problem statement
@@ -1188,7 +1188,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 11.066.2,B,expressing aversion to equation rearrangement,Ich hasse das,expressing aversion to equation rearrangement,expressing frustration
 11.066.3,B,reiterating expectation of full LLM assistance,Er soll mir das selber umstellen,reiterating expectation of full LLM assistance,anticipating LLM behaviour
 11.066.4,B,justifying request to locate own reasoning error,Sonst komme ich ja nicht auf meinen Denkfehler,justifying request to locate own reasoning error,self-justifying
-11.066.5,B,voicing a sudden realization,Warte mal.,voicing a sudden realization,voicing a sudden realization
+11.066.5,B,voicing a sudden realization,Warte mal.,voicing a sudden realization,expressing insight
 11.066.6,B,deciding to request verification of own calculation,ob meine Rechnung richtig ist,deciding to request verification of own calculation,deciding to ask LLM for verification
 11.066.7,B,verbalizing message before sending,Also ist AB 2/5 von AC,verbalizing message before sending,formulating LLM message
 11.067.1,B,requesting verification of derived relation,ist AB 2/5 von AC?,requesting verification of derived relation,requesting verification by LLM
@@ -1202,14 +1202,14 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 11.077.1,B,realizing meaning of clarification,Ach so,realizing meaning of clarification,correcting own understanding
 11.079.1,B,asking about calculator input functionality,Kann man hier Brüche eintippen?,asking about calculator input functionality,managing experiment logistics
 11.081.1,B,asking about calculator fraction feature location,Wo sind denn hier die Brüche?,asking about calculator fraction feature location,managing experiment logistics
-11.083.1,B,reacting positively to discovering calculator feature,Oh. Cool.,reacting positively to discovering calculator feature,reacting positively to discovering calculator feature
+11.083.1,B,reacting positively to discovering calculator feature,Oh. Cool.,reacting positively to discovering calculator feature,expressing satisfaction
 11.085.2,B,entering fraction value into calculator,2/5,entering fraction value into calculator,entering fraction value into calculator
 11.087.1,B,realizing meaning of instruction,Ach so,realizing meaning of instruction,correcting own understanding
 11.087.2,B,attributing computational capability to the calculator,"Ich dachte, das weiß der.",attributing computational capability to the calculator,managing experiment logistics
 11.087.4,B,checking alignment with LLM's question,was er fragt,checking alignment with LLM's question,verifying own progress
 11.087.5,B,self-correcting conflated concepts,das ist das Verhältnis,self-correcting conflated concepts,correcting own understanding
 11.087.6,B,stating computed value,10,stating computed value,performing calculation
-11.087.7,B,voicing a sudden realization,Warte.,voicing a sudden realization,voicing a sudden realization
+11.087.7,B,voicing a sudden realization,Warte.,voicing a sudden realization,expressing insight
 11.087.8,B,restating algebraic manipulation logic,AB durch 25 mal 25 ist AB,restating algebraic manipulation logic,restating solution step
 11.087.9,B,reaffirming derived answer,Also ist es doch AB 10,reaffirming derived answer,verifying solution
 11.087.10,B,expressing being stuck,Wo häng ich denn jetzt gerade?,expressing being stuck,encountering impasse
@@ -1374,7 +1374,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 15.014.10,E,Deciding to consult chatbot for formula,Ich würde jetzt fragen,Deciding to consult LLM for formular,deciding to ask LLM for information
 15.014.11,E,Formulating question for chatbot,wie man genau zwischen zwei Punkten die Linie ausreicht kann innerhalb eines Kreises,Formulating question for LLM,formulating LLM message
 15.015.1,E,Requesting method from chatbot,Wie kann man eine Linie berechnen die parallel durch den Kreis verläuft,Requesting method from LLM,requesting guidance from LLM
-15.017.2,E,Signaling cognitive pause,Ich muss gerade ein bisschen überlegen,Signaling cognitive pause,Signaling cognitive pause
+15.017.2,E,Signaling cognitive pause,Ich muss gerade ein bisschen überlegen,Signaling cognitive pause,reflecting on own performance
 15.017.3,E,Recalling given value,der Punkt zwischen A und B ist ja 8,Recalling given value,restating given information
 15.017.4,E,Reasoning toward halving the chord,die Linie AB durch 2 teilen,Reasoning toward halving the chord,building on LLM's guidance
 15.017.5,E,Concluding midpoint value,genau in der Hälfte,Concluding midpoint value,extracting given value
@@ -1383,7 +1383,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 15.017.8,E,Deciding to consult chatbot for formula,wie man von der Hälfte einer Linie zum Mittelpunkt gelangen könnte,Deciding to consult LLM for formular,deciding to ask LLM for information
 15.018.1,E,Requesting method from chatbot,wie kann man den Abstand berechnen zwischen den mittelpunkt und die genaue hälfte einer Sehne,Requesting method from LLM,requesting guidance from LLM
 15.020.1,E,Paraphrasing chatbot's response,ob ich den Anstand weiß zu bestimmen,Paraphrasing LLM's response,restating LLM's guidance
-15.020.2,E,Signaling cognitive pause,Ich überlege gerade,Signaling cognitive pause,Signaling cognitive pause
+15.020.2,E,Signaling cognitive pause,Ich überlege gerade,Signaling cognitive pause,reflecting on own performance
 15.022.1,E,Reasoning about given figure,es ist nur eine Linie zwischen A und B,Reasoning about given figure,restating given information
 15.022.2,E,Constructing auxiliary point in reasoning,das wäre quasi der Punkt C für mich jetzt,Constructing auxiliary point in reasoning,taking notes
 15.022.3,E,Miscalculating radius value,"der Radius ist 5, also 2,5",Miscalculating radius value,performing calculation
@@ -1410,7 +1410,7 @@ id,group,raw_label,in_vivo,canonical_label,pattern_code
 15.031.3,E,Noticing inconsistency in own reasoning,das irgendwie keinen Sinn macht,Noticing inconsistency in own reasoning,questioning oneself
 15.031.4,E,Attributing confusion to own unclear phrasing,Die eine Seite vom Mittelpunkt zu B oder zu A kann nicht 5 sein,Attributing confusion to own unclear phrasing,attributing LLM's confusion to own action
 15.031.5,E,Identifying source of confusion,Die 5 wäre ja natürlich der Radius,Identifying source of confusion,identifying own knowledge gap
-15.031.6,E,Signaling cognitive pause,Ich muss gerade noch ein bisschen nachdenken,Signaling cognitive pause,Signaling cognitive pause
+15.031.6,E,Signaling cognitive pause,Ich muss gerade noch ein bisschen nachdenken,Signaling cognitive pause,reflecting on own performance
 15.031.7,E,Deciding to share image with chatbot,das Bild einzufügen,Deciding to share image with LLM,Deciding to share image with LLM
 15.031.8,E,Checking image-upload availability,Sind die Bilder schon drin?,Checking image-upload availability,managing experiment logistics
 15.033.1,E,Deciding to correct chatbot's assumption,die Hypotenuse nicht 5 sein kann,Deciding to correct LLM's assumption,Deciding to update the LLM information
