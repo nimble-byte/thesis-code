@@ -302,7 +302,7 @@ GROUP: B
 [040 SPOKEN]
 [040.1]    Dann mache ich da wohl mal...
 [Wissenschaftler sucht eine neue Aufgabe raus]
-[TASK: 54 | DIFFICULTY: difficult]
+[TASK: 54 | DIFFICULTY: hard]
 [041 RESEARCHER]
     Guck mal, so etwas Entspanntes.
 [042 SPOKEN]

@@ -72,7 +72,6 @@ Providing equation for sub-triangle,2,1,E:0 / B:2
 Re-reading Task Statement for Comprehension,2,1,E:0 / B:2
 Re-reading Task Statement to Recall Question,2,1,E:0 / B:2
 Re-reading chatbot's question,2,1,E:2 / B:0
-"Reading LLM response, self-correcting",2,1,E:2 / B:0
 Reading chatbot's follow-up request,2,1,E:2 / B:0
 Recalling Pythagorean theorem,2,2,E:1 / B:1
 Recalling formula for a,2,1,E:2 / B:0
@@ -101,7 +100,6 @@ committing to answer,2,1,E:0 / B:2
 expressing uncertainty about formula,2,2,E:1 / B:1
 placing point per instruction,2,1,E:0 / B:2
 reading definition aloud,2,1,E:0 / B:2
-reading response aloud,2,1,E:0 / B:2
 restating LLM's guidance,2,2,E:2 / B:0
 restating task question,2,1,E:0 / B:2
 verbalizing message before sending,2,1,E:0 / B:2
@@ -685,7 +683,7 @@ Re-questioning Ratio Meaning,1,1,E:0 / B:1
 Re-reading Given Values,1,1,E:0 / B:1
 Re-reading LLM guidance aloud,1,1,E:1 / B:0
 Re-reading and clarifying task description,1,1,E:1 / B:0
-"Re-reading chatbot response, self-correcting terminology",1,1,E:1 / B:0
+Re-reading chatbot response,1,1,E:1 / B:0
 Re-reading chatbot's hint,1,1,E:1 / B:0
 Re-reading chatbot's question before returning to it,1,1,E:1 / B:0
 Re-reading chatbot's question for emphasis,1,1,E:1 / B:0
@@ -697,6 +695,8 @@ Re-reading task question to check answer scope,1,1,E:0 / B:1
 Re-reading task statement aloud,1,1,E:1 / B:0
 Re-reading task to verify,1,1,E:0 / B:1
 Re-strategizing after rejecting approach,1,1,E:0 / B:1
+Reading LLM instruction aloud and acknowledging,1,1,E:1 / B:0
+"Reading LLM response, self-correcting",1,1,E:1 / B:0
 Reading LLM's CoT (think-block) aloud,1,1,E:1 / B:0
 Reading and interpreting task variables,1,1,E:1 / B:0
 Reading chatbot's CoT aloud,1,1,E:1 / B:0
@@ -1177,6 +1177,8 @@ questioning whether LLM will compute answer independently,1,1,E:0 / B:1
 re-checking alternate definition,1,1,E:0 / B:1
 re-checking definition against situation,1,1,E:0 / B:1
 reacting positively to discovering calculator feature,1,1,E:0 / B:1
+reading response aloud,1,1,E:0 / B:1
+"reading response aloud, trailing into doubt",1,1,E:0 / B:1
 reading response evaluation aloud,1,1,E:0 / B:1
 reading response step aloud,1,1,E:0 / B:1
 reading task element aloud,1,1,E:0 / B:1

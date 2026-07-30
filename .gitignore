@@ -8,6 +8,7 @@ __pycache__
 # local working files
 .github
 working-patterns*.txt
+working-themes*.txt
 pattern-coded.txt
 relabel.sh
 semantic-block*

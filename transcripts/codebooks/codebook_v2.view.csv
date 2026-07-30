@@ -45,10 +45,12 @@ confirming LLM's guidance,11,7,E:3 / B:8
 planning LLM message,11,5,E:7 / B:4
 recognizing solution step,11,6,E:8 / B:3
 requesting information from LLM,11,8,E:7 / B:4
+committing to answer,10,6,E:4 / B:6
 evaluating LLM response as unhelpful,10,5,E:4 / B:6
 forming own hypothesis,9,4,E:9 / B:0
 accpeting LLM's assertions,8,5,E:1 / B:7
 assuming mathematical property,8,5,E:7 / B:1
+evaluating LLM as helpful,8,6,E:5 / B:3
 expressing doubt,8,4,E:5 / B:3
 expressing frustration,8,4,E:4 / B:4
 identifying own knowledge gap,8,4,E:4 / B:4
@@ -59,7 +61,6 @@ assessing task difficulty,7,3,E:2 / B:5
 reading LLM's CoT,7,2,E:7 / B:0
 anticipating LLM behaviour,6,5,E:2 / B:4
 deciding to use calculator,6,5,E:3 / B:3
-evaluating LLM as helpful,6,6,E:3 / B:3
 explaining rationale to LLM,6,1,E:6 / B:0
 expressing confidence,6,3,E:2 / B:4
 questioning LLM output,6,4,E:2 / B:4
@@ -68,8 +69,7 @@ recognizing error (no fault),6,6,E:2 / B:4
 requesting solution from LLM,6,5,E:3 / B:3
 Deciding to update the LLM information,5,2,E:5 / B:0
 Deciding to verify LLM output,5,3,E:2 / B:3
-committing to answer,5,3,E:2 / B:3
-committing to answer,5,4,E:2 / B:3
+Reading LLM response aloud,5,3,E:1 / B:4
 confirming given information,5,3,E:2 / B:3
 considering querying LLM,5,4,E:2 / B:3
 expressing insight,5,3,E:2 / B:3
@@ -91,18 +91,15 @@ attributing capability to LLM,3,3,E:2 / B:1
 expressing satisfaction,3,2,E:0 / B:3
 expressing surprise,3,2,E:0 / B:3
 identifying LLM as information source,3,2,E:1 / B:2
-Reading LLM response aloud,3,1,E:0 / B:3
 recalling earlier LLM feedback,3,1,E:0 / B:3
 rejecting LLM's guidance,3,3,E:1 / B:2
 reviewing own notes,3,1,E:3 / B:0
 Deciding to share image with LLM,2,2,E:1 / B:1
 Following LLM guidance,2,2,E:1 / B:1
-Reading LLM response aloud,2,2,E:1 / B:1
 comparing LLM to ChatGPT,2,2,E:0 / B:2
 correcting the LLM,2,2,E:1 / B:1
 criticizing the LLM,2,2,E:1 / B:1
 deciding to solve without LLM,2,2,E:2 / B:0
-evaluating LLM as helpful,2,1,E:2 / B:0
 explaining value of externalizing work,2,2,E:1 / B:1
 recounting LLM's earlier response,2,1,E:2 / B:0
 reflecting on offloading choice,2,2,E:0 / B:2

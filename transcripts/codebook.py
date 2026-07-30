@@ -6,14 +6,20 @@ Four commands:
   build   : parse *_codes.txt first-cycle files -> long-format codebook CSV (v0).
   view    : regenerate the aggregated codebook view from a long-format CSV.
   relabel : bulk-set a column for a selected group of rows (code mapping
-            merges, or pattern-coding pattern_code/cluster_code assignment).
+            merges, or pattern-coding pattern_code/theme_code assignment).
   check   : read-only structural/quality checks on a long-format CSV.
 
 Long-format schema (one row per code application, the source of truth):
-  id, group, raw_label, in_vivo, canonical_label, [pattern_code, [cluster_code]]
+  id, group, task, raw_label, in_vivo, canonical_label, [pattern_code,
+  [theme_code]]
     id : NN.NNN.n  (participant . turn . subline)  -- unique application key
+    task : task id from the [TASK <id> | <difficulty>] header the code line
+      falls under. Segments a participant's session. Task ORDER varies per
+      participant, so sequence position is a separate fact from task identity.
+      Difficulty is validated but not stored: it is functionally dependent on
+      the task id, so a per-row copy could only ever drift.
     canonical_label : seeded == raw_label in v0; code mapping overwrites in place.
-    pattern_code, cluster_code (or any --column you choose): created on first
+    pattern_code, theme_code (or any --column you choose): created on first
       relabel call targeting it, seeded from --seed-from (default
       canonical_label), then overwritten per selection. Keeping each as its
       own column (not overwriting the previous one in place) preserves the
@@ -48,21 +54,25 @@ IV_RE = re.compile(r'^"(?P<quote>.*)"\s*$')
 # (e.g. filler "[011.15] — (no code: ...)"). Used only to classify skips.
 STMT_LIKE_RE = re.compile(r"^\[\d{3}\.[0-9a-z]+\]")
 HEADER_KEY_RE = re.compile(r"^(?P<key>[A-Z]+):\s*(?P<val>.+?)\s*$")
+# [TASK 505 | hard] -- task blocks are contiguous within a file, so the
+# last-seen header forward-fills onto every following code line.
+TASK_RE = re.compile(r"^\[TASK\s+(?P<task>\S+)\s*\|\s*(?P<difficulty>[^\]]+)\]\s*$")
 
 # id column: NN.NNN.n with an optional single trailing letter (e.g. 13.023.1b)
 ID_RE = re.compile(r"^\d{2}\.\d{3}\.\d+[a-z]?$")
 
 # Canonical long-format column order. Emitted subset-and-in-order on every
-# write, so a partially-coded file (no pattern_code/cluster_code yet) doesn't
+# write, so a partially-coded file (no pattern_code/theme_code yet) doesn't
 # get empty columns invented, and a future rebuild can't silently revert it.
 COLUMN_ORDER = [
     "id",
     "group",
+    "task",
     "raw_label",
     "in_vivo",
     "canonical_label",
     "pattern_code",
-    "cluster_code",
+    "theme_code",
 ]
 
 REQUIRED_LONG_FORMAT_COLS = {"id", "group", "raw_label", "canonical_label", "in_vivo"}
@@ -233,6 +243,8 @@ def parse_file(path):
     """Return (rows, skipped_filler, warnings) for one _codes.txt file."""
     participant = None
     group = None
+    task = None
+    seen_tasks = set()
     rows = []
     skipped_filler = 0
     warnings = []
@@ -253,7 +265,21 @@ def parse_file(path):
                     group = hk.group("val").strip()
                 continue
 
+            tk = TASK_RE.match(stripped)
+            if tk:
+                task = tk.group("task").strip()
+                if task in seen_tasks:
+                    warnings.append(
+                        f"{path}:{lineno}: task {task!r} reopened after another "
+                        f"task -- forward-fill assumes contiguous task blocks"
+                    )
+                seen_tasks.add(task)
+                continue
             if stripped.startswith("[TASK"):
+                warnings.append(
+                    f"{path}:{lineno}: TASK line did not parse as "
+                    f"[TASK <id> | <difficulty>]: {stripped[:80]!r}"
+                )
                 continue
 
             m = CODE_RE.match(stripped)
@@ -261,6 +287,10 @@ def parse_file(path):
                 if participant is None or group is None:
                     warnings.append(
                         f"{path}:{lineno}: code line before PARTICIPANT/GROUP header"
+                    )
+                if task is None:
+                    warnings.append(
+                        f"{path}:{lineno}: code line before any [TASK ...] header"
                     )
                 pid = (
                     f"{int(participant):02d}"
@@ -286,6 +316,7 @@ def parse_file(path):
                     {
                         "id": app_id,
                         "group": group,
+                        "task": task if task is not None else "",
                         "raw_label": m.group("label").strip(),
                         "canonical_label": m.group("label").strip(),  # seed == raw
                         "in_vivo": iv_clean,
@@ -323,7 +354,8 @@ def cmd_build(args):
         per_file[os.path.basename(path)] = len(rows)
 
     df = pd.DataFrame(
-        all_rows, columns=["id", "group", "raw_label", "in_vivo", "canonical_label"]
+        all_rows,
+        columns=["id", "group", "task", "raw_label", "in_vivo", "canonical_label"],
     )
 
     # --- validation ---
@@ -343,6 +375,12 @@ def cmd_build(args):
     empty_lab = df[df["raw_label"].str.strip() == ""]
     if not empty_lab.empty:
         errors.append(f"{len(empty_lab)} row(s) with empty raw_label")
+    empty_task = df[df["task"].str.strip() == ""]
+    if not empty_task.empty:
+        errors.append(
+            f"{len(empty_task)} row(s) with empty task (code line not preceded "
+            f"by a [TASK ...] header): {empty_task['id'].tolist()[:10]}"
+        )
     stray_quote = df[df["in_vivo"].str.contains('"', regex=False)]
     if not stray_quote.empty:
         errors.append(
@@ -360,6 +398,10 @@ def cmd_build(args):
     print(
         f"  groups                  : "
         + ", ".join(f"{g}={c}" for g, c in df["group"].value_counts().items())
+    )
+    print(
+        f"  tasks                   : {df['task'].nunique()} distinct | "
+        + ", ".join(f"{t}={c}" for t, c in sorted(df["task"].value_counts().items()))
     )
     if all_warn:
         print("  WARNINGS:")
@@ -469,7 +511,7 @@ def cmd_view(args):
     if args.group_by_verb:
         # Lead verb is extracted from whatever column we're viewing -- for
         # canonical_label that's the 1st-order verb; for pattern_code/
-        # cluster_code it's the same for still-unmerged rows (seeded ==
+        # theme_code it's the same for still-unmerged rows (seeded ==
         # source column), and the merged label's own lead verb for
         # already-merged ones (which doubles as a rough progress signal:
         # merged clusters show up as a single high-frequency row instead of
@@ -692,7 +734,7 @@ def cmd_check(args):
 
     # --- 3. Near-duplicate values (advisory) ---
     near_dupes = []
-    for c in ("canonical_label", "pattern_code", "cluster_code"):
+    for c in ("canonical_label", "pattern_code", "theme_code"):
         if c in df.columns:
             near_dupes.extend(
                 ((c,), ids, message) for ids, message in find_near_duplicates(df, c)
@@ -772,7 +814,7 @@ def main():
         default="canonical_label",
         help=(
             "column to aggregate on (default: canonical_label). Use e.g. "
-            "--column pattern_code or --column cluster_code once that "
+            "--column pattern_code or --column theme_code once that "
             "column exists, to view progress on a later coding pass."
         ),
     )
@@ -858,7 +900,7 @@ def main():
         help=(
             "column to seed --column from, the first time --column is "
             "created (default: canonical_label; use e.g. pattern_code when "
-            "starting a cluster_code pass)"
+            "starting a theme_code pass)"
         ),
     )
     r.add_argument(
