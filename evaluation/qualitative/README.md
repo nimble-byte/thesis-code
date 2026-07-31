@@ -84,8 +84,8 @@ python ./codebook.py view ./codebooks/codebook_v2.csv --column pattern_code --gr
 # codebook view based on relevant column
 python ./codebook.py view ./codebooks/codebook_v3.csv --column theme_code
 python ./codebook.py view ./codebooks/codebook_v2.csv --column pattern_code
-python ./codebook.py view ./codebooks/codebook_v1.csv --column canonical_label
-python ./codebook.py view ./codebooks/codebook_v0.csv --column raw_label
+python ./codebook.py view ./codebooks/codebook_v1.csv --column canonical_code
+python ./codebook.py view ./codebooks/codebook_v0.csv --column raw_code
 
 # create a specific semantic block view
 python ./codebook.py view ./codebooks/codebook_v2.csv --column pattern_code --group-by-verb -o ./semantic-block.csv --filter-verb using, naming, agreeing, entering, improvising, navigating, retrieving, switching, typing, struggling

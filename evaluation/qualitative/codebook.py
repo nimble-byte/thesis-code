@@ -10,7 +10,7 @@ Four commands:
   check   : read-only structural/quality checks on a long-format CSV.
 
 Long-format schema (one row per code application, the source of truth):
-  id, group, task, raw_label, in_vivo, canonical_label, [pattern_code,
+  id, group, task, raw_code, in_vivo, canonical_code, [pattern_code,
   [theme_code]]
     id : NN.NNN.n  (participant . turn . subline)  -- unique application key
     task : task id from the [TASK <id> | <difficulty>] header the code line
@@ -18,10 +18,10 @@ Long-format schema (one row per code application, the source of truth):
       participant, so sequence position is a separate fact from task identity.
       Difficulty is validated but not stored: it is functionally dependent on
       the task id, so a per-row copy could only ever drift.
-    canonical_label : seeded == raw_label in v0; code mapping overwrites in place.
+    canonical_code : seeded == raw_code in v0; code mapping overwrites in place.
     pattern_code, theme_code (or any --column you choose): created on first
       relabel call targeting it, seeded from --seed-from (default
-      canonical_label), then overwritten per selection. Keeping each as its
+      canonical_code), then overwritten per selection. Keeping each as its
       own column (not overwriting the previous one in place) preserves the
       1st-order/2nd-order/3rd-order mapping a Gioia data structure needs.
     Columns are only ever emitted in the order above, and only if present.
@@ -68,15 +68,15 @@ COLUMN_ORDER = [
     "id",
     "group",
     "task",
-    "raw_label",
+    "raw_code",
     "in_vivo",
-    "canonical_label",
+    "canonical_code",
     "pattern_code",
     "theme_code",
     "dimension_code"
 ]
 
-REQUIRED_LONG_FORMAT_COLS = {"id", "group", "raw_label", "in_vivo", "canonical_label"}
+REQUIRED_LONG_FORMAT_COLS = {"id", "group", "raw_code", "in_vivo", "canonical_code"}
 
 # Lead-verb extraction for `view --group-by-verb`: strip grammatical
 # modifiers only (re-/self- prefix, a leading manner adverb), never verb
@@ -93,7 +93,7 @@ _VERB_LEAD_RE = re.compile(r"^([A-Za-z]+)")
 
 
 def lead_verb(label):
-    """Extract the base process verb from a canonical_label, stripping
+    """Extract the base process verb from a canonical_code, stripping
     grammatical (not semantic) modifiers. Returns None if no leading
     alphabetic token is found."""
     s = _VERB_PREFIX_RE.sub("", label)
@@ -318,8 +318,8 @@ def parse_file(path):
                         "id": app_id,
                         "group": group,
                         "task": task if task is not None else "",
-                        "raw_label": m.group("label").strip(),
-                        "canonical_label": m.group("label").strip(),  # seed == raw
+                        "raw_code": m.group("label").strip(),
+                        "canonical_code": m.group("label").strip(),  # seed == raw
                         "in_vivo": iv_clean,
                     }
                 )
@@ -356,7 +356,7 @@ def cmd_build(args):
 
     df = pd.DataFrame(
         all_rows,
-        columns=["id", "group", "task", "raw_label", "in_vivo", "canonical_label"],
+        columns=["id", "group", "task", "raw_code", "in_vivo", "canonical_code"],
     )
 
     # --- validation ---
@@ -365,7 +365,7 @@ def cmd_build(args):
     if not dups.empty:
         errors.append(
             f"duplicate id(s) — {dups['id'].nunique()} value(s):\n"
-            + dups[["id", "raw_label"]].to_string(index=False)
+            + dups[["id", "raw_code"]].to_string(index=False)
         )
     bad_group = df[~df["group"].isin(["E", "B"])]
     if not bad_group.empty:
@@ -373,9 +373,9 @@ def cmd_build(args):
             "unexpected group value(s): "
             + ", ".join(sorted(bad_group["group"].dropna().unique()))
         )
-    empty_lab = df[df["raw_label"].str.strip() == ""]
+    empty_lab = df[df["raw_code"].str.strip() == ""]
     if not empty_lab.empty:
-        errors.append(f"{len(empty_lab)} row(s) with empty raw_label")
+        errors.append(f"{len(empty_lab)} row(s) with empty raw_code")
     empty_task = df[df["task"].str.strip() == ""]
     if not empty_task.empty:
         errors.append(
@@ -419,7 +419,7 @@ def cmd_build(args):
         sys.exit(
             f"build: {args.out} already exists. Refusing to overwrite "
             f"without --force — if this is a v1/v2 file, it likely holds "
-            f"manual canonical_label merge decisions that `build` cannot "
+            f"manual canonical_code merge decisions that `build` cannot "
             f"reconstruct."
         )
     order_columns(df).to_csv(args.out, index=False)
@@ -513,7 +513,7 @@ def cmd_view(args):
     verb_note = ""
     if args.group_by_verb:
         # Lead verb is extracted from whatever column we're viewing -- for
-        # canonical_label that's the 1st-order verb; for pattern_code/
+        # canonical_code that's the 1st-order verb; for pattern_code/
         # theme_code it's the same for still-unmerged rows (seeded ==
         # source column), and the merged label's own lead verb for
         # already-merged ones (which doubles as a rough progress signal:
@@ -529,7 +529,7 @@ def cmd_view(args):
     elif need_lead_verb:
         view = view.drop(columns=["lead_verb"])
 
-    print(f"=== view === column: {col}{verb_note}")
+    print(f"view column: {col}{verb_note} | group coverage: \n")
 
     if args.out:
         out_abs = os.path.abspath(args.out)
@@ -716,41 +716,41 @@ def cmd_check(args):
 
     # --- 2. Field transposition ---
     transposition = []
-    no_verb = df[df["canonical_label"].apply(lambda s: lead_verb(s) is None)]
+    no_verb = df[df["canonical_code"].apply(lambda s: lead_verb(s) is None)]
     if not no_verb.empty:
         transposition.append(
             (
-                ("canonical_label",),
+                ("canonical_code",),
                 no_verb["id"].tolist(),
-                "canonical_label has no extractable lead verb",
+                "canonical_code has no extractable lead verb",
             )
         )
-    canon_vals = set(nonempty_values(df, "canonical_label"))
+    canon_vals = set(nonempty_values(df, "canonical_code"))
     swapped = df[(df["in_vivo"] != "") & df["in_vivo"].isin(canon_vals)]
     if not swapped.empty:
         transposition.append(
             (
-                ("canonical_label", "in_vivo"),
+                ("canonical_code", "in_vivo"),
                 swapped["id"].tolist(),
-                "in_vivo exactly matches a canonical_label value used elsewhere "
-                "-- looks like canonical_label/in_vivo were swapped",
+                "in_vivo exactly matches a canonical_code value used elsewhere "
+                "-- looks like canonical_code/in_vivo were swapped",
             )
         )
 
     # --- 3. Near-duplicate values (advisory) ---
     near_dupes = []
-    for c in ("canonical_label", "pattern_code", "theme_code", "dimension_code"):
+    for c in ("canonical_code", "pattern_code", "theme_code", "dimension_code"):
         if c in df.columns:
             near_dupes.extend(
                 ((c,), ids, message) for ids, message in find_near_duplicates(df, c)
             )
 
     # --- 4. Unsplit compounds (advisory) ---
-    compound_mask = df["raw_label"].str.contains(r",|[a-z][A-Z]", regex=True)
+    compound_mask = df["raw_code"].str.contains(r",|[a-z][A-Z]", regex=True)
     compounds = df[compound_mask & ~df["id"].isin(ignore_ids)]
     unsplit = [
-        (("raw_label",), [cid], f"raw_label looks like an unsplit compound: {label!r}")
-        for cid, label in zip(compounds["id"], compounds["raw_label"])
+        (("raw_code",), [cid], f"raw_code looks like an unsplit compound: {label!r}")
+        for cid, label in zip(compounds["id"], compounds["raw_code"])
     ]
 
     # --- 5. ID integrity ---
@@ -822,9 +822,9 @@ def main():
     v.add_argument("codebook", help="long-format codebook CSV")
     v.add_argument(
         "--column",
-        default="canonical_label",
+        default="canonical_code",
         help=(
-            "column to aggregate on (default: canonical_label). Use e.g. "
+            "column to aggregate on (default: canonical_code). Use e.g. "
             "--column pattern_code or --column theme_code once that "
             "column exists, to view progress on a later coding pass."
         ),
@@ -912,20 +912,20 @@ def main():
     r.add_argument(
         "--seed-from",
         dest="seed_from",
-        default="canonical_label",
+        default="canonical_code",
         help=(
             "column to seed --column from, the first time --column is "
-            "created (default: canonical_label; use e.g. pattern_code when "
+            "created (default: canonical_code; use e.g. pattern_code when "
             "starting a theme_code pass)"
         ),
     )
     r.add_argument(
         "--select-column",
         dest="select_column",
-        default="canonical_label",
+        default="canonical_code",
         help=(
             "column to match --select-verb / --select-labels / --exclude "
-            "against (default: canonical_label; use e.g. pattern_code to "
+            "against (default: canonical_code; use e.g. pattern_code to "
             "route whole clusters without enumerating their labels)"
         ),
     )
@@ -971,7 +971,7 @@ def main():
         dest="skip_column",
         nargs="+",
         help=(
-            "suppress findings tied to these column(s), e.g. raw_label to "
+            "suppress findings tied to these column(s), e.g. raw_code to "
             "silence unsplit-compound warnings; space- or comma-separated"
         ),
     )

@@ -113,8 +113,8 @@ def main() -> None:
     parser.add_argument(
         "--select-column",
         dest="select_column",
-        default="canonical_label",
-        help="column name to select (default: canonical_label)",
+        default="canonical_code",
+        help="column name to select (default: canonical_code)",
     )
     parser.add_argument(
         "--target-column",

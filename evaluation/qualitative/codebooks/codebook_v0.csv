@@ -1,4 +1,4 @@
-id,group,task,raw_label,in_vivo,canonical_label
+id,group,task,raw_code,in_vivo,canonical_code
 01.001.1,E,505,Initiating task reading,erstmal die Aufgabe lesen,Initiating task reading
 01.001.2,E,505,Extracting given information,"Radius 5, die Länge des Abschnitts AB ist 8",Extracting given information
 01.001.3,E,505,Identifying the unknown/goal,die Orthogonale ist gesucht,Identifying the unknown/goal
