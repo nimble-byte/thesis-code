@@ -18,10 +18,10 @@ from typing import Optional
 
 # ─── Paths ────────────────────────────────────────────────────────────────────
 
-SCRIPT_DIR = Path(__file__).parent
-ORIGINAL_DIR = SCRIPT_DIR / "original"
-REFORMATTED_DIR = SCRIPT_DIR / "reformatted"
-DEFAULT_CSV = SCRIPT_DIR / "participant_metadata.csv"
+SCRIPT_DIR = Path(__file__).parent.parent
+ORIGINAL_DIR = SCRIPT_DIR / "raw"
+REFORMATTED_DIR = SCRIPT_DIR / "formatted"
+DEFAULT_CSV = SCRIPT_DIR / "metadata" / "participant_metadata.csv"
 
 # ─── Constants ────────────────────────────────────────────────────────────────
 

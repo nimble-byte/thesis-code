@@ -106,7 +106,7 @@ id,group,task,raw_label,in_vivo,canonical_label,pattern_code
 02.018.11,B,280,Re-reading Task Statement for Comprehension,Regelmäßiges Sechseck mit dem Mittelpunkt O.,Re-reading Task Statement for Comprehension,reading problem statement
 02.018.12,B,280,Reading Task Statement Aloud,Was ist der Wert des Winkels X?,Reading task statement aloud,reading problem statement
 02.018.13,B,280,Requesting Clarification on Diagram Labeling,X ist zwischen hier den beiden oder was soll X sein?,Requesting Clarification on Diagram Labeling,requesting clarification from researcher
-02.020.1,B,280,Confirming Correct Understanding,Dann hatte ich das richtig verstanden.,Confirming Correct Understanding,accpeting LLM's assertions
+02.020.1,B,280,Confirming Correct Understanding,Dann hatte ich das richtig verstanden.,Confirming Correct Understanding,accepting LLM's assertions
 02.020.2,B,280,Trailing Off Into Silent Thought,regelmäßiges Sechseck wird da vorne...,Trailing Off Into Silent Thought,restating given information
 02.022.2,B,280,Re-orienting to Task via Key Term Repetition,Regelmäßiges Sechseck.,Re-orienting to Task via Key Term Repetition,restating given information
 02.022.4,B,280,Identifying Shape in Diagram,das Parallelogramm,Identifying Shape in Diagram,identifying given information
@@ -169,7 +169,7 @@ id,group,task,raw_label,in_vivo,canonical_label,pattern_code
 03.009.2,B,599,Deciding to request general approach from LLM,ob er da so einen allgemeinen Ansatz hat,Deciding to request general approach from LLM,deciding to ask LLM for guidance
 03.011.1,B,599,Adopting new-chat-per-task strategy,für jede Aufgabe immer neue,Adopting new-chat-per-task strategy,managing experiment logistics
 03.012.1,B,599,Requesting solution approach from LLM,hast du eine Idee wie ich diese aufgabe lösen kann,Requesting solution approach from LLM,requesting guidance from LLM
-03.014.1a,B,599,Confirming understanding of LLM's Pythagorean suggestion,das habe ich eigentlich schon verstanden,Confirming understanding of LLM's Pythagorean suggestion,accpeting LLM's assertions
+03.014.1a,B,599,Confirming understanding of LLM's Pythagorean suggestion,das habe ich eigentlich schon verstanden,Confirming understanding of LLM's Pythagorean suggestion,accepting LLM's assertions
 03.014.1b,B,599,Identifying unresolved sub-problem (length of AB),wie lang A und B dann ist,Identifying unresolved sub-problem (length of AB),identifying unknown information
 03.014.2a,B,599,Evaluating triangle for isosceles property,ist es nicht gleichschenklich,Evaluating triangle for isosceles property,evaluating own solving progress
 03.014.2b,B,599,Deciding to request idea from LLM,"frage ich ihn mal, ob er da eine Idee hat",Deciding to request idea from LLM,deciding to ask LLM for guidance
@@ -178,7 +178,7 @@ id,group,task,raw_label,in_vivo,canonical_label,pattern_code
 03.017.2a,B,599,Identifying additional unknown quantity,A und B kenne ich auch nicht,Identifying additional unknown quantity,identifying unknown information
 03.017.2b,B,599,Deciding to request formula from LLM,ob er da eine Formel für mich hat,Deciding to request formula from LLM,deciding to ask LLM for information
 03.018.1,B,599,Requesting formula for AP and PB from LLM,eine formel für das finden von ap und pb,Requesting formula for AP and PB from LLM,requesting information from LLM
-03.020.2,B,599,Confirming understanding of LLM's repeated Pythagorean suggestion,ist auch irgendwie naheliegend,Confirming understanding of LLM's repeated Pythagorean suggestion,accpeting LLM's assertions
+03.020.2,B,599,Confirming understanding of LLM's repeated Pythagorean suggestion,ist auch irgendwie naheliegend,Confirming understanding of LLM's repeated Pythagorean suggestion,accepting LLM's assertions
 03.020.3,B,599,Interpreting LLM's suggestion to subdivide triangle using variables,dieses Dreieck nochmal in zwei andere Dreiecke zu unterteilen,Interpreting LLM's suggestion to subdivide triangle using variables,restating LLM's guidance
 03.020.4,B,599,Enumerating unknowns in sub-triangle,Von A bis P... weiß ich nicht,Enumerating unknowns in sub-triangle,identifying unknown information
 03.020.5,B,599,Enumerating unknowns in sub-triangle,das sind zwei Unbekannte auf jeden Fall,Enumerating unknowns in sub-triangle,identifying unknown information
@@ -203,7 +203,7 @@ id,group,task,raw_label,in_vivo,canonical_label,pattern_code
 03.024.3,B,599,Providing equation for sub-triangle,9 = y^2 + CP^2,Providing equation for sub-triangle,stating information to LLM
 03.024.4,B,599,Providing combined equation relating x and y,27 = (x-y)(x+y),Providing combined equation relating x and y,stating information to LLM
 03.026.2,B,599,Observing LLM's algebraic rearrangement,hat er schon einiges umgestellt,Observing LLM's algebraic rearrangement,confirming LLM's guidance
-03.026.5a,B,599,Confirming understanding of LLM's algebraic steps,Die Schritte habe ich soweit verstanden,Confirming understanding of LLM's algebraic steps,accpeting LLM's assertions
+03.026.5a,B,599,Confirming understanding of LLM's algebraic steps,Die Schritte habe ich soweit verstanden,Confirming understanding of LLM's algebraic steps,accepting LLM's assertions
 03.026.5b,B,599,Monitoring for further solving steps from LLM,ob er noch weitere Schritte macht,Monitoring for further solving steps from LLM,anticipating LLM behaviour
 03.027.1,B,599,Reporting completion of steps and requesting next steps,wie gehe ich weiter vor um das LGS zu lösen,Reporting completion of steps and requesting next steps,requesting guidance from LLM
 03.029.1,B,599,Describing LLM's stepwise equation-solving explanation,sehr schrittweise gibt er hier an,Describing LLM's stepwise equation-solving response,confirming LLM's guidance
@@ -461,7 +461,7 @@ id,group,task,raw_label,in_vivo,canonical_label,pattern_code
 05.021.1,B,478,Relaying task parameters to LLM,"AC = 12, BD = 16",Relaying task parameters to LLM,submitting information to LLM
 05.023.1,B,478,reading LLM response aloud,die andere Diagonale in zwei gleiche Teile,Reading LLM's restated known information,reading LLM's restated known information
 05.023.2,B,478,reading LLM response aloud,jedes Segment,Reading LLM's restated known information,reading LLM's restated known information
-05.023.3,B,478,Confirming comprehension of response so far,soweit so Gut,Confirming comprehension of response so far,accpeting LLM's assertions
+05.023.3,B,478,Confirming comprehension of response so far,soweit so Gut,Confirming comprehension of response so far,accepting LLM's assertions
 05.023.4,B,478,Recognizing LLM's triangle-construction step,möchte der da aus Dreieck bauen,Recognizing LLM's triangle-construction step,confirming LLM's guidance
 05.023.6,B,478,reading LLM response aloud,Jede Seite,Reading LLM's restated known information,reading LLM's restated known information
 05.023.7,B,478,Pausing to re-verify assumption,lass mich nochmal nachschauen,Pausing to re-verify assumption,questioning oneself
@@ -1075,7 +1075,7 @@ id,group,task,raw_label,in_vivo,canonical_label,pattern_code
 11.020.4,B,505,decoding notation meaning,"Achso, zur Mitte",decoding notation meaning,correcting own understanding
 11.020.5,B,505,restating segment labels,AP und PB,restating segment labels,restating solution step
 11.022.1,B,505,reporting persistent confusion,"ich weiß immer nicht, wie ich die Strecke zu P ausrechen soll",reporting persistent confusion,expressing uncertainty
-11.022.2,B,505,confirming understood element,"das ist ja Radius, habe ich verstanden",confirming understood element,accpeting LLM's assertions
+11.022.2,B,505,confirming understood element,"das ist ja Radius, habe ich verstanden",confirming understood element,accepting LLM's assertions
 11.022.4,B,505,questioning LLM's epistemic basis for claim,weil das kann er ja gar nicht wissen,questioning LLM's epistemic basis for claim,questioning LLM output
 11.022.5,B,505,working through equation aloud,"5 Quadrat ist gleich, die beiden Werte",working through equation aloud,restating given information
 11.023.1,B,505,declining to provide requested value,nein kann ich DIr nicht sagen,declining to provide requested value,disclosing own limitations to LLM
@@ -1086,7 +1086,7 @@ id,group,task,raw_label,in_vivo,canonical_label,pattern_code
 11.028.1,B,505,providing missing value to LLM,die Länge von AB ist 8,providing missing value to LLM,submitting information to LLM
 11.030.1,B,505,performing own calculation,Dann kann ich logischerweise auch das berechnen,performing own calculation,deciding next solution step
 11.030.2,B,505,questioning whether LLM will compute answer independently,Rechnet der das jetzt selber für mich aus?,questioning whether LLM will compute answer independently,expressing uncertainty
-11.030.3,B,505,confirming LLM computed the answer,Hat er hat doch für mich ausgerechnet,confirming LLM computed the answer,accpeting LLM's assertions
+11.030.3,B,505,confirming LLM computed the answer,Hat er hat doch für mich ausgerechnet,confirming LLM computed the answer,accepting LLM's assertions
 11.030.4,B,505,expressing satisfaction with outcome,"Super, vielen Dank",expressing satisfaction with outcome,expressing satisfaction
 11.030.5,B,505,attributing difficulty to own oversight,dass ich das überlesen habe und somit die Erklärung nicht verstanden habe,attributing difficulty to own oversight,recognizing own error
 11.030.7,B,599,confirming task identity,"das ist jetzt die besagte Task, ja?",confirming task identity,managing experiment logistics
@@ -1447,7 +1447,7 @@ id,group,task,raw_label,in_vivo,canonical_label,pattern_code
 15.046.1,E,54,Answering chatbot in the negative,nein,Answering LLM in the negative,requesting guidance from LLM
 15.048.1,E,54,Qualifying own knowledge in response to chatbot,das kommt nur auf den Kontext an,Qualifying own knowledge in response to LLM,disclosing own limitations to LLM
 15.049.1,E,54,Giving qualified answer to chatbot,kommt drauf an,Giving qualified answer to LLM,requesting guidance from LLM
-15.051.2,E,54,Confirming understanding and recording fractions,Wir haben jetzt zwei Brüche,Confirming understanding and recording fractions,accpeting LLM's assertions
+15.051.2,E,54,Confirming understanding and recording fractions,Wir haben jetzt zwei Brüche,Confirming understanding and recording fractions,accepting LLM's assertions
 15.051.3,E,54,Setting up equation to solve for AB,"Ich müsste nur versuchen, auf AB zu kommen",Setting up equation,setting up equation
 15.051.4,E,54,Planning algebraic manipulation,"mit 25 zu multiplizieren, sodass quasi AB allein steht",Planning algebraic manipulation,planning next solution step
 15.051.5,E,54,Calculating answer using calculator,"Ich multipliziere nun 2,5 mit 25",Calculating answer using calculator,performing calculation

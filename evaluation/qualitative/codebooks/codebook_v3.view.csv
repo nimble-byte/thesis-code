@@ -1,4 +1,4 @@
-pattern_code,frequency,n_participants,group_coverage
+theme_code,frequency,n_participants,group_coverage
 performing calculation,80,12,E:49 / B:31
 restating given information,74,12,E:45 / B:29
 managing experiment logistics,62,11,E:26 / B:36
@@ -48,7 +48,7 @@ requesting information from LLM,11,8,E:7 / B:4
 committing to answer,10,6,E:4 / B:6
 evaluating LLM response as unhelpful,10,5,E:4 / B:6
 forming own hypothesis,9,4,E:9 / B:0
-accpeting LLM's assertions,8,5,E:1 / B:7
+accepting LLM's assertions,8,5,E:1 / B:7
 assuming mathematical property,8,5,E:7 / B:1
 evaluating LLM as helpful,8,6,E:5 / B:3
 expressing doubt,8,4,E:5 / B:3

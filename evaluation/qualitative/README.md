@@ -10,7 +10,7 @@ This README focuses on the transcriptions, the coding process and the tooling us
 
 1. Transcripts were transformed from the raw format into a semi-structured format using an LLM
    1. Each transcript was transformed in a new session using the same prompt
-   2. Once transformation was complete, the [`validate_transcripts.py`](./validate_transcripts.py) was used to check transcripts transformation failures
+   2. Once transformation was complete, the [`validate_transcripts.py`](./helpers/validate_transcripts.py) was used to check transcripts transformation failures
 2. Each transcript was coded in a single pass for process codes with accompanying in vivo citations
 3. Coded transcriptions were combined into a single codebook using the `build` command of [`codebook.py`](./codebook.py)
 4. Codes were mechanically combined when they differed in casing of words or were direct sub- or super-codes of each other (Saldana pattern-mapping)
@@ -23,7 +23,7 @@ Several small python tools have been purpose built for the coding procedure. The
 
 ### Transcript Validator
 
-The [transcript validator](./validate_transcripts.py) was built to ensure the LLM transformed transcripts were functionally identical to the original raw transcribed versions with no material changes. It ran the following checks:
+The [transcript validator](./helpers/validate_transcripts.py) was built to ensure the LLM transformed transcripts were functionally identical to the original raw transcribed versions with no material changes. It ran the following checks:
 
 - correct transcription of the header metadata
 - channel labels are in the set "SPOKEN", "WRITTEN", "LLM", "RESEARCHER"
@@ -46,7 +46,7 @@ The [codebook tool](./codebook.py) was the core tool used to generate and update
 
 ### Command Generator
 
-Generated update commands using [`codebook.py`](./codebook.py) for changing batches of codes. Could be run in batch to speed up things.
+Generated update commands using [`codebook.py`](./codebook.py) for changing batches of codes ([code](./helpers/working_patterns_to_commands.py)).
 
 ## Second Cycle Coding Passes
 
@@ -86,4 +86,13 @@ python ./codebook.py view ./codebooks/codebook_v3.csv --column theme_code
 python ./codebook.py view ./codebooks/codebook_v2.csv --column pattern_code
 python ./codebook.py view ./codebooks/codebook_v1.csv --column canonical_label
 python ./codebook.py view ./codebooks/codebook_v0.csv --column raw_label
+
+# create a specific semantic block view
+python ./codebook.py view ./codebooks/codebook_v2.csv --column pattern_code --group-by-verb -o ./semantic-block.csv --filter-verb using, naming, agreeing, entering, improvising, navigating, retrieving, switching, typing, struggling
+
+# build v0 codebook from scratch
+python ./codebook.py build "./codes/**.codes.txt" --out ./codebooks/codebook_v0.csv
+
+# validate all transcripts
+python ./helpers/validate_transcripts.py [PARTICIPANT_ID]
 ```
