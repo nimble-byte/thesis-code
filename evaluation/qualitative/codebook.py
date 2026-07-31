@@ -463,10 +463,16 @@ def cmd_view(args):
 
     def agg(g):
         gc = g["group"].value_counts()
+        total = len(g)
+        e_n, b_n = gc.get("E", 0), gc.get("B", 0)
+        e_pct = e_n / total * 100 if total else 0.0
+        b_pct = b_n / total * 100 if total else 0.0
         out = {
-            "frequency": len(g),
+            "frequency": total,
             "n_participants": g["participant"].nunique(),
-            "group_coverage": f"E:{gc.get('E', 0)} / B:{gc.get('B', 0)}",
+            "group_coverage": (
+                f"E:{e_n} ({e_pct:.1f}%) / B:{b_n} ({b_pct:.1f}%)"
+            ),
         }
         if args.quotes:
             seen = {}
@@ -529,7 +535,18 @@ def cmd_view(args):
     elif need_lead_verb:
         view = view.drop(columns=["lead_verb"])
 
-    print(f"view column: {col}{verb_note} | group coverage: \n")
+    global_gc = df["group"].value_counts()
+    global_total = len(df)
+    global_e, global_b = global_gc.get("E", 0), global_gc.get("B", 0)
+    global_e_pct = global_e / global_total * 100 if global_total else 0.0
+    global_b_pct = global_b / global_total * 100 if global_total else 0.0
+    global_note = (
+        f"E:{global_e} ({global_e_pct:.1f}%) / B:{global_b} ({global_b_pct:.1f}%)"
+    )
+
+    print(
+        f"view column: {col}{verb_note} | group coverage: {global_note}\n"
+    )
 
     if args.out:
         out_abs = os.path.abspath(args.out)
