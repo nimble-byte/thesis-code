@@ -34,14 +34,14 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [005.4] PROCESS: Requesting solution approach from LLM | IV: "Welchen Ansatz sollte ich verfolgen"
 
 [007.1] — (no code: non-substantive/filler)
-[007.2] PROCESS: Reading LLM response aloud | IV: "Länge von Overline AB zu bestimmen"
-[007.3] PROCESS: Reading LLM response aloud | IV: "AB Strich, wenn man so will"
-[007.4] PROCESS: Reading LLM response aloud | IV: "kannst du diese Information verwenden"
-[007.5] PROCESS: Reading LLM response aloud | IV: "Definiere das Verhältnis als"
+[007.2] PROCESS: reading LLM response aloud | IV: "Länge von Overline AB zu bestimmen"
+[007.3] PROCESS: reading LLM response aloud | IV: "AB Strich, wenn man so will"
+[007.4] PROCESS: reading LLM response aloud | IV: "kannst du diese Information verwenden"
+[007.5] PROCESS: reading LLM response aloud | IV: "Definiere das Verhältnis als"
 [007.6] PROCESS: Recognizing ratio-as-fraction insight | IV: "du kannst es ja so gesehen als Bruch schreiben"
 [007.7] PROCESS: Trailing off mid-thought | IV: "Ich dachte jetzt, das bezieht sich auf"
 [007.8a] PROCESS: Expressing frustration | IV: "[Fluchen zensiert]"
-[007.8b] PROCESS: Reading LLM response aloud | IV: "kannst du eine AB berechnen"
+[007.8b] PROCESS: reading LLM response aloud | IV: "kannst du eine AB berechnen"
 [007.9] PROCESS: Misreading LLM step aloud | IV: "über BC berechnen kannst"
 [007.10] PROCESS: Signaling intent to work independently | IV: "zusammenpuzzeln"
 [007.11] PROCESS: Hesitating before formulating question | IV: "Ich frage, was der"
@@ -49,8 +49,8 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 
 [008.1] PROCESS: Sending clarifying question to LLM | IV: "Die Unbekannte x stellt dann am Ende genau was dar?"
 
-[010.1] PROCESS: Reading LLM response aloud | IV: "Die Länge von B nach C"
-[010.2] PROCESS: Reading LLM response aloud | IV: "teilt den Strahl in zwei Teile"
+[010.1] PROCESS: reading LLM response aloud | IV: "Die Länge von B nach C"
+[010.2] PROCESS: reading LLM response aloud | IV: "teilt den Strahl in zwei Teile"
 [010.3] PROCESS: Trailing off mid-thought | IV: "kann ich natürlich dann daraus"
 [010.4] PROCESS: Setting up equation | IV: "AB Strich ist gleich durch X"
 [010.5] PROCESS: Reflecting on earlier misunderstanding | IV: "anfangs nicht gesehen, dass man das ja als Bruch schreiben kann"
@@ -111,7 +111,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [023.1] PROCESS: Acknowledging calculation error | IV: "komplett falsch ist"
 
 [025.1] PROCESS: Rejecting LLM's suggested approach | IV: "das ist auch nicht richtig"
-[025.2] PROCESS: Reading LLM response aloud | IV: "Verhältnis AB durch BC gleich 2/5"
+[025.2] PROCESS: reading LLM response aloud | IV: "Verhältnis AB durch BC gleich 2/5"
 [025.3] PROCESS: Reasoning about given vs. derivable quantities | IV: "BC könnte ich ja wahrscheinlich berechnen"
 [025.4] PROCESS: Critically evaluating LLM's claim | IV: "er sagt mir wieder, ich hätte AB"
 
@@ -159,9 +159,9 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [037.1a] PROCESS: Stating given information to LLM | IV: "Kuchstückähnlichen abschnitt"
 [037.1b] PROCESS: Stating goal to LLM | IV: "Länge des Kreisabschnittes zu berechnenen"
 
-[039.1] PROCESS: Reading LLM response aloud | IV: "Formel für die Bogenlänge lautet"
+[039.1] PROCESS: reading LLM response aloud | IV: "Formel für die Bogenlänge lautet"
 [039.2] PROCESS: Reading formula aloud | IV: "L ist gleich Winkel durch 360 mal 2*Pi*r"
-[039.3] PROCESS: Reading LLM response aloud | IV: "Welche Werte musst du in die Formel einsetzen?"
+[039.3] PROCESS: reading LLM response aloud | IV: "Welche Werte musst du in die Formel einsetzen?"
 [039.4] PROCESS: Answering LLM's guiding question | IV: "Winkel und den Radius"
 [039.5] PROCESS: Deciding to use calculator | IV: "vierfiegen Taschenrechner"
 [039.6] PROCESS: Performing calculation | IV: "16 Pi fünftel"
@@ -186,7 +186,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [041.3] PROCESS: Requesting approach from LLM | IV: "Wie würde ich dabei vorgehen"
 [041.4] PROCESS: Proposing own hypothesis to LLM | IV: "müsste ich ja nur eine Kante berechnen"
 
-[043.1] PROCESS: Reading LLM response aloud | IV: "senkrecht aufeinander stehen und sich gegenseitig halbieren"
+[043.1] PROCESS: reading LLM response aloud | IV: "senkrecht aufeinander stehen und sich gegenseitig halbieren"
 [043.2] PROCESS: Interpreting geometric properties | IV: "mit einem halben Winkel arbeiten"
 [043.3] PROCESS: Formulating clarifying question | IV: "inwiefern muss ich halbieren"
 [043.4] PROCESS: Hypothesizing bisection approach | IV: "AC und BD halbieren"
@@ -196,7 +196,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [044.1a] PROCESS: Stating interpretation and question to LLM | IV: "In wie fern muss ich halbieren?"
 [044.1b] PROCESS: Proposing approach for LLM verification | IV: "Macht es Sinn die Länge von AC und BD zu halbieren"
 
-[046.1] PROCESS: Reading LLM response aloud | IV: "bilden ... ein rechtwinkliges Dreieck"
+[046.1] PROCESS: reading LLM response aloud | IV: "bilden ... ein rechtwinkliges Dreieck"
 [046.2] PROCESS: Recognizing applicable method | IV: "Okay, Pythagoras"
 [046.3] PROCESS: Computing half-diagonal values | IV: "AC halbe sind sechs, BD halbe sind acht"
 [046.4] PROCESS: Rejecting incorrect formula recall | IV: "ich will nicht die Fläche haben"

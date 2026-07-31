@@ -1,5 +1,5 @@
 canonical_label,frequency,n_participants,group_coverage
-Reading LLM response aloud,45,5,E:17 / B:28
+reading LLM response aloud,45,5,E:17 / B:28
 Performing calculation,19,5,E:12 / B:7
 Reading task statement aloud,13,4,E:5 / B:8
 Paraphrasing LLM's response,12,1,E:12 / B:0
@@ -60,7 +60,7 @@ Continuing calculation,2,2,E:2 / B:0
 Correcting LLM's assumption,2,2,E:1 / B:1
 Deciding to correct LLM's assumption,2,2,E:2 / B:0
 Deciding to inspect LLM's CoT,2,1,E:2 / B:0
-Deciding to share image with LLM,2,2,E:1 / B:1
+deciding to share image with LLM,2,2,E:1 / B:1
 Deciding to sketch diagram,2,2,E:1 / B:1
 Deciding to verify calculation with LLM,2,1,E:2 / B:0
 Deciding to verify formula with LLM,2,2,E:2 / B:0
@@ -92,7 +92,7 @@ Re-reading Task Statement to Recall Question,2,1,E:0 / B:2
 Re-reading given values,2,2,E:1 / B:1
 Reading LLM's follow-up request,2,1,E:2 / B:0
 Recalling formula for a,2,1,E:2 / B:0
-Referencing LLM's CoT,2,2,E:1 / B:1
+referencing LLM's CoT,2,2,E:1 / B:1
 Rejecting LLM's suggested approach,2,2,E:1 / B:1
 Relaying task parameters to LLM,2,1,E:0 / B:2
 Reporting formula derivation to LLM,2,1,E:2 / B:0
@@ -511,7 +511,7 @@ Interpreting problem geometry,1,1,E:0 / B:1
 Interpreting result relative to LLM's response,1,1,E:1 / B:0
 Interpreting task requirements for perpendicular construction,1,1,E:0 / B:1
 Introducing unknown variable and estimating percentage,1,1,E:1 / B:0
-Judging LLM's statement as incorrect,1,1,E:1 / B:0
+judging LLM's statement as incorrect,1,1,E:1 / B:0
 Judging computed precision as sufficient,1,1,E:0 / B:1
 Judging own solving capacity as insufficient,1,1,E:1 / B:0
 Judging response as unhelpful,1,1,E:1 / B:0
@@ -724,7 +724,7 @@ Recognizing calculation inconsistency,1,1,E:1 / B:0
 Recognizing cancellation of CP^2 term across equations,1,1,E:0 / B:1
 Recognizing diagram setup,1,1,E:1 / B:0
 Recognizing familiar problem pattern,1,1,E:1 / B:0
-Recognizing handwriting-induced transcription error,1,1,E:1 / B:0
+recognizing handwriting-induced transcription error,1,1,E:1 / B:0
 Recognizing mismatch between computed quantity and goal,1,1,E:1 / B:0
 Recognizing need for formula,1,1,E:1 / B:0
 Recognizing need to solve equation system,1,1,E:0 / B:1

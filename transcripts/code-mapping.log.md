@@ -9,8 +9,8 @@
 # Pattern Coding (v1 to v2)
 
 - introduce pattern codes "restating given information", "restating solution step", "restating problem goal", and "restating LLM's guidance"
-- introduced pattern codes "deciding to ask LLM for information", "deciding to ask LLM for verification", "deciding to ask LLM for guidance", "deciding to ask LLM for solution", "deciding next solution step", "Deciding to manually validate", "Deciding to update the LLM information", "Deciding to follow LLM advice", "Deciding to verify LLM output", and "Deciding to attempt solution without LLM"
-- re-coded all statements previously coded with "Reading LLM response aloud" to reflect content detail
+- introduced pattern codes "deciding to ask LLM for information", "deciding to ask LLM for verification", "deciding to ask LLM for guidance", "deciding to ask LLM for solution", "deciding next solution step", "Deciding to manually validate", "deciding to update the LLM information", "Deciding to follow LLM advice", "deciding to verify LLM output", and "Deciding to attempt solution without LLM"
+- re-coded all statements previously coded with "reading LLM response aloud" to reflect content detail
 - re-coded 05.005.9 and 04.036.1 to better fit new pattern codes
 - introduced pattern codes "reading LLM's CoT", "reading LLM's guidance", "reading LLM's questions", "reading LLM's restated known information", "reading LLM's feedback", "reading given information", "reading problem statement"
 - introduce pattern codes "identifying given information", "identifying unknown information", "identifying solution step", "identifying problem solvability", and "identifying own knowledge gap"

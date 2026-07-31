@@ -127,12 +127,12 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [021.1] PROCESS: Relaying task parameters to LLM | IV: "AC = 12, BD = 16"
 [021.2] — (no code: image attachment placeholder, non-verbal)
 
-[023.1] PROCESS: Reading LLM response aloud | IV: "die andere Diagonale in zwei gleiche Teile"
-[023.2] PROCESS: Reading LLM response aloud | IV: "jedes Segment"
+[023.1] PROCESS: reading LLM response aloud | IV: "die andere Diagonale in zwei gleiche Teile"
+[023.2] PROCESS: reading LLM response aloud | IV: "jedes Segment"
 [023.3] PROCESS: Confirming comprehension of response so far | IV: "soweit so Gut"
 [023.4] PROCESS: Recognizing LLM's triangle-construction step | IV: "möchte der da aus Dreieck bauen"
 [023.5] — (no code: non-substantive/filler)
-[023.6] PROCESS: Reading LLM response aloud | IV: "Jede Seite"
+[023.6] PROCESS: reading LLM response aloud | IV: "Jede Seite"
 [023.7] PROCESS: Pausing to re-verify assumption | IV: "lass mich nochmal nachschauen"
 [023.8] PROCESS: Questioning geometric property of figure | IV: "Haben die rechte Winkel?"
 [023.9] — (no code: unintelligible speech)

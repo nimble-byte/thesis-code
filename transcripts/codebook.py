@@ -504,8 +504,10 @@ def cmd_view(args):
         view = view[view["lead_verb"].isin([v.lower() for v in args.filter_verb])]
     if args.exclude_verb:
         view = view[~view["lead_verb"].isin([v.lower() for v in args.exclude_verb])]
+    if args.filter_term:
+        view = view[view[col].str.contains(args.filter_term, case=False)]
     if args.filter_regex:
-        view = view[view[col].astype(str).str.contains(args.filter_regex, case=False, regex=True)]
+        view = view[view[col].astype(str).str.contains(args.filter_regex, regex=True)]
 
     verb_note = ""
     if args.group_by_verb:
@@ -577,7 +579,7 @@ def cmd_view(args):
                         print()
                     print(row_line)
                     for quote, qid in row["examples"]:
-                        print(f"    {qid:12} \"{quote}\"")
+                        print(f'    {qid:12} "{quote}"')
                     if args.group_by_verb:
                         prev_verb = row["lead_verb"]
             elif args.group_by_verb:
@@ -612,7 +614,9 @@ def cmd_relabel(args):
     df = read_codebook(args.codebook)
     validate_long_format(df, args.codebook, "relabel")
 
-    require_column(df, args.select_column, args.codebook, "relabel", label="--select-column")
+    require_column(
+        df, args.select_column, args.codebook, "relabel", label="--select-column"
+    )
     require_column(df, args.seed_from, args.codebook, "relabel", label="--seed-from")
     if bool(args.select_verb) == bool(args.select_labels):
         sys.exit("relabel: specify exactly one of --select-verb or --select-labels")
@@ -762,7 +766,11 @@ def cmd_check(args):
     checks = [
         ("1. Missing values", "hard fail", missing),
         ("2. Field transposition", "hard fail", transposition),
-        ("3. Near-duplicate values", "advisory -- requires human judgement", near_dupes),
+        (
+            "3. Near-duplicate values",
+            "advisory -- requires human judgement",
+            near_dupes,
+        ),
         ("4. Unsplit compounds", "advisory -- requires human judgement", unsplit),
         ("5. ID integrity", "hard fail", id_integrity),
     ]
@@ -771,7 +779,9 @@ def cmd_check(args):
 
     print(f"=== check === {args.codebook}")
     if skip_columns:
-        print(f"  suppressing findings for column(s): {', '.join(sorted(skip_columns))}")
+        print(
+            f"  suppressing findings for column(s): {', '.join(sorted(skip_columns))}"
+        )
     n_hard = n_advisory = 0
     for title, severity, findings in checks:
         kept = [f for f in findings if not skip_columns & set(f[0])]
@@ -862,9 +872,14 @@ def main():
         ),
     )
     v.add_argument(
+        "--filter-term",
+        dest="filter_term",
+        help="only show rows where --column contains this substring, case-insensitive",
+    )
+    v.add_argument(
         "--filter-regex",
         dest="filter_regex",
-        help="only show rows where --column matches this regex, case-insensitive",
+        help="only show rows where --column matches this regex, case-sensitive",
     )
     v.add_argument(
         "--untouched-vs",

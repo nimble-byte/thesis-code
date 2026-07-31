@@ -48,7 +48,11 @@ The [codebook tool](./codebook.py) was the core tool used to generate and update
 
 Generated update commands using [`codebook.py`](./codebook.py) for changing batches of codes. Could be run in batch to speed up things.
 
-## Coding Passes
+## Second Cycle Coding Passes
+
+### 2.1 Verb Groups
+
+
 
 ### 2.2 Semantic Blocks
 
@@ -73,3 +77,13 @@ python ./codebook.py view ./codebooks/codebook_v2.csv --column pattern_code --gr
 | B9 — Note taking                       | labeling, placing, sketching, annotating, marking, transcribing, visualizing, accepting, counting, examining, redrawing, externalizing, constructing, copying                                                                                           | 36  |
 | B10 — Self-monitoring                  | signaling, adjusting, abandoning, making, trailing, voicing, hesitating, reacting                                                                                                                                                                       | 14  |
 | B11 — Tools and offloading             | using, naming, agreeing, entering, improvising, navigating, retrieving, switching, typing, struggling                                                                                                                                                   | 12  |
+
+## Command Library
+
+```shell
+# codebook view based on relevant column
+python ./codebook.py view ./codebooks/codebook_v3.csv --column theme_code
+python ./codebook.py view ./codebooks/codebook_v2.csv --column pattern_code
+python ./codebook.py view ./codebooks/codebook_v1.csv --column canonical_label
+python ./codebook.py view ./codebooks/codebook_v0.csv --column raw_label
+```

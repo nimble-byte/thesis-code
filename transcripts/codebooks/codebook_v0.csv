@@ -237,21 +237,21 @@ id,group,task,raw_label,in_vivo,canonical_label
 04.005.2,E,54,Stating ratio to LLM,Das verhältis von overline(AB) ist 2:5,Stating ratio to LLM
 04.005.3,E,54,Stating goal to LLM,Ziel ist die Berechnung von overline(AC),Stating goal to LLM
 04.005.4,E,54,Requesting solution approach from LLM,Welchen Ansatz sollte ich verfolgen,Requesting solution approach from LLM
-04.007.2,E,54,Reading LLM response aloud,Länge von Overline AB zu bestimmen,Reading LLM response aloud
-04.007.3,E,54,Reading LLM response aloud,"AB Strich, wenn man so will",Reading LLM response aloud
-04.007.4,E,54,Reading LLM response aloud,kannst du diese Information verwenden,Reading LLM response aloud
-04.007.5,E,54,Reading LLM response aloud,Definiere das Verhältnis als,Reading LLM response aloud
+04.007.2,E,54,reading LLM response aloud,Länge von Overline AB zu bestimmen,reading LLM response aloud
+04.007.3,E,54,reading LLM response aloud,"AB Strich, wenn man so will",reading LLM response aloud
+04.007.4,E,54,reading LLM response aloud,kannst du diese Information verwenden,reading LLM response aloud
+04.007.5,E,54,reading LLM response aloud,Definiere das Verhältnis als,reading LLM response aloud
 04.007.6,E,54,Recognizing ratio-as-fraction insight,du kannst es ja so gesehen als Bruch schreiben,Recognizing ratio-as-fraction insight
 04.007.7,E,54,Trailing off mid-thought,"Ich dachte jetzt, das bezieht sich auf",Trailing off mid-thought
 04.007.8a,E,54,Expressing frustration,[Fluchen zensiert],Expressing frustration
-04.007.8b,E,54,Reading LLM response aloud,kannst du eine AB berechnen,Reading LLM response aloud
+04.007.8b,E,54,reading LLM response aloud,kannst du eine AB berechnen,reading LLM response aloud
 04.007.9,E,54,Misreading LLM step aloud,über BC berechnen kannst,Misreading LLM step aloud
 04.007.10,E,54,Signaling intent to work independently,zusammenpuzzeln,Signaling intent to work independently
 04.007.11,E,54,Hesitating before formulating question,"Ich frage, was der",Hesitating before formulating question
 04.007.12,E,54,Formulating clarifying question for LLM,Die unbekannte X stellt dann am Ende genau was dar,Formulating clarifying question for LLM
 04.008.1,E,54,Sending clarifying question to LLM,Die Unbekannte x stellt dann am Ende genau was dar?,Sending clarifying question to LLM
-04.010.1,E,54,Reading LLM response aloud,Die Länge von B nach C,Reading LLM response aloud
-04.010.2,E,54,Reading LLM response aloud,teilt den Strahl in zwei Teile,Reading LLM response aloud
+04.010.1,E,54,reading LLM response aloud,Die Länge von B nach C,reading LLM response aloud
+04.010.2,E,54,reading LLM response aloud,teilt den Strahl in zwei Teile,reading LLM response aloud
 04.010.3,E,54,Trailing off mid-thought,kann ich natürlich dann daraus,Trailing off mid-thought
 04.010.4,E,54,Setting up equation,AB Strich ist gleich durch X,Setting up equation
 04.010.5,E,54,Reflecting on earlier misunderstanding,"anfangs nicht gesehen, dass man das ja als Bruch schreiben kann",Reflecting on earlier misunderstanding
@@ -303,7 +303,7 @@ id,group,task,raw_label,in_vivo,canonical_label
 04.022.1c,E,54,Requesting adjusted formula from LLM,Wie würde die Formel angepasst lauten,Requesting adjusted formula from LLM
 04.023.1,E,54,Acknowledging calculation error,komplett falsch ist,Acknowledging calculation error
 04.025.1,E,54,Rejecting LLM's suggested approach,das ist auch nicht richtig,Rejecting LLM's suggested approach
-04.025.2,E,54,Reading LLM response aloud,Verhältnis AB durch BC gleich 2/5,Reading LLM response aloud
+04.025.2,E,54,reading LLM response aloud,Verhältnis AB durch BC gleich 2/5,reading LLM response aloud
 04.025.3,E,54,Reasoning about given vs. derivable quantities,BC könnte ich ja wahrscheinlich berechnen,Reasoning about given vs. derivable quantities
 04.025.4,E,54,Critically evaluating LLM's claim,"er sagt mir wieder, ich hätte AB",Critically evaluating LLM's claim
 04.027.1,E,54,Checking understanding against hint,"Verhältnis für AC, oder nicht?",Checking understanding against hint
@@ -339,9 +339,9 @@ id,group,task,raw_label,in_vivo,canonical_label
 04.036.11,E,455,Deciding to consult LLM for guidance,in die richtige Richtung lotsen kann,Deciding to consult LLM for guidance
 04.037.1a,E,455,Stating given information to LLM,Kuchstückähnlichen abschnitt,Stating given information to LLM
 04.037.1b,E,455,Stating goal to LLM,Länge des Kreisabschnittes zu berechnenen,Stating goal to LLM
-04.039.1,E,455,Reading LLM response aloud,Formel für die Bogenlänge lautet,Reading LLM response aloud
+04.039.1,E,455,reading LLM response aloud,Formel für die Bogenlänge lautet,reading LLM response aloud
 04.039.2,E,455,Reading formula aloud,L ist gleich Winkel durch 360 mal 2*Pi*r,Reading formula aloud
-04.039.3,E,455,Reading LLM response aloud,Welche Werte musst du in die Formel einsetzen?,Reading LLM response aloud
+04.039.3,E,455,reading LLM response aloud,Welche Werte musst du in die Formel einsetzen?,reading LLM response aloud
 04.039.4,E,455,Answering LLM's guiding question,Winkel und den Radius,Answering LLM's guiding question
 04.039.5,E,455,Deciding to use calculator,vierfiegen Taschenrechner,Deciding to use calculator
 04.039.6,E,455,Performing calculation,16 Pi fünftel,Performing calculation
@@ -360,7 +360,7 @@ id,group,task,raw_label,in_vivo,canonical_label
 04.041.2,E,478,Stating goal to LLM,Länge der Kanten zu berechnen,Stating goal to LLM
 04.041.3,E,478,Requesting approach from LLM,Wie würde ich dabei vorgehen,Requesting approach from LLM
 04.041.4,E,478,Proposing own hypothesis to LLM,müsste ich ja nur eine Kante berechnen,Proposing own hypothesis to LLM
-04.043.1,E,478,Reading LLM response aloud,senkrecht aufeinander stehen und sich gegenseitig halbieren,Reading LLM response aloud
+04.043.1,E,478,reading LLM response aloud,senkrecht aufeinander stehen und sich gegenseitig halbieren,reading LLM response aloud
 04.043.2,E,478,Interpreting geometric properties,mit einem halben Winkel arbeiten,Interpreting geometric properties
 04.043.3,E,478,Formulating clarifying question,inwiefern muss ich halbieren,Formulating clarifying question
 04.043.4,E,478,Hypothesizing bisection approach,AC und BD halbieren,Hypothesizing bisection approach
@@ -368,7 +368,7 @@ id,group,task,raw_label,in_vivo,canonical_label
 04.043.6,E,478,Formulating verification question for LLM,"Macht es Sinn, die Länge von AC und BD zu halbieren",Formulating verification question for LLM
 04.044.1a,E,478,Stating interpretation and question to LLM,In wie fern muss ich halbieren?,Stating interpretation and question to LLM
 04.044.1b,E,478,Proposing approach for LLM verification,Macht es Sinn die Länge von AC und BD zu halbieren,Proposing approach for LLM verification
-04.046.1,E,478,Reading LLM response aloud,bilden ... ein rechtwinkliges Dreieck,Reading LLM response aloud
+04.046.1,E,478,reading LLM response aloud,bilden ... ein rechtwinkliges Dreieck,reading LLM response aloud
 04.046.2,E,478,Recognizing applicable method,"Okay, Pythagoras",Recognizing applicable method
 04.046.3,E,478,Computing half-diagonal values,"AC halbe sind sechs, BD halbe sind acht",Computing half-diagonal values
 04.046.4,E,478,Rejecting incorrect formula recall,ich will nicht die Fläche haben,Rejecting incorrect formula recall
@@ -459,11 +459,11 @@ id,group,task,raw_label,in_vivo,canonical_label
 05.020.8,B,478,Expressing confidence in resolving technical issue,Das kriegen wir schon noch hin,Expressing confidence in resolving technical issue
 05.020.11,B,478,Marking action completion,Zack,Marking action completion
 05.021.1,B,478,Relaying task parameters to LLM,"AC = 12, BD = 16",Relaying task parameters to LLM
-05.023.1,B,478,Reading LLM response aloud,die andere Diagonale in zwei gleiche Teile,Reading LLM response aloud
-05.023.2,B,478,Reading LLM response aloud,jedes Segment,Reading LLM response aloud
+05.023.1,B,478,reading LLM response aloud,die andere Diagonale in zwei gleiche Teile,reading LLM response aloud
+05.023.2,B,478,reading LLM response aloud,jedes Segment,reading LLM response aloud
 05.023.3,B,478,Confirming comprehension of response so far,soweit so Gut,Confirming comprehension of response so far
 05.023.4,B,478,Recognizing LLM's triangle-construction step,möchte der da aus Dreieck bauen,Recognizing LLM's triangle-construction step
-05.023.6,B,478,Reading LLM response aloud,Jede Seite,Reading LLM response aloud
+05.023.6,B,478,reading LLM response aloud,Jede Seite,reading LLM response aloud
 05.023.7,B,478,Pausing to re-verify assumption,lass mich nochmal nachschauen,Pausing to re-verify assumption
 05.023.8,B,478,Questioning geometric property of figure,Haben die rechte Winkel?,Questioning geometric property of figure
 05.023.10,B,478,Self-correcting geometric understanding,die schneiden sich am rechten Winkel,Self-correcting geometric understanding
@@ -728,7 +728,7 @@ id,group,task,raw_label,in_vivo,canonical_label
 08.043.9,E,599,Deriving inconsistent result,0 gleich x^2 plus 27,Deriving inconsistent result
 08.043.10,E,599,answerig the chatbot's question,Frangen wir mal die KI weiter,answerig the chatbot's question
 08.043.11,E,599,Restating equation with typo,6^2 gleich x^2 plus a,Restating equation with typo
-08.043.12,E,599,Recognizing handwriting-induced transcription error,wegen meiner Sauklaue aus einer 6 ein b gemacht,Recognizing handwriting-induced transcription error
+08.043.12,E,599,recognizing handwriting-induced transcription error,wegen meiner Sauklaue aus einer 6 ein b gemacht,recognizing handwriting-induced transcription error
 08.043.13,E,599,Reflecting on value of writing out steps for error-checking,dann fällt dein Fehler auch wieder auf,Reflecting on value of writing out steps for error-checking
 08.043.14,E,599,Performing substitution,Wir setzen oben ein,Performing substitution
 08.043.15,E,599,Restating corrected expression,das ist gleich b^2 plus 27,Restating corrected expression

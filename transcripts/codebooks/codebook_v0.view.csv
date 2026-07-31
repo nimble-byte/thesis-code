@@ -1,6 +1,6 @@
 raw_label,frequency,n_participants,group_coverage
 Performing calculation,17,3,E:11 / B:6
-Reading LLM response aloud,15,2,E:12 / B:3
+reading LLM response aloud,15,2,E:12 / B:3
 Reading Chatbot Response Aloud,13,1,E:0 / B:13
 Paraphrasing chatbot's response,8,1,E:8 / B:0
 Reading chatbot's follow-up question,8,1,E:8 / B:0
@@ -775,7 +775,7 @@ Recognizing calculation inconsistency,1,1,E:1 / B:0
 Recognizing cancellation of CP^2 term across equations,1,1,E:0 / B:1
 Recognizing diagram setup,1,1,E:1 / B:0
 Recognizing familiar problem pattern,1,1,E:1 / B:0
-Recognizing handwriting-induced transcription error,1,1,E:1 / B:0
+recognizing handwriting-induced transcription error,1,1,E:1 / B:0
 Recognizing mismatch between computed quantity and goal,1,1,E:1 / B:0
 Recognizing need for formula,1,1,E:1 / B:0
 Recognizing need to solve equation system,1,1,E:0 / B:1

@@ -205,7 +205,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [043.9] PROCESS: Deriving inconsistent result | IV: "0 gleich x^2 plus 27"
 [043.10] PROCESS: answerig the chatbot's question | IV: "Frangen wir mal die KI weiter"
 [043.11] PROCESS: Restating equation with typo | IV: "6^2 gleich x^2 plus a"
-[043.12] PROCESS: Recognizing handwriting-induced transcription error | IV: "wegen meiner Sauklaue aus einer 6 ein b gemacht"
+[043.12] PROCESS: recognizing handwriting-induced transcription error | IV: "wegen meiner Sauklaue aus einer 6 ein b gemacht"
 [043.13] PROCESS: Reflecting on value of writing out steps for error-checking | IV: "dann fällt dein Fehler auch wieder auf"
 [043.14] PROCESS: Performing substitution | IV: "Wir setzen oben ein"
 [043.15] PROCESS: Restating corrected expression | IV: "das ist gleich b^2 plus 27"
