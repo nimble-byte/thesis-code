@@ -73,9 +73,10 @@ COLUMN_ORDER = [
     "canonical_label",
     "pattern_code",
     "theme_code",
+    "dimension_code"
 ]
 
-REQUIRED_LONG_FORMAT_COLS = {"id", "group", "raw_label", "canonical_label", "in_vivo"}
+REQUIRED_LONG_FORMAT_COLS = {"id", "group", "raw_label", "in_vivo", "canonical_label"}
 
 # Lead-verb extraction for `view --group-by-verb`: strip grammatical
 # modifiers only (re-/self- prefix, a leading manner adverb), never verb
@@ -738,7 +739,7 @@ def cmd_check(args):
 
     # --- 3. Near-duplicate values (advisory) ---
     near_dupes = []
-    for c in ("canonical_label", "pattern_code", "theme_code"):
+    for c in ("canonical_label", "pattern_code", "theme_code", "dimension_code"):
         if c in df.columns:
             near_dupes.extend(
                 ((c,), ids, message) for ids, message in find_near_duplicates(df, c)
