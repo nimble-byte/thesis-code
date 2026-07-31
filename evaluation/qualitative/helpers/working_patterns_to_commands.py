@@ -59,13 +59,22 @@ def parse_outline(path: Path):
 
 
 def format_command(
-    codebook: str, source_labels: list[str], target_label: str, apply: bool
+    codebook: str,
+    source_labels: list[str],
+    target_label: str,
+    apply: bool,
+    select_column: str,
+    target_column: str,
 ) -> str:
     parts = [
         "python",
         "./codebook.py",
         "relabel",
         codebook,
+        "--select-column",
+        select_column,
+        "--column",
+        target_column,
         "--select-labels",
     ]
     parts.extend(source_labels)
@@ -101,6 +110,18 @@ def main() -> None:
         action="store_true",
         help="include --apply in emitted commands",
     )
+    parser.add_argument(
+        "--select-column",
+        dest="select_column",
+        default="canonical_label",
+        help="column name to select (default: canonical_label)",
+    )
+    parser.add_argument(
+        "--target-column",
+        dest="target_column",
+        default="pattern_code",
+        help="column name to relabel (default: pattern_code)",
+    )
     args = parser.parse_args()
 
     input_path = Path(args.input)
@@ -117,7 +138,16 @@ def main() -> None:
         if lines:
             lines.append("")
         lines.append(f"# {heading}")
-        lines.append(format_command(args.codebook, source_labels, heading, args.apply))
+        lines.append(
+            format_command(
+                args.codebook,
+                source_labels,
+                heading,
+                args.apply,
+                args.select_column,
+                args.target_column,
+            )
+        )
 
     output = "\n".join(lines) + ("\n" if lines else "")
     if args.out == "-":
