@@ -96,3 +96,10 @@ python ./codebook.py build "./codes/**.codes.txt" --out ./codebooks/codebook_v0.
 # validate all transcripts
 python ./helpers/validate_transcripts.py [PARTICIPANT_ID]
 ```
+
+Because shell reverse search sucks:
+
+```shell
+# code setup for "heuristic vs. deliberate acceptance"
+python ./codebook.py view ./codebooks/codebook_v3.csv --column pattern_code --filter-code "confirming LLM's guidance", "accepting LLM's assertions", "deciding to follow LLM guidance", "following LLM guidance", "building on LLM's guidance", "deciding to update the LLM information", "rejecting LLM's guidance", "scrutinizing LLM response", "evaluating LLM response as unhelpful", "evaluating LLM as helpful", "questioning LLM output", "deciding to verify LLM output", "correcting the LLM", "criticizing the LLM", "judging LLM's statement as incorrect", "recognizing LLM error", "observing LLM as stuck"
+```

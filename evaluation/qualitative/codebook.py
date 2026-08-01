@@ -142,7 +142,7 @@ def nonempty_values(df, column):
 
 # nargs="+" args that should also accept a comma-separated list (or a mix of
 # both), so `--select-labels a,b` and `--select-labels a b` behave the same.
-LIST_ARGS = ["select_labels", "exclude", "filter_verb", "exclude_verb", "skip_column"]
+LIST_ARGS = ["select_labels", "exclude", "filter_verb", "exclude_verb", "skip_column", "filter_code"]
 
 
 def split_list_arg(values):
@@ -515,6 +515,8 @@ def cmd_view(args):
         view = view[view[col].str.contains(args.filter_term, case=False)]
     if args.filter_regex:
         view = view[view[col].astype(str).str.contains(args.filter_regex, regex=True)]
+    if args.filter_code:
+        view = view[view[col].isin(args.filter_code)]
 
     verb_note = ""
     if args.group_by_verb:
@@ -878,6 +880,15 @@ def main():
         help=(
             "only show rows whose lead verb matches this (works with or "
             "without --group-by-verb); space- or comma-separated"
+        ),
+    )
+    v.add_argument(
+        "--filter-code",
+        nargs="+",
+        dest="filter_code",
+        help=(
+            "only show rows whose --column matches this exact value; "
+            "space- or comma-separated"
         ),
     )
     v.add_argument(
