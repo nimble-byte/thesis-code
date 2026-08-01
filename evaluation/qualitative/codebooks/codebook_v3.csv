@@ -160,7 +160,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code,theme_code,dimension_
 03.008.2,B,505,Interpreting geometric relationship from LLM response,der Abstand vom mittelpunkt zu A oder zu B auch r,Interpreting geometric relationship from LLM response,restating LLM's guidance,LLM Response Processing,Information Exchange
 03.008.3,B,505,Deriving half-chord length,die hälfte von AB ist vier,Deriving half-chord length,extracting given value,Problem Comprehension,Problem Cognition
 03.008.4,B,505,Identifying applicable theorem per LLM guidance,mein satz ist Pythagoras,Identifying applicable theorem per LLM guidance,identifying solution step,Solution Execution,Problem Cognition
-03.008.5,B,505,Announcing transition to calculation,das rechne ich jetzt einfach mal aus,Announcing transition to calculation,deciding to follow LLM guidance,Offloading Decisions,LLM Reliance Decisions
+03.008.5,B,505,Announcing transition to calculation,das rechne ich jetzt einfach mal aus,Announcing transition to calculation,deciding to follow LLM guidance,Reacting to LLM,Mental Model & Updates
 03.008.6,B,505,Performing calculation step,25 gleich,Performing calculation,performing calculation,Solution Execution,Problem Cognition
 03.008.7,B,505,Computing squared value,16,Computing squared value,extracting given value,Problem Comprehension,Problem Cognition
 03.008.8,B,505,Stating computed result,das sind dann drei,Stating computed result,performing calculation,Solution Execution,Problem Cognition
@@ -186,14 +186,14 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code,theme_code,dimension_
 03.020.6b,B,599,Flagging own reasoning as incomplete,mein Denkfehler gerade noch,Flagging own reasoning as incomplete,recognizing own error,Errors & Correction (Self),Metacognition
 03.020.7,B,599,Considering alternative solving strategy from own academic background,so würde ich es in einer WiWi-Klausur machen,Considering alternative solving strategy from own academic background,considering solving strategy,Strategy Formulation,Metacognition
 03.020.8,B,599,Rejecting shortcut as against task purpose,das ist ja nicht Sinn der Sache,Rejecting shortcut as against task purpose,rejecting own strategy,Strategy Formulation,Metacognition
-03.020.9,B,599,Deciding to reconsider LLM's proposed approach,nochmal ein bisschen über seinen Vorschlag nachdenken,Deciding to reconsider LLM's proposed approach,deciding to verify LLM output,Offloading Decisions,LLM Reliance Decisions
+03.020.9,B,599,Deciding to reconsider LLM's proposed approach,nochmal ein bisschen über seinen Vorschlag nachdenken,Deciding to reconsider LLM's proposed approach,deciding to verify LLM output,LLM Monitoring & Evaluation,Mental Model & Updates
 03.020.10,B,599,Formulating problem statement to send to LLM,eine Unbekannte zu viele,Formulating problem statement to send to LLM,formulating LLM message,LLM Message Composition,Information Exchange
 03.021.1,B,599,Requesting suggestion for resolving underdetermined system,3 unbekannte und 2 gelichungen kann ich nicht lösen,Requesting suggestion for resolving underdetermined system,requesting guidance from LLM,LLM Roles,LLM Reliance Decisions
 03.023.1,B,599,Registering LLM's suggested third equation,als dritte Gleichung AB = X + Y zu wählen,Registering LLM's suggested third equation,restating LLM's guidance,LLM Response Processing,Information Exchange
-03.023.2,B,599,Announcing closer examination of LLM's suggestion,Schau ich mir mal genauer an,Announcing closer examination of LLM's suggestion,deciding to verify LLM output,Offloading Decisions,LLM Reliance Decisions
+03.023.2,B,599,Announcing closer examination of LLM's suggestion,Schau ich mir mal genauer an,Announcing closer examination of LLM's suggestion,deciding to verify LLM output,LLM Monitoring & Evaluation,Mental Model & Updates
 03.023.3,B,599,Interpreting LLM's approach of combining triangle equations,die beiden eingeteilten Dreiecke... miteinander zu verrechnen,Interpreting LLM's approach of combining triangle equations,restating LLM's guidance,LLM Response Processing,Information Exchange
 03.023.4,B,599,Recognizing cancellation of CP^2 term across equations,das die halt entfällt,Recognizing cancellation of CP^2 term across equations,recognizing solution step,Solution Execution,Problem Cognition
-03.023.5,B,599,Deciding to try LLM's suggested equation manipulation,würde ich jetzt einfach mal ausprobieren,Deciding to try LLM's suggested equation manipulation,deciding to follow LLM guidance,Offloading Decisions,LLM Reliance Decisions
+03.023.5,B,599,Deciding to try LLM's suggested equation manipulation,würde ich jetzt einfach mal ausprobieren,Deciding to try LLM's suggested equation manipulation,deciding to follow LLM guidance,Reacting to LLM,Mental Model & Updates
 03.023.6,B,599,Transitioning to typing solution in chat,kommen wir hier in den Chat,Transitioning to typing solution in chat,deciding next solution step,Strategy Formulation,Metacognition
 03.023.7,B,599,Identifying own construction as a linear equation system,das ist jetzt ein lineares Gleichungssystem,Identifying own construction as a linear equation system,identifying problem solvability,Problem Comprehension,Problem Cognition
 03.023.8,B,599,Recognizing need to solve equation system,Das muss ich jetzt einfach auflösen,Recognizing need to solve equation system,recognizing solution step,Solution Execution,Problem Cognition
@@ -215,7 +215,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code,theme_code,dimension_
 03.030.3,B,669,Orienting to task before solving,verschaffe ich mir dann erstmal einen Überblick,Orienting to task before solving,planning next solution step,Strategy Formulation,Metacognition
 03.030.4,B,669,Deriving segment length (AN) from given ratios,"wissen wir, dass AN = 4 ist",Deriving segment length (AN) from given ratios,extracting given value,Problem Comprehension,Problem Cognition
 03.030.5,B,669,"Deriving segment lengths (NC, CB)","NC ist 2,5 genauso wie CB","Deriving segment lengths (NC, CB)",extracting given value,Problem Comprehension,Problem Cognition
-03.030.6,B,669,Completing calculation independently without consulting LLM,Dafür brauche ich dann das LLM in dem Fall nicht,Completing calculation independently without consulting LLM,reflecting on offloading choice,Offloading Decisions,LLM Reliance Decisions
+03.030.6,B,669,Completing calculation independently without consulting LLM,Dafür brauche ich dann das LLM in dem Fall nicht,Completing calculation independently without consulting LLM,reflecting on offloading choice,Self-monitoring & Evaluation,Metacognition
 04.002.2,E,54,Reading task statement aloud,Verhältnis der Längen der Abschnitte AB zu AC 2 zu 5,Reading task statement aloud,reading problem statement,Problem Comprehension,Problem Cognition
 04.002.3,E,54,Reading task statement aloud,wie lang ist dann AB,Reading task statement aloud,reading problem statement,Problem Comprehension,Problem Cognition
 04.002.4a,E,54,Visualizing problem setup,"einen Strahl, auf dem ich verschiedene Marke habe",Visualizing problem setup,restating given information,Problem Comprehension,Problem Cognition
@@ -447,7 +447,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code,theme_code,dimension_
 05.016.5,B,455,Eliminating answer option,36 mal Pi wird es nicht sein,Eliminating answer option,verifying solution,Self-monitoring & Evaluation,Metacognition
 05.016.6,B,455,Eliminating another answer option,36 Pi durch 5 ist auch was ganz anderes,Eliminating another answer option,verifying solution,Self-monitoring & Evaluation,Metacognition
 05.016.7,B,455,Expressing confidence reinforced by cross-checking,fühle ich mich darin bekräftigt,Expressing confidence reinforced by cross-checking,expressing confidence,Self-monitoring & Evaluation,Metacognition
-05.016.8,B,455,Attributing formula source to chatbot,Ich habe die Formeln bekommen vom Chatbot,Attributing formula source to LLM,identifying LLM as information source,LLM Roles,LLM Reliance Decisions
+05.016.8,B,455,Attributing formula source to chatbot,Ich habe die Formeln bekommen vom Chatbot,Attributing formula source to LLM,identifying LLM as information source,LLM Attributions,Mental Model & Updates
 05.016.9,B,455,Expressing trust in chatbot-provided method,"Ich schenke ihm Glauben und komme auf genau das, was hier steht",Expressing trust in LLM-provided method,expressing satisfaction,Emotional Expression,Emotional Expression
 05.016.11,B,478,Announcing task reading,Wollen wir mal wieder lesen,Announcing task reading,planning next solution step,Strategy Formulation,Metacognition
 05.016.12,B,478,Questioning task terminology,"Ich weiß nicht, ob da Diamanat stehen soll?",Questioning task terminology,questioning problem language,Problem Comprehension,Problem Cognition
@@ -469,10 +469,10 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code,theme_code,dimension_
 05.023.10,B,478,Self-correcting geometric understanding,die schneiden sich am rechten Winkel,Self-correcting geometric understanding,correcting own understanding,Errors & Correction (Self),Metacognition
 05.023.12,B,478,Deciding to sketch diagram to support reasoning,Ich male mir [das] mal auf,Deciding to sketch diagram,deciding next solution step,Strategy Formulation,Metacognition
 05.023.13,B,478,Labeling sketch elements,C und D,Labeling sketch elements,taking notes,Non-LLM Offloading Channels,Problem Cognition
-05.025.2,B,478,Explaining own reasoning strategy (sketching aids thinking),"weil ich kann besser denken, wenn ich die Sachen tatsächlich daran schreibe",Explaining own reasoning strategy (sketching aids thinking),explaining value of externalizing work,Offloading Decisions,LLM Reliance Decisions
+05.025.2,B,478,Explaining own reasoning strategy (sketching aids thinking),"weil ich kann besser denken, wenn ich die Sachen tatsächlich daran schreibe",Explaining own reasoning strategy (sketching aids thinking),explaining value of externalizing work,Self-monitoring & Evaluation,Metacognition
 05.025.3,B,478,Computing half-diagonal values,"A bis C ist 12, das heißt diesen 6 [und] 6",Computing half-diagonal values,extracting given value,Problem Comprehension,Problem Cognition
 05.025.4,B,478,Computing second half-diagonal values,"die andere ist 16, also 8 [und] 8",Computing second half-diagonal values,extracting given value,Problem Comprehension,Problem Cognition
-05.025.5,B,478,Attributing prior response content to chatbot,das wurde mir von dem schon erklärt,Attributing prior response content to LLM,identifying LLM as information source,LLM Roles,LLM Reliance Decisions
+05.025.5,B,478,Attributing prior response content to chatbot,das wurde mir von dem schon erklärt,Attributing prior response content to LLM,identifying LLM as information source,LLM Attributions,Mental Model & Updates
 05.025.6,B,478,Recalling chatbot's labeling of points,Er hat das BO und O,Recalling LLM's labeling of points,following LLM guidance,Reacting to LLM,Mental Model & Updates
 05.025.8,B,478,Dismissing labeling discrepancy as unimportant,"Hat er anders genannt, ist mir egal",Dismissing labeling discrepancy as unimportant,recognizing error (no fault),Errors & Correction (Self),Metacognition
 05.025.9,B,478,Reaffirming LLM's triangle-construction claim,Jede Seite der Raute bildet mit dem... rechtwinkliges Dreieck,Reaffirming LLM's triangle-construction claim,confirming LLM's guidance,Reacting to LLM,Mental Model & Updates
@@ -618,7 +618,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code,theme_code,dimension_
 08.015.14,E,599,Re-reading given values,AC gleich 6 und BC gleich 3,Re-reading given values,reading given information,Problem Comprehension,Problem Cognition
 08.015.15,E,599,Re-reading task constraints,deren Länge wir nicht kennen,Re-reading task constraints,reading given information,Problem Comprehension,Problem Cognition
 08.015.16,E,599,Re-reading target question,Wie lang ist die Linie CP?,Re-reading target question,reading problem statement,Problem Comprehension,Problem Cognition
-08.015.17,E,599,Deciding to correct chatbot's assumption,seine Annahme ... ist falsch,Deciding to correct LLM's assumption,deciding to update the LLM information,Offloading Decisions,LLM Reliance Decisions
+08.015.17,E,599,Deciding to correct chatbot's assumption,seine Annahme ... ist falsch,Deciding to correct LLM's assumption,deciding to update the LLM information,Reacting to LLM,Mental Model & Updates
 08.015.18,E,599,Specifying correct right-angle location,"das wäre APC, hat einen rechten Winkel",Specifying correct right-angle location,deriving from non-given values,Problem Comprehension,Problem Cognition
 08.015.19,E,599,Specifying angle vertex,Winkel bei P,Specifying angle vertex,deriving from non-given values,Problem Comprehension,Problem Cognition
 08.015.20,E,599,Testing whether chatbot accepts correction,ob der Chatbot sich korrigieren lässt,Testing whether LLM accepts correction,anticipating LLM behaviour,LLM Attributions,Mental Model & Updates
@@ -637,7 +637,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code,theme_code,dimension_
 08.018.12,E,599,Evaluating usefulness of rearranging equations,ob einem das irgendetwas bringt,Evaluating usefulness of rearranging equations,evaluating own solving progress,Self-monitoring & Evaluation,Metacognition
 08.018.13,E,599,Considering eliminating shared term,das X^2 rausrechnen,Considering eliminating shared term,considering solving strategy,Strategy Formulation,Metacognition
 08.018.14,E,599,expressing uncertainty about approach's usefulness,ob ... das allzu viel bringt,expressing uncertainty,expressing uncertainty,Emotional Expression,Emotional Expression
-08.018.15,E,599,Attempting to follow chatbot's suggested approach,so wie der Chatbot das ja hier vorschlägt,Attempting to follow LLM's suggested approach,deciding to follow LLM guidance,Offloading Decisions,LLM Reliance Decisions
+08.018.15,E,599,Attempting to follow chatbot's suggested approach,so wie der Chatbot das ja hier vorschlägt,Attempting to follow LLM's suggested approach,deciding to follow LLM guidance,Reacting to LLM,Mental Model & Updates
 08.018.16,E,599,Seeking expression relating a and b,einen Ausdruck für diese Aufteilung zwischen a und b,Seeking expression relating a and b,restating LLM's guidance,LLM Response Processing,Information Exchange
 08.018.17,E,599,Solving for x,36 minus a^2 gleich ... 9 minus b^2,Solving for x,rearranging equation,Solution Execution,Problem Cognition
 08.018.18,E,599,Rearranging equation algebraically,27 minus a^2 gleich minus b^2,Rearranging equation algebraically,rearranging equation,Solution Execution,Problem Cognition
@@ -651,7 +651,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code,theme_code,dimension_
 08.018.26,E,599,Reviewing known base segments,die beiden Grundseiten,Reviewing known base segments,reviewing own notes,Non-LLM Offloading Channels,Problem Cognition
 08.018.27,E,599,Re-reading chatbot's question while composing reply,Wie würdest du die Länge von a und a ausdrücken?,Re-reading LLM's question,reading LLM's questions,LLM Response Processing,Information Exchange
 08.018.28,E,599,Identifying too many unknowns,zu viele Unbekannte,Identifying too many unknowns,identifying problem solvability,Problem Comprehension,Problem Cognition
-08.018.29,E,599,Deciding to explain own work to chatbot,was ich jetzt hier gerade gemacht habe,Deciding to explain own work to LLM,deciding to update the LLM information,Offloading Decisions,LLM Reliance Decisions
+08.018.29,E,599,Deciding to explain own work to chatbot,was ich jetzt hier gerade gemacht habe,Deciding to explain own work to LLM,deciding to update the LLM information,Reacting to LLM,Mental Model & Updates
 08.018.30,E,599,Composing explanation of triangle division,teilt das bestehende Dreieck ABC in zwei neue Dreiecke,Composing explanation of triangle division,explaining rationale to LLM,LLM Information Messages,Information Exchange
 08.018.31,E,599,Composing explanation of right angles,"der Winkel, bei P jeweils rechtwinkelig ist",Composing explanation of right angles,explaining rationale to LLM,LLM Information Messages,Information Exchange
 08.018.32,E,599,Composing explanation of Pythagorean application,den Satz von Pythagoras anwenden,Composing explanation of Pythagorean application,explaining rationale to LLM,LLM Information Messages,Information Exchange
@@ -664,7 +664,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code,theme_code,dimension_
 08.024.2,E,599,Noticing chatbot's CoT displayed,Die KI hat den Gedankenprozess,Noticing LLM's CoT displayed,referencing LLM's CoT,LLM Response Processing,Information Exchange
 08.024.3,E,599,Reading chatbot's follow-up question,um eine Gleichung mit nur einer Variablen zu erhalten,Reading LLM's follow-up question,reading LLM's questions,LLM Response Processing,Information Exchange
 08.024.4,E,599,Predicting elimination of variable,da dürfte ja jetzt X wegfallen,Predicting elimination of variable,building on LLM's guidance,Reacting to LLM,Mental Model & Updates
-08.024.5,E,599,Deciding to inspect chatbot's CoT,den Gedankenprozess von der KI an,Deciding to inspect LLM's CoT,deciding to verify LLM output,Offloading Decisions,LLM Reliance Decisions
+08.024.5,E,599,Deciding to inspect chatbot's CoT,den Gedankenprozess von der KI an,Deciding to inspect LLM's CoT,deciding to verify LLM output,LLM Monitoring & Evaluation,Mental Model & Updates
 08.024.6,E,599,Reading chatbot's CoT,das Dreieck ABC durch den CP in 2 Rechtwinkel,Reading LLM's CoT aloud,reading LLM's CoT,LLM Response Processing,Information Exchange
 08.024.7,E,599,Reading chatbot's CoT,mit Dreieck APC und BPC unterteilt wird,Reading LLM's CoT aloud,reading LLM's CoT,LLM Response Processing,Information Exchange
 08.024.8,E,599,Reading chatbot's CoT,die Variablen a für AP und b für PB und X für PC,Reading LLM's CoT aloud,reading LLM's CoT,LLM Response Processing,Information Exchange
@@ -707,7 +707,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code,theme_code,dimension_
 08.034.5,E,599,Perceiving chatbot as stuck/unresponsive,es scheint die KI dann zu hängen,Perceiving LLM as stuck/unresponsive,observing LLM as stuck,LLM Errors & Correction,Mental Model & Updates
 08.035.1,E,599,Submitting simplified equation with explanation,es ergibt sich a^2 - 6^2 = b^2 - 3^2,Submitting simplified equation with explanation,submitting information to LLM,LLM Information Messages,Information Exchange
 08.037.1,E,599,Reading chatbot's follow-up question,weiter vereinfachen?,Reading LLM's follow-up question,reading LLM's questions,LLM Response Processing,Information Exchange
-08.037.2,E,599,Deciding to follow chatbot advice,dann,Deciding to follow LLM advice,deciding to follow LLM guidance,Offloading Decisions,LLM Reliance Decisions
+08.037.2,E,599,Deciding to follow chatbot advice,dann,Deciding to follow LLM advice,deciding to follow LLM guidance,Reacting to LLM,Mental Model & Updates
 08.037.3,E,599,Planning to compute numeric powers,die Potenzen von 6 und 3 ausrechnen,Planning to compute numeric powers,planning next solution step,Strategy Formulation,Metacognition
 08.037.4,E,599,Computing powers and planning subtraction,6 hoch 2 ist gleich 36 und 3 hoch 2 ist gleich 9,Computing powers and planning subtraction,rearranging equation,Solution Execution,Problem Cognition
 08.037.5,E,599,Deriving simplified equation,a^2 minus 36 minus 9 ist 27 gleich b^2,Deriving simplified equation,rearranging equation,Solution Execution,Problem Cognition
@@ -729,7 +729,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code,theme_code,dimension_
 08.043.10,E,599,answerig the chatbot's question,Frangen wir mal die KI weiter,answerig the LLM's question,deciding to ask LLM for guidance,Offloading Decisions,LLM Reliance Decisions
 08.043.11,E,599,Restating equation with typo,6^2 gleich x^2 plus a,Restating equation with typo,restating solution step,Solution Execution,Problem Cognition
 08.043.12,E,599,recognizing handwriting-induced transcription error,wegen meiner Sauklaue aus einer 6 ein b gemacht,recognizing handwriting-induced transcription error,recognizing handwriting-induced transcription error,Errors & Correction (Self),Metacognition
-08.043.13,E,599,Reflecting on value of writing out steps for error-checking,dann fällt dein Fehler auch wieder auf,Reflecting on value of writing out steps for error-checking,explaining value of externalizing work,Offloading Decisions,LLM Reliance Decisions
+08.043.13,E,599,Reflecting on value of writing out steps for error-checking,dann fällt dein Fehler auch wieder auf,Reflecting on value of writing out steps for error-checking,explaining value of externalizing work,Self-monitoring & Evaluation,Metacognition
 08.043.14,E,599,Performing substitution,Wir setzen oben ein,Performing substitution,rearranging equation,Solution Execution,Problem Cognition
 08.043.15,E,599,Restating corrected expression,das ist gleich b^2 plus 27,Restating corrected expression,restating solution step,Solution Execution,Problem Cognition
 08.044.1,E,599,Submitting substituted equation to chatbot,6^2 = x^2 + b^2 + 27,Submitting substituted equation to LLM,submitting information to LLM,LLM Information Messages,Information Exchange
@@ -737,7 +737,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code,theme_code,dimension_
 08.046.2,E,599,Reading chatbot's follow-up question,den Ausdruck für A korrekt in die Gleichung,Reading LLM's follow-up question,reading LLM's questions,LLM Response Processing,Information Exchange
 08.046.3,E,599,Interpreting chatbot's assumption,"er geht jetzt davon aus, dass",Interpreting LLM's assumption,scrutinizing LLM response,LLM Monitoring & Evaluation,Mental Model & Updates
 08.046.4,E,599,Attributing chatbot's confusion to own typo,komplett auf dem Holz weggebracht,Attributing LLM's confusion to own typo,attributing LLM's confusion to own action,LLM Attributions,Mental Model & Updates
-08.048.1,E,599,Deciding to inform chatbot of typo correction,ich habe mich vorher vertippt,Deciding to inform LLM of typo correction,deciding to update the LLM information,Offloading Decisions,LLM Reliance Decisions
+08.048.1,E,599,Deciding to inform chatbot of typo correction,ich habe mich vorher vertippt,Deciding to inform LLM of typo correction,deciding to update the LLM information,Reacting to LLM,Mental Model & Updates
 08.048.3,E,599,Reviewing earlier notes,das hier oben an,Reviewing earlier notes,reviewing own notes,Non-LLM Offloading Channels,Problem Cognition
 08.048.5,E,599,Correcting sign error in expression,aus dem Minus ein Plus,Correcting sign error in expression,correcting own solution step,Errors & Correction (Self),Metacognition
 08.048.6,E,599,Criticizing chatbot's failure to detect logic error,Logikfehler nicht erkennt,Criticizing LLM's failure to detect logic error,criticizing the LLM,LLM Errors & Correction,Mental Model & Updates
@@ -802,7 +802,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code,theme_code,dimension_
 08.065.5,E,599,Recording bound for x on paper,"0, kleiner X, kleiner 3",Recording bound for x on paper,taking notes,Non-LLM Offloading Channels,Problem Cognition
 08.066.1,E,599,Submitting derived bound for x to chatbot,x muss größer als 0 sein und kleiner als 3,Submitting derived bound for x to LLM,submitting information to LLM,LLM Information Messages,Information Exchange
 08.068.1,E,599,Reading chatbot's follow-up question,den Wert für X auswählen?,Reading LLM's follow-up question,reading LLM's questions,LLM Response Processing,Information Exchange
-08.068.2,E,599,Deciding to inspect chatbot's CoT,den Denkprozess nochmal an,Deciding to inspect LLM's CoT,deciding to verify LLM output,Offloading Decisions,LLM Reliance Decisions
+08.068.2,E,599,Deciding to inspect chatbot's CoT,den Denkprozess nochmal an,Deciding to inspect LLM's CoT,deciding to verify LLM output,LLM Monitoring & Evaluation,Mental Model & Updates
 08.068.3,E,599,Reading chatbot's CoT with answer options,"(A) 2, (B) 4, (C) 5, (D) 7, (E) 8",Reading LLM's CoT aloud,reading LLM's CoT,LLM Response Processing,Information Exchange
 08.068.4,E,599,Selecting answer based on derived bound,bleibt nur die Antwort 2,Selecting answer based on derived bound,deriving from non-given values,Problem Comprehension,Problem Cognition
 08.068.5,E,599,Deciding to verify answer by calculation,mal versuchen nachzurechnen,Deciding to verify answer by calculation,verifying solution,Self-monitoring & Evaluation,Metacognition
@@ -1225,7 +1225,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code,theme_code,dimension_
 11.095.2,B,54,recalling earlier partial-correctness feedback,erst fast richtig,recalling earlier partial-correctness feedback,recalling earlier LLM feedback,LLM Response Processing,Information Exchange
 11.095.3,B,54,noting final confirmation of correctness,da richtig,noting final confirmation of correctness,recalling earlier LLM feedback,LLM Response Processing,Information Exchange
 11.095.4,B,54,expressing satisfaction at success,Geil,expressing satisfaction at success,expressing frustration,Emotional Expression,Emotional Expression
-11.095.5,B,54,deciding to re-read response,Ich lese nochmal nach,deciding to re-read response,deciding to verify LLM output,Offloading Decisions,LLM Reliance Decisions
+11.095.5,B,54,deciding to re-read response,Ich lese nochmal nach,deciding to re-read response,deciding to verify LLM output,LLM Monitoring & Evaluation,Mental Model & Updates
 11.095.6,B,54,reiterating observation of inconsistent feedback across turns,"Erst sagt er, fast richtig. Dann sagt er da richtig",reiterating observation of inconsistent feedback across turns,criticizing the LLM,LLM Errors & Correction,Mental Model & Updates
 11.095.10,B,669,reflecting on wasted time from prior task,Habe ich die ganze Zeit umsonst gehangen,reflecting on wasted time from prior task,reflecting on own performance,Self-monitoring & Evaluation,Metacognition
 11.095.13,B,669,reading task element aloud,A,reading task element aloud,reading given information,Problem Comprehension,Problem Cognition
@@ -1275,7 +1275,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code,theme_code,dimension_
 13.014.3b,B,455,Using calculator tool,Das würde ich in der Taschenrechner ... eintippen,Using calculator tool,deciding to use calculator,Offloading Decisions,LLM Reliance Decisions
 13.014.4,B,455,Questioning own calculation,Moment was habe ich hier gerechnet,Questioning own calculation,questioning oneself,Self-monitoring & Evaluation,Metacognition
 13.014.5,B,455,Correcting calculation approach,Ich muss andersrum rechnen,Self-correcting calculation approach,correcting own solution step,Errors & Correction (Self),Metacognition
-13.014.6,B,455,Reflecting on calculator use,Hätte ich jetzt nicht in den Taschenrechner eintippen müssen,Reflecting on calculator use,reflecting on offloading choice,Offloading Decisions,LLM Reliance Decisions
+13.014.6,B,455,Reflecting on calculator use,Hätte ich jetzt nicht in den Taschenrechner eintippen müssen,Reflecting on calculator use,reflecting on offloading choice,Self-monitoring & Evaluation,Metacognition
 13.014.7,B,455,Skipping intermediate steps,keine Lust drauf [Zwischenrechnungen zu machen],Skipping intermediate steps,self-justifying,Emotional Expression,Emotional Expression
 13.014.8,B,455,committing to answer,die würde ich auch so auswählen,committing to answer,committing to answer,Self-monitoring & Evaluation,Metacognition
 13.014.10,B,478,Orienting to task figure,In der Abbildung gezeigt haben die Dinger von neuen Diamanten ABCD,Orienting to task figure,restating given information,Problem Comprehension,Problem Cognition
@@ -1368,7 +1368,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code,theme_code,dimension_
 15.014.4,E,505,Deriving circumference formula,der Umfang war,Deriving circumference formula,setting up equation,Solution Execution,Problem Cognition
 15.014.5,E,505,Deriving circumference formula (cont.),r mal 2,Deriving circumference formula,setting up equation,Solution Execution,Problem Cognition
 15.014.6,E,505,Completing derived formula,mal Pi,Completing derived formula,setting up equation,Solution Execution,Problem Cognition
-15.014.7,E,505,Attributing insight to chatbot guidance,der Chatbot mir einen auf einen gewissen Hinweis geführt hat,Attributing insight to LLM guidance,identifying LLM as information source,LLM Roles,LLM Reliance Decisions
+15.014.7,E,505,Attributing insight to chatbot guidance,der Chatbot mir einen auf einen gewissen Hinweis geführt hat,Attributing insight to LLM guidance,identifying LLM as information source,LLM Attributions,Mental Model & Updates
 15.014.8,E,505,Recalling diameter-radius relationship,der Durchmesser das Doppel so groß ist wie der Radius,Recalling diameter-radius relationship,recalling math knowledge,Solution Execution,Problem Cognition
 15.014.9,E,505,Confirming derived formula,r mal 2 mal Pi wäre der Umfang,Confirming derived formula,recalling math knowledge,Solution Execution,Problem Cognition
 15.014.10,E,505,Deciding to consult chatbot for formula,Ich würde jetzt fragen,Deciding to consult LLM for formular,deciding to ask LLM for information,Offloading Decisions,LLM Reliance Decisions
@@ -1413,7 +1413,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code,theme_code,dimension_
 15.031.6,E,505,Signaling cognitive pause,Ich muss gerade noch ein bisschen nachdenken,Signaling cognitive pause,reflecting on own performance,Self-monitoring & Evaluation,Metacognition
 15.031.7,E,505,Deciding to share image with chatbot,das Bild einzufügen,deciding to share image with LLM,deciding to share image with LLM,Offloading Decisions,LLM Reliance Decisions
 15.031.8,E,505,Checking image-upload availability,Sind die Bilder schon drin?,Checking image-upload availability,managing experiment logistics,Organisation,Organisation
-15.033.1,E,505,Deciding to correct chatbot's assumption,die Hypotenuse nicht 5 sein kann,Deciding to correct LLM's assumption,deciding to update the LLM information,Offloading Decisions,LLM Reliance Decisions
+15.033.1,E,505,Deciding to correct chatbot's assumption,die Hypotenuse nicht 5 sein kann,Deciding to correct LLM's assumption,deciding to update the LLM information,Reacting to LLM,Mental Model & Updates
 15.033.2,E,505,Deciding to ask chatbot for clarification,wie er mir die Buchstaben und die Linien jeweils bestimmen kann,Deciding to ask LLM for clarification,deciding to ask LLM for information,Offloading Decisions,LLM Reliance Decisions
 15.033.3,E,505,Restating intended request to chatbot,dass er mir die Buchstaben bestimmen kann,Restating intended request to LLM,restating LLM's guidance,LLM Response Processing,Information Exchange
 15.034.1,E,505,Requesting help identifying triangle sides,"die jeweiligen linien zu bestimmen, um das dreieck genau zu bestimmen",Requesting help identifying triangle sides,requesting guidance from LLM,LLM Roles,LLM Reliance Decisions
@@ -1423,7 +1423,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code,theme_code,dimension_
 15.036.4,E,505,Setting up Pythagorean equation (cont.),4^2 plus b^2 auf der einen Seite ... und 5^2 auf der anderen Seite,Setting up Pythagorean equation,setting up equation,Solution Execution,Problem Cognition
 15.036.5,E,505,Solving equation (erroneous),Macht aber auch so auch keinen Sinn,Solving equation (erroneous),recognizing own error,Errors & Correction (Self),Metacognition
 15.036.6,E,505,Recognizing calculation error against answer options,Er steht auch nicht in den Möglichkeiten,Recognizing calculation error,recognizing own error,Errors & Correction (Self),Metacognition
-15.036.7,E,505,Deciding to re-explain to chatbot,Ich werde den Chatbot nochmal erklären,Deciding to re-explain to LLM,deciding to update the LLM information,Offloading Decisions,LLM Reliance Decisions
+15.036.7,E,505,Deciding to re-explain to chatbot,Ich werde den Chatbot nochmal erklären,Deciding to re-explain to LLM,deciding to update the LLM information,Reacting to LLM,Mental Model & Updates
 15.038.1,E,505,Agreeing to researcher's suggestion,"Ja, ich glaube, das werde ich auch tun",Agreeing to researcher's suggestion,deciding to use calculator,Offloading Decisions,LLM Reliance Decisions
 15.040.1,E,505,Reassessing variable assignment,von den Variablen macht das ja auch keinen Sinn,Reassessing variable assignment,recognizing own error,Errors & Correction (Self),Metacognition
 15.040.2,E,505,Recomputing squares step by step,die Quadrate auszulösen von jeder Zahl,Recomputing squares step by step,deciding next solution step,Strategy Formulation,Metacognition

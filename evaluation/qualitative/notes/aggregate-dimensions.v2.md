@@ -49,6 +49,8 @@
     8. "questioning oneself"
     9. "expressing doubt"
     10. "expressing confidence"
+    11. "explaining value of externalizing work"
+    12. "reflecting on offloading choice"
 6. "Errors & Correction (Self)"
     1. "recognizing own error"
     2. "correcting own understanding"
@@ -74,11 +76,6 @@
     6. "deciding to solve without LLM"
     7. "deciding to use calculator"
     8. "deciding to share image with LLM"
-    9. "deciding to verify LLM output"
-    10. "deciding to update the LLM information"
-    11. "deciding to follow LLM guidance"
-    12. "explaining value of externalizing work"
-    13. "reflecting on offloading choice"
 9. "Non-LLM Offloading Channels"
     1. "taking notes"
     2. "reviewing own notes"
@@ -89,7 +86,6 @@
     3. "requesting verification by LLM"
     4. "requesting solution from LLM"
     5. "requesting clarification from LLM"
-    6. "identifying LLM as information source"
 11. "LLM Message Composition"
     1. "formulating LLM message"
     2. "planning LLM message"
@@ -109,12 +105,15 @@
     2. "evaluating LLM response as unhelpful"
     3. "evaluating LLM as helpful"
     4. "questioning LLM output"
+    6. "deciding to verify LLM output"
 14. "Reacting to LLM"
     1. "confirming LLM's guidance"
     2. "building on LLM's guidance"
     3. "rejecting LLM's guidance"
     4. "following LLM guidance"
     5. "accepting LLM's assertions"
+    7. "deciding to update the LLM information"
+    8. "deciding to follow LLM guidance"
 15. "LLM Errors & Correction"
     1. "judging LLM's statement as incorrect"
     2. "recognizing LLM error"
@@ -127,29 +126,28 @@
     3. "attributing capability to LLM"
     4. "reflecting on own capability relative to LLM"
     5. "comparing LLM to ChatGPT"
+    6. "identifying LLM as information source"
 17. "LLM Information Messages"
     1. "stating information to LLM"
     2. "submitting information to LLM"
     3. "disclosing own limitations to LLM"
     4. "explaining rationale to LLM"
 
-
-
 ## Aggregate Dimensions
 
-1. LLM Reliance Decisions           (MR2)
+1. LLM Reliance Decisions (MR2)
     1. LLM Roles
     2. Offloading Decisions
 2. Information Exchange
     1. LLM Message Composition
     2. LLM Response Processing
     3. LLM Information Messages
-3. Mental Model & Updates           (MR1)
+3. Mental Model & Updates (MR1)
     1. LLM Monitoring & Evaluation
     2. Reacting to LLM
     3. LLM Errors & Correction
     4. LLM Attributions
-4. Metacognition                    (MR3)
+4. Metacognition (MR3)
     1. Self-Monitoring & Evaluation
     2. Errors & Correction (Self)
     3. Strategy Formulation
