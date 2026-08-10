@@ -924,7 +924,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code
 10.007.6,E,54,Summarizing conceptual understanding vs. calculation gap,"ich weiß nicht so ganz, wie ich das berechnen würde",Summarizing conceptual understanding vs. calculation gap,identifying own knowledge gap
 10.008.1,E,54,Submitting understanding gap to LLM,"ich weiß nicht so ganz, wie ich es berechnen würde",Submitting understanding gap to LLM,requesting guidance from LLM
 10.010.1,E,54,Beginning tentative hypothesis (incomplete),"ich glaube, es könnte sein",Beginning tentative hypothesis (incomplete),forming own hypothesis
-10.012.1,E,54,Restating LLM-provided information,"er sagt mir jetzt, AB sind 2 Teile, BC sind 5 Teile",Restating LLM-provided information,restating LLM's guidance
+10.012.1,E,54,Restating LLM-provided information,"er sagt mir jetzt, AB sind 2 Teile, BC sind 5 Teile",Restating LLM-provided information,accepting LLM's assertions
 10.012.2,E,54,Calculating part totals and percentages,"7 Teile, sind 100%",Calculating part totals and percentages,restating given information
 10.012.3,E,54,Reaffirming part-whole relationship,7 Teile 100% sind,Reaffirming part-whole relationship,restating given information
 10.012.4,E,54,Introducing unknown variable and estimating percentage,"eine Länge von x, die wissen wir noch nicht",Introducing unknown variable and estimating percentage,identifying unknown information
@@ -947,7 +947,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code
 10.022.1,E,54,Restating total parts,insgesamt sieben Teile,Restating total parts,restating solution step
 10.022.2,E,54,Reaffirming known percentage equivalence,sieben Teile sind 100%,Reaffirming known percentage equivalence,restating given information
 10.022.3,E,54,Identifying next calculation step,wie lange ein Teil sind,Identifying next calculation step,identifying solution step
-10.022.4,E,54,Repeating LLM's guiding question,Das ist ja genau die Frage,Repeating LLM's guiding question,restating LLM's guidance
+10.022.4,E,54,Repeating LLM's guiding question,Das ist ja genau die Frage,Repeating LLM's guiding question,reflecting on own performance
 10.022.5,E,54,Performing division calculation,25 durch 5,Performing division calculation,performing calculation
 10.022.6,E,54,Confirming calculated part length,ein Teil eine Länge von 5 hat,Confirming calculated part length,restating solution step
 10.022.7,E,54,Identifying required multiplication step,wir brauchen 2 Teile,Identifying required multiplication step,identifying solution step
@@ -965,7 +965,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code
 10.027.1,E,455,Reiterating belief in existence of formula,es gibt da eine Formel,Reiterating belief in existence of formula,reaffirming own hypothesis
 10.027.2,E,455,expressing uncertainty about formula,bin mir aber nicht sicher,expressing uncertainty,expressing uncertainty
 10.027.3,E,455,Speculating about additional required information,weitere Sachen braucht,Speculating about additional required information,questioning oneself
-10.029.1,E,455,Restating LLM response and admitting formula unfamiliarity,die kenne ich aber nicht,Restating LLM response and admitting formula unfamiliarity,restating LLM's guidance
+10.029.1,E,455,Restating LLM response and admitting formula unfamiliarity,die kenne ich aber nicht,Restating LLM response and admitting formula unfamiliarity,reflecting on own performance
 10.029.2,E,455,Reiterating lack of formula knowledge,für fast alles immer eine Formel gibt,Reiterating lack of formula knowledge,identifying own knowledge gap
 10.030.1,E,455,Requesting formula from LLM,Wie lautet sie?,Requesting formula from LLM,requesting information from LLM
 10.032.2,E,455,"Parsing formula, identifying target variable","L, also die Bogenlänge, das ist das, was gesucht wird","Parsing formula, identifying target variable",identifying unknown information
@@ -1304,7 +1304,7 @@ id,group,task,raw_code,in_vivo,canonical_code,pattern_code
 13.023.1b,B,478,expressing uncertainty about next step,Was mache ich denn?,expressing uncertainty,expressing uncertainty
 13.023.2,B,478,Validating viability of chatbot's suggested approach,Kann ich das?,Validating viability of LLM's suggested approach,scrutinizing LLM response
 13.023.3,B,478,Evaluating response's assumption,"geht er ja aber davon aus, dass die beiden gleich sind",Evaluating response's assumption,scrutinizing LLM response
-13.023.4,B,478,Referencing chatbot's response,Die Diagonal des rechtwinkligen Dreiecks,referencing LLM's response,reading LLM's response aloud
+13.023.4,B,478,Referencing chatbot's response,Die Diagonal des rechtwinkligen Dreiecks,referencing LLM's response,reading LLM response aloud
 13.023.5,B,478,Understanding chatbots's response,"Ah, ich verstehe. Wenn das die Diagonal ist, kann ich es andersherum rechnen",Understanding LLM's response,building on LLM's guidance
 13.023.6,B,478,Questioning triangle's right-angle assumption,"wissen wir, ob das Dreieck rechtwinklig ist?",Questioning triangle's right-angle assumption,questioning LLM output
 13.023.7,B,478,Reasoning about geometric property,"Wenn die ja nicht gleich lang sind, ist das nicht rechtwinklig",Reasoning about geometric property,scrutinizing LLM response
