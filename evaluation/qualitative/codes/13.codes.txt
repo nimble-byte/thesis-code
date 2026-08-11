@@ -2,8 +2,6 @@
 PARTICIPANT: 13
 UUID: 40c36240-b41c-41fd-8502-160341017569
 GROUP: B
-CODING: First cycle; Process + In Vivo Coding (Saldaña)
-SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 ---
 
 [TASK 54 | hard]

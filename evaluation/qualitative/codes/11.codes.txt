@@ -2,8 +2,6 @@
 PARTICIPANT: 11
 UUID: c452fa6e-d3a9-4756-ac68-f9349fb5e059
 GROUP: B
-CODING: First cycle; Process + In Vivo Coding (Saldaña)
-SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 ---
 
 [TASK 505 | hard]
@@ -167,7 +165,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 
 [038.1] PROCESS: agreeing with assessment of insufficiency | IV: "Das vermute ich mal"
 [038.2] PROCESS: identifying excessive unresolved variables as barrier | IV: "viel zu viele Variablen, die ich erst mal auflösen müsste"
-[040.1] PROCESS: signaling task abandonment | IV: "Dann mache ich da wohl mal..."
+[040.1] PROCESS: signalling task abandonment | IV: "Dann mache ich da wohl mal..."
 
 [TASK 54 | difficult]
 

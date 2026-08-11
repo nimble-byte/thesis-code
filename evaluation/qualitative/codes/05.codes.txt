@@ -2,8 +2,6 @@
 PARTICIPANT: 05
 UUID: f41a9ecb-7000-4ae1-8b8e-1b39ea598476
 GROUP: B
-CODING: First cycle; Process + In Vivo Coding (Saldaña)
-SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 ---
 
 [TASK 54 | hard]
@@ -54,7 +52,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [007.1] — (no code: non-substantive/filler)
 [007.2] PROCESS: Deriving angle value from clarification | IV: "sind das 32 Grad"
 [007.3] PROCESS: Reading task question aloud | IV: "Wie ist die Länge des Kreisabschnittes..."
-[007.4] PROCESS: Signaling reflection pause | IV: "kurz nachdenken"
+[007.4] PROCESS: Signalling reflection pause | IV: "kurz nachdenken"
 [007.5] PROCESS: Identifying need for formula | IV: "da brauchen wir einfach nur die Formeln für"
 [007.6] PROCESS: Expressing hedged assessment that task requirement is met | IV: "Ich denke, dann hat sich das..."
 [007.7] PROCESS: Deciding to share image with chatbot | IV: "Ich kopiere rein, nutze ich das Bild"
@@ -139,7 +137,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [023.10] PROCESS: Self-correcting geometric understanding | IV: "die schneiden sich am rechten Winkel"
 [023.11] — (no code: non-substantive/filler)
 [023.12] PROCESS: Deciding to sketch diagram to support reasoning | IV: "Ich male mir [das] mal auf"
-[023.13] PROCESS: Labeling sketch elements | IV: "C und D"
+[023.13] PROCESS: Labelling sketch elements | IV: "C und D"
 
 [025.1] — (no code: non-substantive/filler)
 [025.2] PROCESS: Explaining own reasoning strategy (sketching aids thinking) | IV: "weil ich kann besser denken, wenn ich die Sachen tatsächlich daran schreibe"

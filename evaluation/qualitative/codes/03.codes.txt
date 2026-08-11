@@ -2,8 +2,6 @@
 PARTICIPANT: 03
 UUID: fa69270e-20e0-4849-bae1-473de60495a4
 GROUP: B
-CODING: First cycle; Process + In Vivo Coding (Saldaña)
-SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 ---
 
 [TASK 505 | hard]

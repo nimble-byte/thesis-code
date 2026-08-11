@@ -2,8 +2,6 @@
 PARTICIPANT: 04
 UUID: 8d7e51b5-77bd-4474-8bcb-127fa69cd98c
 GROUP: E
-CODING: First cycle; Process + In Vivo Coding (Saldaña)
-SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 ---
 
 [TASK 54 | hard]
@@ -43,7 +41,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [007.8a] PROCESS: Expressing frustration | IV: "[Fluchen zensiert]"
 [007.8b] PROCESS: reading LLM response aloud | IV: "kannst du eine AB berechnen"
 [007.9] PROCESS: Misreading LLM step aloud | IV: "über BC berechnen kannst"
-[007.10] PROCESS: Signaling intent to work independently | IV: "zusammenpuzzeln"
+[007.10] PROCESS: Signalling intent to work independently | IV: "zusammenpuzzeln"
 [007.11] PROCESS: Hesitating before formulating question | IV: "Ich frage, was der"
 [007.12] PROCESS: Formulating clarifying question for LLM | IV: "Die unbekannte X stellt dann am Ende genau was dar"
 

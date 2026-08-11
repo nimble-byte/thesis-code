@@ -2,8 +2,6 @@
 PARTICIPANT: 02
 UUID: 7d8c9331-dd8c-4df6-8f6c-9e7a16d008d9
 GROUP: B
-CODING: First cycle; Process + In Vivo Coding (Saldaña)
-SCOPE: SPOKEN/WRITTENN channel only (omit RESEARCHER + LLM)
 ---
 [TASK 54 | hard]
 
@@ -42,7 +40,7 @@ SCOPE: SPOKEN/WRITTENN channel only (omit RESEARCHER + LLM)
 [014.4] PROCESS: Restating Given Values | IV: "25 ist AC und dann 2 zu 5"
 [014.5] PROCESS: Proposing Calculation Approach | IV: "25 dann mal 2 Fünftel"
 [014.6] PROCESS: Self-Correcting Ratio Interpretation | IV: "2 zu 5 ist ja nicht das gleiche wie 2 Fünftel"
-[014.7] PROCESS: Signaling Uncertainty While Continuing | IV: "Da habe ich auf jeden Fall noch so im Kopf. Mal gucken."
+[014.7] PROCESS: Signalling Uncertainty While Continuing | IV: "Da habe ich auf jeden Fall noch so im Kopf. Mal gucken."
 [014.8] PROCESS: Abandoning Further Analysis | IV: "Egal."
 [014.9] PROCESS: Asking About Remaining Task Count | IV: "wie viele Aufgaben habe ich insgesamt noch mal?"
 
@@ -64,7 +62,7 @@ SCOPE: SPOKEN/WRITTENN channel only (omit RESEARCHER + LLM)
 [018.10] PROCESS: Reading Task Statement Aloud | IV: "A, B, C, D, E, F ein regelmäßiges Sechseck mit dem Mittelpunkt O"
 [018.11] PROCESS: Re-reading Task Statement for Comprehension | IV: "Regelmäßiges Sechseck mit dem Mittelpunkt O."
 [018.12] PROCESS: Reading Task Statement Aloud | IV: "Was ist der Wert des Winkels X?"
-[018.13] PROCESS: Requesting Clarification on Diagram Labeling | IV: "X ist zwischen hier den beiden oder was soll X sein?"
+[018.13] PROCESS: Requesting Clarification on Diagram Labelling | IV: "X ist zwischen hier den beiden oder was soll X sein?"
 
 [020.1] PROCESS: Confirming Correct Understanding | IV: "Dann hatte ich das richtig verstanden."
 [020.2] PROCESS: Trailing Off Into Silent Thought | IV: "regelmäßiges Sechseck wird da vorne..."

@@ -2,8 +2,6 @@
 PARTICIPANT: 07
 UUID: adbea003-c17e-463f-8ae0-c397f6f3eec1
 GROUP: E
-CODING: First cycle; Process + In Vivo Coding (Saldaña)
-SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 ---
 
 [TASK 505 | hard]
@@ -31,7 +29,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [005.5] PROCESS: Restating problem question | IV: "which for following could be the length of CP?"
 [005.6] PROCESS: Re-confirming given value | IV: "6, BC ist 3"
 
-[007.1] PROCESS: Labeling given value in drawing | IV: "BC ist 3"
+[007.1] PROCESS: Labelling given value in drawing | IV: "BC ist 3"
 [007.2] PROCESS: Identifying target value | IV: "letztendlich hier 6 gesucht"
 [007.3] PROCESS: Identifying target value | IV: "Die ist gesucht"
 [007.4] PROCESS: Deciding to consult LLM for guidance | IV: "Da muss ich jetzt doch mal fragen"
@@ -55,7 +53,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [012.3] PROCESS: Hypothesizing alternative sufficient condition | IV: "Wenn ich jetzt hier die gegenüberliegenden Winkel hätte, wäre es auch egal"
 [012.4] PROCESS: Concluding hypothetical determinacy | IV: "wäre die Sache eindeutig bestimmt"
 [012.5] PROCESS: Describing degree of freedom in figure | IV: "verschiebt sich dieses Teil hier lustig auf der Sache hin und her"
-[012.6] PROCESS: Labeling point in drawing | IV: "Das ist ja hier der Punkt P"
+[012.6] PROCESS: Labelling point in drawing | IV: "Das ist ja hier der Punkt P"
 
 [TASK 455 | hard]
 
@@ -97,4 +95,4 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [017.22] PROCESS: Deriving relation between segments | IV: "M, C ein Viertel der ganzen Geschichte"
 [017.23] PROCESS: Stating computed segment value | IV: "K ist 2,5"
 [017.24] PROCESS: Computing final answer from attributed given value | IV: "da er behauptet, dass M, N, 1 ist, wäre die Lösung 3,5"
-[017.25] PROCESS: Signaling task completion | IV: "Mache jetzt fertig, es hat mir zu duschen"
+[017.25] PROCESS: Signalling task completion | IV: "Mache jetzt fertig, es hat mir zu duschen"

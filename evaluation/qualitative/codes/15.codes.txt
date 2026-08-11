@@ -2,8 +2,6 @@
 PARTICIPANT: 15
 UUID: de51720a-9929-4aa5-8d89-065b3c052f4c
 GROUP: E
-CODING: First cycle; Process + In Vivo Coding (Saldaña)
-SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 ---
 
 [TASK 505 | hard]
@@ -66,7 +64,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [015.1] PROCESS: Requesting method from chatbot | IV: "Wie kann man eine Linie berechnen die parallel durch den Kreis verläuft"
 
 [017.1] — (no code: unintelligible)
-[017.2] PROCESS: Signaling cognitive pause | IV: "Ich muss gerade ein bisschen überlegen"
+[017.2] PROCESS: Signalling cognitive pause | IV: "Ich muss gerade ein bisschen überlegen"
 [017.3] PROCESS: Recalling given value | IV: "der Punkt zwischen A und B ist ja 8"
 [017.4] PROCESS: Reasoning toward halving the chord | IV: "die Linie AB durch 2 teilen"
 [017.5] PROCESS: Concluding midpoint value | IV: "genau in der Hälfte"
@@ -77,7 +75,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [018.1] PROCESS: Requesting method from chatbot | IV: "wie kann man den Abstand berechnen zwischen den mittelpunkt und die genaue hälfte einer Sehne"
 
 [020.1] PROCESS: Paraphrasing chatbot's response | IV: "ob ich den Anstand weiß zu bestimmen"
-[020.2] PROCESS: Signaling cognitive pause | IV: "Ich überlege gerade"
+[020.2] PROCESS: Signalling cognitive pause | IV: "Ich überlege gerade"
 
 [022.1] PROCESS: Reasoning about given figure | IV: "es ist nur eine Linie zwischen A und B"
 [022.2] PROCESS: Constructing auxiliary point in reasoning | IV: "das wäre quasi der Punkt C für mich jetzt"
@@ -111,7 +109,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [031.3] PROCESS: Noticing inconsistency in own reasoning | IV: "das irgendwie keinen Sinn macht"
 [031.4] PROCESS: Attributing confusion to own unclear phrasing | IV: "Die eine Seite vom Mittelpunkt zu B oder zu A kann nicht 5 sein"
 [031.5] PROCESS: Identifying source of confusion | IV: "Die 5 wäre ja natürlich der Radius"
-[031.6] PROCESS: Signaling cognitive pause | IV: "Ich muss gerade noch ein bisschen nachdenken"
+[031.6] PROCESS: Signalling cognitive pause | IV: "Ich muss gerade noch ein bisschen nachdenken"
 [031.7] PROCESS: Deciding to share image with chatbot | IV: "das Bild einzufügen"
 [031.8] PROCESS: Checking image-upload availability | IV: "Sind die Bilder schon drin?"
 
@@ -184,8 +182,3 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [051.17] PROCESS: Summing known segments | IV: "Zwischen C und M sind 2,5. Und dann nochmal 2,5"
 [051.18] PROCESS: Computing final answer via summation | IV: "Das müssen dann 3,5 sein"
 [051.19] PROCESS: Confirming answer matches options | IV: "Das steht auch hier als Auswahl"
-
----
-MEMO FOR LATER CHAPTERS (not acted on in this coding pass):
-- Cognitive-pause statements ("Ich überlege gerade" / "Ich muss gerade... überlegen") retained as coded per your call. Your reading — that these mark moments of being stuck and filling silence rather than neutral discourse management — is a plausible interpretive angle worth carrying into second-order theme construction; noting it here so it isn't lost before that stage.
-- The recurring "paraphrasing chatbot's response" pattern (reading the chatbot's output back aloud before acting on it) looks like a general human–chatbot interaction habit rather than a ToM-attribution-specific behavior. You flagged this as Discussion-chapter material rather than a Ch.6 finding — noted, no coding change made.

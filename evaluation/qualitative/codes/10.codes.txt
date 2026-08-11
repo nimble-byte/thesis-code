@@ -2,15 +2,13 @@
 PARTICIPANT: 10
 UUID: dbc1d144-1c2c-42f5-b63c-e84c446a9189
 GROUP: E
-CODING: First cycle; Process + In Vivo Coding (Saldaña)
-SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 ---
 
 [TASK 54 | hard]
 
 [002.1] PROCESS: Noting bilingual task text | IV: "da unten steht es noch mal auf Deutsch"
 [002.2] PROCESS: Recognizing diagram setup | IV: "wir haben hier wieder so eine schöne Linie"
-[002.3] PROCESS: Labeling geometric points | IV: "einmal A, B und C"
+[002.3] PROCESS: Labelling geometric points | IV: "einmal A, B und C"
 [002.4] PROCESS: Restating given information | IV: "das Verhältnis AB zu AC, 2 zu 5"
 [002.5] PROCESS: expressing uncertainty about ratio interpretation | IV: "jetzt weiß ich nur nicht"
 [002.6] PROCESS: Formulating clarification question | IV: "Was bedeutet das Verhältnis 2 zu 5 in unserem Fall?"
@@ -124,7 +122,7 @@ SCOPE: SPOKEN/WRITTEN channel only (omit RESEARCHER + LLM)
 [040.4] — (no code: non-substantive/filler)
 [040.5] PROCESS: Annotating drawing with values | IV: "Zahlen da reinschreiben"
 [040.6] PROCESS: Accepting imperfect drawing | IV: "kein Diamant geworden, aber gut"
-[040.7] PROCESS: Labeling diagram points | IV: "C, D und B"
+[040.7] PROCESS: Labelling diagram points | IV: "C, D und B"
 [040.8] PROCESS: Restating given length and computing half | IV: "der hier ist 6"
 [040.9] PROCESS: Hypothesizing equal-edge property of rhombus | IV: "alle Kanten, alle Linien müssten eigentlich gleich"
 [040.10] PROCESS: Tentatively confirming equal-edge hypothesis | IV: "theoretisch könnte es sein, dass alle gleich lang sind"
