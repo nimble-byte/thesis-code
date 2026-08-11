@@ -209,7 +209,7 @@ GROUP: B
 [Proband tippt sukzessive ein LGS als Nachricht]
 [023.7]    So, das ist jetzt ein lineares Gleichungssystem.
 [023.8]    Das muss ich jetzt einfach auflösen.
-[023.9]    Ich frage ihn einfach mal, wer das schon für mich macht.
+[023.9]    Ich frage ihn einfach mal, ob er das schon für mich macht.
 [Proband sendet Nachricht]
 [024 WRITTEN]
 [024.1]    Das ist mein LGS. löse es mir auf und berechne die lösungen für x,y, CP

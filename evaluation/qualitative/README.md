@@ -2,18 +2,46 @@
 
 This README focuses on the transcriptions, the coding process and the tooling used for second cycle coding. The basic structure of the folder is as follows:
 
+```sh
+evaluation/
+├── qualitative/
+│   ├── README.md
+│   ├── codebook.py              # primary tool for codebook manipulation
+│   ├── code-mapping.log.md      # working notes of coding changes
+│   ├── codebooks/
+│   ├── codes/                   # transcript codes
+│   ├── formatted/               # formatted transcripts
+│   ├── helpers/                 # helper scripts
+│   ├── metadata/
+│   ├── notes/
+│   └── raw/                     # raw transcripts
+└── quantitative/
+    ├── README.md
+    ├── evaluation.ipynb.        # main evaluation notebook
+    ├── constants.py             # techincal constants
+    ├── data/                    # input data for the quantitative evaluation
+    └── out/                     # charts, data output of the quantitative evaluation
 ```
 
-```
+## Transcript Format
+
+The raw transcripts were formatted with additional information to better support the coding process:
+
+1. Formalisation of 4 channels: RESEARCHER, [PARTICIPANT] SPOKEN, [PARTICIPANT] WRITTEN, LLM
+2. addition of turn IDs incrementing every time the channel changes
+3. addition of statement IDs incrementing with each line break/statement from the raw transcript
+4. addition of metadata header with: `PARTICIPANT`, `GROUP`, and `UUID` (*the UUID was intended to be used to reference questionnaire results, which was ultimately not done*)
+5. task header containing the task ID and difficulty as coding context
 
 ## Procedure
 
-1. Transcripts were transformed from the raw format into a semi-structured format using an LLM
-   1. Each transcript was transformed in a new session using the same prompt
-   2. Once transformation was complete, the [`validate_transcripts.py`](./helpers/validate_transcripts.py) was used to check transcripts transformation failures
+1. Transcripts were preprocessed from the raw format into a semi-structured format
+   1. Each transcript was transformed using [`transform_transcripts.py`](./helpers/transform_transcripts.py)
+   2. Additional metadata (e.g., task ID and difficulty) were annotated manually
+   3. Once transformation was complete, the [`validate_transcripts.py`](./helpers/validate_transcripts.py) was used to check transcripts for transformation errors
 2. Each transcript was coded in a single pass for process codes with accompanying in vivo citations
 3. Coded transcriptions were combined into a single codebook using the `build` command of [`codebook.py`](./codebook.py)
-4. Codes were mechanically combined when they differed in casing of words or were direct sub- or super-codes of each other (Saldana pattern-mapping)
+4. Codes were mechanically combined when they differed in casing of words or were direct sub- or super-codes of each other
 5. Codes were pattern coded in groups based on the primary verb in the process code (using the `--group-by-verb` flag of [`codebook.py`](./codebook.py)). Coding was ended, once verb families became too small (~8 codes) to meaningfully combine internally
 6. Codes were pattern coded based on semantic blocks to clean up large batches of small verb family codes.
 

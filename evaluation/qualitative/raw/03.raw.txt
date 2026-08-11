@@ -99,7 +99,7 @@ Proband:
 [Proband tippt sukzessive ein LGS als Nachricht]
     So, das ist jetzt ein lineares Gleichungssystem.
     Das muss ich jetzt einfach auflösen.
-    Ich frage ihn einfach mal, wer das schon für mich macht.
+    Ich frage ihn einfach mal, ob er das schon für mich macht.
 [Proband sendet Nachricht]
 Proband (schriftlich):
     Das ist mein LGS. löse es mir auf und berechne die lösungen für x,y, CP\n36 = x^2 +CP^2\n9=y^2+CP^2\n27 = (x-y)(x+y)
