@@ -17,4 +17,8 @@ abstract: >-
   as subset of MathVista, a NextJS application to serve the
   tasks to users and the code used to evaluate the
   quantitative data collected during the study.
+
+  The repository was expanded to contain extensive data for
+  the analysis of the transcripts produced during the study
+  under new research questions.
 license: MIT
