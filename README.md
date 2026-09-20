@@ -6,15 +6,20 @@ This repository contains various code snippets and scripts used for my master th
 
 The following main folders are included in this repository. Each folder contains its own `README.md` with specific instructions and details.
 
-- `dataset/` — Code to create the custom dataset used for the study.
-- `evaluation/` — Scripts for evaluating the results of the study and generating plots.
-- `task-server/` - Tool used to provide the maths problems to participants during the study.
+- [`dataset/`](./dataset/) — Code to create the custom dataset used for the study.
+- [`evaluation/`](./evaluation/) — Code and data for the evaluation of the study
+    - [`qualitative/`](./evaluation/qualitative/) - Coding documents and data central for the thesis.
+    - [`quantitative/`](./evaluation/quantitative/) - Quantitative evaluation of the study (unrevised)
+- [`task-server/`](./task-server/) - Tool used to provide the maths problems to participants during the study.
 
 ## Python Environment
 
 A single, shared Python environment is used for all code in this repository. The recommended version is **Python 3.12** (see below for setup instructions).
 
 All dependencies are listed in `requirements.txt` at the root of the repository. This ensures a consistent environment for running all scripts.
+
+> [!IMPORTANT]
+> Any documentation below this point was created for the original study and is retained for completeness’ sake, but has limited relevance to the current thesis topic.
 
 ## Setup Guide
 

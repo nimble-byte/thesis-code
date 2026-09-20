@@ -1,6 +1,6 @@
 # Transcript README
 
-This README focuses on the transcriptions, the coding process and the tooling used for second cycle coding. The basic structure of the folder is as follows:
+This README focuses on the transcriptions, the coding process and the tooling used for second cycle coding. The structure of the quantitative evaluation is documented for completeness. The basic structure of the folder is as follows:
 
 ```sh
 evaluation/
@@ -80,17 +80,13 @@ Generated update commands using [`codebook.py`](./codebook.py) for changing batc
 
 ### 2.1 Verb Groups
 
-
+Initially codes were grouped by the lead verb of the process code. All codes were compared, and similar codes were combined into a `pattern_code`. Verbs were processed by the number of codes per lead verb in descending order.
 
 ### 2.2 Semantic Blocks
 
 Once the verb based pattern coding was yielding limited benefits (verb groups smaller than 8), pattern coding was organised using semantic blocks. The used semantic blocks can be found below.
 
 Codes were filtered using the below command and then checked one by one for a fitting cluster (including the option to create new clusters).
-
-```shell
-python ./codebook.py view ./codebooks/codebook_v2.csv --column pattern_code --group-by-verb -o ./semantic-block.csv --filter-verb using, naming, agreeing, entering, improvising, navigating, retrieving, switching, typing, struggling
-```
 
 | Block                                  | Verb set                                                                                                                                                                                                                                                | n   |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
